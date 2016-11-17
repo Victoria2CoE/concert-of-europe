@@ -1,3 +1,3 @@
-name = "PDM Concert of Europe" 
-path = "mod/PDM_Concert" 
-user_dir = "PoD_Concert" 
+name = "PDM Concert of Europe Beta" 
+path = "mod/Concert_Beta" 
+user_dir = "Concert_Beta" 
