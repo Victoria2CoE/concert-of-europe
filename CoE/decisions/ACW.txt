@@ -106,7 +106,6 @@ political_decisions = {
 		potential = {
 			tag = TEX
 			has_global_flag = marching_on_the_trail_of_tears
-			}
 			NOT = {
 				has_country_flag = expelled_the_cherokee
 			}
@@ -120,7 +119,6 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					has_pop_culture = cherokee
-					}
 				}
 				reduce_pop = 0.80
 				consciousness = 2
