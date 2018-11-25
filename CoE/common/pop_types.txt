@@ -1106,6 +1106,14 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
+		NOT { country = { citizenship_policy = forced_assimilation } }
+	}
+	modifier = {
+		factor = -10
+				location = {
+       		any_core = { is_primary_culture = THIS }
+    	}
+		country = { citizenship_policy = forced_assimilation }
 	}
 	modifier = {
 		factor = 20
@@ -1194,6 +1202,10 @@ conversion_chance = {
 			factor = 0.2
 			NOT = { luxury_needs = 0.5 }
 		}
+	}
+	modifier = {
+    	factor = 1
+		country = { citizenship_policy = forced_assimilation }
 	}
 	modifier = {
 		factor = 2.5

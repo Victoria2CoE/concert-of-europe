@@ -500,6 +500,170 @@ political_decisions = {
 		}
 	}
 	
+	form_germany2 = {
+		news = yes
+		news_desc_long = "form_germany_NEWS_LONG"
+		news_desc_medium = "form_germany_NEWS_MEDIUM"
+		news_desc_short = "form_germany_NEWS_SHORT"
+		potential = {
+			tag = SGF
+			NOT = { exists = GER }
+		}
+		
+		allow = {
+			prestige = 45
+			state_n_government = 1
+			is_greater_power = yes
+			war = no
+			GER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_greater_power = no
+						}
+						is_core = SCH
+						is_core = NET
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			all_core = {
+				remove_core = THIS
+				add_core = GER
+			}
+			change_tag = GER
+			government = prussian_constitutionalism2
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			set_global_flag = 3hurrahs
+			random_country = {
+				limit = {
+					tag = AUS
+					exists = yes
+					is_greater_power = no
+					in_sphere = THIS
+					war = no
+					OR = {
+						vassal_of = THIS
+						is_vassal = no
+					}
+					NOT = {
+						any_owned_province = {
+							NOT = { 
+								OR = {
+									is_core = AUS
+									is_core = GER
+									is_colonial = yes
+								}
+							}
+						}
+					}
+				}
+				country_event = 31530
+			}
+			random_country = {
+				limit = {
+					OR = {
+						tag = AUS
+						tag = KUK
+					}
+					exists = yes
+					is_greater_power = no
+					in_sphere = THIS
+					war = no
+					OR = {
+						vassal_of = THIS
+						is_vassal = no
+					}
+					any_owned_province = {
+						NOT = { 
+							OR = {
+								is_core = AUS
+								is_core = GER
+								is_colonial = yes
+							}
+						}
+					}
+				}
+				country_event = 31515
+			}
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					exists = no
+					NOT = { tag = AUS }
+					NOT = { tag = KUK }
+					NOT = { tag = DNB }
+					NOT = { tag = PRU }
+					NOT = { tag = BAN }
+					NOT = { has_country_flag = post_colonial_country }
+					OR = {
+						all_core = { owned_by = THIS }
+						tag = NGF
+						tag = SGF
+					}
+				}
+				country_event = 11105
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = AUS
+						tag = KUK
+						tag = DNB
+					}
+					exists = no
+					THIS = { capital = 619 }
+				}
+				country_event = 11105
+			}
+			any_country = {
+				limit = {
+					tag = PRU
+					exists = no
+					THIS = { capital = 549 }
+				}
+				country_event = 11105
+			}
+			any_country = {
+				limit = {
+					in_sphere = THIS
+					OR = {
+						is_culture_group = germanic
+						tag = SCH
+						tag = EFR
+					}
+					NOT = { 
+						tag = KUK
+						tag = AUS
+						tag = DNB
+						tag = BAN
+						tag = UBD
+						has_country_flag = post_colonial_country
+					}
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 11101
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	form_germany_AUS = {
 		news = yes
 		news_desc_long = "form_germany_NEWS_LONG"

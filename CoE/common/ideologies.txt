@@ -570,7 +570,7 @@ liberal_group = {
 			}
 		}
 		add_social_reform = {
-			base = 0
+			base = 1
 		}
 		remove_social_reform = {
 			base = 1
