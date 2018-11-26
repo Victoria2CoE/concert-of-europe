@@ -5296,6 +5296,60 @@ great_war_install_democracy = {
 	}
 }
 
+great_war_install_revolution = {
+	sprite_index = 13
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 1.5
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 30
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	always = yes
+
+	can_use = {
+		THIS = {
+			has_country_flag = in_great_war
+			is_greater_power = yes
+            OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+		}
+		has_country_flag = in_great_war
+		is_vassal = no
+		civilized = yes
+		NOT = { is_our_vassal = THIS }
+		war_with = THIS
+        NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
+	}
+
+	po_remove_prestige = yes
+
+	war_name = WAR_NAME
+
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.05
+		}
+	}
+
+	on_po_accepted = {
+		THIS = { set_country_flag = friendly_revolutionary }
+		country_event = 99917
+	}
+}
+
 great_war_install_fascism = {
 	sprite_index = 3
 	is_triggered_only = yes
@@ -5486,6 +5540,81 @@ install_democracy = {
 			}
 		}
 		country_event = 96085
+	}
+}
+
+install_revolution = {
+	sprite_index = 13
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 1.5
+	crisis = no
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 50
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			NOT = { has_country_flag = in_great_war }
+			is_greater_power = yes
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+		}
+		has_global_flag = great_wars_enabled
+		is_vassal = no
+		civilized = yes
+		NOT = { is_our_vassal = THIS }
+        NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
+		THIS = {
+			NOT = {
+				has_country_modifier = neutrality
+				war_policy = pacifism
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = {
+				NOT = {
+					has_country_flag = in_great_war
+					has_country_modifier = no_more_war
+				}
+			}
+		}
+	}
+
+	po_remove_prestige = yes
+
+	war_name = WAR_NAME
+
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.05
+		}
+	}
+
+	on_po_accepted = {
+		THIS = {
+			set_country_flag = friendly_revolutionary
+			any_country = {
+				limit = {
+                         NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
+				}
+				relation = { who = THIS value = -50 }
+			}
+		}
+		country_event = 99917
 	}
 }
 

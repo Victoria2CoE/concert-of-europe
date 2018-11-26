@@ -1534,7 +1534,7 @@ social_justice = {
 }
 #state_n_government
 populism_vs._establishment = {
-	limit = { state_n_government = 1 }
+	limit = { enlightenment_thought = 1 }
 	news = no
 	chance = {
 		base = 2

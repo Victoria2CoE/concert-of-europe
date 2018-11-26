@@ -47,7 +47,6 @@ country_event = {
 				add_accepted_culture = panjabi
 			}
 		}
-		all_core = { remove_core = THIS }
 		change_tag = culture
 		any_country = {
 			limit = {
@@ -177,9 +176,6 @@ country_event = {
 					NOT = { is_culture_group = south_asian }
 					NOT = { is_culture_group = scandinavian }
 				}
-			}
-			owner = {
-				all_core = { remove_core = THIS }
 			}
 		}
 		random_owned = {
@@ -312,7 +308,6 @@ country_event = {
 		clr_country_flag = made_the_call_to_union
 		add_accepted_culture = south_italian
 		add_accepted_culture = north_italian
-		all_core = { remove_core = THIS }
 		change_tag = culture
 		any_country = {
 			limit = {
@@ -456,7 +451,6 @@ country_event = {
 
 	option = {
 		name = "No need for those cores!"
-		all_core = { remove_core = THIS }
 	}
 }
 
@@ -658,7 +652,6 @@ country_event = {
 			}
 			owner = { add_accepted_culture = north_german }
 		}
-		all_core = { remove_core = THIS }
 		change_tag = GER
 		random_country = {
 			limit = {

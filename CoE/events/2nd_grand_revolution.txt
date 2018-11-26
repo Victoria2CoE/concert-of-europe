@@ -1,0 +1,822 @@
+country_event = {
+	id = 99924
+	title = "Eastern Prussia and Grand Dutchy of Poznan secedes"
+	desc = "Reactionary elements and Polish nationalists triggered secession of those lands."													
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "We will deal with them later..."
+		any_owned = {
+				limit = { 
+				        is_core = PRU  
+				        NOT = { is_core = GER }  
+				        NOT = { is_core = PZN } 
+				}
+				secede_province = PRU
+		}
+		any_owned = {
+				limit = { 
+				        is_core = PZN   
+				}
+				secede_province = PZN
+		}
+	   PRU_701 = { add_core = GER }
+	   PRU_695 = { add_core = GER }
+	   PRU_690 = { add_core = GER }
+    }
+}
+
+country_event = {
+	id = 99923
+	title = "Now it is time to decide the destiny of our Revolution"
+	desc = "Many of us asks the same question, what is our destiny... Is it simply German unification or... Shall we wield the torch of French Revolutin?!"													
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "It is only the German Unification that concern us"
+	    ai_chance = {
+			factor = 30
+	   }
+	}
+	
+	option = {
+		name = "Freiheit, Gleichheit, Bruderlichkeit !"
+		add_country_modifier = {
+			name = rev_birth_place
+			duration = -1
+		}
+	    FRA_412 = { add_core = GER }
+        FRA_411	= { add_core = GER }
+		362 = { add_core = GER }
+	    707 = { add_core = GER }
+	    709 = { add_core = GER }
+	    708 = { add_core = GER }
+	    710 = { add_core = GER }
+	    712 = { add_core = GER }
+	    717	= { add_core = GER }
+		397	= { add_core = GER }
+		398	= { add_core = GER }
+		396	= { add_core = GER }
+		381	= { add_core = GER }
+		badboy = 5
+		set_global_flag = 2nd_grand_rev
+		set_global_flag = rev_in_progress
+		ai_chance = {
+			factor = 70
+	   }
+	}
+}
+
+country_event = {
+	id = 99922
+	title = "Full Scale intervention in German Revolution"
+	desc = "We has to stop the revolution before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = FRA
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	 OR = {
+	       has_global_flag = 1848_aus_ger_war
+		   has_global_flag = 1848_anschluss
+	 }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is just!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = cut_down_to_size
+				}
+	   }
+       set_global_flag = 1848_full_fra
+	   	ai_chance = {
+			factor = 100
+		}
+    }
+	
+	option = {
+		name = "Who cares?!"
+		ai_chance = {
+			factor = 0
+		}
+    }
+}
+
+country_event = {
+	id = 99921
+	title = "Successful Full Scale"
+	desc = "Now Germany has to be dismantled."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 OR = {
+	 tag = FRA
+	 tag = RUS
+	 has_country_flag = 1848_full_generic
+	 }
+	 exists = yes
+	 NOT = { war_with = GER }
+	 GER = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_full_fra_rus
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Good!"  
+		clr_global_flag = 1848_full_fra_rus
+		clr_country_flag = 1848_full_generic
+		any_country = { clr_country_flag = 1848_full_generic }
+        GER = { country_event = 99920 }
+	}
+}
+
+country_event = {
+	id = 99920
+	title = "NEIN"
+	desc = "NEIN."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NEIN!"
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+		      }
+    }
+}
+
+country_event = {
+	id = 99919
+	title = "Enemies on all sides"
+	desc = "Hard times demands derastic measures!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+     has_global_flag = 1848_full_fra_rus
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "...oder Tod!"
+		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+    }
+}
+
+country_event = {
+	id = 99918
+	title = "The War of Nations"
+	desc = "Vienna order has fallen!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+     has_global_flag = 1848_full_fra_rus
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "And the People of Europe will be free from its opression!"
+		great_wars_enabled = yes
+		set_global_flag = great_wars_enabled
+    }
+}
+
+country_event = {
+	id = 99917
+	title = "EVTNAME96085" #Democracy
+	desc = "EVTDESC96085"
+	news = yes
+	news_title = "EVTNAME96085_NEWS_TITLE"
+	news_desc_long = "EVTDESC96085_NEWS_LONG"
+	news_desc_medium = "EVTDESC96085_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC96085_NEWS_SHORT"
+	picture = "unite"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA96085" #We welcome the new regime.
+		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		random_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				NOT = { has_country_flag = friendly_revolutionary }
+			}
+			diplomatic_influence = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				has_country_flag = friendly_revolutionary
+				truce_with = THIS
+			}
+			relation = { who = THIS value = 400 }
+			diplomatic_influence = { who = THIS value = 100 }
+			create_alliance = THIS
+			clr_country_flag = friendly_revolutionary
+		}
+		capital_scope = {
+			any_pop = {
+				limit = { literacy = 0.2 }
+				ideology = { factor = 0.1 value = anarcho_liberal }
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = communist
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = anrcho_liberal
+				factor = -4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 99916
+	title = "Generic intervention in German Revolution"
+	desc = "We has to stop the revolution before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     capital_scope = { continent = europe }
+	 NOT = { 
+	        tag = RUS
+			tag = FRA
+			tag = PRU
+			tag = PZN
+	        tag = SAR
+            tag = ITA
+            tag = TUR
+            tag = GRE
+	 }
+     is_vassal = no
+     OR = {				
+		   OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		   OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		   OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+     }
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	 has_global_flag = 1848_full_fra_rus
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is just!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = install_revolution
+				}
+	   }
+
+	   	ai_chance = {
+			factor = 50
+		}
+        set_country_flag = 1848_full_generic
+    }
+	
+	option = {
+		name = "Who cares?!"
+		ai_chance = {
+			factor = 50
+		}
+    }
+}
+
+country_event = {
+	id = 99915
+	title = "Revolutionary Germany wins with Russia"
+	desc = "Install Revolution!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER
+	 exists = yes
+	 NOT = { war_with = RUS }
+	 RUS = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_full_rus
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Good!"  
+        RUS = { country_event = 99914 }
+		set_global_flag = 1848_ger_victory_rus
+	}
+}
+
+country_event = {
+	id = 99914
+	title = "NEIN"
+	desc = "NEIN."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NEIN!"
+        362 = { add_core = GER }
+	    707 = { add_core = GER }
+	    709 = { add_core = GER }
+	    708 = { add_core = GER }
+	    710 = { add_core = GER }
+	    712 = { add_core = GER }
+	    717	= { add_core = GER }
+		   any_owned = {
+				limit = { 
+				         OR = { 
+						       AND = {
+						              is_core = LIT
+						              NOT = { province_id = 938 }
+									  NOT = { province_id = 936 }
+									  NOT = { province_id = 707 }
+									  NOT = { province_id = 362 }
+						        }
+						        is_core = LAT 
+						        is_core = EST  
+						 } 
+				}
+				add_core = UBD
+				secede_province = UBD
+				UBD = { country_event = 99910 }
+		   }
+		   any_owned = {
+				limit = { 
+				         OR = { 
+						       province_id = 362
+							   province_id = 707
+							   province_id = 709
+							   province_id = 708
+							   province_id = 710
+							   province_id = 712
+							   province_id = 717
+						 } 
+				}
+				secede_province = GER
+		   }
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+				country_event = 99913
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+				country_event = 99913
+		      }
+		country_event = 99913
+    }
+}
+
+country_event = {
+	id = 99913
+	title = "NEIN"
+	desc = "NEIN."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NEIN!"
+ 		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		random_country = {
+			limit = {
+				tag = GER
+			}
+			diplomatic_influence = { who = THIS value = 400 }
+			#create_vassal = THIS
+		}		
+    }
+}
+
+country_event = {
+	id = 99912
+	title = "Revolutionary Germany wins with France"
+	desc = "Install Revolution!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER
+	 exists = yes
+	 NOT = { war_with = FRA }
+	 FRA = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_full_fra
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Good!"
+        FRA_412 = { add_core = GER }
+        FRA_411	= { add_core = GER }	
+        FRA = { country_event = 99911 }
+		set_global_flag = 1848_ger_victory_fra
+	}
+}
+
+country_event = {
+	id = 99911
+	title = "NEIN"
+	desc = "NEIN."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NEIN!"
+		   any_owned = {
+				limit = { is_core = GER } 
+				secede_province = GER
+			}
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+				country_event = 99913
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+				country_event = 99913
+		      }
+		country_event = 99913
+    }
+}
+
+country_event = {
+	id = 99910
+	title = "NEIN"
+	desc = "NEIN."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NEIN!"
+ 		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		random_country = {
+			limit = {
+				tag = GER
+			}
+			diplomatic_influence = { who = THIS value = 400 }
+			create_vassal = THIS
+		}		
+    }
+}
+
+country_event = {
+	id = 99909
+	title = "We Join the Russian Intervention"
+	desc = "We has to stop the revolution before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     capital_scope = { continent = europe }
+	 OR = {
+	 tag = PRU
+	 tag = PZN
+	 }
+     is_vassal = no
+     OR = {				
+		   OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		   OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		   OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+     }
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	 has_global_flag = 1848_full_fra_rus
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is just!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+	   }
+       set_country_flag = 1848_full_generic
+    }
+}
+
+country_event = {
+	id = 99908
+	title = "Triumpf of the revolution"
+	desc = "Revolution has triumpfed in Europe."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER 
+	 war = no
+     has_global_flag = 2nd_grand_rev
+	 has_global_flag = 1848_full_fra_rus
+	 has_global_flag = 1848_ger_victory_fra
+	 has_global_flag = 1848_ger_victory_rus
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "The war is over but we still have to hunt the reactionaries!"
+        prestige = 500
+		badboy= -100
+        remove_country_modifier = rev_birth_place
+		add_country_modifier = {
+			name = rev_birth_place2
+			duration = -1
+		}
+    }
+}
+
+country_event = {
+	id = 99907
+	title = "Full Scale intervention in German Revolution"
+	desc = "We has to stop the revolution before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = RUS
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	 OR = {
+	       has_global_flag = 1848_aus_ger_war
+		   has_global_flag = 1848_anschluss
+	 }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is just!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = cut_down_to_size
+				}
+	   }
+       set_global_flag = 1848_full_rus
+	   	ai_chance = {
+			factor = 100
+		}
+    }
+	
+	option = {
+		name = "Who cares?!"
+		ai_chance = {
+			factor = 0
+		}
+    }
+}

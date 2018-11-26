@@ -3085,3 +3085,23 @@ rights_suspended = {
 	global_pop_militancy_modifier = -0.05
 	icon = 3
 }
+
+rev_birth_place = { 
+	global_pop_consciousness_modifier = 0.10
+	global_pop_militancy_modifier = -0.10
+	leadership_modifier = 0.50
+	mobilisation_size = 0.25
+	prestige = 0.300
+	war_exhaustion = -0.10
+	icon = 3
+}
+
+rev_birth_place2 = { 
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = -0.01
+	leadership_modifier = 0.10
+	mobilisation_size = 0.05
+	prestige = 0.100
+	war_exhaustion = -0.05
+	icon = 3
+}
