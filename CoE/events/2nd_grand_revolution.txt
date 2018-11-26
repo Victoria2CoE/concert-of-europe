@@ -137,7 +137,10 @@ country_event = {
 	 NOT = { war_with = GER }
 	 GER = { has_recently_lost_war = yes }
 	 has_recently_lost_war = no
-	 has_global_flag = 1848_full_fra_rus
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -145,7 +148,8 @@ country_event = {
 	
 	option = {
 		name = "Good!"  
-		clr_global_flag = 1848_full_fra_rus
+        clr_global_flag = 1848_full_fra
+	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
 		any_country = { clr_country_flag = 1848_full_generic }
         GER = { country_event = 99920 }
@@ -198,7 +202,10 @@ country_event = {
 	
     trigger = {
 	 tag = GER
-     has_global_flag = 1848_full_fra_rus
+     OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
 	 exists = yes
      has_global_flag = 2nd_grand_rev
 	}
@@ -228,7 +235,10 @@ country_event = {
 	
     trigger = {
 	 tag = GER
-     has_global_flag = 1848_full_fra_rus
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
      has_global_flag = 2nd_grand_rev
 	}
 	mean_time_to_happen = {
@@ -368,7 +378,10 @@ country_event = {
      }
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 has_global_flag = 1848_full_fra_rus
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
 	}
 	mean_time_to_happen = {
 		months = 1
@@ -724,7 +737,10 @@ country_event = {
      }
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 has_global_flag = 1848_full_fra_rus
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
 	}
 	mean_time_to_happen = {
 		months = 1
@@ -756,7 +772,6 @@ country_event = {
      tag = GER 
 	 war = no
      has_global_flag = 2nd_grand_rev
-	 has_global_flag = 1848_full_fra_rus
 	 has_global_flag = 1848_ger_victory_fra
 	 has_global_flag = 1848_ger_victory_rus
 	}
