@@ -783,6 +783,10 @@ country_event = {
 		name = "The war is over but we still have to hunt the reactionaries!"
         prestige = 500
 		badboy= -100
+	    clr_global_flag = 1848_full_fra
+	    clr_global_flag = 1848_full_rus
+		clr_country_flag = 1848_full_generic
+		any_country = { clr_country_flag = 1848_full_generic }
         remove_country_modifier = rev_birth_place
 		add_country_modifier = {
 			name = rev_birth_place2
