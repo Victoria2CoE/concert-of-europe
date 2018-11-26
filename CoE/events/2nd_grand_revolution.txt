@@ -86,10 +86,6 @@ country_event = {
 	 tag = FRA
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 OR = {
-	       has_global_flag = 1848_aus_ger_war
-		   has_global_flag = 1848_anschluss
-	 }
 	}
 	mean_time_to_happen = {
 		months = 1
@@ -378,10 +374,6 @@ country_event = {
      }
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 OR = {
-     has_global_flag = 1848_full_fra
-	 has_global_flag = 1848_full_rus
-	 }
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -724,7 +716,6 @@ country_event = {
 	fire_only_once = yes
 	
     trigger = {
-     capital_scope = { continent = europe }
 	 OR = {
 	 tag = PRU
 	 tag = PZN
@@ -737,10 +728,6 @@ country_event = {
      }
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 OR = {
-     has_global_flag = 1848_full_fra
-	 has_global_flag = 1848_full_rus
-	 }
 	}
 	mean_time_to_happen = {
 		months = 1
@@ -806,10 +793,6 @@ country_event = {
 	 tag = RUS
 	 exists = yes
      has_global_flag = 2nd_grand_rev
-	 OR = {
-	       has_global_flag = 1848_aus_ger_war
-		   has_global_flag = 1848_anschluss
-	 }
 	}
 	mean_time_to_happen = {
 		months = 1
