@@ -55,6 +55,12 @@ everyday_needs = {
 	cigarettes = 30
 	shoes = 30
 	electric_power = 60
+	aeroplanes = 30
+	barrels = 30
+	artillery = 60
+	small_arms = 60
+	ammunition = 60
+	gunpowder = 60
 
 }
 luxury_needs = {
@@ -71,12 +77,6 @@ luxury_needs = {
 	fuel = 60
 	radio = 60
 	shares = 60
-	aeroplanes = 30
-	barrels = 30
-	artillery = 60
-	small_arms = 60
-	ammunition = 60
-	gunpowder = 60
 }
 
 
