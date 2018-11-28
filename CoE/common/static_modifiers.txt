@@ -192,7 +192,7 @@ bad_debter = {
 }
 
 great_power = {
-	research_points = 2
+	research_points = 4
 	diplomatic_points_modifier = 1.0
 	cb_generation_speed_modifier = 0.1
 	leadership = 0.5
@@ -201,7 +201,7 @@ great_power = {
 
 second_power = {
 	tax_efficiency = 0.025
-	research_points = 1.5
+	research_points = 3
 	diplomatic_points_modifier = 0.5
 	leadership = 0.25
 	badboy = -0.05
