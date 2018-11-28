@@ -74,7 +74,7 @@ country_event = {
 		}	
 	}
 	option = {
-		name = "Long live the republic!"
+		name = "Centralised Republic or Federation?"
 		PRU = { country_event = 99940 }
 		ai_chance = {
 			factor = 5
@@ -85,7 +85,7 @@ country_event = {
 country_event = {
 	id = 99942
 	title = "Proposal from the Frankfurt National Assembly"
-	desc = "My King, Frankfurt National Assembly has proposed us German Throne"													
+	desc = "My King, Frankfurt National Assembly has proposed us German Throne."													
 	major = yes
 	
     is_triggered_only = yes
@@ -281,7 +281,7 @@ country_event = {
 country_event = {
 	id = 99941
 	title = "Proposal from the Frankfurt National Assembly"
-	desc = "My Kaiser, Frankfurt National Assembly has proposed us German Throne"													
+	desc = "My Kaiser, Frankfurt National Assembly has proposed us German Throne."													
 	major = yes
 	
     is_triggered_only = yes
@@ -616,7 +616,7 @@ country_event = {
 country_event = {
 	id = 99935
 	title = "The Finall Struggle for German Unification"
-	desc = "Jingoist elements in our country everwhemlingly pushed us toward the conflict with Austria, they demand total and unconditional unification."													
+	desc = "Jingoist elements in our country overwhelmingly pushed us toward the conflict with Austria, they demand total and unconditional unification."													
 	major = yes
 	fire_only_once = yes
 	
@@ -647,7 +647,7 @@ country_event = {
 country_event = {
 	id = 99934
 	title = "Germans are Unified"
-	desc = "Austria has fallen."													
+	desc = "Austria has fallen!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -1195,14 +1195,14 @@ country_event = {
 	   }
        set_global_flag = 1848_limited_fra
 	   	ai_chance = {
-			factor = 25
+			factor = 50
 		}
     }
 	
 	option = {
 		name = "Who cares?!"
 		ai_chance = {
-			factor = 75
+			factor = 50
 		}
     }
 }
@@ -1260,13 +1260,13 @@ country_event = {
 country_event = {
 	id = 99940
 	title = "Call, for insurection across Germany!"
-	desc = "It is the time to unite the whole germany!"													
+	desc = "Berlin has fallen to the revolutionaries and it is time to unite the whole germany!"													
 	major = yes
 	
     is_triggered_only = yes
 	
 	option = {
-		name = "Long live the Confederation!"
+		name = "Long live the Federation!"
 		change_tag = GER
 		inherit = FRM
 		capital = 564

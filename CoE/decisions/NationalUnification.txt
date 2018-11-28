@@ -716,6 +716,7 @@ political_decisions = {
 				add_core = GER
 			}
 			change_tag = GER
+			government = prussian_constitutionalism3
 			add_accepted_culture = north_german
 			set_global_flag = 3hurrahs
 			any_country = {
