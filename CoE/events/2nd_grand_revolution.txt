@@ -1,7 +1,8 @@
 country_event = {
 	id = 99924
 	title = "Eastern Prussia and Grand Dutchy of Poznan secedes"
-	desc = "Reactionary elements and Polish nationalists triggered secession of those lands."													
+	desc = "Reactionary elements and Polish nationalists triggered secession of those lands."
+	picture = "prussian_secession"
 	is_triggered_only = yes
 	
 	mean_time_to_happen = {
@@ -33,7 +34,8 @@ country_event = {
 country_event = {
 	id = 99923
 	title = "Now it is time to decide the destiny of our Revolution"
-	desc = "Many of us asks the same question, what is our destiny... Is it simply German unification or... Shall we wield the torch of French Revolutin?!"													
+	desc = "Many of us asks the same question, what is our destiny... Is it simply German unification or... Shall we wield the torch of French Revolutin?!"
+	picture = "berlin_1848"
 	is_triggered_only = yes
 	
 	mean_time_to_happen = {
