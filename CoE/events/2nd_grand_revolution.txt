@@ -34,7 +34,7 @@ country_event = {
 country_event = {
 	id = 99923
 	title = "Now it is time to decide the destiny of our Revolution!"
-	desc = "Many of us asks the same question, what is our destiny... Is it simply German unification or... Shall we wield the torch of French Revolutin?!"
+	desc = "Many of us asks the same question, what is our destiny... Is it simply German unification or... Shall we wield the torch of French Revolution?!"
 	picture = "berlin_1848"
 	is_triggered_only = yes
 	
@@ -54,6 +54,26 @@ country_event = {
 		add_country_modifier = {
 			name = rev_birth_place
 			duration = -1
+		}
+		any_pop = {
+			limit = {
+				NOT = { type = aristocrats }
+			}
+			consciousness = 1
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 2
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
 		}
 	    FRA_412 = { add_core = GER }
         FRA_411	= { add_core = GER }
@@ -518,8 +538,8 @@ country_event = {
 
 country_event = {
 	id = 99913
-	title = "NEIN"
-	desc = "NEIN."													
+	title = "Revolution Export"
+	desc = "Revolution Export."													
 	major = yes
 	is_triggered_only = yes
 	
@@ -528,7 +548,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "NEIN!"
+		name = "Viva la Revolution!"
  		government = bourgeois_dictatorship
 		ruling_party_ideology = anarcho_liberal
 		political_reform = none_voting
@@ -569,6 +589,31 @@ country_event = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		any_pop = {
+			limit = {
+				NOT = { type = aristocrats }
+			}
+			consciousness = 3
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
+		}
+        relation = { who = GER value = 200 }
 		random_country = {
 			limit = {
 				tag = GER
@@ -653,8 +698,8 @@ country_event = {
 
 country_event = {
 	id = 99910
-	title = "NEIN"
-	desc = "NEIN."													
+	title = "Revolution Export"
+	desc = "Revolution Export."													
 	major = yes
 	is_triggered_only = yes
 	
@@ -663,7 +708,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "NEIN!"
+		name = "Viva la Revolution!"
  		government = bourgeois_dictatorship
 		ruling_party_ideology = anarcho_liberal
 		political_reform = none_voting
@@ -704,6 +749,31 @@ country_event = {
 		remove_country_modifier = dour_economist
 		remove_country_modifier = otto_von_bismarck
 		remove_country_modifier = louis_napoleon_iii
+		any_pop = {
+			limit = {
+				NOT = { type = aristocrats }
+			}
+			consciousness = 3
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
+		}
+        relation = { who = GER value = 200 }
 		random_country = {
 			limit = {
 				tag = GER

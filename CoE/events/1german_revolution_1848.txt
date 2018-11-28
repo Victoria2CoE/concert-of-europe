@@ -1305,6 +1305,30 @@ country_event = {
 				}
 				country_event = 11101
 	   }
+		any_pop = {
+			limit = {
+				NOT = { type = aristocrats }
+			}
+			consciousness = 2
+			ideology = {
+				value = liberal
+				factor = 0.3
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+		}
        PRU_701 = { remove_core = GER }
 	   PRU_695 = { remove_core = GER }
 	   PRU_690 = { remove_core = GER }
@@ -1355,6 +1379,30 @@ country_event = {
 				}
 				country_event = 11101
 	   }
+		any_pop = {
+			limit = {
+				NOT = { type = aristocrats }
+			}
+			consciousness = 3
+			ideology = {
+				value = liberal
+				factor = 0.2
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.3
+			}
+		}
        PRU_701 = { remove_core = GER }
 	   PRU_695 = { remove_core = GER }
 	   PRU_690 = { remove_core = GER }
