@@ -385,6 +385,7 @@ country_event = {
 	
     trigger = {
      capital_scope = { continent = europe }
+	 NOT = { alliance_with = GER }
 	 NOT = { 
 	        tag = RUS
 			tag = FRA
