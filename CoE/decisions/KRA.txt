@@ -943,7 +943,7 @@ political_decisions = {
 				tag = SCA
 				exists = UBD
 				is_culture_group = baltic
-				primary_culture = north_german
+				primary_culture = russian_german
 				has_global_flag = baltic_states_formed
 			}
 			OR = {
