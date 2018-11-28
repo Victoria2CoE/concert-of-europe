@@ -395,7 +395,7 @@ country_event = {
 	   }
 
 	   	ai_chance = {
-			factor = 50
+			factor = 60
 		}
         set_country_flag = 1848_full_generic
     }
@@ -403,7 +403,7 @@ country_event = {
 	option = {
 		name = "Who cares?!"
 		ai_chance = {
-			factor = 50
+			factor = 40
 		}
     }
 }
