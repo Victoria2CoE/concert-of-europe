@@ -75,6 +75,12 @@ country_event = {
 				factor = 0.5
 			}
 		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.20
+				value = jingoism
+			}
+		}
 	    FRA_412 = { add_core = GER }
         FRA_411	= { add_core = GER }
 		SCH_370 = { add_core = GER }

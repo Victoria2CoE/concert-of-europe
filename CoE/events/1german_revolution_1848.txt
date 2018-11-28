@@ -259,6 +259,13 @@ country_event = {
 	
 	option = {
 		name = "Curse them!"
+		any_pop = {
+			limit = { OR = { has_pop_culture = north_german  has_pop_culture = south_german } }
+			dominant_issue = {
+				factor = 0.10
+				value = jingoism
+			}
+		}
 		set_country_flag = pangerman_jingoism
     }
 }
