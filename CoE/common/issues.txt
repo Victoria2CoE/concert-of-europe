@@ -467,12 +467,11 @@ political_reforms = {
 			mobilisation_size = 0.1
 			mobilisation_economy_impact = 1
 			global_immigrant_attract = -0.1
-			global_immigrant_attract = -0.1
 			non_accepted_pop_militancy_modifier = 0.01
 			global_pop_consciousness_modifier = -0.02
 			land_unit_start_experience = 50
 			max_military_spending = 0.20
-			max_military_spending = 0.20
+			min_military_spending = 0.20
 		}
 		four_year_draft = {
 			mobilization_impact = 0
@@ -482,6 +481,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			land_unit_start_experience = 40
 			max_military_spending = 0.10
+			min_military_spending = 0.10
 		}
 		two_year_draft = {
 			mobilization_impact = 0
@@ -497,6 +497,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = 0.01
 			land_unit_start_experience = 20
 			max_military_spending = -0.10
+			min_military_spending = -0.10
 		}
 		no_draft = {
 		    mobilization_impact = 0
@@ -507,6 +508,7 @@ political_reforms = {
 			global_pop_militancy_modifier = -0.01
 			land_unit_start_experience = 10
 			max_military_spending = -0.20
+			min_military_spending = -0.20
 		}
 	}
 	minorities_reform = {
