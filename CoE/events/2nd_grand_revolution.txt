@@ -856,6 +856,7 @@ country_event = {
 	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
 		clr_global_flag = 2nd_grand_rev
+		set_global_flag = 2nd_grand_rev_won
 		any_country = { clr_country_flag = 1848_full_generic }
         remove_country_modifier = rev_birth_place
 		add_country_modifier = {
@@ -933,6 +934,7 @@ country_event = {
 	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
 		clr_global_flag = 2nd_grand_rev
+		set_global_flag = 2nd_grand_rev_stalemate
 		any_country = { clr_country_flag = 1848_full_generic }
         remove_country_modifier = rev_birth_place
 		add_country_modifier = {
