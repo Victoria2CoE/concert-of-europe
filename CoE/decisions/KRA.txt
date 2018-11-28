@@ -1149,7 +1149,7 @@ political_decisions = {
 				remove_core = UBD
 			}
 			UBD = {
-				primary_culture = north_german
+				primary_culture = russian_german
 				add_accepted_culture = latvian
 			}
 			release_vassal = UBD

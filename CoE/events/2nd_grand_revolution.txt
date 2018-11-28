@@ -454,13 +454,14 @@ country_event = {
 	    710 = { add_core = GER }
 	    712 = { add_core = GER }
 	    717	= { add_core = GER }
+		719	= { add_core = GER }
 		   any_owned = {
 				limit = { 
 				         OR = { 
 						       AND = {
 						              is_core = LIT
-						              NOT = { province_id = 938 }
-									  NOT = { province_id = 936 }
+						              #NOT = { province_id = 938 }
+									  #NOT = { province_id = 936 }
 									  NOT = { province_id = 707 }
 									  NOT = { province_id = 362 }
 						        }
@@ -482,6 +483,7 @@ country_event = {
 							   province_id = 710
 							   province_id = 712
 							   province_id = 717
+							   province_id = 719
 						 } 
 				}
 				secede_province = GER
@@ -510,6 +512,7 @@ country_event = {
 				country_event = 99913
 		      }
 		country_event = 99913
+		set_global_flag = baltic_states_formed
     }
 }
 
