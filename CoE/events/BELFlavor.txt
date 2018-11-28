@@ -766,6 +766,7 @@ country_event = {
 			duration = 730
 		}
 		release = BEL
+		BEL = { inherit = LUX }
 		relation = { who = BEL value = -100 }
 		BEL = {
 			any_pop = { militancy = -6 }
@@ -793,6 +794,7 @@ country_event = {
 			duration = 730
 		}
 		release = BEL
+		BEL = { inherit = LUX }
 		relation = { who = BEL value = -100 }
 		BEL = {
 			any_pop = { militancy = -6 }

@@ -24,35 +24,35 @@ life_needs = {
 }
 
 everyday_needs = {
-	steel = 4
-	bronze = 2
-	cement = 4
-	machine_parts = 2
-	glass = 0.25
-	lumber = 2
-	sugar = 10
-	tea = 10
-	liquor = 5
-	regular_clothes = 8
-	furniture = 3
-	cigarettes = 3
-	shoes = 5
-	print = 3
-	pharmaceuticals = 1
-	electric_power = 5
+	steel = 12
+	bronze = 6
+	cement = 12
+	machine_parts = 6
+	glass = 0.75
+	lumber = 6
+	sugar = 30
+	tea = 30
+	liquor = 15
+	regular_clothes = 24
+	furniture = 12
+	cigarettes = 12
+	shoes = 15
+	print = 9
+	pharmaceuticals = 3
+	electric_power = 15
 }
 luxury_needs = {
-	boots = 10
-	opium  = 5
-	coffee = 10
-	spices = 5
-	automobiles = 10
-	telephones = 10
-	wine = 10
-	cigars = 10
-	fuel = 10
-	radio = 10
-	electric_power = 10
+	boots = 30
+	opium  = 15
+	coffee = 30
+	spices = 15
+	automobiles = 30
+	telephones = 30
+	wine = 30
+	cigars = 30
+	fuel = 30
+	radio = 30
+	electric_power = 30
 }
 
 

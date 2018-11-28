@@ -537,23 +537,24 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_minimum_wage = {
+		    minimum_wage = 0.1
 		}
 		trinket_wage = {
-			minimum_wage = 0.1
+			minimum_wage = 0.2
 			global_immigrant_attract = 0.025
 			administrative_multiplier = 1
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 		}
 		low_minimum_wage = {
-			minimum_wage = 0.2
+			minimum_wage = 0.3
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 2
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 0.3
+			minimum_wage = 0.4
 			global_immigrant_attract = 0.075
 			global_pop_consciousness_modifier = -0.01
 			administrative_multiplier = 3
@@ -561,7 +562,7 @@ social_reforms = {
 			political_reform_desire = -0.075
 		}
 		good_minimum_wage = {
-			minimum_wage = 0.4
+			minimum_wage = 0.5
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = -0.02
 			administrative_multiplier = 4
@@ -573,8 +574,10 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_work_hour_limit = {
+		    minimum_wage = 0.05
 		}
 		fourteen_hours = {
+		    minimum_wage = 0.10
 			factory_throughput = -0.05
 			global_immigrant_attract = 0.025
 			administrative_multiplier = 1
@@ -583,6 +586,7 @@ social_reforms = {
 			political_reform_desire = -0.025
 		}
 		twelve_hours = {
+		    minimum_wage = 0.15
 			factory_throughput = -0.1
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 2
@@ -591,6 +595,7 @@ social_reforms = {
 			political_reform_desire = -0.05
 		}
 		ten_hours = {
+		    minimum_wage = 0.20
 			factory_throughput = -0.15
 			global_immigrant_attract = 0.075
 			administrative_multiplier = 3
@@ -600,6 +605,7 @@ social_reforms = {
 			political_reform_desire = -0.075
 		}
 		eight_hours = {
+		    minimum_wage = 0.25
 			factory_throughput = -0.2
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 4
@@ -613,8 +619,10 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_safety = {
+		    minimum_wage = 0.05
 		}
 		trinket_safety = {
+		    minimum_wage = 0.10
 			factory_maintenance = 0.05
 			global_immigrant_attract = 0.025
 			administrative_multiplier = 1
@@ -623,6 +631,7 @@ social_reforms = {
 			political_reform_desire = -0.025
 		}
 		low_safety = {
+		    minimum_wage = 0.15
 			factory_maintenance = 0.1
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 2
@@ -631,6 +640,7 @@ social_reforms = {
 			political_reform_desire = -0.05
 		}
 		acceptable_safety = {
+		    minimum_wage = 0.20
 			factory_maintenance = 0.15
 			global_immigrant_attract = 0.075
 			administrative_multiplier = 3
@@ -640,6 +650,7 @@ social_reforms = {
 			political_reform_desire = -0.075
 		}
 		good_safety = {
+		    minimum_wage = 0.25
 			factory_maintenance = 0.2
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 4
