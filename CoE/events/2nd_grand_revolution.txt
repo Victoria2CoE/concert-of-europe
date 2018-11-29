@@ -934,6 +934,7 @@ country_event = {
 	    clr_global_flag = 1848_full_fra
 	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
+		clr_country_flag = 1848_aus_ger_war
 		clr_global_flag = 2nd_grand_rev
 		set_global_flag = 2nd_grand_rev_stalemate
 		any_country = { clr_country_flag = 1848_full_generic }
@@ -943,4 +944,29 @@ country_event = {
 			duration = -1
 		}
     }
+}
+
+country_event = {
+	id = 99905
+	title = "Germans are Unified"
+	desc = "Austria has fallen!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+	 exists = yes
+	 NOT = { war_with = KUK }
+	 KUK = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_aus_ger_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "At last we are together!"  
+        KUK = { country_event = 99933 }
+	}
 }
