@@ -84,6 +84,17 @@ political_decisions = {
 		}
 		
 		effect = {
+		    603 = { add_core = GER }
+			604 = { add_core = GER }
+			605 = { add_core = GER }
+			606 = { add_core = GER }
+			611 = { add_core = GER }
+			611 = { add_core = ITA }
+			2568 = { add_core = ITA }
+			607 = { add_core = FRA }
+			608 = { add_core = FRA }
+			609 = { add_core = FRA }
+			609 = { add_core = ITA }
 			badboy = 25
 			SWI = {
 				set_country_flag = neutrality_violated
