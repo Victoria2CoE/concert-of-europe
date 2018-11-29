@@ -54,9 +54,9 @@ luxury_needs = {
 	opium = 150
 	aeroplanes = 60
 	electric_gear = 60
-	barrels = 20
-	steamer_convoy = 10
-	financial_services = 100
+	barrels = 30
+	steamer_convoy = 15
+	financial_services = 150
 }
 
 country_migration_target =
