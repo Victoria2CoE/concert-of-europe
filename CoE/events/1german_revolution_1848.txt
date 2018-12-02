@@ -1163,6 +1163,8 @@ country_event = {
 	
 	option = {
 		name = "Think of it always, speak of it never! Revenge will come."
+		end_war = AUS
+		end_war = KUK
 		any_owned = {
 				limit = { is_core = AUS }
 				secede_province = AUS
@@ -1252,7 +1254,7 @@ country_event = {
 
 country_event = {
 	id = 99925
-	title = "'Grossdeutschland' - Foreign Intervention Fails"
+	title = "'Grossdeutschland' - Foreign Intervention Defeat"
 	desc = "The recent war has meant defeat for 'Greater' Germany. The secession of Austria has been forced upon the nation."													
 	major = yes
 	is_triggered_only = yes
@@ -1263,6 +1265,8 @@ country_event = {
 	
 	option = {
 		name = "Think of it always, speak of it never! Revenge will come."
+		end_war = AUS
+		end_war = KUK
 		any_owned = {
 				limit = { is_core = AUS }
 				secede_province = AUS
