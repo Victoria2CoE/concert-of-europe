@@ -1,7 +1,7 @@
 country_event = {
 	id = 99924
 	title = "'New' German Nation - Eastern Provinces Secede"
-	desc = "After the proclamation of the recently formed National Assembly of Germany various reactionary and nationalistic elements triggered a secession of some former Prussian provinces and the Grand Duchy of Poznan."													
+	desc = "After the proclamation of the recently formed National Assembly of Germany various reactionary and nationalistic elements have triggered a secession of some former Prussian provinces and the Grand Duchy of Poznan."													
 	picture = "prussian_secession"
 	is_triggered_only = yes
 	
@@ -34,7 +34,7 @@ country_event = {
 country_event = {
 	id = 99923
 	title = "'New' German Nation - Destiny of the Revolution"
-	desc = "Many of the German citizens are asking the same question, 'What is our destiny?' Is it simply the unification of the German states or...shall we wield the torch of the 'German' Revolution to all provinces where Germans live?"
+	desc = "Many of the German citizens keep asking the same question, 'What is our destiny?' Is it simply the unification of the German states or...shall we pick up the torch of the 'German' Revolution for all provinces where Germans live?"
 	picture = "berlin_1848"
 	is_triggered_only = yes
 	
@@ -50,7 +50,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Freiheit, Gleichheit, Bruederlichkeit! For Germans!! Everywhere!!!"
+		name = "Freiheit, Gleichheit, Bruederlichkeit! For all Germans!! Everywhere!!!"
 		add_country_modifier = {
 			name = rev_birth_place
 			duration = -1
@@ -107,7 +107,7 @@ country_event = {
 country_event = {
 	id = 99922
 	title = "'New' German Nation - Full Scale Intervention" #for France
-	desc = "The French government is in agreement that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
+	desc = "The French government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
 	major = yes
 	fire_only_once = yes
 	
@@ -121,7 +121,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This war is... very necessary!"
+		name = "This war is...very necessary!"
 		war = {
 				target = GER
 				attacker_goal = {
@@ -138,7 +138,7 @@ country_event = {
     }
 	
 	option = {
-		name = "This war would be... sigh."
+		name = "Why should we care about a powerful Germany?"
 		ai_chance = {
 			factor = 0
 		}
@@ -184,7 +184,7 @@ country_event = {
 country_event = {
 	id = 99920
 	title = "'New' German Nation - Dissolution"
-	desc = "The recent war has meant utter defeat for Germany. Now all the people of the 'German Nation' disintegrate into various nations and states..."													
+	desc = "The recent war has meant utter defeat for Germany. Now all the people of the 'German Nation' disintegrate into various states...again."													
 	major = yes
 	is_triggered_only = yes
 	
@@ -220,8 +220,8 @@ country_event = {
 
 country_event = {
 	id = 99919
-	title = "Enemies on all sides"
-	desc = "Hard times demands derastic measures!"													
+	title = "'New' German Nation - Drastic Measures"
+	desc = "Our enemy has finally shown its true face, trying to break our finally unified nation. It is indeed a powerful and demanding enemy, therefor Germany has to take demanding measures! With our new government we shall prevail! Sieg!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -253,8 +253,8 @@ country_event = {
 
 country_event = {
 	id = 99918
-	title = "The War of Nations"
-	desc = "Vienna order has fallen!"													
+	title = "'New' German Nation - The War of Nations"
+	desc = "With the the old 'feudal' German states finally under a united rulership the old treaties of the Congress of Vienna too are no longer valid. Germany mustn't bind herself to one power alone but shall reach out to other great nations as well."													
 	major = yes
 	fire_only_once = yes
 	
@@ -271,7 +271,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "And the People of Europe will be free from its opression!"
+		name = "The guns of many will overcome the world's oppression by few!"
 		great_wars_enabled = yes
 		set_global_flag = great_wars_enabled
     }
@@ -378,8 +378,8 @@ country_event = {
 
 country_event = {
 	id = 99916
-	title = "Intervention in German Revolution" #Generic
-	desc = "We has to stop the revolution before it is too late."													
+	title = "'New' German Nation - Intervention By Many" #Generic
+	desc = "Another government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
 	major = yes
 	fire_only_once = yes
 	
@@ -411,7 +411,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This war is just!"
+		name = "This war is...very necessary!"
 		war = {
 				target = GER
 				attacker_goal = {
@@ -429,7 +429,7 @@ country_event = {
     }
 	
 	option = {
-		name = "Who cares?!"
+		name = "War...against Germany? Uhm...no."
 		ai_chance = {
 			factor = 40
 		}
@@ -438,8 +438,8 @@ country_event = {
 
 country_event = {
 	id = 99915
-	title = "Revolutionary Germany declares victory over Russia"
-	desc = "Spread the Revolution!"													
+	title = "'New' German Nation - Victory Over Russia"
+	desc = "The recent war has meant utter defeat for 'Mother Russia'. What Napoleon and his armies once began Germany shall now finish. Let our revolution of the people spread to all of Eastern Europe as well!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -456,7 +456,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Good!"  
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"  
         RUS = { country_event = 99914 }
 		set_global_flag = 1848_ger_victory_rus
 	}
@@ -464,8 +464,8 @@ country_event = {
 
 country_event = {
 	id = 99914
-	title = "NEIN"
-	desc = "NEIN."													
+	title = "'Mother Russia' - Dissolution"
+	desc = "The recent war has meant utter defeat for Russia. Leaving Germany as the true protector of Eastern Europe the oppressed people under Russian rule shall now create their own nations and states. Spread the Revolution!"													
 	major = yes
 	is_triggered_only = yes
 	
@@ -474,7 +474,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "NEIN!"
+		name = "For the glory of Ger...the people of Europe!"
         362 = { add_core = GER }
 	    707 = { add_core = GER }
 	    709 = { add_core = GER }
@@ -546,8 +546,8 @@ country_event = {
 
 country_event = {
 	id = 99913
-	title = "Revolution Export"
-	desc = "Revolution Export."													
+	title = "People of Eastern Europe - Revolution Spreads"
+	desc = "With the latest dismantlement of Russia the freed people are now finally able to voice their opinion about the 'true' revolution of the people, and of course about its shining roots as well."													
 	major = yes
 	is_triggered_only = yes
 	
@@ -556,7 +556,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Viva la Revolution!"
+		name = "Viva la revolucion! Viva Germany! Viva..."
  		government = bourgeois_dictatorship
 		ruling_party_ideology = anarcho_liberal
 		political_reform = none_voting
@@ -634,8 +634,8 @@ country_event = {
 
 country_event = {
 	id = 99912
-	title = "Revolutionary Germany declares victory over France"
-	desc = "Spread the Revolution!"													
+	title = "'New' German Nation - Victory Over France"
+	desc = "The recent war has meant utter defeat for France. What Robespierre and Napoleon once began Germany shall now finish. Let our revolution of the people spread to all of Western Europe as well!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -652,7 +652,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Good!"
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"
         FRA_412 = { add_core = GER }
         FRA_411	= { add_core = GER }	
         FRA = { country_event = 99911 }
@@ -662,8 +662,8 @@ country_event = {
 
 country_event = {
 	id = 99911
-	title = "NEIN"
-	desc = "NEIN."													
+	title = "France - Dissolution"
+	desc = "The recent war has meant utter defeat for France. Leaving Germany as the true protector of Western Europe the oppressed people under French rule shall now create their own nations and states. Spread the Revolution!"													
 	major = yes
 	is_triggered_only = yes
 	
@@ -672,7 +672,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "NEIN!"
+		name = "For the glory of Ger...the people of Europe!"
 		   any_owned = {
 				limit = { is_core = GER } 
 				secede_province = GER
@@ -706,8 +706,8 @@ country_event = {
 
 country_event = {
 	id = 99910
-	title = "Revolution Export"
-	desc = "Revolution Export."													
+	title = "People of Western Europe - Revolution Spreads"
+	desc = "With the latest dismantlement of France the freed people are now finally able to voice their opinion about the 'true' revolution of the people, and of course about its shining roots as well."													
 	major = yes
 	is_triggered_only = yes
 	
@@ -716,7 +716,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Viva la Revolution!"
+		name = "Viva la revolucion! Viva Germany! Viva..."
  		government = bourgeois_dictatorship
 		ruling_party_ideology = anarcho_liberal
 		political_reform = none_voting
@@ -794,8 +794,8 @@ country_event = {
 
 country_event = {
 	id = 99909
-	title = "We Join the Russian Intervention"
-	desc = "We has to stop the revolution before it is too late."													
+	title = "'New' German Nation - Intervention By 'Traitors'" #Generic
+	desc = "The government of a state which has recently seceded from Germany is now - some may call it 'traitorously' - siding with the enemies of the 'true' revolution of the people, seeking an armed conflict with its German brothers."													
 	major = yes
 	fire_only_once = yes
 	
@@ -818,7 +818,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This war is just!"
+		name = "This war is...very necessary!"
 		war = {
 				target = GER
 				attacker_goal = {
@@ -834,8 +834,8 @@ country_event = {
 
 country_event = {
 	id = 99908
-	title = "Triumph of the revolution"
-	desc = "Revolution has triumphed in Europe."													
+	title = "People of Europe - Triumph Of The Revolution"
+	desc = "The recent war has meant utter defeat for all enemies of the 'true' revolution of the people. Leaving Germany as the sole protector she shall henceforth write the history of all Europe. Spread the Revolution to the World!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -851,7 +851,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "The war is over but we still have to hunt the reactionaries!"
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"
         prestige = 500
 		badboy= -100
 	    clr_global_flag = 1848_full_fra
@@ -870,8 +870,8 @@ country_event = {
 
 country_event = {
 	id = 99907
-	title = "Full Scale intervention in German Revolution"
-	desc = "We has to stop the revolution before it is too late."													
+	title = "'New' German Nation - Full Scale Intervention" #for Russia
+	desc = "The Russian government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
 	major = yes
 	fire_only_once = yes
 	
@@ -885,7 +885,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This war is just!"
+		name = "This war is...very necessary!"
 		war = {
 				target = GER
 				attacker_goal = {
@@ -902,7 +902,7 @@ country_event = {
     }
 	
 	option = {
-		name = "Who cares?!"
+		name = "Why should we care about a powerful Germany?"
 		ai_chance = {
 			factor = 0
 		}
@@ -911,8 +911,8 @@ country_event = {
 
 country_event = {
 	id = 99906
-	title = "Stalemate of the Revolution"
-	desc = "Revolution stagnates."													
+	title = "People of Europe - Stalemate Of The Revolution"
+	desc = "Despite of its initial success the 'true' revolution of the people has somewhat lost its momentum. Germany of course is still actively pursuing its role as Europe's true protector, however the means for doing so have diminished."													
 	major = yes
 	fire_only_once = yes
 	
@@ -930,7 +930,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "It will triumph... one day!"
+		name = "Ger...the revolution will triumph...one day!"
 		badboy= -30
 	    clr_global_flag = 1848_full_fra
 	    clr_global_flag = 1848_full_rus
@@ -949,8 +949,8 @@ country_event = {
 
 country_event = {
 	id = 99905
-	title = "Germans are Unified"
-	desc = "Austria has fallen!"													
+	title = "'Grossdeutschland' - Iron and Blood - Unification"
+	desc = "The recent war against Austria - or what was left of its former glory - has been victorious. Now all the people of this 'Remnant Empire' disintegrate into various nations and states, a pity...Nonetheless, Austria has fallen!"													
 	major = yes
 	fire_only_once = yes
 	
@@ -967,7 +967,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "At last we are together!"  
+		name = "At last we are together as one!"  
         KUK = { country_event = 99933 }
 	}
 }
