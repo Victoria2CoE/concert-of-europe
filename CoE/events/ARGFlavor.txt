@@ -604,7 +604,10 @@ country_event = {
 	trigger = {
 		tag = ENG
 		2131 = { empty = no } #Malvinas
-		NOT = { has_country_flag = falklands_contested }
+		NOT = {
+			has_country_flag = falklands_contested
+			owns = 2131 #Malvinas
+		}
 	}
 	
 	mean_time_to_happen = {
