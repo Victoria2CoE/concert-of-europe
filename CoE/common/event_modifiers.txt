@@ -2767,161 +2767,173 @@ local_RGO_throughput = 0.5
 pop_militancy_modifier = 0.03
 icon = 97
 }
-###+demand###
-
-water_wheel_power = {
-goods_demand = 0.1
-   icon = 12
-}
-
-practical_steam_engine = {
-goods_demand = 0.1
-   icon = 12
-}
-
-high_n_low_pressure_steam_engines = {
-goods_demand = 0.1
-   icon = 12
-}
-
-steam_turbine = {
-goods_demand = 0.1
-   icon = 12
-}
-
-combustion_engine = {
-goods_demand = 0.1
-   icon = 12
-}
-
-electrical_power_generation = {
-goods_demand = 0.1
-   icon = 12
-}
-
-modern_power_generation = {
-goods_demand = 0.1
-   icon = 12
-}
-
-publishing_industry = {
-goods_demand = 0.1
-   icon = 12
-}
-
-mechanical_production = {
-goods_demand = 0.1
-   icon = 12
-}
-
-interchangeable_parts = {
-goods_demand = 0.1
-   icon = 12
-}
-
-semi_automatization = {
-goods_demand = 0.1
-   icon = 12
-}
-
-assembly_line = {
-goods_demand = 0.1
-   icon = 12
-}
-
-shift_work = {
-goods_demand = 0.1
-   icon = 12
-}
-
-mechanized_manufacture = {
-goods_demand = 0.1
-   icon = 12
-}
-
-electricity = {
-goods_demand = 0.05
-   icon = 12
-}
-
-freedom_of_trade = {
-goods_demand = 0.05
-   icon = 12
-}
-
-market_structure = {
-goods_demand = 0.05
-   icon = 12
-}
-
-business_regulations = {
-goods_demand = 0.05
-   icon = 12
-}
-
-market_regulations = {
-goods_demand = 0.05
-   icon = 12
-}
-
-economic_responsibility = {
-goods_demand = 0.05
-   icon = 12
-}
-
-government_interventionism = {
-goods_demand = 0.05
-   icon = 12
-}
-
-globalized_markets = {
-goods_demand = 0.1
-   icon = 12
-}
-
-early_classical_theory_and_critique = {
-goods_demand = 0.05
-   icon = 12
-}
-
-late_classical_theory = {
-goods_demand = 0.025
-   icon = 12
-}
-
-collectivist_theory = {
-   factory_throughput = 0.05
-   mine_rgo_eff = 0.1
-   farm_rgo_eff = 0.1
-   goods_demand = -0.025
-   icon = 12
-}
-
-the_historical_theory = {
-goods_demand = 0.025
-   icon = 12
-}
-
-neoclassical_theory = {
-goods_demand = 0.025
-   icon = 12
-}
-
-keynesian_economics = {
-goods_demand = 0.025
-   icon = 12
-}
-
-neoliberal_theory = {
-goods_demand = 0.05
-   icon = 12
-}
+####+demand###
+#
+#water_wheel_power = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#practical_steam_engine = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#high_n_low_pressure_steam_engines = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#steam_turbine = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#combustion_engine = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#electrical_power_generation = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#modern_power_generation = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#publishing_industry = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#mechanical_production = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#interchangeable_parts = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#semi_automatization = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#assembly_line = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#shift_work = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#mechanized_manufacture = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#electricity = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#freedom_of_trade = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#market_structure = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#business_regulations = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#market_regulations = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#economic_responsibility = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#government_interventionism = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#globalized_markets = {
+#goods_demand = 0.1
+#   icon = 12
+#}
+#
+#early_classical_theory_and_critique = {
+#goods_demand = 0.05
+#   icon = 12
+#}
+#
+#late_classical_theory = {
+#goods_demand = 0.025
+#   icon = 12
+#}
+#
+#collectivist_theory = {
+#   factory_throughput = 0.05
+#   mine_rgo_eff = 0.1
+#   farm_rgo_eff = 0.1
+#   goods_demand = -0.025
+#   icon = 12
+#}
+#
+#the_historical_theory = {
+#goods_demand = 0.025
+#   icon = 12
+#}
+#
+#neoclassical_theory = {
+#goods_demand = 0.025
+#   icon = 12
+#}
+#
+#keynesian_economics = {
+#goods_demand = 0.025
+#   icon = 12
+#}
+#
+#neoliberal_theory = {
+#goods_demand = 0.05
+#   icon = 12
+#}
 
 ###+RGO_education###
+
+RGO_education_0 = {
+	local_RGO_output = -0.0
+	local_factory_output = -0.00
+	goods_demand = 0.00
+    poor_income_modifier = 0
+    middle_income_modifier = 0
+    rich_income_modifier = 0
+	immigrant_push = 0
+	icon = 3
+}
 
 RGO_education_1 = {
 	local_RGO_output = 0.1
 	local_factory_output = 0.01
+	goods_demand = 0.01
     poor_income_modifier = 1
     middle_income_modifier = 1
     rich_income_modifier = 1
@@ -2932,6 +2944,7 @@ RGO_education_1 = {
 RGO_education_2 = {
 	local_RGO_output = 0.2
 	local_factory_output = 0.02
+	goods_demand = 0.02
     poor_income_modifier = 2
     middle_income_modifier = 2
     rich_income_modifier = 2
@@ -2942,6 +2955,7 @@ RGO_education_2 = {
 RGO_education_3 = {
 	local_RGO_output = 0.3
 	local_factory_output = 0.03
+	goods_demand = 0.03
     poor_income_modifier = 3
     middle_income_modifier = 3
     rich_income_modifier = 3
@@ -2952,6 +2966,7 @@ RGO_education_3 = {
 RGO_education_4 = {
 	local_RGO_output = 0.4
 	local_factory_output = 0.04
+	goods_demand = 0.04
     poor_income_modifier = 4
     middle_income_modifier = 4
     rich_income_modifier = 4
@@ -2962,6 +2977,7 @@ RGO_education_4 = {
 RGO_education_5 = {
 	local_RGO_output = 0.5
 	local_factory_output = 0.05
+	goods_demand = 0.05
     poor_income_modifier = 5
     middle_income_modifier = 5
     rich_income_modifier = 5
@@ -2972,6 +2988,7 @@ RGO_education_5 = {
 RGO_education_6 = {
 	local_RGO_output = 0.6
 	local_factory_output = 0.06
+	goods_demand = 0.06
     poor_income_modifier = 6
     middle_income_modifier = 6
     rich_income_modifier = 6
@@ -2982,6 +2999,7 @@ RGO_education_6 = {
 RGO_education_7 = {
 	local_RGO_output = 0.7
 	local_factory_output = 0.07
+	goods_demand = 0.07
     poor_income_modifier = 7
     middle_income_modifier = 7
     rich_income_modifier = 7
@@ -2992,6 +3010,7 @@ RGO_education_7 = {
 RGO_education_8 = {
 	local_RGO_output = 0.8
 	local_factory_output = 0.08
+	goods_demand = 0.08
     poor_income_modifier = 8
     middle_income_modifier = 8
     rich_income_modifier = 8
@@ -3002,29 +3021,22 @@ RGO_education_8 = {
 RGO_education_9 = {
 	local_RGO_output = 0.9
 	local_factory_output = 0.09
+	goods_demand = 0.09
     poor_income_modifier = 9
     middle_income_modifier = 9
     rich_income_modifier = 9
-	immigrant_push = 0.90
+	immigrant_push = 0.9
 	icon = 3
 }
 
 RGO_education_10 = {
 	local_RGO_output = 1
 	local_factory_output = 0.1
+	goods_demand = 0.10
     poor_income_modifier = 10
     middle_income_modifier = 10
     rich_income_modifier = 10
-	immigrant_push = 1
-	icon = 3
-}
-
-RGO_education_0 = {
-	local_RGO_output = -0.1
-	local_factory_output = -0.05
-    poor_income_modifier = 0
-    middle_income_modifier = 0
-    rich_income_modifier = 0
+	immigrant_push = 1.0
 	icon = 3
 }
 

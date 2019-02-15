@@ -58,7 +58,24 @@ luxury_needs = {
 
 country_migration_target =
 {
-	factor = 0.01
+	factor = 1
+	
+	modifier = {
+	factor = 0.5
+	immigration_policy = nobody_gets_out
+	}
+	modifier = {
+	factor = 1
+	immigration_policy = quota_immigration
+	}
+	modifier = {
+	factor = 2
+	immigration_policy = open_immigration
+	}
+	modifier = {
+	factor = 3
+	immigration_policy = naturalization
+	}
 
 	modifier = {
 		factor = 0.9
@@ -257,10 +274,10 @@ country_migration_target =
 		factor = 0.95
 		unemployment = 0.5
 	}
-	modifier = {
-		factor = 1.2
-		OR = { government = democracy government = democracy2 government = democracy3 }
-	}
+	#modifier = {
+	#	factor = 1.2
+	#	OR = { government = democracy government = democracy2 government = democracy3 }
+	#}
 	modifier = {
 		factor = 1.5
 		OR = { 
