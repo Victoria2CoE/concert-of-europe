@@ -2628,7 +2628,7 @@ country_event = {
 		OR = {
 			AND = {
 				civilized = yes
-				is_greater_power = no
+				#is_greater_power = no
 			}
 			AND = {
 				civilized = no

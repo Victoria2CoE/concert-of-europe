@@ -832,6 +832,7 @@ emigration_chance =
 		OR = { 
 			continent = north_america
 			continent = south_america
+			continent = africa
 		}
 	}
 	group = {
@@ -1125,6 +1126,19 @@ assimilation_chance =
 			continent = south_america
 			continent = oceania
 		}
+	}
+	modifier = {
+		factor = 20
+		is_accepted_culture = no
+		is_primary_culture = no
+		country = { civilized = yes }
+		NOT = { is_culture_group = west_african } 
+		NOT = { is_culture_group = central_african }
+		NOT = { is_culture_group = east_african }
+		NOT = { is_culture_group = southern_african }
+		NOT = { is_culture_group = african_diaspora_cultures } 
+		NOT = { is_culture_group = arabic }
+		continent = africa
 	}
 	modifier = {
 		factor = -20

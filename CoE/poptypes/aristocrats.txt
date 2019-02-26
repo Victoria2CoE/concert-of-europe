@@ -269,6 +269,8 @@ country_migration_target =
 			continent = north_america
 			continent = south_america
 			continent = oceania
+			primary_culture = boer
+			primary_culture = anglo_african
 		}
 	}
 	modifier = {
@@ -331,6 +333,7 @@ migration_target =
 		not = { continent = north_america }
 		not = { continent = south_america }
 		not = { continent = oceania }
+		not = { AND = { continent = africa OR = { primary_culture = boer primary_culture = anglo_african } } }
 	}
 	modifier = {
 		factor = 1.2
