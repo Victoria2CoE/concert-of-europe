@@ -768,7 +768,7 @@ canned_food_factory = {
 		cattle = 87
 	}
 	output_goods = canned_food
-	value = 150
+	value = 200
 	bonus = {
 		trigger = {
 			trade_goods_in_state = cattle
@@ -930,7 +930,7 @@ fish_cannery = {
 		fish = 87
 	}
 	output_goods = canned_food
-	value = 150
+	value = 200
 	bonus = {
 		trigger = {
 			trade_goods_in_state = fish
@@ -974,7 +974,7 @@ bakery = {
 		grain = 116
 	}
 	output_goods = canned_food
-	value = 150
+	value = 200
 	bonus = {
 		trigger = {
 			trade_goods_in_state = grain
@@ -989,7 +989,7 @@ fruit_cannery = {
 		fruit = 87
 	}
 	output_goods = canned_food
-	value = 150
+	value = 200
 	bonus = {
 		trigger = {
 			trade_goods_in_state = fruit
@@ -2235,7 +2235,7 @@ artisan_canned_food = {
 		cattle = 50
 	}
 	output_goods = canned_food
-	value = 75
+	value = 100
 
 	owner = {
 		poptype = artisan
@@ -2484,7 +2484,7 @@ artisan_baker = {
 		grain = 67
 	}
 	output_goods = canned_food
-	value = 75
+	value = 100
 
 	owner = {
 		poptype = artisan
@@ -2501,7 +2501,7 @@ artisan_fishmonger = {
 		fish = 50
 	}
 	output_goods = canned_food
-	value = 75
+	value = 100
 
 	owner = {
 		poptype = artisan
@@ -2518,7 +2518,7 @@ artisan_costermonger = {
 		fruit = 50
 	}
 	output_goods = canned_food
-	value = 75
+	value = 100
 
 	owner = {
 		poptype = artisan
