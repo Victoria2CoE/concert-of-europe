@@ -354,11 +354,11 @@ country_event = {
 			has_country_modifier = two_point_five_children
 			has_country_modifier = three_children
 			has_country_modifier = four_children
-		}
 			AND = {
 			       tag = FRA
 				   ai = yes
 			}
+		}
 	}
 	
 	mean_time_to_happen = {
