@@ -1420,7 +1420,11 @@ country_event = {
                 OR = { government = theocracy government = theocracy2 government = theocracy3 }
         }
     }
-
+	
+    mean_time_to_happen = {
+		days = 1
+	}
+	
     option = {
         name = "Long live the king!"
         set_country_flag = charles_x
