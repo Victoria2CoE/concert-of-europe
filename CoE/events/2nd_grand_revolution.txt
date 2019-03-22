@@ -139,6 +139,7 @@ country_event = {
 	
 	option = {
 		name = "Why should we care about a powerful Germany?"
+		set_global_flag = 1848_full_fra_rejected
 		ai_chance = {
 			factor = 0
 		}
@@ -903,6 +904,7 @@ country_event = {
 	
 	option = {
 		name = "Why should we care about a powerful Germany?"
+		set_global_flag = 1848_full_rus_rejected
 		ai_chance = {
 			factor = 0
 		}
@@ -924,6 +926,14 @@ country_event = {
      NOT = { has_global_flag = 1848_ger_victory_fra }
 	 NOT = { has_global_flag = 1848_ger_victory_rus }
 	 }
+	 OR = { 
+	       has_global_flag = 1848_full_rus  
+		   has_global_flag = 1848_full_rus_rejected 
+     }
+	 OR = { 
+	       has_global_flag = 1848_full_fra  
+		   has_global_flag = 1848_full_fra_rejected 
+     }
 	}
 	mean_time_to_happen = {
 		months = 1
