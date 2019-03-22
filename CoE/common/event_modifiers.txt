@@ -2326,19 +2326,19 @@ two_children = {
 }
 
 two_point_five_children = {
-	global_population_growth = 0.002
+	global_population_growth = 0.001
 	education_efficiency_modifier = -0.1
 	icon = 70
 }
 
 three_children = {
-	global_population_growth = 0.004
+	global_population_growth = 0.002
 	education_efficiency_modifier = -0.25
 	icon = 71
 }
 
 four_children = {
-	global_population_growth = 0.006
+	global_population_growth = 0.003
 	education_efficiency_modifier = -0.5
 	icon = 72
 }
