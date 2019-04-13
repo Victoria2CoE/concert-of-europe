@@ -438,7 +438,7 @@ political_decisions = {
 			treasury = -3500
 			random_owned = {
 				2088 = {
-					secede_province = ENG
+					secede_province = THIS
 					change_province_name = "Springbok"
 					life_rating = 15
 				}
