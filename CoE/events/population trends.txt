@@ -358,6 +358,7 @@ country_event = {
 			       tag = FRA
 				   ai = yes
 			}
+			has_country_modifier = the_female_shortage
 		}
 	}
 	
@@ -469,6 +470,7 @@ country_event = {
 			       tag = FRA
 				   ai = yes
 			}
+			has_country_modifier = the_female_shortage
 		}
 	}
 	
@@ -579,6 +581,7 @@ country_event = {
 			       tag = FRA
 				   ai = yes
 			}
+			has_country_modifier = the_female_shortage
 		}
 	}
 	
@@ -693,6 +696,7 @@ country_event = {
 			       tag = FRA
 				   ai = yes
 			}
+			has_country_modifier = the_female_shortage
 		}
 	}
 	

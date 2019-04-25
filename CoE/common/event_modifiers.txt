@@ -2305,19 +2305,19 @@ population_trend = {
 
 point_five_children = {
 	global_population_growth = -0.006
-	education_efficiency_modifier = 0.5
+	education_efficiency_modifier = 0.6
 	icon = 66
 }
 
 one_child = {
 	global_population_growth = -0.004
-	education_efficiency_modifier = 0.25
+	education_efficiency_modifier = 0.4
 	icon = 67
 }
 
 one_point_five_children = {
 	global_population_growth = -0.002
-	education_efficiency_modifier = 0.1
+	education_efficiency_modifier = 0.2
 	icon = 68
 }
 
@@ -2333,13 +2333,13 @@ two_point_five_children = {
 
 three_children = {
 	global_population_growth = 0.002
-	education_efficiency_modifier = -0.25
+	education_efficiency_modifier = -0.20
 	icon = 71
 }
 
 four_children = {
 	global_population_growth = 0.003
-	education_efficiency_modifier = -0.5
+	education_efficiency_modifier = -0.3
 	icon = 72
 }
 
