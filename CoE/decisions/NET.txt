@@ -202,6 +202,7 @@ political_decisions = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 			543 = { is_core = EFR }
+			NOT = { has_country_flag = integrated_east_frisia }
 		}
 
 		allow = {
@@ -211,6 +212,7 @@ political_decisions = {
 		}
 
 		effect = {
+			set_country_flag = integrated_east_frisia
 			prestige = 5
 			NET = { prestige = -5 }
 			relation = { who = NET value = -25 }
