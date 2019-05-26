@@ -1021,6 +1021,7 @@ country_event = {
 						culture = north_german
 					}
 					NOT = { is_core = HUN }
+					NOT = { is_core = SWI }
 				}
 				add_core = GER
 			}
