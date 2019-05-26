@@ -1,4 +1,4 @@
-color = { 51  153  204 }
+color = { 136  117  90 }
 graphical_culture = AsianGC
 
 party = {
@@ -115,39 +115,39 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	battleship = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	ironclad = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	manowar = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	cruiser = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	frigate = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	monitor = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 	clipper_transport = {
 		
@@ -156,8 +156,8 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Tran Canh" "Tran Hoang" "Tran Khâm" "Tran Thuyên" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
-		"Tran Phu" "Tran Kính" "Tran Hien" "Tran Ngung" "Tran An" "Thái Tông" "Thánh Tông" "Nhân Tông" "Anh Tông" "Minh Tông" 
-		"Hien Tông" "Du Tông" "Nghe Tông" "Due Tông" "Thuan Tông"
+		"Tran Canh" "Tran Hoang" "Tran Khï¿½m" "Tran Thuyï¿½n" "Tran Manh" "Tran Vuong" "Tran Hao" "Duong Nhat Le"
+		"Tran Phu" "Tran Kï¿½nh" "Tran Hien" "Tran Ngung" "Tran An" "Thï¿½i Tï¿½ng" "Thï¿½nh Tï¿½ng" "Nhï¿½n Tï¿½ng" "Anh Tï¿½ng" "Minh Tï¿½ng" 
+		"Hien Tï¿½ng" "Du Tï¿½ng" "Nghe Tï¿½ng" "Due Tï¿½ng" "Thuan Tï¿½ng"
 	}
 }
