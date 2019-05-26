@@ -1,4 +1,4 @@
-color = { 255  231  0 }
+color = { 235 200 127 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -171,7 +171,7 @@ unit_names = {
 	 	"St. Marie" "St. Joris" "St. Franciscus" "St. Jacobus" "St. Petrus" "St. Bonifatius"
 	}
 	cruiser = {
-		"François Pelsaert" "Louis Boisot" "Olivier Brunel" "Simon de Cordes" "Albert Dorville" "Jessé de Forest" "Louis Hennepin"
+		"Franï¿½ois Pelsaert" "Louis Boisot" "Olivier Brunel" "Simon de Cordes" "Albert Dorville" "Jessï¿½ de Forest" "Louis Hennepin"
 		"Melchior van den Kerckhove" "Jacob Mahu"
 	}
 	frigate = {

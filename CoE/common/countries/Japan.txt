@@ -1,7 +1,11 @@
-#color = { 194  53  60 }
-color = { 194  123  47 }
-proletarian_dictatorship = { 200 12 12 }
-fascist_dictatorship = { 38 38 42 }
+color = { 232  26  63 } 
+absolute_monarchy = { 194  123  47 }
+prussian_constitutionalism = { 232  26  63 } 
+hms_government = { 232  26  63 }
+proletarian_dictatorship = { 199  67  44 }
+democracy = { 244  121  158 }
+fascist_dictatorship = { 248 51 22 }
+
 graphical_culture = JapaneseGC
 
 party = {

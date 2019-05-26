@@ -1,4 +1,4 @@
-color = { 65 105 225 }
+color = { 20 50 210 }
 proletarian_dictatorship = { 180 10 10 }
 fascist_dictatorship = { 25 25 75 }
 graphical_culture = FrenchGC
@@ -18,7 +18,7 @@ party = {
 }
 
 party = {
-	name = "FRA_reactionary" #Légitimiste
+	name = "FRA_reactionary" #Lï¿½gitimiste
 	start_date = 1830.7.1
 	end_date = 1883.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "FRA_reactionary_2" #Action Française
+	name = "FRA_reactionary_2" #Action Franï¿½aise
 	start_date = 1883.1.1
 	end_date = 2000.1.1
 
@@ -46,7 +46,7 @@ party = {
 }
 
 party = {
-	name = "FRA_liberal" #Libéraux
+	name = "FRA_liberal" #Libï¿½raux
 	start_date = 1820.1.1
 	end_date = 1848.1.1
 
@@ -74,7 +74,7 @@ party = {
 }
 
 party = {
-	name = "FRA_liberal_3" #Modérés
+	name = "FRA_liberal_3" #Modï¿½rï¿½s
 	start_date = 1870.1.1
 	end_date = 2000.1.1
 
@@ -144,7 +144,7 @@ party = {
 }
 
 party = {
-	name = "FRA_conservative_4" #Orléaniste
+	name = "FRA_conservative_4" #Orlï¿½aniste
 	start_date = 1870.1.1
 	end_date = 1894.1.1
 
@@ -172,7 +172,7 @@ party = {
 }
 
 party = {
-	name = "FRA_socialist" #Républicain démocratique
+	name = "FRA_socialist" #Rï¿½publicain dï¿½mocratique
 	start_date = 1870.1.1
 	end_date = 2000.1.1
 
@@ -214,7 +214,7 @@ party = {
 }
 
 party = {
-	name = "FRA_anarcho_liberal" #Républicain radical
+	name = "FRA_anarcho_liberal" #Rï¿½publicain radical
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -228,7 +228,7 @@ party = {
 }
 
 party = {
-	name = "FRA_communist" #Parti Ouvrier Français
+	name = "FRA_communist" #Parti Ouvrier Franï¿½ais
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -242,7 +242,7 @@ party = {
 }
 
 party = {
-	name = "FRA_fascist" #Parti Populaire Français
+	name = "FRA_fascist" #Parti Populaire Franï¿½ais
 	start_date = 1905.1.1 #Was technically founded later, but no older Fascist party exists in France
 	end_date = 2000.1.1
 
@@ -271,68 +271,68 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napoléon" "Poincare"
-		"Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "Dévastation"
-		"Courbet" "Amiral Duperré" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin"
+		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napolï¿½on" "Poincare"
+		"Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "Dï¿½vastation"
+		"Courbet" "Amiral Duperrï¿½" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin"
 		"Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot"
-		"Jauréguiberry" "Masséna" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV"
-		"Iéna" "Suffren" "République" "Patrie" "Démocratie" "Justice" "Liberté" "Verité"
+		"Jaurï¿½guiberry" "Massï¿½na" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV"
+		"Iï¿½na" "Suffren" "Rï¿½publique" "Patrie" "Dï¿½mocratie" "Justice" "Libertï¿½" "Veritï¿½"
 		"Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France"
 		"Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre"
 		"Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon"
 		"Orleans" "La Rochelle" "Bourdeaux"
 	}
 	battleship = {
-		"Brennus" "Charles Martel" "Carnot" "Jauréguiberry" "Masséna" Bouvet Charlemagne "St Louis" Gaulois Iéna Suffren République Patrie Liberté Justice Vérité Démocratie Danton Voltaire Diderot Condorcet Mirebeau Vergniaud "Henri IV"
+		"Brennus" "Charles Martel" "Carnot" "Jaurï¿½guiberry" "Massï¿½na" Bouvet Charlemagne "St Louis" Gaulois Iï¿½na Suffren Rï¿½publique Patrie Libertï¿½ Justice Vï¿½ritï¿½ Dï¿½mocratie Danton Voltaire Diderot Condorcet Mirebeau Vergniaud "Henri IV"
 	}
 	ironclad = {
 		"Congreve" "Foudroyante" "Lave" "Tonnante" "Gloire" "Invincible" "Normandie" "Couronne"
 		"Magenta" "Solferino" "Flandre" "Gauloise" "Magnanime" "Provence" "Revanche" "Savoie"
-		"Surveillante" "Valeureuse" "Héroïne"
+		"Surveillante" "Valeureuse" "Hï¿½roï¿½ne"
 	}
 	manowar = {
-		"Alexandre" "Breslaw" "Prince Jérôme" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin"
+		"Alexandre" "Breslaw" "Prince Jï¿½rï¿½me" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin"
 		"Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione"
-		"Masséna" "Bayard" "Ville de Lyon" "Louis XIV"
+		"Massï¿½na" "Bayard" "Ville de Lyon" "Louis XIV"
 	}
 	cruiser = {
 		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban"
 		"Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram"
-		"Algésiras" "Arcole" "Friedland" "Impérial" "Eylau" "Tilsitt" "Jena" "Auerstadt"
-		"Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impétueuse" "Ardente"
-		"Victoire" "Guerrière" "Téméraire" "Triomphant" "Tigre" "Persévérante" "Vigilant"
-		"Tenace" "Élan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville"
-		"Colbert" "Foch" "Algérie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin"
-		"Surcouf" "Cosmao" "Lalande" "Galilée" "Lavoisier" "Linois" "La Galissionere"
+		"Algï¿½siras" "Arcole" "Friedland" "Impï¿½rial" "Eylau" "Tilsitt" "Jena" "Auerstadt"
+		"Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impï¿½tueuse" "Ardente"
+		"Victoire" "Guerriï¿½re" "Tï¿½mï¿½raire" "Triomphant" "Tigre" "Persï¿½vï¿½rante" "Vigilant"
+		"Tenace" "ï¿½lan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville"
+		"Colbert" "Foch" "Algï¿½rie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin"
+		"Surcouf" "Cosmao" "Lalande" "Galilï¿½e" "Lavoisier" "Linois" "La Galissionere"
 		"Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque"
 		"Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage"
-		"Amiral Cécille" "Davout" "Suchet" "Coëtlogon" "Forbin" "Surcouf" "Cosmao" "Lalande"
-		"Troude" "Galilée" "Lavoisier" "Linois" "Tunisié" "Isly" "Bugeaud" "Chasseloup-Laubat"
+		"Amiral Cï¿½cille" "Davout" "Suchet" "Coï¿½tlogon" "Forbin" "Surcouf" "Cosmao" "Lalande"
+		"Troude" "Galilï¿½e" "Lavoisier" "Linois" "Tunisiï¿½" "Isly" "Bugeaud" "Chasseloup-Laubat"
 		"Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet"
-		"D'Entrecasteaux" "Guichen" "Châteaurenault" "D'Estrées" "Infernet" "Jurien de la Gravière"
+		"D'Entrecasteaux" "Guichen" "Chï¿½teaurenault" "D'Estrï¿½es" "Infernet" "Jurien de la Graviï¿½re"
 		"Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville"
 		"Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber"
 		"Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet"
 		"Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar"
-		"D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault"
+		"D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Chï¿½teaurenault"
 	}
 	frigate = {
 		"Condor" "Epervier" "Faucon" "Vautour" "Wattignies" "Levrier" "Casablanca" "D'Iberville"
-		"Cassini" "Lahire" "Circé" "Hermione" "Pallas" "Sémiramis" "Armorique" "Junon"
-		"Magicienne" "Thémis" "Flore"
+		"Cassini" "Lahire" "Circï¿½" "Hermione" "Pallas" "Sï¿½miramis" "Armorique" "Junon"
+		"Magicienne" "Thï¿½mis" "Flore"
 	}
 	monitor = {
-		"Océan" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
+		"Ocï¿½an" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
 	}
 	clipper_transport = {
 	}
 	steam_transport = {
 	}
 	commerce_raider = {
-		"Asmodée" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb"
-		"Eldorado" "Magellan" "Montezuma" "Orénoque" "Panama" "Albatros" "Descartes" "Vauban"
-		"Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impératrice Eugénie"
-		"Souveraine" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Renommée"
-		"Danaé" "Pandore" "Zénobie" "Clorinde" "Astrée"
+		"Asmodï¿½e" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb"
+		"Eldorado" "Magellan" "Montezuma" "Orï¿½noque" "Panama" "Albatros" "Descartes" "Vauban"
+		"Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impï¿½ratrice Eugï¿½nie"
+		"Souveraine" "Audacieuse" "Impï¿½tueuse" "Ardente" "Victoire" "Guerriï¿½re" "Renommï¿½e"
+		"Danaï¿½" "Pandore" "Zï¿½nobie" "Clorinde" "Astrï¿½e"
 	}
 }

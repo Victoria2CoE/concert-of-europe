@@ -1,7 +1,5 @@
 graphical_culture = UsGC
-color = { 0  130  255 }
-proletarian_dictatorship = { 180 10 10 }
-fascist_dictatorship = { 60 50 50 }
+color = { 66  94  193 }
 
 party = {
 	name = "USA_liberal"
