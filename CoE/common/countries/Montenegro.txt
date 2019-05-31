@@ -1,4 +1,4 @@
-color = { 0  0  255 }
+color = { 39  108  140 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -115,10 +115,10 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Crna Gora" Podgorica Nikšic Pljevlja Bijelo Polje 
+		"Crna Gora" Podgorica Nikï¿½ic Pljevlja Bijelo Polje 
 	}
 	battleship = {
-		"Crna Gora" Podgorica Nikšic Pljevlja Bijelo Polje 
+		"Crna Gora" Podgorica Nikï¿½ic Pljevlja Bijelo Polje 
 	}
 	ironclad = {
 		Mihailo "Konstantin Bodin" "Petar II" Nikola  
@@ -142,6 +142,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Mamula Prevlaka "Sveti Marko" "Gospa od Škrpjela" "Sveti Ðorde" 
+		Mamula Prevlaka "Sveti Marko" "Gospa od ï¿½krpjela" "Sveti ï¿½orde" 
 	}
 }

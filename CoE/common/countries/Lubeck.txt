@@ -1,4 +1,4 @@
-color = { 230 100 42 }
+color = { 48  164  51 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -199,45 +199,45 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	battleship = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	ironclad = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	manowar = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	cruiser = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"		
 	}
 	frigate = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen" 
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	monitor = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Adler von Lübeck" "Königin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lüneburg" "Hermann Messmann" "Hermann Plönnies" "Simon Swerting" 
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Adler von Lï¿½beck" "Kï¿½nigin der Hanse" "Berend Bomhover" "Johann Brokes" "Friedrich Knebel" "Johann Lï¿½neburg" "Hermann Messmann" "Hermann Plï¿½nnies" "Simon Swerting" 
 		"Bartholomeus Tinnappel" "Bruno von Warendorp"
 	}
 	clipper_transport = {
@@ -247,8 +247,8 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Lübeck Hansa Vulkan Großvogtei Schwartau Travemünde "Von Evers" Gaedertz Gütschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
-		"Egmont von Chasôt" "Hermann Korner" Eschenburg Bornhöved Wittenborg "Hinrich Westhof" "Tidemann Steen"
-		"Klaus Störtebeker" "Gödeke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler		
+		Lï¿½beck Hansa Vulkan Groï¿½vogtei Schwartau Travemï¿½nde "Von Evers" Gaedertz Gï¿½tschow Overbeck Tesdorpf Wildtfanck "Johann Brokes" 
+		"Egmont von Chasï¿½t" "Hermann Korner" Eschenburg Bornhï¿½ved Wittenborg "Hinrich Westhof" "Tidemann Steen"
+		"Klaus Stï¿½rtebeker" "Gï¿½deke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" Likedeeler		
 	}
 }

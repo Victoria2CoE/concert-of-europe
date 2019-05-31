@@ -1,4 +1,4 @@
-color = { 112 221 16 }
+color = { 112  150  105 }
 graphical_culture = Generic
 
 party = {
@@ -143,33 +143,33 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"O’Faolain" "Caomhánach" "Mannion" "Corcaigh" "Gaillimh"
+		"Oï¿½Faolain" "Caomhï¿½nach" "Mannion" "Corcaigh" "Gaillimh"
 	}
 	battleship = {
-		"O’Faolain" "Caomhánach" "Mannion" "Corcaigh" "Gaillimh"
+		"Oï¿½Faolain" "Caomhï¿½nach" "Mannion" "Corcaigh" "Gaillimh"
 	}
 	ironclad = {
-		"Baile Átha Cliath" "Cúige Laighean" "Ulaidh" "An Mhumhain" "Connachta"
+		"Baile ï¿½tha Cliath" "Cï¿½ige Laighean" "Ulaidh" "An Mhumhain" "Connachta"
 	}
 	manowar = {
-		"Port Láirge" "Dún na nGall" "Loingsech" "Ó’Conghaile" "An Cóbh"
+		"Port Lï¿½irge" "Dï¿½n na nGall" "Loingsech" "Ó’Conghaile" "An Cï¿½bh"
 	}
 	cruiser = {
-		"Michelle" "Peigi" "Máire" "Róisín" "Esther"
+		"Michelle" "Peigi" "Mï¿½ire" "Rï¿½isï¿½n" "Esther"
 	}
 	frigate = {
-		"Fort Rannoch" "Cliona" "Maev" "Macha" "an Cóbh"
+		"Fort Rannoch" "Cliona" "Maev" "Macha" "an Cï¿½bh"
 	}
 	monitor = {
-		"Muirchú" "Réabhlóid" "Dónal Ó Conaill" "Emmet"
+		"Muirchï¿½" "Rï¿½abhlï¿½id" "Dï¿½nal ï¿½ Conaill" "Emmet"
 	}
 	clipper_transport = {
-		"Parnell" "Oileáin Árann" "an Chláir" "Mhaigh Eo" "Mairead"
+		"Parnell" "Oileï¿½in ï¿½rann" "an Chlï¿½ir" "Mhaigh Eo" "Mairead"
 	}
 	steam_transport = {
 		"Lady Wicklow" "Robin" "Adele" "Aontroim" "Fionn Radharc"
 	}
 	commerce_raider = {
-		"Dún Droma" "Marino" "Baile Bocht" "Béal Feirste" "Frongoch"
+		"Dï¿½n Droma" "Marino" "Baile Bocht" "Bï¿½al Feirste" "Frongoch"
 	}
 }
