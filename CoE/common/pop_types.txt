@@ -109,20 +109,112 @@ promotion_chance =
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
-	modifier = {
-		factor = -0.2
-		strata = poor
-		country = { land_property = serfdom }
-	}
-	modifier = {
-		factor = -0.1
-		strata = poor
-		country = { land_property = landed_estates }
-	}
-	modifier = {
-		factor = 0.1
-		strata = poor
-		country = { land_property = collectivization }
+	#modifier = {
+	#	factor = -0.2
+	#	strata = poor
+	#	country = { land_property = serfdom }
+	#}
+	#modifier = {
+	#	factor = -0.1
+	#	strata = poor
+	#	country = { land_property = landed_estates }
+	#}
+	#modifier = {
+	#	factor = 0.1
+	#	strata = poor
+	#	country = { land_property = collectivization }
+	#}
+
+		group = {
+		modifier = {
+			factor = 0.05
+			OR = {
+			 everyday_needs = 0.1
+			 luxury_needs = 0.25
+			}
+			strata = poor
+		}
+		modifier = {
+			factor = 0.10
+			OR = {
+			 everyday_needs = 0.2
+			 luxury_needs = 0.25
+			}
+			literacy = 0.10
+			strata = poor
+		}
+		modifier = {
+			factor = 0.15
+			OR = {
+			 everyday_needs = 0.3
+			 luxury_needs = 0.25
+			}
+			literacy = 0.20
+			strata = poor
+		}
+		modifier = {
+			factor = 0.20
+			OR = {
+			 everyday_needs = 0.4
+			 luxury_needs = 0.25
+			}
+			literacy = 0.30
+			strata = poor
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+			 everyday_needs = 0.5
+			 luxury_needs = 0.25
+			}
+			literacy = 0.40
+			strata = poor
+		}
+		modifier = {
+			factor = 0.30
+			OR = {
+			 everyday_needs = 0.6
+			 luxury_needs = 0.25
+			}
+			literacy = 0.50
+			strata = poor
+		}
+		modifier = {
+			factor = 0.35
+			OR = {
+			 everyday_needs = 0.7
+			 luxury_needs = 0.25
+			}
+		    literacy = 0.60
+			strata = poor
+		}
+		modifier = {
+			factor = 0.40
+			OR = {
+			 everyday_needs = 0.8
+			 luxury_needs = 0.25
+			}
+			literacy = 0.70
+			strata = poor
+		}
+		modifier = {
+			factor = 0.45
+			OR = {
+			 everyday_needs = 0.9
+			 luxury_needs = 0.25
+			}
+			literacy = 0.80
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+			 everyday_needs = 1
+			 luxury_needs = 0.25
+			}
+			literacy = 0.90
+			strata = poor
+		}
 	}
 }
 
@@ -315,19 +407,93 @@ demotion_chance =
 			location = { controlled_by = owner }
 		}
 	}
-	modifier = {
-		factor = -100
-		location = { NOT = { controlled_by = owner } }
-	}
-	modifier = {
-		factor = -0.8
-		strata = poor
-		country = { land_property = serfdom }
-	}
-	modifier = {
-		factor = -0.4
-		strata = poor
-		country = { land_property = landed_estates }
+	#modifier = {
+	#	factor = -100
+	#	location = { NOT = { controlled_by = owner } }
+	#}
+	#modifier = {
+	#	factor = -0.8
+	#	strata = poor
+	#	country = { land_property = serfdom }
+	#}
+	#modifier = {
+	#	factor = -0.4
+	#	strata = poor
+	#	country = { land_property = landed_estates }
+	#}
+	group = {
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 1.0 }
+			NOT = { luxury_needs = 0.25 }
+		}
+		modifier = {
+			factor = 0.10
+			NOT = { everyday_needs = 0.9 }
+			NOT = { luxury_needs = 0.25 }
+			literacy = 0.10
+		}
+		modifier = {
+			factor = 0.15
+			NOT = { everyday_needs = 0.8 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.20
+		}
+		modifier = {
+			factor = 0.20
+			NOT = { everyday_needs = 0.7 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.30
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { everyday_needs = 0.6 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.40
+		}
+		modifier = {
+			factor = 0.30
+			NOT = { everyday_needs = 0.5 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.50
+		}
+		modifier = {
+			factor = 0.35
+			NOT = { everyday_needs = 0.4 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.60
+		}
+		modifier = {
+			factor = 0.4
+			NOT = { everyday_needs = 0.3 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.70
+		}
+		modifier = {
+			factor = 0.45
+			NOT = { everyday_needs = 0.2 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.80
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { everyday_needs = 0.1 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.90
+		}
 	}
 }
 
