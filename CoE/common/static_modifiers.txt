@@ -142,6 +142,7 @@ infrastructure = {
 base_values = {
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
+	pension_level = 1
 }
 
 war = {

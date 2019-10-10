@@ -14,6 +14,9 @@ party_issues = {
 			rich_luxury_needs = -0.05
 			max_tariff = 1
 			min_tariff = -0.25
+			
+			min_social_spending = 0.10
+			tax_efficiency = 0.01
 		}
 		free_trade = {
 			factory_throughput = 0.1
@@ -33,6 +36,9 @@ party_issues = {
 			max_tax = 0.5
 			factory_owner_cost = 0.5
 			factory_input = -0.02
+			
+			min_social_spending = 0.20
+			
 			rules = {
 				build_factory = no
 				expand_factory = no
@@ -58,6 +64,10 @@ party_issues = {
 			max_tax = 0.75
 			min_tax = 0.1
 			factory_input = -0.01
+			
+			min_social_spending = 0.40
+			tax_efficiency = 0.01
+			
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -85,6 +95,10 @@ party_issues = {
 			max_tax = 0.9
 			factory_owner_cost = 1.5
 			factory_throughput = 0.10
+			
+		    min_social_spending = 0.60
+			tax_efficiency = 0.02
+			
 			rules = {
 				build_factory = yes
 				expand_factory = yes
@@ -108,6 +122,10 @@ party_issues = {
 			factory_throughput = 0.10
 			rgo_throughput = 0.10
 			factory_owner_cost = -1	#negative costs, can't build.
+			
+			min_social_spending = 0.80
+			tax_efficiency = 0.03
+			
 			rules = {
 				build_factory = yes
 				expand_factory = yes
@@ -131,6 +149,10 @@ party_issues = {
 			factory_throughput = 0.00
 			rgo_throughput = 0.20
 			factory_owner_cost = -1	#negative costs, can't build.
+			
+			min_social_spending = 0.10
+			tax_efficiency = 0.03
+			
 			rules = {
 				build_factory = no
 				expand_factory = no
@@ -475,7 +497,7 @@ political_reforms = {
 		}
 		four_year_draft = {
 			mobilization_impact = 0
-			mobilisation_size = 0.08
+			mobilisation_size = 0.09
 			mobilisation_economy_impact = 0.75
 			global_immigrant_attract = -0.05
 			global_pop_consciousness_modifier = -0.01
@@ -485,13 +507,13 @@ political_reforms = {
 		}
 		two_year_draft = {
 			mobilization_impact = 0
-			mobilisation_size = 0.07
+			mobilisation_size = 0.085
 			mobilisation_economy_impact = 0.5
 			land_unit_start_experience = 30
 		}
 		one_year_draft = {
 			mobilization_impact = 0
-			mobilisation_size = 0.06
+			mobilisation_size = 0.08
 			mobilisation_economy_impact = 0.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = 0.01
@@ -501,7 +523,7 @@ political_reforms = {
 		}
 		no_draft = {
 		    mobilization_impact = 0
-			mobilisation_size = 0.05
+			mobilisation_size = 0.075
 			mobilisation_economy_impact = 0
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = 0.02
@@ -516,6 +538,7 @@ political_reforms = {
 		oppression = {
 			rules = { culture_voting = yes }
 			global_immigrant_attract = -0.1
+			core_pop_militancy_modifier = -0.01
 		}
 		limited = {
 			rules = { culture_voting = yes }
