@@ -1467,11 +1467,11 @@ promote_to = {
 			}
 		}
 		modifier = {
-		factor = -15
+		factor = -10
 		country = { land_property = serfdom }
 		}
 		modifier = {
-		factor = -10
+		factor = -7.5
 		country = { land_property = landed_estates }
 		}
 		modifier = {
@@ -1479,7 +1479,7 @@ promote_to = {
 		country = { land_property = commoners_properties }
 		}
 		modifier = {
-		factor = 10
+		factor = 5
 		country = { land_property = collectivization }
 		}
 		modifier = {
