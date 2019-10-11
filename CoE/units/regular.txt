@@ -17,15 +17,15 @@ regular = {
 	#Building Costs
 	build_time = 30
 	build_cost = {
-		small_arms = 3
-		regular_clothes = 3
+		small_arms = 30
+		regular_clothes = 30
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 0.2
-		ammunition = 1
-		horses = 0.1
+		small_arms = 2
+		ammunition = 10
+		horses = 1
 	}
 	
 

@@ -22,15 +22,15 @@ hussar = {
 	#Building Costs
 	build_time = 40
 	build_cost = {
-		small_arms = 2
-		regular_clothes = 2
-		horses = 2
+		small_arms = 20
+		regular_clothes = 20
+		horses = 20
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		ammunition = 0.25
-		horses = 0.5
+		ammunition = 2.5
+		horses = 5
 	}
 	
 

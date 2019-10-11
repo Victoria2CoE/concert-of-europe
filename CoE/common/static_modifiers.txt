@@ -142,7 +142,7 @@ infrastructure = {
 base_values = {
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
-	pension_level = 1
+	pension_level = 10
 }
 
 war = {
@@ -198,6 +198,8 @@ great_power = {
 	cb_generation_speed_modifier = 0.1
 	leadership = 0.5
 	badboy = -0.1
+	loan_interest = -0.25
+	max_loan_modifier = 1.0
 }
 
 second_power = {
@@ -206,6 +208,8 @@ second_power = {
 	diplomatic_points_modifier = 0.5
 	leadership = 0.25
 	badboy = -0.05
+	loan_interest = -0.10
+	max_loan_modifier = 0.5
 }
 
 civ_nation = {

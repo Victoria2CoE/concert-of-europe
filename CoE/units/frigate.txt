@@ -17,16 +17,16 @@ frigate = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		clipper_convoy = 1
-		artillery = 0.5
+		clipper_convoy = 5
+		artillery = 2.5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		lumber = 0.5
-		gunpowder = 0.5
-		fabric = 0.5
-		bronze = 0.25
+		lumber = 2.5
+		gunpowder = 2.5
+		fabric = 2.5
+		bronze = 1.25
 	}
 	
 

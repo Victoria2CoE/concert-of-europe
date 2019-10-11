@@ -20,15 +20,15 @@ ironclad = {
 	#Building Costs
 	build_time = 1050
 	build_cost = {	
-		steamer_convoy = 2
-		artillery = 1
+		steamer_convoy = 10
+		artillery = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.5
-		explosives = 1
-		coal = 2
+		steamer_convoy = 2.5
+		explosives = 5
+		coal = 10
 	}
 	
 	#Naval Abilties

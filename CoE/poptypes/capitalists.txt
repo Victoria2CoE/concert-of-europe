@@ -2,7 +2,7 @@ sprite = 4
 color = { 18 129 10 }
 strata = rich
 state_capital_only = yes
-is_artisan = yes
+#is_artisan = yes
 research_points = 4
 research_optimum = 0.04
 

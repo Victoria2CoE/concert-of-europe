@@ -1711,7 +1711,7 @@ orchard = {
 precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = precious_metal
-	value = 50
+	value = 25
 	mine = yes
 }
 

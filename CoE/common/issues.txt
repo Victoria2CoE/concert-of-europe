@@ -686,28 +686,29 @@ social_reforms = {
 	unemployment_subsidies = {
 		next_step_only = yes
 		no_subsidies = {
+		    unemployment_benefit = 1
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 0.25
+			unemployment_benefit = 2.5
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 		}
 		low_subsidies = {
-			unemployment_benefit = 0.50
+			unemployment_benefit = 5
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 0.75
+			unemployment_benefit = 7.5
 			global_immigrant_attract = 0.15
 			global_pop_consciousness_modifier = -0.01
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
 		}
 		good_subsidies = {
-			unemployment_benefit = 1.0
+			unemployment_benefit = 10
 			global_immigrant_attract = 0.20
 			global_pop_consciousness_modifier = -0.02
 			social_reform_desire = -0.2
@@ -719,26 +720,26 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level = 0.25
+			pension_level = 2
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 		}
 		low_pensions = {
-			pension_level = 0.5
+			pension_level = 4
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 		}
 		acceptable_pensions = {
-			pension_level = 0.75
+			pension_level = 6
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.15
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
 		}
 		good_pensions = {
-			pension_level = 1
+			pension_level = 8
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.20
 			social_reform_desire = -0.2
@@ -756,7 +757,7 @@ social_reforms = {
 			administrative_multiplier = 1
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
-			pension_level = 0.1
+			pension_level = 3
 		}
 		low_health_care = {
 			global_population_growth = 0.001
@@ -764,7 +765,7 @@ social_reforms = {
 			administrative_multiplier = 2
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
-			pension_level = 0.2
+			pension_level = 6
 		}
 		acceptable_health_care = {
 			global_population_growth = 0.0015
@@ -773,7 +774,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
-			pension_level = 0.3
+			pension_level = 9
 		}
 		good_health_care = {
 			global_population_growth = 0.002
@@ -782,7 +783,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.02
 			social_reform_desire = -0.2
 			political_reform_desire = -0.1
-			pension_level = 0.4
+			pension_level = 12
 		}
 	}
 
@@ -885,13 +886,14 @@ social_reforms = {
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
+			pension_level = 3
 		}
 		public = {
 			education_efficiency_modifier = 0.5
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
-			pension_level = 0.1
+			pension_level = 6
 		}
 	}
 

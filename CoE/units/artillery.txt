@@ -18,16 +18,16 @@ artillery = {
 	#Building Costs
 	build_time = 40
 	build_cost = {
-		artillery = 2.5
-		regular_clothes = 3
-		horses = 1
+		artillery = 25
+		regular_clothes = 30
+		horses = 10
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		artillery = 0.5
-		explosives = 0.25
-		horses = 0.2
+		artillery = 5
+		explosives = 2.5
+		horses = 2
 	}
 	
 

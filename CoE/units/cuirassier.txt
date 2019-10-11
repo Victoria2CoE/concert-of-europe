@@ -25,15 +25,15 @@ cuirassier = {
 	#Building Costs
 	build_time = 40
 	build_cost = {
-		regular_clothes = 3
-		horses = 2
-		steel = 3
+		regular_clothes = 30
+		horses = 20
+		steel = 30
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		ammunition = 1
-		horses = 1
+		ammunition = 10
+		horses = 10
 	}
 	
 
