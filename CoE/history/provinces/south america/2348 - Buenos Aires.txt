@@ -2,6 +2,6 @@ owner = ARG
 controller = ARG
 add_core = ARG
 trade_goods = cattle
-life_rating = 45
+life_rating = 30
 terrain = marginal_farmland
 1861.1.1 = { railroad = 1 }

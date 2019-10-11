@@ -4,6 +4,6 @@ add_core = AUS
 add_core = SLS
 add_core = BOH
 trade_goods = iron
-life_rating = 40
+life_rating = 30
 terrain = deciduous_forest_mountains
 1861.1.1 = { railroad = 3 }

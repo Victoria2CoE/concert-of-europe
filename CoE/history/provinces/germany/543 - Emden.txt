@@ -4,6 +4,6 @@ add_core = HAN
 add_core = GER
 add_core = EFR
 trade_goods = fish
-life_rating = 40
+life_rating = 30
 terrain = marginal_farmland
 1861.1.1 = { railroad = 3 }

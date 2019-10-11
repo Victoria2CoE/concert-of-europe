@@ -5,6 +5,6 @@ add_core = BYE
 add_core = LIT
 add_core = POL
 trade_goods = grain
-life_rating = 37
+life_rating = 30
 terrain = forested_farmland
 1861.1.1 = { railroad = 2 }

@@ -2,6 +2,6 @@ owner = SWE
 controller = SWE
 add_core = SWE
 trade_goods = grain
-life_rating = 38
+life_rating = 30
 terrain = good_farmland
 1861.1.1 = { railroad = 3 }

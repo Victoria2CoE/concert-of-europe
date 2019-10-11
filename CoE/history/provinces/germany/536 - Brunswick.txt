@@ -3,6 +3,6 @@ controller = BRA
 add_core = BRA
 add_core = GER
 trade_goods = lead
-life_rating = 40
+life_rating = 30
 terrain = forested_farmland
 1861.1.1 = { railroad = 3 }
