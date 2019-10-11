@@ -1230,13 +1230,57 @@ country_event = {
 		}
 		any_country = {  
 		               any_owned = {  
-					                limit = { check_variable = { which = dt_rating  value = 31 } }
+					                limit = { life_rating = 31 }
 									life_rating = -1
 									change_variable = {
                                                        which = dt_rating
                                                        value = -1
                                     }
 					   }
+		}
+                       any_owned = {  
+					                limit = { life_rating = 31 }
+									life_rating = -1
+									change_variable = {
+                                                       which = dt_rating
+                                                       value = -1
+                                    }
+					   }
+	}
+}
+
+country_event = {
+	id = 99902
+	title = "Demographic Transition - Conquest Lowers Population Growth"
+	desc = "Demographic Transition - Conquest Lowers Population Growth"		
+    is_triggered_only = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Demographic Transition - Conquest Lowers Population Growth"  
+		any_owned = { 
+		             limit = {
+					          #life_rating = 31
+					          NOT = { has_province_modifier = RGO_education_0 }
+							  NOT = { has_province_modifier = RGO_education_1 }
+							  NOT = { has_province_modifier = RGO_education_2 }
+							  NOT = { has_province_modifier = RGO_education_3 }
+							  NOT = { has_province_modifier = RGO_education_4 }
+							  NOT = { has_province_modifier = RGO_education_5 }
+							  NOT = { has_province_modifier = RGO_education_6 }
+							  NOT = { has_province_modifier = RGO_education_7 }
+							  NOT = { has_province_modifier = RGO_education_8 }
+							  NOT = { has_province_modifier = RGO_education_9 }
+							  NOT = { has_province_modifier = RGO_education_10 }
+					 }
+									life_rating = -1
+									change_variable = {
+                                                       which = dt_rating
+                                                       value = -1
+                                    }
 		}
 	}
 }

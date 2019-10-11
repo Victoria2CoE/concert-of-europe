@@ -90,6 +90,7 @@ on_colony_to_state =
 }
 on_state_conquest = {
 	100 = 70000
+	100 = 99902
 }
 
 on_colony_to_state_free_slaves =
