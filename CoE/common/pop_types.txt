@@ -426,18 +426,22 @@ demotion_chance =
 			factor = 0.10
 			NOT = { everyday_needs = 1.0 }
 			NOT = { luxury_needs = 0.25 }
+			OR = { type = farmers type = labourers } 
 		}
 		modifier = {
 			factor = 0.10
 			NOT = { everyday_needs = 0.9 }
 			NOT = { luxury_needs = 0.25 }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.10
+			
 		}
 		modifier = {
 			factor = 0.10
 			NOT = { everyday_needs = 0.8 }
 			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.20
 		}
 		modifier = {
@@ -445,6 +449,7 @@ demotion_chance =
 			NOT = { everyday_needs = 0.7 }
 			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.30
 		}
 		modifier = {
@@ -452,6 +457,7 @@ demotion_chance =
 			NOT = { everyday_needs = 0.6 }
 			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.40
 		}
 		modifier = {
@@ -460,6 +466,7 @@ demotion_chance =
 			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.50
 		}
 		modifier = {
@@ -468,6 +475,7 @@ demotion_chance =
 			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.60
 		}
 		modifier = {
@@ -476,6 +484,7 @@ demotion_chance =
 			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.70
 		}
 		modifier = {
@@ -484,6 +493,7 @@ demotion_chance =
 			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.80
 		}
 		modifier = {
@@ -492,6 +502,7 @@ demotion_chance =
 			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
+			OR = { type = farmers type = labourers } 
 			literacy = 0.90
 		}
 	}
@@ -499,7 +510,7 @@ demotion_chance =
 
 #general migration chance mtth, same for all pops
 migration_chance = {
-factor = 1.00
+factor = 0.50
 	modifier = { 
 		factor = -0.25
 		OR = { type = farmers type = labourers } 
@@ -587,24 +598,24 @@ factor = 1.00
 			location = { controlled_by = owner }
 		}
 	}
-	group = {
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 2 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 1.5 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 1 }
-		}
-		modifier = {
-			factor = -0.1
-			not = { consciousness = 0.5 }
-		}
-	}
+	#group = {
+	#	modifier = {
+	#		factor = -0.1
+	#		not = { consciousness = 2 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		not = { consciousness = 1.5 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		not = { consciousness = 1 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		not = { consciousness = 0.5 }
+	#	}
+	#}
 	modifier = {
 		factor = -10
 		state_scope = { is_colonial = yes }
@@ -648,7 +659,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.1
-		consciousness = 3
+		#consciousness = 3
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -662,7 +673,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.1
-		consciousness = 6
+		#consciousness = 6
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -670,7 +681,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.1
-		consciousness = 9
+		#consciousness = 9
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -678,7 +689,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.025
-		consciousness = 6
+		#consciousness = 6
 		OR = { 
 			continent = oceania
 			continent = africa
@@ -687,7 +698,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.025
-		consciousness = 9
+		#consciousness = 9
 		OR = { 
 			continent = oceania
 			continent = africa
@@ -776,7 +787,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.5
+	factor = 0.10
 	modifier = { 
 		factor = -0.10
 		OR = { type = farmers type = labourers } 
@@ -925,50 +936,50 @@ emigration_chance =
 	#	factor = -0.3
 	#	country = { citizenship_policy = full_citizenship }
 	#}
-	group = {
-		modifier = {
-			factor = -0.1
-			NOT = { literacy = 0.5 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { literacy = 0.4 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { literacy = 0.3 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { literacy = 0.2 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { literacy = 0.1 }
-		}
-	}
-	group = {
-		modifier = {
-			factor = 0.05
-			literacy = 0.6
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 0.7
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 0.8
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 0.9
-		}
-		modifier = {
-			factor = 0.05
-			literacy = 1.0
-		}
-	}
+	#group = {
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { literacy = 0.5 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { literacy = 0.4 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { literacy = 0.3 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { literacy = 0.2 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { literacy = 0.1 }
+	#	}
+	#}
+	#group = {
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.6
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.7
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.8
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 0.9
+	#	}
+	#	modifier = {
+	#		factor = 0.05
+	#		literacy = 1.0
+	#	}
+	#}
 	modifier = {
 		factor = -1
 		strata = rich
@@ -983,24 +994,24 @@ emigration_chance =
 		is_primary_culture = no
 		is_accepted_culture = no
 	}
-	group = {
-		modifier = {
-			factor = -0.1
-			NOT = { consciousness = 4 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { consciousness = 3 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { consciousness = 2 }
-		}
-		modifier = {
-			factor = -0.1
-			NOT = { consciousness = 1 }
-		}
-	}
+	#group = {
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { consciousness = 4 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { consciousness = 3 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { consciousness = 2 }
+	#	}
+	#	modifier = {
+	#		factor = -0.1
+	#		NOT = { consciousness = 1 }
+	#	}
+	#}
 	modifier = {
 		factor = -5.0
 		OR = { 
@@ -1136,6 +1147,81 @@ emigration_chance =
 	modifier = {
 		factor = -0.5
 		country = { nationalvalue = nv_unity }
+	}
+	
+	group = {
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 1.0 }
+			NOT = { luxury_needs = 0.25 }
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.9 }
+			NOT = { luxury_needs = 0.25 }
+			literacy = 0.10
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.8 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.20
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.7 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.30
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.6 }
+			NOT = { luxury_needs = 0.25 }
+			location = { controlled_by = owner }
+			literacy = 0.40
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.5 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.50
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.4 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.60
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.3 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.70
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.2 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.80
+		}
+		modifier = {
+			factor = 0.05
+			NOT = { everyday_needs = 0.1 }
+			NOT = { luxury_needs = 0.25 }
+			NOT = { OR = { type = craftsmen  type = clerks } }
+			location = { controlled_by = owner }
+			literacy = 0.90
+		}
 	}
 }
 

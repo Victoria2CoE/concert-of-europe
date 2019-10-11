@@ -724,7 +724,7 @@ switched_production = {
 
 ##### Diseases & Famines #####
 pandemic_influenza = {
-	global_population_growth = -0.03
+	global_population_growth = -0.003
 	global_pop_consciousness_modifier = 0.1
 	icon = 84
 }
@@ -754,7 +754,7 @@ economic_trend = {
 }
 
 famine = {
-	population_growth = -0.01
+	population_growth = -0.001
 	icon = 85
 }
 
@@ -2304,19 +2304,19 @@ population_trend = {
 }
 
 point_five_children = {
-	global_population_growth = -0.006
+	global_population_growth = -0.003
 	education_efficiency_modifier = 0.6
 	icon = 66
 }
 
 one_child = {
-	global_population_growth = -0.004
+	global_population_growth = -0.002
 	education_efficiency_modifier = 0.4
 	icon = 67
 }
 
 one_point_five_children = {
-	global_population_growth = -0.002
+	global_population_growth = -0.001
 	education_efficiency_modifier = 0.2
 	icon = 68
 }
@@ -2333,7 +2333,7 @@ two_point_five_children = {
 
 three_children = {
 	global_population_growth = 0.002
-	education_efficiency_modifier = -0.20
+	education_efficiency_modifier = -0.2
 	icon = 71
 }
 

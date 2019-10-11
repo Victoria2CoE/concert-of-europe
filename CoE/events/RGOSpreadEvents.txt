@@ -18,14 +18,14 @@ province_event = {
 				owner = { invention = tractors }
 			}
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes
@@ -159,14 +159,14 @@ province_event = {
 			factor = 0.2
 			is_capital = yes
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.95
 			literacy = 0.9
@@ -347,14 +347,14 @@ province_event = {
 			factor = 0.2
 			is_capital = yes
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 1.5
 			NOT = {
@@ -544,13 +544,13 @@ province_event = {
 			is_capital = yes
 		}
         modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.95
 			literacy = 0.9
@@ -731,13 +731,13 @@ province_event = {
 			is_capital = yes
 		}
         modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 1.5
 			NOT = {
@@ -936,13 +936,13 @@ province_event = {
 			}
 		}
         modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes
@@ -1093,13 +1093,13 @@ province_event = {
 			}
 		}
         modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes
@@ -1251,13 +1251,13 @@ province_event = {
 			}
 		}
         modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes
@@ -1411,14 +1411,14 @@ province_event = {
 			factor = 0.2
 			is_capital = yes
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 5
 			owner = {
@@ -1564,14 +1564,14 @@ province_event = {
 				}
 			}
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes
@@ -1722,14 +1722,14 @@ province_event = {
 				}
 			}
 		}
-        modifier = {
-		factor = 4
-		owner = { land_property = serfdom }
-	    }
-        modifier = {
-		factor = 2
-		owner = { land_property = landed_estates }
-	    }
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
 		modifier = {
 			factor = 0.2
 			is_capital = yes

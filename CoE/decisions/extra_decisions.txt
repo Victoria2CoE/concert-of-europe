@@ -1843,13 +1843,17 @@ political_decisions = {
 	land_of_opportunity = {
 		picture = liberty_enlightening_the_world
 		potential = {
-			tag = USA
+		    OR = {
+			      capital_scope = { continent = north_america }
+			      capital_scope = { continent = south_america }
+			      capital_scope = { continent = oceania }
+			}
 			NOT = { has_country_flag = land_of_opportunity }
 		}
 		
 		allow = {
 			war = no
-			OR = { government = democracy government = democracy2 government = democracy3 }
+			#OR = { government = democracy government = democracy2 government = democracy3 }
 			romanticism = 1
 			idealism = 1
 		}
