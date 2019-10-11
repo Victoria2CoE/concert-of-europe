@@ -27,6 +27,7 @@ country_event = {
 				reduce_pop = 0.99
 			}
 			life_rating = -10
+			change_variable = { which = dt_rating  value = -10 }
 		}
 	}
 }
@@ -60,6 +61,7 @@ country_event = {
 				reduce_pop = 0.1
 			}
 			life_rating = -1
+			change_variable = { which = dt_rating  value = -1 }
 		}
 	}
 }

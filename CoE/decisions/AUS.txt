@@ -634,6 +634,7 @@ political_decisions = {
 					}
 				}
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 			}
 			prestige = 25
 			set_country_flag = grunderzeit_we_have_done

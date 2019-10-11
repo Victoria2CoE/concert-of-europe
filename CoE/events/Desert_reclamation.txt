@@ -432,6 +432,7 @@ country_event = {
 		money = -5000
 		2591 = {
 			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
 			secede_province = THIS
 		}
 		ai_chance = {
@@ -446,7 +447,7 @@ country_event = {
 	option = {
 		name = "Yet more ice for the $COUNTRY_ADJ$ Empire?"
 		prestige = -3
-		2591 = { life_rating = 5 }
+		2591 = { life_rating = 5  change_variable = { which = dt_rating  value = 5 } }
 		ai_chance = {
 			factor = 25
 			modifier = {

@@ -959,6 +959,7 @@ country_event = {
 			}
 			1864 = {
 				life_rating = 15
+				change_variable = { which = dt_rating  value = 15 }
 				secede_province = THIS
 				any_pop = { militancy = 4 }
 			}
@@ -971,6 +972,7 @@ country_event = {
 			}
 			1866 = {
 				life_rating = 15
+				change_variable = { which = dt_rating  value = 15 }
 				secede_province = THIS
 				any_pop = { militancy = 4 }
 			}
@@ -983,6 +985,7 @@ country_event = {
 			}
 			1867 = {
 				life_rating = 15
+				change_variable = { which = dt_rating  value = 15 }
 				secede_province = THIS
 				any_pop = { militancy = 4 }
 			}

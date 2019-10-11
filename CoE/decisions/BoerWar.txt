@@ -399,6 +399,7 @@ political_decisions = {
 						secede_province = THIS 
 						change_province_name = "Beaufort"
 						life_rating = 15
+						change_variable = { which = dt_rating  value = 15 }
 					}
 			}
 				random_owned = {
@@ -406,6 +407,7 @@ political_decisions = {
 						secede_province = THIS 
 						change_province_name = "Calvinia"
 						life_rating = 15
+						change_variable = { which = dt_rating  value = 15 }
 					}
 			}
 				random_owned = {
@@ -413,6 +415,7 @@ political_decisions = {
 						secede_province = THIS 
 						change_province_name = "De Aar"
 						life_rating = 15
+						change_variable = { which = dt_rating  value = 15 }
 					}
 			}
 		ai_will_do = { factor = 1 }

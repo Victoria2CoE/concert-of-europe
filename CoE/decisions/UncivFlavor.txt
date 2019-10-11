@@ -406,9 +406,9 @@ political_decisions = {
 				who = EGY
 				value = 50
 			}
-			1864 = { life_rating = 15 }
-			1866 = { life_rating = 15 }
-			1867 = { life_rating = 15 }	
+			1864 = { life_rating = 15  change_variable = { which = dt_rating  value = 15 } }
+			1866 = { life_rating = 15  change_variable = { which = dt_rating  value = 15 } }
+			1867 = { life_rating = 15  change_variable = { which = dt_rating  value = 15 } }	
 		}
 	}
 	
@@ -432,6 +432,7 @@ political_decisions = {
 			1859 = {
 				change_province_name = "Addis Ababa"
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 			}
 			capital = 1859
 		}

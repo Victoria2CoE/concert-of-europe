@@ -329,6 +329,7 @@ political_decisions = {
 			641 = {
 				change_province_name = "Budapest"
 				life_rating = 1
+				change_variable = { which = dt_rating  value = 1 }
 			}
 		}
 		

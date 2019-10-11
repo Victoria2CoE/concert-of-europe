@@ -1492,6 +1492,7 @@ country_event = {
 			add_core = SAF
 			secede_province = THIS
 			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
 		}
 		ai_chance = {
 			factor = 95

@@ -263,6 +263,7 @@ political_decisions = {
 		effect = {
 			2325 = {
 				life_rating = 10
+				change_variable = { which = dt_rating  value = 10 }
 				add_province_modifier = {
 					name = gateway_to_harbor
 					duration = -1

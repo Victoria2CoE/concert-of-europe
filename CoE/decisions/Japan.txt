@@ -1042,6 +1042,7 @@ political_decisions = {
 			remove_country_modifier = kobu_gattai
 			1649 = {
 				life_rating = 10
+				change_variable = { which = dt_rating  value = 10 }
 				add_province_modifier = {
 					name = gateway_to_harbor
 					duration = -1
@@ -1155,6 +1156,7 @@ political_decisions = {
 			2525 = {
 				add_core = THIS
 				life_rating = 15
+				change_variable = { which = dt_rating  value = 15 }
 				change_province_name = "Minami Torishima"
 				state_scope = {
 					change_region_name = "Ogasawara"

@@ -1721,6 +1721,7 @@ country_event = {
 		capital = 1649
 		1649 = {
 			life_rating = 10
+			change_variable = { which = dt_rating  value = 10 }
 			add_province_modifier = {
 				name = gateway_to_harbor
 				duration = -1
@@ -1737,6 +1738,7 @@ country_event = {
 		set_country_flag = capital_in_the_east
 		1657 = {
 			life_rating = 10
+			change_variable = { which = dt_rating  value = 10 }
 			add_province_modifier = {
 				name = gateway_to_harbor
 				duration = -1
@@ -1825,6 +1827,7 @@ country_event = {
 		prestige = 20
 		1649 = {
 			life_rating = 10
+			change_variable = { which = dt_rating  value = 10 }
 			add_province_modifier = {
 				name = gateway_to_harbor
 				duration = -1
@@ -2266,6 +2269,7 @@ country_event = {
 			}
 			1087 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}

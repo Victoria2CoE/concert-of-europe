@@ -2040,6 +2040,7 @@ country_event = {
 				}
 			}
 			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
 		}
 		any_pop = {
 			limit = {
@@ -2081,6 +2082,7 @@ country_event = {
 		2509 = {
 			secede_province = AOT
 			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
 		}
 		capital = 2571
 		relation = { who = ENG value = 50 }
@@ -4219,6 +4221,7 @@ country_event = {
 			}
 			25 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4235,6 +4238,7 @@ country_event = {
 			}
 			26 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4250,6 +4254,7 @@ country_event = {
 			}
 			28 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4264,6 +4269,7 @@ country_event = {
 			}
 			29 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4277,6 +4283,7 @@ country_event = {
 			}
 			35 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4289,6 +4296,7 @@ country_event = {
 			}
 			30 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4300,6 +4308,7 @@ country_event = {
 			}
 			41 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4310,6 +4319,7 @@ country_event = {
 			}
 			36 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}
@@ -4319,6 +4329,7 @@ country_event = {
 			}
 			42 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 				secede_province = THIS
 			}
 		}

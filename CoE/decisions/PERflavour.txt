@@ -154,6 +154,7 @@ political_decisions = {
 			set_country_flag = niavaran_palace_built
 			capital_scope = {
 				life_rating = 1
+				change_variable = { which = dt_rating  value = 1 }
 				add_province_modifier = {
 					name = new_fancy_palace_modifier
 					duration = 3650

@@ -26,6 +26,7 @@ political_decisions = {
 			plurality = 1
 			capital_scope = {
 				life_rating = 1
+				change_variable = { which = dt_rating  value = 1 }
 			}
 		}
 	}

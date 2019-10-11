@@ -2024,14 +2024,14 @@ country_event = {
 	option = {
 		name = "You have died of Dysentery."
 		set_country_flag = oregon_trail
-		20 = { life_rating = 5 }
-		21 = { life_rating = 5 }
-		78 = { life_rating = 5 }
-		79 = { life_rating = 5 }
-		80 = { life_rating = 5 }
-		81 = { life_rating = 5 }
-		82 = { life_rating = 5 }
-		83 = { life_rating = 5 }
+		20 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		21 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		78 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		79 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		80 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		81 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		82 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		83 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
 		ENG = { country_event = 44149 }
 	}
 }

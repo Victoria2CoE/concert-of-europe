@@ -326,6 +326,7 @@ political_decisions = {
 			consciousness = 3
 			2209 = {
 				life_rating = 5
+				change_variable = { which = dt_rating  value = 5 }
 			}
 			set_country_flag = capital_moved_csa
 		}

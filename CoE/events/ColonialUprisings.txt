@@ -2328,6 +2328,7 @@ country_event = {
 			}
 			any_owned = {
 				life_rating = -1
+change_variable = { which = dt_rating  value = -1 }
 			}
 		}
 		ai_chance = {
@@ -2400,6 +2401,7 @@ country_event = {
 			}
 			any_owned = {
 				life_rating = 1
+				change_variable = { which = dt_rating  value = 1 }
 			}
 		}
 	}

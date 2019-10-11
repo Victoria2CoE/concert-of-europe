@@ -1078,6 +1078,7 @@ province_event = {
 	option = {
 		name = "Excellent!"
 		life_rating = 10
+		change_variable = { which = dt_rating  value = 10 }
 		any_pop = {
 			limit = { has_pop_culture = patagonian }
 			militancy = 8
