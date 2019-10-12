@@ -737,7 +737,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = { has_pop_culture = boer }
-			militany = -4
+			militancy = -4
 			consciousness = -3
 		}
 		ORA = { political_reform = no_slavery }
@@ -785,7 +785,7 @@ country_event = {
 		set_global_flag = boer_convention_denied
 		prestige = 10
 		badboy = 4
-		pluraity = -2
+		plurality = -2
 		relation = { who = TRN value = -100 }
 		relation = { who = ORA value = -100 }
 		leave_alliance = TRN
@@ -796,7 +796,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = { has_pop_culture = boer }
-			militany = 4
+			militancy = 4
 			consciousness = 3
 		}
 		add_casus_belli = {

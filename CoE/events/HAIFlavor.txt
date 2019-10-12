@@ -68,7 +68,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA45101"
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed

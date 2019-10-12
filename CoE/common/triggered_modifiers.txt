@@ -1,7 +1,7 @@
-# Triggered modifiers are here. #
-# these are checked for each countries once/month and then applied. #
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
 #
-# Effects are fully scriptable here. #
+# Effects are fully scriptable here.
 
 the_british_raj = {
 	trigger = {

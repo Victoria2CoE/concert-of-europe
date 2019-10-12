@@ -1181,7 +1181,7 @@ country_event = {
 	option = {
 		name = "The money is better spent on other things."
 		prestige = -3
-		random_neighbor_country = {
+		random_neighbor = {
 			relation = {
 				who = PER
 				value = 50
@@ -2583,8 +2583,9 @@ country_event = {
 			prestige = 20
 		}
 	 casus_belli = {
+	    target = KHR
 		type = conquest_any
-		duration = 60
+		months = 60
 	 }
      war = {
        target = KHR
@@ -4342,7 +4343,7 @@ country_event = {
 		any_country = {
 			limit = {
 				tag = THIS
-				social_reform_name = elite
+				education = elite
 			}
 			any_pop = {
 				limit = {
@@ -4373,7 +4374,7 @@ country_event = {
 		any_country = {
 			limit = {
 				tag = THIS
-				social_reform_name = church
+				education = church
 			}
 			any_pop = {
 				limit = {
@@ -4404,7 +4405,7 @@ country_event = {
 		any_country = {
 			limit = {
 				tag = THIS
-				social_reform_name = public
+				education = public
 			}
 			any_pop = {
 				limit = {

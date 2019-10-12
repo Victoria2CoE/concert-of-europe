@@ -8,6 +8,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	mean_time_to_happen = { months = 3 }
+	
 	option = {
 		name = "We have no other choice..."
 		prestige = -5
@@ -55,7 +57,6 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		mean_time_to_happen = { months = 3 }
 	}
 }
 
@@ -68,6 +69,8 @@ country_event = {
 	picture = "blood_river"
 	
 	is_triggered_only = yes
+	
+	mean_time_to_happen = { months = 5 }
 	
 	option = {
 		name = "An excellent development!"
@@ -91,7 +94,6 @@ country_event = {
 		ai_chance = {
 			factor = 2
 		}
-		mean_time_to_happen = { months = 5 }
 	}
 
 country_event = { 

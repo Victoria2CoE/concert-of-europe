@@ -475,7 +475,7 @@ country_event = {
 		clr_global_flag = entre_rios_rebellion
 		set_country_flag = entre_rios_has_happened
 		prestige = 5
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = no_slavery
 		political_reform = landed_voting

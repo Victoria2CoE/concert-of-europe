@@ -609,6 +609,7 @@ country_event = {
 		name = "We welcome their assistance."
 		prestige = 2
 		war = {
+		    target = TUR
 			attacker_goal = {
 				casus_belli = call_allies_cb
 			}
@@ -759,6 +760,7 @@ country_event = {
 		name = "Then arms will decide it."
 		TUR = {
 			war = {
+			    target = EGY
 				attacker_goal = {
 					casus_belli = call_allies_cb
 				}
