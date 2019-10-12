@@ -51,8 +51,6 @@ country_event = {
 		NOT = { has_global_flag = bab_has_appeared }
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -389,8 +387,6 @@ country_event = {
 		}
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -596,8 +592,6 @@ country_event = {
 			average_consciousness = 2
 		}
 	}
-	
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 8
@@ -960,8 +954,6 @@ country_event = {
 		}
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
@@ -1165,8 +1157,6 @@ country_event = {
 		NOT = { has_country_flag = pahlavis_usurped }
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 10
 		modifier = {
@@ -1215,8 +1205,6 @@ country_event = {
 		has_country_flag = mohammad_shah
 		NOT = { has_country_flag = naser_al_din }
 	}
-	
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 11
@@ -1324,8 +1312,6 @@ country_event = {
 		has_country_flag = naser_al_din
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -1420,8 +1406,6 @@ country_event = {
 		war = no
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
 		months = 8
 	}
@@ -1485,8 +1469,6 @@ country_event = {
 		civilized = yes
 		year = 1900
 	}
-	
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 72
@@ -1559,8 +1541,6 @@ country_event = {
             OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
         }
     }
-	
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 48
@@ -2325,7 +2305,6 @@ country_event = {
 			has_global_flag = tobacco_regie_flag
 		}
 	}
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 120
