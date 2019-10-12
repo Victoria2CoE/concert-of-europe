@@ -2647,7 +2647,7 @@ artisan_mechanist = {
 	coal = 12
     iron = 14
  	}
-	output_goods = print
+	output_goods = machine_parts
 	value = 23
 
 	owner = {
