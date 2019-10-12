@@ -2641,3 +2641,21 @@ artisan_newspaper = {
 
 	workforce = 10000
 }
+
+artisan_mechanist = {
+	input_goods = {
+	coal = 12
+    iron = 14
+ 	}
+	output_goods = print
+	value = 23
+
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+
+	type = artisan
+
+	workforce = 10000
+}
