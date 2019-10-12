@@ -1797,7 +1797,7 @@ artisan_barrel = {
 	value = 10
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1816,7 +1816,7 @@ artisan_radio = {
 	value = 32
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1834,7 +1834,7 @@ artisan_telephone = {
 	value = 40
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1854,7 +1854,7 @@ artisan_electric_gear = {
 	value = 44
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1872,7 +1872,7 @@ artisan_machine_parts = {
 	value = 22.5
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1890,7 +1890,7 @@ artisan_machine_parts2 = {
 	value = 22.5
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1908,7 +1908,7 @@ artisan_machine_parts3 = {
 	value = 22.5
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1928,7 +1928,7 @@ artisan_luxury_clothes = {
 	value = 5.6
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1946,7 +1946,7 @@ artisan_luxury_furniture = {
 	value = 5
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1968,7 +1968,7 @@ artisan_steel = {
 	value = 56
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -1986,7 +1986,7 @@ artisan_artillery = {
 	value = 15
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2004,7 +2004,7 @@ artisan_artillery2 = {
 	value = 15
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2022,7 +2022,7 @@ artisan_artillery3 = {
 	value = 15
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2042,13 +2042,12 @@ artisan_clipper = {
 	value = 9
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
 	type = artisan
 
-	is_coastal = yes
 	workforce = 10000
 }
 
@@ -2060,7 +2059,7 @@ artisan_small_arms = {
 	value = 28
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2077,7 +2076,7 @@ artisan_small_arms2 = {
 	value = 28
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2094,7 +2093,7 @@ artisan_small_arms3 = {
 	value = 28
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2114,7 +2113,7 @@ artisan_furniture = {
 	value = 26
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2131,7 +2130,7 @@ artisan_paper = {
 	value = 80
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2148,7 +2147,7 @@ artisan_cottonweave = {
 	value = 80
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2166,7 +2165,7 @@ artisan_regular_clothes = {
 	value = 32
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2184,7 +2183,7 @@ artisan_regular_silk_clothes = {
 	value = 32
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2201,7 +2200,7 @@ artisan_explosives = {
 	value = 32
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2221,7 +2220,7 @@ artisan_ammunition = {
 	value = 112
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2238,7 +2237,7 @@ artisan_canned_food = {
 	value = 100
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2257,7 +2256,7 @@ artisan_liquor = {
 	value = 56
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2275,7 +2274,7 @@ artisan_winery = {
 
 	value = 32
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2295,7 +2294,7 @@ artisan_lumber = {
 	value = 114
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2312,7 +2311,7 @@ artisan_fabric = {
 	value = 64
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2329,7 +2328,7 @@ artisan_cement = {
 	value = 56
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2347,7 +2346,7 @@ artisan_glass = {
 	value = 64
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2364,7 +2363,7 @@ artisan_fertilizer = {
 	value = 64
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2382,7 +2381,7 @@ artisan_cigar = {
 	output_goods = cigars
 	value = 32
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2399,7 +2398,7 @@ artisan_cigarette = {
 	output_goods = cigarettes
 	value = 90
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2418,7 +2417,7 @@ artisan_horsebreeder = {
 	output_goods = horses
 	value = 70
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2435,7 +2434,7 @@ artisan_cobbler = {
 	output_goods = shoes
 	value = 74
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2452,7 +2451,7 @@ artisan_shoemaker = {
 	output_goods = boots
 	value = 32
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2468,7 +2467,7 @@ artisan_weaver = {
 	output_goods = fabric
 	value = 64
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2487,7 +2486,7 @@ artisan_baker = {
 	value = 100
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2504,7 +2503,7 @@ artisan_fishmonger = {
 	value = 100
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2521,7 +2520,7 @@ artisan_costermonger = {
 	value = 100
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2542,7 +2541,7 @@ artisan_bronzeworker = {
 	value = 75
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2559,7 +2558,7 @@ artisan_moonshiner = {
 	value = 56
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2578,7 +2577,7 @@ artisan_powderer = {
 	value = 112
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2596,7 +2595,7 @@ artisan_chemist = {
 	value = 90
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2616,7 +2615,7 @@ artisan_tropic_lumber = {
 	value = 108
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2633,7 +2632,7 @@ artisan_newspaper = {
 	value = 150
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
@@ -2651,7 +2650,7 @@ artisan_mechanist = {
 	value = 23
 
 	owner = {
-		poptype = artisan
+		poptype = artisans
 		effect = output
 	}
 
