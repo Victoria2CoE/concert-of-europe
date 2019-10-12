@@ -120,6 +120,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -333,6 +334,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -435,6 +437,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -547,6 +550,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -769,6 +773,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -864,6 +869,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -969,6 +975,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -1321,6 +1328,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
@@ -1395,6 +1403,7 @@ country_event = {
 						tag = DNB
 						tag = BAN
 						tag = UBD
+						tag = SWI
 					}
 					OR = {
 						is_vassal = no
