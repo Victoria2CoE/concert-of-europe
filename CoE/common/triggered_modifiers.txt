@@ -1,7 +1,7 @@
-# Triggered modifiers are here.
-# these are checked for each countries once/month and then applied.
+# Triggered modifiers are here. #
+# these are checked for each countries once/month and then applied. #
 #
-# Effects are fully scriptable here.
+# Effects are fully scriptable here. #
 
 the_british_raj = {
 	trigger = {
@@ -781,6 +781,15 @@ money_hoarder_3 = {
 	}
 	tax_efficiency = -0.30
 	tariff_efficiency_modifier = -0.75
+	icon = 1
+}
+
+money_hoarder_4 = {
+	trigger = {
+			  money = 1000000000
+	}
+	tax_efficiency = -10.00
+	tariff_efficiency_modifier = -10.00
 	icon = 1
 }
 
