@@ -1,695 +1,695 @@
-province_event = {
-	id = 999999
-	title = EVTNAME999999
-	desc = EVTDESC999999
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = water_wheel_power }
-	 water_wheel_power = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = water_wheel_power
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999998
-	title = EVTNAME999998
-	desc = EVTDESC999998
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = practical_steam_engine }
-	 practical_steam_engine = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = practical_steam_engine
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999997
-	title = EVTNAME999997
-	desc = EVTDESC999997
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = high_n_low_pressure_steam_engines }
-	 high_n_low_pressure_steam_engines = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = high_n_low_pressure_steam_engines
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999996
-	title = EVTNAME999996
-	desc = EVTDESC999996
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = steam_turbine }
-	 steam_turbine = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = steam_turbine
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999995
-	title = EVTNAME999995
-	desc = EVTDESC999995
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = combustion_engine }
-	 combustion_engine = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = combustion_engine
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999994
-	title = EVTNAME999994
-	desc = EVTDESC999994
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = electrical_power_generation }
-	 electrical_power_generation = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = electrical_power_generation
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999993
-	title = EVTNAME999993
-	desc = EVTDESC999993
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = modern_power_generation }
-	 modern_power_generation = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = modern_power_generation
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999992
-	title = EVTNAME999992
-	desc = EVTDESC999992
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = publishing_industry }
-	 publishing_industry = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = publishing_industry
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999991
-	title = EVTNAME999991
-	desc = EVTDESC999991
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = mechanical_production }
-	 mechanical_production = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = mechanical_production
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999990
-	title = EVTNAME999990
-	desc = EVTDESC999990
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = interchangeable_parts }
-	 interchangeable_parts = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = interchangeable_parts
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999989
-	title = EVTNAME999989
-	desc = EVTDESC999989
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = semi_automatization }
-	 semi_automatization = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = semi_automatization
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999988
-	title = EVTNAME999988
-	desc = EVTDESC999988
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = assembly_line }
-	 assembly_line = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = assembly_line
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999987
-	title = EVTNAME999987
-	desc = EVTDESC999987
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = shift_work }
-	 shift_work = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = shift_work
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999986
-	title = EVTNAME999986
-	desc = EVTDESC999986
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = mechanized_manufacture }
-	 mechanized_manufacture = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = mechanized_manufacture
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999985
-	title = EVTNAME999985
-	desc = EVTDESC999985
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = electricity }
-	 electricity = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = electricity
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999984
-	title = EVTNAME999984
-	desc = EVTDESC999984
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = freedom_of_trade }
-	 freedom_of_trade = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = freedom_of_trade
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999983
-	title = EVTNAME999983
-	desc = EVTDESC999983
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = market_structure }
-	 market_structure = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = market_structure
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999982
-	title = EVTNAME999982
-	desc = EVTDESC999982
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = business_regulations }
-	 business_regulations = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = business_regulations
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999981
-	title = EVTNAME999981
-	desc = EVTDESC999981
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = market_regulations }
-	 market_regulations = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = market_regulations
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999980
-	title = EVTNAME999980
-	desc = EVTDESC999980
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = economic_responsibility }
-	 economic_responsibility = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = economic_responsibility
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999979
-	title = EVTNAME999979
-	desc = EVTDESC999979
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = government_interventionism }
-	 government_interventionism = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = government_interventionism
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999978
-	title = EVTNAME999978
-	desc = EVTDESC999978
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = globalized_markets }
-	 globalized_markets = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = globalized_markets
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999977
-	title = EVTNAME999977
-	desc = EVTDESC999977
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = early_classical_theory_and_critique }
-	 early_classical_theory_and_critique = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = early_classical_theory_and_critique
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999976
-	title = EVTNAME999976
-	desc = EVTDESC999976
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = late_classical_theory }
-	 late_classical_theory = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = late_classical_theory
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999975
-	title = EVTNAME999975
-	desc = EVTDESC999975
-	picture = "communist_crowd"
-
-	trigger = {
-     NOT = { has_country_modifier = collectivist_theory }
-	 collectivist_theory = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = collectivist_theory
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999974
-	title = EVTNAME999974
-	desc = EVTDESC999974
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = the_historical_theory }
-	 the_historical_theory = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = the_historical_theory
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999973
-	title = EVTNAME999973
-	desc = EVTDESC999973
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = neoclassical_theory }
-	 neoclassical_theory = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = neoclassical_theory
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999972
-	title = EVTNAME999972
-	desc = EVTDESC999972
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = keynesian_economics }
-	 keynesian_economics = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = keynesian_economics
-			duration = -1
-		}
-	}
-}
-
-province_event = {
-	id = 999971
-	title = EVTNAME999971
-	desc = EVTDESC999971
-	picture = "auction"
-
-	trigger = {
-     NOT = { has_country_modifier = neoliberal_theory }
-	 neoliberal_theory = 1
-	 }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Why can't people be less wasteful"
-		add_country_modifier = {
-			name = neoliberal_theory
-			duration = -1
-		}
-	}
-}
+#province_event = {
+#	id = 999999
+#	title = EVTNAME999999
+#	desc = EVTDESC999999
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = water_wheel_power }
+#	 water_wheel_power = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = water_wheel_power
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999998
+#	title = EVTNAME999998
+#	desc = EVTDESC999998
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = practical_steam_engine }
+#	 practical_steam_engine = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = practical_steam_engine
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999997
+#	title = EVTNAME999997
+#	desc = EVTDESC999997
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = high_n_low_pressure_steam_engines }
+#	 high_n_low_pressure_steam_engines = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = high_n_low_pressure_steam_engines
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999996
+#	title = EVTNAME999996
+#	desc = EVTDESC999996
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = steam_turbine }
+#	 steam_turbine = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = steam_turbine
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999995
+#	title = EVTNAME999995
+#	desc = EVTDESC999995
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = combustion_engine }
+#	 combustion_engine = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = combustion_engine
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999994
+#	title = EVTNAME999994
+#	desc = EVTDESC999994
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = electrical_power_generation }
+#	 electrical_power_generation = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = electrical_power_generation
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999993
+#	title = EVTNAME999993
+#	desc = EVTDESC999993
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = modern_power_generation }
+#	 modern_power_generation = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = modern_power_generation
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999992
+#	title = EVTNAME999992
+#	desc = EVTDESC999992
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = publishing_industry }
+#	 publishing_industry = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = publishing_industry
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999991
+#	title = EVTNAME999991
+#	desc = EVTDESC999991
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = mechanical_production }
+#	 mechanical_production = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = mechanical_production
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999990
+#	title = EVTNAME999990
+#	desc = EVTDESC999990
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = interchangeable_parts }
+#	 interchangeable_parts = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = interchangeable_parts
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999989
+#	title = EVTNAME999989
+#	desc = EVTDESC999989
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = semi_automatization }
+#	 semi_automatization = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = semi_automatization
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999988
+#	title = EVTNAME999988
+#	desc = EVTDESC999988
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = assembly_line }
+#	 assembly_line = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = assembly_line
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999987
+#	title = EVTNAME999987
+#	desc = EVTDESC999987
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = shift_work }
+#	 shift_work = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = shift_work
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999986
+#	title = EVTNAME999986
+#	desc = EVTDESC999986
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = mechanized_manufacture }
+#	 mechanized_manufacture = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = mechanized_manufacture
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999985
+#	title = EVTNAME999985
+#	desc = EVTDESC999985
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = electricity }
+#	 electricity = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = electricity
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999984
+#	title = EVTNAME999984
+#	desc = EVTDESC999984
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = freedom_of_trade }
+#	 freedom_of_trade = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = freedom_of_trade
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999983
+#	title = EVTNAME999983
+#	desc = EVTDESC999983
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = market_structure }
+#	 market_structure = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = market_structure
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999982
+#	title = EVTNAME999982
+#	desc = EVTDESC999982
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = business_regulations }
+#	 business_regulations = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = business_regulations
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999981
+#	title = EVTNAME999981
+#	desc = EVTDESC999981
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = market_regulations }
+#	 market_regulations = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = market_regulations
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999980
+#	title = EVTNAME999980
+#	desc = EVTDESC999980
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = economic_responsibility }
+#	 economic_responsibility = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = economic_responsibility
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999979
+#	title = EVTNAME999979
+#	desc = EVTDESC999979
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = government_interventionism }
+#	 government_interventionism = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = government_interventionism
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999978
+#	title = EVTNAME999978
+#	desc = EVTDESC999978
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = globalized_markets }
+#	 globalized_markets = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = globalized_markets
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999977
+#	title = EVTNAME999977
+#	desc = EVTDESC999977
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = early_classical_theory_and_critique }
+#	 early_classical_theory_and_critique = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = early_classical_theory_and_critique
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999976
+#	title = EVTNAME999976
+#	desc = EVTDESC999976
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = late_classical_theory }
+#	 late_classical_theory = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = late_classical_theory
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999975
+#	title = EVTNAME999975
+#	desc = EVTDESC999975
+#	picture = "communist_crowd"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = collectivist_theory }
+#	 collectivist_theory = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = collectivist_theory
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999974
+#	title = EVTNAME999974
+#	desc = EVTDESC999974
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = the_historical_theory }
+#	 the_historical_theory = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = the_historical_theory
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999973
+#	title = EVTNAME999973
+#	desc = EVTDESC999973
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = neoclassical_theory }
+#	 neoclassical_theory = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = neoclassical_theory
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999972
+#	title = EVTNAME999972
+#	desc = EVTDESC999972
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = keynesian_economics }
+#	 keynesian_economics = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = keynesian_economics
+#			duration = -1
+#		}
+#	}
+#}
+#
+#province_event = {
+#	id = 999971
+#	title = EVTNAME999971
+#	desc = EVTDESC999971
+#	picture = "auction"
+#
+#	trigger = {
+#     NOT = { has_country_modifier = neoliberal_theory }
+#	 neoliberal_theory = 1
+#	 }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Why can't people be less wasteful"
+#		add_country_modifier = {
+#			name = neoliberal_theory
+#			duration = -1
+#		}
+#	}
+#}
