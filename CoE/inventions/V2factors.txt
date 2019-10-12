@@ -178,7 +178,7 @@ eugenics  = {
 		}
 	}
 	effect = {
-		pop_growth = -0.0001		
+		#pop_growth = -0.0001		
 	}
 	core_pop_consciousness_modifier = 0.01	
 }

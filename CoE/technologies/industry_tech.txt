@@ -419,7 +419,7 @@ combustion_engine = {
 	factory_goods_throughput = {
 		financial_services = -0.05
 	}
-	pop_growth = -0.0001 
+	#pop_growth = -0.0001 
    poor_life_needs = 0.1
    middle_life_needs = 0.1
    rich_life_needs = 0.1
@@ -3152,7 +3152,7 @@ electricity = {
 	cost = 20000
 	supply_limit = 0.25
 	soldier_to_pop_loss = 0.01
-	pop_growth = -0.0001
+	#pop_growth = -0.0001
    poor_life_needs = 0.05
    middle_life_needs = 0.05
    rich_life_needs = 0.05

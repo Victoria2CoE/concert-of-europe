@@ -1475,22 +1475,22 @@ promote_to = {
 				}
 			}
 		}
-		modifier = {
-		factor = -10
-		country = { land_property = serfdom }
-		}
-		modifier = {
-		factor = -7.5
-		country = { land_property = landed_estates }
-		}
-		modifier = {
-		factor = -5
-		country = { land_property = commoners_properties }
-		}
-		modifier = {
-		factor = 5
-		country = { land_property = collectivization }
-		}
+		#modifier = {
+		#factor = -10
+		#country = { land_property = serfdom }
+		#}
+		#modifier = {
+		#factor = -7.5
+		#country = { land_property = landed_estates }
+		#}
+		#modifier = {
+		#factor = -5
+		#country = { land_property = commoners_properties }
+		#}
+		#modifier = {
+		#factor = 5
+		#country = { land_property = collectivization }
+		#}
 		modifier = {
 			factor = 2
 			pre_indust = yes_pre_indust
@@ -1538,59 +1538,59 @@ promote_to = {
 		state_scope = { is_slave = yes }
 		}
 		modifier = {
-			factor = -2
-			not = { literacy = 0.18 }
-		}
-		modifier = {
-			factor = -2
-			not = { literacy = 0.16 }
-		}
-		modifier = {
-			factor = -2
-			not = { literacy = 0.14 }
-		}
-		modifier = {
-			factor = -2
-			not = { literacy = 0.12 }
-		}
-		modifier = {
-			factor = -2
-			not = { literacy = 0.10 }
+			factor = 1
+			literacy = 0.18
 		}
 		modifier = {
 			factor = 1
+			literacy = 0.16
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.14
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.12
+		}
+		modifier = {
+			factor = 2
+			literacy = 0.10
+		}
+		modifier = {
+			factor = 2
 			literacy = 0.20
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.30
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.40 
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.50 
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.60 
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.70 
 		}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.80 
 			}
 		modifier = {
-			factor = 1
+			factor = 2
 			literacy = 0.90 
 			}
 		modifier = {
-			factor = 2
+			factor = 3
 			literacy = 1 
 		}
 		modifier = {

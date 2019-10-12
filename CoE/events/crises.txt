@@ -683,128 +683,128 @@ province_event = {
 #												#
 #################################################
 
-#Option to enable crises from the beginning
-country_event = {
-	id = 20120
-	title = "EVTNAME20120"
-	desc = "EVTDESC20120"
-	picture = "danishgovernment"
-		
-	trigger = {
-		ai = no
-		NOT = { has_global_flag = the_watchers_on_the_wall }
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = { days = 3 }
-	
-	option = {
-		name = "Disable crises for now"
-		set_global_flag = the_watchers_on_the_wall
-	}
-	
-	option = {
-		name = "I prefer there to be crises"
-		
-	}
-}
-
-country_event = {
-	id = 20121
-	title = "EVTNAME20121"
-	desc = "EVTDESC20121"
-	picture = "deliberation"
-	
-	trigger = {
-		exists = yes
-		has_global_flag = the_watchers_on_the_wall
-		revolution_n_counterrevolution = 1
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = { 
-		months = 24
-			modifier = {
-			factor = 0.1
-			ai = yes
-		}
-	}
-	
-	option = {
-		name = "Oh noes... Does this mean... Crises?!"
-		clr_global_flag = the_watchers_on_the_wall
-	}
-}
-
-country_event = {
-	id = 20122
-	title = "EVTNAME20122"
-	desc = "EVTDESC20122"
-	picture = "deliberation"
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		tag = BHU
-		has_global_flag = the_watchers_on_the_wall
-	}
-	
-	option = {
-		name = "And so my watch begins..."
-		BHU = {
-			any_state = {
-				limit = {
-					has_flashpoint = yes
-					flashpoint_tension = 5
-				}
-				flashpoint_tension = -99
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = { badboy = 0.7 }
-				any_state = { 
-					flashpoint_tension = 5
-				}
-			}
-			any_state = {
-				limit = {
-					has_flashpoint = yes
-					flashpoint_tension = 5
-				}
-				flashpoint_tension = -99
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 20123
-	title = "EVTNAME20122"
-	desc = "EVTDESC20122"
-	picture = "deliberation"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "And so my watch begins..."
-		ENG = {
-			259 = {
-				state_scope = { flashpoint_tension = 99 }
-			}
-		}
-		NET = {
-			392 = {
-				state_scope = { flashpoint_tension = 99 }
-			}
-		}
-		TUR = {
-			783 = {
-				state_scope = { flashpoint_tension = 99 }
-			}
-		}
-	}
-}
+##Option to enable crises from the beginning
+#country_event = {
+#	id = 20120
+#	title = "EVTNAME20120"
+#	desc = "EVTDESC20120"
+#	picture = "danishgovernment"
+#		
+#	trigger = {
+#		ai = no
+#		NOT = { has_global_flag = the_watchers_on_the_wall }
+#	}
+#	
+#	fire_only_once = yes
+#	
+#	mean_time_to_happen = { days = 3 }
+#	
+#	option = {
+#		name = "Disable crises for now"
+#		set_global_flag = the_watchers_on_the_wall
+#	}
+#	
+#	option = {
+#		name = "I prefer there to be crises"
+#		
+#	}
+#}
+#
+#country_event = {
+#	id = 20121
+#	title = "EVTNAME20121"
+#	desc = "EVTDESC20121"
+#	picture = "deliberation"
+#	
+#	trigger = {
+#		exists = yes
+#		has_global_flag = the_watchers_on_the_wall
+#		revolution_n_counterrevolution = 1
+#	}
+#	
+#	fire_only_once = yes
+#	
+#	mean_time_to_happen = { 
+#		months = 24
+#			modifier = {
+#			factor = 0.1
+#			ai = yes
+#		}
+#	}
+#	
+#	option = {
+#		name = "Oh noes... Does this mean... Crises?!"
+#		clr_global_flag = the_watchers_on_the_wall
+#	}
+#}
+#
+#country_event = {
+#	id = 20122
+#	title = "EVTNAME20122"
+#	desc = "EVTDESC20122"
+#	picture = "deliberation"
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		tag = BHU
+#		has_global_flag = the_watchers_on_the_wall
+#	}
+#	
+#	option = {
+#		name = "And so my watch begins..."
+#		BHU = {
+#			any_state = {
+#				limit = {
+#					has_flashpoint = yes
+#					flashpoint_tension = 5
+#				}
+#				flashpoint_tension = -99
+#			}
+#		}
+#		any_country = {
+#			limit = {
+#				NOT = { badboy = 0.7 }
+#				any_state = { 
+#					flashpoint_tension = 5
+#				}
+#			}
+#			any_state = {
+#				limit = {
+#					has_flashpoint = yes
+#					flashpoint_tension = 5
+#				}
+#				flashpoint_tension = -99
+#			}
+#		}
+#	}
+#}
+#
+#country_event = {
+#	id = 20123
+#	title = "EVTNAME20122"
+#	desc = "EVTDESC20122"
+#	picture = "deliberation"
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "And so my watch begins..."
+#		ENG = {
+#			259 = {
+#				state_scope = { flashpoint_tension = 99 }
+#			}
+#		}
+#		NET = {
+#			392 = {
+#				state_scope = { flashpoint_tension = 99 }
+#			}
+#		}
+#		TUR = {
+#			783 = {
+#				state_scope = { flashpoint_tension = 99 }
+#			}
+#		}
+#	}
+#}
 

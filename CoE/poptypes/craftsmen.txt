@@ -1403,23 +1403,23 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = 1
+				factor = 2
 				literacy = 0.60
 			}
 			modifier = {
-				factor = 1
+				factor = 2
 				literacy = 0.70
 			}
 			modifier = {
-				factor = 1
+				factor = 2
 				literacy = 0.80
 				}
 			modifier = {
-				factor = 2
+				factor = 3
 				literacy = 0.90
 				}
 			modifier = {
-				factor = 2
+				factor = 5
 				literacy = 1
 			}
 		}

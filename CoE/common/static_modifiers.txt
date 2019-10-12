@@ -180,6 +180,7 @@ badboy = {
 	diplomatic_points_modifier = -0.05
 	#global_immigrant_attract = -0.05
 	influence = -0.05
+	badboy = -0.01
 }
 
 
