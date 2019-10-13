@@ -2467,7 +2467,7 @@ country_event = {
 			secede_province = AZB
 			remove_core = TUR
 		}
-		1090 = { country_event = { id = 301054 } }
+		1090 = { province_event = { id = 301054 } }
 		prestige = -2
 		any_pop = {
 			limit = {
@@ -2510,7 +2510,7 @@ country_event = {
 			secede_province = RUS
 			remove_core = TUR
 		}
-		1090 = { country_event = { id = 301055 } }
+		1090 = { province_event = { id = 301055 } }
 		any_pop = {
 			limit = {
 				OR = {
@@ -2578,7 +2578,7 @@ country_event = {
 }
 
 #Treaty of Tiflis (Kapan|Russia/Azerbaijan)
-country_event = {
+province_event = {
 	id = 301054
 	title = "EVTNAME301053"
 	desc = "EVTDESC301054"
@@ -2604,7 +2604,7 @@ country_event = {
 }
 
 #Treaty of Tiflis (Gyumri|Russia/Azerbaijan)
-country_event = {
+province_event = {
 	id = 301055
 	title = "EVTNAME301053"
 	desc = "EVTDESC301055"
@@ -2800,7 +2800,7 @@ country_event = {
 		1099 = {
 			secede_province = RUS
 			remove_core = TUR
-			country_event = { id = 301059 }
+			province_event = { id = 301059 }
 		}
 		any_pop = {
 			limit = {
@@ -2908,7 +2908,7 @@ country_event = {
 		1100 = {
 			secede_province = RUS
 			remove_core = TUR
-			country_event = { id = 301059 }
+			province_event = { id = 301059 }
 		}
 		any_pop = {
 			limit = {
@@ -2947,7 +2947,7 @@ country_event = {
 }
 
 #The Council of Sultanieh (Russia)
-country_event = {
+province_event = {
 	id = 301059
 	title = "EVTNAME301058"
 	desc = "EVTDESC301059"
@@ -3042,7 +3042,7 @@ country_event = {
 		1101 = {
 			secede_province = RUS
 			remove_core = TUR
-			country_event = { id = 301061 }
+			province_event = { id = 301061 }
 		}
 		any_pop = {
 			limit = {
@@ -3081,7 +3081,7 @@ country_event = {
 }
 
 #No Peace, No War (Russia)
-country_event = {
+province_event = {
 	id = 301061
 	title = "EVTNAME301058"
 	desc = "EVTDESC301061"
@@ -3176,7 +3176,7 @@ country_event = {
 		prestige = -5
 		2667 = {
 			secede_province = RUS
-			country_event = { id = 301063 }
+			province_event = { id = 301063 }
 		}
 		release = ARM
 		any_pop = {
@@ -3216,7 +3216,7 @@ country_event = {
 }
 
 #The Sardar of Erivan (Russia)
-country_event = {
+province_event = {
 	id = 301063
 	title = "EVTNAME301058"
 	desc = "EVTDESC301063"
