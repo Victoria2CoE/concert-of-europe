@@ -285,9 +285,7 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				province_event = {
-					id = 301113
-				}
+				country_event = 301113
 			}
 		
 		}
@@ -310,9 +308,7 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				province_event = {
-					id = 301112
-				}
+				country_event = 301112
 			}
 		
 		}
@@ -333,7 +329,7 @@ country_event = {
 }
 
 #Russia returned the Armenian
-province_event = {
+country_event = {
 	id = 301112
 	title = "EVTNAME301112"
 	desc = "EVTDESC301112"
@@ -379,7 +375,7 @@ province_event = {
 }
 
 #Russia did not return the Armenian
-province_event = {
+country_event = {
 	id = 301113
 	title = "EVTNAME301113"
 	desc = "EVTDESC301113"
@@ -596,9 +592,7 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				province_event = {
-					id = 301116
-				}
+				country_event = 301116
 			}
 		
 		}
@@ -652,9 +646,7 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				province_event = {
-					id = 301117
-				}
+				country_event = 301117
 			}
 		
 		}
@@ -675,7 +667,7 @@ country_event = {
 }
 
 #Another Russo-Persian War
-province_event = {
+country_event = {
 	id = 301116
 	title = "EVTNAME301116"
 	desc = "EVTDESC301116"
@@ -696,7 +688,7 @@ province_event = {
 }
 
 #Another Russo-Persian War
-province_event = {
+country_event = {
 	id = 301117
 	title = "EVTNAME301117"
 	desc = "EVTDESC301117"
