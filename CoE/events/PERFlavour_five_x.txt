@@ -4790,7 +4790,7 @@ country_event = {
 }
 
 # Molla Nasreddin
-province_event = {
+country_event = {
 	id = 190362
 	title = "EVTNAME190362"
 	desc = "EVTDESC190362"
