@@ -4790,7 +4790,7 @@ country_event = {
 }
 
 # Molla Nasreddin
-province_event = {
+country_event = {
 	id = 190362
 	title = "EVTNAME190362"
 	desc = "EVTDESC190362"
@@ -5988,7 +5988,7 @@ country_event = {
 }
 
 #Reaction event for GPs to the Dar al-Funun
-province_event = {
+country_event = {
 	id = 190370
 	title = "EVTNAME190370"
 	desc = "EVTDESC190370"
