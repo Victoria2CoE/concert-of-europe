@@ -658,202 +658,262 @@ country_event = {
 	}
 }
 
-## Indonesian colony spread
-province_event = {
-	id = 97130
-	title = "EVTNAME98800"
-	desc = "EVTDESC97130"
-	
-	trigger = {
-		OR = {
-			region = BAL_1438 #Bali
-			region = NET_1398 #Djambi
-			region = NET_1401 #Siak
-			region = ATJ_1405 #Atjeh
-			region = SAK_1406 #East Sumatra
-			region = PAG_1408 #West Sumatra
-			region = NET_1426 #South Borneo
-			region = NET_1422 #Bandjar
-			region = NET_1423 #East Borneo
-			region = BRU_1396 #North Borneo
-			region = BRU_1394 #West Borneo
-			region = ENG_1384 #Southern Malaya
-			region = ENG_1391 #Northern Malaya
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = INO
-		}
-		owner = {
-			civilized = yes
-			NOT = { 
-				OR ={
-					is_culture_group = southeast_asian
-					is_culture_group = indonesian
-				}
-			}
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1413 }
-				INO = { exists = no }
-			}
-			INO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = INO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = INO }
-				}
-				add_core = INO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		INO = { add_accepted_culture = malay }
-	}
-}
-
-province_event = {
-	id = 97131
-	title = "EVTNAME98800"
-	desc = "EVTDESC97130"
-	
-	trigger = {
-		OR = {
-			region = NET_1446 #Flores
-			region = NET_1449 #Sulawesi
-			region = NET_1447 #Moluccas
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = INO
-		}
-		owner = {
-			civilized = yes
-			NOT = { 
-				OR ={
-					is_culture_group = southeast_asian
-					is_culture_group = indonesian
-				}
-			}
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1413 }
-				INO = { exists = no }
-			}
-			INO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = INO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = INO }
-				}
-				add_core = INO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		INO = { add_accepted_culture = moluccan }
-	}
-}
-
-province_event = {
-	id = 97132
-	title = "EVTNAME98800"
-	desc = "EVTDESC97130"
-	
-	trigger = {
-		OR = {
-			region = NET_1451 #West New Guinea
-			region = AST_2528 #Southeast New Guinea
-			region = GER_2530 #Northeast New Guinea
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = INO
-		}
-		owner = {
-			civilized = yes
-			NOT = { 
-				OR ={
-					is_culture_group = southeast_asian
-					is_culture_group = indonesian
-				}
-			}
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1413 }
-				INO = { exists = no }
-			}
-			INO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = INO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "An excellent development!"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = INO }
-				}
-				add_core = INO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-		INO = { add_accepted_culture = melanesian }
-	}
-}
+### Indonesian colony spread #Crash Source?
+#country_event = {
+#	id = 97130
+#	title = "EVTNAME98800"
+#	desc = "EVTDESC97130"
+#	
+#	trigger = {
+#	OR = { 
+#	      tag = INO 
+#	      owns = 1413
+#	}
+#	civilized = yes
+#	any_owned_province = {
+#		OR = {
+#			AND = { region = BAL_1438 NOT = { is_core = INO } } #Bali
+#			AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
+#			AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
+#			AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
+#			AND = { region = SAK_1406 NOT = { is_core = INO } } #East Sumatra
+#			AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
+#			AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
+#			AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
+#			AND = { region = NET_1423 NOT = { is_core = INO } } #East Borneo
+#			AND = { region = BRU_1396 NOT = { is_core = INO } } #North Borneo
+#			AND = { region = BRU_1394 NOT = { is_core = INO } } #West Borneo
+#			AND = { region = ENG_1384 NOT = { is_core = INO } } #Southern Malaya
+#			AND = { region = ENG_1391 NOT = { is_core = INO } } #Northern Malaya
+#		}
+#	}
+#		#owned_by = THIS
+#		#controlled_by = THIS
+#		#any_neighbor_province = {
+#		#	is_core = INO
+#		#}
+#		#owner = {
+#		#	civilized = yes
+#		#	#NOT = { 
+#		#	#	OR = {
+#		#	#		is_culture_group = southeast_asian
+#		#	#		is_culture_group = indonesian
+#		#	#	}
+#		#	#}
+#		#}
+#		#OR = {
+#		#	AND = {
+#		#		owner = { owns = 1413 }
+#		#		#INO = { exists = no }
+#		#	}
+#		#	INO = {
+#		#		vassal_of = THIS
+#		#		is_culture_group = THIS
+#		#	}
+#		#}		
+#		#NOT = {
+#		#	is_core = INO
+#		#}
+#	}
+#	
+#	mean_time_to_happen = {
+#		#months = 60
+#		months = 6
+#	}
+#	
+#	option = {
+#		name = "An excellent development!"
+#			any_owned = {
+#				limit = {
+#					NOT = { is_core = INO }
+#		            OR = {
+#		            	region = BAL_1438 #Bali
+#		            	region = NET_1398 #Djambi
+#		            	region = NET_1401 #Siak
+#		            	region = ATJ_1405 #Atjeh
+#		            	region = SAK_1406 #East Sumatra
+#		            	region = PAG_1408 #West Sumatra
+#		            	region = NET_1426 #South Borneo
+#		            	region = NET_1422 #Bandjar
+#		            	region = NET_1423 #East Borneo
+#		            	region = BRU_1396 #North Borneo
+#		            	region = BRU_1394 #West Borneo
+#		            	region = ENG_1384 #Southern Malaya
+#		            	region = ENG_1391 #Northern Malaya
+#		            }
+#				}
+#				add_core = INO
+#				any_pop = { militancy = -3 }
+#				add_province_modifier = {
+#					name = colonial_exploitation
+#					duration = 1095
+#				}
+#			}
+#		INO = { add_accepted_culture = malay }
+#		INO = { add_accepted_culture = moluccan }
+#	}
+#}
+#
+##province_event = {
+##	id = 97131
+##	title = "EVTNAME98800"
+##	desc = "EVTDESC97130"
+##	
+##	trigger = {
+##	OR = { 
+##	      tag = INO 
+##	      owns = 1413
+##	}
+##	civilized = yes
+##	any_owned_province = {
+##		OR = {
+##			AND = { region = NET_1446 NOT = { is_core = INO } } #Flores
+##			AND = { region = NET_1449 NOT = { is_core = INO } } #Sulawesi
+##			AND = { region = NET_1447 NOT = { is_core = INO } } #Moluccas
+##		}
+##	}
+##		#owned_by = THIS
+##		#controlled_by = THIS
+##		#any_neighbor_province = {
+##		#	is_core = INO
+##		#}
+##		#owner = {
+##		#	civilized = yes
+##		#	#NOT = { 
+##		#	#	OR ={
+##		#	#		is_culture_group = southeast_asian
+##		#	#		is_culture_group = indonesian
+##		#	#	}
+##		#	#}
+##		#}
+##		#OR = {
+##		#	AND = {
+##		#		owner = { owns = 1413 }
+##		#		#INO = { exists = no }
+##		#	}
+##		#	INO = {
+##		#		vassal_of = THIS
+##		#		is_culture_group = THIS
+##		#	}
+##		#}
+##		#NOT = {
+##		#	is_core = INO
+##		#}
+##	}
+##	
+##	mean_time_to_happen = {
+##		months = 60
+##	}
+##	
+##	option = {
+##		name = "An excellent development!"
+##			any_owned = {
+##				limit = {
+##					NOT = { is_core = INO }
+##		            OR = {
+##		            	region = BAL_1438 #Bali
+##		            	region = NET_1398 #Djambi
+##		            	region = NET_1401 #Siak
+##		            	region = ATJ_1405 #Atjeh
+##		            	region = SAK_1406 #East Sumatra
+##		            	region = PAG_1408 #West Sumatra
+##		            	region = NET_1426 #South Borneo
+##		            	region = NET_1422 #Bandjar
+##		            	region = NET_1423 #East Borneo
+##		            	region = BRU_1396 #North Borneo
+##		            	region = BRU_1394 #West Borneo
+##		            	region = ENG_1384 #Southern Malaya
+##		            	region = ENG_1391 #Northern Malaya
+##		            }					
+##				}
+##				add_core = INO
+##				any_pop = { militancy = -3 }
+##				add_province_modifier = {
+##					name = colonial_exploitation
+##					duration = 1095
+##				}
+##		}
+##		INO = { add_accepted_culture = moluccan }
+##	}
+##}
+#
+#country_event = {
+#	id = 97132
+#	title = "EVTNAME98800"
+#	desc = "EVTDESC97130"
+#	
+#	trigger = {
+#    OR = { 
+#	      tag = INO 
+#	      owns = 1413
+#	}
+#	civilized = yes
+#		OR = {
+#			region = NET_1451 #West New Guinea
+#			region = AST_2528 #Southeast New Guinea
+#			region = GER_2530 #Northeast New Guinea
+#		}
+#		owned_by = THIS
+#		controlled_by = THIS
+#		#any_neighbor_province = {
+#		#	is_core = INO
+#		#}
+#		#owner = {
+#		#	civilized = yes
+#		#	#NOT = { 
+#		#	#	OR ={
+#		#	#		is_culture_group = southeast_asian
+#		#	#		is_culture_group = indonesian
+#		#	#	}
+#		#	#}
+#		#}
+#		#OR = {
+#		#	AND = {
+#		#		owner = { owns = 1413 }
+#		#		#INO = { exists = no }
+#		#	}
+#		#	INO = {
+#		#		vassal_of = THIS
+#		#		is_culture_group = THIS
+#		#	}
+#		#}
+#		#NOT = {
+#		#	is_core = INO
+#		#}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 6
+#	}
+#	
+#	option = {
+#		name = "An excellent development!"
+#			any_owned = {
+#				limit = {
+#					NOT = { is_core = INO }
+#		            OR = {
+#		            	AND = { region = BAL_1438 NOT = { is_core = INO } } #Bali
+#		            	AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
+#		            	AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
+#		            	AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
+#		            	AND = { region = SAK_1406 NOT = { is_core = INO } } #East Sumatra
+#		            	AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
+#		            	AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
+#		            	AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
+#		            	AND = { region = NET_1423 NOT = { is_core = INO } } #East Borneo
+#		            	AND = { region = BRU_1396 NOT = { is_core = INO } } #North Borneo
+#		            	AND = { region = BRU_1394 NOT = { is_core = INO } } #West Borneo
+#		            	AND = { region = ENG_1384 NOT = { is_core = INO } } #Southern Malaya
+#		            	AND = { region = ENG_1391 NOT = { is_core = INO } } #Northern Malaya
+#		            }
+#				}
+#				add_core = INO
+#				any_pop = { militancy = -3 }
+#				add_province_modifier = {
+#					name = colonial_exploitation
+#					duration = 1095
+#				}
+#		}
+#		INO = { add_accepted_culture = melanesian }
+#	}
+#}
