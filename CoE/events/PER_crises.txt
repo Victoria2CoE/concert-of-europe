@@ -118,7 +118,7 @@ province_event = {
 		RUS = {
 			country_event = {
 				id = 301111
-				days = 3
+				#days = 3
 			}
 			relation = {
 				who = PER
@@ -285,9 +285,8 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				country_event = 301113
 			}
-		
+			country_event = 301113
 		}
 		any_pop = {
 			limit = {
@@ -308,9 +307,8 @@ country_event = {
 				limit = {
 					has_province_modifier = futile
 				}
-				country_event = 301112
 			}
-		
+		    country_event = 301112
 		}
 		any_pop = {
 			limit = {
@@ -388,7 +386,7 @@ country_event = {
 		RUS = {
 			country_event = {
 				id = 301114
-				days = 5
+				#days = 5
 			}
 		}
 		any_pop = {
@@ -423,7 +421,7 @@ country_event = {
 		RUS = {
 			country_event = {
 				id = 301115
-				days = 5
+				#days = 5
 			}
 			diplomatic_influence = {
 				who = PER
@@ -470,7 +468,7 @@ country_event = {
 		RUS = {
 			country_event = {
 				id = 301114
-				days = 5
+				#days = 5
 			}
 		}
 		clergymen = {

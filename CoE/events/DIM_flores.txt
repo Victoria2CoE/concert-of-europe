@@ -19,7 +19,10 @@ province_event = {
 		name = "Our interests in the region are too important."	
 		owner = { prestige = 3 }
 		NET = {
-			country_event = { id = 211301 days = 15 }
+			country_event = { 
+			id = 211301 
+			#days = 15 
+			}
 		}
 		ai_chance = {
 			factor = 60
@@ -48,7 +51,10 @@ province_event = {
 			treasury = 30000
 		}
 		NET = {
-			country_event = { id = 211302 days = 15 }
+			country_event = { 
+			id = 211302 
+			#days = 15 
+			}
 		}
 		ai_chance = {
 			factor = 20
@@ -66,7 +72,10 @@ province_event = {
 	option = {
 		name = "Offer to trade Larantoeka for Koepang"
 		NET = {
-			country_event = { id = 211303 days = 15 }
+			country_event = { 
+			id = 211303 
+			#days = 15 
+			}
 		}
 		ai_chance = {
 			factor = 10
@@ -75,7 +84,9 @@ province_event = {
 	option = {
 		name = "Offer to trade Dili and Larantoeka for the Dutch Goldcoast"
 		NET = {
-			country_event = { id = 211304 days = 15 }
+			country_event = { id = 211304 
+			#days = 15 
+			}
 		}
 		ai_chance = { 
 			factor = 10

@@ -3844,7 +3844,7 @@ country_event = {
 			set_country_flag = herat_question
 			country_event = {
 				id = 190350
-				days = 15
+				#days = 15
 			}
 			release_vassal = HRT
 		}
@@ -3878,7 +3878,7 @@ country_event = {
 			set_country_flag = herat_question
 			country_event = {
 				id = 190351
-				days = 1
+				#days = 1
 			}
 			create_vassal = HRT
 		}
@@ -3958,7 +3958,7 @@ country_event = {
 		HRT = {
 			country_event = {
 				id = 190352
-				days = 5
+				#days = 5
 			}
 			set_country_flag = herat_question
 		}
@@ -4031,7 +4031,7 @@ country_event = {
 		PER = {
 			country_event = {
 				id = 190353
-				days = 10
+				#days = 10
 			}
 		}
 		ai_chance = {
@@ -4061,7 +4061,7 @@ country_event = {
 		HRT = {
 			country_event = {
 				id = 190354
-				days = 10
+				#days = 10
 			}
 		}
 		ai_chance = {
@@ -4129,7 +4129,7 @@ country_event = {
 			}
 			country_event = {
 				id = 190355
-				days = 10
+				#days = 10
 			}
 		}
 		ai_chance = {
@@ -4168,7 +4168,7 @@ country_event = {
 		PER = {
 			country_event = {
 				id = 190356
-				days = 5
+				#days = 5
 			}
 		}
 		badboy = 5
@@ -4906,7 +4906,7 @@ province_event = {
 			}
 			country_event = {
 				id = 190363
-				days = 15
+				#days = 15
 			}
 		}
 		any_country = {
@@ -4927,7 +4927,7 @@ province_event = {
 			}
 			country_event = {
 				id = 190364
-				days = 15
+				#days = 15
 			}
 		}
 		ai_chance = {
