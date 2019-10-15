@@ -1235,7 +1235,7 @@ province_event = {
 				communist = 5
 			}
 			NOT = {
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			}
 		}
 		OR = {
@@ -1375,7 +1375,7 @@ province_event = {
 				communist = 5
 			}
 			NOT = {
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 				any_owned_province = {
 					has_province_modifier = communist_stronghold
 				}

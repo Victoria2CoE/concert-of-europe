@@ -1887,7 +1887,7 @@ country_event = {
 		is_ideology_enabled = socialist
 		nationalism_n_imperialism = 1
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			ruling_party_ideology = socialist
 		}
 	}

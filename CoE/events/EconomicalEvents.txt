@@ -94,7 +94,7 @@ country_event = {
 		any_country = {
 			limit = {
 				civilized = yes
-				NOT = { OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
 			}
 			country_event = 22515
 		}
@@ -139,7 +139,7 @@ country_event = {
 		exists = yes
 		has_country_modifier = great_depression
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = economic_trend
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
@@ -218,7 +218,7 @@ country_event = {
 			any_neighbor_country = {
 				civilized = yes
 				NOT = { has_country_modifier = great_depression }
-				NOT = { OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
 			}
 		}
 		modifier = {
@@ -351,7 +351,7 @@ country_event = {
 		exists = yes
 		early_railroad = 1
 		stock_exchange = 1
-		NOT = { OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
 	}
 	
 	mean_time_to_happen = {
@@ -406,7 +406,7 @@ country_event = {
 		exists = yes
 		stock_exchange = 1
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
 	}
 	
@@ -630,7 +630,7 @@ country_event = {
 		stock_exchange = 1
 		civilized = yes
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = Bull_market
 			has_country_modifier = great_depression
 			has_country_modifier = stock_market_crash
@@ -786,7 +786,7 @@ country_event = {
 			has_country_modifier = economic_boom
 		}
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = economic_trend
 		}
 	}
@@ -952,7 +952,7 @@ country_event = {
 		stock_exchange = 1
 		civilized = yes
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = recession
 			has_country_modifier = great_depression
 			has_country_modifier = stock_market_crash
@@ -1110,7 +1110,7 @@ country_event = {
 		exists = yes
 		has_country_modifier = recession
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = economic_trend
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
@@ -1249,7 +1249,7 @@ country_event = {
 		invention = stock_exchanges
 		civilized = yes
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			economic_policy = planned_economy
 			has_country_modifier = stock_market_crash
 			has_country_modifier = great_depression
@@ -1413,7 +1413,7 @@ country_event = {
 		invention = stock_exchanges
 		civilized = yes
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			economic_policy = planned_economy
 			has_country_modifier = stock_market_crash
 			has_country_modifier = great_depression
@@ -1608,7 +1608,7 @@ country_event = {
 		exists = yes
 		has_country_modifier = stock_market_crash
 		NOT = {
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			has_country_modifier = economic_trend
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
@@ -1751,7 +1751,7 @@ country_event = {
 		stock_exchange = 1
 		NOT = {
 			has_country_flag = consumer_confidence
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
 	}
 
@@ -1787,7 +1787,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_country_flag = consumer_confidence
-		OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		NOT = { has_country_flag = pig_dogs }
 	}
 
@@ -1816,7 +1816,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_country_flag = pig_dogs
-		NOT = { OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
 		NOT = { has_country_modifier = great_depression }
 	}
 	mean_time_to_happen = {
