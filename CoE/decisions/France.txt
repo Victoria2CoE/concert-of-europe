@@ -547,6 +547,10 @@ political_decisions = {
 				literacy = 0.45
 			}
 		    badboy = 15.2
+			add_country_modifier = {
+				name = demographic_collapse
+				duration = -1
+			}
 		}
 	}
 	
