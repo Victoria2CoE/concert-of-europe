@@ -491,7 +491,7 @@ political_reforms = {
 			global_immigrant_attract = -0.1
 			non_accepted_pop_militancy_modifier = 0.01
 			global_pop_consciousness_modifier = -0.02
-			land_unit_start_experience = 50
+			land_unit_start_experience = 25
 			max_military_spending = 0.20
 			min_military_spending = 0.20
 		}
@@ -501,7 +501,7 @@ political_reforms = {
 			mobilisation_economy_impact = 0.75
 			global_immigrant_attract = -0.05
 			global_pop_consciousness_modifier = -0.01
-			land_unit_start_experience = 40
+			land_unit_start_experience = 20
 			max_military_spending = 0.10
 			min_military_spending = 0.10
 		}
@@ -509,7 +509,7 @@ political_reforms = {
 			mobilization_impact = 0
 			mobilisation_size = 0.085
 			mobilisation_economy_impact = 0.5
-			land_unit_start_experience = 30
+			land_unit_start_experience = 15
 		}
 		one_year_draft = {
 			mobilization_impact = 0
@@ -517,7 +517,7 @@ political_reforms = {
 			mobilisation_economy_impact = 0.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = 0.01
-			land_unit_start_experience = 20
+			land_unit_start_experience = 10
 			max_military_spending = -0.10
 			min_military_spending = -0.10
 		}
@@ -528,7 +528,7 @@ political_reforms = {
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = 0.02
 			global_pop_militancy_modifier = -0.01
-			land_unit_start_experience = 10
+			land_unit_start_experience = 5
 			max_military_spending = -0.20
 			min_military_spending = -0.20
 		}
@@ -791,7 +791,7 @@ social_reforms = {
 		next_step_only = yes
 		serfdom = {
 			mobilisation_size = -0.04
-			land_unit_start_experience = -20
+			land_unit_start_experience = -10
 			farm_RGO_eff = 0.50
 			education_efficiency_modifier = -0.10
 			factory_output = -0.2
@@ -804,7 +804,7 @@ social_reforms = {
 		}
 		landed_estates = {
 			mobilisation_size = -0.02
-			land_unit_start_experience = -10
+			land_unit_start_experience = -5
 			unit_start_experience = -2.5
 			farm_RGO_eff = 0.3
 			political_reform_desire = -0.025

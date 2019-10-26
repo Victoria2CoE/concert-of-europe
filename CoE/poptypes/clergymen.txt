@@ -210,14 +210,14 @@ country_migration_target =
 		religious_policy = moralism
 		religion = this 
 	}
-	modifier = {
-		factor = 0.9
-		religious_policy = pluralism
-	}
-	modifier = {
-		factor = 0.75
-		religious_policy = pro_atheism
-	}
+	#modifier = {
+	#	factor = 0.9
+	#	religious_policy = pluralism
+	#}
+	#modifier = {
+	#	factor = 0.75
+	#	religious_policy = pro_atheism
+	#}
 
 	modifier = {
 		factor = 0.8
