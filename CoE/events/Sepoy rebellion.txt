@@ -135,7 +135,7 @@ country_event = {
 		political_reform = censored_press
 		political_reform = state_controlled
 		political_reform = gerrymandering
-		political_reform = limited
+		political_reform = protected
 		political_reform = no_draft
 		social_reform = serfdom
         country_event = 99900		
@@ -379,7 +379,7 @@ country_event = {
 		name = "All hail the free India!"
         prestige = 100
         ENG = { prestige_factor = -0.25 }
-        #country_event = 	
+        #country_event = 		
 	}
 }
 
