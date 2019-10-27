@@ -588,6 +588,7 @@ country_event = {
 	option = {
 		name = "Hurrah!"
 		prestige = 20
+		civilized = yes
 		any_country = {
 			limit = {
 				OR = {

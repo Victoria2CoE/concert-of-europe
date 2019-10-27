@@ -5,7 +5,7 @@ add_core = MAH
 trade_goods = sulphur
 life_rating = 30
 terrain = hilly_farmland
-colonial = 2
+colonial = 0
 fort = 1
 naval_base = 1
 1861.1.1 = { railroad = 3 }

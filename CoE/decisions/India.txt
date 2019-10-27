@@ -1398,6 +1398,7 @@ political_decisions = {
 	demand_retreat_from_india = {
 		picture = map_india
 		potential = {
+		    NOT = { has_global_flag = hnd_independence_war }
 			is_culture_group = south_asian
 			ai = no
             HND = {
