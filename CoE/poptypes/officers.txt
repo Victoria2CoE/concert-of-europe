@@ -55,11 +55,16 @@ everyday_needs = {
 	cigarettes = 20
 	shoes = 20
 	electric_power = 40
-	barrels = 20
-	artillery = 40
-	small_arms = 40
-	ammunition = 40
-	gunpowder = 40
+	
+	barrels = 300
+	artillery = 300
+	small_arms = 600
+	ammunition = 600
+	gunpowder = 400
+	horses = 100
+	explosives = 200
+	aeroplanes = 40
+	fuel = 100
 
 }
 luxury_needs = {

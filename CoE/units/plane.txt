@@ -24,7 +24,7 @@ plane = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		aeroplanes = 2
+		aeroplanes = 0.2
 	}
 	
 

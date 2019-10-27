@@ -1062,12 +1062,12 @@ economic_reforms = {	#AI appears to enact whichever reform is available first, t
 		herbalism = {
 			global_pop_consciousness_modifier = -0.05
 			global_pop_militancy_modifier = -0.01
-			global_population_growth = -0.002
+			global_population_growth = -0.001
 		}
 		alchemy = {
 			technology_cost = 9500
 			civilization_progress_modifier = 0.05
-			global_population_growth = -0.001
+			#global_population_growth = -0.001
 			org_regain = 0.1
 			on_execute = {
 				effect = {
@@ -1097,6 +1097,7 @@ economic_reforms = {	#AI appears to enact whichever reform is available first, t
 			}
 			technology_cost = 18000
 			civilization_progress_modifier = 0.15
+			global_population_growth = 0.001
 			org_regain = 0.2
 			on_execute = {
 				effect = {
@@ -1888,12 +1889,12 @@ military_reforms = {
 		next_step_only = yes
 		military_levies = {
 			global_pop_militancy_modifier = -0.01
-			mobilisation_size = -0.02
+			mobilisation_size = 0.01
 		}
 		field_drills = {
 			#unit stats improve
 			land_organisation = 0.02
-			mobilisation_size = 0.01
+			mobilisation_size = 0.02
 			technology_cost = 1900
 			civilization_progress_modifier = 0.01
 			on_execute = {
@@ -1923,7 +1924,7 @@ military_reforms = {
 				year = 1840
 			}
 			land_organisation = 0.05
-			mobilisation_size = 0.02
+			mobilisation_size = 0.03
 			technology_cost = 3800
 			civilization_progress_modifier = 0.03
 			on_execute = {
@@ -1954,7 +1955,7 @@ military_reforms = {
 				year = 1850
 			}
 			land_organisation = 0.05
-			mobilisation_size = 0.02
+			mobilisation_size = 0.04
 			land_unit_start_experience = 5
 			technology_cost = 5700
 			civilization_progress_modifier = 0.06
@@ -1986,7 +1987,7 @@ military_reforms = {
 				year = 1880
 			}
 			land_organisation = 0.1
-			mobilisation_size = 0.01
+			mobilisation_size = 0.05
 			land_unit_start_experience = 10
 			technology_cost = 7600
 			civilization_progress_modifier = 0.1

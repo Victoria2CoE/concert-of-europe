@@ -23,9 +23,9 @@ regular = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 2
-		ammunition = 10
-		horses = 1
+		small_arms = 0.2
+		ammunition = 1.0
+		horses = 0.1
 	}
 	
 

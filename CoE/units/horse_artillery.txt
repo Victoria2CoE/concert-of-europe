@@ -23,9 +23,9 @@ horse_artillery = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		artillery = 2.5
-		gunpowder = 10
-		horses = 5
+		artillery = 0.25
+		gunpowder = 1.0
+		horses = 0.5
 	}
 	
 

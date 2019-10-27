@@ -23,9 +23,9 @@ infantry = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		small_arms = 1
-		gunpowder = 5
-		horses = 1
+		small_arms = 0.1
+		gunpowder = 0.5
+		horses = 0.1
 	}
 	
 

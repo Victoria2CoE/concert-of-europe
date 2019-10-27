@@ -29,8 +29,8 @@ hussar = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		ammunition = 2.5
-		horses = 5
+		ammunition = 0.25
+		horses = 0.5
 	}
 	
 
