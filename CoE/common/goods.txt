@@ -39,67 +39,67 @@ raw_material_goods = {
 	cotton = { 
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 255 255 255 }
 	}
 	dye = {	
 		cost = 0.8
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 69 0 182 }
 	}
 	wool = {
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 234 195 158 }
 	}
 	silk = { 
 		cost = 1
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 125 158 43 }
 	}
 	coal = { 
 		cost = 0.46
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 11 29 77 }
 	}
 	sulphur = { 
 		cost = 0.7
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 181 228 102 }
 	}
 	iron = { 
 		cost = 0.66
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 111 111 111 }
 	}
 	timber = { 
 		cost = 0.36
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
 		cost = 1.0
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 213 177 118 }
 	}
 	rubber = { 
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 123 110 86 }
 	}
 	oil = { 
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 0 0 0 }
 	}
 	precious_metal = { 
@@ -111,13 +111,13 @@ raw_material_goods = {
 	copper = {
 		cost = 0.52
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 253 199 110 }
 	}
 	lead = {
 		cost = 0.46
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 253 199 110 }
 	}
 }
@@ -197,49 +197,49 @@ consumer_goods = {
 	cattle = { 
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 84 227 40 }
 	}
 	fish = { 
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 128 98 73 }
 	}
 	fruit = {
 		cost = 0.4
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 255 0 0 }
 	}
 	grain = { 
 		cost = 0.3
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 219 157 36 }
 	}
 	tobacco = {	
 		cost = 0.7
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 100 69 30 }
 	}
 	tea = {	
 		cost = 0.5
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 201 135 15 }
 	}
 	coffee = { 
 		cost = 0.9
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 27 19 7 }
 	}
 	opium = { 
 		cost = 1.6
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 114 162 47 }
 	}
 	automobiles = {	
@@ -335,7 +335,7 @@ consumer_goods = {
 	spices = {
 		cost = 1.6
 		tradeable = yes
-		money = yes	
+		#money = yes	
 		color = { 253 199 110 }
 	}
 	print = {
