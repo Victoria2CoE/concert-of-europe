@@ -56,15 +56,15 @@ everyday_needs = {
 	pharmaceuticals = 6
 	electric_power = 15
 	
-	barrels = 150
-	artillery = 150
-	small_arms = 300
-	ammunition = 300
-	gunpowder = 200
-	horses = 50
-	explosives = 100
-	aeroplanes = 20
-	fuel = 50
+	barrels = 75
+	artillery = 75
+	small_arms = 150
+	ammunition = 150
+	gunpowder = 100
+	horses = 25
+	explosives = 50
+	aeroplanes = 10
+	fuel = 25
 }
 
 luxury_needs = {
