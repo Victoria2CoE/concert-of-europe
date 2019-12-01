@@ -19,15 +19,15 @@ monitor = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		steamer_convoy = 5
-		artillery = 2.5
+		steamer_convoy = 1
+		artillery = 0.5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.5
-		ammunition = 5
-		coal = 5
+		steamer_convoy = 0.1
+		ammunition = 1
+		coal = 1
 	}
 	
 	#Naval Abilties

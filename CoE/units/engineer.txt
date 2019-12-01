@@ -18,8 +18,8 @@ engineer = {
 	#Building Costs
 	build_time = 50
 	build_cost = {
-		small_arms = 30
-		regular_clothes = 30
+		small_arms = 3
+		regular_clothes = 3
 	}
 	
 	supply_consumption = 1

@@ -19,16 +19,16 @@ cruiser = {
 	#Building Costs
 	build_time = 550
 	build_cost = {	
-		steamer_convoy = 50
-		artillery = 25
+		steamer_convoy = 10
+		artillery = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 5
-		artillery = 2.5
-		fuel = 5
-		ammunition = 5
+		steamer_convoy = 1
+		artillery = 0.5
+		fuel = 1
+		ammunition = 1
 	}
 	
 	#Naval Abilties
