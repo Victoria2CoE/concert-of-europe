@@ -752,7 +752,7 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			global_population_growth = 0.0005
+			global_population_growth = 0.001
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 1
 			social_reform_desire = -0.05
@@ -760,7 +760,7 @@ social_reforms = {
 			pension_level = 3
 		}
 		low_health_care = {
-			global_population_growth = 0.001
+			global_population_growth = 0.002
 			global_immigrant_attract = 0.10
 			administrative_multiplier = 2
 			social_reform_desire = -0.1
@@ -768,7 +768,7 @@ social_reforms = {
 			pension_level = 6
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.0015
+			global_population_growth = 0.003
 			global_immigrant_attract = 0.15
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
@@ -777,7 +777,7 @@ social_reforms = {
 			pension_level = 9
 		}
 		good_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.004
 			global_immigrant_attract = 0.20
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
@@ -904,26 +904,26 @@ social_reforms = {
 		}
 		small_endowment = {
 			administrative_multiplier = 0.5
-			prestige = 0.1
+			prestige = 0.05
 			research_points = 0.05
 			education_efficiency_modifier = 0.025
 		}
 		medium_endowment = {
 			administrative_multiplier = 1
-			prestige = 0.2
+			prestige = 0.1
 			research_points = 0.1
 			education_efficiency_modifier = 0.05
 		}
 		large_endowment = {
 			administrative_multiplier = 1.5
-			prestige = 0.3
+			prestige = 0.15
 			research_points = 0.15
 			education_efficiency_modifier = 0.075
 		}
 		massive_endowment = {
 			administrative_multiplier = 2
 			research_points = 0.2
-			prestige = 0.4
+			prestige = 0.2
 			education_efficiency_modifier = 0.1
 		}
 	}
