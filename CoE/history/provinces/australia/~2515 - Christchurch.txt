@@ -1,0 +1,14 @@
+add_core = AOT
+trade_goods = wool
+life_rating = 30
+terrain = hilly_farmland
+1836.1.1 = {
+	owner = AOT
+	controller = AOT
+}
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = NZL
+	colonial = 1
+}

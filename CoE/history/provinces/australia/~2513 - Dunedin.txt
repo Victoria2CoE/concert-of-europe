@@ -1,0 +1,10 @@
+add_core = AOT
+trade_goods = wool
+life_rating = 30
+terrain = conifer_forest_mountains
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = NZL
+	colonial = 1
+}
