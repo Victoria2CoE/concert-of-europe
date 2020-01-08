@@ -747,7 +747,7 @@ province_event = {
 #	is_triggered_only = yes
 #	
 #	trigger = {
-#		tag = BHU
+#		has_country_flag = game_master
 #		has_global_flag = the_watchers_on_the_wall
 #	}
 #	

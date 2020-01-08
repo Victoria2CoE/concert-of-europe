@@ -14,7 +14,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -329,7 +329,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -736,7 +736,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -1192,7 +1192,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -1490,7 +1490,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -1845,7 +1845,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -2287,7 +2287,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -2559,7 +2559,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -2856,7 +2856,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -3141,7 +3141,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -3473,7 +3473,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {
@@ -3632,7 +3632,7 @@ country_event = {
 	picture = "emigration"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 	}
 	
 	mean_time_to_happen = {

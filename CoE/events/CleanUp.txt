@@ -2368,3 +2368,123 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 6016821 #HPM-inspired ghost unit cleanup 1/2
+	title = "Ghost Unit CleanUp 1/2"
+	desc = "Ghost Unit CleanUp 1/2"
+
+	is_triggered_only = yes	
+
+	option = {
+		name = "Ghost Unit CleanUp 1/2"
+		random_country { limit = { owns = 2132 NOT = { has_country_flag = ghost_country } } set_country_flag = ghost_country_host }
+		set_country_flag = ghost_country
+		2128 = { secede_province = THIS }
+		#political_reform = closed_borders
+		add_country_modifier = { name = ghost_country_haunting  duration = 60 }
+		treasury = 1000
+		neutrality = yes
+		any_country = {
+			limit = { war_with = THIS }
+			end_war = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 6016820 #HPM-inspired ghost unit cleanup 2/2
+	title = "Ghost Unit CleanUp 2/2"
+	desc = "Ghost Unit CleanUp 2/2"
+
+	trigger = {
+		       #exists = yes
+			   #owns = 2128
+		       is_mobilised = no
+			   has_country_flag = ghost_country
+			   NOT = { has_country_modifier = ghost_country_haunting } 
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "Ghost Unit CleanUp 2/2"
+		clr_country_flag = ghost_country
+		neutrality = yes
+		random_country = {
+			limit = { has_country_flag = ghost_country_host }
+			clr_country_flag = ghost_country_host
+			inherit = THIS
+		}
+	}
+}
+
+#country_event = {
+#	id = 6016819 #HPM-inspired ghost unit cleanup - Initialisation
+#	title = "Ghost Unit CleanUp Initialisation"
+#	desc = "Ghost Unit CleanUp Initialisation"
+#
+#	trigger = { 
+#	           has_country_flag = game_master
+#	           any_country = {
+#		                      exists = no
+#		                      OR = {
+#		                            is_mobilised = yes
+#		                            total_amount_of_ships = 1
+#		                      }
+#			                  NOT = { has_country_flag = ghost_country }
+#			   }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}		
+#	
+#	option = {
+#		name = "Ghost Unit CleanUp Initialisation"
+#		clr_country_flag = ghost_country
+#		neutrality = yes
+#		random_country = {
+#			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } NOT = { has_country_flag = ghost_country } }
+#			country_event = 6016821
+#		}
+#	}
+#}
+
+country_event = {
+	id = 6016818 #Game Master Maintenance 
+	title = "Game Master"
+	desc = "Game Master"
+
+	trigger = { 
+	           ai = yes
+			   month = 1
+			   NOT = { month = 2 }
+			   NOT = { has_country_modifier = gm_timer }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "Game Master"
+		any_country = { limit = { has_country_flag = game_master } clr_country_flag = game_master }
+		random_country = {
+			limit = { AND = { exists = yes ai = yes } }
+			set_country_flag = game_master
+		}
+		any_country = {
+			#limit = { ai = yes }
+			add_country_modifier = { name = gm_timer  duration = 60 }
+		}
+		add_country_modifier = { name = gm_timer  duration = 60 }
+		
+		any_country = {
+			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } NOT = { has_country_flag = ghost_country } }
+			country_event = 6016821
+		}
+	}
+}
+

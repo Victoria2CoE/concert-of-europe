@@ -499,7 +499,7 @@ country_event = {
 	desc = "EVTDESC19020"
 	
 	trigger = {
-		tag = BHU
+		has_country_flag = game_master
 		year = 1860
 		NOT = { has_global_flag = botanical_expedition_in_progress }
 		NOT = { 
