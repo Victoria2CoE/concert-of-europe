@@ -13,7 +13,7 @@ fascist_group = {
 
 
 		remove_political_reform = {
-			base = 0.2
+			base = 0.5
 			modifier = {
 				factor = 1
 				ruling_party_ideology = fascist
@@ -149,7 +149,7 @@ conservative_group = {
 			base = 1
 		}
 		add_social_reform = {
-			base = 0
+			base = 0.1
 		}
 		remove_social_reform = {
 			base = 1
