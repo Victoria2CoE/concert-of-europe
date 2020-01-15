@@ -1,6 +1,7 @@
 sprite = 6
 unemployment = yes
 can_work_factory = yes
+is_artisan = yes
 color = { 12 157 162 }
 
 rebel =
@@ -18,6 +19,8 @@ rebel =
 }
 
 strata = poor
+
+can_build = yes
 
 life_needs = {
 	canned_food = 6

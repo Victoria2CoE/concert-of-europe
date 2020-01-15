@@ -643,7 +643,7 @@ witwatersrand_gold_rush = {
 
 ##### RGO Spread Events #####
 local_tractors = {
-	farm_rgo_eff = 0.6
+	farm_rgo_eff = 1.2
 	icon = 53
 }
 
@@ -683,12 +683,12 @@ strip_mine = {
 }
 
 crop_rotation = {
-	farm_RGO_eff = 0.3
+	farm_RGO_eff = 0.6
 	icon = 61
 }
 
 irrigration_network = {
-	farm_RGO_eff = 0.8
+	farm_RGO_eff = 1.6
 	icon = 62
 }
 
@@ -698,12 +698,12 @@ nitrates = {
 }
 
 phosphates = {
-	farm_RGO_eff = 0.6
+	farm_RGO_eff = 1.8
 	icon = 64
 }
 
 intense_farming = {
-	farm_RGO_eff = 0.30
+	farm_RGO_eff = 0.60
 	icon = 65
 }
 
@@ -713,7 +713,7 @@ new_production = {
 }
 
 exhausted_land = {
-	farm_RGO_eff = -0.5
+	farm_RGO_eff = -0.80
 	icon = 66
 }
 
@@ -1520,7 +1520,7 @@ the_ikhwan = {
 the_female_shortage = {
 	global_pop_consciousness_modifier = 0.1
 	global_pop_militancy_modifier = 0.02
-	global_population_growth = -0.002
+	global_population_growth = -0.005
 	research_points_modifier = -0.5
 	icon = 14
 }
@@ -2922,7 +2922,17 @@ icon = 97
 RGO_education_0 = {
 	local_RGO_output = -0.0
 	local_factory_output = -0.00
-	goods_demand = 0.00
+	
+	#poor_life_needs = -0.5
+	#middle_life_needs = -0.5
+	#rich_life_needs = -0.5
+	#poor_everyday_needs = -0.5
+	#middle_everyday_needs = -0.5
+	#rich_everyday_needs = -0.5
+	#poor_luxury_needs = -0.5
+	#middle_luxury_needs = -0.5
+	#rich_luxury_needs = -0.5
+	
     poor_income_modifier = 0
     middle_income_modifier = 0
     rich_income_modifier = 0
@@ -2933,10 +2943,20 @@ RGO_education_0 = {
 RGO_education_1 = {
 	local_RGO_output = 0.1
 	local_factory_output = 0.01
-	goods_demand = 0.01
-    poor_income_modifier = 1
-    middle_income_modifier = 1
-    rich_income_modifier = 1
+	
+	#poor_life_needs = -0.45
+	#middle_life_needs = -0.45
+	#rich_life_needs = -0.45
+	#poor_everyday_needs = -0.45
+	#middle_everyday_needs = -0.45
+	#rich_everyday_needs = -0.45
+	#poor_luxury_needs = -0.45
+	#middle_luxury_needs = -0.45
+	#rich_luxury_needs = -0.45
+	
+    poor_income_modifier = 0.1
+    middle_income_modifier = 0.1
+    rich_income_modifier = 0.1
 	immigrant_push = 0.1
 	icon = 3
 }
@@ -2944,10 +2964,20 @@ RGO_education_1 = {
 RGO_education_2 = {
 	local_RGO_output = 0.2
 	local_factory_output = 0.02
-	goods_demand = 0.02
-    poor_income_modifier = 2
-    middle_income_modifier = 2
-    rich_income_modifier = 2
+	
+	#poor_life_needs = -0.4
+	#middle_life_needs = -0.4
+	#rich_life_needs = -0.4
+	#poor_everyday_needs = -0.4
+	#middle_everyday_needs = -0.4
+	#rich_everyday_needs = -0.4
+	#poor_luxury_needs = -0.4
+	#middle_luxury_needs = -0.4
+	#rich_luxury_needs = -0.4
+	
+    poor_income_modifier = 0.2
+    middle_income_modifier = 0.2
+    rich_income_modifier = 0.2
 	immigrant_push = 0.2
 	icon = 3
 }
@@ -2955,10 +2985,20 @@ RGO_education_2 = {
 RGO_education_3 = {
 	local_RGO_output = 0.3
 	local_factory_output = 0.03
-	goods_demand = 0.03
-    poor_income_modifier = 3
-    middle_income_modifier = 3
-    rich_income_modifier = 3
+	
+	#poor_life_needs = -0.35
+	#middle_life_needs = -0.35
+	#rich_life_needs = -0.35
+	#poor_everyday_needs = -0.35
+	#middle_everyday_needs = -0.35
+	#rich_everyday_needs = -0.35
+	#poor_luxury_needs = -0.35
+	#middle_luxury_needs = -0.35
+	#rich_luxury_needs = -0.35
+	
+    poor_income_modifier = 0.3
+    middle_income_modifier = 0.3
+    rich_income_modifier = 0.3
 	immigrant_push = 0.3
 	icon = 3
 }
@@ -2966,10 +3006,20 @@ RGO_education_3 = {
 RGO_education_4 = {
 	local_RGO_output = 0.4
 	local_factory_output = 0.04
-	goods_demand = 0.04
-    poor_income_modifier = 4
-    middle_income_modifier = 4
-    rich_income_modifier = 4
+	
+	#poor_life_needs = -0.30
+	#middle_life_needs = -0.30
+	#rich_life_needs = -0.30
+	#poor_everyday_needs = -0.30
+	#middle_everyday_needs = -0.30
+	#rich_everyday_needs = -0.30
+	#poor_luxury_needs = -0.30
+	#middle_luxury_needs = -0.30
+	#rich_luxury_needs = -0.30
+	
+    poor_income_modifier = 0.4
+    middle_income_modifier = 0.4
+    rich_income_modifier = 0.4
 	immigrant_push = 0.4
 	icon = 3
 }
@@ -2977,10 +3027,20 @@ RGO_education_4 = {
 RGO_education_5 = {
 	local_RGO_output = 0.5
 	local_factory_output = 0.05
-	goods_demand = 0.05
-    poor_income_modifier = 5
-    middle_income_modifier = 5
-    rich_income_modifier = 5
+	
+	#poor_life_needs = -0.25
+	#middle_life_needs = -0.25
+	#rich_life_needs = -0.25
+	#poor_everyday_needs = -0.25
+	#middle_everyday_needs = -0.25
+	#rich_everyday_needs = -0.25
+	#poor_luxury_needs = -0.25
+	#middle_luxury_needs = -0.25
+	#rich_luxury_needs = -0.25
+	
+    poor_income_modifier = 0.5
+    middle_income_modifier = 0.5
+    rich_income_modifier = 0.5
 	immigrant_push = 0.5
 	icon = 3
 }
@@ -2988,10 +3048,20 @@ RGO_education_5 = {
 RGO_education_6 = {
 	local_RGO_output = 0.6
 	local_factory_output = 0.06
-	goods_demand = 0.06
-    poor_income_modifier = 6
-    middle_income_modifier = 6
-    rich_income_modifier = 6
+	
+	#poor_life_needs = -0.20
+	#middle_life_needs = -0.20
+	#rich_life_needs = -0.20
+	#poor_everyday_needs = -0.20
+	#middle_everyday_needs = -0.20
+	#rich_everyday_needs = -0.20
+	#poor_luxury_needs = -0.20
+	#middle_luxury_needs = -0.20
+	#rich_luxury_needs = -0.20
+	
+    poor_income_modifier = 0.6
+    middle_income_modifier = 0.6
+    rich_income_modifier = 0.6
 	immigrant_push = 0.6
 	icon = 3
 }
@@ -2999,21 +3069,41 @@ RGO_education_6 = {
 RGO_education_7 = {
 	local_RGO_output = 0.7
 	local_factory_output = 0.07
-	goods_demand = 0.07
-    poor_income_modifier = 7
-    middle_income_modifier = 7
-    rich_income_modifier = 7
-	immigrant_push = 0.7
+	
+	#poor_life_needs = -0.15
+	#middle_life_needs = -0.15
+	#rich_life_needs = -0.15
+	#poor_everyday_needs = -0.15
+	#middle_everyday_needs = -0.15
+	#rich_everyday_needs = -0.15
+	#poor_luxury_needs = -0.15
+	#middle_luxury_needs = -0.15
+	#rich_luxury_needs = -0.15
+	
+    poor_income_modifier = 0.35
+    middle_income_modifier = 0.35
+    rich_income_modifier = 0.35
+	immigrant_push = 0.35
 	icon = 3
 }
 
 RGO_education_8 = {
 	local_RGO_output = 0.8
 	local_factory_output = 0.08
-	goods_demand = 0.08
-    poor_income_modifier = 8
-    middle_income_modifier = 8
-    rich_income_modifier = 8
+	
+	#poor_life_needs = -0.10
+	#middle_life_needs = -0.10
+	#rich_life_needs = -0.10
+	#poor_everyday_needs = -0.10
+	#middle_everyday_needs = -0.10
+	#rich_everyday_needs = -0.10
+	#poor_luxury_needs = -0.10
+	#middle_luxury_needs = -0.10
+	#rich_luxury_needs = -0.10
+	
+    poor_income_modifier = 0.8
+    middle_income_modifier = 0.8
+    rich_income_modifier = 0.8
 	immigrant_push = 0.8
 	icon = 3
 }
@@ -3021,21 +3111,41 @@ RGO_education_8 = {
 RGO_education_9 = {
 	local_RGO_output = 0.9
 	local_factory_output = 0.09
-	goods_demand = 0.09
-    poor_income_modifier = 9
-    middle_income_modifier = 9
-    rich_income_modifier = 9
+	
+	#poor_life_needs = -0.05
+	#middle_life_needs = -0.05
+	#rich_life_needs = -0.05
+	#poor_everyday_needs = -0.05
+	#middle_everyday_needs = -0.05
+	#rich_everyday_needs = -0.05
+	#poor_luxury_needs = -0.05
+	#middle_luxury_needs = -0.05
+	#rich_luxury_needs = -0.05
+	
+    poor_income_modifier = 0.9
+    middle_income_modifier = 0.9
+    rich_income_modifier = 0.9
 	immigrant_push = 0.9
 	icon = 3
 }
 
 RGO_education_10 = {
 	local_RGO_output = 1
-	local_factory_output = 0.1
-	goods_demand = 0.10
-    poor_income_modifier = 10
-    middle_income_modifier = 10
-    rich_income_modifier = 10
+	local_factory_output = 0.10
+	
+	#poor_life_needs = -0.0
+	#middle_life_needs = -0.0
+	#rich_life_needs = -0.0
+	#poor_everyday_needs = -0.0
+	#middle_everyday_needs = -0.0
+	#rich_everyday_needs = -0.0
+	#poor_luxury_needs = -0.0
+	#middle_luxury_needs = -0.0
+	#rich_luxury_needs = -0.0
+	
+	poor_income_modifier = 1.0
+    middle_income_modifier = 1.0
+    rich_income_modifier = 1.0
 	immigrant_push = 1.0
 	icon = 3
 }
@@ -3119,7 +3229,7 @@ rev_birth_place2 = {
 }
 
 demographic_collapse = {
-	global_population_growth = -0.003
+	global_population_growth = -0.006
 	culture_tech_research_bonus = 0.1
 	icon = 66
 }
@@ -3133,5 +3243,23 @@ ghost_country_haunting = {
 
 gm_timer = {
     icon = 3
+}
+
+settlement_colony = {
+	#local_RGO_output = -0.0
+	#local_factory_output = -0.00
+	immigrant_attract = 10
+	#goods_demand = -0.10
+	#immigrant_push = -0.10
+	icon = 3
+}
+
+exploitation_colony = {
+	local_RGO_output = 0.10
+	#local_factory_output = -0.00
+	immigrant_attract = -10
+	#goods_demand = 0.10
+	#immigrant_push = -0.10
+	icon = 3
 }
 
