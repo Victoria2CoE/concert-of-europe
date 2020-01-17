@@ -447,12 +447,14 @@ country_event = {
 	desc = "Back Under the British Yoke..."
 	picture = "sepoy"
 
-	trigger = { 
-	           tag = HND
-               has_global_flag = hnd_independence_war
-			   war = no
-			   is_vassal = no
-	}
+	is_triggered_only = yes
+	
+	#trigger = { 
+	#           tag = HND
+    #           has_global_flag = hnd_independence_war
+	#		   war = no
+	#		   is_vassal = no
+	#}
 	
 	fire_only_once = yes
 
