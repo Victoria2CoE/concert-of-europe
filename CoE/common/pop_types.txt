@@ -1075,9 +1075,132 @@ emigration_chance =
 			luxury_needs = 0.6
 		}
 	}	
-	modifier = {
-		factor = -10
-		country = { immigration_policy = nobody_gets_out }
+	group = {
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.1 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.2 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.3 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.4 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.5 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.6 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.7 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.8 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.9 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { administration_spending = 0.99 immigration_policy = nobody_gets_out }
+		}
+	}
+	
+	group = {
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.1 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.2 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.3 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.4 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.5 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.6 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.7 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.8 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+			country = { military_spending = 0.9 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.2
+		    country = { military_spending = 0.99 immigration_policy = nobody_gets_out }
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.1 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.2 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.3 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.4 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.5 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.6 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.7 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.8 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+			country = { social_spending = 0.9 immigration_policy = nobody_gets_out }
+		}
+		modifier = {
+			factor = -0.1
+		    country = { social_spending = 0.99 immigration_policy = nobody_gets_out }
+		}
 	}
 	modifier = {
 		factor = -2
