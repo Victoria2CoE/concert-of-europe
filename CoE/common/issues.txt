@@ -720,21 +720,21 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level = 2
+			pension_level = 1
 			max_tax = 0.02
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 		}
 		low_pensions = {
-			pension_level = 4
+			pension_level = 2
 			max_tax = 0.04
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 		}
 		acceptable_pensions = {
-			pension_level = 6
+			pension_level = 3
 			max_tax = 0.06
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.15
@@ -742,7 +742,7 @@ social_reforms = {
 			political_reform_desire = -0.075
 		}
 		good_pensions = {
-			pension_level = 8
+			pension_level = 4
 			max_tax = 0.08
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.20
@@ -761,7 +761,7 @@ social_reforms = {
 			administrative_multiplier = 1
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
-			pension_level = 3
+			pension_level = 1.5
 			max_tax = 0.03
 		}
 		low_health_care = {
@@ -770,7 +770,7 @@ social_reforms = {
 			administrative_multiplier = 2
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
-			pension_level = 6
+			pension_level = 3
 			max_tax = 0.06
 		}
 		acceptable_health_care = {
@@ -780,7 +780,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
-			pension_level = 9
+			pension_level = 4.5
 			max_tax = 0.09
 		}
 		good_health_care = {
@@ -790,7 +790,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.02
 			social_reform_desire = -0.2
 			political_reform_desire = -0.1
-			pension_level = 12
+			pension_level = 6
 			max_tax = 0.12
 		}
 	}
@@ -896,7 +896,7 @@ social_reforms = {
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
-			pension_level = 3
+			pension_level = 1.5
 			max_tax = 0.03
 		}
 		public = {
@@ -904,7 +904,7 @@ social_reforms = {
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
-			pension_level = 6
+			pension_level = 3
 			max_tax = 0.06
 		}
 	}
