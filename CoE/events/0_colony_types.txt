@@ -27,10 +27,10 @@ province_event = {
 					duration = -1
 				}
 			}
-			any_owned = {
-			   limit = { NOT = { life_rating = 35 } }
-			   life_rating = 5
-			}
+			#any_owned = {
+			#   limit = { NOT = { life_rating = 35 } }
+			#   life_rating = 5
+			#}
 		}		
 	}
 
@@ -249,7 +249,7 @@ country_event = {
 					name = settlement_colony
 					duration = -1
 				}
-				life_rating = 5
+				#life_rating = 5
 		}
 
 		any_owned = { 
@@ -329,7 +329,7 @@ country_event = {
 					name = settlement_colony
 					duration = -1
 				}
-				life_rating = 5
+				#life_rating = 5
 		}
 
 		any_owned = { 

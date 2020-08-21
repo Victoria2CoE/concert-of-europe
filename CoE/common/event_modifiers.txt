@@ -2958,6 +2958,8 @@ RGO_education_1 = {
     middle_income_modifier = 0.1
     rich_income_modifier = 0.1
 	immigrant_push = 0.1
+	
+	life_rating = 0.03
 	icon = 3
 }
 
@@ -2979,6 +2981,8 @@ RGO_education_2 = {
     middle_income_modifier = 0.2
     rich_income_modifier = 0.2
 	immigrant_push = 0.2
+	
+	life_rating = 0.06
 	icon = 3
 }
 
@@ -2999,7 +3003,9 @@ RGO_education_3 = {
     poor_income_modifier = 0.3
     middle_income_modifier = 0.3
     rich_income_modifier = 0.3
-	immigrant_push = 0.3
+	immigrant_push = 0.09
+	
+	life_rating = 0.6
 	icon = 3
 }
 
@@ -3021,6 +3027,8 @@ RGO_education_4 = {
     middle_income_modifier = 0.4
     rich_income_modifier = 0.4
 	immigrant_push = 0.4
+	
+	life_rating = 0.12
 	icon = 3
 }
 
@@ -3042,6 +3050,8 @@ RGO_education_5 = {
     middle_income_modifier = 0.5
     rich_income_modifier = 0.5
 	immigrant_push = 0.5
+	
+	life_rating = 0.15
 	icon = 3
 }
 
@@ -3063,6 +3073,8 @@ RGO_education_6 = {
     middle_income_modifier = 0.6
     rich_income_modifier = 0.6
 	immigrant_push = 0.6
+	
+	life_rating = 0.18
 	icon = 3
 }
 
@@ -3084,6 +3096,8 @@ RGO_education_7 = {
     middle_income_modifier = 0.35
     rich_income_modifier = 0.35
 	immigrant_push = 0.35
+	
+	life_rating = 0.21
 	icon = 3
 }
 
@@ -3105,6 +3119,8 @@ RGO_education_8 = {
     middle_income_modifier = 0.8
     rich_income_modifier = 0.8
 	immigrant_push = 0.8
+	
+	life_rating = 0.24
 	icon = 3
 }
 
@@ -3126,6 +3142,8 @@ RGO_education_9 = {
     middle_income_modifier = 0.9
     rich_income_modifier = 0.9
 	immigrant_push = 0.9
+	
+	life_rating = 0.27
 	icon = 3
 }
 
@@ -3147,6 +3165,8 @@ RGO_education_10 = {
     middle_income_modifier = 1.0
     rich_income_modifier = 1.0
 	immigrant_push = 1.0
+	
+	life_rating = 0.30
 	icon = 3
 }
 
@@ -3251,11 +3271,12 @@ settlement_colony = {
 	immigrant_attract = 10
 	#goods_demand = -0.10
 	#immigrant_push = -0.10
+	life_rating = 0.10
 	icon = 3
 }
 
 exploitation_colony = {
-	local_RGO_output = 0.10
+	local_RGO_output = 0.20
 	#local_factory_output = -0.00
 	immigrant_attract = -10
 	#goods_demand = 0.10
