@@ -3003,9 +3003,9 @@ RGO_education_3 = {
     poor_income_modifier = 0.3
     middle_income_modifier = 0.3
     rich_income_modifier = 0.3
-	immigrant_push = 0.09
+	immigrant_push = 0.30
 	
-	life_rating = 0.6
+	life_rating = 0.09
 	icon = 3
 }
 
