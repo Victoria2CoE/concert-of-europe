@@ -495,17 +495,21 @@ country_event = {
 
 	option = {
 		name = "We will accept their decision."
+		prestige = 2
 		TUR = {
 			prestige = -2
 			any_owned = {
 				limit = {
 					region = GRE_837
+					region = GRE_826
+					province_id = 845
 				}
 				secede_province = GRE
 			}
 			release_vassal = GRE
 		}
-		prestige = 2
+		847 = { secede_province = GRE }
+		848 = { secede_province = GRE }
 		any_owned = {
 			limit = {
 				NOT = {
@@ -518,8 +522,6 @@ country_event = {
 			}
 			secede_province = TUR
 		}
-		847 = { secede_province = GRE }
-		848 = { secede_province = GRE }
 		any_owned = {
 			remove_core = TUR
 		}
@@ -595,9 +597,11 @@ country_event = {
 			limit = {
 				OR = {
 					region = GRE_837
+					region = GRE_826
 					region = TUR_832
 					province_id = 825
 					province_id = 843
+					province_id = 845
 					province_id = 847
 					province_id = 848
 				}
