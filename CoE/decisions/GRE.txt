@@ -103,7 +103,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			is_greater_power = yes
+			is_secondary_power = yes
 			invention = national_fraternity
 			owns = 832 #Volos
 			owns = 805 #Salonika

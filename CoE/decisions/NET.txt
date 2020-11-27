@@ -49,12 +49,12 @@ political_decisions = {
 		}
 	}
 	
-	thorbecke's_reforms = {
+	thorbeckes_reforms = {
 		potential = {
 			tag = NET
 			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			has_global_flag = liberal_revolutions_should_now_fire
-			NOT = { has_country_flag = thorbecke's_reforms }
+			NOT = { has_country_flag = thorbeckes_reforms }
 		}
 		
 		allow = {
@@ -63,7 +63,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = thorbecke's_reforms
+			set_country_flag = thorbeckes_reforms
 			prestige = 5
 			remove_country_modifier = expert_diplomat
 			remove_country_modifier = successful_industrialist
@@ -130,6 +130,90 @@ political_decisions = {
 					owner = { tag = NET }
 				}
 				FRA_400 = { add_core = NET }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dutch_southern_netherlands = {
+		picture = sign_treaty_of_london
+		potential = {
+			tag = NET
+			is_greater_power = yes
+			has_country_flag = claimed_southern_netherlands
+			NOT = { has_country_flag = dutch_southern_netherlands }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 399 #Lille
+			owns = 400 #Dunkirk
+			owns = 401 #Arras
+			owns = 404 #Cambrai
+			owns = 3257 #Calais
+		}
+		
+		effect = {
+			set_country_flag = dutch_southern_netherlands
+			399 = { change_province_name = "Rijssel" }
+			400 = { change_province_name = "Duinkerke" }
+			401 = { change_province_name = "Atrecht" }
+			404 = { change_province_name = "Kamerijk" }
+			3257 = { 
+				change_province_name = "Kales" 
+				state_scope = {
+					change_region_name = "Artesië"
+				}
+			}
+			prestige = 5
+			FRA = { 
+				prestige = -7 
+				clr_country_flag = french_southern_netherlands
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	french_southern_netherlands = {
+		picture = sign_treaty_of_london
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			NOT = { has_country_flag = french_southern_netherlands }
+			NET = { has_country_flag = dutch_southern_netherlands }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 399 #Lille
+			owns = 400 #Dunkirk
+			owns = 401 #Arras
+			owns = 404 #Cambrai
+			owns = 3257 #Calais
+		}
+		
+		effect = {
+			set_country_flag = french_southern_netherlands
+			399 = { change_province_name = "Lille" }
+			400 = { change_province_name = "Dunkerque" }
+			401 = { change_province_name = "Arras" }
+			404 = { change_province_name = "Cambrai" }
+			3257 = { 
+				change_province_name = "Calais" 
+				state_scope = {
+					change_region_name = "Pas-de-Calais"
+				}
+			}
+			prestige = 5
+			NET = { 
+				prestige = -7 
+				clr_country_flag = dutch_southern_netherlands
 			}
 		}
 		ai_will_do = {
@@ -286,6 +370,7 @@ political_decisions = {
 			}
 			political_reform = protected
 			add_accepted_culture = wallonian
+			add_accepted_culture = picard
 			nationalvalue = nv_equality
 		}
 		

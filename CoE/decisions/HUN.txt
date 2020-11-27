@@ -473,20 +473,20 @@ political_decisions = {
 				tag = SYL
 				tag = ROM
 			}
-			owns = 657 #Sibiu
+			owns = 659 #Brasov
 			NOT = {
 				has_global_flag = romanian_south_transylvania
 			}
 		}
 		
 		allow = {
-			owns = 657
+			owns = 659
 			war = no
 		}
 		
 		effect = {
 			set_global_flag = romanian_south_transylvania
-			657 = { change_province_name = "Sibiu" }
+			772 = { change_province_name = "Arad" }
 			655 = { change_province_name = "Alba Iulia" }
 			656 = { change_province_name = "Deva" }
 			659 = { change_province_name = "Brasov" }
@@ -503,19 +503,19 @@ political_decisions = {
 				tag = KUK
 				tag = HUN
 			}
-			owns = 657 #Sibiu
-			657 = { is_core = THIS }
+			owns = 659 #Brasov
+			659 = { is_core = THIS }
 			has_global_flag = romanian_south_transylvania
 		}
 		
 		allow = {
-			owns = 657
+			owns = 659
 			war = no
 		}
 		
 		effect = {
 			clr_global_flag = romanian_south_transylvania
-			657 = { change_province_name = "Hermannstadt" }
+			772 = { change_province_name = "Arad" }
 			655 = { change_province_name = "Gyulafehérvár" }
 			656 = { change_province_name = "Déva" }
 			659 = { change_province_name = "Kronstadt" }
