@@ -2,7 +2,7 @@
 post_napoleonic_thought = {
 	area = army_doctrine
 	year = 1821
-	cost = 4500
+	education_efficiency = 0.01   cost = 4500
 	unciv_military = yes
 	
 	activate_building = fort
@@ -91,7 +91,7 @@ post_napoleonic_thought = {
 strategic_mobility = {
 	area = army_doctrine
 	year = 1821
-	cost = 7600
+	education_efficiency = 0.01   cost = 7600
 	unciv_military = yes
 	
 	army_base = {
@@ -180,7 +180,7 @@ strategic_mobility = {
 point_defense_system = {
 	area = army_doctrine
 	year = 1850
-	cost = 10000
+	education_efficiency = 0.01   cost = 10000
 	unciv_military = yes
 	engineer = {
 		support = 0.25
@@ -278,7 +278,7 @@ point_defense_system = {
 deep_defense_system = {
 	area = army_doctrine
 	year = 1880
-	cost = 12500
+	education_efficiency = 0.01   cost = 12500
 	unciv_military = yes
 	army_base = {
 		supply_consumption = 0.20
@@ -374,7 +374,7 @@ deep_defense_system = {
 infiltration = {
 	area = army_doctrine
 	year = 1900
-	cost = 20000
+	education_efficiency = 0.01   cost = 20000
 	unciv_military = yes
 	engineer = {
 		support = 0.25
@@ -474,7 +474,7 @@ infiltration = {
 modern_army_doctrine = {
 	area = army_doctrine
 	year = 1919
-	cost = 30000 
+	education_efficiency = 0.01   cost = 30000 
 	unciv_military = yes
 	
 	army_base = {
@@ -571,7 +571,7 @@ modern_army_doctrine = {
 modern_army_doctrine_1920 = {
 	area = army_doctrine
 	year = 1920
-	cost = 40000 
+	education_efficiency = 0.01   cost = 40000 
 	unciv_military = yes
 	
 	army_base = {
@@ -673,7 +673,7 @@ modern_army_doctrine_1920 = {
 flintlock_rifles = {
 	area = light_armament
 	year = 1821
-	cost = 4500
+	education_efficiency = 0.01   cost = 4500
 	unciv_military = yes
 	
 	activate_unit = infantry
@@ -777,7 +777,7 @@ flintlock_rifles = {
 muzzle_loaded_rifles = {
 	area = light_armament
 	year = 1825
-	cost = 7600
+	education_efficiency = 0.01   cost = 7600
 	unciv_military = yes
 	activate_unit = engineer
 	
@@ -881,7 +881,7 @@ muzzle_loaded_rifles = {
 breech_loaded_rifles = {
 	area = light_armament
 	year = 1845
-	cost = 10000
+	education_efficiency = 0.01   cost = 10000
 
 	activate_unit = guard
 	unciv_military = yes
@@ -986,7 +986,7 @@ breech_loaded_rifles = {
 bolt_action_rifles = {
 	area = light_armament
 	year = 1860
-	cost = 12500
+	education_efficiency = 0.01   cost = 12500
 
 	unciv_military = yes
 	
@@ -1090,7 +1090,7 @@ bolt_action_rifles = {
 machine_guns = {
 	area = light_armament
 	year = 1880
-	cost = 20000
+	education_efficiency = 0.01   cost = 20000
 	unit = 1
 	unciv_military = yes
 	
@@ -1193,7 +1193,7 @@ machine_guns = {
 modern_divisional_structure = {
 	area = light_armament
 	year = 1910
-	cost = 30000
+	education_efficiency = 0.01   cost = 30000
 	unciv_military = yes
 
 	unit = 2
@@ -1287,7 +1287,7 @@ modern_divisional_structure = {
 modern_divisional_structure_1920 = {
 	area = light_armament
 	year = 1920
-	cost = 40000
+	education_efficiency = 0.01   cost = 40000
 	unciv_military = yes
 
 	combat_width = -2
@@ -1386,7 +1386,7 @@ modern_divisional_structure_1920 = {
 bronze_muzzle_loaded_artillery = {
 	area = heavy_armament
 	year = 1821
-	cost = 4500
+	education_efficiency = 0.01   cost = 4500
 	unciv_military = yes
 	activate_unit = artillery
 	ai_chance = {
@@ -1495,7 +1495,7 @@ bronze_muzzle_loaded_artillery = {
 iron_muzzle_loaded_artillery = {
 	area = heavy_armament
 	year = 1830
-	cost = 7600
+	education_efficiency = 0.01   cost = 7600
 	unciv_military = yes
 	artillery = {
 		support = 0.25
@@ -1611,7 +1611,7 @@ iron_muzzle_loaded_artillery = {
 iron_breech_loaded_artillery = {
 	area = heavy_armament
 	year = 1850
-	cost = 10000
+	education_efficiency = 0.01   cost = 10000
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -1729,7 +1729,7 @@ iron_breech_loaded_artillery = {
 steel_breech_loaded_artillery = {
 	area = heavy_armament
 	year = 1870
-	cost = 12500
+	education_efficiency = 0.01   cost = 12500
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -1848,7 +1848,7 @@ steel_breech_loaded_artillery = {
 indirect_artillery_fire = {
 	area = heavy_armament
 	year = 1900
-	cost = 20000
+	education_efficiency = 0.01   cost = 20000
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -1969,7 +1969,7 @@ indirect_artillery_fire = {
 heavy_armament_dunno = {
 	area = heavy_armament
 	year = 1910
-	cost = 30000
+	education_efficiency = 0.01   cost = 30000
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -2090,7 +2090,7 @@ heavy_armament_dunno = {
 modern_artillery = {
 	area = heavy_armament
 	year = 1920
-	cost = 40000
+	education_efficiency = 0.01   cost = 40000
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -2217,7 +2217,7 @@ modern_artillery = {
 military_staff_system = {
 	area = military_science
 	year = 1821
-	cost = 4500	
+	education_efficiency = 0.01   cost = 4500	
 	unciv_military = yes
 	
 	army_base = {
@@ -2327,7 +2327,7 @@ military_staff_system = {
 military_plans = {
 	area = military_science
 	year = 1830
-	cost = 7600
+	education_efficiency = 0.01   cost = 7600
 	mobilisation_size = 0.005
 	unciv_military = yes
 	
@@ -2438,7 +2438,7 @@ military_plans = {
 military_statistics = {
 	area = military_science
 	year = 1850
-	cost = 10000
+	education_efficiency = 0.01   cost = 10000
 	mobilisation_size = 0.005	
 	unciv_military = yes
 	
@@ -2557,7 +2557,7 @@ military_statistics = {
 military_logistics = {
 	area = military_science
 	year = 1870
-	cost = 12500
+	education_efficiency = 0.01   cost = 12500
 	unciv_military = yes
 	
 	army_base = {
@@ -2676,7 +2676,7 @@ military_logistics = {
 military_directionism = {
 	area = military_science
 	year = 1900
-	cost = 20000
+	education_efficiency = 0.01   cost = 20000
 	mobilisation_size = 0.005
 	unciv_military = yes
 	
@@ -2791,7 +2791,7 @@ military_directionism = {
 aeronautics = {
 	area = military_science
 	year = 1910
-	cost = 30000
+	education_efficiency = 0.01   cost = 30000
 	mobilisation_size = 0.005
 	army_base = {
 		default_organisation = 10
@@ -2905,7 +2905,7 @@ aeronautics = {
 modern_military_science = {
 	area = military_science
 	year = 1920
-	cost = 40000
+	education_efficiency = 0.01   cost = 40000
 	mobilisation_size = 0.005
 	army_base = {
 		default_organisation = 10
@@ -3025,7 +3025,7 @@ modern_military_science = {
 army_command_principle = {
 	area = army_leadership
 	year = 1821
-	cost = 4500
+	education_efficiency = 0.01   cost = 4500
 	morale = 0.15
 	unciv_military = yes
 	military_tactics = 0.15
@@ -3144,7 +3144,7 @@ army_command_principle = {
 army_professionalism = {
 	area = army_leadership
 	year = 1830
-	cost = 7600
+	education_efficiency = 0.01   cost = 7600
 	unciv_military = yes
 	morale = 0.1
 
@@ -3264,7 +3264,7 @@ army_professionalism = {
 army_decision_making = {
 	area = army_leadership
 	year = 1850
-	cost = 10000
+	education_efficiency = 0.01   cost = 10000
 	unciv_military = yes
 	morale = 0.25
 
@@ -3384,7 +3384,7 @@ army_decision_making = {
 army_risk_management = {
 	area = army_leadership
 	year = 1870
-	cost = 12500
+	education_efficiency = 0.01   cost = 12500
 	unciv_military = yes
 	morale = 0.25
 
@@ -3504,7 +3504,7 @@ army_risk_management = {
 army_nco_training = {
 	area = army_leadership
 	year = 1900
-	cost = 20000
+	education_efficiency = 0.01   cost = 20000
 	unciv_military = yes
 	morale = 0.25
 	
@@ -3620,7 +3620,7 @@ army_nco_training = {
 great_war_experience = {
 	area = army_leadership
 	year = 1910
-	cost = 30000
+	education_efficiency = 0.01   cost = 30000
 	unciv_military = yes
 	morale = 0.25
 
@@ -3732,7 +3732,7 @@ great_war_experience = {
 modern_army_leadership = {
 	area = army_leadership
 	year = 1920
-	cost = 40000
+	education_efficiency = 0.01   cost = 40000
 	unciv_military = yes
 	morale = 0.25
 

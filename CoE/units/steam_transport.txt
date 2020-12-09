@@ -25,7 +25,7 @@ steam_transport = {
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 0.25
+		military_industry = 0.125
 	}
 	
 	#Naval Abilties

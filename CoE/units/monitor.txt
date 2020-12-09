@@ -24,7 +24,7 @@ monitor = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 1.00
+		military_industry = 0.50
 	}
 	
 	#Naval Abilties

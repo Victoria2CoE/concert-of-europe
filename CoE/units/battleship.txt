@@ -30,7 +30,7 @@ battleship = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 1.75
+		military_industry = 0.875
 	}
 	
 	#Naval Abilties

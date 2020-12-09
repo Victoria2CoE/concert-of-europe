@@ -22,7 +22,7 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.5
+		military_industry = 0.25
 	}
 	
 

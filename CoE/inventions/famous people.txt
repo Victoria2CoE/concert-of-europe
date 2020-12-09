@@ -34,7 +34,7 @@ marcel_mauss = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.25
+		education_efficiency = 0.10
 		shared_prestige = 15
 	}	
 }
@@ -175,7 +175,7 @@ emile_dirkheim = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.1
+		education_efficiency = 0.05
 		shared_prestige = 5
 	}	
 }

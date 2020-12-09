@@ -2714,7 +2714,7 @@ the_iron_horse = {
 	}
 	effect = {
 		shared_prestige = 15
-		max_railroad = 1
+		max_railroad = 2
 		mobilisation_size = 0.002
 	}
 }
@@ -2735,7 +2735,7 @@ commercial_railroads = {
 	}
 	effect = {
 		shared_prestige = 20
-		max_railroad = 1
+		max_railroad = 2
 		mobilisation_size = 0.002
 	}
 }
@@ -3404,7 +3404,7 @@ sunday_schools = {
 		base = 3
 	}
 	effect = {
-		education_efficiency = 0.1
+		education_efficiency = 0.05
 	}
 }
 
@@ -3427,7 +3427,7 @@ infant_schools = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.15
+		education_efficiency = 0.075
 	}
 }
 
@@ -3442,7 +3442,7 @@ state_education = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.1
+		education_efficiency = 0.05
 	}
 }
 
@@ -3465,7 +3465,7 @@ curriculum = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.15
+		education_efficiency = 0.075
 	}
 }
 
@@ -3488,7 +3488,7 @@ grammar_schools = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.1
+		education_efficiency = 0.05
 	}
 }
 
@@ -3503,7 +3503,7 @@ high_schools = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.15
+		education_efficiency = 0.075
 	}
 }
 
@@ -3526,7 +3526,7 @@ scholarships = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.15
+		education_efficiency = 0.075
 	}
 }
 
@@ -7707,7 +7707,7 @@ culture_2 = {
 	}
 	effect = {
 		permanent_prestige = 2
-		education_efficiency = 0.25
+		education_efficiency = 0.10
 	}
 }
 

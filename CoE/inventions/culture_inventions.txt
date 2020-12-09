@@ -993,7 +993,7 @@ darwinism = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.25
+		education_efficiency = 0.10
 	}
 	
 	
@@ -2358,7 +2358,7 @@ mass_advertising = {
 	}
 	core_pop_consciousness_modifier = 0.01
 	effect = {
-		education_efficiency = 0.25
+		education_efficiency = 0.10
 	}
 }
 national_radio_networks = {
