@@ -3,7 +3,7 @@ promotion_chance =
 	factor = 0.5
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.25
 		always = yes
 	}	
 	modifier = {
@@ -498,7 +498,7 @@ demotion_chance =
 {
 	factor = 0.5
 	modifier = {
-		factor = 0.10
+		factor = 0.25
 		always = yes
 	}
 	modifier = {
