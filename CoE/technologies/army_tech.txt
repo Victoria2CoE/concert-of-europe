@@ -1383,7 +1383,7 @@ modern_divisional_structure_1920 = {
 
 
 #heavy_armament
-bronze_muzzle_loaded_artilery = {
+bronze_muzzle_loaded_artillery = {
 	area = heavy_armament
 	year = 1821
 	cost = 4500
@@ -1492,16 +1492,16 @@ bronze_muzzle_loaded_artilery = {
 	}
 }
 
-iron_muzzle_loaded_artilery = {
+iron_muzzle_loaded_artillery = {
 	area = heavy_armament
 	year = 1830
 	cost = 7600
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		support = 0.25
 		supply_consumption = 0.15
 	}
-	horse_artilery = {
+	horse_artillery = {
 		support = 0.25
 		supply_consumption = 0.15
 	}
@@ -1608,17 +1608,17 @@ iron_muzzle_loaded_artilery = {
 	}
 }
 
-iron_breech_loaded_artilery = {
+iron_breech_loaded_artillery = {
 	area = heavy_armament
 	year = 1850
 	cost = 10000
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		attack = 0.25
 		support = 0.25
 		supply_consumption = 0.3
 	}
-	horse_artilery = {
+	horse_artillery = {
 		attack = 0.25
 		support = 0.25
 		supply_consumption = 0.3
@@ -1726,17 +1726,17 @@ iron_breech_loaded_artilery = {
 	}
 }
 
-steel_breech_loaded_artilery = {
+steel_breech_loaded_artillery = {
 	area = heavy_armament
 	year = 1870
 	cost = 12500
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		attack = 0.25
 		support = 0.25
 		supply_consumption = 0.3
 	}
-	horse_artilery = {
+	horse_artillery = {
 		attack = 0.25
 		support = 0.25
 		supply_consumption = 0.3
@@ -1850,13 +1850,13 @@ indirect_artillery_fire = {
 	year = 1900
 	cost = 20000
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		attack = 0.25
 		defence = 2
 		support = 0.5
 		supply_consumption = 0.3
 	}
-	horse_artilery = {
+	horse_artillery = {
 		attack = 0.25
 		defence = 2
 		support = 0.5
@@ -1971,13 +1971,13 @@ heavy_armament_dunno = {
 	year = 1910
 	cost = 30000
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		attack = 0.25
 		defence = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}
-	horse_artilery = {
+	horse_artillery = {
 		attack = 0.25
 		defence = 1
 		support = 0.5
@@ -2087,18 +2087,18 @@ heavy_armament_dunno = {
 	}
 }
 
-modern_artilery = {
+modern_artillery = {
 	area = heavy_armament
 	year = 1920
 	cost = 40000
 	unciv_military = yes
-	artilery = {
+	artillery = {
 		attack = 0.25
 		defence = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}
-	horse_artilery = {
+	horse_artillery = {
 		attack = 0.25
 		defence = 1
 		support = 0.5

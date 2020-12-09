@@ -114,7 +114,7 @@ improved_artillery_manufacturing = {
 }
 
 practical_artillery_experience = {
-	limit = { iron_breech_loaded_artilery = 1 }
+	limit = { iron_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -134,7 +134,7 @@ practical_artillery_experience = {
 
 
 advanced_target_practice = {
-	limit = { steel_breech_loaded_artilery = 1 }
+	limit = { steel_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -334,10 +334,10 @@ School_of_firepower = {
 			attack = 1
 			supply_consumption = -0.15
 		}
-		artilery = {
+		artillery = {
 			attack = -0.75
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.75
 		}
 		plane = {
@@ -377,8 +377,8 @@ turbine_driven_trawlers = {
 	}
 }
 
-horse_artilery = {
-	limit = { bronze_muzzle_loaded_artilery = 1 }
+horse_artillery = {
+	limit = { bronze_muzzle_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 50
@@ -728,8 +728,8 @@ portland_heavy_industry =  {
 	}
 }
 
-self_propelled_artilery = {
-	limit = { modern_artilery = 1 }
+self_propelled_artillery = {
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -751,7 +751,7 @@ self_propelled_artilery = {
 		}
 	}
 	effect = {
-		horse_artilery = {
+		horse_artillery = {
 			maximum_speed = 1
 		}
 	}
@@ -784,17 +784,17 @@ railroad_guns = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			support = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			support = 0.25
 		}
 	}
 }
 
 carronade = {
-	limit = { bronze_muzzle_loaded_artilery = 1 }
+	limit = { bronze_muzzle_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 3
@@ -804,12 +804,12 @@ carronade = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.5
 			support = 0.5
 			supply_consumption = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.5
 			support = 0.5
 			supply_consumption = 0.15
@@ -818,7 +818,7 @@ carronade = {
 }
 
 twelve_pounder = {
-	limit = { iron_muzzle_loaded_artilery = 1 }
+	limit = { iron_muzzle_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -832,19 +832,19 @@ twelve_pounder = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.25
 			support = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.25
 			support = 0.25
 		}
 	}
 }
 
-rifled_artilery = {
-	limit = { iron_breech_loaded_artilery = 1 }
+rifled_artillery = {
+	limit = { iron_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -858,17 +858,17 @@ rifled_artilery = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			support = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			support = 0.25
 		}
 	}
 }
 
 76_millimeter_gun = {
-	limit = { steel_breech_loaded_artilery = 1 }
+	limit = { steel_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -882,11 +882,11 @@ rifled_artilery = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.25
 			support = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			support = 0.25
 		}
 	}
@@ -915,7 +915,7 @@ howitzer = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -945,7 +945,7 @@ mortar = {
 		}
 	}
 	effect = {
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -987,10 +987,10 @@ firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -1072,7 +1072,7 @@ heavy_support_doctrine = {
 		base = 6
 	}
 	effect = {
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.25
 			maximum_speed = 1
 			reconnaissance = 2
@@ -1096,7 +1096,7 @@ siege_doctrine = {
 		base = 6
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.25
 			maximum_speed = 1
 			reconnaissance = 2
@@ -1138,10 +1138,10 @@ superior_firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -1269,7 +1269,7 @@ penicillin = {
 }
 
 iron_artillery_production = {
-	limit = { iron_muzzle_loaded_artilery = 1 }
+	limit = { iron_muzzle_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1284,7 +1284,7 @@ iron_artillery_production = {
 }
 
 artillery_production = {
-	limit = { steel_breech_loaded_artilery = 1 }
+	limit = { steel_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -2537,7 +2537,7 @@ machine_gun_deployment = {
 		}
 		modifier = {
 			factor = -1
-			not = { steel_breech_loaded_artilery = 1 }
+			not = { steel_breech_loaded_artillery = 1 }
 		}
 		modifier = {
 			factor = 5
@@ -4738,10 +4738,10 @@ early_1930_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4774,10 +4774,10 @@ mid_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4810,10 +4810,10 @@ late_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4846,10 +4846,10 @@ early_1940_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4882,10 +4882,10 @@ mid_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4918,10 +4918,10 @@ late_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artilery = {
+		artillery = {
 			attack = -0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4931,7 +4931,7 @@ late_1940_army_armament	= {
 }
 
 early_1930_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4945,10 +4945,10 @@ early_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -4958,7 +4958,7 @@ early_1930_army_heavy_armament = {
 }
 
 mid_1930_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4976,10 +4976,10 @@ mid_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -4989,7 +4989,7 @@ mid_1930_army_heavy_armament = {
 }
 
 late_1930_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5007,10 +5007,10 @@ late_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5020,7 +5020,7 @@ late_1930_army_heavy_armament = {
 }
 
 early_1940_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5038,10 +5038,10 @@ early_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5051,7 +5051,7 @@ early_1940_army_heavy_armament = {
 }
 
 mid_1940_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5069,10 +5069,10 @@ mid_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5082,7 +5082,7 @@ mid_1940_army_heavy_armament = {
 }
 
 late_1940_army_heavy_armament = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5100,10 +5100,10 @@ late_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.15
 		}
 		plane = {
@@ -7279,7 +7279,7 @@ army_1 = {
 	limit = { 
 		post_napoleonic_thought = 1 
 		flintlock_rifles = 1 
-		bronze_muzzle_loaded_artilery = 1 
+		bronze_muzzle_loaded_artillery = 1 
 		military_staff_system = 1 
 		army_command_principle = 1 
 	}
@@ -7299,7 +7299,7 @@ army_2 = {
 	limit = { 
 		strategic_mobility = 1 
 		muzzle_loaded_rifles = 1 
-		iron_muzzle_loaded_artilery = 1 
+		iron_muzzle_loaded_artillery = 1 
 		military_plans = 1 
 		army_professionalism = 1 
 	}
@@ -7317,7 +7317,7 @@ army_3 = {
 	limit = { 
 		point_defense_system = 1 
 		breech_loaded_rifles = 1 
-		iron_breech_loaded_artilery = 1 
+		iron_breech_loaded_artillery = 1 
 		military_statistics = 1 
 		army_decision_making = 1 
 	}
@@ -7335,7 +7335,7 @@ army_4 = {
 	limit = { 
 		deep_defense_system = 1 
 		bolt_action_rifles = 1 
-		steel_breech_loaded_artilery = 1 
+		steel_breech_loaded_artillery = 1 
 		military_logistics = 1 
 		army_risk_management = 1 
 	}
@@ -7393,7 +7393,7 @@ army_7 = {
 	limit = { 
 		modern_army_doctrine_1920 = 1 
 		modern_divisional_structure_1920 = 1 
-		modern_artilery = 1 
+		modern_artillery = 1 
 		modern_military_science = 1 
 		modern_army_leadership = 1 
 	}

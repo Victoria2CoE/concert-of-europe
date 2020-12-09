@@ -770,7 +770,7 @@ explosives_production = {
 	
 }
 bronze_artillery_production = {
-	limit = { bronze_muzzle_loaded_artilery = 1 }
+	limit = { bronze_muzzle_loaded_artillery = 1 }
 	news = no
 	chance = {
 		base = 5

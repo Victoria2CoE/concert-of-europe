@@ -64,7 +64,7 @@ field_fortifications = {
 		engineer = {
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 1
 		}
 		dragoon = {
@@ -82,7 +82,7 @@ field_fortifications = {
 		regular = {
 			defence = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 1
 		}		
 	}
@@ -174,10 +174,10 @@ flexible_firepower = {
 		engineer = {
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 0.5
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 0.5
 		}
 		dragoon = {
@@ -209,7 +209,7 @@ synchronized_heavy_support = {
 		base = 4
 		modifier = {
 			factor = 2
-			iron_breech_loaded_artilery = 1
+			iron_breech_loaded_artillery = 1
 		}
 		modifier = {
 			factor = 2
@@ -230,10 +230,10 @@ synchronized_heavy_support = {
 		engineer = {
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 0.5
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 0.5
 		}
 		dragoon = {
@@ -316,10 +316,10 @@ trench_systems = {
 		engineer = {
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 1
 		}
 		dragoon = {
@@ -455,10 +455,10 @@ elastic_defense_system = {
 		engineer = {
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 1
 		}
 		dragoon = {
@@ -724,10 +724,10 @@ firepower_vs_mobility = {
 			attack = 1
 			defence = 1
 		}
-		artilery = {
+		artillery = {
 			defence = 2
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 2
 		}
 		cuirassier = {
@@ -1024,7 +1024,7 @@ light_tank = {
 
 medium_tank = {
 	limit = {
-		modern_artilery = 1
+		modern_artillery = 1
 		invention = tank_experiments
 		has_country_flag = existing_country
 	}
@@ -1049,7 +1049,7 @@ medium_tank = {
 }
 heavy_tank = {
 	limit = {
-		modern_artilery = 1
+		modern_artillery = 1
 		invention = tank_experiments
 		has_country_flag = existing_country
 	}
@@ -1093,23 +1093,23 @@ armoured_cars = {
 		}
 	}
 }
-anti_aircraft_artilery = {
+anti_aircraft_artillery = {
 	limit = { heavy_armament_dunno = 1 }
 	news = no
 	chance = {
 		base = 6
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			defence = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 1
 		}
 	}
 }
-improved_anti_aircraft_artilery = {
-	limit = { modern_artilery = 1 }
+improved_anti_aircraft_artillery = {
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1119,15 +1119,15 @@ improved_anti_aircraft_artilery = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			defence = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			defence = 1
 		}
 	}
 }
-light_artilery = {
+light_artillery = {
 	limit = { heavy_armament_dunno = 1 }
 	news = no
 	chance = {
@@ -1138,14 +1138,14 @@ light_artilery = {
 		}
 	}
 	effect = {
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.1
 			support = 0.1
 			supply_consumption = 0.25
 		}
 	}
 }
-medium_artilery = {
+medium_artillery = {
 	limit = { heavy_armament_dunno = 1 }
 	news = no
 	chance = {
@@ -1160,17 +1160,17 @@ medium_artilery = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.1
 			support = 0.1
 			supply_consumption = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			support = 0.25
 		}
 	}
 }
-heavy_artilery = {
+heavy_artillery = {
 	limit = { heavy_armament_dunno = 1 }
 	news = no
 	chance = {
@@ -1185,7 +1185,7 @@ heavy_artilery = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.2
 			support = 0.2
 			supply_consumption = 0.25
@@ -1194,7 +1194,7 @@ heavy_artilery = {
 }
 
 modern_artillery_equipment = {
-	limit = { modern_artilery = 1 }
+	limit = { modern_artillery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1208,12 +1208,12 @@ modern_artillery_equipment = {
 		}
 	}
 	effect = {
-		artilery = {
+		artillery = {
 			attack = 0.15
 			support = 0.15
 			supply_consumption = 0.25
 		}
-		horse_artilery = {
+		horse_artillery = {
 			attack = 0.2
 			support = 0.2
 			supply_consumption = 0.25
@@ -1888,7 +1888,7 @@ army_alternative_plans = {
 		cavalry = {
 			maximum_speed = 1
 		}
-		horse_artilery = {
+		horse_artillery = {
 			maximum_speed = 1
 		}
 	}
