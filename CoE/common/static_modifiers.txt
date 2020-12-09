@@ -144,6 +144,7 @@ base_values = {
 	global_pop_consciousness_modifier = -0.05
 	min_social_spending = 0.10
 	education_efficiency_modifier = 1.00
+	land_unit_start_experience = 40
 	#pension_level = 10
 }
 
