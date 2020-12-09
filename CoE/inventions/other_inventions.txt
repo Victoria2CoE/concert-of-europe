@@ -105,7 +105,7 @@ improved_artillery_manufacturing = {
 			military_industry = 0.02
 		}
 		factory_goods_output = {
-			military_industry =  0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -114,7 +114,7 @@ improved_artillery_manufacturing = {
 }
 
 practical_artillery_experience = {
-	limit = { iron_breech_loaded_military_industry = 1 }
+	limit = { iron_breech_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -124,7 +124,7 @@ practical_artillery_experience = {
 			military_industry = 0.02
 		}
 		factory_goods_output = {
-			military_industry =  0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -134,7 +134,7 @@ practical_artillery_experience = {
 
 
 advanced_target_practice = {
-	limit = { steel_breech_loaded_military_industry = 1 }
+	limit = { steel_breech_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -144,7 +144,7 @@ advanced_target_practice = {
 			military_industry = 0.02
 		}
 		factory_goods_output = {
-			military_industry =  0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -164,7 +164,7 @@ heavy_artillery_making = {
 			military_industry = 0.02
 		}
 		factory_goods_output = {
-			military_industry =  0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -334,7 +334,7 @@ School_of_firepower = {
 			attack = 1
 			supply_consumption = -0.15
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.75
 		}
 		horse_artilery = {
@@ -378,7 +378,7 @@ turbine_driven_trawlers = {
 }
 
 horse_artilery = {
-	limit = { bronze_muzzle_loaded_military_industry = 1 }
+	limit = { bronze_muzzle_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 50
@@ -728,8 +728,8 @@ portland_heavy_industry =  {
 	}
 }
 
-self_propelled_military_industry = {
-	limit = { modern_military_industry = 1 }
+self_propelled_artilery = {
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -784,7 +784,7 @@ railroad_guns = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			support = 0.25
 		}
 		horse_artilery = {
@@ -794,7 +794,7 @@ railroad_guns = {
 }
 
 carronade = {
-	limit = { bronze_muzzle_loaded_military_industry = 1 }
+	limit = { bronze_muzzle_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 3
@@ -804,7 +804,7 @@ carronade = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.5
 			support = 0.5
 			supply_consumption = 0.15
@@ -818,7 +818,7 @@ carronade = {
 }
 
 twelve_pounder = {
-	limit = { iron_muzzle_loaded_military_industry = 1 }
+	limit = { iron_muzzle_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -832,7 +832,7 @@ twelve_pounder = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -843,8 +843,8 @@ twelve_pounder = {
 	}
 }
 
-rifled_military_industry = {
-	limit = { iron_breech_loaded_military_industry = 1 }
+rifled_artilery = {
+	limit = { iron_breech_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -858,7 +858,7 @@ rifled_military_industry = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			support = 0.25
 		}
 		horse_artilery = {
@@ -868,7 +868,7 @@ rifled_military_industry = {
 }
 
 76_millimeter_gun = {
-	limit = { steel_breech_loaded_military_industry = 1 }
+	limit = { steel_breech_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -882,7 +882,7 @@ rifled_military_industry = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -915,7 +915,7 @@ howitzer = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -987,7 +987,7 @@ firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -1096,7 +1096,7 @@ siege_doctrine = {
 		base = 6
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.25
 			maximum_speed = 1
 			reconnaissance = 2
@@ -1138,7 +1138,7 @@ superior_firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -1269,7 +1269,7 @@ penicillin = {
 }
 
 iron_artillery_production = {
-	limit = { iron_muzzle_loaded_military_industry = 1 }
+	limit = { iron_muzzle_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1284,7 +1284,7 @@ iron_artillery_production = {
 }
 
 artillery_production = {
-	limit = { steel_breech_loaded_military_industry = 1 }
+	limit = { steel_breech_loaded_artilery = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1415,7 +1415,7 @@ poudre_b = {
 }
 
 cordite = {
-	limit = { cheap_heavy_industry =  1 }
+	limit = { cheap_steel =  1 }
 	news = no
 	chance = {
 		base = 6
@@ -2537,7 +2537,7 @@ machine_gun_deployment = {
 		}
 		modifier = {
 			factor = -1
-			not = { steel_breech_loaded_military_industry = 1 }
+			not = { steel_breech_loaded_artilery = 1 }
 		}
 		modifier = {
 			factor = 5
@@ -4738,7 +4738,7 @@ early_1930_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4774,7 +4774,7 @@ mid_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4810,7 +4810,7 @@ late_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4846,7 +4846,7 @@ early_1940_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4882,7 +4882,7 @@ mid_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4918,7 +4918,7 @@ late_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		military_industry = {
+		artilery = {
 			attack = -0.25
 		}
 		horse_artilery = {
@@ -4931,7 +4931,7 @@ late_1940_army_armament	= {
 }
 
 early_1930_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4945,7 +4945,7 @@ early_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -4958,7 +4958,7 @@ early_1930_army_heavy_armament = {
 }
 
 mid_1930_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4976,7 +4976,7 @@ mid_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -4989,7 +4989,7 @@ mid_1930_army_heavy_armament = {
 }
 
 late_1930_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5007,7 +5007,7 @@ late_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -5020,7 +5020,7 @@ late_1930_army_heavy_armament = {
 }
 
 early_1940_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5038,7 +5038,7 @@ early_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -5051,7 +5051,7 @@ early_1940_army_heavy_armament = {
 }
 
 mid_1940_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5069,7 +5069,7 @@ mid_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -5082,7 +5082,7 @@ mid_1940_army_heavy_armament = {
 }
 
 late_1940_army_heavy_armament = {
-	limit = { modern_military_industry = 1 }
+	limit = { modern_artilery = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5100,7 +5100,7 @@ late_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		military_industry = {
+		artilery = {
 			attack = 0.15
 		}
 		horse_artilery = {
@@ -7279,7 +7279,7 @@ army_1 = {
 	limit = { 
 		post_napoleonic_thought = 1 
 		flintlock_rifles = 1 
-		bronze_muzzle_loaded_military_industry = 1 
+		bronze_muzzle_loaded_artilery = 1 
 		military_staff_system = 1 
 		army_command_principle = 1 
 	}
@@ -7299,7 +7299,7 @@ army_2 = {
 	limit = { 
 		strategic_mobility = 1 
 		muzzle_loaded_rifles = 1 
-		iron_muzzle_loaded_military_industry = 1 
+		iron_muzzle_loaded_artilery = 1 
 		military_plans = 1 
 		army_professionalism = 1 
 	}
@@ -7317,7 +7317,7 @@ army_3 = {
 	limit = { 
 		point_defense_system = 1 
 		breech_loaded_rifles = 1 
-		iron_breech_loaded_military_industry = 1 
+		iron_breech_loaded_artilery = 1 
 		military_statistics = 1 
 		army_decision_making = 1 
 	}
@@ -7335,7 +7335,7 @@ army_4 = {
 	limit = { 
 		deep_defense_system = 1 
 		bolt_action_rifles = 1 
-		steel_breech_loaded_military_industry = 1 
+		steel_breech_loaded_artilery = 1 
 		military_logistics = 1 
 		army_risk_management = 1 
 	}
@@ -7393,7 +7393,7 @@ army_7 = {
 	limit = { 
 		modern_army_doctrine_1920 = 1 
 		modern_divisional_structure_1920 = 1 
-		modern_military_industry = 1 
+		modern_artilery = 1 
 		modern_military_science = 1 
 		modern_army_leadership = 1 
 	}
@@ -7860,7 +7860,7 @@ industry_4 = {
 	limit = { 
 		steam_turbine = 1 
 		semi_automatization = 1 
-		cheap_heavy_industry =  1 
+		cheap_steel =  1 
 		steel_railroad = 1 
 		organic_chemistry = 1 
 	}
