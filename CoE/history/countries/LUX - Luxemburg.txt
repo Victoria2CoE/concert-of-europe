@@ -5,7 +5,7 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0.2
 nationalvalue = nv_liberty
-literacy = 0.6
+literacy = 0.01 #literacy = 0.6
 civilized = yes
 prestige = 1
 
@@ -81,7 +81,7 @@ oob = "LUX_oob.txt"
 1861.1.1 = {
 	oob = "/1861/LUX_oob.txt"
 	plurality = 60
-	literacy = 0.80
+	literacy = 0.01 #literacy = 0.80
 }
 1861.1.1 = {
 # Technologies

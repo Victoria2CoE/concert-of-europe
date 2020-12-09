@@ -5,7 +5,7 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.004
+literacy = 0.01 #literacy = 0.004
 
 # Political reforms
 slavery = no_slavery

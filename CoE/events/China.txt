@@ -54,7 +54,7 @@ country_event = {
 			remove_province_modifier = boxer_presence
 			remove_province_modifier = boxer_agitation
 		}
-		activate_building = cement_factory 
+		activate_building = havy_factory_building 
 		activate_unit = regular
 		any_owned = {
 			limit = { 
@@ -184,11 +184,11 @@ country_event = {
 		}
 		any_owned = {
 			limit = { 
-				owner = { has_country_flag = iron_muzzle_loaded_artillery }
+				owner = { has_country_flag = iron_muzzle_loaded_military_industry }
 			}
 			owner = { 
-				activate_technology = iron_muzzle_loaded_artillery 
-				clr_country_flag = iron_muzzle_loaded_artillery
+				activate_technology = iron_muzzle_loaded_military_industry 
+				clr_country_flag = iron_muzzle_loaded_military_industry
 			}
 		}
 		any_owned = {

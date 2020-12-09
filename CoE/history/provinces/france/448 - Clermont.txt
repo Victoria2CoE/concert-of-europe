@@ -8,12 +8,12 @@ terrain = deciduous_forest_hills
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = winery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = lumber_mill
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

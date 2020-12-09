@@ -8,18 +8,18 @@ terrain = deciduous_forest_hills
 naval_base = 1
 #state_building = {
 #	level = 1
-#	building = fabric_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 1861.1.1 = { 
 	state_building = {
 		level = 1
-		building = regular_clothes_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = glass_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

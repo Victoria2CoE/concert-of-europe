@@ -7,8 +7,8 @@ religion = catholic
 government = prussian_constitutionalism2
 plurality = 5
 nationalvalue = nv_equality
-literacy = 0.59
-non_state_culture_literacy = 0.14
+literacy = 0.01 #literacy = 0.59
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.14
 civilized = yes
 
 #GreaterPowers = prestige
@@ -93,8 +93,8 @@ schools = culture_tech_school
 oob = "/1821/FRA_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.60
-	non_state_culture_literacy = 0.15
+	literacy = 0.01 #literacy = 0.60
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.15
 	prestige = 90
 	
 	# Political reforms
@@ -166,8 +166,8 @@ oob = "/1821/FRA_oob.txt"
 	set_country_flag = cochinchina_campaign
 	clr_country_flag = conservative_election_win
 	plurality = 65
-	literacy = 0.65
-	non_state_culture_literacy = 0.15
+	literacy = 0.01 #literacy = 0.65
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.15
 	
 	foreign_investment = {
 		PAP = 8000

@@ -4,7 +4,7 @@ religion = orthodox
 government = democracy
 plurality = 0.08
 nationalvalue = nv_might
-literacy = 0.4
+literacy = 0.01 #literacy = 0.4
 civilized = yes
 
 # Political reforms

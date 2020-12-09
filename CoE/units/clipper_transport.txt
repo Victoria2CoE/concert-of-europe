@@ -18,13 +18,12 @@ clipper_transport = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		clipper_convoy = 0.5
+		military_industry = 10.0
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		lumber = 1
-		fabric = 0.5
+		military_industry = 0.10
 		}
 	
 

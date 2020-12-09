@@ -887,10 +887,10 @@ functionalism = {
 	education_efficiency = 0.5
 	colonial_points = 10
 	factory_goods_throughput = {
-		shoes = 0.05
+		light_industry = 0.05
 	}
 	factory_goods_output = {
-		shoes = 0.1
+		light_industry = 0.1
 	}
 	ai_chance = {
 		factor = 1.01
@@ -977,10 +977,10 @@ biologism = {
 	colonial_points = 10
 	education_efficiency = 0.5
 	factory_goods_throughput = {
-		boots  = 0.1
+		light_industry =  0.1
 	}
 	factory_goods_output = {
-		boots = 0.05
+		light_industry = 0.05
 	}
 	ai_chance = {
 		factor = 1.1

@@ -4,7 +4,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.21
+literacy = 0.01 #literacy = 0.21
 civilized = yes
 prestige = 1
 
@@ -67,7 +67,7 @@ nonstate_consciousness = 0
 oob = "/1821/GRE_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.22
+	literacy = 0.01 #literacy = 0.22
 	prestige = 5
 	
 	set_country_flag = legitimacy
@@ -98,7 +98,7 @@ oob = "/1821/GRE_oob.txt"
 	government = prussian_constitutionalism
 	set_country_flag = tory_election_win
 	plurality = 50
-	literacy = 0.27
+	literacy = 0.01 #literacy = 0.27
 	
 # Political reforms
 slavery = no_slavery

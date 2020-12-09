@@ -7,7 +7,7 @@ terrain = marginal_farmland
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = winery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

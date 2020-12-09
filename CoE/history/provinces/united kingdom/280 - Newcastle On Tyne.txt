@@ -6,33 +6,33 @@ life_rating = 30
 terrain = marginal_farmland
 state_building = {
 	level = 1
-	building = wool_mill
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = bakery
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = clipper_shipyard
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 	state_building = {
 		level = 2
-		building = steel_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = bakery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = clipper_shipyard
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

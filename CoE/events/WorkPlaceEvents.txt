@@ -351,7 +351,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12030"
 		owner = {
-			ammunition = -250
+			military_industry = -250
 			treasury = -75000
 		}
 		ai_chance = {
@@ -485,7 +485,7 @@ province_event = {
 		
 	option = {
 		name = "EVTOPTA12060"
-		owner = { canned_food = 250 }
+		owner = { food_industry = 250 }
 		state_scope = {
 			soldiers = { 
 				militancy = -1 
@@ -511,7 +511,7 @@ province_event = {
 		
 	option = {
 		name = "EVTOPTA12070"
-		owner = { canned_food = 250 }
+		owner = { food_industry = 250 }
 	}
 	option = {
 		name = "EVTOPTB12070"
@@ -588,7 +588,7 @@ province_event = {
 		name = "EVTOPTB12090"
 		owner = { 
 			silk = -200
-			canned_food = -200
+			food_industry = -200
 			treasury = -30000
 		}
 		ai_chance = {
@@ -803,7 +803,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTB12130"
-		owner = { luxury_clothes = 50 }
+		owner = { luxury_industry = 50 }
 		any_pop = {
 			consciousness = -2
 		}
@@ -945,7 +945,7 @@ province_event = {
 	}
 }
 
-# Standard $PROVINCENAME$ Cement
+# Standard $PROVINCENAME$ havy_industry
 province_event = {
 	id = 12161
 	title = "EVTNAME12161"
@@ -956,7 +956,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12160"
-		owner = { cement = 200 }
+		owner = { havy_industry = 200 }
 		state_scope = {
 			labourers = {
 				militancy = -2
@@ -967,7 +967,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTB12160"
-		owner = { cement = 200 }
+		owner = { havy_industry = 200 }
 		state_scope = {
 			capitalists = {
 				money = 200
@@ -1497,7 +1497,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12240"
 		owner = { 
-			wine = 200
+			luxury_industry = 200
 			liquor = 200
 		}
 		state_scope = {
@@ -1620,7 +1620,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12270"
 		owner = {
-			luxury_clothes = -250
+			luxury_industry = -250
 			regular_clothes = 250
 			treasury = -40000
 		}

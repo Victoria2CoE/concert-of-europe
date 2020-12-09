@@ -1484,7 +1484,7 @@ political_decisions = {
 			horses = 20
 			wool = 20
 			timber = 100
-			small_arms = 20
+			military_industry = 20
 			leadership = 40
 			define_general = {
 				name = "Yang Xiuqing"
@@ -1522,7 +1522,7 @@ political_decisions = {
 			horses = 10
 			wool = 10
 			timber = 25
-			small_arms = 10
+			military_industry = 10
 			leadership = 20
 			define_general = {
 				name = "Yaqub Beg"
@@ -1569,7 +1569,7 @@ political_decisions = {
 			horses = 10
 			wool = 10
 			timber = 25
-			small_arms = 10
+			military_industry = 10
 			leadership = 20
 			define_general = {
 				name = "Du Wenxiu"
@@ -1614,7 +1614,7 @@ political_decisions = {
 			horses = 10
 			wool = 10
 			timber = 25
-			small_arms = 10
+			military_industry = 10
 			leadership = 20
 			add_country_modifier = {
 				name = small_country_draft
@@ -1645,7 +1645,7 @@ political_decisions = {
 			horses = 10
 			wool = 10
 			timber = 25
-			small_arms = 10
+			military_industry = 10
 			leadership = 20
 			add_country_modifier = {
 				name = small_country_draft
@@ -1708,7 +1708,7 @@ political_decisions = {
 			horses = 10
 			wool = 10
 			timber = 25
-			small_arms = 10
+			military_industry = 10
 			leadership = 20
 			define_general = {
 				name = "Saigo Takamori"
@@ -1876,7 +1876,7 @@ political_decisions = {
 		potential = {	
 			NOT = { has_country_modifier = secret_police }		 	
 			OR = {
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }

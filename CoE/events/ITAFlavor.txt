@@ -343,9 +343,9 @@ country_event = {
 				any_pop = {
 					militancy = -6
 				}
-				small_arms = 50
+				military_industry = 50
 				regular_clothes = 50
-				artillery = 50
+				military_industry = 50
 				horses = 50
 				leadership = 40
 			}
@@ -373,9 +373,9 @@ country_event = {
 				any_pop = {
 					militancy = -6
 				}
-				small_arms = 50
+				military_industry = 50
 				regular_clothes = 50
-				artillery = 50
+				military_industry = 50
 				horses = 50
 				leadership = 40
 			}
@@ -455,9 +455,9 @@ country_event = {
 				any_pop = {
 					militancy = -6
 				}
-				small_arms = 50
+				military_industry = 50
 				regular_clothes = 50
-				artillery = 50
+				military_industry = 50
 				horses = 50
 				leadership = 40
 			}
@@ -485,9 +485,9 @@ country_event = {
 				any_pop = {
 					militancy = -6
 				}
-				small_arms = 50
+				military_industry = 50
 				regular_clothes = 50
-				artillery = 50
+				military_industry = 50
 				horses = 50
 				leadership = 40
 			}

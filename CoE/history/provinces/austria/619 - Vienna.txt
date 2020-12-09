@@ -7,28 +7,28 @@ terrain = good_farmland
 fort = 1
 state_building = {
 	level = 1
-	building = luxury_furniture_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = bronze_factory 
+	building = heavy_factory_building 
 	upgrade = yes
 }
 1836.1.1 = {
 	state_building = {
 		level = 2
-		building = bronze_factory 
+		building = heavy_factory_building 
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = fruit_cannery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	#state_building = {
 	#	level = 4
-	#	building = small_arms_factory
+	#	building = heavy_factory_building
 	#	upgrade = yes
 	#}
 }
@@ -36,12 +36,12 @@ state_building = {
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = glass_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = fabric_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

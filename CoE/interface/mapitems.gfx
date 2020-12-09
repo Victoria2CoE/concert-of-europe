@@ -77,7 +77,7 @@ objectTypes = {
 	billboardType = {
 		name = "tradegoods"
 		texturefile = "gfx\\interface\\resources_big_solo_pdm.tga"
-		noOfFrames = 65
+		noOfFrames = 31
 		scale = 2.5
 	}
 	
@@ -91,7 +91,7 @@ objectTypes = {
 	billboardType = {
 		name = "tradegoods_small"
 		texturefile = "gfx\\interface\\resources_solo_pdm.tga"
-		noOfFrames = 65
+		noOfFrames = 31
 		scale = 1.0
 	}
 	

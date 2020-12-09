@@ -7,29 +7,29 @@ terrain = forested_farmland
 fort = 1
 state_building = {
 	level = 1
-	building = cement_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = fish_cannery
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = stock_exchange
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 	railroad = 1
 	state_building = {
 		level = 2
-		building = lumber_mill
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = clipper_shipyard
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }
@@ -40,12 +40,12 @@ state_building = {
 	}
 	state_building = {
 		level = 1
-		building = ammunition_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = steamer_shipyard
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

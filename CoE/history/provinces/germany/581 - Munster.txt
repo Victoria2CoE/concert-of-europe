@@ -8,23 +8,23 @@ life_rating = 30
 terrain = marginal_farmland
 #state_building = {
 #	level = 4
-#	building = regular_clothes_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = steel_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = explosives_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = ammunition_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

@@ -6,8 +6,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.01 #literacy = 0.02
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 # Political reforms
 slavery = yes_slavery
@@ -69,8 +69,8 @@ nonstate_consciousness = 0
 oob = "TRI_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.03
-	non_state_culture_literacy = 0
+	literacy = 0.01 #literacy = 0.03
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 	
 	set_country_flag = succession_crisis
 	

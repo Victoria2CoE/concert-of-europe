@@ -6,7 +6,7 @@ religion = catholic
 government = hms_government
 plurality = 0.5
 nationalvalue = nv_equality
-literacy = 0.5
+literacy = 0.01 #literacy = 0.5
 civilized = yes
 
 # Political reforms

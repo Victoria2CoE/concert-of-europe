@@ -4,8 +4,8 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.11
-non_state_culture_literacy = 0.035
+literacy = 0.01 #literacy = 0.11
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.035
 civilized = yes
 prestige = 3
 
@@ -67,8 +67,8 @@ nonstate_consciousness = 0
 oob = "/1821/CLM_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.12
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.12
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	prestige = 5
 	
 	# Political reforms
@@ -112,8 +112,8 @@ oob = "/1821/CLM_oob.txt"
 }
 1861.1.1 = {
 plurality = 50
-literacy = 0.13
-non_state_culture_literacy = 0.05
+literacy = 0.01 #literacy = 0.13
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 
 # Technologies
 	post_napoleonic_thought = 1

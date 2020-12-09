@@ -5,7 +5,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.003
+literacy = 0.01 #literacy = 0.003
 
 # Political reforms
 slavery = yes_slavery

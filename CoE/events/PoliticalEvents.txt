@@ -2860,7 +2860,7 @@ country_event = {
 	id = 4408
 	title = "EVTNAME4408"
 	desc = "EVTDESC4408"
-		picture = "Artillery"
+		picture = "military_industry"
 	
 	trigger = {
 		civilized = yes
@@ -3571,7 +3571,7 @@ country_event = {
 	option = {
 		name = "EVTOPTC4419"
 		treasury = -50000
-		canned_food = -15
+		food_industry = -15
 		ai_chance = {
 			factor = 50
 			modifier = {

@@ -378,7 +378,7 @@ building_station_shipyards = {
 	}
 	effect = {
 		factory_goods_output = {
-			clipper_convoy = 0.10
+			military_industry = 0.10
 		}
 	}
 	
@@ -435,7 +435,7 @@ steamer_automatic_construction_plants = {
 	}
 	effect = {
 		factory_goods_output = {
-			steamer_convoy = 0.03
+			military_industry = 0.03
 		}
 	}
 	

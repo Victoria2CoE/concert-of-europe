@@ -4,7 +4,7 @@ religion = orthodox
 government = theocracy
 plurality = 0.0
 nationalvalue = nv_equality
-literacy = 0.09
+literacy = 0.01 #literacy = 0.09
 civilized = yes
 
 # Political reforms
@@ -66,7 +66,7 @@ nonstate_consciousness = 0
 oob = "MON_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
+	literacy = 0.01 #literacy = 0.1
 	prestige = 1
 	
 	# Technologies
@@ -89,7 +89,7 @@ oob = "MON_oob.txt"
 1861.1.1 = {
 	oob = "/1861/MON_oob.txt"
 	plurality = 50
-	literacy = 0.17
+	literacy = 0.01 #literacy = 0.17
 }
 1861.1.1 = {
 # Technologies

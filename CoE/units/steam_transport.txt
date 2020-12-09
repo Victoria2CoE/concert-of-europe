@@ -20,13 +20,12 @@ steam_transport = {
 	#Building Costs
 	build_time = 150
 	build_cost = {
-		steamer_convoy = 0.5
+		military_industry = 25
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		steamer_convoy = 0.05
-		coal = 1
+		military_industry = 0.25
 	}
 	
 	#Naval Abilties

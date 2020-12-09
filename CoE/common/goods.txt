@@ -1,37 +1,31 @@
 # goods types, organized by category
-
 military_goods = {
-	ammunition = { 
-		cost = 0.2
-		color = { 208 202 127 } 
+	military_industry = { 
+		cost = 20.0
+		color = { 255 255 255 }
+		overseas_penalty = yes
 	}
-	small_arms = { 
-		cost = 0.8
-		color = { 189 118 22 }
-		available_from_start = no 
+}
+
+industrial_goods = {
+	heavy_industry = { 
+		cost = 10.0
+		color = { 255 255 255 }
 	}
-	artillery = { 
-		cost = 1.5 
-		color = { 145 130 86 }
-		available_from_start = no
+}
+
+consumer_goods = {
+	food_industry = { 
+		cost = 2.5
+		color = { 255 255 255 }
 	}
-	canned_food = { 
-		cost = 0.3 
-		color = { 255 39 12 }
+	light_industry = { 
+		cost = 5.0
+		color = { 255 255 255 }
 	}
-	barrels = {	
-		cost = 3.0 
-		color = { 55 41 9 }
-		available_from_start = no 
-	}
-	aeroplanes = { 
-		cost = 4.5
-		color = { 221 213 182 }
-		available_from_start = no
-	}
-	gunpowder = {
-		cost = 0.2
-		color = { 253 199 110 }
+	luxury_industry = { 
+		cost = 15.0
+		color = { 255 255 255 }
 	}
 }
 
@@ -120,80 +114,6 @@ raw_material_goods = {
 		#money = yes	
 		color = { 253 199 110 }
 	}
-}
-
-industrial_goods = {
-	steel = { 
-		cost = 0.4
-		color = { 95 128 147 }
-		available_from_start = no 
-	}
-	cement = { 
-		cost = 0.4
-		color = { 185 187 164 }
-		available_from_start = no 
-	}
-	machine_parts = { 
-		cost = 1.0
-		color = { 177 198 196 }
-		available_from_start = no 
-	}
-	glass = { 
-		cost = 0.35
-		color = { 201 200 199 }
-	}
-	fuel = { 
-		cost = 0.4
-		available_from_start = no
-		color = { 145 110 89 }
-	}
-	fertilizer = { 
-		cost = 0.35
-		color = { 133 101 35 }
-		available_from_start = no
-	}
-	explosives = { 
-		cost = 0.700
-		color = { 192 68 20 }
-		available_from_start = no 
-	}
-	clipper_convoy = { 
-		cost = 2.75 
-		overseas_penalty = yes
-		color = { 21 65 30 }
-		available_from_start = no
-	}
-	steamer_convoy = { 
-		cost = 6.000
-		available_from_start = no
-		color = { 76 18 0 }
-	}
-	electric_gear = { 
-		cost = 0.5 
-		available_from_start = no
-		color = { 255 255 0 }
-	}
-	fabric = { 
-		cost = 0.35
-		color = { 186 50 40 }
-	}
-	lumber = { 
-		cost = 0.21
-		overseas_penalty = yes
-		color = { 180 94 26 }
-	}
-	bronze = {
-		cost = 0.3
-		color = { 253 199 110 }
-	}
-
-}
-
-consumer_goods = {
-	paper = { 
-		cost = 0.28
-		color = { 216 185 77 }
-	}
 	cattle = { 
 		cost = 0.4
 		tradeable = yes
@@ -242,94 +162,8 @@ consumer_goods = {
 		#money = yes	
 		color = { 114 162 47 }
 	}
-	automobiles = {	
-		cost = 1.000 
-		available_from_start = no
-		color = { 61 67 64 }
-	}
-	telephones = { 
-		cost = 0.55
-		overseas_penalty = yes
-		available_from_start = no
-		color = { 123 112 54 }
-	}
-	wine = { 
-		cost = 0.7
-		color = { 123 0 54 }
-		available_from_start = no
-	}
-	liquor = { 
-		cost = 0.4
-		color = { 76 5 0 }
-	}
-	regular_clothes = { 
-		cost = 0.7
-		color = { 217 17 19 }
-	}
-	luxury_clothes = { 
-		cost = 4.0
-		available_from_start = no
-		color = { 234 227 40 }
-	}
-	furniture = { 
-		cost = 0.85
-		color = { 173 129 40 }
-	}
-	luxury_furniture = { 
-		cost = 4.5
-		available_from_start = no
-		color = { 255 140 184 }
-	}
-	radio = { 
-		cost = 0.7 
-		available_from_start = no
-		color = { 129 63 6 }
-	}
-	financial_services = { 
-		cost = 0.7
-		overseas_penalty = yes
-		color = { 253 199 110 }
-	}
-	electric_power = {
-		cost = 0.2
-		available_from_start = no
-		color = { 186 50 40 }
-	}
-	shares = {
-		cost = 0.15
-		available_from_start = no
-		color = { 253 199 110 }
-	}
-	cigarettes = {
-		cost = 0.25
-		available_from_start = no
-		color = { 253 199 110 }
-	}
-	cigars = {
-		cost = 0.7
-		available_from_start = no
-		color = { 253 199 110 }
-	}
-	horses = {
-		cost = 0.8
-		color = { 253 199 110 }
-	}
-	shoes = {
-		cost = 0.3
-		color = { 253 199 110 }
-	}
-	boots = {
-		cost = 0.7
-		available_from_start = no
-		color = { 253 199 110 }
-	}
 	sugar = {
 		cost = 0.3
-		color = { 253 199 110 }
-	}
-	pharmaceuticals  = {
-		cost = 0.5
-		available_from_start = no
 		color = { 253 199 110 }
 	}
 	spices = {
@@ -338,9 +172,8 @@ consumer_goods = {
 		#money = yes	
 		color = { 253 199 110 }
 	}
-	print = {
-		cost = 0.15
+	horses = {
+		cost = 0.8
 		color = { 253 199 110 }
-		available_from_start = no 
 	}
 }

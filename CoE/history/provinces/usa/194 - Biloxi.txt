@@ -10,7 +10,7 @@ terrain = deciduous_forest
 	add_core = CSA
 	state_building = {
 		level = 1
-		building = fabric_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

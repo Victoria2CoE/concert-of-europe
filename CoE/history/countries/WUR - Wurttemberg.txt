@@ -4,8 +4,8 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.64
-non_state_culture_literacy = 0.34
+literacy = 0.01 #literacy = 0.64
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.34
 civilized = yes
 prestige = 1
 
@@ -72,8 +72,8 @@ nonstate_consciousness = 1
 oob = "WUR_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.65
-	non_state_culture_literacy = 0.35
+	literacy = 0.01 #literacy = 0.65
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.35
 	prestige = 5
 	
 	# Technologies

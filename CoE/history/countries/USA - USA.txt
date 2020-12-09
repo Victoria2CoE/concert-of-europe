@@ -5,7 +5,7 @@ religion = protestant
 government = democracy
 plurality = 20.0
 nationalvalue = nv_liberty
-literacy = 0.49
+literacy = 0.01 #literacy = 0.49
 civilized = yes
 
 #GreaterPowers = prestige
@@ -87,7 +87,7 @@ oob = "/1821/USA_oob.txt"
 
 1836.1.1 = {
 	plurality = 25.0
-	literacy = 0.50
+	literacy = 0.01 #literacy = 0.50
 	prestige = 30
 	
 	# Technologies
@@ -157,8 +157,8 @@ oob = "/1821/USA_oob.txt"
 	set_country_flag = liberal_election_win
 	plurality = 60
 	prestige = 40
-	literacy = 0.75
-	non_state_culture_literacy = 0.15
+	literacy = 0.01 #literacy = 0.75
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.15
 
 	# Political reforms
 	slavery = yes_slavery

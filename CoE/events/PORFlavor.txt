@@ -2020,9 +2020,9 @@ country_event = {
 		name = "We can offer Pedro some support."
 		prestige = 3
 		clipper_convoy = -2
-		small_arms = -5
-		artillery = -2
-		ammunition = -5
+		military_industry = -5
+		military_industry = -2
+		military_industry = -5
 		money = -50000
 		diplomatic_influence = { who = POR value = 50 }
 		POR = {

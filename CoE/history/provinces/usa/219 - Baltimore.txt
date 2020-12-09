@@ -8,12 +8,12 @@ naval_base = 2
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = paper_mill
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = luxury_clothes_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	party_loyalty = {

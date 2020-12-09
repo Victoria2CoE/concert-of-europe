@@ -6,8 +6,8 @@ religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.59 #Germans
+literacy = 0.01 #literacy = 0.69
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.59 #Germans
 civilized = yes
 
 # Political reforms
@@ -73,8 +73,8 @@ nonstate_consciousness = 0
 oob = "/1821/DEN_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.7
-	non_state_culture_literacy = 0.6 #Germans
+	literacy = 0.01 #literacy = 0.7
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.6 #Germans
 	prestige = 5
 	
 	# Technologies
@@ -124,8 +124,8 @@ oob = "/1821/DEN_oob.txt"
 	
 	ruling_party = DAN_liberal_2
 	set_country_flag = liberal_election_win
-	literacy = 0.90
-	non_state_culture_literacy = 0.7 #Germans
+	literacy = 0.01 #literacy = 0.90
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.7 #Germans
 
 	# Political reforms
 	slavery = no_slavery

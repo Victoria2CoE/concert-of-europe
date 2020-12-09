@@ -4,7 +4,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.09
+literacy = 0.01 #literacy = 0.09
 civilized = yes
 prestige = 1
 
@@ -67,7 +67,7 @@ nonstate_consciousness = 0
 oob = "SER_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
+	literacy = 0.01 #literacy = 0.1
 	prestige = 5
 	
 	# Technologies
@@ -91,7 +91,7 @@ oob = "SER_oob.txt"
 	oob = "/1861/SER_oob.txt"
 	ruling_party = SER_conservative_2
 	plurality = 50
-	literacy = 0.17
+	literacy = 0.01 #literacy = 0.17
 }
 1861.1.1 = {
 # Technologies

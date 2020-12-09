@@ -5,8 +5,8 @@ religion = catholic
 government = democracy
 plurality = 1.0
 nationalvalue = nv_liberty
-literacy = 0.11
-non_state_culture_literacy = 0.01
+literacy = 0.01 #literacy = 0.11
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.01
 civilized = yes
 
 # Political reforms
@@ -69,8 +69,8 @@ oob = "/1821/ARG_oob.txt"
 
 1836.1.1 = {
 	government = presidential_dictatorship
-	literacy = 0.12
-	non_state_culture_literacy = 0.02
+	literacy = 0.01 #literacy = 0.12
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 	prestige = 5
 	
 	clr_country_flag = liberal_constitution
@@ -117,8 +117,8 @@ oob = "/1821/ARG_oob.txt"
 	government = democracy
 	set_country_flag = tory_election_win
 	ruling_party = ARG_conservative
-	literacy = 0.17
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.17
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	prestige = 12
 	
 	clr_country_flag = conservative_constitution

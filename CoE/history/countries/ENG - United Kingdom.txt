@@ -7,8 +7,8 @@ religion = protestant
 government = hms_government
 plurality = 15
 nationalvalue = nv_order
-literacy = 0.58
-non_state_culture_literacy = 0.095
+literacy = 0.01 #literacy = 0.58
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.095
 civilized = yes
 
 #GreaterPowers = prestige
@@ -95,8 +95,8 @@ decision = UK_setup
 oob = "/1821/ENG_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.6
-	non_state_culture_literacy = 0.1
+	literacy = 0.01 #literacy = 0.6
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.1
 	prestige = 100
 	
 	# Political reforms
@@ -187,8 +187,8 @@ oob = "/1821/ENG_oob.txt"
 	ruling_party = ENG_liberal_2
 	prestige = 165
 	plurality = 65
-	literacy = 0.70
-	non_state_culture_literacy = 0.15
+	literacy = 0.01 #literacy = 0.70
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.15
 	decision = repeal_the_corn_laws
 	set_country_flag = treaty_of_nanking
 	set_global_flag = kowloon_incident

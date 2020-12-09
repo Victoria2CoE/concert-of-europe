@@ -4,8 +4,8 @@ religion = sikh
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_enlightenment
-literacy = 0.04
-non_state_culture_literacy = 0.016
+literacy = 0.01 #literacy = 0.04
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.016
 
 # Political reforms
 slavery = no_slavery
@@ -67,8 +67,8 @@ nonstate_consciousness = 0
 oob = "PAN_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.05
-	non_state_culture_literacy = 0.02
+	literacy = 0.01 #literacy = 0.05
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 	
 	unciv_military_training = field_drills
 	unciv_light_armament = gunpowder_weapons

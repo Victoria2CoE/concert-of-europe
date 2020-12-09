@@ -20,18 +20,12 @@ dreadnought = {
 	#Building Costs
 	build_time = 2100
 	build_cost = {	
-		steamer_convoy = 20
-		artillery = 10
-		telephones = 10
+		military_industry = 150
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 2
-		artillery = 1
-		ammunition = 4
-		telephones = 5
-		fuel = 2
+		military_industry = 1.5
 	}
 	
 	#Naval Abilties

@@ -418,7 +418,7 @@ political_decisions = {
 					value = jingoism
 				}
 			}
-			small_arms = 100
+			military_industry = 100
 			regular_clothes = 100
 			horses = 50
 			add_country_modifier = {

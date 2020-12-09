@@ -10,7 +10,7 @@ religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_enlightenment
-literacy = 0.022
+literacy = 0.01 #literacy = 0.022
 
 # Political reforms
 slavery = yes_slavery
@@ -78,7 +78,7 @@ nonstate_consciousness = 0
 oob = "/1821/PER_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.12
+	literacy = 0.01 #literacy = 0.12
 	oob = "PER_oob.txt"
 
 	set_country_flag = khanates_contested

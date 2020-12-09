@@ -17,13 +17,12 @@ irregular = {
 	#Building Costs
 	build_time = 20
 	build_cost = {
-		timber = 5
+		military_industry = 0.3
 	}
 
 	supply_consumption = 1
 	supply_cost = {
-		timber = 0.5
-		wool = 0.5
+		military_industry = 0.03
 	}
 
 

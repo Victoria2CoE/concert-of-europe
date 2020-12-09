@@ -38,7 +38,7 @@ political_decisions = {
 			any_pop = {
 				militancy = -4
 			}
-			small_arms = 50
+			military_industry = 50
 			regular_clothes = 50
 			horses = 20
 			CAN_60 = { add_core = QUE }
@@ -76,7 +76,7 @@ political_decisions = {
 				militancy = -4
 			}
 			capital = 65
-			small_arms = 50
+			military_industry = 50
 			regular_clothes = 50
 			horses = 20
 			CAN_60 = {

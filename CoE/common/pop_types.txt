@@ -1,68 +1,16 @@
 promotion_chance = 
 {
-	factor = 0.4
+	factor = 0.5
 	
 	modifier = {
 		factor = 0.1
 		always = yes
 	}	
-	#group = {
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.05
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.1 
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.2
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.3
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.4
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.5
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.6
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.7
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.8
-	#	}
-	#	modifier = {
-	#		factor = 0.03
-	#		literacy = 0.9
-	#	}
-	#}
-
-	group = {
-		modifier = {
-			factor = -0.05
-			militancy = 8
-		}
-		modifier = {
-			factor = -0.05
-			militancy = 6
-		}
-		modifier = {
-			factor = -0.05
-			militancy = 4
-		}
-	}
+	modifier = {
+		factor = -0.4
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}	
 	modifier = {
 		factor = -10
 		strata = rich
@@ -226,124 +174,332 @@ promotion_chance =
 		factor = 0.10
 		literacy = 0.05
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.10
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.15
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.20
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.25
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.30
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.35
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.40
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.45
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.50
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.55
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.60
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.65
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.70
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.75
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.80
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.85
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.90
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.95
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
 		factor = 0.10
 		literacy = 0.99
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
+	}
+	
+	
+	modifier = {
+		factor = 0.05
+		literacy = 0.05
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.10
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.15
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.20
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.25
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.30
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.35
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.40
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.45
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.50
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.55
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.60
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.65
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.70
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.75
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.80
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.85
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.90
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.95
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.99
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
 	}
 }
 
 demotion_chance = 
 {
-	factor = 1
+	factor = 0.5
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		always = yes
-	}
-	modifier = {
-		factor = 2
-        type = craftsmen
-		state_scope = { is_colonial = yes }
-	}
-	modifier = {
-		factor = 2
-        type = clerks
-		state_scope = { is_colonial = yes }
-	}
-	modifier = {
-		factor = -0.1
-		NOT = { religion = THIS }
 	}
 	modifier = {
 		factor = -0.2
@@ -351,7 +507,7 @@ demotion_chance =
 		strata = poor
 	}
 	modifier = {
-		factor = 1
+		factor = 0.1
 		state_scope = { is_colonial = yes }
 		strata = middle
 		is_primary_culture = no
@@ -373,7 +529,7 @@ demotion_chance =
 		}
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.4
 		is_primary_culture = no
 		is_accepted_culture = no
 	}
@@ -434,11 +590,6 @@ demotion_chance =
 			factor = 0.1
 			NOT = { life_needs = 0.7 }
 		}
-	}
-	modifier = {
-		factor = -0.1
-		NOT = { consciousness = 4 }
-		strata = poor
 	}
 	group = {
 		modifier = {
@@ -662,104 +813,326 @@ demotion_chance =
 	#	}
 	#}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.05
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.10
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.15
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.20
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.25
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.30
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.35
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.40
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.45
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.50
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.55
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.60
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.65
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.70
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.75
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.80
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.85
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.90
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.95
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		literacy = 0.99
 		OR = { type = farmers type = labourers }
+		OR = {
+			location = { is_primary_culture = yes }
+			location = { is_accepted_culture = yes }
+		}
+	}
+	
+	
+	modifier = {
+		factor = 0.05
+		literacy = 0.05
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.10
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.15
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.20
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.25
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.30
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.35
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.40
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.45
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.50
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.55
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.60
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.65
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.70
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.75
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.80
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.85
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.90
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.95
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}
+	modifier = {
+		factor = 0.05
+		literacy = 0.99
+		OR = { type = farmers type = labourers }
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
 	}
 }
 
@@ -1977,7 +2350,7 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		NOT { country = { citizenship_policy = forced_assimilation } }
+		NOT = { country = { citizenship_policy = forced_assimilation } }
 	}
 	modifier = {
 		factor = -10

@@ -6,13 +6,13 @@ life_rating = 30
 terrain = conifer_forest_mountains
 state_building = {
 	level = 2
-	building = lumber_mill
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 	state_building = {
 		level = 3
-		building = lumber_mill
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

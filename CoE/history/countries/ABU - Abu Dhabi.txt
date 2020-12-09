@@ -4,7 +4,7 @@ religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.29
+literacy = 0.01 #literacy = 0.29
 
 # Political reforms
 slavery = yes_slavery
@@ -63,7 +63,7 @@ oob = "ABU_oob.txt"
 
 1836.1.1 = {
 
-literacy = 0.3
+literacy = 0.01 #literacy = 0.3
 
 foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs

@@ -6,8 +6,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_enlightenment
-literacy = 0.06
-non_state_culture_literacy = 0.02
+literacy = 0.01 #literacy = 0.06
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 
 # Political reforms
 slavery = yes_slavery
@@ -73,8 +73,8 @@ nonstate_consciousness = 0
 oob = "/1821/EGY_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.07
-	non_state_culture_literacy = 0.03
+	literacy = 0.01 #literacy = 0.07
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.03
 	
 	set_country_flag = sudan_incorporated
 	

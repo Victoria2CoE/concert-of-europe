@@ -4,8 +4,8 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.11
-non_state_culture_literacy = 0.035
+literacy = 0.01 #literacy = 0.11
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.035
 civilized = yes
 prestige = 3
 

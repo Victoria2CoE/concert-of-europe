@@ -5,8 +5,8 @@ religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.785
-non_state_culture_literacy = 0.235
+literacy = 0.01 #literacy = 0.785
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.235
 civilized = yes
 
 #GreaterPowers = prestige
@@ -85,8 +85,8 @@ schools = army_tech_school
 oob = "/1821/PRU_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.80
-	non_state_culture_literacy = 0.25
+	literacy = 0.01 #literacy = 0.80
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.25
 	prestige = 30
 
 	# Technologies
@@ -127,8 +127,8 @@ oob = "/1821/PRU_oob.txt"
 	oob = "/1861/PRU_oob.txt"
 	prestige = 120
 	plurality = 60
-	literacy = 0.90
-	non_state_culture_literacy = 0.45
+	literacy = 0.01 #literacy = 0.90
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.45
 
 foreign_investment = {
 	OLD = 10000

@@ -4,8 +4,8 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.09
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 prestige = 1
 
@@ -68,8 +68,8 @@ consciousness = 2
 nonstate_consciousness = 0
 
 1836.1.1 = {
-	literacy = 0.1
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.1
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	
 	set_country_flag = join_mexico
 	set_country_flag = 1836_start

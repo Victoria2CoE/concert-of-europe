@@ -4,7 +4,7 @@ religion = catholic
 government = hms_government
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.12
+literacy = 0.01 #literacy = 0.12
 civilized = yes
 prestige = 10
 colonial_points = 40
@@ -76,7 +76,7 @@ nonstate_consciousness = 1
 oob = "/1821/POR_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.13
+	literacy = 0.01 #literacy = 0.13
 	prestige = 5
 	
 	set_country_flag = existing_country
@@ -118,8 +118,8 @@ oob = "/1821/POR_oob.txt"
 	ruling_party = POR_liberal_2
 	plurality = 60
 	prestige = 20
-	literacy = 0.17
-	non_state_culture_literacy = 0.10
+	literacy = 0.01 #literacy = 0.17
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.10
 
 # Political reforms
 slavery = yes_slavery

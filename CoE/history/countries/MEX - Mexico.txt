@@ -4,8 +4,8 @@ religion = catholic
 government = prussian_constitutionalism
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.14
-non_state_culture_literacy = 0.08
+literacy = 0.01 #literacy = 0.14
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.08
 civilized = yes
 prestige = 2
 
@@ -67,8 +67,8 @@ nonstate_consciousness = 0
 oob = "/1821/MEX_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.15
-	non_state_culture_literacy = 0.09
+	literacy = 0.01 #literacy = 0.15
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.09
 	prestige = 4
 	
 	government = presidential_dictatorship
@@ -122,8 +122,8 @@ government = democracy
 ruling_party = MEX_liberal
 set_country_flag = liberal_election_win
 plurality = 60
-literacy = 0.225
-non_state_culture_literacy = 0.10
+literacy = 0.01 #literacy = 0.225
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.10
 
 # Political reforms
 slavery = no_slavery

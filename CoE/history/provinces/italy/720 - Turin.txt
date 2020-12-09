@@ -7,27 +7,27 @@ life_rating = 30
 terrain = floodplain_farmland
 state_building = {
 	level = 1
-	building = luxury_clothes_factory
+	building = heavy_factory_building
 	upgrade = yes
 	}
 #state_building = {
 #	level = 1
-#	building = steel_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 #state_building = {
 #	level = 1
-#	building = fabric_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 #state_building = {
 #	level = 1
-#	building = ammunition_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 #state_building = {
 #	level = 1
-#	building = small_arms_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 1861.1.1 = {
@@ -35,12 +35,12 @@ state_building = {
 	owner = ITA
 	state_building = {
 		level = 1
-		building = fabric_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = regular_clothes_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	railroad = 3

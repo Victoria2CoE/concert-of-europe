@@ -4,8 +4,8 @@ religion = catholic
 government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.09
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 
 # Political reforms
@@ -65,8 +65,8 @@ upper_house = {
 oob = "/1821/URU_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.1
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	prestige = 1
 	
 	# Technologies
@@ -107,7 +107,7 @@ oob = "/1821/URU_oob.txt"
 	political_parties = gerrymandering
 	
 	plurality = 60
-	literacy = 0.17
+	literacy = 0.01 #literacy = 0.17
 
 	ruling_party = URU_conservative
 	government = democracy

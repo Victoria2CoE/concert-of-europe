@@ -7,12 +7,12 @@ terrain = temperate_grassland
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = steel_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = canned_food_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 

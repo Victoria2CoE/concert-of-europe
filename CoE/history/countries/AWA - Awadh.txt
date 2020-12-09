@@ -4,7 +4,7 @@ religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.09
+literacy = 0.01 #literacy = 0.09
 
 # Political reforms
 slavery = no_slavery
@@ -60,5 +60,5 @@ nonstate_consciousness = 0
 oob = "AWA_oob.txt"
 
 1836.1.1 = {
-literacy = 0.1
+literacy = 0.01 #literacy = 0.1
 }

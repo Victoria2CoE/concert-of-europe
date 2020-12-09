@@ -6,6 +6,6 @@ life_rating = 30
 terrain = marginal_farmland
 state_building = {
 	level = 1
-	building = wool_mill
+	building = heavy_factory_building
 	upgrade = yes
 }

@@ -222,7 +222,7 @@ country_event = {
 		year = 1837
 		experimental_railroad = 1
 		994 = {
-			has_building = railroad
+			#has_building = railroad
 		}
 		NOT = {
 			year = 1850

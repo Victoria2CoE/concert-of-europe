@@ -723,7 +723,7 @@ political_decisions = {
 			OR = {
 				OR = { government = democracy government = democracy2 government = democracy3 }
 				OR = { government = hms_government government = hms_government2 government = hms_government3 }
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			}
 			OR = {
 				has_country_flag = help_for_the_irish

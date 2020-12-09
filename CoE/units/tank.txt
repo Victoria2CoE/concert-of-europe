@@ -17,15 +17,12 @@ tank = {
 	#Building Costs
 	build_time = 80
 	build_cost = {
-		barrels = 7.5
-		artillery = 7.5
-		regular_clothes = 7.5
+		military_industry = 10.
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		barrels = 0.5
-		fuel = 0.5
+		military_industry = 1.0
 	}
 	
 

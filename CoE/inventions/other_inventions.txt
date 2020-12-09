@@ -6,10 +6,10 @@ home_rifle_smiths = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			ammunition = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -25,10 +25,10 @@ small_scale_riflemaking = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			ammunition = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -43,10 +43,10 @@ rifle_war_experience = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			ammunition = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -61,10 +61,10 @@ advanced_riflemaking = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			ammunition = 0.02
+			military_industry = 0.02
 		}
 	}
 }
@@ -77,19 +77,19 @@ military_industrial_complex = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.03
+			military_industry = 0.03
 		}
 		factory_goods_output = {
-			ammunition = 0.03
+			military_industry = 0.03
 		}
 		factory_goods_output = {
-			artillery = 0.03
+			military_industry = 0.03
 		}
 		factory_goods_output = {
-			aeroplanes = 0.03
+			military_industry = 0.03
 		}
 		factory_goods_output = {
-			barrels = 0.03
+			military_industry = 0.03
 		}
 	}
 }
@@ -102,10 +102,10 @@ improved_artillery_manufacturing = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			explosives = 0.02
+			military_industry =  0.02
 		}
 	}
 	
@@ -114,17 +114,17 @@ improved_artillery_manufacturing = {
 }
 
 practical_artillery_experience = {
-	limit = { iron_breech_loaded_artillery = 1 }
+	limit = { iron_breech_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 5
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			explosives = 0.02
+			military_industry =  0.02
 		}
 	}
 	
@@ -134,17 +134,17 @@ practical_artillery_experience = {
 
 
 advanced_target_practice = {
-	limit = { steel_breech_loaded_artillery = 1 }
+	limit = { steel_breech_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 5
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			explosives = 0.02
+			military_industry =  0.02
 		}
 	}
 	
@@ -161,10 +161,10 @@ heavy_artillery_making = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			explosives = 0.02
+			military_industry =  0.02
 		}
 	}
 	
@@ -180,7 +180,7 @@ basic_ship_building_R&D = {
 	}
 	effect = {
 		factory_goods_output = {
-			clipper_convoy = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -196,10 +196,10 @@ improved_ship_building_R&D = {
 	}
 	effect = {
 		factory_goods_output = {
-			steamer_convoy = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			clipper_convoy = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -215,10 +215,10 @@ late_colonial_ships = {
 	}
 	effect = {
 		factory_goods_output = {
-			steamer_convoy = 0.02
+			military_industry = 0.02
 		}
 		factory_goods_output = {
-			clipper_convoy = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -234,7 +234,7 @@ early_modern_oil_ship = {
 	}
 	effect = {
 		factory_goods_output = {
-			steamer_convoy = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -250,7 +250,7 @@ ship_artillery_making = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -266,7 +266,7 @@ ship_cannon_building = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -282,7 +282,7 @@ late_colonial_armaments_industry = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -298,7 +298,7 @@ modern_armaments_industry = {
 	}
 	effect = {
 		factory_goods_output = {
-			artillery = 0.02
+			military_industry = 0.02
 		}
 	}
 	
@@ -334,10 +334,10 @@ School_of_firepower = {
 			attack = 1
 			supply_consumption = -0.15
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.75
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.75
 		}
 		plane = {
@@ -377,8 +377,8 @@ turbine_driven_trawlers = {
 	}
 }
 
-horse_artillery = {
-	limit = { bronze_muzzle_loaded_artillery = 1 }
+horse_artilery = {
+	limit = { bronze_muzzle_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 50
@@ -572,7 +572,7 @@ cattle_trucks = {
 			wool = 0.2
 		}
 		factory_goods_throughput = {
-			horses = 0.10
+			food_industry =  0.10
 		}
 	}
 }
@@ -635,7 +635,7 @@ inclosure = {
 			wool = 0.1
 		}
 		factory_goods_output = {
-			horses = 0.05
+			food_industry =  0.05
 		}
 	}
 }
@@ -704,15 +704,15 @@ alite = {
 	}
 	effect = {
 		factory_goods_input = {
-			cement = -0.05
+			heavy_industry =  -0.05
 		}
 		factory_goods_throughput = {
-			cement = 0.1
+			heavy_industry =  0.1
 		} 
 	}
 }
 
-portland_cement = {
+portland_heavy_industry =  {
 	limit = { high_n_low_pressure_steam_engines = 1 }
 	news = no
 	chance = {
@@ -720,16 +720,16 @@ portland_cement = {
 	}
 	effect = {
 		factory_goods_output = {
-			cement = 0.1
+			heavy_industry =  0.1
 		}
 		factory_goods_throughput = {
-			cement = 0.1
+			heavy_industry =  0.1
 		} 
 	}
 }
 
-self_propelled_artillery = {
-	limit = { modern_artillery = 1 }
+self_propelled_military_industry = {
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -751,7 +751,7 @@ self_propelled_artillery = {
 		}
 	}
 	effect = {
-		horse_artillery = {
+		horse_artilery = {
 			maximum_speed = 1
 		}
 	}
@@ -784,17 +784,17 @@ railroad_guns = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			support = 0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			support = 0.25
 		}
 	}
 }
 
 carronade = {
-	limit = { bronze_muzzle_loaded_artillery = 1 }
+	limit = { bronze_muzzle_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 3
@@ -804,12 +804,12 @@ carronade = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.5
 			support = 0.5
 			supply_consumption = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.5
 			support = 0.5
 			supply_consumption = 0.15
@@ -818,7 +818,7 @@ carronade = {
 }
 
 twelve_pounder = {
-	limit = { iron_muzzle_loaded_artillery = 1 }
+	limit = { iron_muzzle_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -832,19 +832,19 @@ twelve_pounder = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.25
 			support = 0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.25
 			support = 0.25
 		}
 	}
 }
 
-rifled_barrels = {
-	limit = { iron_breech_loaded_artillery = 1 }
+rifled_military_industry = {
+	limit = { iron_breech_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -858,17 +858,17 @@ rifled_barrels = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			support = 0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			support = 0.25
 		}
 	}
 }
 
 76_millimeter_gun = {
-	limit = { steel_breech_loaded_artillery = 1 }
+	limit = { steel_breech_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -882,11 +882,11 @@ rifled_barrels = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.25
 			support = 0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			support = 0.25
 		}
 	}
@@ -915,7 +915,7 @@ howitzer = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -945,7 +945,7 @@ mortar = {
 		}
 	}
 	effect = {
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.25
 			support = 0.25
 		}
@@ -963,7 +963,7 @@ stables = {
 		}
 	}
 	effect = {
-		activate_building = stables 
+		#activate_building = stables 
 	}
 }
 
@@ -987,10 +987,10 @@ firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -1072,7 +1072,7 @@ heavy_support_doctrine = {
 		base = 6
 	}
 	effect = {
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.25
 			maximum_speed = 1
 			reconnaissance = 2
@@ -1096,7 +1096,7 @@ siege_doctrine = {
 		base = 6
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.25
 			maximum_speed = 1
 			reconnaissance = 2
@@ -1138,10 +1138,10 @@ superior_firepower_doctrine = {
 			attack = 0.5
 			defence = 0.5
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -1236,11 +1236,11 @@ tinned_fruit = {
 		}
 	}
 	effect = {
-		activate_building = fruit_cannery 
+		#activate_building = fruit_cannery 
 	}
 }
 
-pharmaceuticals = {
+luxury_industry =  {
 	limit = { medicine = 1 }
 	news = no
 	chance = {
@@ -1251,7 +1251,7 @@ pharmaceuticals = {
 		}
 	}
 	effect = {
-		activate_building = pharmaceutical_plant 
+		#activate_building = pharmaceutical_plant 
 	}
 }
 
@@ -1263,13 +1263,13 @@ penicillin = {
 	}
 	effect = {
 		factory_goods_output = {
-		pharmaceuticals = 0.02
+		luxury_industry =  0.02
 		}
 	}
 }
 
 iron_artillery_production = {
-	limit = { iron_muzzle_loaded_artillery = 1 }
+	limit = { iron_muzzle_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1279,12 +1279,12 @@ iron_artillery_production = {
 		}
 	}
 	effect = {
-		activate_building = iron_artillery_factory
+		#activate_building = iron_artillery_factory
 	}
 }
 
 artillery_production = {
-	limit = { steel_breech_loaded_artillery = 1 }
+	limit = { steel_breech_loaded_military_industry = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1294,7 +1294,7 @@ artillery_production = {
 		}
 	}
 	effect = {
-		activate_building = artillery_factory 
+		#activate_building = artillery_factory 
 	}
 }
 
@@ -1309,7 +1309,7 @@ iron_small_arms_production = {
 		}
 	}
 	effect = {
-		activate_building = small_arms_factory 
+		#activate_building = small_arms_factory 
 	}
 }
 
@@ -1324,7 +1324,7 @@ steel_small_arms_production = {
 		}
 	}
 	effect = {
-		activate_building = late_small_arms_factory 
+		#activate_building = late_small_arms_factory 
 	}
 }
 
@@ -1339,7 +1339,7 @@ advanced_machining_techniques = {
 		}
 	}
 	effect = {
-		activate_building = advanced_machine_parts_factory 
+		#activate_building = advanced_machine_parts_factory 
 	}
 }
 
@@ -1355,7 +1355,7 @@ seafood_packing = {
 		}
 	}
 	effect = {
-		activate_building = fish_cannery
+		#activate_building = fish_cannery
 	}
 }
 
@@ -1383,7 +1383,7 @@ zinc_alloys = {
 	}
 	effect = {
 		factory_goods_output = {
-			bronze = 0.03
+			heavy_industry =  0.03
 		}
 	}
 }
@@ -1396,7 +1396,7 @@ brass = {
 	}
 	effect = {
 		factory_goods_output = {
-			bronze = 0.03
+			heavy_industry =  0.03
 		}
 	}
 }
@@ -1415,7 +1415,7 @@ poudre_b = {
 }
 
 cordite = {
-	limit = { cheap_steel = 1 }
+	limit = { cheap_heavy_industry =  1 }
 	news = no
 	chance = {
 		base = 6
@@ -1759,23 +1759,23 @@ synthetic_rubber = {
 			factor = -10
 			not = { economic_responsibility = 1 }
 		}
-		modifier = {
-			factor = -3
-			not = { 
-				any_owned_province = {
-					state_scope = {
-						has_building = electric_gear_factory
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = -3
+		#	not = { 
+		#		any_owned_province = {
+		#			state_scope = {
+		#				has_building = electric_gear_factory
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 2
 			year = 1900
 		}
 	}
 	effect = {
-		activate_building = synthetic_rubber_factory 
+		#activate_building = synthetic_rubber_factory 
 	}
 }
 
@@ -2537,7 +2537,7 @@ machine_gun_deployment = {
 		}
 		modifier = {
 			factor = -1
-			not = { steel_breech_loaded_artillery = 1 }
+			not = { steel_breech_loaded_military_industry = 1 }
 		}
 		modifier = {
 			factor = 5
@@ -2672,7 +2672,7 @@ first_railroads = {
 	}
 	effect = {
 		shared_prestige = 5
-		activate_building = railroad
+		#activate_building = railroad
 		mobilisation_size = 0.002
 	}
 }
@@ -2794,16 +2794,16 @@ luxury_focus = {
 			luxury_clothes = 0.02
 		}
 		factory_goods_output = {
-			luxury_furniture = 0.02
+			luxury_light_industry =  0.02
 		}
 		factory_goods_output = {
-			cigars = 0.02
+			luxury_industry = 0.02
 		}
 		factory_goods_output = {
-			boots = 0.02
+			light_industry = 0.02
 		}
 		factory_goods_output = {
-			wine = 0.02
+			food_industry = 0.02
 		}
 	}
 }
@@ -2826,31 +2826,31 @@ necessity_focus = {
 	}
 	effect = {
 		factory_goods_output = {
-			furniture = 0.02
+			light_industry =  0.02
 		} 
 		factory_goods_output = {
 			regular_clothes = 0.02
 		} 
 		factory_goods_output = {
-			cigarettes = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
 			shoes = 0.02
 		} 
 		factory_goods_output = {
-			fabric = 0.02
+			light_industry =  0.02
 		} 
 		factory_goods_output = {
-			paper = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
-			liquor = 0.02
+			food_industry = 0.02
 		} 
 		factory_goods_output = {
-			lumber = 0.02
+			heavy_industry =  0.02
 		} 
 		factory_goods_output = {
-			canned_food = 0.02
+			food_industry =  0.02
 		}
 	}
 }
@@ -2875,16 +2875,16 @@ high_tech_focus = {
 			automobiles = 0.02
 		} 
 		factory_goods_output = {
-			telephones = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
-			radio = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
-			pharmaceuticals = 0.02
+			luxury_industry =  0.02
 		} 
 		factory_goods_output = {
-			electric_gear = 0.02
+			heavy_industry = 0.02
 		} 
 	}
 }
@@ -2900,7 +2900,7 @@ wool_cloth_factories = {
 		}
 	}
 	effect = {
-		activate_building =  wool_mill
+		#activate_building =  wool_mill
 	}
 }
 
@@ -2915,7 +2915,7 @@ luxury_clothes_factories = {
 		}
 	}
 	effect = {
-		activate_building = luxury_clothes_factory  
+		#activate_building = luxury_clothes_factory  
 	}
 }
 
@@ -2930,7 +2930,7 @@ wineries = {
 		}
 	}
 	effect = {
-		activate_building = winery  
+		#activate_building = winery  
 	}
 }
 
@@ -2945,7 +2945,7 @@ industrial_bakeries = {
 		}
 	}
 	effect = {
-		activate_building = bakery
+		#activate_building = bakery
 	}
 }
 
@@ -2960,7 +2960,7 @@ shoe_factories = {
 		}
 	}
 	effect = {
-		activate_building = shoe_factory
+		#activate_building = shoe_factory
 	}
 }
 
@@ -2979,7 +2979,7 @@ boot_factories = {
 		}
 	}
 	effect = {
-		activate_building = boot_factory 
+		#activate_building = boot_factory 
 	}
 }
 
@@ -2994,7 +2994,7 @@ cement_factories  = {
 		}
 	}
 	effect = {
-		activate_building = cement_factory
+		#activate_building = cement_factory
 	}
 }
 
@@ -3029,7 +3029,7 @@ stock_exchanges  = {
 		}
 	}
 	effect = {
-		activate_building = stock_exchange
+		#activate_building = stock_exchange
 	}
 }
 
@@ -3064,7 +3064,7 @@ merchant_banking  = {
 		}
 	}
 	effect = {
-		activate_building = bank
+		#activate_building = bank
 	}
 }
 
@@ -3079,7 +3079,7 @@ sugar_refineries  = {
 		}
 	}
 	effect = {
-	activate_building = sugar_beet_refinery
+	#activate_building = sugar_beet_refinery
 	}
 }
 
@@ -3094,7 +3094,7 @@ lumber_mills  = {
 		}
 	}
 	effect = {
-		activate_building = lumber_mill
+		#activate_building = lumber_mill
 	}
 }
 
@@ -3116,7 +3116,7 @@ tropical_lumber_mills = {
 		}
 	}
 	effect = {
-		activate_building = tropical_lumber_mill
+		#activate_building = tropical_lumber_mill
 	}
 }
 
@@ -3134,7 +3134,7 @@ rubber_boot_factories  = {
 		}
 	}
 	effect = {
-		activate_building = rubber_boot_factory
+		#activate_building = rubber_boot_factory
 	}
 }
 
@@ -3152,7 +3152,7 @@ fashion_houses  = {
 		}
 	}
 	effect = {
-		activate_building = advanced_luxury_clothes_factory
+		#activate_building = advanced_luxury_clothes_factory
 	}
 }
 
@@ -3167,7 +3167,7 @@ beef_canneries  = {
 		}
 	}
 	effect = {
-		activate_building = canned_food_factory 
+		#activate_building = canned_food_factory 
 	}
 }
 
@@ -3184,7 +3184,7 @@ cigarette_making_machines  = {
 		}
 	}
 	effect = {
-		activate_building = Cigarette_factory 
+		#activate_building = Cigarette_factory 
 	}
 }
 
@@ -3201,7 +3201,7 @@ cigar_factories  = {
 		}
 	}
 	effect = {
-		activate_building = Cigar_factory
+		#activate_building = Cigar_factory
 	}
 }
 
@@ -3219,7 +3219,7 @@ modernist_furnishing  = {
 		}
 	}
 	effect = {
-		activate_building = advanced_luxury_furniture_factory
+		#activate_building = advanced_luxury_furniture_factory
 	}
 }
 
@@ -3234,7 +3234,7 @@ textile_mills  = {
 		}
 	}
 	effect = {
-		activate_building =  fabric_factory
+		#activate_building =  fabric_factory
 	}
 }
 
@@ -3253,7 +3253,7 @@ mass_produced_clothing  = {
 		}
 	}
 	effect = {
-		activate_building = regular_clothes_factory 
+		#activate_building = regular_clothes_factory 
 	}
 }
 
@@ -3268,7 +3268,7 @@ steelworks  = {
 		}
 	}
 	effect = {
-		activate_building = steel_factory 
+		#activate_building = steel_factory 
 	}
 }
 
@@ -3286,7 +3286,7 @@ fertilizer_plants  = {
 		}
 	}
 	effect = {
-		activate_building = fertilizer_factory 
+		#activate_building = fertilizer_factory 
 	}
 }
 
@@ -3301,7 +3301,7 @@ clipper_shipyards = {
 		}
 	}
 	effect = {
-		activate_building = clipper_shipyard 
+		#activate_building = clipper_shipyard 
 	}
 }
 
@@ -3323,7 +3323,7 @@ steamer_shipyards = {
 		}
 	}
 	effect = {
-		activate_building = steamer_shipyard 
+		#activate_building = steamer_shipyard 
 	}
 }
 
@@ -3358,7 +3358,7 @@ newspapers = {
 		}
 	}
 	effect = {
-		activate_building = newspaper
+		#activate_building = newspaper
 	}
 }
 
@@ -3547,7 +3547,7 @@ diode = {
 		}
 	}
 	effect = {
-		factory_goods_output = { electric_gear = 0.02 } 
+		factory_goods_output = { heavy_industry = 0.02 } 
 	}
 }
 
@@ -3577,7 +3577,7 @@ triode = {
 		}			
 	}
 	effect = {
-		factory_goods_output = { electric_gear = 0.03 } 
+		factory_goods_output = { heavy_industry = 0.03 } 
 	}
 }
 
@@ -3591,11 +3591,11 @@ tetrode = {
 		base = 1
 	}
 	effect = {
-		factory_goods_output = { electric_gear = 0.05 } 
+		factory_goods_output = { heavy_industry = 0.05 } 
 	}
 }
 
-crystal_radio = {
+crystal_light_industry = {
 	limit = { 
 		electrical_power_generation = 1
 		invention = national_radio_networks
@@ -3614,7 +3614,7 @@ crystal_radio = {
 		}
 	}
 	effect = {
-		factory_goods_output = { radio = 0.02 } 
+		factory_goods_output = { light_industry = 0.02 } 
 	}
 }
 
@@ -3636,7 +3636,7 @@ valve_radio_sets = {
 		}
 	}
 	effect = {
-		factory_goods_output = { radio = 0.05 } 
+		factory_goods_output = { light_industry = 0.05 } 
 	}
 }
 
@@ -3659,7 +3659,7 @@ carbon_transmitter = {
 		}
 	}
 	effect = {
-		factory_goods_output = { telephones = 0.02 } 
+		factory_goods_output = { light_industry = 0.02 } 
 	}
 }
 
@@ -3677,7 +3677,7 @@ candlestick_telephone = {
 		}
 	}
 	effect = {
-		factory_goods_output = { telephones = 0.05 } 
+		factory_goods_output = { light_industry = 0.05 } 
 	}
 }
 
@@ -3881,7 +3881,7 @@ basic_training = {
 	
 }
 
-rosendale_cement = {
+rosendale_heavy_industry =  {
 	limit = { inorganic_chemistry = 1 }
 	news = no
 	chance = {
@@ -3889,16 +3889,16 @@ rosendale_cement = {
 	}
 	effect = {
 		factory_goods_output = {
-			cement = 0.1
+			heavy_industry =  0.1
 		}
 		factory_goods_throughput = {
-			cement = 0.15
+			heavy_industry =  0.15
 		} 
 	}
 	
 }
 
-synthetic_cement = {
+synthetic_heavy_industry =  {
 	limit = {
 		 electricity = 1
 	}
@@ -3908,10 +3908,10 @@ synthetic_cement = {
 	}
 	effect = {
 		factory_goods_output = {
-			cement = 0.1
+			heavy_industry =  0.1
 		}
 		factory_goods_throughput = {
-			cement = 0.15
+			heavy_industry =  0.15
 		} 
 	}
 	
@@ -4410,7 +4410,7 @@ revanchism = {
 		modifier = {
 			factor = 1
 			or = {
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 		}
@@ -4543,7 +4543,7 @@ postwar_society = {
 			OR = {
 				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
@@ -4738,10 +4738,10 @@ early_1930_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4774,10 +4774,10 @@ mid_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4810,10 +4810,10 @@ late_1930_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4846,10 +4846,10 @@ early_1940_army_armament = {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4882,10 +4882,10 @@ mid_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4918,10 +4918,10 @@ late_1940_army_armament	= {
 			defence = 0.25
 			supply_consumption = 0.1
 		}
-		artillery = {
+		military_industry = {
 			attack = -0.25
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = -0.25
 		}
 		plane = {
@@ -4931,7 +4931,7 @@ late_1940_army_armament	= {
 }
 
 early_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4945,10 +4945,10 @@ early_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -4958,7 +4958,7 @@ early_1930_army_heavy_armament = {
 }
 
 mid_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -4976,10 +4976,10 @@ mid_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -4989,7 +4989,7 @@ mid_1930_army_heavy_armament = {
 }
 
 late_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5007,10 +5007,10 @@ late_1930_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5020,7 +5020,7 @@ late_1930_army_heavy_armament = {
 }
 
 early_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5038,10 +5038,10 @@ early_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5051,7 +5051,7 @@ early_1940_army_heavy_armament = {
 }
 
 mid_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5069,10 +5069,10 @@ mid_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -5082,7 +5082,7 @@ mid_1940_army_heavy_armament = {
 }
 
 late_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_military_industry = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -5100,10 +5100,10 @@ late_1940_army_heavy_armament = {
 		}
 	}
 	effect = {
-		artillery = {
+		military_industry = {
 			attack = 0.15
 		}
-		horse_artillery = {
+		horse_artilery = {
 			attack = 0.15
 		}
 		plane = {
@@ -6197,7 +6197,7 @@ military_horse_breeding = {
 	}
 	effect = {
 		factory_goods_throughput = {
-			horses = 0.10
+			food_industry =  0.10
 		}
 	}
 }
@@ -6229,23 +6229,23 @@ synthetic_oil = {
 			factor = -10
 			not = { economic_responsibility = 1 }
 		}
-		modifier = {
-			factor = -3
-			not = { 
-				any_owned_province = {
-					state_scope = {
-						has_building = electric_gear_factory
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = -3
+		#	not = { 
+		#		any_owned_province = {
+		#			state_scope = {
+		#				has_building = electric_gear_factory
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 2
 			year = 1900
 		}
 	}
 	effect = {
-		activate_building = synthetic_oil_factory 
+		#activate_building = synthetic_oil_factory 
 	}
 }
 
@@ -6364,7 +6364,7 @@ improved_synthetic_materials = {
 			tropical_wood = 2.0
 		}
 		factory_goods_throughput = {
-			cement = 0.25
+			heavy_industry =  0.25
 		} 
 		rgo_goods_throughput = {
 			sulphur = 2
@@ -6404,7 +6404,7 @@ modern_synthetic_materials = {
 			tropical_wood = 2.0
 		}
 		factory_goods_throughput = {
-			cement = 0.25
+			heavy_industry =  0.25
 		} 
 		rgo_goods_throughput = {
 			sulphur = 2
@@ -6429,7 +6429,7 @@ substitute_materials = {
 			oil = 0.05
 		}
 		factory_goods_output = {
-			fuel = 0.05
+			heavy_industry =  0.05
 		}
 		factory_goods_output = {
 			silk = 0.05
@@ -6438,7 +6438,7 @@ substitute_materials = {
 			sugar = 0.05
 		}
 		factory_goods_output = {
-			fabric = 0.05
+			light_industry =  0.05
 		}
 		factory_goods_output = {
 			tropical_wood = 0.05
@@ -6454,13 +6454,13 @@ industrial_electrolysis = {
 	}
 	effect = {
 		factory_goods_output = {
-			bronze = 0.1
+			heavy_industry =  0.1
 		}
 		factory_goods_output = {
-			steel = 0.1
+			heavy_industry =  0.1
 		}
 		factory_goods_output = {
-			cement = 0.1
+			heavy_industry =  0.1
 		}
 	}
 }
@@ -6510,10 +6510,10 @@ electrometallurgy = {
 			lead = 2
 		}
 		factory_goods_throughput = {
-			bronze = 0.5
+			heavy_industry =  0.5
 		}
 		factory_goods_throughput = {
-			steel = 0.5
+			heavy_industry =  0.5
 		}
 	}
 }
@@ -6548,25 +6548,25 @@ precision_machinery = {
 	}
 	effect = {
 		factory_goods_output = {
-			radio = 0.05
+			light_industry = 0.05
 		}
 		factory_goods_output = {
-			machine_parts = 0.05
+			heavy_industry =  0.05
 		}
 		factory_goods_output = {
-			telephones = 0.05
+			light_industry = 0.05
 		}
 		factory_goods_output = {
-			electric_gear = 0.05
+			heavy_industry = 0.05
 		}
 		factory_goods_output = {
 			automobiles = 0.05
 		}
 		factory_goods_output = {
-			aeroplanes = 0.05
+			military_industry = 0.05
 		}
 		factory_goods_output = {
-			barrels = 0.05
+			military_industry = 0.05
 		}
 	}
 }
@@ -6584,9 +6584,9 @@ modern_power_plants = {
 		}
 	}
 	effect = {
-		activate_building = Petrolium-based_powerplant
+		#activate_building = Petrolium-based_powerplant
 		factory_goods_output = {
-			electric_power = 0.05
+			heavy_industry = 0.05
 		}
 		factory_goods_input = {
 			coal = -0.05
@@ -6611,7 +6611,7 @@ hydroelectricity = {
 	}
 	effect = {
 		factory_goods_output = {
-			electric_power = 0.05
+			heavy_industry = 0.05
 		}
 	}
 }
@@ -6630,7 +6630,7 @@ geothermal_energy = {
 	}
 	effect = {
 		factory_goods_output = {
-			electric_power = 0.05
+			heavy_industry = 0.05
 		}
 	}
 }
@@ -6685,7 +6685,7 @@ hedgefonds = {
 	effect = {
 		factory_input = -0.01
 		factory_goods_throughput = {
-			shares = 0.05
+			luxury_industry = 0.05
 		}
 	}
 }
@@ -6720,7 +6720,7 @@ credit_rating_agencies = {
 	}
 	effect = {
 		factory_goods_throughput = {
-			financial_services = 0.05
+			light_industry = 0.05
 		}
 		factory_cost = -0.10
 	}
@@ -6760,7 +6760,7 @@ floating_exchange_rates = {
 	}
 	effect = {
 		factory_goods_throughput = {
-			financial_services = 0.05
+			light_industry = 0.05
 		}
 	}
 }
@@ -6850,10 +6850,10 @@ market_deregulation = {
 	}
 	effect = {
 		factory_goods_throughput = {
-			financial_services = 0.05
+			light_industry = 0.05
 		}
 		factory_goods_throughput = {
-			shares = 0.05
+			luxury_industry = 0.05
 		}
 	}
 }
@@ -6937,10 +6937,10 @@ centers_of_commerce = {
 	effect = {
 		shared_prestige = 50
 		factory_goods_output = {
-			financial_services = 0.025
+			light_industry = 0.025
 		}
 		factory_goods_output = {
-			shares = 0.025
+			luxury_industry = 0.025
 		}
 	}
 }
@@ -6987,10 +6987,10 @@ consumer_culture_theory = {
 	effect = {
 		factory_throughput = 0.025
 		factory_goods_output = {
-			cigarettes = 0.02
+			light_industry = 0.02
 		}
 		factory_goods_output = {
-			cigars = 0.02
+			luxury_industry = 0.02
 		}
 	}
 }
@@ -7279,7 +7279,7 @@ army_1 = {
 	limit = { 
 		post_napoleonic_thought = 1 
 		flintlock_rifles = 1 
-		bronze_muzzle_loaded_artillery = 1 
+		bronze_muzzle_loaded_military_industry = 1 
 		military_staff_system = 1 
 		army_command_principle = 1 
 	}
@@ -7299,7 +7299,7 @@ army_2 = {
 	limit = { 
 		strategic_mobility = 1 
 		muzzle_loaded_rifles = 1 
-		iron_muzzle_loaded_artillery = 1 
+		iron_muzzle_loaded_military_industry = 1 
 		military_plans = 1 
 		army_professionalism = 1 
 	}
@@ -7317,7 +7317,7 @@ army_3 = {
 	limit = { 
 		point_defense_system = 1 
 		breech_loaded_rifles = 1 
-		iron_breech_loaded_artillery = 1 
+		iron_breech_loaded_military_industry = 1 
 		military_statistics = 1 
 		army_decision_making = 1 
 	}
@@ -7335,7 +7335,7 @@ army_4 = {
 	limit = { 
 		deep_defense_system = 1 
 		bolt_action_rifles = 1 
-		steel_breech_loaded_artillery = 1 
+		steel_breech_loaded_military_industry = 1 
 		military_logistics = 1 
 		army_risk_management = 1 
 	}
@@ -7393,7 +7393,7 @@ army_7 = {
 	limit = { 
 		modern_army_doctrine_1920 = 1 
 		modern_divisional_structure_1920 = 1 
-		modern_artillery = 1 
+		modern_military_industry = 1 
 		modern_military_science = 1 
 		modern_army_leadership = 1 
 	}
@@ -7860,7 +7860,7 @@ industry_4 = {
 	limit = { 
 		steam_turbine = 1 
 		semi_automatization = 1 
-		cheap_steel = 1 
+		cheap_heavy_industry =  1 
 		steel_railroad = 1 
 		organic_chemistry = 1 
 	}

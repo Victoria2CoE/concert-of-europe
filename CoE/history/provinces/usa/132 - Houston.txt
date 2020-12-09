@@ -19,7 +19,7 @@ colonial = 1
 	remove_core = MEX
 	state_building = {
 		level = 1
-		building = canned_food_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

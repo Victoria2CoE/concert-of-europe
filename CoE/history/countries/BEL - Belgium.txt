@@ -7,8 +7,8 @@ religion = catholic
 government = hms_government
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.6
-non_state_culture_literacy = 0.5 #Germans/Dutch
+literacy = 0.01 #literacy = 0.6
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.5 #Germans/Dutch
 civilized = yes
 prestige = 1
 
@@ -92,8 +92,8 @@ nonstate_consciousness = 2
 1861.1.1 = {
 	oob = "/1861/BEL_oob.txt"
 	plurality = 60
-	literacy = 0.65
-	non_state_culture_literacy = 0.65
+	literacy = 0.01 #literacy = 0.65
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.65
 }
 1861.1.1 = {
 	ruling_party = BEL_liberal

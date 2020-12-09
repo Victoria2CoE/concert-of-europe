@@ -4,7 +4,7 @@ religion = shinto
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.39
+literacy = 0.01 #literacy = 0.39
 
 # Political reforms
 slavery = no_slavery
@@ -60,7 +60,7 @@ nonstate_consciousness = 0
 oob = "TKG_oob.txt"
 
 1836.1.1 = {
-literacy = 0.4
+literacy = 0.01 #literacy = 0.4
 
 land_reform = yes_land_reform
 education_reform = yes_education_reform

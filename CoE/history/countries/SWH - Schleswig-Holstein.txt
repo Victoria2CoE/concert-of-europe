@@ -6,8 +6,8 @@ religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.49
+literacy = 0.01 #literacy = 0.69
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.49
 civilized = yes
 prestige = 1
 
@@ -75,8 +75,8 @@ nonstate_consciousness = 1
 oob = "SWH_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.7
-	non_state_culture_literacy = 0.5
+	literacy = 0.01 #literacy = 0.7
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.5
 	prestige = 5
 	
 	# Technologies
@@ -109,8 +109,8 @@ oob = "SWH_oob.txt"
 1861.1.1 = {
 	oob = "/1861/SWH_oob.txt"
 	plurality = 60
-	literacy = 0.90
-	non_state_culture_literacy = 0.45
+	literacy = 0.01 #literacy = 0.90
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.45
 
 # Political reforms
 slavery = no_slavery

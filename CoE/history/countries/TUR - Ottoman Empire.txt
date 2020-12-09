@@ -4,7 +4,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.19
+literacy = 0.01 #literacy = 0.19
 civilized = yes
 
 #GreaterPowers = prestige
@@ -71,7 +71,7 @@ decision = bosphorus_canal
 oob = "/1821/TUR_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.20
+	literacy = 0.01 #literacy = 0.20
 	prestige = 30
 
 	set_country_flag = ended_mamluk_iraq
@@ -100,8 +100,8 @@ oob = "/1821/TUR_oob.txt"
 	oob = "/1861/TUR_oob.txt"
 	prestige = 45
 	plurality = 50
-	literacy = 0.25
-	non_state_culture_literacy = 0.15
+	literacy = 0.01 #literacy = 0.25
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.15
 	ruling_party = TUR_conservative
 	set_country_flag = tanzimat_reforms_enacted
 	set_country_flag = christian_oppression

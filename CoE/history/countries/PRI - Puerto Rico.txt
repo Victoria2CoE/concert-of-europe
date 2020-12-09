@@ -5,8 +5,8 @@ religion = catholic
 government = democracy
 plurality = 0.3
 nationalvalue = nv_liberty
-literacy = 0.14
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.14
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 
 # Political reforms

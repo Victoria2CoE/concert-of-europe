@@ -8,18 +8,18 @@ terrain = marginal_farmland
 naval_base = 1
 state_building = {
 	level = 1
-	building = cement_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 	state_building = {
 		level = 2
-		building = cement_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = bank
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

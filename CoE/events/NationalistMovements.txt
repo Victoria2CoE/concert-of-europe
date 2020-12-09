@@ -2290,9 +2290,9 @@ province_event = {
 		is_colonial = no
 		average_militancy = 5
 		owner = {
-			ammunition = 10
-			small_arms = 15
-			artillery = 1
+			military_industry = 10
+			military_industry = 15
+			military_industry = 1
 		}
 	}
 	
@@ -2367,9 +2367,9 @@ province_event = {
 	option = {
 		name = "EVTOPTA15160"
 		owner = {
-			ammunition = -10
-			small_arms = -15
-			artillery = -1
+			military_industry = -10
+			military_industry = -15
+			military_industry = -1
 		}
 		state_scope = {
 			any_pop = {

@@ -86,8 +86,8 @@ country_event = {
 		name = "Prepare an expedition"
 		D21 = { country_event = { id = 211204 } }	
 		release_vassal = D21
-		ammunition = -50
-		small_arms = -15
+		military_industry = -50
+		military_industry = -15
 		treasury = -10000
 		badboy = 2
 		casus_belli = {

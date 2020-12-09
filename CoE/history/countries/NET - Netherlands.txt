@@ -6,8 +6,8 @@ religion = protestant
 government = prussian_constitutionalism
 plurality = 5
 nationalvalue = nv_order
-literacy = 0.82
-non_state_culture_literacy = 0.02
+literacy = 0.01 #literacy = 0.82
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 civilized = yes
 prestige = 20
 
@@ -87,7 +87,7 @@ oob = "/1821/NET_oob.txt"
 }
 
 1836.1.1 = {
-	literacy = 0.55
+	literacy = 0.01 #literacy = 0.55
 	prestige = 10
 	
 	set_country_flag = belgium_seceded
@@ -140,7 +140,7 @@ oob = "NET_oob.txt"
 	vote_franschise = wealth_weighted_voting
 	political_parties = gerrymandering
 	plurality = 60
-	literacy = 0.82
+	literacy = 0.01 #literacy = 0.82
 }
 1861.1.1 = {
 # Political reforms

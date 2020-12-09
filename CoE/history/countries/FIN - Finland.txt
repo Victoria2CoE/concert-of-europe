@@ -6,7 +6,7 @@ religion = protestant
 government = hms_government
 plurality = 0.5
 nationalvalue = nv_equality
-literacy = 0.64
+literacy = 0.01 #literacy = 0.64
 civilized = yes
 
 # Political reforms
@@ -74,7 +74,7 @@ schools = industrial_tech_school
 oob = "FIN_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.65
+	literacy = 0.01 #literacy = 0.65
 	
 	#Technologies
 	post_napoleonic_thought = 1

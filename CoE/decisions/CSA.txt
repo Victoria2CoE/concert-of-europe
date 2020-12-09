@@ -39,7 +39,7 @@ political_decisions = {
 				personality = expert
 				background = gifted_administrator
 			}
-			small_arms = 56
+			military_industry = 56
 			regular_clothes = 80
 			horses = 41
 			add_country_modifier = {

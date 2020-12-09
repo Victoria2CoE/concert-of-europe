@@ -4,8 +4,8 @@ religion = catholic
 government = democracy
 plurality = 0.1
 nationalvalue = nv_liberty
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.09
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 
 # Political reforms
@@ -79,7 +79,7 @@ oob = "/1821/DOM_oob.txt"
 	
 	oob = "/1861/DOM_oob.txt"
 	plurality = 50
-	literacy = 0.17
+	literacy = 0.01 #literacy = 0.17
 }
 1861.1.1 = {
 	# Political reforms

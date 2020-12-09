@@ -4,8 +4,8 @@ religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.015
-non_state_culture_literacy = 0
+literacy = 0.01 #literacy = 0.015
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 # Political reforms
 slavery = no_slavery
@@ -61,8 +61,8 @@ nonstate_consciousness = 0
 oob = "MEW_oob.txt"
 
 1836.1.1 = {
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.01 #literacy = 0.02
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 unciv_light_armament = gunpowder_weapons
 academic_institutions = madrasahs

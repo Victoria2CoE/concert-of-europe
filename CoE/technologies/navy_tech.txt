@@ -514,7 +514,7 @@ clipper_design = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = clipper_convoy
+				big_producer = military_industry
 				big_producer = fish
 			}
 		}
@@ -593,8 +593,8 @@ steamers = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = clipper_convoy
-				big_producer = steamer_convoy
+				big_producer = military_industry
+				#big_producer = steamer_convoy
 				big_producer = fish
 			}
 		}

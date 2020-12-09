@@ -4,8 +4,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.025
-non_state_culture_literacy = 0.005
+literacy = 0.01 #literacy = 0.025
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.005
 
 # Political reforms
 slavery = yes_slavery
@@ -63,8 +63,8 @@ nonstate_consciousness = 0
 oob = "HAL_oob.txt"
 
 1836.1.1 = {
-literacy = 0.03
-non_state_culture_literacy = 0.01
+literacy = 0.01 #literacy = 0.03
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.01
 
 foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs

@@ -4,7 +4,7 @@ religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.09
+literacy = 0.01 #literacy = 0.09
 
 # Political reforms
 slavery = no_slavery
@@ -54,8 +54,8 @@ classicism_n_early_romanticism = 1
 # Inventions
 
 1836.1.1 = {
-literacy = 0.1
-non_state_culture_literacy = 0
+literacy = 0.01 #literacy = 0.1
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 unciv_light_armament = gunpowder_weapons
 academic_institutions = madrasahs

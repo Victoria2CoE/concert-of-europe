@@ -8,25 +8,25 @@ terrain = forested_farmland
 naval_base = 1
 state_building = {
 	level = 1
-	building = gunpowder_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 #	state_building = {
 #		level = 4
-#		building = winery
+#		building = heavy_factory_building
 #		upgrade = yes
 #	}
 	state_building = {
 		level = 2
-		building = gunpowder_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = winery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

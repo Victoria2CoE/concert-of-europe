@@ -4,7 +4,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.01 #literacy = 0.02
 civilized = no
 
 # Political reforms
@@ -64,7 +64,7 @@ oob = "/1821/TKM_oob.txt"
 
 1836.1.1 = {
 	
-	literacy = 0.2
+	literacy = 0.01 #literacy = 0.2
 	
 	unciv_light_armament = gunpowder_weapons
 	academic_institutions = madrasahs

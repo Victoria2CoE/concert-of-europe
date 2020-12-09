@@ -19,16 +19,12 @@ manowar = {
 	#Building Costs
 	build_time = 1050
 	build_cost = {
-		clipper_convoy = 2
-		artillery = 1
+		military_industry = 50
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		lumber = 1
-		gunpowder = 1
-		fabric = 1
-		bronze = 0.5
+		military_industry = 0.5
 	}
 	
 

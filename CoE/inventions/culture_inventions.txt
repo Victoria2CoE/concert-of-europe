@@ -623,7 +623,7 @@ socialist_realism = {
 		base = 2
 		modifier = {
 			factor = 2
-			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
 		modifier = {
 			factor = 2
@@ -2390,7 +2390,7 @@ national_radio_networks = {
 		}
 	}
 	effect = { 
-		activate_building = radio_factory 
+		#activate_building = radio_factory 
 	}
 	core_pop_consciousness_modifier = 0.02
 }

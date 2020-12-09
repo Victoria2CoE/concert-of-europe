@@ -2642,7 +2642,7 @@ country_event = {
 						NOT = { unciv_military_training = military_levies }
 						NOT = { unciv_light_armament = traditional_weapons }
 						NOT = { unciv_officer_corps = aristocratic_officers }
-						NOT = { unciv_artillery = no_artillery_for_you }
+						NOT = { unciv_military_industry = no_military_industry_for_you }
 					}
 				}
 			}

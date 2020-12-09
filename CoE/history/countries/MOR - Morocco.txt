@@ -4,7 +4,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.09
+literacy = 0.01 #literacy = 0.09
 
 # Political reforms
 slavery = yes_slavery
@@ -68,8 +68,8 @@ nonstate_consciousness = 0
 oob = "MOR_oob.txt"
 
 1836.1.1 = {
-literacy = 0.1
-non_state_culture_literacy = 0
+literacy = 0.01 #literacy = 0.1
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 unciv_military_training = field_drills
 unciv_light_armament = gunpowder_weapons

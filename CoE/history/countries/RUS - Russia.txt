@@ -7,8 +7,8 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.085
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.085
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 
 #GreaterPowers = prestige
@@ -83,8 +83,8 @@ schools = culture_tech_school
 oob = "/1821/RUS_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.10
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	prestige = 80
 	
 	set_global_flag = adrianople_treaty
@@ -130,8 +130,8 @@ oob = "/1821/RUS_oob.txt"
 	plurality = 60
 	oob = "/1861/RUS_oob.txt"
 	ruling_party = RUS_liberal
-	literacy = 0.15
-	non_state_culture_literacy = 0.1
+	literacy = 0.01 #literacy = 0.15
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.1
 	set_country_flag = eastern_christians_up_in_here_yall
 	set_global_flag = crimea_has_happened
 	set_global_flag = treaty_of_paris_1856

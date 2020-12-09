@@ -4,8 +4,8 @@ religion = catholic
 government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_might
-literacy = 0.11
-non_state_culture_literacy = 0.05
+literacy = 0.01 #literacy = 0.11
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 civilized = yes
 prestige = 1
 
@@ -76,8 +76,8 @@ nonstate_consciousness = 0
 1861.1.1 = {
 	oob = "/1861/VNZ_oob.txt"
 	plurality = 50
-	literacy = 0.12
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.12
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 }
 1861.1.1 = {
 # Technologies

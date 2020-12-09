@@ -220,10 +220,10 @@ country_event = {
 			year = 1875
 			}
 		329 = {
-			has_building = railroad
+			#has_building = railroad
 		}
 		316 = {
-			has_building = railroad
+			#has_building = railroad
 		}
 	}
 	

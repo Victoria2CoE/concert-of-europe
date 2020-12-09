@@ -89,15 +89,15 @@ political_decisions = {
 		
 		allow = {
 			mechanical_production = 1
-			325 = {
-				state_scope = {
-					OR = {
-						has_building = machine_parts_factory
-						has_building = iron_machine_parts_factory
-						has_building = steel_machine_parts_factory
-					}
-				}
-			}
+			#325 = {
+			#	state_scope = {
+			#		OR = {
+			#			has_building = machine_parts_factory
+			#			has_building = iron_machine_parts_factory
+			#			has_building = steel_machine_parts_factory
+			#		}
+			#	}
+			#}
 		}
 		
 		effect = {

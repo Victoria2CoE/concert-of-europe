@@ -15,12 +15,12 @@ terrain = deciduous_forest_mountains
 	controller = SPA
 	state_building = {
 		level = 1
-		building = steamer_shipyard
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = steel_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	railroad = 3

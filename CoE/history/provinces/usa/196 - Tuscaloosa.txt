@@ -10,7 +10,7 @@ terrain = forested_farmland
 	add_core = CSA
 	state_building = {
 		level = 1
-		building = canned_food_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

@@ -223,8 +223,8 @@ country_event = {
 		name = "We prefer the status quo."
 		relation = { who = ENG value = -50 }
 		prestige = 4
-		ENG = { country_event = { i
-		d = 95256 
+		ENG = { country_event = { 
+		id = 95256 
 		#days = 10 
 		} 
 		}

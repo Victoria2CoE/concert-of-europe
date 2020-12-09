@@ -26,7 +26,7 @@ multitude_of_financial_instruments = {
 	}
 	effect = {
 	factory_goods_output = {
-		shares = 0.01
+		luxury_industry = 0.01
 		}
 	}
 	
@@ -49,7 +49,7 @@ insurance_companies = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -72,7 +72,7 @@ regulated_buying_and_selling_of_stocks = {
 	}
 	effect = {
 	factory_goods_throughput = {
-		shares = 0.02
+		luxury_industry = 0.02
 		}
 	}
 	
@@ -118,7 +118,7 @@ capital_for_investors = {
 	}
 	effect = {
 		factory_goods_output = {
-		shares = 0.01
+		luxury_industry = 0.01
 		}
 	}
 	
@@ -167,7 +167,7 @@ industrial_rnd_investments = {
 	}
 	effect = {
 		factory_goods_throughput = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -255,7 +255,7 @@ private_bank_monitoring = {
 	}
 	effect = {
 	factory_goods_throughput = {
-		paper =  0.05
+		light_industry =  0.05
 		}
 	}
 	
@@ -289,7 +289,7 @@ market_behaviour_monitoring = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -329,7 +329,7 @@ buying_on_margin = {
 	effect = {
 	factory_input = -0.01
 	factory_goods_throughput = {
-		shares = 0.02
+		luxury_industry = 0.02
 		}
 	}
 	
@@ -396,7 +396,7 @@ decimal_monetary_system = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -420,7 +420,7 @@ double_standard = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -443,7 +443,7 @@ fixed_intramonetary_exchange_rates = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 		loan_interest = -0.01
 	rgo_goods_throughput = {
@@ -503,7 +503,7 @@ international_monetary_exchange_rates = {
 	effect = {
 		loan_interest = -0.01
 			factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -538,7 +538,7 @@ state_bond_monetary_mechanism = {
 	}
 	effect = {
 			factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -568,7 +568,7 @@ interest_inflation_weapon = {
 	}
 	effect = {
 			factory_goods_throughput = {
-		financial_services = 0.03
+		light_industry = 0.03
 		}
 	}
 	
@@ -597,7 +597,7 @@ hyperinflation = {
 		plurality = 0.02
 		loan_interest = -0.01
 		factory_goods_output = {
-			financial_services = 0.02
+			light_industry = 0.02
 		}
 	}
 	
@@ -624,7 +624,7 @@ john_ramsay_mcculloch = {
 		}
 	}
 	effect = {
-		activate_building = furniture_factory
+		#activate_building = furniture_factory
 	}
 	
 	
@@ -649,7 +649,7 @@ nassau_william_sr = {
 		}
 	}
 	effect = {
-		activate_building = paper_mill 
+		#activate_building = paper_mill 
 	}
 	
 	
@@ -685,7 +685,7 @@ james_mill = {
 		}
 	}
 	effect = {
-		activate_building = luxury_furniture_factory 
+		#activate_building = luxury_furniture_factory 
 	}
 	
 	
@@ -751,7 +751,7 @@ robert_torrens = {
 	effect = {
 		permanent_prestige = 2
 	factory_goods_throughput = {
-		financial_services = 0.02
+		light_industry = 0.02
 		}
 	}
 	
@@ -789,7 +789,7 @@ john_stuart_mill = {
 	effect = {
 		permanent_prestige = 2 
 	factory_goods_output = {
-		shares = 0.02
+		luxury_industry = 0.02
 		}
 	}
 	
@@ -1266,7 +1266,7 @@ johann_heinrich_von_thünen = {
 	effect = {
 		permanent_prestige = 3 
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -1304,7 +1304,7 @@ léon_walras = {
 	effect = {
 		permanent_prestige = 2 
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -1339,7 +1339,7 @@ stanley_jevons = {
 	effect = {
 		permanent_prestige = 3 
 	factory_goods_output = {
-		shares = 0.01
+		luxury_industry = 0.01
 		}
 	}
 	
@@ -1578,7 +1578,7 @@ irving_fischer = {
 	effect = {
 		permanent_prestige = 1 
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -1656,7 +1656,7 @@ john_maynard_keynes = {
 	effect = {
 		permanent_prestige = 10 
 	factory_goods_throughput = {
-		financial_services = 0.02
+		light_industry = 0.02
 		}
 	}
 	
@@ -1735,10 +1735,10 @@ friedrich_hayek = {
 	effect = {
 		permanent_prestige = 10
 			factory_goods_output = {
-		financial_services = 0.03
+		light_industry = 0.03
 		}
 	factory_goods_output = {
-		shares = 0.03
+		luxury_industry = 0.03
 		}
 	}
 }
@@ -1894,7 +1894,7 @@ joint_stock_company = {
 	}
 	effect = {
 	factory_goods_throughput = {
-		shares = 0.1	}
+		luxury_industry = 0.1	}
 	}
 	
 	
@@ -2021,7 +2021,7 @@ financial_regulations = {
 	}
 	effect = {
 		factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -2047,7 +2047,7 @@ banking_regulations = {
 	}
 	effect = {
 	factory_goods_throughput = {
-		financial_services = 0.03
+		light_industry = 0.03
 		}
 	}
 	
@@ -2098,7 +2098,7 @@ bankruptcy_proceedings = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -2150,7 +2150,7 @@ priming_the_pump_ = {
 	effect = {
 		loan_interest = -0.005
 	factory_goods_throughput = {
-		financial_services = 0.01
+		light_industry = 0.01
 		}
 	}
 	
@@ -2177,7 +2177,7 @@ mixed_economy = {
 	effect = {
 		loan_interest = -0.005
 	factory_goods_output = {
-		shares = 0.01
+		luxury_industry = 0.01
 		}
 	}
 }
@@ -2223,7 +2223,7 @@ centralized_economic_planning = {
 	}
 	effect = {
 	factory_goods_output = {
-		financial_services = 0.05
+		light_industry = 0.05
 		}
 	}
 }
@@ -2307,7 +2307,7 @@ import_substitution_industrialization_2 = {
 		}
 	}
 	effect = {
-		activate_building = synthetic_tropical_factory
+		#activate_building = synthetic_tropical_factory
 	}
 }
 	
@@ -2474,10 +2474,10 @@ time_studies = {
 	effect = {
 		factory_output = 0.01
 		factory_goods_throughput = {
-			cigarettes = 0.02
+			light_industry = 0.02
 		}
 		factory_goods_output = {
-			cigarettes = 0.01
+			light_industry = 0.01
 		}
 	}
 	
@@ -2555,16 +2555,16 @@ old_style_family_business = {
 	effect = {
 		factory_throughput = 0.025
 		factory_goods_throughput = {
-			cigarettes = 0.02
+			light_industry = 0.02
 		}
 		factory_goods_output = {
-			cigarettes = 0.01
+			light_industry = 0.01
 		}
 		factory_goods_throughput = {
-			cigars = 0.02
+			luxury_industry = 0.02
 		}
 		factory_goods_output = {
-			cigars = 0.01
+			luxury_industry = 0.01
 		}
 	}
 	
@@ -2640,16 +2640,16 @@ i_scientific_management = {
 	effect = {
 		factory_throughput = 0.025
 		factory_goods_throughput = {
-			cigarettes = 0.02
+			light_industry = 0.02
 		}
 		factory_goods_output = {
-			cigarettes = 0.01
+			light_industry = 0.01
 		}
 		factory_goods_throughput = {
-			cigars = 0.02
+			luxury_industry = 0.02
 		}
 		factory_goods_output = {
-			cigars = 0.01
+			luxury_industry = 0.01
 		}
 	}
 	

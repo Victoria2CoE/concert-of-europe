@@ -6,7 +6,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.018
+literacy = 0.01 #literacy = 0.018
 
 # Political reforms
 slavery = yes_slavery
@@ -65,7 +65,7 @@ oob = "/1821/HRT_oob.txt"
 
 1836.1.1 = {
 	
-	literacy = 0.2
+	literacy = 0.01 #literacy = 0.2
 	
 	foreign_weapons = yes_foreign_weapons
 	academic_institutions = madrasahs

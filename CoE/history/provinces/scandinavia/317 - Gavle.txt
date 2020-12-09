@@ -7,7 +7,7 @@ terrain = boreal_forest
 1861.1.1 = { 
 	state_building = {
 		level = 1
-		building = lumber_mill
+		building = heavy_factory_building
 		upgrade = yes
 	} 
 }

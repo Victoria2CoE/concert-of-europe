@@ -14,7 +14,7 @@ colonial = 1
 	add_core = CSA
 	state_building = {
 		level = 1
-		building = lumber_mill
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

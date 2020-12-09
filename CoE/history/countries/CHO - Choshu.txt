@@ -4,7 +4,7 @@ religion = shinto
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.39
+literacy = 0.01 #literacy = 0.39
 
 # Political reforms
 slavery = no_slavery
@@ -63,7 +63,7 @@ nonstate_consciousness = 0
 oob = "CHO_oob.txt"
 
 1836.1.1 = {
-literacy = 0.4
+literacy = 0.01 #literacy = 0.4
 
 foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools

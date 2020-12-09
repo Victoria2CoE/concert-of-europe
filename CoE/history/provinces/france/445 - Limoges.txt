@@ -7,13 +7,13 @@ life_rating = 30
 terrain = hilly_farmland
 #state_building = {
 #	level = 1
-#	building = lumber_mill
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = fabric_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

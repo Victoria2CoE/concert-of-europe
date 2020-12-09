@@ -4,9 +4,9 @@ religion = mahayana
 government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.04
+literacy = 0.01 #literacy = 0.04
 civilized = yes
-non_state_culture_literacy = 0
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

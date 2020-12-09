@@ -47,7 +47,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			liquor = 50
+			light_industry = 50
 		}
 		modifier = {
 			factor = 0.5

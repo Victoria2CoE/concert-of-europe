@@ -4,8 +4,8 @@ religion = protestant
 government = prussian_constitutionalism2
 plurality = 0.0
 nationalvalue = nv_equality
-literacy = 0.58
-non_state_culture_literacy = 0.095
+literacy = 0.01 #literacy = 0.58
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.095
 
 # Political reforms
 slavery = no_slavery

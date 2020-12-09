@@ -2271,7 +2271,7 @@ country_event = {
 					OR = {
 						NOT = { unciv_officer_corps = aristocratic_officers }
 						NOT = { unciv_military_training = military_levies }
-						NOT = { unciv_artillery = no_artillery_for_you }
+						NOT = { unciv_military_industry = no_military_industry_for_you }
 					}
 					year = 1880
 				}
@@ -2289,7 +2289,7 @@ country_event = {
 					unciv_officer_corps = aristocratic_officers
 					OR = {
 						unciv_military_training = field_drills
-						unciv_artillery = early_light_artillery
+						unciv_military_industry = early_light_military_industry
 					}
 					year = 1900
 				}
@@ -2304,13 +2304,13 @@ country_event = {
 				owner = {
 					civilized = no
 					NOT = { unciv_military_training = military_levies }
-					unciv_artillery = no_artillery_for_you
+					unciv_military_industry = no_military_industry_for_you
 					year = 1900
 				}
 			}
 			owner = {
-				military_reform = early_light_artillery
-				activate_technology = bronze_muzzle_loaded_artillery
+				military_reform = early_light_military_industry
+				activate_technology = bronze_muzzle_loaded_military_industry
 			}
 		}
 		random_owned = {

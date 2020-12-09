@@ -5,8 +5,8 @@ religion = catholic
 government = democracy
 plurality = 1.0
 nationalvalue = nv_might
-literacy = 0.10
-non_state_culture_literacy = 0.015
+literacy = 0.01 #literacy = 0.10
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.015
 civilized = yes
 prestige = 1
 
@@ -71,8 +71,8 @@ nonstate_consciousness = 1
 oob = "/1821/CHL_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.12
-	non_state_culture_literacy = 0.02
+	literacy = 0.01 #literacy = 0.12
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 	prestige = 5
 	
 	# Technologies
@@ -97,8 +97,8 @@ oob = "/1821/CHL_oob.txt"
 1861.1.1 = {
 	oob = "/1861/CHL_oob.txt"
 	plurality = 60
-	literacy = 0.21
-	non_state_culture_literacy = 0.02
+	literacy = 0.01 #literacy = 0.21
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 }
 1861.1.1 = {
 ruling_party = CHL_conservative_3

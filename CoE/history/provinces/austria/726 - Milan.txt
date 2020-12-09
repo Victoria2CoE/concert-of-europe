@@ -8,7 +8,7 @@ fort = 1
 terrain = rich_farmland
 #state_building = {
 #	level = 4
-#	building = fabric_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 1861.1.1 = {
@@ -18,12 +18,12 @@ terrain = rich_farmland
 1861.1.1 = { 
 	state_building = {
 	level = 1
-	building = steel_factory
+	building = heavy_factory_building
 	upgrade = yes
 	}
 	state_building = {
 	level = 1
-	building = luxury_clothes_factory
+	building = heavy_factory_building
 	upgrade = yes
 	}
 }

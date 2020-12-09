@@ -19,15 +19,12 @@ submarine = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		steamer_convoy = 0.5
-		artillery = 0.2
+		military_industry = 50
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.05
-		gunpowder = 0.05
-		coal = 0.5
+		military_industry = 0.5
 	}
 	
 	#Naval Abilties

@@ -264,13 +264,13 @@ country_event = {
 		random_country = {
 			limit = {
 				civilized = yes
-				any_state = { has_building = ammunition_factory }
+				#any_state = { #has_building = military_industry_factory }
 				NOT = {	economic_policy = laissez_faire	}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
-						has_building = ammunition_factory
+						#has_building = military_industry_factory
 					}
 				}
 				province_event = { id = 12031 }
@@ -316,7 +316,7 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = fertilizer_factory }
+				#any_state = { #has_building = fertilizer_factory }
 				pollution = no_controls
 				NOT = {	#added -crownsteler
 					pollution = acceptable_envir
@@ -324,7 +324,7 @@ country_event = {
 				}
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = fertilizer_factory } }
+				#limit = { #state_scope = { #has_building = fertilizer_factory } }
 				province_event = { id = 12041 }
 				add_province_modifier = {
 					name = futile
@@ -343,7 +343,7 @@ country_event = {
 				exists = yes
 				civilized = yes
 				any_state = { 
-					has_building = fertilizer_factory 
+					#has_building = fertilizer_factory 
 					average_consciousness = 3
 				}
 				NOT = {	#added -crownsteler
@@ -353,7 +353,7 @@ country_event = {
 			}
 			random_owned = {
 				limit = { 
-					state_scope = { has_building = fertilizer_factory } 
+					#state_scope = { #has_building = fertilizer_factory } 
 					average_consciousness = 3
 				}
 				province_event = { id = 12041 }
@@ -374,7 +374,7 @@ country_event = {
 				exists = yes
 				civilized = yes
 				any_state = { 
-					has_building = fertilizer_factory 
+					#has_building = fertilizer_factory 
 					average_consciousness = 5
 				}
 				NOT = {	#added -crownsteler
@@ -384,7 +384,7 @@ country_event = {
 			}
 			random_owned = {
 				limit = { 
-					state_scope = { has_building = fertilizer_factory } 
+					#state_scope = { #has_building = fertilizer_factory } 
 					average_consciousness = 5
 				}
 				province_event = { id = 12041 }
@@ -405,7 +405,7 @@ country_event = {
 				exists = yes
 				civilized = yes
 				any_state = { 
-					has_building = fertilizer_factory 
+					#has_building = fertilizer_factory 
 				}
 				poor_strata_everyday_needs = 0.7
 				NOT = {	#added -crownsteler
@@ -415,7 +415,7 @@ country_event = {
 			}
 			random_owned = {
 				limit = { 
-					state_scope = { has_building = fertilizer_factory } 
+					#state_scope = { #has_building = fertilizer_factory } 
 				}
 				province_event = { id = 12041 }
 				add_province_modifier = {
@@ -507,20 +507,20 @@ country_event = {
 				war = yes
 				war_exhaustion = 5
 				OR = {
-					any_state = { has_building = canned_food_factory }
-					any_state = { has_building = fish_cannery }
-					any_state = { has_building = bakery }
-					any_state = { has_building = fruit_cannery }
+					#any_state = { #has_building = food_industry_factory }
+					#any_state = { #has_building = fish_cannery }
+					#any_state = { #has_building = bakery }
+					#any_state = { #has_building = fruit_cannery }
 				}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
 						OR = {
-							has_building = canned_food_factory
-							has_building = fish_cannery
-							has_building = bakery
-							has_building = fruit_cannery
+							#has_building = food_industry_factory
+							#has_building = fish_cannery
+							#has_building = bakery
+							#has_building = fruit_cannery
 						}
 					}
 				}
@@ -567,20 +567,20 @@ country_event = {
 			limit = {
 				civilized = yes
 				OR = {
-					any_state = { has_building = canned_food_factory }
-					any_state = { has_building = fish_cannery }
-					any_state = { has_building = bakery }
-					any_state = { has_building = fruit_cannery }
+					#any_state = { #has_building = food_industry_factory }
+					#any_state = { #has_building = fish_cannery }
+					#any_state = { #has_building = bakery }
+					#any_state = { #has_building = fruit_cannery }
 				}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
 						OR = {
-							has_building = canned_food_factory
-							has_building = fish_cannery
-							has_building = bakery
-							has_building = fruit_cannery
+							#has_building = food_industry_factory
+							#has_building = fish_cannery
+							#has_building = bakery
+							#has_building = fruit_cannery
 						}
 					}
 					OR = {
@@ -984,7 +984,7 @@ country_event = {
 		name = "That sounds terrible..."
 		random_country = {
 			limit = { 
-				any_state = { has_building = clipper_shipyard }
+				#any_state = { #has_building = clipper_shipyard }
 				any_owned_province = {
 					port = yes
 					NOT = { has_province_modifier = naval_school }
@@ -993,7 +993,7 @@ country_event = {
 			}
 			random_owned = {
 				limit = {
-					state_scope = { has_building = clipper_shipyard }
+					#state_scope = { #has_building = clipper_shipyard }
 					NOT = { has_province_modifier = naval_school }
 					is_coastal = yes
 					NOT = { average_militancy = 4 }
@@ -1043,10 +1043,10 @@ country_event = {
 				exists = yes
 				civilized = yes
 				safety_regulations = acceptable_safety
-				any_state = { has_building = steamer_shipyard }
+				#any_state = { #has_building = steamer_shipyard }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = steamer_shipyard } }
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
 				province_event = { id = 12151 }
 				add_province_modifier = {
 					name = futile
@@ -1065,10 +1065,10 @@ country_event = {
 				exists = yes
 				civilized = yes
 				safety_regulations = good_safety
-				any_state = { has_building = steamer_shipyard }
+				#any_state = { #has_building = steamer_shipyard }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = steamer_shipyard } }
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
 				province_event = { id = 12151 }
 				add_province_modifier = {
 					name = futile
@@ -1087,10 +1087,10 @@ country_event = {
 				exists = yes
 				civilized = yes
 				average_militancy = 2
-				any_state = { has_building = steamer_shipyard }
+				#any_state = { #has_building = steamer_shipyard }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = steamer_shipyard } }
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
 				province_event = { id = 12151 }
 				add_province_modifier = {
 					name = futile
@@ -1113,10 +1113,10 @@ country_event = {
 					safety_regulations = good_safety 
 					safety_regulations = acceptable_safety
 				}
-				any_state = { has_building = steamer_shipyard }
+				#any_state = { #has_building = steamer_shipyard }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = steamer_shipyard } }
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
 				province_event = { id = 12151 }
 				add_province_modifier = {
 					name = futile
@@ -1130,7 +1130,7 @@ country_event = {
 	}
 }
 
-# triggers Standard $PROVINCENAME$ Cement
+# triggers Standard $PROVINCENAME$ havy_industry
 country_event = {
 	id = 12160
 	title = "EVTNAME12160"
@@ -1170,11 +1170,11 @@ country_event = {
 		random_country = {
 			limit = {
 				civilized = yes
-				any_state = { has_building = cement_factory }
+				#any_state = { #has_building = havy_factory_building }
 			}
 			random_owned = {
 				limit = {
-					state_scope = { has_building = cement_factory }
+					#state_scope = { #has_building = havy_factory_building }
 				}
 				province_event = { id = 12161 }
 			}
@@ -1219,11 +1219,11 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = dye_factory }
+				#any_state = { #has_building = dye_factory }
 				NOT = { safety_regulations = good_safety }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = dye_factory } }
+				#limit = { #state_scope = { #has_building = dye_factory } }
 				province_event = { id = 12171 }
 				add_province_modifier = {
 					name = futile
@@ -1241,11 +1241,11 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = dye_factory }
+				#any_state = { #has_building = dye_factory }
 				safety_regulations = no_safety
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = dye_factory } }
+				#limit = { #state_scope = { #has_building = dye_factory } }
 				province_event = { id = 12171 }
 				add_province_modifier = {
 					name = futile
@@ -1263,11 +1263,11 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = dye_factory }
+				#any_state = { #has_building = dye_factory }
 				safety_regulations = trinket_safety
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = dye_factory } }
+				#limit = { #state_scope = { #has_building = dye_factory } }
 				province_event = { id = 12171 }
 				add_province_modifier = {
 					name = futile
@@ -1286,11 +1286,11 @@ country_event = {
 				exists = yes
 				civilized = yes
 				NOT = { safety_regulations = good_safety }
-				any_state = { has_building = dye_factory }
+				#any_state = { #has_building = dye_factory }
 				militancy = 2
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = dye_factory } }
+				#limit = { #state_scope = { #has_building = dye_factory } }
 				province_event = { id = 12171 }
 				add_province_modifier = {
 					name = futile
@@ -1338,10 +1338,10 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = fuel_refinery }
+				#any_state = { #has_building = fuel_refinery }
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = fuel_refinery } }
+				#limit = { #state_scope = { #has_building = fuel_refinery } }
 				province_event = { id = 12181 }
 				add_province_modifier = {
 					name = futile
@@ -1359,14 +1359,14 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = fuel_refinery }
+				#any_state = { #has_building = fuel_refinery }
 				NOT = { 
 					safety_regulations = acceptable_safety
 					safety_regulations = good_safety
 				}
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = fuel_refinery } }
+				#limit = { #state_scope = { #has_building = fuel_refinery } }
 				province_event = { id = 12181 }
 				add_province_modifier = {
 					name = futile
@@ -1384,11 +1384,11 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = fuel_refinery }
+				#any_state = { #has_building = fuel_refinery }
 				safety_regulations = acceptable_safety
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = fuel_refinery } }
+				#limit = { #state_scope = { #has_building = fuel_refinery } }
 				province_event = { id = 12181 }
 				add_province_modifier = {
 					name = futile
@@ -1406,11 +1406,11 @@ country_event = {
 			limit = {
 				exists = yes
 				civilized = yes
-				any_state = { has_building = fuel_refinery }
+				#any_state = { #has_building = fuel_refinery }
 				safety_regulations = good_safety
 			}
 			random_owned = {
-				limit = { state_scope = { has_building = fuel_refinery } }
+				#limit = { #state_scope = { #has_building = fuel_refinery } }
 				province_event = { id = 12181 }
 				add_province_modifier = {
 					name = futile
@@ -1453,7 +1453,7 @@ country_event = {
 		random_country = {
 			limit = { 
 				civilized = yes
-				any_state = { has_building = fuel_refinery }
+				#any_state = { #has_building = fuel_refinery }
 				OR = {
 					safety_regulations = no_safety
 					safety_regulations = trinket_safety
@@ -1461,7 +1461,7 @@ country_event = {
 			}
 			random_owned = {
 				limit = {
-					state_scope = { has_building = fuel_refinery }
+					#state_scope = { #has_building = fuel_refinery }
 					NOT = { average_consciousness = 6 }
 				}
 				province_event = { id = 12191 }
@@ -1720,13 +1720,13 @@ country_event = {
 			limit = { 
 				civilized = yes
 				war = yes
-				any_state = { has_building = radio_factory }
+				#any_state = { #has_building = radio_factory }
 			}
 			NOT = { economic_policy = laissez_faire }
 			random_owned = {
 				limit = {
 					state_scope = {
-						has_building = radio_factory
+						#has_building = radio_factory
 					}
 				}
 				province_event = { id = 12231 }
@@ -1775,18 +1775,18 @@ country_event = {
 				NOT = { religious_policy = moralism }
 				NOT = { has_country_modifier = liquor_prohibition }
 				OR = {
-					any_state = { has_building = winery }
-					any_state = { has_building = liquor_distillery }
-					any_state = { has_building = rum_distillery }
+					#any_state = { #has_building = luxury_industryry }
+					#any_state = { #has_building = liquor_distillery }
+					#any_state = { #has_building = rum_distillery }
 				}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
 						OR = {
-							has_building = winery
-							has_building = liquor_distillery
-							has_building = rum_distillery
+							#has_building = luxury_industryry
+							#has_building = liquor_distillery
+							#has_building = rum_distillery
 						}
 					}
 				}
@@ -1830,15 +1830,15 @@ country_event = {
 				civilized = yes
 				NOT = { safety_regulations = acceptable_safety }
 				OR = {
-					any_state = { has_building = explosives_factory }
-					any_state = { has_building = ammunition_factory }
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					OR = {
-						state_scope = { has_building = explosives_factory }
-						state_scope = { has_building = ammunition_factory }
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
 					}
 				}
 				province_event = { id = 12251 }
@@ -1863,15 +1863,15 @@ country_event = {
 					safety_regulations = trinket_safety
 				}
 				OR = {
-					any_state = { has_building = explosives_factory }
-					any_state = { has_building = ammunition_factory }
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					OR = {
-						state_scope = { has_building = explosives_factory }
-						state_scope = { has_building = ammunition_factory }
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
 					}
 				}
 				province_event = { id = 12251 }
@@ -1894,15 +1894,15 @@ country_event = {
 				NOT = { safety_regulations = acceptable_safety }
 				average_militancy = 2
 				OR = {
-					any_state = { has_building = explosives_factory }
-					any_state = { has_building = ammunition_factory }
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					OR = {
-						state_scope = { has_building = explosives_factory }
-						state_scope = { has_building = ammunition_factory }
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
 					}
 				}
 				province_event = { id = 12251 }
@@ -1925,15 +1925,15 @@ country_event = {
 				NOT = { safety_regulations = acceptable_safety }
 				middle_strata_everyday_needs = 0.8
 				OR = {
-					any_state = { has_building = explosives_factory }
-					any_state = { has_building = ammunition_factory }
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					OR = {
-						state_scope = { has_building = explosives_factory }
-						state_scope = { has_building = ammunition_factory }
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
 					}
 				}
 				province_event = { id = 12251 }
@@ -1987,16 +1987,16 @@ country_event = {
 			limit = {
 				civilized = yes
 				OR = {
-					any_state = { has_building = luxury_furniture_factory }
-					any_state = { has_building = advanced_luxury_furniture_factory }
+					#any_state = { #has_building = luxury_furniture_factory }
+					#any_state = { #has_building = advanced_luxury_furniture_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
 						OR = {
-							has_building = luxury_furniture_factory 
-							has_building = advanced_luxury_furniture_factory
+							#has_building = luxury_furniture_factory 
+							#has_building = advanced_luxury_furniture_factory
 						}						
 					}
 				}
@@ -2047,16 +2047,16 @@ country_event = {
 			limit = { 
 				civilized = yes
 				OR = {
-					any_state = { has_building = luxury_clothes_factory }
-					any_state = { has_building = advanced_luxury_clothes_factory }
+					#any_state = { #has_building = luxury_industry_factory }
+					#any_state = { #has_building = advanced_luxury_industry_factory }
 				}
 			}
 			random_owned = {
 				limit = {
 					state_scope = {
 						OR = {
-							has_building = luxury_clothes_factory
-							has_building = advanced_luxury_clothes_factory
+							#has_building = luxury_industry_factory
+							#has_building = advanced_luxury_industry_factory
 						}						
 					}
 				}
@@ -2106,11 +2106,11 @@ country_event = {
 		random_country = {
 			limit = { 
 				civilized = yes
-				any_state = { has_building = regular_clothes_factory }
+				#any_state = { #has_building = regular_clothes_factory }
 			}
 			random_owned = {
 				limit = {
-					state_scope = { has_building = regular_clothes_factory }
+					#state_scope = { #has_building = regular_clothes_factory }
 				}
 				province_event = { id = 12281 }
 			}

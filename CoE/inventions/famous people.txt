@@ -322,7 +322,7 @@ alfred_nobel = {
 	}
 	effect = {
 		factory_goods_output = {
-			explosives = 0.05
+			military_industry =  0.05
 		} 
 	}	
 }
@@ -393,10 +393,10 @@ the_periodic_table = {
 			sulphur = 0.1
 		}
 	factory_goods_output = {
-		fertilizer = 0.1
+		food_industry =  0.1
 		}
 	factory_goods_output = {
-		fuel = 0.1
+		heavy_industry =  0.1
 		}
 	}	
 }

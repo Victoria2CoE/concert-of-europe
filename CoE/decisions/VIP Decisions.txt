@@ -411,7 +411,7 @@ political_decisions = {
 			money = 500
 		}
 		effect = {
-			small_arms = 20
+			military_industry = 20
 			relation = { who = FRA value = 10 }
 			money = -500
 			set_country_flag = send_solano_lopez_to_europe

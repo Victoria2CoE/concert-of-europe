@@ -4,8 +4,8 @@ religion = catholic
 government = hms_government
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.07
-non_state_culture_literacy = 0.01
+literacy = 0.01 #literacy = 0.07
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.01
 civilized = yes
 prestige = 1
 
@@ -69,8 +69,8 @@ nonstate_consciousness = 1
 oob = "BRZ_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.08
-	non_state_culture_literacy = 0.02
+	literacy = 0.01 #literacy = 0.08
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.02
 	prestige = 5
 	
 	set_country_flag = farrapos_war
@@ -93,8 +93,8 @@ oob = "BRZ_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/BRZ_oob.txt"
-	literacy = 0.16
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.16
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 }
 1861.1.1 = {
 	plurality = 60

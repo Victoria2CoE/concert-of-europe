@@ -11,7 +11,7 @@ naval_base = 1
 	add_core = CSA
 	state_building = {
 		level = 1
-		building = ammunition_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

@@ -8,25 +8,25 @@ life_rating = 30
 terrain = good_farmland
 state_building = {
 	level = 1
-	building = fabric_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = steel_factory
+	building = heavy_factory_building
 	upgrade = yes
 }
 1836.1.1 = {
 	state_building = {
 		level = 2
-		building = steel_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }
 1861.1.1 = { 
 	state_building = {
 		level = 1
-		building = machine_parts_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

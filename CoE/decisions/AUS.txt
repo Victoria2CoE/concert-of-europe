@@ -748,7 +748,7 @@ political_decisions = {
 				limit = { province_id = 641 }
 				owner = { capital = 641 }
 			}
-			small_arms = 100
+			military_industry = 100
 			regular_clothes = 100
 			leadership = 40
 			define_general = {

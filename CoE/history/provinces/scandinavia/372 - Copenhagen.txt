@@ -8,12 +8,12 @@ naval_base = 1
 fort = 1
 #state_building = {
 #	level = 1
-#	building = ammunition_factory
+#	building = heavy_factory_building
 #	upgrade = yes
 #}
 state_building = {
 	level = 1
-	building = clipper_shipyard
+	building = heavy_factory_building
 	upgrade = yes
 }
 1861.1.1 = { 
@@ -23,17 +23,17 @@ state_building = {
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = fertilizer_factory
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = clipper_shipyard
+		building = heavy_factory_building
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = liquor_distillery
+		building = heavy_factory_building
 		upgrade = yes
 	}
 }

@@ -132,15 +132,15 @@ business_banks = {
 	administrative_efficiency = 0.025
 	factory_output = 0.01
 	factory_goods_throughput = {
-		shares = 0.02
+		luxury_industry = 0.02
 	}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
 			factor = 5
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -197,18 +197,18 @@ investment_banks = {
 	administrative_efficiency = 0.025
 	factory_output = 0.01
 	factory_goods_throughput = {
-		shares = 0.02
+		luxury_industry = 0.02
 	}
 	factory_goods_throughput = {
-		financial_services = 0.02
+		light_industry = 0.02
 	}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
 			factor = 2
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -265,19 +265,19 @@ bank_inspection_board = {
 	administrative_efficiency = 0.05
 	factory_output = 0.01
 	factory_goods_throughput = {
-		shares = 0.02
+		luxury_industry = 0.02
 	}
 	factory_goods_throughput = {
-		financial_services = 0.02
+		light_industry = 0.02
 	}
 	ai_chance = {
 		factor = 1.01
 		modifier = {
 			factor = 5
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
-				big_producer = paper
+				big_producer = luxury_industry
+				big_producer = light_industry
+				#big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -329,18 +329,18 @@ mutual_funds = {
 	administrative_efficiency = 0.05
 	factory_output = 0.02
 	factory_goods_throughput = {
-		financial_services = 0.05
+		light_industry = 0.05
 	}
 	factory_goods_throughput = {
-		shares = 0.05
+		luxury_industry = 0.05
 	}
 	ai_chance = {
 		factor = 1
 		modifier = {
 			factor = 1.01
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -392,10 +392,10 @@ modern_financial_institutions = {
 	administrative_efficiency = 0.05
 	factory_output = 0.02
 	factory_goods_throughput = {
-		financial_services = 0.05
+		light_industry = 0.05
 	}
 	factory_goods_throughput = {
-		shares = 0.05
+		luxury_industry = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -406,8 +406,8 @@ modern_financial_institutions = {
 		modifier = {
 			factor = 1.01
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -473,7 +473,7 @@ no_standard = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -530,7 +530,7 @@ ad_hoc_money_bill_printing = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -587,7 +587,7 @@ private_bank_money_bill_printing = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 4
@@ -644,7 +644,7 @@ central_bank_money_bill_printing = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -701,7 +701,7 @@ modern_central_bank_system = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -744,7 +744,7 @@ market_determined_exchange_rates = {
 	tax_eff = 5
 	administrative_efficiency = 0.05
 	factory_goods_throughput = {
-		financial_services = 0.05
+		light_industry = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -754,7 +754,7 @@ market_determined_exchange_rates = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -797,7 +797,7 @@ modern_monetary_system = {
 	tax_eff = 5
 	administrative_efficiency = 0.05
 	factory_goods_throughput = {
-		financial_services = 0.05
+		light_industry = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -811,7 +811,7 @@ modern_monetary_system = {
 		}
 		modifier = {
 			factor = 1.2
-			big_producer = financial_services
+			big_producer = light_industry
 		}
 		modifier = {
 			factor = 5
@@ -1391,8 +1391,8 @@ market_structure = {
 		modifier = {
 			factor = 2
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1465,8 +1465,8 @@ business_regulations = {
 		modifier = {
 			factor = 2
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1540,8 +1540,8 @@ market_regulations = {
 		modifier = {
 			factor = 2
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1607,8 +1607,8 @@ economic_responsibility = {
 		modifier = {
 			factor = 2
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1678,8 +1678,8 @@ government_interventionism = {
 		modifier = {
 			factor = 5
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1753,8 +1753,8 @@ globalized_markets = {
 		modifier = {
 			factor = 5
 			OR = {
-				big_producer = shares
-				big_producer = financial_services
+				big_producer = luxury_industry
+				big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1825,8 +1825,8 @@ guild_based_production = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -1890,8 +1890,8 @@ organized_factories = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -1955,8 +1955,8 @@ scientific_management = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -2025,8 +2025,8 @@ time_saving_measures = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -2095,8 +2095,8 @@ management_strategy = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -2161,8 +2161,8 @@ organizational_development = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -2231,8 +2231,8 @@ modern_business_management = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
+				big_producer = light_industry
+				big_producer = luxury_industry
 			}
 		}
 		modifier = {

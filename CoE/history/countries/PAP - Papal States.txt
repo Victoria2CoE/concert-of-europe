@@ -5,7 +5,7 @@ religion = catholic
 government = theocracy3
 plurality = 0.0
 nationalvalue = nv_equality
-literacy = 0.34
+literacy = 0.01 #literacy = 0.34
 civilized = yes
 prestige = 1
 
@@ -78,7 +78,7 @@ nonstate_consciousness = 1
 oob = "PAP_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.35
+	literacy = 0.01 #literacy = 0.35
 	prestige = 5
 
 	# Technologies

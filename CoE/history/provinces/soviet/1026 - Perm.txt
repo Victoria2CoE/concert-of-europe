@@ -8,7 +8,7 @@ life_rating = 30
 1861.1.1 = {
 	state_building = {
 		level = 1
-		building = artillery_factory
+		building = heavy_factory_building
 		upgrade = yes
 	} 
 }

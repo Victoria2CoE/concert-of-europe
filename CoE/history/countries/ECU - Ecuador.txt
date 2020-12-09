@@ -4,8 +4,8 @@ religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.01 #literacy = 0.09
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.04
 civilized = yes
 
 # Political reforms
@@ -70,8 +70,8 @@ oob = "/1821/ECU_oob.txt"
 
 1836.1.1 = {
 	government = presidential_dictatorship
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.10
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 	prestige = 1
 	
 	# Political reforms
@@ -114,8 +114,8 @@ oob = "/1821/ECU_oob.txt"
 1861.1.1 = {
 	oob = "/1861/ECU_oob.txt"
 	plurality = 60
-	literacy = 0.11
-	non_state_culture_literacy = 0.05
+	literacy = 0.01 #literacy = 0.11
+	non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0.05
 }
 1861.1.1 = {
 	upper_house_composition = appointed

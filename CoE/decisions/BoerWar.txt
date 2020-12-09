@@ -20,7 +20,7 @@ political_decisions = {
 			set_country_flag = republic_founded
 			ORA = { all_core = { add_core = THIS } }
 			NAL = { all_core = { add_core = THIS } }
-			small_arms = 30
+			military_industry = 30
 			regular_clothes = 20
 			horses = 10
 			add_country_modifier = {
