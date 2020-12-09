@@ -21,6 +21,19 @@ can_reduce_consciousness = yes
 research_points = 2	#if max %, then 2 extra research points.
 research_optimum = 0.02	#2%
 
+life_needs_income = {
+	type = education
+	weight = 1.5
+}
+everyday_needs_income = {
+	type = education
+	weight = 1.5
+}
+luxury_needs_income = {
+	type = reforms
+	weight = 1.5
+}
+
 life_needs = {
 	food_industry = 4
 }
