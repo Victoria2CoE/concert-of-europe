@@ -646,7 +646,7 @@ social_reforms = {
 		}
 		trinket_safety = {
 		    minimum_wage = 0.10
-			factory_maintenance = 0.05
+			factory_maintenance = 0.025
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.005
@@ -655,7 +655,7 @@ social_reforms = {
 		}
 		low_safety = {
 		    minimum_wage = 0.15
-			factory_maintenance = 0.1
+			factory_maintenance = 0.05
 			global_immigrant_attract = 0.10
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.01
@@ -664,7 +664,7 @@ social_reforms = {
 		}
 		acceptable_safety = {
 		    minimum_wage = 0.20
-			factory_maintenance = 0.15
+			factory_maintenance = 0.075
 			global_immigrant_attract = 0.15
 			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.015
@@ -674,7 +674,7 @@ social_reforms = {
 		}
 		good_safety = {
 		    minimum_wage = 0.25
-			factory_maintenance = 0.2
+			factory_maintenance = 0.10
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 4
 			global_pop_militancy_modifier = -0.02
@@ -693,12 +693,14 @@ social_reforms = {
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
+			min_social_spending = 0.03
 		}
 		low_subsidies = {
 			unemployment_benefit = 5
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
+			min_social_spending = 0.05
 		}
 		acceptable_subsidies = {
 			unemployment_benefit = 7.5
@@ -706,6 +708,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
+			min_social_spending = 0.07
 		}
 		good_subsidies = {
 			unemployment_benefit = 10
@@ -713,6 +716,7 @@ social_reforms = {
 			global_pop_consciousness_modifier = -0.02
 			social_reform_desire = -0.2
 			political_reform_desire = -0.1
+			min_social_spending = 0.10
 		}
 	}
 	pensions = {
@@ -721,6 +725,7 @@ social_reforms = {
 		}
 		trinket_pensions = {
 			pension_level = 1
+			min_social_spending = 0.05
 			max_tax = 0.02
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
@@ -728,6 +733,7 @@ social_reforms = {
 		}
 		low_pensions = {
 			pension_level = 2
+			min_social_spending = 0.10
 			max_tax = 0.04
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
@@ -735,6 +741,7 @@ social_reforms = {
 		}
 		acceptable_pensions = {
 			pension_level = 3
+			min_social_spending = 0.15
 			max_tax = 0.06
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.15
@@ -743,6 +750,7 @@ social_reforms = {
 		}
 		good_pensions = {
 			pension_level = 4
+			min_social_spending = 0.20
 			max_tax = 0.08
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.20
@@ -762,6 +770,7 @@ social_reforms = {
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 			pension_level = 1.5
+			min_social_spending = 0.05
 			max_tax = 0.03
 		}
 		low_health_care = {
@@ -771,6 +780,7 @@ social_reforms = {
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 			pension_level = 3
+			min_social_spending = 0.10
 			max_tax = 0.06
 		}
 		acceptable_health_care = {
@@ -781,6 +791,7 @@ social_reforms = {
 			social_reform_desire = -0.15
 			political_reform_desire = -0.075
 			pension_level = 4.5
+			min_social_spending = 0.15
 			max_tax = 0.09
 		}
 		good_health_care = {
@@ -791,6 +802,7 @@ social_reforms = {
 			social_reform_desire = -0.2
 			political_reform_desire = -0.1
 			pension_level = 6
+			min_social_spending = 0.20
 			max_tax = 0.12
 		}
 	}
@@ -801,12 +813,13 @@ social_reforms = {
 			mobilisation_size = -0.04
 			land_unit_start_experience = -10
 			farm_RGO_eff = 0.50
-			education_efficiency_modifier = -0.10
+			#education_efficiency_modifier = -0.10
 			factory_output = -0.2
 			poor_life_needs = -0.2
 			poor_everyday_needs = -0.2
 			poor_luxury_needs = -0.2
-			min_social_spending = -0.10
+			min_social_spending = -0.05
+			pension_level = 0.05
 			 allow = {
 				always = no
 			 }		
@@ -821,7 +834,9 @@ social_reforms = {
 			poor_life_needs = -0.1
 			poor_everyday_needs = -0.1
 			poor_luxury_needs = -0.1
-            min_social_spending = -0.05			
+            #min_social_spending = -0.05	
+			education_efficiency_modifier = 0.10
+			pension_level = 0.10
 			 allow = {
 				always = no
 			 }
@@ -829,20 +844,26 @@ social_reforms = {
 		land_purchase = {
 			factory_output = 0.05
 			mine_rgo_eff = 0.1
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.20
 			political_reform_desire = -0.05
 			poor_life_needs = 0.1
 			poor_everyday_needs = 0.1
 			poor_luxury_needs = 0.1	
+			pension_level = 0.20
+			min_social_spending = 0.05
+			max_tax = 0.01
 			 allow = {
 				always = no
 			 }
 		}
 		commoners_properties = {
 			farm_RGO_eff = 0.20
-			education_efficiency_modifier = 0.20
+			education_efficiency_modifier = 0.30
 			political_reform_desire = -0.05
 			social_reform_desire = -0.05
+			pension_level = 0.60
+			min_social_spending = 0.10
+			max_tax = 0.02
 			 allow = {
 				always = no
 			 }
@@ -852,12 +873,15 @@ social_reforms = {
 			farm_RGO_eff = -0.2
 			mine_rgo_eff = 0.2
 			factory_output = 0.1
-			education_efficiency_modifier = 0.30
+			education_efficiency_modifier = 0.40
 			political_reform_desire = -0.05
 			social_reform_desire = -0.1
 			poor_life_needs = 0.30
 			poor_everyday_needs = 0.30
-			poor_luxury_needs = 0.30		
+			poor_luxury_needs = 0.30
+			pension_level = 1.0	
+			min_social_spending = 0.15
+			max_tax = 0.03
 			 allow = {
 				always = no
 			 }
@@ -876,6 +900,9 @@ social_reforms = {
 			factory_throughput = -0.025
 			social_reform_desire = -0.025
 			political_reform_desire = -0.025
+			pension_level = 0.05
+			min_social_spending = 0.01
+			max_tax = 0.01
 		}
 		child_labor_illegal = {
 			global_population_growth = 0.001
@@ -883,6 +910,9 @@ social_reforms = {
 			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 			education_efficiency_modifier = 0.10
+			pension_level = 0.10
+			min_social_spending = 0.02
+			max_tax = 0.02
 		}
 	}
 
@@ -892,19 +922,21 @@ social_reforms = {
 		elite = {
 		}
 		church = {
-			education_efficiency_modifier = 0.25
+			education_efficiency_modifier = 0.20
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 			pension_level = 1.5
+			min_social_spending = 0.10
 			max_tax = 0.03
 		}
 		public = {
-			education_efficiency_modifier = 0.5
+			education_efficiency_modifier = 0.40
 			global_immigrant_attract = 0.10
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
 			pension_level = 3
+			min_social_spending = 0.20
 			max_tax = 0.06
 		}
 	}
@@ -916,27 +948,39 @@ social_reforms = {
 		}
 		small_endowment = {
 			administrative_multiplier = 0.5
-			prestige = 0.05
+			prestige = 0.02
 			research_points = 0.05
 			education_efficiency_modifier = 0.025
+			pension_level = 0.2
+			min_social_spending = 0.02
+			max_tax = 0.01
 		}
 		medium_endowment = {
 			administrative_multiplier = 1
-			prestige = 0.1
+			prestige = 0.03
 			research_points = 0.1
 			education_efficiency_modifier = 0.05
+			pension_level = 0.4
+			min_social_spending = 0.03
+			max_tax = 0.02
 		}
 		large_endowment = {
 			administrative_multiplier = 1.5
-			prestige = 0.15
+			prestige = 0.05
 			research_points = 0.15
 			education_efficiency_modifier = 0.075
+			pension_level = 0.6
+			min_social_spending = 0.04
+			max_tax = 0.03
 		}
 		massive_endowment = {
 			administrative_multiplier = 2
 			research_points = 0.2
-			prestige = 0.2
+			prestige = 0.10
 			education_efficiency_modifier = 0.1
+			pension_level = 0.8
+			min_social_spending = 0.05
+			max_tax = 0.04
 		}
 	}
 }

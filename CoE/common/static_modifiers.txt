@@ -142,6 +142,7 @@ infrastructure = {
 base_values = {
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
+	min_social_spending = 0.10
 	#pension_level = 10
 }
 
@@ -224,6 +225,7 @@ unciv_nation = {
 	research_points = 0.5
 	badboy = -0.5
 	global_pop_militancy_modifier = -0.10
+	education_efficiency_modifier = -0.40
 	cb_generation_speed_modifier = 1
 }
 
@@ -235,6 +237,7 @@ average_literacy = {
 	unit_start_experience = 25
 	tax_efficiency = 0.2
 	pension_level = 5
+	education_efficiency_modifier = -0.50
 	#global_immigrant_attract = 1
 }
 
