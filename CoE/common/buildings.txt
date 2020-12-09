@@ -164,7 +164,7 @@ railroad = {
 	onmap = yes
 	max_level = 6
 	province = yes
-	infrastructure = 0.15
+	infrastructure = 0.10
 	pop_build_factory = yes
 	spawn_railway_track = yes
 }

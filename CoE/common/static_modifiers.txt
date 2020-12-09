@@ -143,6 +143,7 @@ base_values = {
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
 	min_social_spending = 0.10
+	education_efficiency_modifier = 1.00
 	#pension_level = 10
 }
 
@@ -170,6 +171,7 @@ war_exhaustion = {
 	cb_generation_speed_modifier = -0.05
 	RGO_throughput = -0.01
 	prestige = -0.01
+	education_efficiency_modifier = -0.01
 }
 
 
@@ -225,7 +227,7 @@ unciv_nation = {
 	research_points = 0.5
 	badboy = -0.5
 	global_pop_militancy_modifier = -0.10
-	education_efficiency_modifier = -0.40
+	education_efficiency_modifier = -0.50
 	cb_generation_speed_modifier = 1
 }
 
@@ -237,7 +239,7 @@ average_literacy = {
 	unit_start_experience = 25
 	tax_efficiency = 0.2
 	pension_level = 5
-	education_efficiency_modifier = -0.50
+	education_efficiency_modifier = -1.00
 	#global_immigrant_attract = 1
 }
 
@@ -255,14 +257,22 @@ total_occupation = {
 	war_exhaustion = 0.1				#increased by war exhaustion.
 	global_population_growth = -0.0001
 	prestige = -0.05
+	education_efficiency_modifier = -0.20
 }
 
 total_blockaded = {
 	war_exhaustion = 0.2	#increased by war exhaustion.
 	global_population_growth = -0.0001
 	prestige = -0.1
+	education_efficiency_modifier = -0.10
 }
 
 in_bankrupcy = {
 	max_loan_modifier = -1.0
+	education_efficiency_modifier = -0.25
+	pension_level = -100
+	supply_consumption = -0.5
+	land_organisation = -0.25
+	global_pop_militancy_modifier = 0.03
+	global_pop_consciousness_modifier = 0.03
 }
