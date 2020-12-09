@@ -79,12 +79,11 @@ country_event = {
 		any_pop = { limit = { is_culture_group = oceanic } literacy = 0.04 }
 		any_pop = { limit = { is_culture_group = native_american } literacy = 0.04 }
 		any_pop = { limit = { is_culture_group = neo_european_cultures } literacy = 0.25 }
-		any_pop = { limit = { is_culture_group = latin_american_cultures } NOT = { culture = mexican } literacy = 0.70 }
+		any_pop = { limit = { is_culture_group = latin_american_cultures } NOT = { culture = mexican } literacy = 0.07 }
 		any_pop = { limit = { is_culture_group = african_diaspora_cultures } literacy = 0.06 }
 		any_pop = { limit = { is_culture_group = west_african } literacy = 0.05 }
-		any_pop = { limit = { is_culture_group = west_african } literacy = 0.04 }
 		any_pop = { limit = { is_culture_group = central_african } literacy = 0.02 }
-		any_pop = { limit = { is_culture_group = east_african } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = east_african } literacy = 0.04 }
 		any_pop = { limit = { is_culture_group = southern_african } literacy = 0.03 }
 
 	any_country = {
@@ -149,7 +148,6 @@ country_event = {
 		any_pop = { limit = { is_culture_group = neo_european_cultures } literacy = 0.25 }
 		any_pop = { limit = { is_culture_group = latin_american_cultures } NOT = { culture = mexican } literacy = 0.70 }
 		any_pop = { limit = { is_culture_group = african_diaspora_cultures } literacy = 0.06 }
-		any_pop = { limit = { is_culture_group = west_african } literacy = 0.05 }
 		any_pop = { limit = { is_culture_group = west_african } literacy = 0.04 }
 		any_pop = { limit = { is_culture_group = central_african } literacy = 0.02 }
 		any_pop = { limit = { is_culture_group = east_african } literacy = 0.05 }

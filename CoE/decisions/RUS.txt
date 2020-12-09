@@ -826,13 +826,13 @@ the_port_of_novorossiysk = {
 						has_pop_culture = lithuanian
 					}
 				}
-				literacy = 0.1
+				#literacy = 0.1
 			}
 			any_pop = {
 				limit = {
 					has_pop_culture = russian_german
 				}
-				literacy = 0.2
+				#literacy = 0.2
 			}
 		}
 	}

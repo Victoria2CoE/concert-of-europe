@@ -689,7 +689,7 @@ political_decisions = {
 		effect = {
 			any_pop = {
 				limit = { has_pop_culture = boer }
-				literacy = 0.1
+				#literacy = 0.1
 			}
 			any_pop = {
 				limit = {

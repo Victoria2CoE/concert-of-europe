@@ -737,19 +737,19 @@ political_decisions = {
 				limit = {
 					has_pop_culture = bulgarian
 				}
-				literacy = 0.25
+				#literacy = 0.25
 			}
 			any_pop = {
 				limit = {
 					has_pop_culture = greek
 				}
-				literacy = 0.11
+				#literacy = 0.11
 			}
 			any_pop = {
 				limit = {
 					has_pop_culture = albanian
 				}
-				literacy = 0.04
+				#literacy = 0.04
 			}
 		}
 	}

@@ -544,7 +544,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = flemish
 				}
-				literacy = 0.45
+				#literacy = 0.45
 			}
 		    badboy = 15.2
 			add_country_modifier = {

@@ -887,7 +887,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = brazilian
 				}
-				literacy = 0.06
+				#literacy = 0.06
 				consciousness = 4
 			}
 		}

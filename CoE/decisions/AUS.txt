@@ -1647,7 +1647,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = polish
 				}
-				literacy = 0.1
+				#literacy = 0.1
 			}
 		}
 	}

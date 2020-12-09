@@ -962,7 +962,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = dutch
 				}
-				literacy = 0.35
+				#literacy = 0.35
 			}
 		}
 	}
@@ -980,7 +980,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = dutch
 				}
-				literacy = 0.35
+				#literacy = 0.35
 			}
 		}
 	}
