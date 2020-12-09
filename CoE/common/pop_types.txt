@@ -3,11 +3,11 @@ promotion_chance =
 	factor = 0.5
 	
 	modifier = {
-		factor = 0.25
+		factor = 1.50
 		always = yes
 	}	
 	modifier = {
-		factor = -0.5
+		factor = -1.0
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}	
@@ -498,9 +498,14 @@ demotion_chance =
 {
 	factor = 0.5
 	modifier = {
-		factor = 0.25
+		factor = 1.5
 		always = yes
 	}
+	modifier = {
+		factor = -1.0
+		location = { is_primary_culture = no }
+		location = { is_accepted_culture = no }
+	}	
 	modifier = {
 		factor = -0.2
 		state_scope = { is_colonial = yes }
@@ -527,11 +532,6 @@ demotion_chance =
 		state_scope = {
 			is_slave = yes
 		}
-	}
-	modifier = {
-		factor = -0.5
-		is_primary_culture = no
-		is_accepted_culture = no
 	}
 	
 	#group = {

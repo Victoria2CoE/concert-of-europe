@@ -592,7 +592,8 @@ promote_to = {
 			NOT = { farmers = 0.10 }
 		}
 		modifier = {
-			factor = 150
+			factor = 100
+			literacy = 0.50
 			NOT = { artisans = 0.05 }
 		}
 		modifier = {
