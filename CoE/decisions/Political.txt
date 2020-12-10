@@ -268,15 +268,15 @@ political_decisions = {
 			 average_militancy = 6
 			 AND = {
 			  OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			  average_militancy = 1
+			  average_militancy = 6
 			 }
 			 AND = {
 			  OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
-			  average_militancy = 1
+			  average_militancy = 6
 			 }
 			 AND = { 
 			  OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-			  average_militancy = 3
+			  average_militancy = 9
 			 }
 			 #AND = { 
 			 # OR = { government = hms_government government = hms_government2 government = hms_government3 }
