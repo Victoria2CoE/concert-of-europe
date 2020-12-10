@@ -35,7 +35,7 @@ political_decisions = {
 			add_accepted_culture = bedouin
 			add_accepted_culture = mashriqi
 			NEJ_1157 = { add_core = ARB } #Riyadh
-			NEJ_1156 = { add_core = ARB } #Kaf
+			#NEJ_1156 = { add_core = ARB } #Kaf
 			HDJ_1151 = { add_core = ARB } #Hedjaz
 			random_country = {
 				limit = {
@@ -136,7 +136,7 @@ political_decisions = {
 				any_owned_province = {
 					OR = {
 						region = NEJ_1157
-						region = NEJ_1156
+						#region = NEJ_1156
 						region = HDJ_1151
 					}
 				}
@@ -164,7 +164,7 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			NEJ_1157 = { add_core = ARB } #Riyadh
-			NEJ_1156 = { add_core = ARB } #Kaf
+			#NEJ_1156 = { add_core = ARB } #Kaf
 			HDJ_1151 = { add_core = ARB } #Hedjaz
 			any_owned = {
 				limit = {

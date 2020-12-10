@@ -261,7 +261,7 @@ political_decisions = {
 				}
 				remove_core = TUR
 			}
-			NEJ_1156 = { add_core = TUR }
+			#NEJ_1156 = { add_core = TUR }
 			NEJ_1157 = { add_core = TUR }
 			HDJ_1151 = { add_core = TUR }
 			YEM_1178 = { add_core = TUR }

@@ -461,7 +461,7 @@ political_decisions = {
 			set_country_flag = greater_iran
 			prestige = 10
 			badboy = 10
-			AFG_1214 = { add_core = PER }
+			PER_1148 = { add_core = PER }
 			1209 = { add_core = PER }
 			1210 = { add_core = PER }
 			KOK_1210 = { add_core = PER }
