@@ -1507,3 +1507,54 @@ artisan_newspaper = {
 
 	workforce = 5000
 }
+
+artisan_spices_rafiner = {
+	input_goods = {
+		spices = 21.19
+	}
+	output_goods = luxury_industry
+	value = 3
+
+	owner = {
+		poptype = artisans
+		effect = output
+	}
+
+	type = artisan
+
+	workforce = 5000
+}
+
+artisan_coffee_rafiner = {
+	input_goods = {
+		coffee = 37.67
+	}
+	output_goods = luxury_industry
+	value = 3
+
+	owner = {
+		poptype = artisans
+		effect = output
+	}
+
+	type = artisan
+
+	workforce = 5000
+}
+
+artisan_tea_rafiner = {
+	input_goods = {
+		coffee = 67.80
+	}
+	output_goods = luxury_industry
+	value = 3
+
+	owner = {
+		poptype = artisans
+		effect = output
+	}
+
+	type = artisan
+
+	workforce = 5000
+}
