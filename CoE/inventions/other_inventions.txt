@@ -712,7 +712,7 @@ alite = {
 	}
 }
 
-portland_heavy_industry =  {
+portland_steel =  {
 	limit = { high_n_low_pressure_steam_engines = 1 }
 	news = no
 	chance = {
@@ -843,7 +843,7 @@ twelve_pounder = {
 	}
 }
 
-rifled_artillery = {
+rifled_barrels = {
 	limit = { iron_breech_loaded_artillery = 1 }
 	news = no
 	chance = {
@@ -1409,7 +1409,7 @@ poudre_b = {
 	}
 	effect = {
 		factory_goods_output = {
-			gunpowder = 0.03
+			military_industry = 0.03
 		}
 	}
 }
@@ -1422,7 +1422,7 @@ cordite = {
 	}
 	effect = {
 		factory_goods_output = {
-			gunpowder = 0.03
+			military_industry = 0.03
 		}
 	}
 }
@@ -2791,10 +2791,10 @@ luxury_focus = {
 	}
 	effect = {
 		factory_goods_output = {
-			luxury_clothes = 0.02
+			luxury_industry = 0.02
 		}
 		factory_goods_output = {
-			luxury_light_industry =  0.02
+			light_industry =  0.02
 		}
 		factory_goods_output = {
 			luxury_industry = 0.02
@@ -2829,13 +2829,13 @@ necessity_focus = {
 			light_industry =  0.02
 		} 
 		factory_goods_output = {
-			regular_clothes = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
 			light_industry = 0.02
 		} 
 		factory_goods_output = {
-			shoes = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
 			light_industry =  0.02
@@ -2872,7 +2872,7 @@ high_tech_focus = {
 	}
 	effect = {
 		factory_goods_output = {
-			automobiles = 0.02
+			light_industry = 0.02
 		} 
 		factory_goods_output = {
 			light_industry = 0.02
@@ -3374,7 +3374,7 @@ moveable_type = {
 	}
 	effect = {
 		factory_goods_output = {
-				print = 0.05
+				light_industry = 0.05
 		}
 	}
 }
@@ -3391,7 +3391,7 @@ penny_press = {
 	}
 	effect = {
 		factory_goods_throughput = {
-			print = 0.5
+			light_industry = 0.5
 		}
 	}
 }
@@ -3595,7 +3595,7 @@ tetrode = {
 	}
 }
 
-crystal_light_industry = {
+crystal_radio = {
 	limit = { 
 		electrical_power_generation = 1
 		invention = national_radio_networks
@@ -3881,7 +3881,7 @@ basic_training = {
 	
 }
 
-rosendale_heavy_industry =  {
+rosendale_steel =  {
 	limit = { inorganic_chemistry = 1 }
 	news = no
 	chance = {
@@ -3898,7 +3898,7 @@ rosendale_heavy_industry =  {
 	
 }
 
-synthetic_heavy_industry =  {
+synthetic_steel =  {
 	limit = {
 		 electricity = 1
 	}
@@ -6560,7 +6560,7 @@ precision_machinery = {
 			heavy_industry = 0.05
 		}
 		factory_goods_output = {
-			automobiles = 0.05
+			light_industry = 0.05
 		}
 		factory_goods_output = {
 			military_industry = 0.05

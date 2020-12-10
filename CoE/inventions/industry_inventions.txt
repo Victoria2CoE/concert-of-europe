@@ -77,7 +77,7 @@ daimlers_automobile = {
 	}
 }
 
-wright_n_langleys_military_industry = {
+wright_n_langleys_aeroplanes = {
 	limit = { combustion_engine = 1 }
 	news = no
 	chance = {
@@ -893,7 +893,7 @@ advanced_ore_smelting_processes = {
 	
 	
 }
-bessemer_heavy_industry =  {
+bessemer_steel =  {
 	limit = { cheap_iron = 1 }
 	news = no
 	chance = {
@@ -909,7 +909,7 @@ bessemer_heavy_industry =  {
 	
 }
 #cheap_steel
-martin_heavy_industry =  {
+martin_steel =  {
 	limit = { cheap_steel =  1 }
 	news = no
 	chance = {
@@ -928,7 +928,7 @@ martin_heavy_industry =  {
 	
 	
 }
-thomas_heavy_industry =  {
+thomas_steel =  {
 	limit = { cheap_steel =  1 }
 	news = no
 	chance = {
@@ -992,7 +992,7 @@ steel_alloys = {
 	
 }
 #electric_furnace
-stainless_heavy_industry =  {
+stainless_steel =  {
 	limit = { electric_furnace = 1 }
 	news = no
 	chance = {
@@ -1374,7 +1374,7 @@ Power_transformer = {
 	}
 }
 
-bell_n_greys_light_industry = {
+bell_n_greys_telephones = {
 	limit = { electricity = 1 }
 	news = no
 	chance = {
