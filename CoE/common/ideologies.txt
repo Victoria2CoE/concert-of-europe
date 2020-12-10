@@ -442,7 +442,7 @@ socialist_group = {
 		remove_social_reform = {
 			base = 0
 			modifier = {
-				factor = 1
+				factor = 0.6
 				ruling_party_ideology = communist
 			}
 		}
@@ -570,7 +570,7 @@ liberal_group = {
 			}
 		}
 		add_social_reform = {
-			base = 1
+			base = 0.5
 		}
 		remove_social_reform = {
 			base = 1
