@@ -749,7 +749,7 @@ political_decisions = {
 				owner = { capital = 641 }
 			}
 			military_industry = 100
-			regular_clothes = 100
+			light_industry = 100
 			leadership = 40
 			define_general = {
 				name = "Józef Bem"

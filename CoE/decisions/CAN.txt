@@ -39,7 +39,7 @@ political_decisions = {
 				militancy = -4
 			}
 			military_industry = 50
-			regular_clothes = 50
+			light_industry = 50
 			horses = 20
 			CAN_60 = { add_core = QUE }
 			capital = 57
@@ -77,7 +77,7 @@ political_decisions = {
 			}
 			capital = 65
 			military_industry = 50
-			regular_clothes = 50
+			light_industry = 50
 			horses = 20
 			CAN_60 = {
 				add_core = QUE

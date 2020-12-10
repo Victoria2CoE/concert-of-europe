@@ -40,7 +40,7 @@ political_decisions = {
 				background = gifted_administrator
 			}
 			military_industry = 56
-			regular_clothes = 80
+			light_industry = 80
 			horses = 41
 			add_country_modifier = {
 				name = the_bonnie_blue_flag

@@ -1690,7 +1690,7 @@ country_event = {
 	}
 }
 
-# triggers Radio $PROVINCENAME$
+# triggers light_industry $PROVINCENAME$
 country_event = {
 	id = 12230
 	title = "EVTNAME12230"
@@ -1720,13 +1720,13 @@ country_event = {
 			limit = { 
 				civilized = yes
 				war = yes
-				#any_state = { #has_building = radio_factory }
+				#any_state = { #has_building = light_industry_factory }
 			}
 			NOT = { economic_policy = laissez_faire }
 			random_owned = {
 				limit = {
 					state_scope = {
-						#has_building = radio_factory
+						#has_building = light_industry_factory
 					}
 				}
 				province_event = { id = 12231 }

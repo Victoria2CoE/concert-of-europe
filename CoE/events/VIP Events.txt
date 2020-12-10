@@ -679,7 +679,7 @@ country_event = { #original VIP event by Pimparel
 		2339 = { fort = 1 }
 		military_industry = -10
 		havy_industry = -50
-		lumber = -25
+		heavy_indsutry = -25
 		treasury = -1000
 	}
 

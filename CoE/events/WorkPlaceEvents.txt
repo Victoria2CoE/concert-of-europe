@@ -1441,7 +1441,7 @@ province_event = {
 	}
 }
 
-# Radio $PROVINCENAME$
+# light_industry $PROVINCENAME$
 province_event = {
 	id = 12231
 	title = "EVTNAME12231"
@@ -1466,7 +1466,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12230"
 		owner = {
-			radio = -50
+			light_industry = -50
 			treasury = -100000
 		}
 		state_scope = {
