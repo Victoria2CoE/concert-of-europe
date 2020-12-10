@@ -114,7 +114,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA33802" 
 		owner = {
-			clipper_convoy = 5
+			military_industry = 5
 			prestige = 5
 		}
 	}

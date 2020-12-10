@@ -2236,7 +2236,7 @@ country_event = {
 		name = "Wonderful!"
 		prestige = -100
 		military_industry = 50
-		regular_clothes = 50
+		light_industry = 50
 		horses = 20
 		any_pop = {
 			limit = { is_primary_culture = yes }

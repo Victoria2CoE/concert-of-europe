@@ -398,7 +398,7 @@ province_event = {
 			}
 		}
 		owner = {
-			fertilizer = 250
+			food_industry = 250
 		}
 	}
 	
@@ -795,7 +795,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12130"
-		owner = { regular_clothes = 100 }
+		owner = { light_industry = 100 }
 		any_pop = {
 			militancy = -1
 		}
@@ -827,7 +827,7 @@ province_event = {
 				consciousness = -6
 			}
 		}
-		owner = { clipper_convoy = 20 }
+		owner = { military_industry = 20 }
 		ai_chance = {
 			factor = 50
 		}
@@ -862,7 +862,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12150"
 		owner = { 
-			steamer_convoy = -20
+			military_industry = -20
 			treasury = -100000
 		}
 		ai_chance = {
@@ -1141,7 +1141,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12180"
-		owner = { fuel = -250 }
+		owner = { heavy_industry = -250 }
 		state_scope = {
 			craftsmen = {
 				militancy = 2
@@ -1216,7 +1216,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12180"
 		owner = { 
-			fuel = -500
+			heavy_industry = -500
 			treasury = -100000
 		}
 		ai_chance = {
@@ -1240,7 +1240,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12190"
-		owner = { fuel = 250 }
+		owner = { heavy_industry = 250 }
 	}
 	
 	option = {
@@ -1498,7 +1498,7 @@ province_event = {
 		name = "EVTOPTA12240"
 		owner = { 
 			luxury_industry = 200
-			liquor = 200
+			light_industry = 200
 		}
 		state_scope = {
 			middle_strata = {
@@ -1571,7 +1571,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12260"
 		owner = {
-			luxury_furniture = -250
+			luxury_industry = -250
 			treasury = -50000
 			prestige = 2
 		}
@@ -1621,7 +1621,7 @@ province_event = {
 		name = "EVTOPTA12270"
 		owner = {
 			luxury_industry = -250
-			regular_clothes = 250
+			light_industry = 250
 			treasury = -40000
 		}
 		ai_chance = {
@@ -1669,7 +1669,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12280"
 		owner = { 
-			regular_clothes = -250
+			light_industry = -250
 			treasury = -40000
 		}
 		ai_chance = {

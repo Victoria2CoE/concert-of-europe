@@ -112,7 +112,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA2510"
-		steamer_convoy = -1
+		military_industry = -1
 		random_country = {
 			limit = {
 				is_vassal = no
@@ -145,7 +145,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB2510"
-		steamer_convoy = -1
+		military_industry = -1
 		random_country = {
 			limit = {
 				is_vassal = no

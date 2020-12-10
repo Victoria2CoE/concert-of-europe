@@ -21,8 +21,8 @@ country_event = {
 		is_greater_power = yes
 		colonial_nation = yes
 		iron_steamers = 1
-		steamer_convoy = 1
-		clipper_convoy = 1
+		military_industry = 1
+		military_industry = 1
 	}
 	
 	mean_time_to_happen = {
@@ -54,8 +54,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA23300"
-		clipper_convoy = -1
-		steamer_convoy = -1
+		military_industry = -1
+		military_industry = -1
 		set_country_flag = i_am_chasing_nemo
 		set_global_flag = mobilis_in_mobile
 	}
@@ -63,7 +63,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB23300"
 		prestige = 2
-		clipper_convoy = -1
+		military_industry = -1
 		set_country_flag = i_do_not_want_to_chase_nemo
 	}
 }
@@ -78,8 +78,8 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_global_flag = mobilis_in_mobile
-		steamer_convoy = 1
-		clipper_convoy = 1
+		military_industry = 1
+		military_industry = 1
 		NOT = {
 			has_country_flag = i_do_not_want_to_chase_nemo
 			has_country_flag = i_am_chasing_nemo_to
@@ -108,15 +108,15 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA23300"
-		clipper_convoy = -1
-		steamer_convoy = -1
+		military_industry = -1
+		military_industry = -1
 		set_country_flag = i_am_chasing_nemo_to
 	}
 	
 	option = {
 		name = "EVTOPTB23300"
 		prestige = 2
-		clipper_convoy = -1
+		military_industry = -1
 		set_country_flag = i_do_not_want_to_chase_nemo
 	}
 }
