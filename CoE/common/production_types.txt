@@ -1544,7 +1544,25 @@ artisan_coffee_rafiner = {
 
 artisan_tea_rafiner = {
 	input_goods = {
-		coffee = 67.80
+		tea = 67.80
+	}
+	output_goods = luxury_industry
+	value = 3
+
+	owner = {
+		poptype = artisans
+		effect = output
+	}
+
+	type = artisan
+
+	workforce = 5000
+}
+
+artisan_cake_maker = {
+	input_goods = {
+		grain = 82
+		sugar = 31
 	}
 	output_goods = luxury_industry
 	value = 3
