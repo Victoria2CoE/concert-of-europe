@@ -95,7 +95,7 @@ country_event = {
 		398	= { add_core = GER }
 		396	= { add_core = GER }
 		381	= { add_core = GER }
-		badboy = 5
+		badboy = 30
 		set_global_flag = 2nd_grand_rev
 		set_global_flag = 2nd_grand_rev_happened
 		ai_chance = {
@@ -854,7 +854,7 @@ country_event = {
 	option = {
 		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"
         prestige = 500
-		badboy= -100
+		badboy= -50
 	    clr_global_flag = 1848_full_fra
 	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
@@ -941,7 +941,7 @@ country_event = {
 	
 	option = {
 		name = "Ger...the revolution will triumph...one day!"
-		badboy= -30
+		badboy= -25
 	    clr_global_flag = 1848_full_fra
 	    clr_global_flag = 1848_full_rus
 		clr_country_flag = 1848_full_generic
