@@ -317,10 +317,10 @@ country_event = {
 				exists = yes
 				civilized = yes
 				#any_state = { #has_building = food_industry_factory }
-				pollution = no_controls
+				#pollution = no_controls
 				NOT = {	#added -crownsteler
-					pollution = acceptable_envir
-					pollution = good_envir
+					#pollution = acceptable_envir
+					#pollution = good_envir
 				}
 			}
 			random_owned = {
@@ -347,8 +347,8 @@ country_event = {
 					average_consciousness = 3
 				}
 				NOT = {	#added -crownsteler
-					pollution = acceptable_envir
-					pollution = good_envir
+					#pollution = acceptable_envir
+					#pollution = good_envir
 				}
 			}
 			random_owned = {
@@ -378,8 +378,8 @@ country_event = {
 					average_consciousness = 5
 				}
 				NOT = {	#added -crownsteler
-					pollution = acceptable_envir
-					pollution = good_envir
+					#pollution = acceptable_envir
+					#pollution = good_envir
 				}
 			}
 			random_owned = {
@@ -409,8 +409,8 @@ country_event = {
 				}
 				poor_strata_everyday_needs = 0.7
 				NOT = {	#added -crownsteler
-					pollution = acceptable_envir
-					pollution = good_envir
+					#pollution = acceptable_envir
+					#pollution = good_envir
 				}
 			}
 			random_owned = {
@@ -1130,7 +1130,7 @@ country_event = {
 	}
 }
 
-# triggers Standard $PROVINCENAME$ havy_industry
+# triggers Standard $PROVINCENAME$ heavy_industry
 country_event = {
 	id = 12160
 	title = "EVTNAME12160"

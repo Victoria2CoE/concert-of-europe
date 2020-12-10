@@ -76,7 +76,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.75
-			has = legation_quarter
+			has_province_modifier = legation_quarter
 		}
 	}
 	

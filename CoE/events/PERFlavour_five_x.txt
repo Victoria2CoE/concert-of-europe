@@ -5938,7 +5938,7 @@ country_event = {
 		war = no
 		has_country_flag = naser_in_europe
 		OR = {
-			military_constructions = advanced_military_constructions
+			#military_constructions = advanced_military_constructions
 			industrial_construction = advanced_industrial_construction
 			civilized = yes
 		}

@@ -678,8 +678,8 @@ country_event = { #original VIP event by Pimparel
 		name = "EVTOPTA146500"
 		2339 = { fort = 1 }
 		military_industry = -10
-		havy_industry = -50
-		heavy_indsutry = -25
+		heavy_industry = -50
+		heavy_industry = -25
 		treasury = -1000
 	}
 

@@ -544,7 +544,7 @@ country_event = {
 
 	option = {
 		name = "This cannot be allowed!"
-		MEX_2150 = { add_core = RGR } #Tamaulipas
+		MEX_2146 = { add_core = RGR } #Tamaulipas
 		MEX_2151 = { add_core = RGR } #Coahuila
 		any_owned = {
 			limit = { is_core = RGR }
@@ -578,7 +578,7 @@ country_event = {
 
 	option = {
 		name = "We can do nothing."
-		MEX_2150 = { add_core = RGR } #Tamaulipas
+		MEX_2146 = { add_core = RGR } #Tamaulipas
 		MEX_2151 = { add_core = RGR } #Coahuila
 		prestige = -5
 		any_owned = {

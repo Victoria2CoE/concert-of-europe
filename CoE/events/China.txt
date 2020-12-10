@@ -184,11 +184,11 @@ country_event = {
 		}
 		any_owned = {
 			limit = { 
-				owner = { has_country_flag = iron_muzzle_loaded_military_industry }
+				owner = { has_country_flag = iron_muzzle_loaded_artillery }
 			}
 			owner = { 
-				activate_technology = iron_muzzle_loaded_military_industry 
-				clr_country_flag = iron_muzzle_loaded_military_industry
+				activate_technology = iron_muzzle_loaded_artillery 
+				clr_country_flag = iron_muzzle_loaded_artillery
 			}
 		}
 		any_owned = {

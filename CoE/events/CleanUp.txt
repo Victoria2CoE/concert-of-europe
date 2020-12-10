@@ -2289,7 +2289,7 @@ country_event = {
 					unciv_officer_corps = aristocratic_officers
 					OR = {
 						unciv_military_training = field_drills
-						unciv_military_industry = early_light_military_industry
+						unciv_military_industry = unciv_light_armament
 					}
 					year = 1900
 				}
@@ -2309,8 +2309,8 @@ country_event = {
 				}
 			}
 			owner = {
-				military_reform = early_light_military_industry
-				activate_technology = bronze_muzzle_loaded_military_industry
+				military_reform = unciv_light_armament
+				activate_technology = bronze_muzzle_loaded_artillery
 			}
 		}
 		random_owned = {

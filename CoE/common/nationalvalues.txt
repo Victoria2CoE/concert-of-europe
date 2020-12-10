@@ -38,7 +38,7 @@ nv_liberty = {
 	poor_everyday_needs = 0.05
 	middle_everyday_needs = 0.05
 	rich_everyday_needs = 0.05
-	political_reform_desire = 0.05
+	#political_reform_desire = 0.05
 	literacy_con_impact = 0.05
 }
 

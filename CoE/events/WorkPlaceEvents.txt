@@ -945,7 +945,7 @@ province_event = {
 	}
 }
 
-# Standard $PROVINCENAME$ havy_industry
+# Standard $PROVINCENAME$ heavy_industry
 province_event = {
 	id = 12161
 	title = "EVTNAME12161"
@@ -956,7 +956,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12160"
-		owner = { havy_industry = 200 }
+		owner = { heavy_industry = 200 }
 		state_scope = {
 			labourers = {
 				militancy = -2
@@ -967,7 +967,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTB12160"
-		owner = { havy_industry = 200 }
+		owner = { heavy_industry = 200 }
 		state_scope = {
 			capitalists = {
 				money = 200
