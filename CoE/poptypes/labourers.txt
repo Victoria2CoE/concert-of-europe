@@ -2542,7 +2542,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1.2
+		factor = 1.5
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2706,7 +2706,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.2
+		factor = 1.5
 		modifier = {
 			factor = 1.1
 			country = { 

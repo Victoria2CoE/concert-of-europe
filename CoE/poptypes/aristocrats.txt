@@ -6987,22 +6987,6 @@ trinket_subsidies = {
 			factor = 2
 			consciousness = 9
 		}
-		modifier = {
-			factor = 0.5
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 2
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.75
-		}
 	}
 		land_purchase = { 
 		factor = 1
@@ -7059,7 +7043,7 @@ trinket_subsidies = {
 		}
 	}
 		commoners_properties = { 
-		factor = 1
+		factor = 0.2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7091,29 +7075,9 @@ trinket_subsidies = {
 		factor = 1.2
 			state_scope = {	total_pops = 750000 }
 		}
-		modifier = {
-			factor = 2
-			consciousness = 9
-		}
-		modifier = {
-			factor = 0.5
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 2
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.75
-		}
 	}
 		collectivization = { 
-		factor = 1
+		factor = 0.1
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7144,26 +7108,6 @@ trinket_subsidies = {
 		modifier = {
 		factor = 1.2
 			state_scope = {	total_pops = 750000 }
-		}
-		modifier = {
-			factor = 2
-			consciousness = 9
-		}
-		modifier = {
-			factor = 0.5
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 2
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.75
 		}
 	}
 	

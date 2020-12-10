@@ -1521,7 +1521,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1
+		factor = 0.8
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -1702,7 +1702,7 @@ ideologies = {
 }
 
 	conservative = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -1812,7 +1812,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1.1
+		factor = 1.2
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -1976,7 +1976,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.1
+		factor = 1.2
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -2153,7 +2153,7 @@ ideologies = {
 	}
 
 liberal = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 1.05
 			country = { 

@@ -864,7 +864,7 @@ ideologies = {
 	}
 	
 	social_liberal = {
-		factor = 1.1
+		factor = 1.5
 		modifier = {
 			factor = 1.5
 			has_global_flag = post_colonial_era_fired
@@ -1406,7 +1406,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -1697,7 +1697,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1
+		factor = 1.2
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -1861,7 +1861,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.1
+		factor = 1.3
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -2038,7 +2038,7 @@ ideologies = {
 	}
 
 liberal = {
-		factor = 1.1
+		factor = 1.5
 		modifier = {
 			factor = 1.05
 			country = { 

@@ -2605,7 +2605,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1.2
+		factor = 2.0
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2769,7 +2769,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.2
+		factor = 2.0
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -6030,7 +6030,7 @@ state_equal_weight = {
 		}
 	}
 	trinket_wage = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6101,7 +6101,7 @@ state_equal_weight = {
 		}
 	}
 	low_minimum_wage = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6172,7 +6172,7 @@ state_equal_weight = {
 		}
 	}
 	acceptable_minimum_wage = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6243,7 +6243,7 @@ state_equal_weight = {
 		}
 	}
 	good_minimum_wage = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6312,7 +6312,7 @@ state_equal_weight = {
 		}
 	}
 trinket_safety = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6377,7 +6377,7 @@ trinket_safety = {
 		}
 	}
 	low_safety = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6444,7 +6444,7 @@ trinket_safety = {
 		}
 	}
 	acceptable_safety = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6511,7 +6511,7 @@ trinket_safety = {
 		}
 	}
 	good_safety  = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6578,7 +6578,7 @@ trinket_safety = {
 		}
 	}
 trinket_subsidies = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6661,7 +6661,7 @@ trinket_subsidies = {
 		}
 	}
 	low_subsidies = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6745,7 +6745,7 @@ trinket_subsidies = {
 	}
 
 	acceptable_subsidies = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6829,7 +6829,7 @@ trinket_subsidies = {
 	}
 	
 	good_subsidies = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6912,7 +6912,7 @@ trinket_subsidies = {
 		}
 	}
 	trinket_pensions = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6983,7 +6983,7 @@ trinket_subsidies = {
 		}
 	}
 	low_pensions = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7054,7 +7054,7 @@ trinket_subsidies = {
 		}
 	}
 	acceptable_pensions = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7125,7 +7125,7 @@ trinket_subsidies = {
 		}
 	}
 	good_pensions = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7196,7 +7196,7 @@ trinket_subsidies = {
 		}
 	}
 	trinket_health_care = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7270,7 +7270,7 @@ trinket_subsidies = {
 		}			
 	}
 	low_health_care = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7344,7 +7344,7 @@ trinket_subsidies = {
 		}			
 	}
 	acceptable_health_care = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7418,7 +7418,7 @@ trinket_subsidies = {
 		}			
 	}
 	good_health_care = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7492,7 +7492,7 @@ trinket_subsidies = {
 		}			
 	}
 	fourteen_hours = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7562,7 +7562,7 @@ trinket_subsidies = {
 		}
 	}
 	twelve_hours = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7632,7 +7632,7 @@ trinket_subsidies = {
 		}
 	}
 	ten_hours = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7702,7 +7702,7 @@ trinket_subsidies = {
 		}
 	}
 	eight_hours = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7772,7 +7772,7 @@ trinket_subsidies = {
 		}
 	}
 	landed_estates = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7880,7 +7880,7 @@ trinket_subsidies = {
 		}
 	}
 		commoners_properties = { 
-		factor = 1
+		factor = 1.5
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7916,25 +7916,9 @@ trinket_subsidies = {
 			factor = 2
 			consciousness = 9
 		}
-		modifier = {
-			factor = 0.5
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 2
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.75
-		}
 	}
 		collectivization = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -8137,7 +8121,7 @@ trinket_subsidies = {
 	}
 	
 	church = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -8221,7 +8205,7 @@ trinket_subsidies = {
 	}
 	
 	public = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {

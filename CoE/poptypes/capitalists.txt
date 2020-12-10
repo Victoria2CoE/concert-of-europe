@@ -1608,7 +1608,7 @@ ideologies = {
 }
 
 	conservative = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2091,7 +2091,7 @@ ideologies = {
 	}
 
 liberal = {
-		factor = 1.2
+		factor = 1.8
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -6933,7 +6933,7 @@ trinket_subsidies = {
 		}
 	}
 	landed_estates = { 
-		factor = 1
+		factor = 0.8
 		modifier = {
 			factor = 0 
 			OR = {
@@ -6969,25 +6969,9 @@ trinket_subsidies = {
 			factor = 2
 			consciousness = 9
 		}
-		modifier = {
-			factor = 0.5
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 2
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 2
-			luxury_needs = 0.75
-		}
 	}
 		land_purchase = { 
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7041,7 +7025,7 @@ trinket_subsidies = {
 		}
 	}
 		commoners_properties = { 
-		factor = 1
+		factor = 0.3
 		modifier = {
 			factor = 0 
 			OR = {
@@ -7095,7 +7079,7 @@ trinket_subsidies = {
 		}
 	}
 		collectivization = { 
-		factor = 1
+		factor = 0.1
 		modifier = {
 			factor = 0 
 			OR = {
