@@ -86,8 +86,8 @@ food_factory_template = {
 		lead = 0.1 #0.046$
 		cattle = 3 #1.2$
 		fish = 3 #1.2$
-		fruit = 2 #0.8$
-		sugar = 0.15 #0.045$
+		fruit = 2.02 #0.845$
+		#sugar = 0.15 #0.045$
 		sulphur = 0.10 #0.07$
 		#4.436$
 	}
@@ -173,14 +173,15 @@ luxury_factory_template = {
 		iron = 0.80 #0.528$
 		silk = 1.5 #1.5$ 
 		horses = 0.1 #0.08$
-		sugar = 0.40 #0.12$
+		#sugar = 0.40 #0.12$
 		spices = 1 #1.6$
 		opium = 1 #1.6$
 		coffee = 1 #0.9$
 		tea = 1 #0.5$
 		cattle = 1.5 #0.6$
-		fruit = 1 #0.4$
-		#16.735$
+		fruit = 1.3 #0.52$
+		grain = 0.5 #0.15$
+		#16.885$
 	}
 
 	owner =
@@ -1418,7 +1419,7 @@ artisan_bronzeworker = {
 
 artisan_moonshiner = {
 	input_goods = {
-		sugar = 35
+		sugar = 26.25
 		heavy_industry = 0.35
 	}
 	output_goods = luxury_industry
@@ -1562,7 +1563,7 @@ artisan_tea_rafiner = {
 artisan_cake_maker = {
 	input_goods = {
 		grain = 82
-		sugar = 31
+		fruit = 23.25
 	}
 	output_goods = luxury_industry
 	value = 3

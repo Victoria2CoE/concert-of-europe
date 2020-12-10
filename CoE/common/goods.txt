@@ -164,6 +164,7 @@ raw_material_goods = {
 	}
 	sugar = {
 		cost = 0.3
+		money = yes
 		color = { 253 199 110 }
 	}
 	spices = {
