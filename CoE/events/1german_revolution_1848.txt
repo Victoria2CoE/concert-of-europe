@@ -130,7 +130,7 @@ country_event = {
 				country_event = 11101
 	   }
 	   country_event = 99939
-	   badboy = 20	
+	   badboy = 100	
 	   ai_chance = {
 			factor = 10
 		}
@@ -153,7 +153,7 @@ country_event = {
 	
 	option = {
 		name = "'Grossdeutschland'! All Germans shall become a part of Germany!"
-		badboy = 10
+		badboy = 20
 		397	= { add_core = GER }
 		398	= { add_core = GER }
         AUS = { country_event = 99938 }
@@ -343,7 +343,7 @@ country_event = {
 				}
 				country_event = 11101
 	   }
-		badboy = 60
+		badboy = 100
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -446,7 +446,7 @@ country_event = {
 				}
 				country_event = 11101
 	   }
-		badboy = 40
+		badboy = 80
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -559,7 +559,7 @@ country_event = {
 				}
 				country_event = 11101
 	   }
-		badboy = 20
+		badboy = 75
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -782,7 +782,7 @@ country_event = {
 				}
 				country_event = 11101
 	   }
-		badboy = 60
+		badboy = 50
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -878,7 +878,7 @@ country_event = {
 				}
 				country_event = 11101
 	   }
-		badboy = 40
+		badboy = 30
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -1366,7 +1366,7 @@ country_event = {
 	   PRU_690 = { remove_core = GER }
 	   country_event = 99939
 	   country_event = 99924
-	   badboy = 25	
+	   badboy = 125	
 	   ai_chance = {
 			factor = 70
 		}
