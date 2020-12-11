@@ -159,6 +159,7 @@ country_event = {
 		#country_event = 999958
 		#any_country = { limit = { NOT = { tag = THIS } } country_event = 9999855 }
 		#country_event = 9999886
+		set_country_flag = game_master
 	}
 }
 

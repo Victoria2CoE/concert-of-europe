@@ -2527,12 +2527,14 @@ country_event = {
 	title = "Game Master"
 	desc = "Game Master"
 
+	is_triggered_only = yes
+
 	trigger = { 
 	           tag = BHU
 	           #ai = yes
-			   month = 0
-			   NOT = { month = 1 }
-			   NOT = { has_country_modifier = gm_timer }
+			   #month = 0
+			   #NOT = { month = 1 }
+			   #NOT = { has_country_modifier = gm_timer }
 	}
 
 	mean_time_to_happen = {
@@ -2541,11 +2543,11 @@ country_event = {
 	
 	option = {
 		name = "Game Master"
-		any_country = { limit = { has_country_flag = game_master } clr_country_flag = game_master }
-		random_country = {
-			limit = { AND = { exists = yes ai = yes } }
-			set_country_flag = game_master
-		}
+		#any_country = { limit = { has_country_flag = game_master } clr_country_flag = game_master }
+		#random_country = {
+		#	limit = { AND = { exists = yes ai = yes } }
+		#	set_country_flag = game_master
+		#}
 		any_pop = { 
 			limit = { 
 				type = aristocrats 
@@ -2617,14 +2619,14 @@ country_event = {
 			}				
 		}
 		
-		any_country = {
-			#limit = { ai = yes }
-			add_country_modifier = { name = gm_timer  duration = 60 }
-		}
-		add_country_modifier = { name = gm_timer  duration = 60 }
+		#any_country = {
+		#	#limit = { ai = yes }
+		#	add_country_modifier = { name = gm_timer  duration = 60 }
+		#}
+		#add_country_modifier = { name = gm_timer  duration = 60 }
 		
 		any_country = {
-			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } NOT = { 2128 = { owner = { has_country_flag = ghost_country } } } }
 			country_event = 6016821
 		}
 	}
