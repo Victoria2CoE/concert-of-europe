@@ -1417,19 +1417,19 @@ factor = 0.50
 colonialmigration_chance = {
 	factor = 0.2
 	modifier = {
-		factor = 0.20
+		factor = 1.00
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.50
+		factor = 2.00
 		type = farmers
 	}	
 	modifier = {
-		factor = 0.50
+		factor = 2.00
 		type = aristocrats
 	}	
 	modifier = { 
-		factor = 0.20
+		factor = 1.00
 		always = yes 
 	}
 	modifier = {
