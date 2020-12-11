@@ -627,7 +627,7 @@ pops = {
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 1,
-	BASE_POPGROWTH = 0.0005,
+	BASE_POPGROWTH = 0.0004,
 	MIN_LIFE_RATING_FOR_GROWTH = 29,
 	LIFE_RATING_GROWTH_BONUS = 0.00005,
 	LIFE_NEED_STARVATION_LIMIT = 0.01,
@@ -668,7 +668,7 @@ pops = {
 	INVENTION_IMPACT_ON_DEMAND = 0.00, -- how much each invention in a country increases demand for a product in percent
 	POP_TO_LEADERSHIP = 0.00005, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficiency of an artisan
-	SLAVE_GROWTH_DIVISOR = 1, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 0.75, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 8, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0, -- con boost from over-buying luxuary goods

@@ -773,62 +773,62 @@ promote_to = {
 		#}
 		modifier = {
 			factor = 50
-			literacy = 0.1
-			NOT = { literacy = 0.2 }
-			clerks = 0.01
-		}
-		modifier = {
-			factor = 50
-			literacy = 0.2
-			NOT = { literacy = 0.3 }
+			literacy = 0.50
+			NOT = { literacy = 0.55 }
 			clerks = 0.02
 		}
 		modifier = {
 			factor = 50
-			literacy = 0.3
-			NOT = { literacy = 0.4 }
-			clerks = 0.03
-		}
-		modifier = {
-			factor = 50
-			literacy = 0.4
-			NOT = { literacy = 0.5 }
+			literacy = 0.55
+			NOT = { literacy = 0.60 }
 			clerks = 0.04
 		}
 		modifier = {
 			factor = 50
-			literacy = 0.5
-			NOT = { literacy = 0.6 }
-			clerks = 0.05
-		}
-		modifier = {
-			factor = 50
-			literacy = 0.6
-			NOT = { literacy = 0.7 }
+			literacy = 0.60
+			NOT = { literacy = 0.65 }
 			clerks = 0.06
 		}
 		modifier = {
 			factor = 50
-			literacy = 0.7
-			NOT = { literacy = 0.8 }
-			clerks = 0.07
-		}
-		modifier = {
-			factor = 50
-			literacy = 0.8
-			NOT = { literacy = 0.9 }
+			literacy = 0.65
+			NOT = { literacy = 0.70 }
 			clerks = 0.08
 		}
 		modifier = {
 			factor = 50
-			literacy = 0.9
+			literacy = 0.70
+			NOT = { literacy = 0.75 }
+			clerks = 0.10
+		}
+		modifier = {
+			factor = 50
+			literacy = 0.75
+			NOT = { literacy = 0.80 }
+			clerks = 0.12
+		}
+		modifier = {
+			factor = 50
+			literacy = 0.80
+			NOT = { literacy = 0.85 }
+			clerks = 0.14
+		}
+		modifier = {
+			factor = 50
+			literacy = 0.85
+			NOT = { literacy = 0.90 }
+			clerks = 0.16
+		}
+		modifier = {
+			factor = 50
+			literacy = 0.95
 			NOT = { literacy = 0.99 }
-			clerks = 0.09
+			clerks = 0.18
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.99
-			clerks = 0.0101
+			clerks = 0.201
 		}
 	}
 

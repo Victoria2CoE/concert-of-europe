@@ -639,71 +639,76 @@ promote_to = {
 	clerks = {
 		factor = 0.01
 		modifier = {
-			factor = 40
-			literacy = 0.1
-			NOT = { literacy = 0.2 }
-			NOT = { clerks = 0.01 }
+			factor = -50
+			literacy = 0.50
+			always = no
 		}
 		modifier = {
-			factor = 40
-			literacy = 0.2
-			NOT = { literacy = 0.3 }
+			factor = 150
+			literacy = 0.50
+			NOT = { literacy = 0.55 }
 			NOT = { clerks = 0.02 }
 		}
 		modifier = {
-			factor = 40
-			literacy = 0.3
-			NOT = { literacy = 0.4 }
-			NOT = { clerks = 0.03 }
-		}
-		modifier = {
-			factor = 40
-			literacy = 0.4
-			NOT = { literacy = 0.5 }
+			factor = 150
+			literacy = 0.55
+			NOT = { literacy = 0.60 }
 			NOT = { clerks = 0.04 }
 		}
 		modifier = {
-			factor = 40
-			literacy = 0.5
-			NOT = { literacy = 0.6 }
-			NOT = { clerks = 0.05 }
-		}
-		modifier = {
-			factor = 40
-			literacy = 0.6
-			NOT = { literacy = 0.7 }
+			factor = 150
+			literacy = 0.60
+			NOT = { literacy = 0.65 }
 			NOT = { clerks = 0.06 }
 		}
 		modifier = {
-			factor = 40
-			literacy = 0.7
-			NOT = { literacy = 0.8 }
-			NOT = { clerks = 0.07 }
-		}
-		modifier = {
-			factor = 40
-			literacy = 0.8
-			NOT = { literacy = 0.9 }
+			factor = 150
+			literacy = 0.65
+			NOT = { literacy = 0.70 }
 			NOT = { clerks = 0.08 }
 		}
 		modifier = {
-			factor = 40
-			literacy = 0.9
-			NOT = { literacy = 0.99 }
-			NOT = { clerks = 0.09 }
+			factor = 150
+			literacy = 0.70
+			NOT = { literacy = 0.75 }
+			NOT = { clerks = 0.10 }
 		}
 		modifier = {
-			factor = 40
+			factor = 150
+			literacy = 0.75
+			NOT = { literacy = 0.80 }
+			NOT = { clerks = 0.12 }
+		}
+		modifier = {
+			factor = 150
+			literacy = 0.80
+			NOT = { literacy = 0.85 }
+			NOT = { clerks = 0.14 }
+		}
+		modifier = {
+			factor = 150
+			literacy = 0.85
+			NOT = { literacy = 0.90 }
+			NOT = { clerks = 0.16 }
+		}
+		modifier = {
+			factor = 150
+			literacy = 0.90
+			NOT = { literacy = 0.95 }
+			NOT = { clerks = 0.18 }
+		}
+		modifier = {
+			factor = 150
 			literacy = 0.99
-			NOT = { clerks = 0.010 }
+			NOT = { clerks = 0.20 }
 		}
 		modifier = {
 			factor = -100
 			location = { is_colonial = yes }
 		}
 		modifier = {
-			factor = -50 #-500
-			clerks = 0.030
+			factor = -250 #-500
+			clerks = 0.201
 		}  
 	}
 	bureaucrats = {
