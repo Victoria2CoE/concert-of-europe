@@ -1,6 +1,6 @@
 720 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 10027
 		culture = north_italian
@@ -48,28 +48,28 @@
 		culture = french
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 
 		size = 7000
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4000
 		culture = french
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23000
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 150492
 		culture = north_italian
@@ -129,14 +129,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13048
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19779
 		culture = french
@@ -161,14 +161,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40603
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = north_italian
@@ -193,7 +193,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59704
 		culture = north_italian
@@ -264,7 +264,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 64740
 		culture = north_italian
@@ -275,7 +275,7 @@
 }
 726 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 12591
 		culture = north_italian
@@ -345,7 +345,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6000
 		culture = romansh
@@ -370,14 +370,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 98232
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3
 		culture = south_german
@@ -402,7 +402,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 145666
 		culture = north_italian
@@ -413,7 +413,7 @@
 }
 729 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9683
 		culture = north_italian
@@ -476,7 +476,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55789
 		culture = north_italian
@@ -522,7 +522,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 101689
 		culture = north_italian
@@ -547,7 +547,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 117004
 		culture = north_italian
@@ -597,7 +597,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62451
 		culture = north_italian
@@ -608,7 +608,7 @@
 }
 734 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 283
 		culture = south_german
@@ -636,14 +636,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4221
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55011
 		culture = north_italian
@@ -689,14 +689,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16089
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2544
 		culture = north_italian
@@ -707,7 +707,7 @@
 }
 736 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2312
 		culture = north_italian
@@ -756,14 +756,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2174
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5768
 		culture = slovene
@@ -830,14 +830,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9889
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27814
 		culture = slovene
@@ -848,7 +848,7 @@
 }
 738 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2289
 		culture = north_italian
@@ -902,7 +902,7 @@
 
 739 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3250
 		culture = north_italian
@@ -980,7 +980,7 @@
 }
 741 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4052
 		culture = north_italian
@@ -1054,7 +1054,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33492
 		culture = north_italian
@@ -1079,7 +1079,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49837
 		culture = north_italian
@@ -1090,7 +1090,7 @@
 }
 744 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 8470
 		culture = north_italian
@@ -1132,7 +1132,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 137264
 		culture = north_italian
@@ -1185,7 +1185,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 77469
 		culture = north_italian
@@ -1196,7 +1196,7 @@
 }
 746 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 686
 		culture = north_italian
@@ -1231,7 +1231,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17650
 		culture = north_italian
@@ -1270,7 +1270,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 77766
 		culture = north_italian
@@ -1295,7 +1295,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37750
 		culture = north_italian
@@ -1306,7 +1306,7 @@
 }
 749 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 10141
 		culture = south_italian
@@ -1348,7 +1348,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 211300
 		culture = south_italian
@@ -1387,7 +1387,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36765
 		culture = south_italian
@@ -1419,7 +1419,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 86763
 		culture = south_italian
@@ -1444,7 +1444,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32072
 		culture = south_italian
@@ -1455,7 +1455,7 @@
 }
 753 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 11354
 		culture = south_italian
@@ -1483,21 +1483,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 99445
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = albanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = croat
@@ -1522,7 +1522,7 @@
 }
 754 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 13022
 		culture = south_italian
@@ -1557,7 +1557,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 185820
 		culture = south_italian
@@ -1596,7 +1596,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 124696
 		culture = south_italian
@@ -1628,7 +1628,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 117027
 		culture = south_italian
@@ -1653,7 +1653,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 117943
 		culture = south_italian
@@ -1678,14 +1678,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52689
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5000
 		culture = greek
@@ -1717,14 +1717,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 106936
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10000
 		culture = greek
@@ -1735,7 +1735,7 @@
 }
 760 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9000
 		culture = south_italian
@@ -1763,14 +1763,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 63759
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9200
 		culture = albanian
@@ -1809,21 +1809,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 111424
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4000
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = albanian
@@ -1862,14 +1862,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 131635
 		culture = south_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3500
 		culture = albanian
@@ -1880,7 +1880,7 @@
 }
 763 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 11583
 		culture = south_italian
@@ -1965,7 +1965,7 @@
 }
 765 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2609
 		culture = south_italian
@@ -1993,14 +1993,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61919
 		culture = south_italian
@@ -2039,14 +2039,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2200
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32619
 		culture = south_italian
@@ -2072,7 +2072,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 90060
 		culture = south_italian

@@ -340,7 +340,7 @@ country_event = {
 					factor = 0.05
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				ideology = {
 					value = reactionary
 					factor = 0.15
@@ -424,7 +424,7 @@ country_event = {
 					factor = 0.05
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				ideology = {
 					value = reactionary
 					factor = 0.15
@@ -853,7 +853,7 @@ country_event = {
 			ideology = reactionary
 			value = 0.2
 		}
-		aristocrats = {
+		capitalists = {
 			ideology = {
 				value = reactionary
 				factor = 0.1
@@ -1275,7 +1275,7 @@ country_event = {
 			limit = { 
 				OR = {
 					reactionary = 20
-					type = aristocrats
+					type = capitalists
 				}
 			}
 			consciousness = -3
@@ -2591,7 +2591,7 @@ country_event = {
 			name = anti_jacobin_tract
 			duration = 365
 		}
-		aristocrats = {
+		capitalists = {
 			ideology = {
 				value = reactionary
 				factor = 0.4
@@ -2723,7 +2723,7 @@ province_event = {
 		}
 		state_scope = {
 			any_owned = { remove_province_modifier = liberal_agitation }
-			aristocrats = {
+			capitalists = {
 				ideology = {
 					value = reactionary
 					factor = 0.2

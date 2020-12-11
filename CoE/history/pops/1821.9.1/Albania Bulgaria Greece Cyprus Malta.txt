@@ -6,7 +6,7 @@
 #################################
 849 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5860
 		culture = albanian
@@ -48,14 +48,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46355
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14088
 		culture = albanian
@@ -115,14 +115,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21627
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62640
 		culture = albanian
@@ -168,21 +168,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12298
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7298
 		culture = albanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5265
 		culture = albanian
@@ -221,14 +221,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41302
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14990
 		culture = albanian
@@ -267,21 +267,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7946
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19089
 		culture = albanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8035
 		culture = greek
@@ -327,14 +327,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14376
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25708
 		culture = bulgarian
@@ -345,7 +345,7 @@
 }
 809 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5471
 		culture = turkish
@@ -482,14 +482,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1030
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24128
 		culture = bulgarian
@@ -535,14 +535,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4807
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33011
 		culture = bulgarian
@@ -581,14 +581,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6112
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34476
 		culture = bulgarian
@@ -627,14 +627,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8493
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21061
 		culture = bulgarian
@@ -673,14 +673,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11377
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32851
 		culture = bulgarian
@@ -747,21 +747,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5883
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14811
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2106
 		culture = greek
@@ -800,21 +800,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4486
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10507
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1694
 		culture = bulgarian
@@ -825,7 +825,7 @@
 }
 817 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3044
 		culture = turkish
@@ -881,28 +881,28 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9546
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23144
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3365
 		culture = bulgarian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4532
 		culture = greek
@@ -976,21 +976,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8470
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4326
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3754
 		culture = turkish
@@ -1007,7 +1007,7 @@
 
 805 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3456
 		culture = turkish
@@ -1081,21 +1081,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12430
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5677
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26670
 		culture = greek
@@ -1104,7 +1104,7 @@
 		rebel_type = separatist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3525
 		culture = sephardic
@@ -1243,14 +1243,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28249
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1213
 		culture = turkish
@@ -1303,21 +1303,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21195
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1762
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4555
 		culture = turkish
@@ -1360,21 +1360,21 @@
 		rebel_type = separatist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6867
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1762
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12270
 		culture = greek
@@ -1387,7 +1387,7 @@
 }
 823 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1579
 		culture = turkish
@@ -1436,21 +1436,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8729
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7005
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17284
 		culture = greek
@@ -1545,21 +1545,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7394
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23442
 		culture = albanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74401
 		culture = greek
@@ -1598,7 +1598,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 45785
 		culture = greek
@@ -1609,7 +1609,7 @@
 }
 826 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 709
 		culture = north_italian
@@ -1658,7 +1658,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20740
 		culture = greek
@@ -1704,7 +1704,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15956
 		culture = greek
@@ -1744,21 +1744,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5425
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8653
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 868
 		culture = bulgarian
@@ -1797,21 +1797,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6318
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6822
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1762
 		culture = bulgarian
@@ -1864,14 +1864,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3342
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25685
 		culture = greek
@@ -1882,7 +1882,7 @@
 }
 832 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5150
 		culture = turkish
@@ -1924,14 +1924,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5425
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40533
 		culture = greek
@@ -1991,14 +1991,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 412
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8745
 		culture = greek
@@ -2009,7 +2009,7 @@
 }
 834 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1007
 		culture = greek
@@ -2037,7 +2037,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 58307
 		culture = greek
@@ -2076,7 +2076,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15498
 		culture = greek
@@ -2101,7 +2101,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8149
 		culture = greek
@@ -2126,7 +2126,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28295
 		culture = greek
@@ -2162,7 +2162,7 @@
 }
 839 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1007
 		culture = greek
@@ -2190,7 +2190,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13433
 		culture = greek
@@ -2229,7 +2229,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7691
 		culture = greek
@@ -2254,7 +2254,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13369
 		culture = greek
@@ -2279,7 +2279,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6776
 		culture = greek
@@ -2290,7 +2290,7 @@
 }
 843 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 297
 		culture = turkish
@@ -2384,14 +2384,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 457
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8630
 		culture = greek
@@ -2423,7 +2423,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7691
 		culture = greek
@@ -2469,14 +2469,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1533
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4738
 		culture = greek
@@ -2487,7 +2487,7 @@
 }
 847 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 663
 		culture = turkish
@@ -2529,14 +2529,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5453
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7989
 		culture = greek
@@ -2593,14 +2593,14 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5356
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8676
 		culture = greek
@@ -2619,7 +2619,7 @@
 #############################
 854 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 183
 		culture = south_italian
@@ -2668,7 +2668,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18749
 		culture = maltese
@@ -2699,7 +2699,7 @@
 #############################
 855 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 629
 		culture = turkish
@@ -2839,14 +2839,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2332
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7020
 		culture = greek

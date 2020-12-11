@@ -20,12 +20,12 @@
 		culture = danish
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 1007
 		culture = inuit
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 10
 		culture = danish
 		religion = protestant
@@ -44,7 +44,7 @@
 		culture = danish
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 274
 		culture = inuit
 		religion = protestant
@@ -63,7 +63,7 @@
 		culture = inuit
 		religion = animist
 	}
-	farmers = {
+	labourers = {
 		size = 457
 		culture = inuit
 		religion = animist
@@ -88,7 +88,7 @@
 		culture = icelandic
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 12028
 		culture = icelandic
 		religion = protestant
@@ -112,7 +112,7 @@
 		religion = protestant
 		size = 135
 	}
-	farmers = {
+	labourers = {
 		culture = faroese
 		religion = protestant
 		size = 1075
@@ -171,21 +171,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10095
 		culture = norwegian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2431
 		culture = sami
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 507
 		culture = finnish
@@ -210,21 +210,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4044
 		culture = norwegian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3531
 		culture = sami
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1031
 		culture = finnish
@@ -235,7 +235,7 @@
 }
 308 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 640
 		culture = norwegian
@@ -281,7 +281,7 @@
 }
 309 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1281
 		culture = norwegian
@@ -309,7 +309,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35895
 		culture = norwegian
@@ -398,7 +398,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29417
 		culture = norwegian
@@ -409,7 +409,7 @@
 }
 313 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 778
 		culture = norwegian
@@ -444,7 +444,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16734
 		culture = norwegian
@@ -533,7 +533,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15589
 		culture = norwegian
@@ -580,7 +580,7 @@
 }
 318 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 183
 		culture = swedish
@@ -750,7 +750,7 @@
 }
 322 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1578
 		culture = swedish
@@ -887,7 +887,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46472
 		culture = swedish
@@ -994,7 +994,7 @@
 }
 329 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1610
 		culture = swedish
@@ -1022,7 +1022,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30905
 		culture = swedish
@@ -1061,7 +1061,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46472
 		culture = swedish
@@ -1086,7 +1086,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8287
 		culture = swedish
@@ -1136,7 +1136,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39262
 		culture = swedish
@@ -1147,7 +1147,7 @@
 }
 334 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1183
 		culture = swedish
@@ -1175,7 +1175,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43148
 		culture = swedish
@@ -1214,7 +1214,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55514
 		culture = swedish
@@ -1239,7 +1239,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29150
 		culture = swedish
@@ -1357,7 +1357,7 @@
 }
 339 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 45
 		culture = russian
@@ -1534,7 +1534,7 @@
 }
 343 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 389
 		culture = swedish
@@ -1583,14 +1583,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17764
 		culture = finnish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6707
 		culture = swedish
@@ -1661,7 +1661,7 @@
 }
 345 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2106
 		culture = swedish
@@ -1696,14 +1696,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49916
 		culture = finnish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9363
 		culture = swedish
@@ -1848,14 +1848,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2188
 		culture = swedish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 115
 		culture = finnish
@@ -1899,7 +1899,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36926
 		culture = danish
@@ -1910,7 +1910,7 @@
 }
 367 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1144
 		culture = danish
@@ -1931,7 +1931,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22892
 		culture = danish
@@ -1970,7 +1970,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35030
 		culture = danish
@@ -1982,7 +1982,7 @@
 
 372 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1602
 		culture = danish
@@ -2038,7 +2038,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19247
 		culture = danish
@@ -2077,7 +2077,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37773
 		culture = danish
@@ -2102,7 +2102,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3204
 		culture = danish
@@ -2127,7 +2127,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33000
 		culture = danish

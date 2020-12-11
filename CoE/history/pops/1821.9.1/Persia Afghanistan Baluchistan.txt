@@ -6,12 +6,12 @@
 
 #Tabriz
 1108 = {
-	aristocrats = {
+	capitalists = {
 		size = 4617
 		culture = azerbaijani
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 2798
 		culture = azerbaijani
 		religion = sunni
@@ -150,27 +150,27 @@
 		culture = assyrian
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 9740
 		culture = azerbaijani
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 19078
 		culture = azerbaijani
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3600
 		culture = assyrian
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 3763
 		culture = kurdish
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 3124
 		culture = kurdish
 		religion = sunni
@@ -224,27 +224,27 @@
 		culture = kurdish
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 10168
 		culture = azerbaijani
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 14529
 		culture = azerbaijani
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3600
 		culture = assyrian
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 10215
 		culture = kurdish
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 5993
 		culture = kurdish
 		religion = sunni
@@ -273,12 +273,12 @@
 		culture = azerbaijani
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 26517
 		culture = azerbaijani
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 15369
 		culture = azerbaijani
 		religion = sunni
@@ -339,7 +339,7 @@
 		size = 120
 	}
 
-	farmers = {
+	labourers = {
 		culture = tabari
 		religion = shiite
 		size = 12925
@@ -372,7 +372,7 @@
 
 #Rasht
 1113 = {
-	aristocrats = {
+	capitalists = {
 		culture = tabari
 		religion = shiite
 		size = 915
@@ -402,17 +402,17 @@
 		religion = shiite
 		size= 3000
 	}
-	farmers = {
+	labourers = {
 		culture = tabari
 		religion = shiite
 		size = 33950
 	}
-	aristocrats = {
+	capitalists = {
 		size = 919
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 163
 		culture = turkmen
 		religion = sunni
@@ -459,7 +459,7 @@
 
 #Noshehr
 1114 = {
-	aristocrats = {
+	capitalists = {
 		culture = tabari
 		religion = shiite
 		size = 450
@@ -479,7 +479,7 @@
 		religion = shiite
 		size= 340
 	}
-	farmers = {
+	labourers = {
 		culture = tabari
 		religion = shiite
 		size = 14150
@@ -505,7 +505,7 @@
 		size = 110
 	}
 
-	farmers = {
+	labourers = {
 		culture = armenian
 		religion = orthodox
 		size = 2975
@@ -514,7 +514,7 @@
 
 #Sari
 1115 = {
-aristocrats = {
+capitalists = {
 		culture = tabari
 		religion = shiite
 		size = 235
@@ -534,7 +534,7 @@ aristocrats = {
 		religion = shiite
 		size= 500
 	}
-	farmers = {
+	labourers = {
 		culture = tabari
 		religion = shiite
 		size = 9550
@@ -549,7 +549,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 2054
 		culture = persian
 		religion = shiite
@@ -558,7 +558,7 @@ aristocrats = {
 
 #Gorgan
 1116 = {
-	aristocrats = {
+	capitalists = {
 		culture = tabari
 		religion = shiite
 		size = 265
@@ -573,7 +573,7 @@ aristocrats = {
 		religion = shiite
 		size = 1000
 	}
-	farmers = {
+	labourers = {
 		culture = tabari
 		religion = shiite
 		size = 15950
@@ -593,12 +593,12 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 6409
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 7649
 		culture = turkmen
 		religion = sunni
@@ -607,22 +607,22 @@ aristocrats = {
 
 #Kermanshah
 1117 = {
-	aristocrats = {
+	capitalists = {
 		size = 170
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 209
 		culture = kurdish
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 839
 		culture = kurdish
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		culture = luri
 		religion = shiite
 		size = 580
@@ -683,17 +683,17 @@ aristocrats = {
 		religion = shiite
 		size = 290
 	}
-	farmers = {
+	labourers = {
 		size = 4913
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 22078
 		culture = kurdish
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 7836
 		culture = kurdish
 		religion = sunni
@@ -742,7 +742,7 @@ aristocrats = {
 		culture = kurdish
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 19544
 		culture = kurdish
 		religion = sunni
@@ -771,12 +771,12 @@ aristocrats = {
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 14459
 		culture = kurdish
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		culture = luri
 		religion = shiite
 		size = 23450
@@ -785,7 +785,7 @@ aristocrats = {
 
 #Khoramabad
 1120 = {
-	aristocrats = {
+	capitalists = {
 		culture = luri
 		religion = shiite
 		size = 215
@@ -805,12 +805,12 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 3013
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		culture = luri
 		religion = shiite
 		size = 13350
@@ -821,7 +821,7 @@ aristocrats = {
 		size = 35
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 600
@@ -830,7 +830,7 @@ aristocrats = {
 
 #Tehran
 1121 = {
-	aristocrats = {
+	capitalists = {
 		size = 3848
 		culture = persian
 		religion = shiite
@@ -870,7 +870,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 46761
 		culture = persian
 		religion = shiite
@@ -891,7 +891,7 @@ aristocrats = {
 		size = 100
 	}
 
-	farmers = {
+	labourers = {
 		culture = azerbaijani
 		religion = shiite
 		size = 2750
@@ -909,7 +909,7 @@ aristocrats = {
 		size = 400
 	}
 
-	farmers = {
+	labourers = {
 		culture = mashriqi
 		religion = shiite
 		size = 1350
@@ -919,7 +919,7 @@ aristocrats = {
 		religion = zoroastrian
 		size = 85
 	}
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 1835
@@ -948,7 +948,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 19217
 		culture = persian
 		religion = shiite
@@ -967,7 +967,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 7066
 		culture = persian
 		religion = shiite
@@ -1016,7 +1016,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 40370
 		culture = persian
 		religion = shiite
@@ -1055,7 +1055,7 @@ aristocrats = {
 
 #Isfahan
 1127 = {
-	aristocrats = {
+	capitalists = {
 		size = 3031
 		culture = persian
 		religion = shiite
@@ -1100,22 +1100,22 @@ aristocrats = {
 		culture = sephardic
 		religion = jewish
 	}
-	farmers = {
+	labourers = {
 		size = 60707
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 15500
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		culture = kurdish
 		religion = shiite
 		size = 3450
 	}
-	farmers = {
+	labourers = {
 		size = 457
 		culture = sephardic
 		religion = jewish
@@ -1134,7 +1134,7 @@ aristocrats = {
 
 #Arak
 1128 = {
-	aristocrats = {
+	capitalists = {
 		size = 1096
 		culture = persian
 		religion = shiite
@@ -1173,7 +1173,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 23112
 		culture = persian
 		religion = shiite
@@ -1233,7 +1233,7 @@ aristocrats = {
 		religion = zoroastrian
 		size = 225
 	}
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 2275
@@ -1272,12 +1272,12 @@ aristocrats = {
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 9258
 		culture = mashriqi
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 2402
 		culture = luri
 		religion = shiite
@@ -1296,7 +1296,7 @@ aristocrats = {
 
 #Abadan
 1132 = {
-	aristocrats = {
+	capitalists = {
 		size = 979
 		culture = mashriqi
 		religion = shiite
@@ -1311,7 +1311,7 @@ aristocrats = {
 		culture = mashriqi
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 9375
 		culture = mashriqi
 		religion = shiite
@@ -1351,12 +1351,12 @@ aristocrats = {
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 2979
 		culture = mashriqi
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 3807
 		culture = luri
 		religion = shiite
@@ -1375,12 +1375,12 @@ aristocrats = {
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 4786
 		culture = luri
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 2000
 		culture = persian
 		religion = shiite
@@ -1389,12 +1389,12 @@ aristocrats = {
 
 #Shiraz
 1135 = {
-	aristocrats = {
+	capitalists = {
 		size = 1729
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		culture = luri
 		religion = shiite
 		size = 415
@@ -1439,27 +1439,27 @@ aristocrats = {
 		religion = orthodox
 		size = 50
 	}
-	farmers = {
+	labourers = {
 		size = 2565
 		culture = mashriqi
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 27895
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		culture = luri
 		religion = shiite
 		size = 21825
 	}
-	farmers = {
+	labourers = {
 		culture = armenian
 		religion = orthodox
 		size = 1560
 	}
-	farmers = {
+	labourers = {
 		size = 600
 		culture = sephardic
 		religion = jewish
@@ -1485,7 +1485,7 @@ aristocrats = {
 		size = 50
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 560
@@ -1499,7 +1499,7 @@ aristocrats = {
 		culture = british
 		religion = protestant
 	}
-	aristocrats = {
+	capitalists = {
 		size = 50
 		culture = british
 		religion = protestant
@@ -1524,7 +1524,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 5269
 		culture = persian
 		religion = shiite
@@ -1544,7 +1544,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 43692
 		culture = persian
 		religion = shiite
@@ -1568,12 +1568,12 @@ aristocrats = {
 		culture = bedouin
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2000
 		culture = bedouin
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 1191
 		culture = persian
 		religion = sunni
@@ -1616,7 +1616,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 16908
 		culture = persian
 		religion = shiite
@@ -1626,7 +1626,7 @@ aristocrats = {
 		religion = zoroastrian
 		size = 65
 	}
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 885
@@ -1645,12 +1645,12 @@ aristocrats = {
 
 #Hajjiabad
 1141 = {
-	aristocrats = {
+	capitalists = {
 		size = 319
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 550
 		culture = bedouin
 		religion = sunni
@@ -1670,12 +1670,12 @@ aristocrats = {
 		culture = bedouin
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 4000 
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 5666
 		culture = bedouin
 		religion = sunni
@@ -1694,12 +1694,12 @@ aristocrats = {
 
 #Bandar Abbas
 1142 = {
-	aristocrats = {
+	capitalists = {
 		size = 300
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 349
 		culture = bedouin
 		religion = shiite
@@ -1719,12 +1719,12 @@ aristocrats = {
 		culture = bedouin
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 3970 
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 6000
 		culture = bedouin
 		religion = shiite
@@ -1749,12 +1749,12 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 9352
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 7649
 		culture = baluchi
 		religion = sunni
@@ -1783,12 +1783,12 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 9258
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 5947
 		culture = pashtun
 		religion = sunni
@@ -1812,12 +1812,12 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2667
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 7713
 		culture = baluchi
 		religion = sunni
@@ -1836,12 +1836,12 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6000
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3000
 		culture = persian
 		religion = shiite
@@ -1850,7 +1850,7 @@ aristocrats = {
 
 #Chabahar
 1146 = {
-	aristocrats = {
+	capitalists = {
 		size = 443
 		culture = persian
 		religion = sunni
@@ -1865,7 +1865,7 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 14947
 		culture = baluchi
 		religion = sunni
@@ -1939,12 +1939,12 @@ aristocrats = {
 
 #Birjand
 1148 = {
-	aristocrats = {
+	capitalists = {
 		size = 2285
 		culture = persian
 		religion = shiite
 	}
-	aristocrats = {
+	capitalists = {
 		size = 373
 		culture = turkmen
 		religion = sunni
@@ -1964,7 +1964,7 @@ aristocrats = {
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 18891
 		culture = persian
 		religion = shiite
@@ -1990,7 +1990,7 @@ aristocrats = {
 		size = 80
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 1100
@@ -2058,17 +2058,17 @@ aristocrats = {
 
 #Kabul
 1209 = {
-	aristocrats = {
+	capitalists = {
 		size = 6693
 		culture = pashtun
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 1865
 		culture = tajik
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 419
 		culture = hazara
 		religion = shiite
@@ -2154,7 +2154,7 @@ aristocrats = {
 		size = 40
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 1060
@@ -2183,12 +2183,12 @@ aristocrats = {
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 5142
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 63273
 		culture = tajik
 		religion = sunni
@@ -2199,7 +2199,7 @@ aristocrats = {
 		size = 40
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 1060
@@ -2208,17 +2208,17 @@ aristocrats = {
 
 #Sheberghan
 1211 = {
-	aristocrats = {
+	capitalists = {
 		size = 492
 		culture = pashtun
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 199
 		culture = tajik
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 139
 		culture = hazara
 		religion = shiite
@@ -2253,17 +2253,17 @@ aristocrats = {
 		culture = hazara
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 10000
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2500
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8547
 		culture = hazara
 		religion = shiite
@@ -2274,7 +2274,7 @@ aristocrats = {
 		size = 130
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 3250
@@ -2308,17 +2308,17 @@ aristocrats = {
 		culture = persian
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 32324
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 13911
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 18657
 		culture = persian
 		religion = sunni
@@ -2329,7 +2329,7 @@ aristocrats = {
 		size = 85
 	}
 
-	farmers = {
+	labourers = {
 		culture = parsi
 		religion = zoroastrian
 		size = 1725
@@ -2378,22 +2378,22 @@ aristocrats = {
 		culture = hazara
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 13666
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 11112
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 45921
 		culture = hazara
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 14564
 		culture = hazara
 		religion = sunni
@@ -2402,17 +2402,17 @@ aristocrats = {
 
 #Farrah
 1214 = {
-	aristocrats = {
+	capitalists = {
 		size = 4337
 		culture = persian
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 1609
 		culture = pashtun
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 1142
 		culture = hazara
 		religion = shiite
@@ -2437,12 +2437,12 @@ aristocrats = {
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 23100
 		culture = persian
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 74631
 		culture = pashtun
 		religion = sunni
@@ -2486,12 +2486,12 @@ aristocrats = {
 		culture = hazara
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 67832
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 9422
 		culture = hazara
 		religion = shiite
@@ -2500,7 +2500,7 @@ aristocrats = {
 
 #Jalalabad
 1216 = {
-	aristocrats = {
+	capitalists = {
 		culture = kalash
 		religion = animist
 		size = 285
@@ -2525,12 +2525,12 @@ aristocrats = {
 		religion = animist
 		size = 380
 	}
-	farmers = {
+	labourers = {
 		size = 22100
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		culture = kalash
 		religion = animist
 		size = 32985
@@ -2564,12 +2564,12 @@ aristocrats = {
 		culture = hazara
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 57733
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 11112
 		culture = hazara
 		religion = shiite
@@ -2578,12 +2578,12 @@ aristocrats = {
 
 #Kunduz
 2619 = {
-	aristocrats = {
+	capitalists = {
 		size = 1000
 		culture = pashtun
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 500
 		culture = tajik
 		religion = sunni
@@ -2608,12 +2608,12 @@ aristocrats = {
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 61004
 		culture = pashtun
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 29677
 		culture = tajik
 		religion = sunni
@@ -2648,7 +2648,7 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 12594
 		culture = baluchi
 		religion = sunni
@@ -2657,7 +2657,7 @@ aristocrats = {
 
 #Kalat
 1221 = {
-	aristocrats = {
+	capitalists = {
 		size = 466
 		culture = baluchi
 		religion = sunni
@@ -2677,7 +2677,7 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 22789
 		culture = baluchi
 		religion = sunni
@@ -2701,7 +2701,7 @@ aristocrats = {
 
 #Bela
 1222 = {
-	aristocrats = {
+	capitalists = {
 		size = 326
 		culture = baluchi
 		religion = sunni
@@ -2721,7 +2721,7 @@ aristocrats = {
 		culture = baluchi
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 25934
 		culture = baluchi
 		religion = sunni

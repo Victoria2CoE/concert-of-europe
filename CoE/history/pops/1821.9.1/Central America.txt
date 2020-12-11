@@ -32,7 +32,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 733
 		culture = central_american
@@ -41,7 +41,7 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1086
 		culture = afro_caribeno
@@ -60,7 +60,7 @@
 
 2186 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 770
 		culture = central_american
@@ -102,14 +102,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19132
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 38837
 		culture = mayan
@@ -169,14 +169,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4426
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19418
 		culture = mayan
@@ -208,14 +208,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4447
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11107
 		culture = mayan
@@ -247,14 +247,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 742
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2764
 		culture = mayan
@@ -286,14 +286,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 901
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 247
 		culture = mayan
@@ -318,7 +318,7 @@
 }
 2191 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1947
 		culture = central_american
@@ -346,7 +346,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47834
 		culture = central_american
@@ -396,7 +396,7 @@
 }
 2193 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1639
 		culture = central_american
@@ -424,7 +424,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33345
 		culture = central_american
@@ -463,7 +463,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17097
 		culture = central_american
@@ -488,7 +488,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12604
 		culture = central_american
@@ -524,7 +524,7 @@
 }
 2197 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1364
 		culture = central_american
@@ -552,7 +552,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35599
 		culture = central_american
@@ -591,7 +591,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7398
 		culture = central_american
@@ -616,7 +616,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9694
 		culture = central_american
@@ -648,14 +648,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1475
 		culture = afro_caribbean
@@ -666,7 +666,7 @@
 }
 2201 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 430
 		culture = central_american
@@ -694,7 +694,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9612
 		culture = central_american
@@ -733,7 +733,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3689
 		culture = central_american
@@ -758,7 +758,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2213
 		culture = central_american
@@ -769,7 +769,7 @@
 }
 2204 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 479
 		culture = central_american
@@ -778,7 +778,7 @@
 		rebel_type = nationalist_rebels
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 14
 		culture = native_american_minor
@@ -826,7 +826,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6615
 		culture = central_american
@@ -835,14 +835,14 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2192
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7
 		culture = native_american_minor
@@ -920,14 +920,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4406
 		culture = central_american
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 549
 		culture = afro_caribeno
@@ -977,7 +977,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3689
 		culture = central_american
@@ -986,7 +986,7 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 549
 		culture = afro_caribeno
@@ -1023,7 +1023,7 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1483
 		culture = central_american
@@ -1032,7 +1032,7 @@
 		rebel_type = nationalist_rebels
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor

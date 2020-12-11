@@ -1021,7 +1021,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA37225" 
 		prestige = 2
-		aristocrats = {
+		capitalists = {
 			consciousness = 1 
 		}
 		clergymen = {

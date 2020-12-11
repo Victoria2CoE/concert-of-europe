@@ -50,7 +50,7 @@
 }
 2247 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2151
 		culture = north_andean
@@ -92,21 +92,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42526
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2028
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3661
 		culture = native_american_minor
@@ -255,7 +255,7 @@
 }
 2251 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2131
 		culture = north_andean
@@ -350,21 +350,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13834
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4488
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2770
 		culture = native_american_minor
@@ -403,14 +403,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3607
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1229
 		culture = afro_caribeno
@@ -456,21 +456,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8635
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12850
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = guajiro
@@ -516,21 +516,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 86672
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12132
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 920
 		culture = guajiro
@@ -548,7 +548,7 @@
 }
 2256 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1291
 		culture = north_andean
@@ -696,14 +696,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2541
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1475
 		culture = afro_caribeno
@@ -742,14 +742,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6496
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10167
 		culture = quechua
@@ -781,14 +781,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2192
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5417
 		culture = amazonian
@@ -799,14 +799,14 @@
 }
 2261 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 346
 		culture = amazonian
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 163
 		culture = north_andean
@@ -951,7 +951,7 @@
 }
 2264 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1434
 		culture = north_andean
@@ -986,14 +986,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33386
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7706
 		culture = afro_caribeno
@@ -1053,14 +1053,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2110
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 426
 		culture = afro_caribeno
@@ -1099,14 +1099,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5923
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1106
 		culture = afro_caribeno
@@ -1138,14 +1138,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2930
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 491
 		culture = afro_caribeno
@@ -1163,7 +1163,7 @@
 }
 2268 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1865
 		culture = north_andean
@@ -1230,14 +1230,14 @@
 }
 2269 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 770
 		culture = north_andean
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 108
 		culture = amazonian
@@ -1258,14 +1258,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5963
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 912
 		culture = afro_caribeno
@@ -1325,21 +1325,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10069
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5998
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 920
 		culture = guajiro
@@ -1378,21 +1378,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19449
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2213
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 920
 		culture = native_american_minor
@@ -1431,14 +1431,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7337
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2213
 		culture = afro_caribeno
@@ -1477,14 +1477,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14817
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2213
 		culture = afro_caribeno
@@ -1523,21 +1523,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3668
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 432
 		culture = afro_caribeno
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = native_american_minor
@@ -1576,14 +1576,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3668
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = amazonian
@@ -1622,14 +1622,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15494
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2971
 		culture = afro_caribeno
@@ -1668,14 +1668,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = amazonian
@@ -1700,7 +1700,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = amazonian
@@ -1711,7 +1711,7 @@
 }
 2279 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3545
 		culture = north_andean
@@ -1753,14 +1753,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17707
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39307
 		culture = quechua
@@ -1820,14 +1820,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12419
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2377
 		culture = afro_caribeno
@@ -1859,14 +1859,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5584
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11466
 		culture = afro_caribeno
@@ -1905,14 +1905,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10657
 		culture = north_andean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23154
 		culture = quechua
@@ -2043,7 +2043,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 45
 		culture = north_andean
@@ -2057,14 +2057,14 @@
 #Brasil
 2306 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 19
 		culture = tupinamba
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2377
 		culture = brazilian
@@ -2085,14 +2085,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = tupinamba
@@ -2146,7 +2146,7 @@
 }
 2338 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = guarani
@@ -2192,7 +2192,7 @@
 }
 2339 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2602
 		culture = platinean
@@ -2241,21 +2241,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 54784
 		culture = platinean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24168
 		culture = guarani
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2582
 		culture = afro_caribeno
@@ -2361,21 +2361,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6660
 		culture = platinean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19097
 		culture = guarani
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = guarani
@@ -2407,21 +2407,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6722
 		culture = platinean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8039
 		culture = guarani
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = guarani
@@ -2453,14 +2453,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = platinean
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = guarani
@@ -2471,7 +2471,7 @@
 }
 2344 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 778
 		culture = platinean
@@ -2510,7 +2510,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16473
 		culture = platinean
@@ -2518,7 +2518,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2582
 		culture = afro_caribeno
@@ -2576,7 +2576,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5963
 		culture = platinean
@@ -2612,7 +2612,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1475
 		culture = platinean
@@ -2620,7 +2620,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 758
 		culture = brazilian
@@ -2661,7 +2661,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4467
 		culture = platinean
@@ -2669,7 +2669,7 @@
 		militancy = 6
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2274
 		culture = brazilian
@@ -2682,7 +2682,7 @@
 
 2401 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 227
 		culture = amazonian
@@ -2703,7 +2703,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2673
 		culture = amazonian
@@ -2781,7 +2781,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = amazonian
@@ -2905,14 +2905,14 @@
 
 2410 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 463
 		culture = brazilian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 143
 		culture = amazonian
@@ -3237,14 +3237,14 @@
 }
 2416 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 184
 		culture = brazilian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 217
 		culture = amazonian
@@ -3279,14 +3279,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4426
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4601
 		culture = guarani
@@ -3339,14 +3339,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1496
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4526
 		culture = amazonian
@@ -3378,21 +3378,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 740
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = amazonian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4526
 		culture = guarani
@@ -3435,7 +3435,7 @@
 }
 2420 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = guarani
@@ -3502,7 +3502,7 @@
 }
 2421 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 213
 		culture = brazilian
@@ -3590,14 +3590,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = amazonian
@@ -3629,14 +3629,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = amazonian
@@ -3647,7 +3647,7 @@
 }
 2424 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2725
 		culture = brazilian
@@ -3682,14 +3682,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18342
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4119
 		culture = afro_brazilian
@@ -3749,14 +3749,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6660
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2721
 		culture = tupinamba
@@ -3788,14 +3788,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15576
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4795
 		culture = afro_brazilian
@@ -3827,14 +3827,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7439
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 920
 		culture = tupinamba
@@ -3845,7 +3845,7 @@
 }
 2428 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3115
 		culture = brazilian
@@ -3880,14 +3880,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13465
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1352
 		culture = afro_brazilian
@@ -3947,14 +3947,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19060
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4836
 		culture = afro_brazilian
@@ -3993,14 +3993,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5923
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1352
 		culture = afro_brazilian
@@ -4046,14 +4046,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11497
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4119
 		culture = afro_brazilian
@@ -4099,14 +4099,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10780
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3074
 		culture = afro_brazilian
@@ -4145,14 +4145,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5759
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3463
 		culture = afro_brazilian
@@ -4191,14 +4191,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15599
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4057
 		culture = afro_brazilian
@@ -4237,14 +4237,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12522
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3422
 		culture = afro_brazilian
@@ -4311,14 +4311,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22842
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4959
 		culture = afro_brazilian
@@ -4364,14 +4364,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13793
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6810
 		culture = afro_brazilian
@@ -4410,14 +4410,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14756
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4119
 		culture = afro_brazilian
@@ -4435,7 +4435,7 @@
 }
 2439 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3771
 		culture = brazilian
@@ -4463,14 +4463,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12528
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3412
 		culture = afro_brazilian
@@ -4530,14 +4530,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7972
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4570
 		culture = afro_brazilian
@@ -4590,14 +4590,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25966
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7480
 		culture = afro_brazilian
@@ -4636,14 +4636,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10822
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3422
 		culture = afro_brazilian
@@ -4682,14 +4682,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7193
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4119
 		culture = afro_brazilian
@@ -4728,14 +4728,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7911
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2382
 		culture = afro_brazilian
@@ -4774,14 +4774,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5067
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2738
 		culture = afro_brazilian
@@ -4799,7 +4799,7 @@
 }
 2446 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3033
 		culture = brazilian
@@ -4880,7 +4880,7 @@
 }
 2447 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3381
 		culture = brazilian
@@ -4943,14 +4943,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 89279
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7542
 		culture = afro_brazilian
@@ -5024,14 +5024,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14633
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6640
 		culture = afro_brazilian
@@ -5070,14 +5070,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13321
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3463
 		culture = afro_brazilian
@@ -5123,14 +5123,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35169
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4119
 		culture = afro_brazilian
@@ -5169,14 +5169,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17113
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2746
 		culture = afro_brazilian
@@ -5215,14 +5215,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7419
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1701
 		culture = afro_brazilian
@@ -5268,14 +5268,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7460
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 983
 		culture = afro_brazilian
@@ -5317,14 +5317,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8177
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1393
 		culture = afro_brazilian
@@ -5356,14 +5356,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = tupinamba
@@ -5374,7 +5374,7 @@
 }
 2457 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1188
 		culture = brazilian
@@ -5409,14 +5409,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27770
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1393
 		culture = afro_brazilian
@@ -5469,21 +5469,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4426
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1024
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = tupinamba
@@ -5529,21 +5529,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4406
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 983
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4526
 		culture = guarani
@@ -5589,21 +5589,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9694
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 983
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = tupinamba
@@ -5621,7 +5621,7 @@
 }
 2461 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 963
 		culture = brazilian
@@ -5649,14 +5649,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11907
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1701
 		culture = afro_brazilian
@@ -5734,7 +5734,7 @@
 }
 2463 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1926
 		culture = brazilian
@@ -5769,14 +5769,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26735
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3422
 		culture = afro_brazilian
@@ -5843,14 +5843,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3279
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 983
 		culture = afro_brazilian
@@ -5896,21 +5896,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11477
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1393
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4601
 		culture = guarani
@@ -5949,14 +5949,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9837
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1701
 		culture = afro_brazilian
@@ -5995,14 +5995,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1639
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4526
 		culture = guarani
@@ -6013,7 +6013,7 @@
 }
 2468 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 158
 		culture = aborigine
@@ -6041,21 +6041,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4029
 		culture = australian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2949
 		culture = irish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2770
 		culture = aborigine
@@ -6133,14 +6133,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 824
 		culture = australian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6158,7 +6158,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6183,14 +6183,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1694
 		culture = australian
@@ -6222,14 +6222,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 822
 		culture = australian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = aborigine
@@ -6247,7 +6247,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = aborigine
@@ -6276,7 +6276,7 @@
 }
 2476 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 143
 		culture = aborigine
@@ -6290,7 +6290,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = aborigine
@@ -6322,7 +6322,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = aborigine
@@ -6340,7 +6340,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6358,7 +6358,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6376,7 +6376,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6430,7 +6430,7 @@
 }
 2483 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 168
 		culture = aborigine
@@ -6458,14 +6458,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 188
 		culture = aborigine
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 824
 		culture = australian
@@ -6497,7 +6497,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1830
 		culture = aborigine
@@ -6515,7 +6515,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6533,7 +6533,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1733
 		culture = aborigine
@@ -6551,7 +6551,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6587,7 +6587,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 940
 		culture = aborigine
@@ -6599,7 +6599,7 @@
 ###2490 ---> Removed Provinces.txt
 2491 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 98
 		culture = aborigine
@@ -6613,7 +6613,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2869
 		culture = aborigine
@@ -6638,7 +6638,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6656,7 +6656,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6693,7 +6693,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6704,7 +6704,7 @@
 }
 2497 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 227
 		culture = aborigine
@@ -6725,14 +6725,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 627
 		culture = australian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4700
 		culture = aborigine
@@ -6800,7 +6800,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = aborigine
@@ -6818,7 +6818,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1731
 		culture = aborigine
@@ -6854,7 +6854,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 623
 		culture = aborigine
@@ -6883,7 +6883,7 @@
 }
 2505 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 110
 		culture = aborigine
@@ -6940,7 +6940,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 623
 		culture = aborigine
@@ -6958,7 +6958,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 215
 		culture = australian
@@ -6969,7 +6969,7 @@
 }
 2509 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 150
 		culture = maori
@@ -6990,14 +6990,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1000
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3575
 		culture = maori
@@ -7029,7 +7029,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1775
 		culture = maori
@@ -7054,7 +7054,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2675
 		culture = maori
@@ -7079,7 +7079,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2675
 		culture = maori
@@ -7090,7 +7090,7 @@
 }
 2513 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 70
 		culture = maori
@@ -7111,7 +7111,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = maori
@@ -7143,7 +7143,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = maori
@@ -7168,14 +7168,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1000
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1775
 		culture = maori
@@ -7200,7 +7200,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2675
 		culture = maori
@@ -7345,7 +7345,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2675
 		culture = maori
@@ -7387,14 +7387,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10896
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2541
 		culture = ugrian
@@ -7548,7 +7548,7 @@
 }
 2590 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 13
 		culture = inuit
@@ -7569,7 +7569,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 214
 		culture = inuit
@@ -7663,7 +7663,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = aborigine
@@ -7784,28 +7784,28 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6000
 		culture = byelorussian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6000
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11000
 		culture = byelorussian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2800
 		culture = ashkenazi
@@ -7816,7 +7816,7 @@
 }
 2615 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 23
 		culture = ugrian
@@ -7883,7 +7883,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -7895,7 +7895,7 @@
 ###2617 ---> Outer Manchuria and Islands.txt
 2618 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 11
 		culture = siberian
@@ -7916,7 +7916,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -7951,7 +7951,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -7962,7 +7962,7 @@
 }
 2621 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9
 		culture = siberian
@@ -8049,7 +8049,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8074,7 +8074,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8170,7 +8170,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8195,7 +8195,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8237,14 +8237,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = siberian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 219
 		culture = russian
@@ -8276,7 +8276,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = yakut
@@ -8301,7 +8301,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = yakut
@@ -8489,21 +8489,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1655
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8163
 		culture = yakut
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4645
 		culture = yakut
@@ -8529,21 +8529,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1335
 		culture = yakut
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 470
 		culture = yakut
@@ -8602,7 +8602,7 @@
 
 2653 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 20
 		culture = siberian
@@ -8751,14 +8751,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 405
 		culture = siberian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41
 		culture = russian
@@ -8833,7 +8833,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8908,7 +8908,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -8994,21 +8994,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1014
 		culture = yakut
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83
 		culture = russian
@@ -9090,21 +9090,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2231
 		culture = yakut
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 702
 		culture = yakut
@@ -9171,14 +9171,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 321
 		culture = siberian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 133
 		culture = yakut
@@ -9203,7 +9203,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -9379,14 +9379,14 @@
 }
 2685 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = ugrian
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = russian
@@ -9524,14 +9524,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 178
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 586
 		culture = ugrian
@@ -9588,14 +9588,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 181
 		culture = ugrian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83
 		culture = russian
@@ -9634,14 +9634,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 791
 		culture = siberian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83
 		culture = russian
@@ -9702,7 +9702,7 @@
 }
 2694 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 18
 		culture = siberian
@@ -9723,7 +9723,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -9755,21 +9755,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = yakut
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 470
 		culture = yakut
@@ -9794,7 +9794,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian
@@ -9833,14 +9833,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8582
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 915
 		culture = siberian
@@ -9961,7 +9961,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 227
 		culture = siberian

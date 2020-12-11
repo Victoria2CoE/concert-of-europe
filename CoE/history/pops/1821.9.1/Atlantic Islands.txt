@@ -4,7 +4,7 @@
 
 1876 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 91
 		culture = portuguese
@@ -46,14 +46,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 91
 		culture = portuguese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13358
 		culture = african_minor
@@ -86,7 +86,7 @@
 
 1954 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 18
 		culture = portuguese
@@ -121,7 +121,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 544
 		culture = african_minor
@@ -154,14 +154,14 @@
 
 1955 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2
 		culture = spanish
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 346
 		culture = fang
@@ -196,7 +196,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1513
 		culture = fang
@@ -230,7 +230,7 @@
 
 2134 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 686
 		culture = portuguese
@@ -258,7 +258,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42099
 		culture = portuguese
@@ -297,7 +297,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21816
 		culture = portuguese
@@ -308,7 +308,7 @@
 }
 2136 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 755
 		culture = spanish
@@ -336,7 +336,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43061
 		culture = spanish
@@ -384,7 +384,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 824
 		culture = british
@@ -395,7 +395,7 @@
 }
 2130 = {
 
-	farmers = {
+	labourers = {
 
 		size = 22
 		culture = british
@@ -406,14 +406,14 @@
 }
 2131 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 29
 		culture = patagonian
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40
 		culture = platinean
@@ -438,7 +438,7 @@
 }
 2132 = {
 
-	farmers = {
+	labourers = {
 
 		size = 22
 		culture = british
@@ -456,7 +456,7 @@
 }
 2133 = {
 
-	farmers = {
+	labourers = {
 
 		size = 12
 		culture = british

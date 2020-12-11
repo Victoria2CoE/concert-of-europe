@@ -2,7 +2,7 @@
 #Ruled by Bolivia 1836
 #Antofagasta (80000/20000 POPS)
 2305 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 25
@@ -39,7 +39,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -64,7 +64,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1225
@@ -72,7 +72,7 @@
 }
 #Calama (32000/8000 POPS)
 2309 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 175
@@ -97,7 +97,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 575
@@ -122,7 +122,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1700
@@ -131,7 +131,7 @@
 #Ruled by Peru 1836
 #Iquique (32000/8000 POPS)
 2307 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 175
@@ -156,7 +156,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1650
@@ -181,7 +181,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1575
@@ -189,7 +189,7 @@
 }
 #Arica (20000/5000 POPS)
 2308 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 125
@@ -214,7 +214,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 740
@@ -239,7 +239,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1725
@@ -249,7 +249,7 @@
 #Ruled by Chile 1836
 #Copiapo (52000/13000 POPS)
 2322 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 275
@@ -274,7 +274,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 6825
@@ -282,7 +282,7 @@
 }
 #La Serena (64000/16000 POPS)
 2323 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 350
@@ -319,7 +319,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 8450
@@ -340,12 +340,12 @@
 		religion = catholic
 		size = 50
 	}	
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 550
 	}	
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 1500
@@ -389,12 +389,12 @@
 
 	}	
 
-	farmers = {
+	labourers = {
 		culture = chilean
 		religion = catholic
 		size = 86275
 	}
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = catholic
 		size = 20000
@@ -402,7 +402,7 @@
 }
 #Valparaiso (128000/32000 POPS)
 2325 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 375
@@ -433,13 +433,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 15000
 	}
 	
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = catholic
 		size = 5000
@@ -448,7 +448,7 @@
 }
 #Vina del Mar (72000/18000 POPS)
 2326 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 375
@@ -473,7 +473,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = chilean
 		religion = catholic
 		size = 5550
@@ -481,7 +481,7 @@
 }
 #Talca (20000/5000 POPS)
 2327 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 125
@@ -506,7 +506,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = catholic
 		size = 4525
@@ -516,7 +516,7 @@
 #Ruled by Chile 1836
 #Valdivia (92000/23000 POPS)
 2328 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 350
@@ -553,13 +553,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 4550
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 100
@@ -584,7 +584,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 5475
@@ -592,7 +592,7 @@
 }
 #Temuco (36000/9000 POPS)
 2329 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = catholic
 		size = 125
@@ -617,13 +617,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = catholic
 		size = 4525
 	}
 #
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 50
@@ -648,7 +648,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = animist
 		size = 3625
@@ -656,7 +656,7 @@
 }
 #Cauquenes (68000/17000 POPS)
 2330 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 350
@@ -681,7 +681,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 4650
@@ -689,7 +689,7 @@
 }
 #Chillan (36000/9000 POPS)
 2331 = {
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = catholic
 		size = 175
@@ -714,13 +714,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1325
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 25
@@ -745,7 +745,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 1800
@@ -755,7 +755,7 @@
 #Ruled by Chile 1836
 #Osorno (68000/17000 POPS)
 2332 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = catholic
 		size = 275
@@ -792,13 +792,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = catholic
 		size = 1800
 	}
 #
-	aristocrats = {
+	capitalists = {
 		culture = chilean
 		religion = animist
 		size = 75
@@ -823,7 +823,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 3600
@@ -832,7 +832,7 @@
 #uncolonized/claimed by Chile 1836
 #Puerto Aisen (12000/3000 POPS)
 2333 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 50
@@ -857,7 +857,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -865,7 +865,7 @@
 }
 #Punta Arenas (8000/2000 POPS)
 2334 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 25
@@ -890,7 +890,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 1800
@@ -898,7 +898,7 @@
 }
 #Porvenir (4000/1000 POPS)
 2335 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -923,7 +923,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900

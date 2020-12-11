@@ -114,7 +114,7 @@ country_event = {
 						OR = {
 							type = soldiers
 							type = officers
-							type = aristocrats
+							type = capitalists
 						}
 					}
 					ideology = {

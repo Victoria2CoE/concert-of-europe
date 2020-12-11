@@ -1,7 +1,7 @@
 
 1384 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 163
 		culture = british
@@ -68,7 +68,7 @@
 }
 1385 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 373
 		culture = malay
@@ -209,14 +209,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12069
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1026
 		culture = yue
@@ -255,14 +255,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1935
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12967
 		culture = malay
@@ -281,7 +281,7 @@
 
 1390 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 349
 		culture = malay
@@ -302,7 +302,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6892
 		culture = malay
@@ -321,14 +321,14 @@
 
 1393 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = malay
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 209
 		culture = asian_minor
@@ -356,7 +356,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5060
 		culture = malay
@@ -423,21 +423,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7749
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9445
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 466
 		culture = yue
@@ -487,14 +487,14 @@
 }
 1396 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = asian_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = malay
@@ -536,21 +536,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5207
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5993
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 443
 		culture = yue
@@ -575,14 +575,14 @@
 }
 1397 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = asian_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 23
 		culture = malay
@@ -617,14 +617,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6040
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = malay
@@ -671,14 +671,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24161
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1865
 		culture = yue

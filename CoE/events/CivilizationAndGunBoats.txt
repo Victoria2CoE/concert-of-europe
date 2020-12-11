@@ -1775,7 +1775,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		any_owned_province = {
-			has_pop_type = aristocrats
+			has_pop_type = capitalists
 			has_province_modifier = western_presence
 		}
 		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
@@ -1815,11 +1815,11 @@ country_event = {
 		random_state = {
 			limit = {
 				any_owned_province = {
-					has_pop_type = aristocrats
+					has_pop_type = capitalists
 					has_province_modifier = western_presence
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 1
 				militancy = 2
 				ideology = {
@@ -1836,7 +1836,7 @@ country_event = {
 		random_state = {
 			limit = {
 				any_owned_province = {
-					has_pop_type = aristocrats
+					has_pop_type = capitalists
 					has_province_modifier = western_presence
 				}
 			}
@@ -1855,7 +1855,7 @@ country_event = {
 		name = "EVTOPTC13080"
 		random_owned = {
 			limit = {
-				has_pop_type = aristocrats
+				has_pop_type = capitalists
 				has_province_modifier = western_presence
 			}
 			remove_province_modifier = western_presence
@@ -3641,8 +3641,8 @@ country_event = {
 	option = {
 		name = "EVTOPTA13280"
 		random_owned = {
-			limit = { has_pop_type = aristocrats }
-			aristocrats = {
+			limit = { has_pop_type = capitalists }
+			capitalists = {
 				consciousness = 2
 				militancy = 3
 				ideology = {
@@ -3695,7 +3695,7 @@ country_event = {
 		bureaucrats = {
 			militancy = 1
 		}
-		aristocrats = {
+		capitalists = {
 			militancy = 1
 		}
 		farmers = {

@@ -3,7 +3,7 @@
 #############
 474 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4120
 		culture = spanish
@@ -31,14 +31,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15000
 		culture = portuguese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 126339
 		culture = spanish
@@ -109,14 +109,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17000
 		culture = portuguese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52232
 		culture = spanish
@@ -127,7 +127,7 @@
 }
 477 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5356
 		culture = spanish
@@ -194,14 +194,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32690
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3571
 		culture = basque
@@ -258,7 +258,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37452
 		culture = spanish
@@ -340,7 +340,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 45098
 		culture = spanish
@@ -351,7 +351,7 @@
 }
 484 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2930
 		culture = spanish
@@ -379,7 +379,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42717
 		culture = spanish
@@ -418,7 +418,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40016
 		culture = spanish
@@ -454,7 +454,7 @@
 }
 487 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 7387
 		culture = spanish
@@ -531,7 +531,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20236
 		culture = spanish
@@ -620,7 +620,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 72135
 		culture = spanish
@@ -645,7 +645,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 60070
 		culture = spanish
@@ -656,14 +656,14 @@
 }
 492 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5585
 		culture = basque
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 228
 		culture = spanish
@@ -779,14 +779,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32072
 		culture = basque
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18291
 		culture = spanish
@@ -850,14 +850,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52287
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1785
 		culture = catalan
@@ -896,14 +896,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32461
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14674
 		culture = catalan
@@ -928,7 +928,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47159
 		culture = spanish
@@ -939,14 +939,14 @@
 }
 498 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5082
 		culture = catalan
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = spanish
@@ -1016,14 +1016,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 48738
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14765
 		culture = spanish
@@ -1090,14 +1090,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30493
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17032
 		culture = spanish
@@ -1136,14 +1136,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22114
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10324
 		culture = spanish
@@ -1182,14 +1182,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34659
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16162
 		culture = spanish
@@ -1228,14 +1228,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30493
 		culture = catalan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14559
 		culture = spanish
@@ -1246,14 +1246,14 @@
 }
 503 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5814
 		culture = spanish
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1007
 		culture = catalan
@@ -1316,14 +1316,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34705
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36330
 		culture = catalan
@@ -1390,14 +1390,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19825
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24060
 		culture = catalan
@@ -1436,14 +1436,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 45625
 		culture = spanish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35071
 		culture = catalan
@@ -1525,7 +1525,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41756
 		culture = spanish
@@ -1571,7 +1571,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 56957
 		culture = spanish
@@ -1596,7 +1596,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62726
 		culture = spanish
@@ -1621,7 +1621,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28730
 		culture = spanish
@@ -1632,7 +1632,7 @@
 }
 512 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4899
 		culture = spanish
@@ -1667,7 +1667,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 54200
 		culture = spanish
@@ -1692,7 +1692,7 @@
 }
 513 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 8058
 		culture = spanish
@@ -1823,7 +1823,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 53367
 		culture = spanish
@@ -1873,7 +1873,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 183
 		culture = spanish
@@ -1902,7 +1902,7 @@
 #################
 518 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4212
 		culture = portuguese
@@ -1951,7 +1951,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 137539
 		culture = portuguese
@@ -1990,7 +1990,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 63435
 		culture = portuguese
@@ -2022,7 +2022,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 110343
 		culture = portuguese
@@ -2033,7 +2033,7 @@
 }
 521 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2884
 		culture = portuguese
@@ -2096,7 +2096,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20603
 		culture = portuguese
@@ -2142,7 +2142,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 91387
 		culture = portuguese
@@ -2192,7 +2192,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20878
 		culture = portuguese
@@ -2203,7 +2203,7 @@
 }
 525 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1739
 		culture = portuguese
@@ -2231,7 +2231,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31363
 		culture = portuguese
@@ -2295,7 +2295,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24747
 		culture = portuguese

@@ -3,14 +3,14 @@
 #################
 349 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1057
 		culture = russian_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1121
 		culture = russian
@@ -87,14 +87,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31981
 		culture = estonian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 366
 		culture = swedish
@@ -175,14 +175,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37429
 		culture = estonian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1007
 		culture = russian
@@ -221,7 +221,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19046
 		culture = estonian
@@ -274,14 +274,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31592
 		culture = estonian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1213
 		culture = russian
@@ -327,7 +327,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3319
 		culture = estonian
@@ -342,14 +342,14 @@
 ##############
 354 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2986
 		culture = russian_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 246
 		culture = russian
@@ -419,7 +419,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35506
 		culture = latvian
@@ -528,20 +528,20 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 53818
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1798
 		culture = ashkenazi
 		religion = jewish
 	}
-	farmers = {
+	labourers = {
 
 		size = 719
 		culture = russian
@@ -608,28 +608,28 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18131
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1396
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1877
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3525
 		culture = lithuanian
@@ -640,21 +640,21 @@
 }
 357 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2057
 		culture = russian_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 120
 		culture = russian
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = polish
@@ -717,14 +717,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25891
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 686
 		culture = ashkenazi
@@ -812,21 +812,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26967
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1373
 		culture = ugrian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 869
 		culture = ashkenazi
@@ -879,14 +879,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19664
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 686
 		culture = ashkenazi
@@ -982,42 +982,42 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41000
 		culture = latvian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4000
 		culture = latvian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1750
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 700
 		culture = russian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3854
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3054
 		culture = byelorussian
@@ -1032,7 +1032,7 @@
 #################
 360 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5719
 		culture = polish
@@ -1143,28 +1143,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5154
 		culture = lithuanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7560
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3600
 		culture = byelorussian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10400
 		culture = ashkenazi
@@ -1203,7 +1203,7 @@
 }
 361 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5612
 		culture = polish
@@ -1265,28 +1265,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27839
 		culture = lithuanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2500
 		culture = russian_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4503
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6455
 		culture = ashkenazi
@@ -1382,42 +1382,42 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26569
 		culture = lithuanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = lithuanian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6249
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 686
 		culture = russian_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1671
 		culture = russian
@@ -1456,21 +1456,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34651
 		culture = lithuanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = lithuanian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4944
 		culture = ashkenazi
@@ -1523,28 +1523,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13491
 		culture = lithuanian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1000
 		culture = lithuanian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2129
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 778
 		culture = russian_german

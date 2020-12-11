@@ -1,5 +1,5 @@
 132 = {
-	aristocrats = {
+	capitalists = {
 
 		size = 100
 		culture = dixie
@@ -27,7 +27,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 900
 		culture = dixie
@@ -48,21 +48,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 340
 		culture = native_american_minor
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 450
 		culture = mexican
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 200
 		culture = cherokee
@@ -80,14 +80,14 @@
 }
 133 = {
 
-	farmers = {
+	labourers = {
 
 		size = 1200
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1000
 		culture = mexican
@@ -108,7 +108,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 300
 		culture = dixie
@@ -126,7 +126,7 @@
 }
 134 = {
 
-	farmers = {
+	labourers = {
 
 		size = 1200
 		culture = native_american_minor
@@ -154,7 +154,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 500
 		culture = dixie
@@ -172,14 +172,14 @@
 }
 135 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 100
 		culture = native_american_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 50
 		culture = mexican
@@ -242,7 +242,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1291
 		culture = dixie
@@ -253,14 +253,14 @@
 }
 137 = {
 
-	farmers = {
+	labourers = {
 
 		size = 1200
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1100
 		culture = mexican
@@ -281,7 +281,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 800
 		culture = dixie

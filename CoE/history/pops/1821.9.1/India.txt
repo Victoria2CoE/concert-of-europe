@@ -32,14 +32,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83143
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47694
 		culture = bengali
@@ -98,7 +98,7 @@
 }
 1219 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 326
 		culture = pashtun
@@ -119,7 +119,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18961
 		culture = pashtun
@@ -138,7 +138,7 @@
 
 1223 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1585
 		culture = pashtun
@@ -191,21 +191,21 @@
 }
 1224 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 326
 		culture = kashmiri
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2029
 		culture = kashmiri
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 559
 		culture = tibetan
@@ -356,21 +356,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4291
 		culture = pashtun
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34258
 		culture = kashmiri
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18261
 		culture = tibetan
@@ -402,14 +402,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5993
 		culture = kashmiri
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36079
 		culture = tibetan
@@ -420,21 +420,21 @@
 }
 1227 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2518
 		culture = panjabi
 		religion = sikh
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1585
 		culture = panjabi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 8909
 		culture = panjabi
@@ -504,21 +504,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83820
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 82654
 		culture = panjabi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 392374
 		culture = panjabi
@@ -599,21 +599,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6157
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 116145
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15392
 		culture = panjabi
@@ -652,14 +652,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 107655
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8116
 		culture = panjabi
@@ -705,21 +705,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43845
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7696
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24465
 		culture = panjabi
@@ -758,14 +758,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68147
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15462
 		culture = panjabi
@@ -832,21 +832,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4524
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 213165
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24908
 		culture = panjabi
@@ -857,21 +857,21 @@
 }
 1233 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1259
 		culture = panjabi
 		religion = sikh
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3544
 		culture = panjabi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2565
 		culture = panjabi
@@ -927,21 +927,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59891
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 271005
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 143432
 		culture = panjabi
@@ -1029,28 +1029,28 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19590
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 70386
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 56113
 		culture = panjabi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 54061
 		culture = avadhi
@@ -1061,28 +1061,28 @@
 }
 1235 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = panjabi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 559
 		culture = avadhi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1026
 		culture = nepali
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = british
@@ -1138,21 +1138,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3521
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 50026
 		culture = avadhi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 66002
 		culture = nepali
@@ -1198,21 +1198,21 @@
 }
 1236 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 13620
 		culture = avadhi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 5457
 		culture = panjabi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 466
 		culture = panjabi
@@ -1296,21 +1296,21 @@
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74747
 		culture = avadhi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 167920
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9562
 		culture = panjabi
@@ -1384,21 +1384,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 53761
 		culture = panjabi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27870
 		culture = panjabi
 		religion = sikh
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 192408
 		culture = avadhi
@@ -1409,21 +1409,21 @@
 }
 1238 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = avadhi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = avadhi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 466
 		culture = nepali
@@ -1472,21 +1472,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15159
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 146697
 		culture = avadhi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41980
 		culture = nepali
@@ -1546,14 +1546,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22739
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 315317
 		culture = avadhi
@@ -1606,14 +1606,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 79762
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 816513
 		culture = avadhi
@@ -1624,14 +1624,14 @@
 }
 1241 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 6996
 		culture = avadhi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1632
 		culture = avadhi
@@ -1673,14 +1673,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 687308
 		culture = avadhi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 110431
 		culture = avadhi
@@ -1789,21 +1789,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52358
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5154
 		culture = avadhi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 493033
 		culture = avadhi
@@ -1814,14 +1814,14 @@
 }
 1243 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 17724
 		culture = kanauji
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2332
 		culture = kanauji
@@ -1909,21 +1909,21 @@
 }
 1244 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 7931
 		culture = avadhi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1819
 		culture = avadhi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = avadhi
@@ -1972,14 +1972,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 423999
 		culture = avadhi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19963
 		culture = avadhi
@@ -2060,14 +2060,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55973
 		culture = kanauji
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 473209
 		culture = kanauji
@@ -2120,14 +2120,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 38889
 		culture = kanauji
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 490934
 		culture = kanauji
@@ -2138,14 +2138,14 @@
 }
 1247 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 25654
 		culture = bihari
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3031
 		culture = bihari
@@ -2208,14 +2208,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 546441
 		culture = bihari
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 96787
 		culture = bihari
@@ -2275,14 +2275,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 601248
 		culture = bihari
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 57372
 		culture = bihari
@@ -2328,14 +2328,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 568597
 		culture = bihari
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68567
 		culture = bihari
@@ -2388,14 +2388,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 359396
 		culture = bihari
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46994
 		culture = bihari
@@ -2406,28 +2406,28 @@
 }
 1251 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 19402
 		culture = bengali
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 9888
 		culture = bengali
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 513
 		culture = british
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = asian_minor
@@ -2504,14 +2504,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 901639
 		culture = bengali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59005
 		culture = bengali
@@ -2557,14 +2557,14 @@
 }
 1252 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 20990
 		culture = bengali
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 5457
 		culture = bengali
@@ -2606,21 +2606,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9328
 		culture = nepali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 508661
 		culture = bengali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 170252
 		culture = bengali
@@ -2687,14 +2687,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 876801
 		culture = bengali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 80695
 		culture = bengali
@@ -2761,14 +2761,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 641829
 		culture = bengali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 497678
 		culture = bengali
@@ -2821,14 +2821,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 330010
 		culture = bengali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 169319
 		culture = bengali
@@ -2881,14 +2881,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 323946
 		culture = bengali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 187977
 		culture = bengali
@@ -2955,21 +2955,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 736053
 		culture = bengali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 508426
 		culture = bengali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19357
 		culture = asian_minor
@@ -2980,14 +2980,14 @@
 }
 1258 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3451
 		culture = assamese
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1259
 		culture = asian_minor
@@ -3057,21 +3057,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 135735
 		culture = assamese
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42679
 		culture = assamese
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49917
 		culture = asian_minor
@@ -3145,21 +3145,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 82327
 		culture = manipuri
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26237
 		culture = assamese
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23322
 		culture = asian_minor
@@ -3191,14 +3191,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74398
 		culture = assamese
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8792
 		culture = asian_minor
@@ -3210,7 +3210,7 @@
 
 1261 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2332
 		culture = oriya
@@ -3252,14 +3252,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 201038
 		culture = oriya
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1026
 		culture = bengali
@@ -3277,14 +3277,14 @@
 }
 1262 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1119
 		culture = oriya
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 443
 		culture = asian_minor
@@ -3326,21 +3326,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 70106
 		culture = oriya
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18028
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2728
 		culture = bengali
@@ -3400,14 +3400,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24161
 		culture = oriya
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19800
 		culture = asian_minor
@@ -3418,14 +3418,14 @@
 }
 1264 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3824
 		culture = rajput
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = avadhi
@@ -3467,14 +3467,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27473
 		culture = rajput
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7766
 		culture = avadhi
@@ -3506,7 +3506,7 @@
 }
 1265 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1026
 		culture = rajput
@@ -3541,14 +3541,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 89114
 		culture = rajput
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4967
 		culture = avadhi
@@ -3580,7 +3580,7 @@
 }
 1266 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2985
 		culture = rajput
@@ -3643,14 +3643,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 247262
 		culture = rajput
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6623
 		culture = avadhi
@@ -3682,7 +3682,7 @@
 }
 1267 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2425
 		culture = rajput
@@ -3717,14 +3717,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 212349
 		culture = rajput
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2635
 		culture = avadhi
@@ -3823,7 +3823,7 @@
 }
 1269 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3171
 		culture = rajput
@@ -3865,14 +3865,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 283225
 		culture = rajput
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = avadhi
@@ -3897,7 +3897,7 @@
 }
 1270 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2798
 		culture = marathi
@@ -3939,14 +3939,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 239823
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8069
 		culture = avadhi
@@ -3978,7 +3978,7 @@
 }
 1271 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2425
 		culture = marathi
@@ -4013,14 +4013,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 217736
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2682
 		culture = avadhi
@@ -4045,7 +4045,7 @@
 }
 1272 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1865
 		culture = marathi
@@ -4080,14 +4080,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 168946
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 373
 		culture = avadhi
@@ -4154,21 +4154,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 78689
 		culture = kanauji
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55600
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 886
 		culture = avadhi
@@ -4179,14 +4179,14 @@
 }
 1274 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2332
 		culture = kanauji
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1212
 		culture = asian_minor
@@ -4235,21 +4235,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 109708
 		culture = kanauji
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1795
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 50096
 		culture = asian_minor
@@ -4274,7 +4274,7 @@
 }
 1275 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 8396
 		culture = marathi
@@ -4337,14 +4337,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 623778
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24208
 		culture = avadhi
@@ -4397,14 +4397,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 116611
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10448
 		culture = avadhi
@@ -4415,14 +4415,14 @@
 }
 1277 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5084
 		culture = marathi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2565
 		culture = asian_minor
@@ -4485,21 +4485,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 315177
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26400
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 53268
 		culture = asian_minor
@@ -4538,7 +4538,7 @@
 }
 1278 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2798
 		culture = marathi
@@ -4573,14 +4573,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 261676
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10728
 		culture = avadhi
@@ -4605,14 +4605,14 @@
 }
 1279 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = telegu
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 373
 		culture = asian_minor
@@ -4661,21 +4661,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55413
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4198
 		culture = telegu
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31578
 		culture = asian_minor
@@ -4735,14 +4735,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 65815
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 106559
 		culture = asian_minor
@@ -4781,14 +4781,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 69313
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74677
 		culture = asian_minor
@@ -4799,14 +4799,14 @@
 }
 1282 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1049
 		culture = kanauji
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 326
 		culture = asian_minor
@@ -4848,14 +4848,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 91050
 		culture = kanauji
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27986
 		culture = asian_minor
@@ -4880,14 +4880,14 @@
 }
 1283 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 10496
 		culture = telegu
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3498
 		culture = avadhi
@@ -4957,21 +4957,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 315550
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12943
 		culture = avadhi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1711
 		culture = avadhi
@@ -5031,14 +5031,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 232989
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34423
 		culture = avadhi
@@ -5077,14 +5077,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 194368
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31438
 		culture = avadhi
@@ -5123,14 +5123,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 164468
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4221
 		culture = avadhi
@@ -5194,14 +5194,14 @@
 }
 1288 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3871
 		culture = sindi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 466
 		culture = sindi
@@ -5250,21 +5250,21 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 153110
 		culture = sindi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5270
 		culture = sindi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36639
 		culture = sindi
@@ -5310,14 +5310,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68380
 		culture = sindi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3451
 		culture = sindi
@@ -5356,14 +5356,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 123794
 		culture = sindi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13946
 		culture = sindi
@@ -5374,14 +5374,14 @@
 }
 1291 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4198
 		culture = gujarati
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 979
 		culture = sindi
@@ -5458,21 +5458,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 158265
 		culture = gujarati
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17165
 		culture = gujarati
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19380
 		culture = sindi
@@ -5546,14 +5546,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 421200
 		culture = gujarati
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16045
 		culture = sindi
@@ -5564,7 +5564,7 @@
 }
 1293 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 746
 		culture = gujarati
@@ -5624,14 +5624,14 @@
 }
 1294 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 12594
 		culture = gujarati
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 349
 		culture = sindi
@@ -5666,14 +5666,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 330523
 		culture = gujarati
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 792
 		culture = sindi
@@ -5740,14 +5740,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 332874
 		culture = gujarati
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1725
 		culture = sindi
@@ -5793,14 +5793,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 197773
 		culture = gujarati
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22750
 		culture = sindi
@@ -5811,21 +5811,21 @@
 }
 1297 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 14693
 		culture = marathi
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 792
 		culture = sindi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1049
 		culture = british
@@ -6099,14 +6099,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 238353
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8745
 		culture = kannada
@@ -6145,21 +6145,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 211300
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8396
 		culture = marathi
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4431
 		culture = kannada
@@ -6198,14 +6198,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 184712
 		culture = marathi
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3521
 		culture = kannada
@@ -6265,21 +6265,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 232523
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13386
 		culture = gujarati
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18144
 		culture = kannada
@@ -6290,14 +6290,14 @@
 }
 1303 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = portuguese
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 419
 		culture = marathi
@@ -6353,14 +6353,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40790
 		culture = marathi
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8675
 		culture = marathi
@@ -6392,21 +6392,21 @@
 }
 1304 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 22389
 		culture = tamil
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1445
 		culture = kannada
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1282
 		culture = british
@@ -6511,28 +6511,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 797622
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15042
 		culture = tamil
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12244
 		culture = tamil
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 129207
 		culture = kannada
@@ -6564,14 +6564,14 @@
 }
 1305 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 13760
 		culture = telegu
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 326
 		culture = telegu
@@ -6620,14 +6620,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 264708
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1026
 		culture = telegu
@@ -6687,14 +6687,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 368492
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5200
 		culture = telegu
@@ -6733,21 +6733,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 218763
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6182
 		culture = kannada
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1026
 		culture = kannada
@@ -6786,14 +6786,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 248032
 		culture = telegu
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20733
 		culture = kannada
@@ -6839,14 +6839,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 301557
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8839
 		culture = tamil
@@ -6892,14 +6892,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 350067
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18004
 		culture = tamil
@@ -6945,14 +6945,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 414203
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 38481
 		culture = tamil
@@ -6964,7 +6964,7 @@
 
 #Madras
 1721 = {
-	aristocrats = {
+	capitalists = {
 		size = 4625
 		culture =  tamil
 		religion = sunni
@@ -6984,7 +6984,7 @@
 		culture = tamil
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 29648
 		culture = tamil
 		religion = sunni
@@ -7013,7 +7013,7 @@
 		culture = tamil
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8089
 		culture = tamil
 		religion = sunni
@@ -7032,7 +7032,7 @@
 		culture = tamil
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3586
 		culture = tamil
 		religion = sunni
@@ -7066,12 +7066,12 @@
 		culture = tamil
 		religion = hindu
 	}
-	farmers = {
+	labourers = {
 		size = 26074
 		culture = tamil
 		religion = hindu
 	}
-	farmers = {
+	labourers = {
 		size = 2425
 		culture = tamil
 		religion = catholic
@@ -7139,14 +7139,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 121215
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6180
 		culture = kannada
@@ -7157,14 +7157,14 @@
 }
 1314 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4711
 		culture = kannada
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 256
 		culture = kannada
@@ -7206,14 +7206,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 181120
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4314
 		culture = kannada
@@ -7266,14 +7266,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 85826
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3591
 		culture = kannada
@@ -7284,14 +7284,14 @@
 }
 1316 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5597
 		culture = kannada
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = kannada
@@ -7333,14 +7333,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 225440
 		culture = kannada
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17071
 		culture = kannada
@@ -7365,28 +7365,28 @@
 }
 1317 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2332
 		culture = malayalam
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = malayalam
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = malayalam
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = malayalam
@@ -7449,35 +7449,35 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 163489
 		culture = malayalam
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 72182
 		culture = malayalam
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26517
 		culture = malayalam
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31951
 		culture = malayalam
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 69
 		culture = british
@@ -7516,28 +7516,28 @@
 }
 1318 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2192
 		culture = malayalam
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 419
 		culture = malayalam
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = malayalam
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 163
 		culture = malayalam
@@ -7607,35 +7607,35 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 119410
 		culture = malayalam
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27566
 		culture = malayalam
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 886
 		culture = malayalam
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12057
 		culture = malayalam
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9958
 		culture = malayalam
@@ -7744,35 +7744,35 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62200
 		culture = malayalam
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13573
 		culture = malayalam
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 256
 		culture = malayalam
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11964
 		culture = malayalam
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7579
 		culture = malayalam
@@ -7789,7 +7789,7 @@
 		culture = asian_minor
 		religion = animist
 	}
-	farmers = {
+	labourers = {
 		size = 2571
 		culture = asian_minor
 		religion = animist
@@ -7802,7 +7802,7 @@
 		culture = asian_minor
 		religion = animist
 	}
-	farmers = {
+	labourers = {
 		size = 600
 		culture = asian_minor
 		religion = animist
@@ -7811,35 +7811,35 @@
 
 1321 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2145
 		culture = sinhala
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 583
 		culture = tamil
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 23
 		culture = malay
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 23
 		culture = british
@@ -7965,49 +7965,49 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 63203
 		culture = sinhala
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9142
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5970
 		culture = sinhala
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1119
 		culture = sinhala
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3148
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1776
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 629
 		culture = british
@@ -8095,14 +8095,14 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39647
 		culture = sinhala
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19590
 		culture = tamil
@@ -8127,7 +8127,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 64602
 		culture = sinhala
@@ -8222,42 +8222,42 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18494
 		culture = sinhala
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21226
 		culture = tamil
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 653
 		culture = sinhala
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1376
 		culture = sinhala
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 629
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2005
 		culture = mashriqi
@@ -8279,7 +8279,7 @@
 		culture = asian_minor
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 4967
 		culture = asian_minor
 		religion = sunni
@@ -8293,21 +8293,21 @@
 #####################################
 1326 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2705
 		culture = nepali
 		religion = hindu
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 838
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = asian_minor
@@ -8363,21 +8363,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 80461
 		culture = nepali
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9445
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19707
 		culture = asian_minor
@@ -8483,7 +8483,7 @@
 }
 1328 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = nepali
@@ -8511,7 +8511,7 @@
 		religion = hindu
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11101
 		culture = nepali
@@ -8536,7 +8536,7 @@
 }
 1329 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 583
 		culture = tibetan
@@ -8571,14 +8571,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24791
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3405
 		culture = nepali
@@ -8610,21 +8610,21 @@
 
 1330 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1749
 		culture = karen
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = asian_minor
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 466
 		culture = burmese
@@ -8673,14 +8673,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20523
 		culture = karen
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36102
 		culture = burmese
@@ -8740,7 +8740,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23112
 		culture = burmese
@@ -8800,14 +8800,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41233
 		culture = karen
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62783
 		culture = burmese
@@ -8846,14 +8846,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27450
 		culture = karen
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36149
 		culture = burmese
@@ -8864,7 +8864,7 @@
 }
 1334 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3335
 		culture = burmese
@@ -8973,14 +8973,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 93755
 		culture = burmese
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4291
 		culture = shan
@@ -9037,7 +9037,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 51169
 		culture = burmese
@@ -9048,21 +9048,21 @@
 }
 1338 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1306
 		culture = shan
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = burmese
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = kachin
@@ -9111,14 +9111,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 71599
 		culture = shan
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17071
 		culture = burmese
@@ -9164,14 +9164,14 @@
 }
 1339 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 629
 		culture = burmese
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1352
 		culture = asian_minor
@@ -9347,7 +9347,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46504
 		culture = kachin
@@ -9407,21 +9407,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35263
 		culture = kachin
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19650
 		culture = shan
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19544
 		culture = burmese
@@ -9432,21 +9432,21 @@
 }
 1343 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = karen
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = asian_minor
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = burmese
@@ -9509,14 +9509,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28873
 		culture = karen
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4734
 		culture = burmese
@@ -9590,21 +9590,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32487
 		culture = karen
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16094
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22436
 		culture = burmese
@@ -9615,14 +9615,14 @@
 }
 1345 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = burmese
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = burmese
@@ -9678,28 +9678,28 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11078
 		culture = burmese
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17561
 		culture = burmese
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 886
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1819
 		culture = bengali

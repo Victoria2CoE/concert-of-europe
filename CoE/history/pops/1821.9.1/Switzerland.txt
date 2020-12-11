@@ -1,5 +1,5 @@
 603 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = protestant
 		size = 300
@@ -47,13 +47,13 @@
 		size = 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 62000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = catholic
 		size = 150
@@ -83,7 +83,7 @@
 		size = 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 35000
@@ -101,33 +101,33 @@
 		size = 400
 	}
 	
-	farmers = {
+	labourers = {
 		culture = french
 		religion = protestant
 		size = 200
 	}
 }
 604 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = protestant
 		size = 50
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = catholic
 		size = 105
 	}
 
 
-	aristocrats = {
+	capitalists = {
 		culture = french
 		religion = protestant
 		size = 50
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = french
 		religion = catholic
 		size = 100
@@ -212,25 +212,25 @@
 		size = 30
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 16000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 12000
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = protestant
 		size = 14420
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = catholic
 		size = 16550
@@ -262,7 +262,7 @@
 
 }
 605 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = protestant
 		size = 300
@@ -322,14 +322,14 @@
 		size = 850
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 80000
 	}
 }
 606 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = catholic
 		size = 120
@@ -353,13 +353,13 @@
 		size = 200
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 30000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 4000
@@ -379,7 +379,7 @@
 
 }
 607 = {
-	aristocrats = {
+	capitalists = {
 		culture = french
 		religion = protestant
 		size = 150
@@ -415,13 +415,13 @@
 		size = 975
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = protestant
 		size = 35000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = french
 		religion = catholic
 		size = 240
@@ -457,7 +457,7 @@
 		size = 500
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = catholic
 		size = 29000
@@ -481,13 +481,13 @@
 		size = 500
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 2500
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 2500
@@ -518,19 +518,19 @@
 		size = 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = protestant
 		size = 15500
 	}
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 2230
 	}
 }
 609 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = catholic
 		size = 100
@@ -566,13 +566,13 @@
 		size = 880
 	}
 
-	farmers = {
+	labourers = {
 		culture = french
 		religion = catholic
 		size = 9509
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 10000
@@ -584,7 +584,7 @@
 
 611 = {
 
-	aristocrats = {
+	capitalists = {
 		culture = south_german
 		religion = protestant
 		size = 100
@@ -632,31 +632,31 @@
 		size = 230
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = protestant
 		size = 6000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = romansh
 		religion = catholic
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = romansh
 		religion = protestant
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = north_italian
 		religion = catholic
 		size = 1200
@@ -689,7 +689,7 @@
 
 }
 2568 = {
-	aristocrats = {
+	capitalists = {
 		culture = north_italian
 		religion = protestant
 		size = 150
@@ -725,25 +725,25 @@
 		size = 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = north_italian
 		religion = catholic
 		size = 25500
 	}
 	
-	farmers = {
+	labourers = {
 		culture = romansh
 		religion = catholic
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 2000
 	}
 	
-	farmers = {
+	labourers = {
 		culture = north_italian
 		religion = protestant
 		size = 2500

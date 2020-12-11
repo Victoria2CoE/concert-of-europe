@@ -15,13 +15,13 @@
 		size = 6925
 	}
 	
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 1108
 	}
 	
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = catholic
 		size = 392
@@ -132,13 +132,13 @@
 
 	}
 	
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 32300
 	}
 	
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 11000
@@ -152,13 +152,13 @@
 }
 #Rotterdam (567000/141750 POPS)
 376 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 525
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = catholic
 		size = 225
@@ -201,13 +201,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 78725
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 22400
@@ -239,19 +239,19 @@
 		size = 350
 	}
 
-	farmers = {
+	labourers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 350
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 150
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = catholic
 		size = 150
@@ -295,13 +295,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 13966
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 10209
@@ -321,7 +321,7 @@
 		size = 350
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 300
@@ -352,13 +352,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 28700
 	}
 
-	farmers = {
+	labourers = {
 		culture = flemish
 		religion = catholic
 		size = 7700
@@ -378,13 +378,13 @@
 		size = 25
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = flemish
 		religion = catholic
 		size = 1200
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 200
@@ -446,13 +446,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = flemish
 		religion = catholic
 		size = 50800
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 2700
@@ -466,13 +466,13 @@
 		size = 400
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = flemish
 		religion = catholic
 		size = 450
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 50
@@ -524,7 +524,7 @@
 }
 #Maastricht (164200/41050 POPS)
 381 = {
-	aristocrats = {
+	capitalists = {
 		culture = flemish
 		religion = catholic
 		size = 300
@@ -536,7 +536,7 @@
 		size = 400
 	}
 
-	farmers = {
+	labourers = {
 		culture = flemish
 		religion = catholic
 		size = 34100
@@ -553,7 +553,7 @@
 		religion = catholic
 		size = 250
 	}
-	farmers = {
+	labourers = {
 		culture = north_german
 		religion = protestant
 		size = 1200
@@ -573,13 +573,13 @@
 		size = 25
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 510
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = catholic
 		size = 60
@@ -621,13 +621,13 @@
 		size= 1400
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 80000
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 6750
@@ -645,7 +645,7 @@
 		size = 250
 	}
 
-	farmers = {
+	labourers = {
 		culture = north_german
 		religion = protestant
 		size = 3200
@@ -660,7 +660,7 @@
 		size = 500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 300
@@ -714,19 +714,19 @@
 		size= 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 29450
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = frisian
 		religion = protestant
 		size = 5100
@@ -746,7 +746,7 @@
 		size = 473
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 500
@@ -770,13 +770,13 @@
 		size= 3000
 	}
 	
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 29868
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 16932
@@ -788,7 +788,7 @@
 		size = 100
 	}
 
-	farmers = {
+	labourers = {
 		culture = north_german
 		religion = protestant
 		size = 900
@@ -807,17 +807,17 @@
 		religion = jewish
 		size = 500
 	}
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 100
 	}
-	aristocrats = {
+	capitalists = {
 		culture = frisian
 		religion = protestant
 		size = 175
 	}
-	aristocrats = {
+	capitalists = {
 		culture = frisian
 		religion = catholic
 		size = 25
@@ -859,19 +859,19 @@
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = frisian
 		religion = protestant
 		size = 36200
 	}
 	
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 3525
 	}
 
-	farmers = {
+	labourers = {
 		culture = frisian
 		religion = catholic
 		size = 4000
@@ -884,7 +884,7 @@
 		religion = jewish
 		size = 50
 	}
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 150
@@ -909,19 +909,19 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 16547
 	}
 
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 203
 	}
 
-	farmers = {
+	labourers = {
 		culture = north_german
 		religion = protestant
 		size = 1100
@@ -931,12 +931,12 @@
 
 #Nijmegen
 2595 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 100
 	}
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = catholic
 		size = 180
@@ -961,12 +961,12 @@
 		religion = catholic
 		size = 1300
 	}
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
 		size = 16350
 	}
-	farmers = {
+	labourers = {
 		culture = dutch
 		religion = catholic
 		size = 30000
@@ -979,14 +979,14 @@
 
 387 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5409
 		culture = flemish
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 360
 		culture = wallonian
@@ -1193,14 +1193,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 92051
 		culture = flemish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5051
 		culture = picard
@@ -1246,7 +1246,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 137127
 		culture = flemish
@@ -1306,7 +1306,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61993
 		culture = flemish
@@ -1532,14 +1532,14 @@
 }
 394 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3188
 		culture = wallonian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 200
 		culture = picard
@@ -1826,14 +1826,14 @@
 #####################
 397 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 160
 		culture = north_german
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 228
 		culture = french

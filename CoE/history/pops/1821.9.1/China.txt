@@ -54,14 +54,14 @@
 
 2221 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 78176
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 6297
 		culture = beifaren
@@ -159,14 +159,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 413550
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 265431
 		culture = beifaren
@@ -255,14 +255,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 113089
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 213632
 		culture = min
@@ -288,7 +288,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14000
 		culture = yue
@@ -305,7 +305,7 @@
 #########################
 1465 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3848
 		culture = mongol
@@ -347,14 +347,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 78689
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3080
 		culture = beifaren
@@ -432,14 +432,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34773
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2721
 		culture = yakut
@@ -450,14 +450,14 @@
 }
 1468 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2005
 		culture = mongol
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = kazak
@@ -478,7 +478,7 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29759
 		culture = mongol
@@ -503,7 +503,7 @@
 }
 1469 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = mongol
@@ -648,14 +648,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15299
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10238
 		culture = kazak
@@ -673,21 +673,21 @@
 
 1470 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 83866
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3311
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = beifaren
@@ -750,28 +750,28 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 975548
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 151968
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17794
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 64
 		culture = uighur
@@ -852,14 +852,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1008409
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 70813
 		culture = nanfaren
@@ -912,14 +912,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 462044
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10215
 		culture = beifaren
@@ -979,14 +979,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 914770
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35263
 		culture = beifaren
@@ -1053,14 +1053,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 940611
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11054
 		culture = beifaren
@@ -1106,7 +1106,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 915158
 		culture = beifaren
@@ -1156,14 +1156,14 @@
 }
 1477 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 73277
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 419
 		culture = beifaren
@@ -1212,7 +1212,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 887086
 		culture = beifaren
@@ -1265,7 +1265,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 492636
 		culture = beifaren
@@ -1276,28 +1276,28 @@
 }
 1479 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 6888
 		culture = manchu
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 886
 		culture = korean
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 583
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 792
 		culture = mongol
@@ -1367,28 +1367,28 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 117156
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41606
 		culture = korean
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27170
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26330
 		culture = mongol
@@ -1476,21 +1476,21 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40200
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11894
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11894
 		culture = mongol
@@ -1522,14 +1522,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12780
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4244
 		culture = beifaren
@@ -1540,28 +1540,28 @@
 }
 1482 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 65115
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1026
 		culture = miao
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 12594
 		culture = min
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 629
 		culture = hakka
@@ -1666,28 +1666,28 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 278095
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25467
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 548773
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30622
 		culture = hakka
@@ -1803,21 +1803,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 164748
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21223
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 348924
 		culture = min
@@ -1877,14 +1877,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 202087
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 370101
 		culture = min
@@ -1895,14 +1895,14 @@
 }
 1485 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 6087
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2798
 		culture = min
@@ -2095,21 +2095,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 166404
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 689570
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 431369
 		culture = hakka
@@ -2155,14 +2155,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 201924
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 88741
 		culture = min
@@ -2285,28 +2285,28 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 806228
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6833
 		culture = kazak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 56883
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 405714
 		culture = mongol
@@ -2377,28 +2377,28 @@
 }
 1490 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 57186
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2845
 		culture = beifaren
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = kazak
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 13200
 		culture = mongol
@@ -2591,21 +2591,21 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 129065
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17025
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 56762
 		culture = mongol
@@ -2665,21 +2665,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 650295
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22086
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18
 		culture = uighur
@@ -2690,42 +2690,42 @@
 }
 1493 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 40744
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 979
 		culture = zhuang
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 676
 		culture = hakka
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3031
 		culture = miao
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 279
 		culture = min
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 11661
 		culture = yue
@@ -2921,42 +2921,42 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 157098
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46084
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31415
 		culture = hakka
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 139234
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13596
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 468101
 		culture = yue
@@ -3093,28 +3093,28 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 316693
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23835
 		culture = hakka
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 419568
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18
 		culture = uighur
@@ -3174,14 +3174,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16139
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 774246
 		culture = yue
@@ -3206,7 +3206,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1282
 		culture = yue
@@ -3266,21 +3266,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 136691
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83750
 		culture = hakka
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 247892
 		culture = yue
@@ -3326,14 +3326,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 233
 		culture = yue
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3451
 		culture = yue
@@ -3351,21 +3351,21 @@
 }
 1499 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 28779
 		culture = min
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 11497
 		culture = yue
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1026
 		culture = asian_minor
@@ -3435,21 +3435,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 158000
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 525544
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43309
 		culture = asian_minor
@@ -3537,21 +3537,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100192
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 234319
 		culture = hakka
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 171535
 		culture = yue
@@ -3590,7 +3590,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 376095
 		culture = yue
@@ -3601,28 +3601,28 @@
 }
 1502 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 15835
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 21125
 		culture = zhuang
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2285
 		culture = yue
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = miao
@@ -3706,28 +3706,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74491
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 334488
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 105230
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8489
 		culture = miao
@@ -3871,28 +3871,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 221585
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 450889
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 264917
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55250
 		culture = miao
@@ -3959,35 +3959,35 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68007
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 134149
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 99376
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 58
 		culture = mongol
@@ -3998,28 +3998,28 @@
 }
 1505 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 18447
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 6273
 		culture = zhuang
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = yi
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 279
 		culture = miao
@@ -4247,28 +4247,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 255145
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 103597
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33117
 		culture = yi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6880
 		culture = miao
@@ -4342,21 +4342,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 386357
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 96787
 		culture = zhuang
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44195
 		culture = miao
@@ -4367,14 +4367,14 @@
 }
 1508 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 59223
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2355
 		culture = beifaren
@@ -4465,14 +4465,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 762662
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46271
 		culture = beifaren
@@ -4567,14 +4567,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 657082
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32254
 		culture = beifaren
@@ -4585,14 +4585,14 @@
 }
 1510 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 67168
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1679
 		culture = beifaren
@@ -4743,14 +4743,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 914350
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 45758
 		culture = beifaren
@@ -4810,14 +4810,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 662423
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31415
 		culture = beifaren
@@ -4863,7 +4863,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 658388
 		culture = beifaren
@@ -4909,7 +4909,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 623148
 		culture = beifaren
@@ -5064,21 +5064,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 666691
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19800
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14436
 		culture = nanfaren
@@ -5138,7 +5138,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 876411
 		culture = nanfaren
@@ -5212,21 +5212,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 675227
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14436
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13596
 		culture = nanfaren
@@ -5237,21 +5237,21 @@
 }
 1519 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 59658
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 769
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 620
 		culture = nanfaren
@@ -5328,21 +5328,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 655589
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35998
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15299
 		culture = nanfaren
@@ -5423,14 +5423,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 680078
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13596
 		culture = nanfaren
@@ -5504,21 +5504,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 658388
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29759
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = nanfaren
@@ -5529,14 +5529,14 @@
 }
 1522 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 63443
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 601
 		culture = nanfaren
@@ -5701,21 +5701,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 681454
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 122255
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = nanfaren
@@ -5726,14 +5726,14 @@
 }
 1524 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 44335
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1702
 		culture = miao
@@ -5817,14 +5817,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 862201
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = miao
@@ -5905,14 +5905,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 343910
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33117
 		culture = miao
@@ -5923,14 +5923,14 @@
 }
 1526 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 46737
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2238
 		culture = yue
@@ -6000,14 +6000,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 713289
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 104437
 		culture = yue
@@ -6088,14 +6088,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 718303
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 87458
 		culture = yue
@@ -6194,7 +6194,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 642739
 		culture = nanfaren
@@ -6254,14 +6254,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 533147
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 99352
 		culture = yue
@@ -6274,14 +6274,14 @@
 
 1532 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5154
 		culture = mongol
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 24
 		culture = siberian
@@ -6457,7 +6457,7 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27403
 		culture = mongol
@@ -6496,14 +6496,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 95085
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1749
 		culture = beifaren
@@ -6563,14 +6563,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46714
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 621445
 		culture = beifaren
@@ -6651,14 +6651,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1135020
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 164702
 		culture = beifaren
@@ -6683,7 +6683,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 57065
 		culture = nanfaren
@@ -6757,14 +6757,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 901546
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 152506
 		culture = beifaren
@@ -6775,14 +6775,14 @@
 }
 1540 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 86012
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 5084
 		culture = beifaren
@@ -6866,14 +6866,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 940634
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 232616
 		culture = beifaren
@@ -6968,14 +6968,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1095145
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 76427
 		culture = beifaren
@@ -7028,14 +7028,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100985
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 356574
 		culture = beifaren
@@ -7095,14 +7095,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 95108
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 615708
 		culture = beifaren
@@ -7169,14 +7169,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 496648
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 174054
 		culture = beifaren
@@ -7187,28 +7187,28 @@
 }
 1545 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 54644
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2891
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = miao
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 653
 		culture = hakka
@@ -7306,28 +7306,28 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 420897
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 130674
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1679
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29689
 		culture = hakka
@@ -7450,21 +7450,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 446552
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 129042
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52642
 		culture = miao
@@ -7475,21 +7475,21 @@
 }
 1547 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 40347
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 20430
 		culture = hakka
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1072
 		culture = nanfaren
@@ -7580,14 +7580,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 490701
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 929533
 		culture = hakka
@@ -7654,21 +7654,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 244464
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 106979
 		culture = hakka
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 58
 		culture = mongol
@@ -7742,21 +7742,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 641806
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 163862
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27776
 		culture = hakka
@@ -7890,14 +7890,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 490701
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 128202
 		culture = beifaren
@@ -7908,14 +7908,14 @@
 }
 1552 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 7035
 		culture = manchu
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 98
 		culture = siberian
@@ -8222,28 +8222,28 @@
 }
 1557 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4921
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 419
 		culture = kazak
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 18
 		culture = mongol
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = kazak
@@ -8422,35 +8422,35 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32278
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10191
 		culture = kazak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9352
 		culture = kazak
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39904
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 159
 		culture = beifaren
@@ -8461,14 +8461,14 @@
 }
 1559 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 40067
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2168
 		culture = beifaren
@@ -8531,14 +8531,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 639310
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35424
 		culture = beifaren
@@ -8621,14 +8621,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 215637
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15299
 		culture = beifaren
@@ -8702,21 +8702,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 329357
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36522
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 375232
 		culture = nanfaren
@@ -8727,14 +8727,14 @@
 }
 1563 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 79039
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1304
 		culture = beifaren
@@ -8832,14 +8832,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1180667
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 60288
 		culture = beifaren
@@ -8927,7 +8927,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 786379
 		culture = beifaren
@@ -8938,7 +8938,7 @@
 }
 1565 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 52685
 		culture = beifaren
@@ -8994,7 +8994,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 771688
 		culture = beifaren
@@ -9033,7 +9033,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5107
 		culture = beifaren
@@ -9217,14 +9217,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 784759
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 80
 		culture = tibetan
@@ -9288,14 +9288,14 @@
 }
 1572 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 70060
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 653
 		culture = beifaren
@@ -9379,14 +9379,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 922583
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11894
 		culture = beifaren
@@ -9488,14 +9488,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 716507
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7649
 		culture = beifaren
@@ -9562,14 +9562,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 788666
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6810
 		culture = beifaren
@@ -9636,14 +9636,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 713965
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = beifaren
@@ -9742,7 +9742,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 814134
 		culture = nanfaren
@@ -9753,21 +9753,21 @@
 }
 1578 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 60754
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 13013
 		culture = yi
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 7882
 		culture = tibetan
@@ -9844,7 +9844,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 442330
 		culture = nanfaren
@@ -9897,7 +9897,7 @@
 }
 1579 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 78992
 		culture = nanfaren
@@ -9960,7 +9960,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1005371
 		culture = nanfaren
@@ -10055,28 +10055,28 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 423626
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 314151
 		culture = yi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 94245
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33735
 		culture = tibetan
@@ -10136,14 +10136,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 910922
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 81
 		culture = tibetan
@@ -10305,7 +10305,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 971980
 		culture = nanfaren
@@ -10351,7 +10351,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 641759
 		culture = nanfaren
@@ -10418,21 +10418,21 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 364200
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 92542
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 156166
 		culture = tibetan
@@ -10550,35 +10550,35 @@
 
 1601 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 16768
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 349
 		culture = nanfaren
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 7836
 		culture = asian_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = miao
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1049
 		culture = yi
@@ -10690,35 +10690,35 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 385121
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 176409
 		culture = nanfaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5107
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8396
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44149
 		culture = yi
@@ -10827,21 +10827,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24605
 		culture = nanfaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 229164
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22925
 		culture = yi
@@ -10982,28 +10982,28 @@
 }
 1604 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 17724
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2542
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = miao
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 116
 		culture = min
@@ -11122,28 +11122,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 196327
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 97090
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3405
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = min
@@ -11231,14 +11231,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31415
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 48393
 		culture = nanfaren
@@ -11277,14 +11277,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40744
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32301
 		culture = nanfaren
@@ -11358,21 +11358,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 357414
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11894
 		culture = miao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68777
 		culture = min
@@ -11411,14 +11411,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 140858
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 103574
 		culture = nanfaren
@@ -11457,14 +11457,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74724
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 110384
 		culture = nanfaren
@@ -11475,14 +11475,14 @@
 }
 1610 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 23438
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2099
 		culture = miao
@@ -11517,7 +11517,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 357414
 		culture = nanfaren
@@ -11584,14 +11584,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 356574
 		culture = nanfaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17841
 		culture = miao
@@ -11602,14 +11602,14 @@
 }
 1612 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 83447
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 792
 		culture = beifaren
@@ -11728,14 +11728,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 931632
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29152
 		culture = beifaren
@@ -11985,7 +11985,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 954208
 		culture = beifaren
@@ -11996,21 +11996,21 @@
 }
 1616 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 75424
 		culture = beifaren
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 4664
 		culture = manchu
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 932
 		culture = beifaren
@@ -12087,14 +12087,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 939818
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10028
 		culture = manchu
@@ -12210,14 +12210,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1232653
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33117
 		culture = beifaren
@@ -12284,7 +12284,7 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1112123
 		culture = beifaren
@@ -12302,14 +12302,14 @@
 
 1587 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9235
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1399
 		culture = kachin
@@ -12418,14 +12418,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11885
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1390
 		culture = beifaren
@@ -12457,14 +12457,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7206
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1655
 		culture = beifaren
@@ -12489,7 +12489,7 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14604
 		culture = tibetan
@@ -12500,7 +12500,7 @@
 }
 1591 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 965
 		culture = tibetan
@@ -12521,7 +12521,7 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1613
 		culture = tibetan
@@ -12553,7 +12553,7 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27217
 		culture = tibetan
@@ -12606,21 +12606,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11204
 		culture = tibetan
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3316
 		culture = kachin
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3227
 		culture = asian_minor
@@ -12667,14 +12667,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4267
 		culture = uighur
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2518
 		culture = mongol
@@ -12687,21 +12687,21 @@
 
 1594 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2378
 		culture = uighur
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 209
 		culture = kirgiz
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = mongol
@@ -12771,21 +12771,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62148
 		culture = uighur
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10238
 		culture = kirgiz
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1352
 		culture = tajik
@@ -12982,28 +12982,28 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = uighur
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = kazak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = mongol
@@ -13053,7 +13053,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18639
 		culture = uighur
@@ -13106,21 +13106,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36569
 		culture = uighur
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2518
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = beifaren
@@ -13131,28 +13131,28 @@
 }
 1600 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2859
 		culture = uighur
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 116
 		culture = beifaren
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = mongol
 		religion = gelugpa
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = kazak
@@ -13236,35 +13236,35 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74841
 		culture = uighur
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6833
 		culture = beifaren
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = beifaren
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1679
 		culture = mongol
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3358
 		culture = kazak

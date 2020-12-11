@@ -2,7 +2,7 @@
 #Ruled by Peru 1836
 #Iquitos (60000/15000 POPS)
 2286 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 75
@@ -39,7 +39,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2665
@@ -64,13 +64,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 850
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 175
@@ -95,7 +95,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 9125
@@ -104,7 +104,7 @@
 #"Ruled" by Ecuador 1836
 #Yurimagues (12000/3000 POPS)
 2287 = {
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -129,7 +129,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -137,7 +137,7 @@
 }
 #Yuncos (12000/3000 POPS)
 2288 = {
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -162,7 +162,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -170,7 +170,7 @@
 }
 #Puca Urco (12000/3000 POPS)
 2289 = {
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -195,7 +195,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -205,7 +205,7 @@
 #Ruled by Peru 1836
 #Cajamarca (144000/38000 POPS)
 2290 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 800
@@ -242,7 +242,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 14050
@@ -267,7 +267,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 19325
@@ -275,7 +275,7 @@
 }
 #Piura (60000/15000 POPS)
 2291 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 325
@@ -300,7 +300,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2375
@@ -325,7 +325,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 10000
@@ -350,7 +350,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 1100
@@ -364,7 +364,7 @@
 }
 #Trujillo (68000/17000 POPS)
 2292 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 375
@@ -389,7 +389,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 5075
@@ -414,7 +414,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 8375
@@ -439,7 +439,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 1100
@@ -453,7 +453,7 @@
 }
 #Moyobamba (24000/6000 POPS)
 2294 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 50
@@ -478,7 +478,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1750
@@ -503,13 +503,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 915
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -534,7 +534,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -544,7 +544,7 @@
 #Ruled by Peru 1836
 #Huanuco (36000/9000 POPS)
 2293 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 200
@@ -569,7 +569,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1625
@@ -594,7 +594,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 6500
@@ -602,7 +602,7 @@
 }
 #Jauja (60000/15000 POPS)
 2296 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 325
@@ -627,7 +627,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1475
@@ -652,7 +652,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 12175
@@ -660,7 +660,7 @@
 }
 #Ayacucho (108000/27000 POPS)
 2299 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 575
@@ -697,7 +697,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2875
@@ -722,7 +722,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 21525
@@ -732,13 +732,13 @@
 #Ruled by Peru 1836
 #Lima (324000/81000 POPS)
 2295 = {
-	aristocrats = {
+	capitalists = {
 		culture = spanish
 		religion = catholic
 		size = 675
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = peruvian
 		religion = catholic
 		size = 1000
@@ -780,7 +780,7 @@
 		size= 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 41075
@@ -805,7 +805,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 14950
@@ -830,7 +830,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 1400
@@ -844,7 +844,7 @@
 }
 #Ica (60000/15000 POPS)
 2297 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 325
@@ -869,7 +869,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3350
@@ -894,7 +894,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 10050
@@ -919,7 +919,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 500
@@ -933,7 +933,7 @@
 }
 #Huaraz (100000/25000 POPS)
 2298 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 525
@@ -958,7 +958,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 4950
@@ -983,7 +983,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 15900
@@ -1008,7 +1008,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = afro_caribeno
 		religion = catholic
 		size = 1100
@@ -1024,7 +1024,7 @@
 #Ruled by Peru 1836
 #Pucallpa (20000/5000 POPS)
 2300 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 14
@@ -1055,13 +1055,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 75
@@ -1086,7 +1086,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 36225
@@ -1094,7 +1094,7 @@
 }
 #Puerto Maldonado (12000/3000 POPS)
 2301 = {
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -1119,7 +1119,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -1129,7 +1129,7 @@
 #Ruled by Peru 1836
 #Cusco (228000/57000 POPS)
 2302 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 1150
@@ -1166,7 +1166,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 11625
@@ -1184,7 +1184,7 @@
 		size = 2100
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 39275
@@ -1192,7 +1192,7 @@
 }
 #Puno (104000/26000 POPS)
 2303 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 575
@@ -1217,7 +1217,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2075
@@ -1242,7 +1242,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 21500
@@ -1250,7 +1250,7 @@
 }
 #Arequipa (72000/18000 POPS)
 2304 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 375
@@ -1275,7 +1275,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3250
@@ -1300,7 +1300,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 13100
@@ -1310,7 +1310,7 @@
 #Ruled by Peru 1836
 #Tacna (100000/25000 POPS)
 2578 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 550
@@ -1347,7 +1347,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3925
@@ -1372,7 +1372,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 18700

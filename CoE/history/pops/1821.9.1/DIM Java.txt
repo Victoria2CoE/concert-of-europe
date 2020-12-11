@@ -2,7 +2,7 @@
 #ruled by the Netherlands 1836
 #Batavia (591000/123250 POPS)
 1413 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 750
@@ -33,7 +33,7 @@
 
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = betawi
 		religion = sunni
 		size = 550
@@ -63,7 +63,7 @@
 		size = 11500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 625
@@ -94,7 +94,7 @@
 	}
 
 
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 455
@@ -143,7 +143,7 @@
 		size = 75
 	}
 
-	farmers = {
+	labourers = {
 		culture = bantenese
 		religion = sunni
 		size = 1500
@@ -175,7 +175,7 @@
 }
 #Preanger (1029000/256750 POPS)
 1414 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 200
@@ -193,13 +193,13 @@
 		size = 2100
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 28000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 1000
@@ -217,13 +217,13 @@
 		size = 6000
 	}
 
-	farmers = {
+	labourers = {
 		culture = sundanese
 		religion = sunni
 		size = 56000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = bantenese
 		religion = sunni
 		size = 200
@@ -241,7 +241,7 @@
 		size = 1250
 	}
 
-	farmers = {
+	labourers = {
 		culture = bantenese
 		religion = sunni
 		size = 18000
@@ -263,7 +263,7 @@
 
 #Cirebon (680000/270000 POPS)
 1415 = {
-	aristocrats = {
+	capitalists = {
 		culture = yue
 		religion = mahayana
 		size = 100
@@ -281,13 +281,13 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 4725
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 275
@@ -299,7 +299,7 @@
 		size = 150
 	}
 
-	farmers = {
+	labourers = {
 		culture = sundanese
 		religion = sunni
 		size = 14000
@@ -311,7 +311,7 @@
 		size = 600
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 2200
@@ -329,13 +329,13 @@
 		size = 8600
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 222750
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = betawi
 		religion = sunni
 		size = 25
@@ -354,7 +354,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = betawi
 		religion = sunni
 		size = 4250
@@ -374,13 +374,13 @@
 }
 #Yogyakarta (563600/140900 POPS)
 1416 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 880
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 25
@@ -398,13 +398,13 @@
 		size = 3750
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 52325
 	}
 
-	farmers = {
+	labourers = {
 		culture = sundanese
 		religion = sunni
 		size = 7000
@@ -419,7 +419,7 @@
 
 #Semarang (984000/246000 POPS)
 1417 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 2750
@@ -449,13 +449,13 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 207600
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = yue
 		religion = mahayana
 		size = 100
@@ -473,7 +473,7 @@
 		size = 600
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 9225
@@ -494,13 +494,13 @@
 
 #Surabaya (1010000/252500 POPS)
 1418 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 1500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = madurese
 		religion = sunni
 		size = 1000
@@ -536,19 +536,19 @@
 		size= 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 202000
 	}
 
-	farmers = {
+	labourers = {
 		culture = madurese
 		religion = sunni
 		size = 30500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = animist
 		size = 150
@@ -566,13 +566,13 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = animist
 		size = 18000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = yue
 		religion = mahayana
 		size = 75
@@ -590,7 +590,7 @@
 		size = 3250
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 5725
@@ -610,7 +610,7 @@
 }
 #Surakarta (480000/120000 POPS)
 1419 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 1100
@@ -640,7 +640,7 @@
 		size= 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 94000
@@ -656,25 +656,25 @@
 
 #Probolinggo (708000/177000 POPS) + Kediri (255570/64000 POPS)
 1420 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 1000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = madurese
 		religion = sunni
 		size = 400
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = balinese
 		religion = hindu
 		size = 250
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = balinese
 		religion = sunni
 		size = 100
@@ -698,25 +698,25 @@
 		size = 1500
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 79100
 	}
 
-	farmers = {
+	labourers = {
 		culture = madurese
 		religion = sunni
 		size = 70000
 	}
 
-	farmers = {
+	labourers = {
 		culture = balinese
 		religion = hindu
 		size = 20000
 	}
 
-	farmers = {
+	labourers = {
 		culture = balinese
 		religion = sunni
 		size = 10000
@@ -731,7 +731,7 @@
 
 #Kediri (255570/64000 POPS)	- province does not exist in current set up, POPs merged with 1420 - Probolinggo 
 #3335 = {
-#	aristocrats = {
+#	capitalists = {
 #		culture = javan
 #		religion = sunni
 #		size = 300
@@ -746,7 +746,7 @@
 #		religion = sunni
 #		size = 2500
 #	}
-#	farmers = {
+#	labourers = {
 #		culture = javan
 #		religion = sunni
 #		size = 37000
@@ -760,7 +760,7 @@
 
 #Madura (496000/124000 POPS)
 1421 = {
-	aristocrats = {
+	capitalists = {
 		culture = madurese
 		religion = sunni
 		size = 1500
@@ -785,7 +785,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = madurese
 		religion = sunni
 		size = 105825
@@ -803,7 +803,7 @@
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 6800
@@ -825,7 +825,7 @@
 
 #Banten (365000/91250 POPS)
 1724 = {
-	aristocrats = {
+	capitalists = {
 		culture = betawi
 		religion = sunni
 		size = 300
@@ -849,7 +849,7 @@
 		size = 9750
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = bantenese
 		religion = sunni
 		size = 1650
@@ -873,13 +873,13 @@
 		size = 4750
 	}
 
-	farmers = {
+	labourers = {
 		culture = bantenese
 		religion = sunni
 		size = 40340
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 300
@@ -897,13 +897,13 @@
 		size = 400
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 10050
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 400
@@ -915,13 +915,13 @@
 		size = 400
 	}
 
-	farmers = {
+	labourers = {
 		culture = sundanese
 		religion = sunni
 		size = 19450
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = animist
 		size = 250
@@ -933,7 +933,7 @@
 		size = 400
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 600
@@ -955,7 +955,7 @@
 
 # Banjoemas & Bagelen
 1716 = {
-	aristocrats = {
+	capitalists = {
 		culture = sundanese
 		religion = sunni
 		size = 225
@@ -973,13 +973,13 @@
 		size = 1675
 	}
 
-	farmers = {
+	labourers = {
 		culture = sundanese
 		religion = sunni
 		size = 28000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 1300
@@ -998,7 +998,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 152150
@@ -1020,7 +1020,7 @@
 
 # Mangkunegaran (204000/51000 POPS)
 1717 = {
-	aristocrats = {
+	capitalists = {
 		culture = javan
 		religion = sunni
 		size = 350
@@ -1044,13 +1044,13 @@
 		size= 1650
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = sunni
 		size = 45225
 	}
 
-	farmers = {
+	labourers = {
 		culture = javan
 		religion = animist
 		size = 6225

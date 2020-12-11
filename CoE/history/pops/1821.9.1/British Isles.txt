@@ -5,7 +5,7 @@
 ###Northern Ireland###
 #Belfast
 254 = {
-	aristocrats = {
+	capitalists = {
 		size = 1694
 		culture = british
 		religion = protestant
@@ -40,12 +40,12 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 80468
 		culture = british
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 23121
 		culture = irish
 		religion = catholic
@@ -89,12 +89,12 @@
 		culture = british
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 42694
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 68869
 		culture = british
 		religion = protestant
@@ -128,12 +128,12 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 39375
 		culture = british
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 18772
 		culture = irish
 		religion = catholic
@@ -162,19 +162,19 @@
 		culture = british
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 94547
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 15177
 		culture = british
 		religion = protestant
 	}
 }
 258 = {
-	aristocrats = {
+	capitalists = {
 		size = 1694
 		culture = irish
 		religion = catholic
@@ -189,7 +189,7 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 116066
 		culture = irish
 		religion = catholic
@@ -226,19 +226,19 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 161393
 		culture = irish
 		religion = catholic
 	}
 }
 260 = {
-	aristocrats = {
+	capitalists = {
 		size = 2016
 		culture = irish
 		religion = catholic
 	}
-	aristocrats = {
+	capitalists = {
 		size = 824
 		culture = british
 		religion = protestant
@@ -273,12 +273,12 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 172474
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 4807
 		culture = british
 		religion = protestant
@@ -320,7 +320,7 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 170779
 		culture = irish
 		religion = catholic
@@ -337,19 +337,19 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 114234
 		culture = irish
 		religion = catholic
 	}
 }
 263 = {
-	aristocrats = {
+	capitalists = {
 		size = 1281
 		culture = british
 		religion = protestant
 	}
-	aristocrats = {
+	capitalists = {
 		size = 549
 		culture = irish
 		religion = catholic
@@ -400,7 +400,7 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 141362
 		culture = irish
 		religion = catholic
@@ -422,7 +422,7 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 114005
 		culture = irish
 		religion = catholic
@@ -434,7 +434,7 @@
 		culture = irish
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 95233
 		culture = irish
 		religion = catholic
@@ -448,7 +448,7 @@
 ###Scotland###
 266 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 640
 		culture = british
@@ -462,14 +462,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1831
 		culture = british
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28387
 		culture = british
@@ -657,7 +657,7 @@
 }
 271 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2349
 		culture = british
@@ -800,7 +800,7 @@
 ###Wales###
 273 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1204
 		culture = british
@@ -965,7 +965,7 @@
 ###England###
 277 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4151
 		culture = british
@@ -1056,21 +1056,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 145460
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6577
 		culture = british
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8584
 		culture = irish
@@ -1201,7 +1201,7 @@
 }
 280 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4578
 		culture = british
@@ -1399,7 +1399,7 @@
 }
 284 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4125
 		culture = british
@@ -1515,14 +1515,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 75660
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1007
 		culture = british
@@ -1586,7 +1586,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 86992
 		culture = british
@@ -1664,7 +1664,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 82757
 		culture = british
@@ -1707,7 +1707,7 @@
 }
 291 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2976
 		culture = british
@@ -1735,7 +1735,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 62748
 		culture = british
@@ -1774,7 +1774,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 143308
 		culture = british
@@ -1838,7 +1838,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61009
 		culture = british
@@ -1863,7 +1863,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 65702
 		culture = british
@@ -1874,7 +1874,7 @@
 }
 296 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4682
 		culture = british
@@ -1976,7 +1976,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 75431
 		culture = british
@@ -2058,7 +2058,7 @@
 }
 300 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9309
 		culture = british
@@ -2290,7 +2290,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 80124
 		culture = british
@@ -2322,7 +2322,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 66846
 		culture = british
@@ -2354,14 +2354,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6959
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 274
 		culture = british
@@ -2396,14 +2396,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9888
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = french

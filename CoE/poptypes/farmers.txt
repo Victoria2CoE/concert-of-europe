@@ -1,9 +1,11 @@
-sprite = 8
-color = { 75 193 237 }
+sprite = 9
+color = { 189 57 36 }
 #is_artisan = yes
 strata = poor
+strata = middle
 unemployment = yes
-equivalent = labourers
+can_work_factory = yes
+#equivalent = labourers
 
 rebel =
 {
@@ -1033,6 +1035,14 @@ promote_to = {
 
 	craftsmen = {
 		factor = 0.01
+		modifier = {
+			factor = -500
+			NOT = { 
+				work_available = {
+							worker = craftsmen
+				}		
+			}
+		}		
 		modifier = {
 			factor = -50
 			always = yes

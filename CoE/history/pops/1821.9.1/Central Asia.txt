@@ -6,7 +6,7 @@
 
 #Guryev
 1182 = {
-	aristocrats = {
+	capitalists = {
 		size = 275
 		culture = kazak
 		religion = sunni
@@ -36,12 +36,12 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 608
 		culture = russian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 		size = 37190
 		culture = kazak
 		religion = sunni
@@ -70,12 +70,12 @@
 		culture = russian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 		size = 1053
 		culture = russian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 		size = 1671
 		culture = kazak
 		religion = sunni
@@ -94,7 +94,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8467
 		culture = kazak
 		religion = sunni
@@ -113,7 +113,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 13656
 		culture = kazak
 		religion = sunni
@@ -132,7 +132,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 12993
 		culture = kazak
 		religion = sunni
@@ -170,7 +170,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8467
 		culture = kazak
 		religion = sunni
@@ -208,7 +208,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 4540
 		culture = kazak
 		religion = sunni
@@ -217,7 +217,7 @@
 
 #Qaraganda
 1181 = {
-	aristocrats = {
+	capitalists = {
 		size = 2445
 		culture = kazak
 		religion = sunni
@@ -315,7 +315,7 @@
 
 #Shu
 1185 = {
-	aristocrats = {
+	capitalists = {
 		size = 2419
 		culture = kazak
 		religion = sunni
@@ -330,7 +330,7 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 34050
 		culture = kazak
 		religion = sunni
@@ -364,12 +364,12 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 10107
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 27596
 		culture = kazak
 		religion = sunni
@@ -398,12 +398,12 @@
 		culture = uighur
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 26596
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 18352
 		culture = uighur
 		religion = sunni
@@ -447,12 +447,12 @@
 
 #Turkestan
 1197 = {
-	aristocrats = {
+	capitalists = {
 		size = 7603
 		culture = uzbek
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 1013
 		culture = kazak
 		religion = sunni
@@ -477,12 +477,12 @@
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 12803
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 35834
 		culture = kazak
 		religion = sunni
@@ -512,22 +512,22 @@
 
 #Bishkek
 1189 = {
-	aristocrats = {
+	capitalists = {
 		size = 3638
 		culture = kirgiz
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 93
 		culture = kazak
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 116
 		culture = uighur
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 93
 		culture = kirgiz
 		religion = animist
@@ -557,17 +557,17 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 31508
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6017
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6880
 		culture = uighur
 		religion = sunni
@@ -607,17 +607,17 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2588
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 4267
 		culture = kirgiz
 		religion = animist
 	}
-	farmers = {
+	labourers = {
 		size = 4291
 		culture = kazak
 		religion = sunni
@@ -646,12 +646,12 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 7649
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 12640
 		culture = kirgiz
 		religion = sunni
@@ -666,7 +666,7 @@
 
 #Khiva
 1191 = {
-	aristocrats = {
+	capitalists = {
 		size = 886
 		culture = uzbek
 		religion = sunni
@@ -686,7 +686,7 @@
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 35496
 		culture = uzbek
 		religion = sunni
@@ -742,17 +742,17 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 		size = 16162
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 12967
 		culture = kazak
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3405
 		culture = turkmen
 		religion = sunni
@@ -772,17 +772,17 @@
 
 #Tashkent
 1195 = {
-	aristocrats = {
+	capitalists = {
 		size = 839
 		culture = uzbek
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 46
 		culture = kirgiz
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 116
 		culture = tajik
 		religion = sunni
@@ -812,17 +812,17 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 36242
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2588
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6017
 		culture = tajik
 		religion = sunni
@@ -876,17 +876,17 @@
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 157617
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 11917
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3148
 		culture = mashriqi
 		religion = sunni
@@ -915,17 +915,17 @@
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 103364
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 5224
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2168
 		culture = mashriqi
 		religion = sunni
@@ -959,17 +959,17 @@
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 43309
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 10365
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 5977
 		culture = turkmen
 		religion = sunni
@@ -1008,17 +1008,17 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 43239
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 13620
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2448
 		culture = tajik
 		religion = sunni
@@ -1053,12 +1053,12 @@
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 33980
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8535
 		culture = tajik
 		religion = sunni
@@ -1067,7 +1067,7 @@
 
 #Kulob
 1207 = {
-	aristocrats = {
+	capitalists = {
 		size = 536
 		culture = tajik
 		religion = sunni
@@ -1082,7 +1082,7 @@
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 25647
 		culture = tajik
 		religion = sunni
@@ -1101,12 +1101,12 @@
 
 #Khorug
 1208 = {
-	aristocrats = {
+	capitalists = {
 		size = 326
 		culture = tajik
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 69
 		culture = kirgiz
 		religion = sunni
@@ -1131,12 +1131,12 @@
 		culture = kirgiz
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 16278
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3405
 		culture = kirgiz
 		religion = sunni
@@ -1175,12 +1175,12 @@
 		culture = russian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 		size = 217
 		culture = uzbek
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6
 		culture = russian
 		religion = orthodox
@@ -1196,12 +1196,12 @@
 
 #Dashhowuz
 1196 = {
-	aristocrats = {
+	capitalists = {
 		size = 1376
 		culture = turkmen
 		religion = sunni
 	}
-	aristocrats = {
+	capitalists = {
 		size = 46
 		culture = persian
 		religion = shiite
@@ -1216,7 +1216,7 @@
 		culture = turkmen
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 8582
 		culture = turkmen
 		religion = sunni
@@ -1255,12 +1255,12 @@
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 23951
 		culture = turkmen
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 3498
 		culture = persian
 		religion = shiite
@@ -1289,12 +1289,12 @@
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 16232
 		culture = turkmen
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 2612
 		culture = persian
 		religion = shiite
@@ -1333,17 +1333,17 @@
 		culture = persian
 		religion = shiite
 	}
-	farmers = {
+	labourers = {
 		size = 1702
 		culture = tajik
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 19614
 		culture = turkmen
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 6926
 		culture = persian
 		religion = shiite

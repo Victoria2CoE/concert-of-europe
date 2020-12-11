@@ -30,6 +30,18 @@ military_factory_template = {
 			amount = 0.8
 		}
 		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
 			poptype = clerks
 			effect = output
 			effect_multiplier = 1.60
@@ -66,6 +78,18 @@ heavy_factory_template = {
 			effect = throughput
 			effect_multiplier = 2.50
 			amount = 0.8
+		}
+		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
 		}
 		{
 			poptype = clerks
@@ -107,6 +131,18 @@ food_factory_template = {
 			amount = 0.8
 		}
 		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
 			poptype = clerks
 			effect = output
 			effect_multiplier = 1.60
@@ -146,6 +182,18 @@ light_factory_template = {
 			effect = throughput
 			effect_multiplier = 2.50
 			amount = 0.8
+		}
+		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
 		}
 		{
 			poptype = clerks
@@ -197,6 +245,18 @@ luxury_factory_template = {
 			effect = throughput
 			effect_multiplier = 2.50
 			amount = 0.8
+		}
+		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.00
+			amount = 3.2
 		}
 		{
 			poptype = clerks
@@ -262,15 +322,28 @@ luxury_factory = {
 RGO_template_farmers = {
 	owner =
 	{
-		poptype = aristocrats
+		poptype = capitalists
 		effect = output
 		effect_multiplier = 2
 	}
 
 	employees = {
 		{
+			poptype = labourers
+			effect = throughput
+			effect_multiplier = 0.9
+			amount = 0.9
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.1
+			amount = 0.9
+		}
+		{
 			poptype = farmers
 			effect = throughput
+			effect_multiplier = 1.1
 			amount = 0.9
 		}
 		{
@@ -288,7 +361,7 @@ RGO_template_farmers = {
 RGO_template_labourers = {
 	owner =
 	{
-		poptype = aristocrats
+		poptype = capitalists
 		effect = output
 		effect_multiplier = 2
 	}
@@ -297,6 +370,19 @@ RGO_template_labourers = {
 		{
 			poptype = labourers
 			effect = throughput
+			effect_multiplier = 0.9
+			amount = 0.9
+		}
+		{
+			poptype = aristocrats
+			effect = throughput
+			effect_multiplier = 1.1
+			amount = 0.9
+		}
+		{
+			poptype = farmers
+			effect = throughput
+			effect_multiplier = 1.1
 			amount = 0.9
 		}
 		{

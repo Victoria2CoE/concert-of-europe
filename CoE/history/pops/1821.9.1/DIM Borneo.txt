@@ -6,7 +6,7 @@
 ###########North East Borneo (247700/61925 POPS)
 #Tarakan (132600/33150 POPS)
 1425 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 300
@@ -30,13 +30,13 @@
 		size= 800
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 22000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 140
@@ -68,7 +68,7 @@
 }
 #Samarinda (150000/35000 POPS)
 1429 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 150
@@ -93,13 +93,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 8000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 400
@@ -129,12 +129,12 @@
 		size= 4000
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 16650
 	}
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 3000
@@ -143,7 +143,7 @@
 
 #Gunung Tabur (49480/12370 POPs)
 2629 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 155
@@ -161,13 +161,13 @@
 		size = 890
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 9400
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 450
@@ -191,7 +191,7 @@
 		size = 1550
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 12000
@@ -202,7 +202,7 @@
 
 #Kutai Timur (67100/16775 POPs)
 2652 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 250
@@ -220,13 +220,13 @@
 		size = 450
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 7500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 200
@@ -250,13 +250,13 @@
 		size = 450
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 6000
 	}
 
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 1500
@@ -266,7 +266,7 @@
 
 #Kutai Barat (128180/32045 POPS)
 2680 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 350
@@ -284,13 +284,13 @@
 		size = 900
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 17500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 275
@@ -314,13 +314,13 @@
 		size = 800
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 7000
 	}
 
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 3500
@@ -330,7 +330,7 @@
 #####Banjar (208000/52000 POPS ######
 #Banjarmasin (38960/9740 POPS)
 2640 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 30
@@ -348,13 +348,13 @@
 		size = 275
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 2100
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = banjarnese
 		religion = sunni
 		size = 450
@@ -385,7 +385,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 8200
@@ -393,13 +393,13 @@
 }
 #Martapoera
 1423 = {
-	aristocrats = {
+	capitalists = {
 		culture = banjarnese
 		religion = sunni
 		size = 350
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 75
@@ -428,13 +428,13 @@
 		size= 1800
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 4000
 	}
 	
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 17950
@@ -443,12 +443,12 @@
 
 #Muraleve (91500/22875 POPS)
 1422 = {
-	aristocrats = {
+	capitalists = {
 		culture = banjarnese
 		religion = sunni
 		size = 50
 	}
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 100
@@ -477,13 +477,13 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 12000
 	}
 	
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 8000
@@ -491,7 +491,7 @@
 }
 #Pasir (36440/8360 POPS)
 1424 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 200
@@ -515,13 +515,13 @@
 		size= 500
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 9300
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = banjarnese
 		religion = sunni
 		size = 350
@@ -539,7 +539,7 @@
 		size = 2600
 	}
 
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 12000
@@ -554,7 +554,7 @@
 
 #Kota Waringin (55000/13500 POPS)
 1427 = {
-	aristocrats = {
+	capitalists = {
 		culture = banjarnese
 		religion = sunni
 		size = 700
@@ -569,13 +569,13 @@
 		religion = sunni
 		size = 2200
 	}
-	farmers = {
+	labourers = {
 		culture = banjarnese
 		religion = sunni
 		size = 22000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 230
@@ -599,13 +599,13 @@
 		size = 500
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 29000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 150
@@ -630,7 +630,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 8100
@@ -642,7 +642,7 @@
 ########West Borneo (+-600000/150000 POPS) #############
 #Pontianak (180620/45155 POPS)
 1426 = {
-	aristocrats = {
+	capitalists = {
 		culture = hakka
 		religion = mahayana
 		size = 50
@@ -657,12 +657,12 @@
 		religion = animist
 		size = 300
 	}
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 15000
 	}
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 500
@@ -687,7 +687,7 @@
 		religion = sunni
 		size= 2000
 	}
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 12000
@@ -707,7 +707,7 @@
 		religion = mahayana
 		size = 4150
 	}
-	farmers = {
+	labourers = {
 		culture = hakka
 		religion = mahayana
 		size = 10250
@@ -721,7 +721,7 @@
 
 #Sintang (17000/4500 POPS)
 2599 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 890
@@ -745,13 +745,13 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 38100
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 285
@@ -774,7 +774,7 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 4700
@@ -784,7 +784,7 @@
 
 #Sambas (34000/8500)
 2666 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 150
@@ -808,13 +808,13 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 17000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 440
@@ -832,7 +832,7 @@
 		size = 1600
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 7000
@@ -844,7 +844,7 @@
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = hakka
 		religion = mahayana
 		size = 6000
@@ -854,7 +854,7 @@
 
 #Lanfang (95000/23750)
 2637 = {
-	aristocrats = {
+	capitalists = {
 		culture = hakka
 		religion = mahayana
 		size = 250
@@ -878,13 +878,13 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 8000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 80
@@ -902,7 +902,7 @@
 		size = 300
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 500
@@ -932,7 +932,7 @@
 		size = 80
 	}
 
-	farmers = {
+	labourers = {
 		culture = hakka
 		religion = mahayana
 		size = 15000
@@ -948,7 +948,7 @@
 
 #Matan (25000/6250)
 1452 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 400
@@ -966,13 +966,13 @@
 		size = 1800
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 15000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 350
@@ -996,7 +996,7 @@
 		size = 1500
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 7000
@@ -1007,7 +1007,7 @@
 ####Dayak Lands (151260/37815 POPS)########
 #Palangkaraya (43800/10950 POPs)
 1428 = {
-	aristocrats = {
+	capitalists = {
 		culture = dayak
 		religion = animist
 		size = 490
@@ -1031,7 +1031,7 @@
 		size = 1700
 	}
 
-	farmers = {
+	labourers = {
 		culture = dayak
 		religion = animist
 		size = 43150

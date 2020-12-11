@@ -51,7 +51,7 @@ political_decisions = {
 			set_country_flag = free_at_last
 			any_pop = {
 				limit = {
-					pop_type = aristocrats
+					pop_type = capitalists
 				}
 				consciousness = 5
 				militancy = 10

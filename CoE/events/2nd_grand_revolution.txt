@@ -57,7 +57,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				NOT = { type = aristocrats }
+				NOT = { type = capitalists }
 			}
 			consciousness = 1
 			ideology = {
@@ -67,7 +67,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				type = aristocrats
+				type = capitalists
 			}
 			consciousness = 2
 			ideology = {
@@ -600,7 +600,7 @@ country_event = {
 		remove_country_modifier = louis_napoleon_iii
 		any_pop = {
 			limit = {
-				NOT = { type = aristocrats }
+				NOT = { type = capitalists }
 			}
 			consciousness = 3
 			ideology = {
@@ -614,7 +614,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				type = aristocrats
+				type = capitalists
 			}
 			consciousness = 1
 			ideology = {
@@ -760,7 +760,7 @@ country_event = {
 		remove_country_modifier = louis_napoleon_iii
 		any_pop = {
 			limit = {
-				NOT = { type = aristocrats }
+				NOT = { type = capitalists }
 			}
 			consciousness = 3
 			ideology = {
@@ -774,7 +774,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				type = aristocrats
+				type = capitalists
 			}
 			consciousness = 1
 			ideology = {

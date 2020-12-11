@@ -4,7 +4,7 @@
 #										set up to be part of Ternate, but should probably go to Tidore.
 #										Undecided on this as of yet, there POPs left out
 #1453 = {
-#	aristocrats = {
+#	capitalists = {
 #		culture = moluccan
 #		religion = sunni
 #		size = 50
@@ -22,13 +22,13 @@
 #		size = 1100
 #	}
 #
-#	farmers = {
+#	labourers = {
 #		culture = moluccan
 #		religion = sunni
 #		size = 13850
 #	}
 #
-#	aristocrats = {
+#	capitalists = {
 #		culture = melanesian
 #		religion = animist
 #		size = 200
@@ -53,7 +53,7 @@
 #
 #	}
 #
-#	farmers = {
+#	labourers = {
 #		culture = melanesian
 #		religion = animist
 #		size = 6250
@@ -61,7 +61,7 @@
 #}
 #Papuan Interior (120000/30000 POPS)
 1454 = {
-	aristocrats = {
+	capitalists = {
 		culture = melanesian
 		religion = animist
 		size = 300
@@ -85,7 +85,7 @@
 		size = 475
 	}
 
-	farmers = {
+	labourers = {
 		culture = melanesian
 		religion = animist
 		size = 27725
@@ -93,7 +93,7 @@
 }
 #Coast of Papua (234000/56000 POPS)
 1560 = {
-	aristocrats = {
+	capitalists = {
 		culture = melanesian
 		religion = animist
 		size = 750
@@ -118,7 +118,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = melanesian
 		religion = animist
 		size = 51975

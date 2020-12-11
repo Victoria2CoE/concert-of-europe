@@ -2,14 +2,14 @@
 
 1455 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2612
 		culture = spanish
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1166
 		culture = filipino
@@ -86,21 +86,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 127388
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 746
 		culture = nanfaren
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16535
 		culture = malay
@@ -167,14 +167,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 125497
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6203
 		culture = asian_minor
@@ -213,14 +213,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 114302
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7792
 		culture = malay
@@ -259,14 +259,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36266
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10285
 		culture = filipino
@@ -277,14 +277,14 @@
 }
 1459 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1959
 		culture = filipino
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = filipino
@@ -407,14 +407,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 60406
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6833
 		culture = filipino
@@ -439,7 +439,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 74747
 		culture = filipino
@@ -524,21 +524,21 @@
 }
 1463 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = filipino
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 653
 		culture = filipino
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 186
 		culture = asian_minor
@@ -649,7 +649,7 @@
 
 1464 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = malay
@@ -677,7 +677,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13830
 		culture = malay
@@ -745,14 +745,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59751
 		culture = filipino
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5014
 		culture = filipino

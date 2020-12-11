@@ -1,6 +1,6 @@
 1 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 65
 		culture = native_american_minor
@@ -74,7 +74,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -99,14 +99,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 544
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 51
 		culture = russian
@@ -131,7 +131,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = inuit
@@ -170,14 +170,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 222
 		culture = inuit
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 222
 		culture = native_american_minor
@@ -189,7 +189,7 @@
 
 78 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = native_american_minor
@@ -210,7 +210,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = native_american_minor
@@ -271,7 +271,7 @@
 }
 81 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = native_american_minor
@@ -328,7 +328,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -339,14 +339,14 @@
 }
 84 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 34
 		culture = mexican
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 168
 		culture = native_american_minor
@@ -367,21 +367,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 286
 		culture = mexican
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 163
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1783
 		culture = native_american_minor
@@ -463,21 +463,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 430
 		culture = mexican
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 122
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -538,14 +538,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 737
 		culture = mexican
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -556,7 +556,7 @@
 }
 91 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 84
 		culture = native_american_minor
@@ -570,7 +570,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -613,7 +613,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = native_american_minor
@@ -667,7 +667,7 @@
 }
 96 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 29
 		culture = native_american_minor
@@ -706,7 +706,7 @@
 }
 97 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 44
 		culture = native_american_minor
@@ -781,14 +781,14 @@
 }
 100 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 133
 		culture = native_american_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1
 		culture = mexican
@@ -919,7 +919,7 @@
 }
 103 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 180
 		culture = mexican
@@ -954,21 +954,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3676
 		culture = mexican
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = pueblo
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1014,14 +1014,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = pueblo
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1475
 		culture = mexican
@@ -1039,7 +1039,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1050,7 +1050,7 @@
 }
 106 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 54
 		culture = native_american_minor
@@ -1071,7 +1071,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1096,7 +1096,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1114,7 +1114,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1139,7 +1139,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1150,7 +1150,7 @@
 }
 110 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 98
 		culture = native_american_minor
@@ -1171,7 +1171,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1783
 		culture = native_american_minor
@@ -1228,7 +1228,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1310,14 +1310,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = dakota
@@ -1328,14 +1328,14 @@
 }
 116 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 64
 		culture = dakota
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 24
 		culture = native_american_minor
@@ -1363,14 +1363,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 892
 		culture = dakota
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1395,7 +1395,7 @@
 }
 117 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 64
 		culture = dakota
@@ -1508,14 +1508,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = dakota
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1526,14 +1526,14 @@
 }
 120 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 54
 		culture = dakota
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 9
 		culture = native_american_minor
@@ -1575,14 +1575,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = dakota
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1660,14 +1660,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = dakota
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1678,7 +1678,7 @@
 }
 123 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 9
 		culture = native_american_minor
@@ -1699,7 +1699,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1717,7 +1717,7 @@
 }
 124 = {
 	
-	aristocrats = {
+	capitalists = {
 
 		size = 44
 		culture = dakota
@@ -1738,7 +1738,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = dakota
@@ -1766,7 +1766,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -1791,7 +1791,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1802,7 +1802,7 @@
 }
 126 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 74
 		culture = native_american_minor
@@ -1823,7 +1823,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1862,7 +1862,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1887,7 +1887,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -1898,14 +1898,14 @@
 }
 129 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 69
 		culture = cherokee
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 24
 		culture = native_american_minor
@@ -1940,21 +1940,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 791
 		culture = cherokee
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 81
 		culture = afro_american
@@ -2007,21 +2007,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1583
 		culture = cherokee
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 163
 		culture = afro_american
@@ -2046,7 +2046,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -2117,14 +2117,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 368
 		culture = mexican
@@ -2135,14 +2135,14 @@
 }
 139 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 377
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 176
 		culture = dixie
@@ -2198,21 +2198,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 751
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2798
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3919
 		culture = afro_american
@@ -2314,21 +2314,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2108
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2133
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6
 		culture = afro_american
@@ -2452,7 +2452,7 @@
 }
 143 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 81
 		culture = dixie
@@ -2494,14 +2494,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3751
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6
 		culture = afro_american
@@ -2547,7 +2547,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1506
 		culture = dixie
@@ -2583,14 +2583,14 @@
 }
 146 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 143
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 4
 		culture = dixie
@@ -2646,42 +2646,42 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9694
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 136
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6507
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 375
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 902
 		culture = irish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41
 		culture = afro_american
@@ -2773,14 +2773,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 768
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1844
 		culture = dixie
@@ -2918,7 +2918,7 @@
 }
 151 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 59
 		culture = native_american_minor
@@ -2953,14 +2953,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 368
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -2992,7 +2992,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 758
 		culture = yankee
@@ -3017,14 +3017,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1144
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -3049,7 +3049,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = dakota
@@ -3060,14 +3060,14 @@
 }
 155 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 79
 		culture = dakota
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 9
 		culture = native_american_minor
@@ -3230,7 +3230,7 @@
 }
 159 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 19
 		culture = native_american_minor
@@ -3283,7 +3283,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = native_american_minor
@@ -3482,14 +3482,14 @@
 		religion = mormon
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14376
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2459
 		culture = yankee
@@ -3521,7 +3521,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4964
 		culture = yankee
@@ -3553,14 +3553,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9176
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 538
 		culture = afro_american
@@ -3599,14 +3599,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39488
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3468
 		culture = north_german
@@ -3652,21 +3652,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26392
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1122
 		culture = afro_american
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 690
 		culture = irish
@@ -3727,7 +3727,7 @@
 }
 173 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 34
 		culture = native_american_minor
@@ -4017,21 +4017,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28145
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4892
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6995
 		culture = irish
@@ -4102,14 +4102,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28114
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4898
 		culture = north_german
@@ -4155,28 +4155,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30396
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5603
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6995
 		culture = irish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1691
 		culture = afro_american
@@ -4201,14 +4201,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22395
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 553
 		culture = afro_american
@@ -4219,7 +4219,7 @@
 }
 184 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 753
 		culture = dixie
@@ -4268,28 +4268,28 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8021
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3468
 		culture = irish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4995
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 430
 		culture = afro_american
@@ -4451,21 +4451,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7470
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7347
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 430
 		culture = afro_american
@@ -4518,21 +4518,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2846
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7901
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61
 		culture = afro_american
@@ -4550,14 +4550,14 @@
 }
 188 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1198
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 24
 		culture = cherokee
@@ -4620,21 +4620,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17538
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28283
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 199
 		culture = afro_american
@@ -4715,21 +4715,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3981
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9407
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61
 		culture = afro_american
@@ -4951,14 +4951,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12327
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5004,14 +5004,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5733
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5029,7 +5029,7 @@
 }
 194 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 692
 		culture = dixie
@@ -5064,14 +5064,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4718
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5103,14 +5103,14 @@
 }
 195 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1106
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 18
 		culture = dixie
@@ -5166,21 +5166,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22103
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1122
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5314,21 +5314,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8315
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1122
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5381,14 +5381,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1455
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4
 		culture = afro_american
@@ -5434,14 +5434,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3013
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4
 		culture = afro_american
@@ -5459,14 +5459,14 @@
 }
 200 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 24
 		culture = native_american_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 102
 		culture = dixie
@@ -5487,7 +5487,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = native_american_minor
@@ -5519,14 +5519,14 @@
 }
 201 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1291
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = cherokee
@@ -5582,21 +5582,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18307
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2745
 		culture = cherokee
@@ -5670,14 +5670,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3935
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6
 		culture = afro_american
@@ -5724,14 +5724,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16247
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -5749,7 +5749,7 @@
 }
 205 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1198
 		culture = dixie
@@ -5865,21 +5865,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22487
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17
 		culture = ashkenazi
@@ -5925,14 +5925,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10698
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30
 		culture = afro_american
@@ -5985,14 +5985,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15986
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 61
 		culture = afro_american
@@ -6010,7 +6010,7 @@
 }
 209 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1875
 		culture = dixie
@@ -6045,14 +6045,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10606
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -6112,14 +6112,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16217
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = afro_american
@@ -6137,14 +6137,14 @@
 }
 211 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1460
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 138
 		culture = dixie
@@ -6193,14 +6193,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31649
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 692
 		culture = afro_american
@@ -6274,14 +6274,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3289
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 384
 		culture = afro_american
@@ -6341,14 +6341,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8346
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 245
 		culture = afro_american
@@ -6408,21 +6408,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2244
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6148
 		culture = dixie
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 138
 		culture = afro_american
@@ -6468,14 +6468,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4472
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 153
 		culture = afro_american
@@ -6521,14 +6521,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9022
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30
 		culture = afro_american
@@ -6620,14 +6620,14 @@
 }
 218 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 245
 		culture = dixie
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 61
 		culture = dixie
@@ -6771,14 +6771,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7226
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1153
 		culture = afro_american
@@ -6796,7 +6796,7 @@
 }
 220 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 753
 		culture = dixie
@@ -6831,14 +6831,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11144
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1168
 		culture = afro_american
@@ -6898,14 +6898,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4503
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1629
 		culture = afro_american
@@ -6958,14 +6958,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7387
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3166
 		culture = afro_american
@@ -7141,7 +7141,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23502
 		culture = yankee
@@ -7191,7 +7191,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41072
 		culture = yankee
@@ -7336,21 +7336,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17786
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2275
 		culture = yankee
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2306
 		culture = afro_american
@@ -7389,14 +7389,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12976
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1682
 		culture = yankee
@@ -7435,7 +7435,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10620
 		culture = yankee
@@ -7544,14 +7544,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 71404
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 538
 		culture = yankee
@@ -7597,7 +7597,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14341
 		culture = yankee
@@ -7675,7 +7675,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49787
 		culture = yankee
@@ -7725,7 +7725,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25224
 		culture = yankee
@@ -7853,14 +7853,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40924
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 907
 		culture = afro_american
@@ -7913,14 +7913,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11975
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 292
 		culture = afro_american
@@ -8022,21 +8022,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20276
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2217
 		culture = yankee
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 686
 		culture = irish
@@ -8096,14 +8096,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16616
 		culture = yankee
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2931
 		culture = irish
@@ -8405,7 +8405,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 356
 		culture = native_american_minor
@@ -8444,14 +8444,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = inuit
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 222
 		culture = native_american_minor
@@ -8491,14 +8491,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10022
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6
 		culture = afro_american
@@ -8544,14 +8544,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15048
 		culture = dixie
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 91
 		culture = afro_american

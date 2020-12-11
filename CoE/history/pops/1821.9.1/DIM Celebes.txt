@@ -2,7 +2,7 @@
 #Buginese States
 #Makassar (280.000/70.000POPs)
 1430 = {
-	aristocrats = {
+	capitalists = {
 		culture = makassarese
 		religion = sunni
 		size = 650
@@ -33,13 +33,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = makassarese
 		religion = sunni
 		size = 45025
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = bunginese
 		religion = sunni
 		size = 150
@@ -64,13 +64,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = bunginese
 		religion = sunni
 		size = 9500
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 2500
@@ -79,7 +79,7 @@
 
 #Bone (310000/77500 POPS)
 1431 = {
-	aristocrats = {
+	capitalists = {
 		culture = bunginese
 		religion = sunni
 		size = 850
@@ -104,19 +104,19 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = bunginese
 		religion = sunni
 		size = 45000
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 5000
 	}
 
-	farmers = {
+	labourers = {
 		culture = makassarese
 		religion = sunni
 		size = 9900
@@ -131,7 +131,7 @@
 
 #Wadjo (56000/14000 POPS)
 2649 = {
-	aristocrats = {
+	capitalists = {
 		culture = bunginese
 		religion = sunni
 		size = 200
@@ -155,13 +155,13 @@
 		size= 1000
 	}
 
-	farmers = {
+	labourers = {
 		culture = bunginese
 		religion = sunni
 		size = 7000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 50
@@ -174,7 +174,7 @@
 		size = 500
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 4000
@@ -183,7 +183,7 @@
 
 #Soppeng (88000/22000 POPS)
 2622 = {
-	aristocrats = {
+	capitalists = {
 		culture = bunginese
 		religion = sunni
 		size = 300
@@ -207,7 +207,7 @@
 		size = 1500
 	}
 
-	farmers = {
+	labourers = {
 		culture = bunginese
 		religion = sunni
 		size = 18175
@@ -217,7 +217,7 @@
 #Northern Celebes
 #Mamuju (128000/32000 POPS)
 1432 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 250
@@ -242,13 +242,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 21750
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 75
@@ -266,7 +266,7 @@
 		size = 100
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 6675
@@ -274,7 +274,7 @@
 }
 #Menado (256000/54000 POPS)
 1433 = {
-	aristocrats = {
+	capitalists = {
 		culture = minahasan
 		religion = animist
 		size = 500
@@ -299,13 +299,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = minahasan
 		religion = animist
 		size = 35100
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = minahasan
 		religion = sunni
 		size = 50
@@ -330,13 +330,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = minahasan
 		religion = sunni
 		size = 10175
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = minahasan
 		religion = protestant
 		size = 125
@@ -354,7 +354,7 @@
 		size = 800
 	}
 
-	farmers = {
+	labourers = {
 		culture = minahasan
 		religion = protestant
 		size = 3500
@@ -365,12 +365,12 @@
 #Eastern Celebes
 #Luwak (100000/37000 POPS)
 1434 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 550
 	}
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 500
@@ -409,12 +409,12 @@
 		size= 4500
 
 	}
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 60125
 	}
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 44125
@@ -424,7 +424,7 @@
 
 #Bulon (48000/12000 POPS)
 1437 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 150
@@ -449,7 +449,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 11025
@@ -460,7 +460,7 @@
 #Luwu (120000/30000 POPS)
 #Palopo (13000 POPS)
 1436 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 600
@@ -484,7 +484,7 @@
 		size= 2025
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 15425
@@ -496,7 +496,7 @@
 		size = 250
 	}
 
-	farmers = {
+	labourers = {
 		culture = bunginese
 		religion = sunni
 		size = 3025
@@ -506,7 +506,7 @@
 
 #Palopo (7000 POPS)
 1435 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 100
@@ -524,7 +524,7 @@
 		size = 225
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 6500

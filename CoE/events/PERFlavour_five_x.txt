@@ -1082,7 +1082,7 @@ country_event = {
 			limit = {
 				OR = {
 					pop_type = clergymen
-					pop_type = aristocrats
+					pop_type = capitalists
 				}
 			}
 			consciousness = 2
@@ -2234,7 +2234,7 @@ country_event = {
 			militancy = -1
 		}
 		random_pop = {
-			limit = { type = aristocrats }
+			limit = { type = capitalists }
 			pop_type = officers
 		}
 		ai_chance = {
@@ -3239,7 +3239,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				type = aristocrats			
+				type = capitalists			
 			}
 			consciousness = 1
 		}
@@ -4833,7 +4833,7 @@ province_event = {
 					NOT = {
 						OR = {
 							type = clergymen
-							type = aristocrats
+							type = capitalists
 						}
 					}
 				}
@@ -4884,7 +4884,7 @@ province_event = {
 					}
 					OR = {
 						type = clergymen
-						type = aristocrats
+						type = capitalists
 					}
 				}
 				ideology = {
@@ -4947,7 +4947,7 @@ province_event = {
 				NOT = {
 					OR = {
 						type = clergymen
-						type = aristocrats
+						type = capitalists
 					}
 				}
 			}
@@ -5003,7 +5003,7 @@ country_event = {
 				NOT = {
 					OR = {
 						type = clergymen
-						type = aristocrats
+						type = capitalists
 					}
 				}
 			}
@@ -5085,7 +5085,7 @@ country_event = {
 				}
 				OR = {
 					type = clergymen
-					type = aristocrats
+					type = capitalists
 				}
 			}
 			ideology = {
@@ -5186,7 +5186,7 @@ country_event = {
 				NOT = {
 					OR = {
 						type = clergymen
-						type = aristocrats
+						type = capitalists
 					}
 				}
 			}
@@ -5260,7 +5260,7 @@ country_event = {
 				}
 				OR = {
 					type = clergymen
-					type = aristocrats
+					type = capitalists
 				}
 			}
 			ideology = {

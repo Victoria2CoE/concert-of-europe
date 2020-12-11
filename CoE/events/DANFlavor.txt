@@ -121,7 +121,7 @@ country_event = {
 		artisans = {
 			consciousness = 2
 		}
-		aristocrats = {
+		capitalists = {
 			consciousness = 2
 		}
 		capitalists = {
@@ -216,7 +216,7 @@ country_event = {
 		capitalists = {
 			militancy = 1
 		}
-		aristocrats = {
+		capitalists = {
 			militancy = 1
 		}
 		ai_chance = {

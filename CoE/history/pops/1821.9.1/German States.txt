@@ -75,14 +75,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16116
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5036
 		culture = north_german
@@ -146,7 +146,7 @@
 
 369 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 869
 		culture = north_german
@@ -195,21 +195,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44549
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1671
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4303
 		culture = danish
@@ -234,7 +234,7 @@
 }
 370 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 686
 		culture = north_german
@@ -297,21 +297,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6079
 		culture = danish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27475
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11200
 		culture = frisian
@@ -371,14 +371,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15223
 		culture = danish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5997
 		culture = north_german
@@ -405,7 +405,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30676
 		culture = north_german
@@ -420,7 +420,7 @@
 ######################
 528 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 274
 		culture = north_german
@@ -469,7 +469,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14880
 		culture = north_german
@@ -495,7 +495,7 @@
 
 530 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 91
 		culture = north_german
@@ -530,14 +530,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2193
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 183
 		culture = north_german
@@ -562,7 +562,7 @@
 }
 531 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 915
 		culture = north_german
@@ -590,7 +590,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43999
 		culture = north_german
@@ -629,7 +629,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42031
 		culture = north_german
@@ -647,14 +647,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 230
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 136
 		culture = frisian
@@ -665,7 +665,7 @@
 }
 534 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1556
 		culture = north_german
@@ -707,14 +707,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 81795
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3365
 		culture = north_german
@@ -760,7 +760,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52722
 		culture = north_german
@@ -771,7 +771,7 @@
 }
 536 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = north_german
@@ -799,14 +799,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 48876
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 879
 		culture = north_german
@@ -898,21 +898,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4533
 		culture = dutch
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20145
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20649
 		culture = north_german
@@ -923,7 +923,7 @@
 }
 539 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 91
 		culture = north_german
@@ -951,14 +951,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4789
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 892
 		culture = north_german
@@ -983,7 +983,7 @@
 }
 540 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 480
 		culture = north_german
@@ -1011,14 +1011,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35529
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1703
 		culture = north_german
@@ -1117,21 +1117,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7856
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2527
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7833
 		culture = dutch
@@ -1142,14 +1142,14 @@
 }
 543 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 493
 		culture = frisian
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 220
 		culture = north_german
@@ -1184,14 +1184,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13159
 		culture = frisian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3666
 		culture = north_german
@@ -1223,7 +1223,7 @@
 }
 544 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1304
 		culture = north_german
@@ -1258,7 +1258,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100545
 		culture = north_german
@@ -1297,7 +1297,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18268
 		culture = north_german
@@ -1311,7 +1311,7 @@
 #################
 546 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2727
 		culture = north_german
@@ -1353,14 +1353,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 95012
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 842
 		culture = polish
@@ -1406,7 +1406,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27219
 		culture = north_german
@@ -1452,14 +1452,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18543
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11400
 		culture = north_german
@@ -1470,7 +1470,7 @@
 }
 549 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3958
 		culture = north_german
@@ -1575,14 +1575,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 107321
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6256
 		culture = north_german
@@ -1635,7 +1635,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 57598
 		culture = north_german
@@ -1660,7 +1660,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47502
 		culture = north_german
@@ -1731,7 +1731,7 @@
 }
 553 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2472
 		culture = north_german
@@ -1780,14 +1780,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 94341
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20832
 		culture = north_german
@@ -1819,7 +1819,7 @@
 }
 554 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = north_german
@@ -1900,7 +1900,7 @@
 }
 555 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 297
 		culture = north_german
@@ -1928,14 +1928,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28737
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 842
 		culture = north_german
@@ -2042,7 +2042,7 @@
 }
 558 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3218
 		culture = north_german
@@ -2233,7 +2233,7 @@
 }
 561 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1007
 		culture = north_german
@@ -2293,7 +2293,7 @@
 }
 562 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 663
 		culture = north_german
@@ -2346,7 +2346,7 @@
 }
 563 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 467
 		culture = north_german
@@ -2399,7 +2399,7 @@
 }
 564 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 333
 		culture = north_german
@@ -2462,14 +2462,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3572
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 128
 		culture = north_german
@@ -2494,7 +2494,7 @@
 }
 565 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 434
 		culture = north_german
@@ -2582,7 +2582,7 @@
 }
 566 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1259
 		culture = north_german
@@ -2670,7 +2670,7 @@
 }
 567 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 915
 		culture = north_german
@@ -2691,7 +2691,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32122
 		culture = north_german
@@ -2751,14 +2751,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32901
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9431
 		culture = north_german
@@ -2808,14 +2808,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12591
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42672
 		culture = south_german
@@ -2826,7 +2826,7 @@
 }
 570 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = north_german
@@ -2900,7 +2900,7 @@
 }
 571 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 595
 		culture = south_german
@@ -2942,14 +2942,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 52625
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 64786
 		culture = south_german
@@ -3038,14 +3038,14 @@
 }
 573 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 503
 		culture = north_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 640
 		culture = north_german
@@ -3172,14 +3172,14 @@
 }
 575 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2822
 		culture = north_german
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 619
 		culture = dutch
@@ -3380,14 +3380,14 @@
 }
 578 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 824
 		culture = north_german
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 640
 		culture = dutch
@@ -3581,21 +3581,21 @@
 }
 581 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 332
 		culture = dutch
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 675
 		culture = north_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1762
 		culture = north_german
@@ -3711,14 +3711,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28409
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16116
 		culture = north_german
@@ -3757,14 +3757,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11423
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9866
 		culture = north_german
@@ -3828,7 +3828,7 @@
 }
 585 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 228
 		culture = north_german
@@ -3891,7 +3891,7 @@
 #####################
 586 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2518
 		culture = south_german
@@ -3933,14 +3933,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 127878
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4029
 		culture = south_german
@@ -4000,14 +4000,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47595
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3388
 		culture = south_german
@@ -4058,14 +4058,14 @@
 }
 589 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2518
 		culture = south_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 824
 		culture = south_german
@@ -4107,14 +4107,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 120141
 		culture = south_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13895
 		culture = south_german
@@ -4160,7 +4160,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 72547
 		culture = south_german
@@ -4206,14 +4206,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33814
 		culture = south_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28043
 		culture = south_german
@@ -4238,7 +4238,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 71379
 		culture = south_german
@@ -4277,14 +4277,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5814
 		culture = south_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 76690
 		culture = south_german
@@ -4295,7 +4295,7 @@
 }
 594 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 137
 		culture = south_german
@@ -4330,7 +4330,7 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12032
 		culture = south_german
@@ -4358,14 +4358,14 @@
 #################
 595 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2747
 		culture = south_german
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1327
 		culture = south_german
@@ -4414,14 +4414,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 85504
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 101895
 		culture = south_german
@@ -4467,7 +4467,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28570
 		culture = south_german
@@ -4492,7 +4492,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59979
 		culture = south_german
@@ -4549,7 +4549,7 @@
 }
 599 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4258
 		culture = south_german
@@ -4672,7 +4672,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34545
 		culture = south_german
@@ -4697,7 +4697,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34041
 		culture = south_german
@@ -4820,14 +4820,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30510
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = western_slavic
@@ -4859,7 +4859,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42511
 		culture = north_german
@@ -4870,7 +4870,7 @@
 }
 682 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 6043
 		culture = north_german
@@ -5067,7 +5067,7 @@
 }
 684 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3433
 		culture = north_german
@@ -5326,7 +5326,7 @@
 
 690 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1556
 		culture = north_german
@@ -5375,21 +5375,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 907
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 351
 		culture = western_slavic
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1716
 		culture = polish
@@ -5456,28 +5456,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17820
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7930
 		culture = western_slavic
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 841
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11293
 		culture = polish
@@ -5509,14 +5509,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23762
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2403
 		culture = polish
@@ -5548,14 +5548,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21291
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1000
 		culture = polish
@@ -5608,21 +5608,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12730
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1694
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22183
 		culture = polish
@@ -5633,7 +5633,7 @@
 }
 695 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 6226
 		culture = north_german
@@ -5703,28 +5703,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 63069
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16505
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4235
 		culture = polish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5182
 		culture = lithuanian
@@ -5791,21 +5791,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28000
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30103
 		culture = polish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4235
 		culture = polish
@@ -5844,21 +5844,21 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43290
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1694
 		culture = polish
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3479
 		culture = lithuanian
@@ -5904,14 +5904,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17856
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15658
 		culture = lithuanian
@@ -5922,14 +5922,14 @@
 }
 699 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3166
 		culture = north_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2144
 		culture = polish
@@ -5985,21 +5985,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24563
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3909
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 78495
 		culture = polish
@@ -6080,21 +6080,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18451
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5975
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20489
 		culture = polish
@@ -6147,21 +6147,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11139
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4486
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 86070
 		culture = polish
@@ -6208,21 +6208,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40000
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11000
 		culture = polish
@@ -6282,28 +6282,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35000
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5000
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12000
 		culture = polish
@@ -6336,14 +6336,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19366
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5844
 		culture = polish

@@ -21,14 +21,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16730
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = siberian
@@ -39,14 +39,14 @@
 }
 1082 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1953
 		culture = manchu
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 100
 		culture = siberian
@@ -74,21 +74,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22102
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = korean
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 915
 		culture = siberian
@@ -127,14 +127,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22692
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1904
 		culture = siberian
@@ -212,14 +212,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25615
 		culture = manchu
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1904
 		culture = siberian
@@ -230,7 +230,7 @@
 }
 1086 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 35
 		culture = ainu
@@ -258,14 +258,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = ainu
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21
 		culture = russian
@@ -354,7 +354,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 915
 		culture = ainu

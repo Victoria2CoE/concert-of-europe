@@ -80,21 +80,21 @@
 }
 2117 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2646
 		culture = african_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 618
 		culture = malagasy
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 766
 		culture = malagasy
@@ -129,14 +129,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22535
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28151
 		culture = malagasy
@@ -196,14 +196,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14867
 		culture = malagasy
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17118
 		culture = malagasy
@@ -256,28 +256,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3982
 		culture = african_minor
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12616
 		culture = malagasy
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 915
 		culture = malagasy
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = malagasy
@@ -348,14 +348,14 @@
 }
 2121 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 915
 		culture = african_minor
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 4601
 		culture = malagasy
@@ -457,14 +457,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3685
 		culture = african_minor
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23723
 		culture = malagasy
@@ -482,14 +482,14 @@
 }
 2123 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 148
 		culture = african_minor
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 98
 		culture = african_minor
@@ -524,21 +524,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3389
 		culture = african_minor
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5442
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2968
 		culture = african_minor
@@ -591,14 +591,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 395
 		culture = african_minor
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = african_minor
@@ -616,7 +616,7 @@
 }
 2125 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 64
 		culture = french
@@ -665,14 +665,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 183
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22140
 		culture = african_minor
@@ -697,21 +697,21 @@
 }
 2126 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 686
 		culture = french
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 14
 		culture = african_minor
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 14
 		culture = african_minor
@@ -753,14 +753,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5334
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1673
 		culture = afro_antillean
@@ -820,7 +820,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1162
 		culture = african_minor
@@ -831,7 +831,7 @@
 }
 2128 = {
 
-	farmers = {
+	labourers = {
 
 		size = 163
 		culture = african_minor
@@ -843,7 +843,7 @@
 
 2244 = {
 
-	farmers = {
+	labourers = {
 
 		size = 13
 		culture = malay

@@ -525,7 +525,7 @@ political_decisions = {
 				consciousness = -2
 				militancy = -2
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 2
 				militancy = 2
 			}
@@ -1069,7 +1069,7 @@ political_decisions = {
 				consciousness = -2
 				militancy = -2
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 1
 				militancy = 1
 			}
@@ -1610,7 +1610,7 @@ political_decisions = {
 				consciousness = -2
 				militancy = -2
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 4
 				militancy = 4
 			}
@@ -1657,7 +1657,7 @@ political_decisions = {
 				consciousness = 4
 				militancy = 4
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 10
 				militancy = 10
 			}

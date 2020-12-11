@@ -1,6 +1,6 @@
 610 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 64
 		culture = micronesian
@@ -21,7 +21,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 593
 		culture = micronesian
@@ -40,7 +40,7 @@
 
 658 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 441
 		culture = polynesian
@@ -75,14 +75,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19814
 		culture = polynesian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1979
 		culture = polynesian
@@ -108,7 +108,7 @@
 
 686 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5
 		culture = polynesian
@@ -129,7 +129,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 125
 		culture = polynesian
@@ -149,7 +149,7 @@
 
 801 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 123
 		culture = polynesian
@@ -170,7 +170,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4056
 		culture = polynesian
@@ -188,7 +188,7 @@
 }
 1097 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 222
 		culture = melanesian
@@ -209,7 +209,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5417
 		culture = melanesian
@@ -269,7 +269,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 667
 		culture = polynesian
@@ -284,7 +284,7 @@
 
 2454 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 522
 		culture = melanesian
@@ -305,7 +305,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19814
 		culture = melanesian
@@ -344,7 +344,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1474
 		culture = micronesian
@@ -376,7 +376,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = micronesian
@@ -401,7 +401,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 479
 		culture = micronesian
@@ -426,7 +426,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1781
 		culture = melanesian
@@ -451,7 +451,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1311
 		culture = micronesian
@@ -476,7 +476,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1360
 		culture = micronesian
@@ -501,7 +501,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 222
 		culture = micronesian
@@ -512,7 +512,7 @@
 }
 2524 = {
 
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = micronesian
@@ -523,7 +523,7 @@
 }
 2525 = {
 
-	farmers = {
+	labourers = {
 
 		size = 14
 		culture = micronesian
@@ -534,7 +534,7 @@
 }
 2526 = {
 
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = polynesian
@@ -559,7 +559,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3092
 		culture = micronesian
@@ -570,7 +570,7 @@
 }
 2528 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1558
 		culture = melanesian
@@ -659,7 +659,7 @@
 }
 2531 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3933
 		culture = melanesian
@@ -680,7 +680,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 67657
 		culture = melanesian
@@ -698,7 +698,7 @@
 }
 2534 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 494
 		culture = melanesian
@@ -719,7 +719,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10810
 		culture = melanesian
@@ -751,7 +751,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6308
 		culture = melanesian
@@ -776,7 +776,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1335
 		culture = melanesian
@@ -838,7 +838,7 @@
 }
 2540 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 82
 		culture = polynesian
@@ -859,7 +859,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2919
 		culture = polynesian
@@ -891,7 +891,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 445
 		culture = polynesian
@@ -916,7 +916,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 667
 		culture = polynesian
@@ -927,7 +927,7 @@
 }
 2543 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 111
 		culture = polynesian
@@ -948,7 +948,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5640
 		culture = polynesian
@@ -980,7 +980,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 890
 		culture = polynesian
@@ -1005,7 +1005,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1335
 		culture = polynesian
@@ -1030,7 +1030,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 222
 		culture = polynesian
@@ -1055,7 +1055,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 135
 		culture = polynesian
@@ -1080,7 +1080,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 450
 		culture = polynesian
@@ -1105,7 +1105,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1113
 		culture = polynesian
@@ -1130,7 +1130,7 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34
 		culture = polynesian
@@ -1155,7 +1155,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1335
 		culture = polynesian
@@ -1181,7 +1181,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 692
 		culture = micronesian
@@ -1193,7 +1193,7 @@
 
 2623 = {
 
-	farmers = {
+	labourers = {
 
 		size = 15
 		culture = polynesian

@@ -533,7 +533,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA22070"
-		aristocrats = {
+		capitalists = {
 			militancy = -0.5
 		}
 		capitalists = {
@@ -543,7 +543,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB22070"
-		aristocrats = {
+		capitalists = {
 			militancy = 0.5
 		}
 		capitalists = {

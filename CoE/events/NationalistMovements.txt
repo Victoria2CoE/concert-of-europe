@@ -1425,7 +1425,7 @@ province_event = {
 				citizenship_policy = full_citizenship
 			}
 		}
-		has_pop_type = aristocrats
+		has_pop_type = capitalists
 		has_pop_type = farmers
 	}
 	
@@ -1518,7 +1518,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA15100"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
@@ -1534,7 +1534,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB15100"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
@@ -1570,7 +1570,7 @@ province_event = {
 		}
 		OR = {
 			any_pop = {
-				type = aristocrats
+				type = capitalists
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -1681,7 +1681,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA15110"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
@@ -2735,7 +2735,7 @@ province_event = {
 			}
 		}
 		any_pop = {
-			type = aristocrats 
+			type = capitalists 
 			is_primary_culture = no
 			is_accepted_culture = no
 			militancy = 4
@@ -2832,7 +2832,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA15190"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
@@ -2857,7 +2857,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB15190"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
@@ -2887,7 +2887,7 @@ province_event = {
 	option = {
 		name = "EVTOPTC15190"
 		state_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no

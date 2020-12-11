@@ -968,7 +968,7 @@ country_event = {
 			limit = {
 				culture = brazilian
 				OR = {
-					type = aristocrats
+					type = capitalists
 					type = officers
 				}
 			}
@@ -1027,7 +1027,7 @@ country_event = {
 			limit = {
 				culture = portuguese
 				OR = {
-					type = aristocrats
+					type = capitalists
 					type = officers
 					type = clergymen
 				}
@@ -1078,7 +1078,7 @@ country_event = {
 			limit = {
 				culture = portuguese
 				OR = {
-					type = aristocrats
+					type = capitalists
 					type = officers
 					type = clergymen
 				}
@@ -1903,7 +1903,7 @@ country_event = {
 		alliance = BRZ
 		any_pop = {
 			limit = {
-				type = aristocrats
+				type = capitalists
 			}
 			ideology = {
 				value = conservative

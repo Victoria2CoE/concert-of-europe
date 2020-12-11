@@ -718,6 +718,85 @@ promote_to = {
 	farmers = {
 		factor = 0.01
 		modifier = {
+			factor = -500
+			is_primary_culture = no
+			is_accepted_culture = no
+		}		
+		modifier = {
+			factor = 25
+			NOT = { administration_spending = 0.1 }
+			bureaucrats = 0.001
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.1
+			NOT = { administration_spending = 0.2 }
+			bureaucrats = 0.003
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.2
+			NOT = { administration_spending = 0.3 }
+			bureaucrats = 0.006
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.3
+			NOT = { administration_spending = 0.4 }
+			bureaucrats = 0.009
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.4
+			NOT = { administration_spending = 0.5 }
+			bureaucrats = 0.012
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.5
+			NOT = { administration_spending = 0.6 }
+			bureaucrats = 0.015
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.5
+			NOT = { administration_spending = 0.6 }
+			bureaucrats = 0.018
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.7
+			NOT = { administration_spending = 0.8 }
+			bureaucrats = 0.021
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.8
+			NOT = { administration_spending = 0.9 }
+			bureaucrats = 0.024
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.9
+			NOT = { administration_spending = 0.99 }
+			bureaucrats = 0.027
+		}
+		modifier = {
+			factor = 25
+			administration_spending = 0.99
+			bureaucrats = 0.030
+		}
+	}
+	aristocrats = {
+		factor = 0.01
+		modifier = {
+			factor = -500
+			OR = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+			}
+		}		
+		modifier = {
 			factor = 25
 			NOT = { administration_spending = 0.1 }
 			bureaucrats = 0.001
@@ -852,6 +931,12 @@ promote_to = {
 
 	craftsmen = {
 		factor = 0.01
+
+		modifier = {
+			factor = -500
+			is_primary_culture = no
+			is_accepted_culture = no
+		}		
 		modifier = {
 			factor = -50
 			always = yes

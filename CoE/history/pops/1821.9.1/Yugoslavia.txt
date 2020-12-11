@@ -1,13 +1,13 @@
 2538 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3113
 		culture = hungarian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1007
 		culture = south_german
@@ -84,42 +84,42 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23968
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22266
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4235
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7584
 		culture = slovak
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4000
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17657
 		culture = south_german
@@ -214,21 +214,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2058
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1158
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10363
 		culture = serb
@@ -279,14 +279,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6913
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 755
 		culture = albanian
@@ -298,7 +298,7 @@
 
 2583 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 91
 		culture = serb
@@ -326,7 +326,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21404
 		culture = serb
@@ -351,7 +351,7 @@
 }
 2569 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 457
 		culture = bosniak
@@ -426,21 +426,21 @@
 
 652 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1098
 		culture = hungarian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 137
 		culture = hungarian
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 320
 		culture = south_german
@@ -545,42 +545,42 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17778
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9846
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17081
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 65701
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17215
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 55583
 		culture = serb
@@ -689,21 +689,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 58239
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14812
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11812
 		culture = south_german
@@ -767,7 +767,7 @@
 }
 768 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1442
 		culture = south_german
@@ -802,14 +802,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6000
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 51827
 		culture = slovene
@@ -869,14 +869,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36239
 		culture = slovene
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1804
 		culture = south_german
@@ -915,14 +915,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19115
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21633
 		culture = croat
@@ -933,14 +933,14 @@
 }
 771 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1671
 		culture = croat
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 640
 		culture = hungarian
@@ -1120,14 +1120,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27837
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10187
 		culture = serb
@@ -1198,7 +1198,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14285
 		culture = croat
@@ -1251,21 +1251,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2449
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4235
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4258
 		culture = czech
@@ -1290,7 +1290,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16826
 		culture = croat
@@ -1343,21 +1343,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4303
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4052
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 640
 		culture = hungarian
@@ -1368,14 +1368,14 @@
 }
 779 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 755
 		culture = hungarian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 320
 		culture = south_german
@@ -1438,28 +1438,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22137
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5952
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4601
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4853
 		culture = south_german
@@ -1499,7 +1499,7 @@
 
 780 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 709
 		culture = north_italian
@@ -1562,21 +1562,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30458
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3412
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5997
 		culture = serb
@@ -1643,14 +1643,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9294
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6945
 		culture = north_italian
@@ -1702,21 +1702,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7447
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1366
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1671
 		culture = serb
@@ -1736,7 +1736,7 @@
 
 783 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3159
 		culture = bosniak
@@ -1806,21 +1806,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13804
 		culture = bosniak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8241
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3159
 		culture = croat
@@ -1894,21 +1894,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15269
 		culture = bosniak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3319
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2518
 		culture = croat
@@ -2028,21 +2028,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13712
 		culture = bosniak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17512
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4280
 		culture = croat
@@ -2141,21 +2141,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3571
 		culture = bosniak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13163
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5265
 		culture = serb
@@ -2208,21 +2208,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1281
 		culture = bosniak
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12888
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14926
 		culture = serb
@@ -2370,42 +2370,42 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21274
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7466
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15123
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1500
 		culture = czech
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = slovak
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8431
 		culture = romanian
@@ -2458,21 +2458,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13621
 		culture = croat
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6844
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1634
 		culture = south_german
@@ -2483,7 +2483,7 @@
 }
 794 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2060
 		culture = serb
@@ -2511,7 +2511,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 69250
 		culture = serb
@@ -2550,7 +2550,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46426
 		culture = serb
@@ -2600,7 +2600,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14582
 		culture = serb
@@ -2827,7 +2827,7 @@
 }
 803 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3689
 		culture = turkish
@@ -2995,7 +2995,7 @@
 #################################
 806 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3617
 		culture = turkish
@@ -3079,42 +3079,42 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15398
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44714
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2714
 		culture = albanian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8122
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3522
 		culture = serb
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 251
 		culture = sephardic

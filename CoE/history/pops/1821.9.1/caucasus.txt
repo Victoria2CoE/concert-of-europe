@@ -14,14 +14,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 117430
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10
 		culture = ashkenazi
@@ -88,21 +88,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11080
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3670
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20824
 		culture = mongol
@@ -141,14 +141,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 60430
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 171230
 		culture = north_caucasian
@@ -159,21 +159,21 @@
 }
 1052 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1671
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 45
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 434
 		culture = north_caucasian
@@ -208,21 +208,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16484
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 517
 		culture = sephardic
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1007
 		culture = azerbaijani
@@ -268,7 +268,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 82410
 		culture = north_caucasian
@@ -289,7 +289,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16365
 		culture = azerbaijani
@@ -321,7 +321,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 150600
 		culture = north_caucasian
@@ -360,14 +360,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 221600
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6080
 		culture = sephardic
@@ -405,14 +405,14 @@
 		culture = ukrainian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 
 		size = 106090
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 66090
 		culture = ukrainian
@@ -464,14 +464,14 @@
 		religion = gelugpa
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9407
 		culture = north_caucasian
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3407
 		culture = mongol
@@ -484,35 +484,35 @@
 
 1090 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2632
 		culture = georgian
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 22
 		culture = north_caucasian
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 45
 		culture = armenian
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 132
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 132
 		culture = south_german
@@ -684,21 +684,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8332
 		culture = georgian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5036
 		culture = north_caucasian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2472
 		culture = armenian
@@ -737,7 +737,7 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24998
 		culture = georgian
@@ -783,21 +783,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3319
 		culture = georgian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4166
 		culture = armenian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 824
 		culture = azerbaijani
@@ -822,7 +822,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 21679
 		culture = georgian
@@ -861,14 +861,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3296
 		culture = georgian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7696
 		culture = north_caucasian
@@ -921,21 +921,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2495
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3411
 		culture = georgian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10301
 		culture = georgian
@@ -947,28 +947,28 @@
 
 1098 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 673
 		culture = armenian
 		religion = orthodox
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 206
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 22
 		culture = kurdish
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 91
 		culture = azerbaijani
@@ -1084,14 +1084,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13506
 		culture = armenian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 847
 		culture = georgian
@@ -1180,21 +1180,21 @@
 }
 1102 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 439
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 686
 		culture = azerbaijani
 		religion = shiite
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 178
 		culture = georgian
@@ -1250,14 +1250,14 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3899
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8059
 		culture = azerbaijani
@@ -1324,21 +1324,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2495
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5860
 		culture = azerbaijani
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3296
 		culture = north_caucasian
@@ -1391,21 +1391,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1648
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 824
 		culture = georgian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2380
 		culture = north_caucasian
@@ -1444,14 +1444,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8332
 		culture = azerbaijani
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5883
 		culture = armenian
@@ -1490,14 +1490,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7531
 		culture = azerbaijani
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5019
 		culture = armenian
@@ -1522,7 +1522,7 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11721
 		culture = azerbaijani
@@ -1563,17 +1563,17 @@
 		culture = kurdish
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 7800
 		culture = azerbaijani
 		religion = sunni
 	}
-	farmers = {
+	labourers = {
 		size = 4500
 		culture = armenian
 		religion = orthodox
 	}
-	farmers = {
+	labourers = {
 		size = 3750
 		culture = kurdish
 		religion = sunni

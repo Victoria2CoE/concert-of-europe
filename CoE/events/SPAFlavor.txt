@@ -53,13 +53,13 @@ country_event = {
 				ideology = reactionary
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_militancy = {
 				factor = -2
 				ideology = conservative
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_militancy = {
 				factor = -3
 				ideology = reactionary
@@ -93,25 +93,25 @@ country_event = {
 				ideology = reactionary
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_militancy = {
 				factor = 2
 				ideology = conservative
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_militancy = {
 				factor = 3
 				ideology = reactionary
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_consciousness = {
 				factor = 2
 				ideology = conservative
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_consciousness = {
 				factor = 3
 				ideology = reactionary
@@ -381,13 +381,13 @@ country_event = {
 				ideology = reactionary
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_consciousness = {
 				factor = 2
 				ideology = conservative
 			}
 		}
-		aristocrats = {
+		capitalists = {
 			scaled_consciousness = {
 				factor = 3
 				ideology = reactionary

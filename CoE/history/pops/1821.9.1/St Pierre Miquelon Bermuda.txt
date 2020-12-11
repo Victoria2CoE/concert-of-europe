@@ -14,7 +14,7 @@
 		culture = french_canadian
 		religion = catholic
 	}
-	farmers = {
+	labourers = {
 		size = 368
 		culture = french_canadian
 		religion = catholic
@@ -22,7 +22,7 @@
 }
 
 203 = {
-	aristocrats = {
+	capitalists = {
 		size = 114
 		culture = british
 		religion = protestant
@@ -52,12 +52,12 @@
 		culture = british
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 509
 		culture = afro_caribbean
 		religion = protestant
 	}
-	farmers = {
+	labourers = {
 		size = 639
 		culture = british
 		religion = protestant

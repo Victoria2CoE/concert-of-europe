@@ -9325,7 +9325,7 @@ country_event = {
 			}
 			owner = { government = presidential_dictatorship }
 		}
-		aristocrats = {
+		capitalists = {
 			ideology = {
 				factor = 0.4
 				value = reactionary

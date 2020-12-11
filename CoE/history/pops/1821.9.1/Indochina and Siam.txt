@@ -5,14 +5,14 @@
 #############################
 1346 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 8209
 		culture = thai
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 932
 		culture = yue
@@ -89,14 +89,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 180146
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20407
 		culture = yue
@@ -149,7 +149,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 65862
 		culture = thai
@@ -188,14 +188,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34796
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1539
 		culture = yue
@@ -234,7 +234,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27893
 		culture = thai
@@ -259,7 +259,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33374
 		culture = thai
@@ -291,14 +291,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25864
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6273
 		culture = yue
@@ -351,21 +351,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18681
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3568
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = malay
@@ -450,21 +450,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26867
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3311
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10238
 		culture = malay
@@ -475,14 +475,14 @@
 }
 1355 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1634
 		culture = thai
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1329
 		culture = shan
@@ -524,14 +524,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26797
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43146
 		culture = shan
@@ -563,14 +563,14 @@
 }
 1358 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1842
 		culture = thai
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2332
 		culture = lao
@@ -612,14 +612,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19615
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 108775
 		culture = lao
@@ -686,21 +686,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19544
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16278
 		culture = lao
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = khmer
@@ -740,14 +740,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23135
 		culture = malay
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1026
 		culture = yue
@@ -759,7 +759,7 @@
 
 1391 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 653
 		culture = malay
@@ -819,21 +819,21 @@
 }
 1392 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 722
 		culture = malay
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1002
 		culture = thai
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = yue
@@ -957,21 +957,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18704
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19660
 		culture = shan
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18844
 		culture = lao
@@ -988,14 +988,14 @@
 #############################
 1356 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 746
 		culture = lao
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 279
 		culture = asian_minor
@@ -1104,14 +1104,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12780
 		culture = lao
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5947
 		culture = asian_minor
@@ -1123,21 +1123,21 @@
 
 1360 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1282
 		culture = lao
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 116
 		culture = shan
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 513
 		culture = asian_minor
@@ -1285,14 +1285,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19680
 		culture = lao
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15322
 		culture = asian_minor
@@ -1317,7 +1317,7 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12780
 		culture = lao
@@ -1363,14 +1363,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 91375
 		culture = khmer
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2495
 		culture = yue
@@ -1423,21 +1423,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4291
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8535
 		culture = khmer
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2005
 		culture = yue
@@ -1448,14 +1448,14 @@
 }
 1366 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 233
 		culture = thai
 		religion = theravada
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = khmer
@@ -1504,21 +1504,21 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 676
 		culture = thai
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36779
 		culture = khmer
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2005
 		culture = yue
@@ -1564,7 +1564,7 @@
 }
 1367 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2868
 		culture = khmer
@@ -1652,14 +1652,14 @@
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15388
 		culture = khmer
 		religion = theravada
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = asian_minor
@@ -1676,14 +1676,14 @@
 #############################
 1369 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 11357
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 443
 		culture = asian_minor
@@ -1753,28 +1753,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 123958
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 653
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 653
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18961
 		culture = vietnamese
@@ -1855,28 +1855,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 111060
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 653
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 653
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12314
 		culture = vietnamese
@@ -1922,21 +1922,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43659
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5247
 		culture = vietnamese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8489
 		culture = asian_minor
@@ -2102,14 +2102,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 102641
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9702
 		culture = vietnamese
@@ -2127,14 +2127,14 @@
 }
 1375 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 8302
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 886
 		culture = asian_minor
@@ -2183,21 +2183,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 191149
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27753
 		culture = vietnamese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2728
 		culture = yue
@@ -2257,14 +2257,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 104367
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7043
 		culture = vietnamese
@@ -2317,28 +2317,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33397
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3498
 		culture = vietnamese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18634
 		culture = asian_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 396
 		culture = yue
@@ -2377,14 +2377,14 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 28849
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3498
 		culture = vietnamese
@@ -2430,14 +2430,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5060
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20360
 		culture = asian_minor
@@ -2448,14 +2448,14 @@
 }
 1380 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4755
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 163
 		culture = asian_minor
@@ -2511,28 +2511,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 150871
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1702
 		culture = yue
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1259
 		culture = min
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17608
 		culture = vietnamese
@@ -2599,21 +2599,21 @@
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40814
 		culture = vietnamese
 		religion = mahayana
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4384
 		culture = vietnamese
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6786
 		culture = asian_minor

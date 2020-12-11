@@ -63,7 +63,7 @@ country_event = {
 		officers = {
 			consciousness = 1
 		}
-		aristocrats = {
+		capitalists = {
 			consciousness = 1
 		}
 		clergymen = {
@@ -517,7 +517,7 @@ country_event = {
 					factor = 0.1
 				}
 			}
-			aristocrats = { militancy = 6 }
+			capitalists = { militancy = 6 }
 			soldiers = { militancy = 4 }
 			officers = { militancy = 4 }
 		}

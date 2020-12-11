@@ -2281,7 +2281,7 @@ country_event = {
 		badboy = 2
 		any_owned = {
 			limit = { is_core = POL }
-			aristocrats = {
+			capitalists = {
 				reduce_pop = 0.9
 			}
 			poor_strata = {
@@ -2345,7 +2345,7 @@ country_event = {
 				name = nationalist_agitation
 				duration = 1095
 			}
-			aristocrats = {
+			capitalists = {
 				reduce_pop = 0.9
 			}
 			poor_strata = {

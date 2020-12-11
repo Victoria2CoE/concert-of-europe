@@ -1,13 +1,13 @@
 1979 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 19
 		culture = amazonian
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 122
 		culture = british
@@ -82,14 +82,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 81
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4718
 		culture = afro_caribbean
@@ -107,7 +107,7 @@
 }
 2240 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 81
 		culture = dutch
@@ -167,7 +167,7 @@
 }
 2241 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 132
 		culture = french
@@ -287,14 +287,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 40
 		culture = british
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3009
 		culture = afro_caribbean

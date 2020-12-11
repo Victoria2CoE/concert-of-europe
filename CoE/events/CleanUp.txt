@@ -2546,6 +2546,77 @@ country_event = {
 			limit = { AND = { exists = yes ai = yes } }
 			set_country_flag = game_master
 		}
+		any_pop = { 
+			limit = { 
+				type = aristocrats 
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				} 
+			}
+			pop_type = farmers
+		}	
+		any_pop = { 
+			limit = { 
+				type = farmers 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = aristocrats
+		}	
+		any_pop = { 
+			limit = { 
+				type = craftsmen 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = aristocrats
+		}
+		any_pop = { 
+			limit = { 
+				type = clerks 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = aristocrats
+		}
+		any_country = {
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+					OR = { 
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					} 
+				}
+				pop_type = farmers
+			}
+			any_pop = { 
+				limit = { 
+					type = farmers 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = aristocrats
+			}	
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = aristocrats
+			}	
+			any_pop = { 
+				limit = { 
+					type = clerks 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = aristocrats
+			}				
+		}
+		
 		any_country = {
 			#limit = { ai = yes }
 			add_country_modifier = { name = gm_timer  duration = 60 }

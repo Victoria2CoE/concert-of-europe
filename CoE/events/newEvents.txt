@@ -1054,7 +1054,7 @@ country_event = {
 		clr_country_flag = election_overridden
 		prestige = -25
 		government = democracy
-		aristocrats = {
+		capitalists = {
 			limit = { is_primary_culture = yes }
 			ideology = {
 				value = reactionary
@@ -1240,7 +1240,7 @@ country_event = {
 		clr_country_flag = election_overridden
 		prestige = -25
 		government = democracy
-		aristocrats = {
+		capitalists = {
 			limit = { is_primary_culture = yes }
 			ideology = {
 				value = reactionary
@@ -1379,7 +1379,7 @@ country_event = {
 		clr_country_flag = election_overridden
 		prestige = -25
 		government = democracy
-		aristocrats = {
+		capitalists = {
 			limit = { is_primary_culture = yes }
 			ideology = {
 				value = reactionary

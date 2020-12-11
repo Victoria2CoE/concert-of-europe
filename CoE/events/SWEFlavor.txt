@@ -584,7 +584,7 @@ country_event = {
 			}
 			consciousness = 1
 		}
-		aristocrats = {
+		capitalists = {
 			consciousness = 1 #additional con due to "shock" to refined tastes
 		}	
 		set_global_flag = Munch

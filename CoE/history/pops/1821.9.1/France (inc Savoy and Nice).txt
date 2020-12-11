@@ -21,14 +21,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 67185
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15770
 		culture = picard
@@ -68,14 +68,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47883
 		culture = picard
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2300
 		culture = flemish
@@ -87,14 +87,14 @@
 
 399 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 879
 		culture = flemish
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 2841
 		culture = french
@@ -203,14 +203,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4320
 		culture = picard
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29242
 		culture = flemish
@@ -253,7 +253,7 @@
 }
 402 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3400
 		culture = french
@@ -348,14 +348,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 98366
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12000
 		culture = picard
@@ -487,7 +487,7 @@
 }
 408 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2250
 		culture = french
@@ -515,7 +515,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 73283
 		culture = french
@@ -709,7 +709,7 @@
 }
 411 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2625
 		culture = french
@@ -758,14 +758,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 86493
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 457
 		culture = south_german
@@ -790,21 +790,21 @@
 }
 412 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1826
 		culture = french
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 732
 		culture = south_german
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 228
 		culture = south_german
@@ -1027,7 +1027,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 134014
 		culture = french
@@ -1052,7 +1052,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 89327
 		culture = french
@@ -1077,7 +1077,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 93036
 		culture = french
@@ -1088,7 +1088,7 @@
 }
 418 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5860
 		culture = french
@@ -1116,7 +1116,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 229248
 		culture = french
@@ -1142,7 +1142,7 @@
 
 420 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4731
 		culture = breton
@@ -1177,7 +1177,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 105856
 		culture = breton
@@ -1216,7 +1216,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 127558
 		culture = breton
@@ -1241,7 +1241,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 92028
 		culture = breton
@@ -1273,14 +1273,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41619
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41619
 		culture = breton
@@ -1312,7 +1312,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 113412
 		culture = breton
@@ -1324,7 +1324,7 @@
 
 425 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4180
 		culture = french
@@ -1464,7 +1464,7 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 133524
 		culture = french
@@ -1503,7 +1503,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59040
 		culture = french
@@ -1528,7 +1528,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68952
 		culture = french
@@ -1539,7 +1539,7 @@
 }
 428 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4078
 		culture = french
@@ -1567,7 +1567,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 76599
 		culture = french
@@ -1674,7 +1674,7 @@
 }
 432 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1850
 		culture = french
@@ -1741,7 +1741,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 65931
 		culture = french
@@ -1773,7 +1773,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 162080
 		culture = french
@@ -1805,7 +1805,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44000
 		culture = french
@@ -1816,7 +1816,7 @@
 }
 436 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3604
 		culture = french
@@ -1844,7 +1844,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 173114
 		culture = french
@@ -1883,7 +1883,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 72753
 		culture = french
@@ -1894,7 +1894,7 @@
 }
 438 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4133
 		culture = french
@@ -2000,7 +2000,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49631
 		culture = french
@@ -2025,7 +2025,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 59063
 		culture = french
@@ -2036,7 +2036,7 @@
 }
 442 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2470
 		culture = french
@@ -2064,7 +2064,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 94890
 		culture = french
@@ -2103,7 +2103,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 57987
 		culture = french
@@ -2128,7 +2128,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 76187
 		culture = french
@@ -2167,14 +2167,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23523
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30000
 		culture = occitan
@@ -2220,21 +2220,21 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2500
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13500
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37727
 		culture = basque
@@ -2273,14 +2273,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 68126
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 100000
 		culture = occitan
@@ -2291,7 +2291,7 @@
 }
 448 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4071
 		culture = french
@@ -2372,14 +2372,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8700
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83454
 		culture = occitan
@@ -2422,7 +2422,7 @@
 }
 451 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5861
 		culture = french
@@ -2506,7 +2506,7 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 126460
 		culture = french
@@ -2591,14 +2591,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18600
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 126479
 		culture = occitan
@@ -2630,14 +2630,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 120038
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20400
 		culture = occitan
@@ -2648,7 +2648,7 @@
 }
 455 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5029
 		culture = french
@@ -2697,14 +2697,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36628
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 93219
 		culture = occitan
@@ -2743,14 +2743,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 67899
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 54942
 		culture = french
@@ -2775,7 +2775,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 73577
 		culture = occitan
@@ -2786,7 +2786,7 @@
 }
 458 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4799
 		culture = french
@@ -2835,14 +2835,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 73723
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 34043
 		culture = occitan
@@ -2881,14 +2881,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 73874
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37246
 		culture = french
@@ -2938,7 +2938,7 @@
 }
 461 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3312
 		culture = french
@@ -2973,7 +2973,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 158555
 		culture = occitan
@@ -3012,7 +3012,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 106036
 		culture = occitan
@@ -3037,14 +3037,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27471
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 29348
 		culture = french
@@ -3083,14 +3083,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10416
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22869
 		culture = catalan
@@ -3101,14 +3101,14 @@
 }
 465 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1345
 		culture = french
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 120
 		culture = north_italian
@@ -3230,14 +3230,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5068
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47868
 		culture = french
@@ -3249,7 +3249,7 @@
 
 467 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1980
 		culture = french
@@ -3298,14 +3298,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27471
 		culture = occitan
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20511
 		culture = french
@@ -3376,7 +3376,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 44505
 		culture = occitan
@@ -3408,7 +3408,7 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47021
 		culture = occitan
@@ -3458,14 +3458,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17238
 		culture = north_italian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17238
 		culture = occitan
@@ -3476,14 +3476,14 @@
 }
 473 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 366
 		culture = french
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 137
 		culture = north_italian
@@ -3518,14 +3518,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4395
 		culture = french
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 39375
 		culture = north_italian

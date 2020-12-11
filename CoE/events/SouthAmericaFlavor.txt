@@ -1266,7 +1266,7 @@ country_event = {
 				OR = {
 					type = officers
 					type = soldiers
-					type = aristocrats
+					type = capitalists
 				}
 			}
 			scaled_militancy = {
@@ -1308,7 +1308,7 @@ country_event = {
 				OR = {
 					type = bureaucrats
 					type = artisans
-					type = aristocrats
+					type = capitalists
 				}
 			}
 			scaled_militancy = {

@@ -841,7 +841,7 @@ province_event = {
 				}
 				any_pop = {
 					limit = {
-						NOT = { type = aristocrats }
+						NOT = { type = capitalists }
 					}
 					ideology = {
 						value = anarcho_liberal
@@ -960,7 +960,7 @@ province_event = {
 		name = "They had best not cause trouble."	
 		any_pop = {
 			limit = {
-				NOT = { type = aristocrats }
+				NOT = { type = capitalists }
 			}
 			ideology = {
 				value = anarcho_liberal

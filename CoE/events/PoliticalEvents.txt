@@ -234,10 +234,10 @@ country_event = {
 				}
 				OR = {
 					has_pop_type = capitalists
-					has_pop_type = aristocrats
+					has_pop_type = capitalists
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				militancy = 7
 			}
 			capitalists = {
@@ -1097,10 +1097,10 @@ country_event = {
 				is_colonial = no
 				OR = {
 					has_pop_type = capitalists
-					has_pop_type = aristocrats
+					has_pop_type = capitalists
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 2
 				militancy = -1
 			}
@@ -1118,10 +1118,10 @@ country_event = {
 				is_colonial = no
 				OR = {
 					has_pop_type = capitalists
-					has_pop_type = aristocrats
+					has_pop_type = capitalists
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = -2
 				militancy = 1
 			}
@@ -1390,7 +1390,7 @@ country_event = {
 					is_colonial = yes
 				}
 			}
-			aristocrats = {
+			capitalists = {
 				consciousness = 2
 				militancy = 2
 			}

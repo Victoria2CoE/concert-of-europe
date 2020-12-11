@@ -57,28 +57,28 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13550
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9305
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7906
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3475
 		culture = armenian
@@ -89,21 +89,21 @@
 }
 901 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = kurdish
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 419
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = bedouin
@@ -166,28 +166,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10541
 		culture = kurdish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 30762
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3475
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9655
 		culture = assyrian
@@ -219,7 +219,7 @@
 }
 902 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1399
 		culture = mashriqi
@@ -296,21 +296,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42166
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1352
 		culture = mashriqi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13363
 		culture = mashriqi
@@ -377,21 +377,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14483
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1725
 		culture = mashriqi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 909
 		culture = mashriqi
@@ -444,21 +444,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13503
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7906
 		culture = mashriqi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1749
 		culture = mashriqi
@@ -497,14 +497,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17001
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7020
 		culture = mashriqi
@@ -543,14 +543,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16232
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3475
 		culture = mashriqi
@@ -596,14 +596,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1651
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7906
 		culture = bedouin
@@ -614,14 +614,14 @@
 }
 908 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 209
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 46
 		culture = bedouin
@@ -663,14 +663,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 816
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3428
 		culture = bedouin
@@ -723,14 +723,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2532
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 848
 		culture = bedouin
@@ -755,7 +755,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2542
 		culture = bedouin
@@ -794,14 +794,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3428
 		culture = bedouin
@@ -854,21 +854,21 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8442
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5084
 		culture = mashriqi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 862
 		culture = mashriqi
@@ -879,21 +879,21 @@
 }
 913 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 443
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 163
 		culture = mashriqi
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = mashriqi
@@ -991,35 +991,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11241
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4361
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7789
 		culture = mashriqi
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1749
 		culture = mashriqi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1749
 		culture = armenian
@@ -1160,35 +1160,35 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1865
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 862
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4711
 		culture = mashriqi
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3475
 		culture = mashriqi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7789
 		culture = mashriqi
@@ -1255,28 +1255,28 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4267
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1749
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3498
 		culture = mashriqi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1725
 		culture = mashriqi
@@ -1287,7 +1287,7 @@
 }
 917 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 699
 		culture = mashriqi
@@ -1343,21 +1343,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7556
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2891
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1096
 		culture = sephardic
@@ -1424,21 +1424,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7113
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 792
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 816
 		culture = mashriqi
@@ -1498,21 +1498,21 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7043
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 816
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1562
 		culture = sephardic
@@ -1551,14 +1551,14 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6903
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1609
 		culture = mashriqi
@@ -1597,14 +1597,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5993
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1725
 		culture = bedouin
@@ -1650,14 +1650,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 839
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3521
 		culture = bedouin
@@ -1668,21 +1668,21 @@
 }
 923 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1515
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 141
 		culture = turkish
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = kurdish
@@ -1882,28 +1882,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4267
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2308
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10565
 		culture = kurdish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6547
 		culture = assyrian
@@ -1995,28 +1995,28 @@
 }
 926 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1702
 		culture = mashriqi
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 139
 		culture = turkish
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 629
 		culture = mashriqi
 		religion = shiite
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 93
 		culture = bedouin
@@ -2107,42 +2107,42 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20012
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2868
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2565
 		culture = mashriqi
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3684
 		culture = assyrian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2262
 		culture = mashriqi
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6856
 		culture = bedouin
@@ -2202,14 +2202,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14436
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5154
 		culture = bedouin
@@ -2276,28 +2276,28 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10238
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3358
 		culture = kurdish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3358
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 862
 		culture = assyrian
@@ -2350,21 +2350,21 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6810
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3381
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11054
 		culture = mashriqi
@@ -2417,21 +2417,21 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3358
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1679
 		culture = bedouin
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16348
 		culture = mashriqi
@@ -2530,28 +2530,28 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2775
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5993
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4244
 		culture = bedouin
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18074
 		culture = mashriqi
@@ -2604,21 +2604,21 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3358
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5130
 		culture = bedouin
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 24091
 		culture = mashriqi
@@ -2671,21 +2671,21 @@
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5132
 		culture = bedouin
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4244
 		culture = bedouin
 		religion = shiite
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11218
 		culture = mashriqi
@@ -2696,14 +2696,14 @@
 }
 935 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 279
 		culture = bedouin
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1329
 		culture = bedouin
@@ -2724,7 +2724,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2542
 		culture = bedouin

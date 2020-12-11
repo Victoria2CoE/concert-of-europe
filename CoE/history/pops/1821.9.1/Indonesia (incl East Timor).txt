@@ -20,13 +20,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = yue
 		religion = mahayana
 		size = 1000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = asian_minor
 		religion = animist
 		size = 50
@@ -51,13 +51,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = asian_minor
 		religion = animist
 		size = 5800
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 150
@@ -82,7 +82,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 17125
@@ -93,7 +93,7 @@
 #ruled by The Netherlands 1836
 #Natuna (18000/4500 POPS)
 2576 = {
-	aristocrats = {
+	capitalists = {
 		culture = malay
 		religion = sunni
 		size = 50 
@@ -118,13 +118,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 2700  
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = asian_minor
 		religion = animist
 		size = 15 
@@ -149,7 +149,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = asian_minor
 		religion = animist
 		size = 1360 
@@ -158,7 +158,7 @@
 
 #Gunungsitoli (60000/15000 POPS)
 1411 = {
-	aristocrats = {
+	capitalists = {
 		culture = asian_minor
 		religion = animist
 		size = 425
@@ -183,7 +183,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = asian_minor
 		religion = animist
 		size = 21250
@@ -209,13 +209,13 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = malay
 		religion = sunni
 		size = 13100
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = balinese
 		religion = hindu
 		size = 1500
@@ -250,7 +250,7 @@
 		size= 9000
 
 	}
-	farmers = {
+	labourers = {
 		culture = balinese
 		religion = hindu
 		size = 129750
@@ -258,7 +258,7 @@
 }
 #Lombok (200000/50000 POPS)
 1442 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 50
@@ -283,13 +283,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 11150
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = balinese
 		religion = hindu
 		size = 200
@@ -307,13 +307,13 @@
 		size = 50
 	}
 
-	farmers = {
+	labourers = {
 		culture = balinese
 		religion = hindu
 		size = 4000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = sasak
 		religion = sunni
 		size = 250
@@ -338,7 +338,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = sasak
 		religion = sunni
 		size = 30200
@@ -347,7 +347,7 @@
 #Flores region (201080/50270 POPS)
 #Flores/Larantoeka (103100/25775 POPS)
 1444 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = catholic
 		size = 300
@@ -371,7 +371,7 @@
 		size = 575
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = catholic
 		size = 23425
@@ -380,7 +380,7 @@
 
 #Manggarai (134160/33540 POPS)
 1439 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 460
@@ -398,7 +398,7 @@
 		size = 1050
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 30500
@@ -413,7 +413,7 @@
 
 #Sumbawa (244000/61000 POPS)
 1440 = {
-	aristocrats = {
+	capitalists = {
 		culture = sasak
 		religion = sunni
 		size = 200
@@ -431,13 +431,13 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = sasak
 		religion = sunni
 		size = 10000
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 300
@@ -462,7 +462,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 30425
@@ -470,19 +470,19 @@
 }
 # Bima
 2609 = {
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 4000
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 1725
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 200
@@ -500,7 +500,7 @@
 		size = 300
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 15425
@@ -511,7 +511,7 @@
 
 #Sumba (192000/48000 POPS)
 1441 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 150
@@ -536,13 +536,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 12025
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 350
@@ -567,7 +567,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 34350
@@ -575,7 +575,7 @@
 }
 #Koepeng (24000/6000 POPS)
 1443 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 50
@@ -586,7 +586,7 @@
 		religion = protestant
 		size = 20
 	}
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 100
@@ -611,7 +611,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 5525
@@ -644,7 +644,7 @@
 }
 #Sorbian (24400/6100 POPS)
 1445 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 200
@@ -669,7 +669,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 14000
@@ -681,7 +681,7 @@
 #East Timor
 #Dili (88000/22000 POPS)
 1446 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = catholic
 		size = 90
@@ -699,7 +699,7 @@
 		size = 250
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = catholic
 		size = 3200
@@ -736,7 +736,7 @@
 
 #Viqueque
 1453 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 200
@@ -761,12 +761,12 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 7600
 	}
-	aristocrats = {
+	capitalists = {
 		culture = melanesian
 		religion = animist
 		size = 200
@@ -791,7 +791,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = melanesian
 		religion = animist
 		size = 11175
@@ -803,7 +803,7 @@
 #ruled by The Netherlands 1836
 #Ambon (44400/11100 POPS)
 1449 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = protestant
 		size = 115
@@ -834,7 +834,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = protestant
 		size = 1100
@@ -864,7 +864,7 @@
 		size= 50
 
 	}
-		aristocrats = {
+		capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 75
@@ -889,13 +889,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 5250
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 100
@@ -920,7 +920,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 7600
@@ -929,7 +929,7 @@
 #Ternate (120000/30000 POPS)
 #Batjan (20000/5000 POPS)
 1447 = {
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 130
@@ -947,7 +947,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 12500
@@ -955,7 +955,7 @@
 } 
 #Ternate (45000/11250 POPS)
 1450 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 100
@@ -967,7 +967,7 @@
 		size = 50
 	}
 	
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 75
@@ -985,7 +985,7 @@
 		size = 75
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 5375
@@ -1003,13 +1003,13 @@
 		size = 150
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = protestant
 		size = 1500
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 145
@@ -1034,7 +1034,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 8075
@@ -1045,7 +1045,7 @@
 
 #Tidore (55000/13750 POPS)
 1448 = {
-	aristocrats = {
+	capitalists = {
 		culture = dutch
 		religion = protestant
 		size = 20
@@ -1057,7 +1057,7 @@
 		size = 15
 	}
 	
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 120
@@ -1075,7 +1075,7 @@
 		size = 150
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 4000
@@ -1093,13 +1093,13 @@
 		size = 150
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = protestant
 		size = 850
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = sunni
 		size = 125
@@ -1124,13 +1124,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = sunni
 		size = 7150
 	}
 	
-	aristocrats = {
+	capitalists = {
 		culture = melanesian
 		religion = animist
 		size = 50
@@ -1148,7 +1148,7 @@
 		size = 50
 	}
 
-	farmers = {
+	labourers = {
 		culture = melanesian
 		religion = animist
 		size = 3850
@@ -1157,7 +1157,7 @@
 
 #Aru (24000/6000 POPS)
 1451 = {
-	aristocrats = {
+	capitalists = {
 		culture = melanesian
 		religion = animist
 		size = 50
@@ -1182,13 +1182,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = melanesian
 		religion = animist
 		size = 3650
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = moluccan
 		religion = animist
 		size = 25
@@ -1213,7 +1213,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = moluccan
 		religion = animist
 		size = 1800

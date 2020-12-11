@@ -20,7 +20,7 @@ rebel =
 sprite = 5
 unemployment = yes
 can_work_factory = yes
-color = { 240 240 240 }
+color = { 234 227 40 }
 
 life_needs = {
 	food_industry = 5.0
@@ -906,66 +906,71 @@ promote_to = {
  		modifier = {
 			factor = 20
 			literacy = 0.1
+			NOT = { capitalists = 0.03 }
+		}
+ 		modifier = {
+			factor = 20
+			literacy = 0.1
 			NOT = { literacy = 0.2 }
-			NOT = { capitalists = 0.005 }
+			NOT = { capitalists = 0.032 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.2
 			NOT = { literacy = 0.3 }
-			NOT = { capitalists = 0.01 }
+			NOT = { capitalists = 0.034 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.3
 			NOT = { literacy = 0.4 }
-			NOT = { capitalists = 0.015 }
+			NOT = { capitalists = 0.036 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.4
 			NOT = { literacy = 0.5 }
-			NOT = { capitalists = 0.02 }
+			NOT = { capitalists = 0.038 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.5
 			NOT = { literacy = 0.6 }
-			NOT = { capitalists = 0.025 }
+			NOT = { capitalists = 0.040 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.6
 			NOT = { literacy = 0.7 }
-			NOT = { capitalists = 0.03 }
+			NOT = { capitalists = 0.042 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.7
 			NOT = { literacy = 0.8 }
-			NOT = { capitalists = 0.035 }
+			NOT = { capitalists = 0.044 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.8
 			NOT = { literacy = 0.9 }
-			NOT = { capitalists = 0.04 }
+			NOT = { capitalists = 0.046 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.9
 			NOT = { literacy = 0.99 }
-			NOT = { capitalists = 0.045 }
+			NOT = { capitalists = 0.048 }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.99
 			NOT = { capitalists = 0.05 }
-		}
+		} 
 		modifier = {
 			factor = -50 #-500
 			capitalists = 0.051
-		}		
+		}  		
 	}
 }
 ideologies = {

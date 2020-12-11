@@ -358,7 +358,7 @@ province_event = {
 					OR = {
 						type = officers
 						type = soldiers
-						type = aristocrats
+						type = capitalists
 					}
 				}
 				ideology = {
@@ -476,7 +476,7 @@ province_event = {
 						OR = {
 							type = officers
 							type = soldiers
-							type = aristocrats
+							type = capitalists
 						}
 					}
 					ideology = {
@@ -652,7 +652,7 @@ country_event = {
 			NOT = { is_core = CLM }
 			any_pop = {
 				OR = {
-					type = aristocrats
+					type = capitalists
 					type = bureaucrats
 				}
 				OR = {
@@ -873,7 +873,7 @@ country_event = {
 			is_core = CLM
 			any_pop = {
 				OR = {
-					type = aristocrats
+					type = capitalists
 					type = officers
 				}
 				culture = north_andean

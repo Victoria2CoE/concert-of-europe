@@ -1,27 +1,27 @@
 2024 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 3092
 		culture = kikuyu
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 197
 		culture = african_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = maasai
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 568
 		culture = swahili
@@ -70,21 +70,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 43241
 		culture = kikuyu
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9919
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = maasai
@@ -137,7 +137,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11750
 		culture = african_minor
@@ -148,21 +148,21 @@
 }
 2026 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1137
 		culture = luo
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = african_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 395
 		culture = somali
@@ -197,21 +197,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4576
 		culture = luo
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1088
 		culture = african_minor
@@ -345,21 +345,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20136
 		culture = luo
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18033
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6926
 		culture = african_minor
@@ -412,21 +412,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9053
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 494
 		culture = mashriqi
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9029
 		culture = african_minor
@@ -472,14 +472,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9919
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10810
 		culture = african_minor
@@ -525,21 +525,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18033
 		culture = somali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1088
 		culture = african_minor
@@ -592,21 +592,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31540
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = somali
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4526
 		culture = oromo
@@ -631,7 +631,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23475
 		culture = african_minor
@@ -643,28 +643,28 @@
 
 2036 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 2053
 		culture = swahili
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = sukuma
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 148
 		culture = mashriqi
 		religion = shiite
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1311
 		culture = unyamwezi
@@ -706,14 +706,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32480
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = sukuma
@@ -801,14 +801,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11478
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2622
 		culture = sukuma
@@ -854,14 +854,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14595
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17118
 		culture = african_minor
@@ -879,14 +879,14 @@
 }
 2039 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 841
 		culture = swahili
 		religion = sunni
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1558
 		culture = african_minor
@@ -907,14 +907,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10612
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3958
 		culture = african_minor
@@ -967,28 +967,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 15263
 		culture = yao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 10810
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2968
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1979
 		culture = chewa
@@ -1027,21 +1027,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14966
 		culture = yao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7198
 		culture = makua
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7916
 		culture = makua
@@ -1108,35 +1108,35 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13086
 		culture = unyamwezi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20730
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = african_minor
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17637
 		culture = yao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12863
 		culture = african_minor
@@ -1189,35 +1189,35 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 37230
 		culture = unyamwezi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6258
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = sukuma
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6926
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5937
 		culture = sukuma
@@ -1228,42 +1228,42 @@
 }
 2044 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4650
 		culture = luo
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 272
 		culture = unyamwezi
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 915
 		culture = sukuma
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 9
 		culture = rundi
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = ruanda
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 49
 		culture = african_minor
@@ -1484,35 +1484,35 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20012
 		culture = unyamwezi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3487
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12690
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2671
 		culture = sukuma
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13853
 		culture = african_minor
@@ -1565,28 +1565,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 31095
 		culture = unyamwezi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22535
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = rundi
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11874
 		culture = african_minor
@@ -1713,14 +1713,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7025
 		culture = swahili
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18924
 		culture = african_minor
@@ -1740,14 +1740,14 @@
 
 2049 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1929
 		culture = nguni
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 247
 		culture = tonga
@@ -1782,14 +1782,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27953
 		culture = nguni
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9425
 		culture = tonga
@@ -1856,14 +1856,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 23005
 		culture = nguni
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18874
 		culture = tonga
@@ -1916,14 +1916,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8880
 		culture = nguni
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18404
 		culture = tonga
@@ -1976,14 +1976,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3611
 		culture = nguni
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 38961
 		culture = shona
@@ -2001,21 +2001,21 @@
 }
 2053 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 274
 		culture = portuguese
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1014
 		culture = shona
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 247
 		culture = sena
@@ -2071,14 +2071,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5788
 		culture = shona
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16524
 		culture = sena
@@ -2124,21 +2124,21 @@
 }
 2054 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1167
 		culture = shona
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 74
 		culture = african_minor
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 74
 		culture = sena
@@ -2187,21 +2187,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7050
 		culture = shona
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4799
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6357
 		culture = sena
@@ -2261,7 +2261,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 27409
 		culture = shona
@@ -2321,21 +2321,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7025
 		culture = african_minor
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8831
 		culture = shona
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2681
 		culture = sena
@@ -2416,21 +2416,21 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5741
 		culture = shona
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9993
 		culture = sena
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7767
 		culture = african_minor
@@ -2529,14 +2529,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9820
 		culture = sena
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1412
 		culture = african_minor
@@ -2561,21 +2561,21 @@
 }
 2060 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 251
 		culture = portuguese
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 1682
 		culture = makua
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 148
 		culture = makua
@@ -2617,7 +2617,7 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13160
 		culture = makua
@@ -2698,14 +2698,14 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4848
 		culture = makua
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12616
 		culture = makua
@@ -2753,7 +2753,7 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 35622
 		culture = makua
@@ -2873,14 +2873,14 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 18256
 		culture = sena
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 742
 		culture = african_minor
@@ -2947,28 +2947,28 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 26122
 		culture = chewa
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13531
 		culture = lomwe
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4230
 		culture = yao
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2968
 		culture = chewa
@@ -2979,14 +2979,14 @@
 }
 2067 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1286
 		culture = chewa
 		religion = animist
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 395
 		culture = lunda
@@ -3021,21 +3021,21 @@
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 17118
 		culture = chewa
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14966
 		culture = lunda
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3958
 		culture = chewa

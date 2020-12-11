@@ -2,7 +2,7 @@
 #Ruled by Bolivia 1836
 #La Paz (392000/98000 POPS)
 2310 = {
-	aristocrats = {
+	capitalists = {
 		culture = bolivian
 		religion = catholic
 		size = 1100
@@ -46,7 +46,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 19000
@@ -64,7 +64,7 @@
 		size = 2525
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 64175
@@ -89,7 +89,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 2775
@@ -97,7 +97,7 @@
 }
 #Cochabamba (352000/88000 POPS)
 2311 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 1700
@@ -122,7 +122,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 18600
@@ -140,7 +140,7 @@
 		size = 3250
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 61500
@@ -148,7 +148,7 @@
 }
 #Oruro (40000/10000 POPS)
 2312 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 225
@@ -173,7 +173,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2525
@@ -191,7 +191,7 @@
 		size = 350
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 6575
@@ -201,7 +201,7 @@
 #Ruled by Bolivia 1836
 #Chuquisaca (116000/29000 POPS)
 2313 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 600
@@ -238,7 +238,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3825
@@ -263,7 +263,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 23325
@@ -271,7 +271,7 @@
 }
 #Potosi (120000/30000 POPS)
 2314 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 625
@@ -296,7 +296,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2050
@@ -314,7 +314,7 @@
 		size = 1350
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 25525
@@ -322,7 +322,7 @@
 }
 #Tarija (52000/13000 POPS)
 2315 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 275
@@ -347,7 +347,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 575
@@ -372,7 +372,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 11225
@@ -382,7 +382,7 @@
 #Ruled by Bolivia 1836
 #Santa Cruz (16000/4000 POPS)
 2316 = {
-	aristocrats = {
+	capitalists = {
 		culture = spanish
 		religion = catholic
 		size = 100
@@ -419,7 +419,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 735
@@ -444,7 +444,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2775
@@ -471,13 +471,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 25
@@ -502,13 +502,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 1800
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 25
@@ -533,7 +533,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 1800
@@ -541,7 +541,7 @@
 }
 #Robore (12000/3000 POPS)
 2318 = {
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -566,7 +566,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700
@@ -576,7 +576,7 @@
 #Ruled by Bolivia 1836
 #Santa Ana (76000/19000 POPS)
 2319 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 275
@@ -613,7 +613,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2400
@@ -638,13 +638,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 9350
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 100
@@ -669,7 +669,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 5475
@@ -677,7 +677,7 @@
 }
 #Riberalta (12000/3000 POPS)
 2320 = {
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -702,7 +702,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700
@@ -710,7 +710,7 @@
 }
 #Cobija (28000/7000 POPS)
 2321 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 100
@@ -735,7 +735,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 775
@@ -760,13 +760,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = quechua
 		religion = catholic
 		size = 2775
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = amazonian
 		religion = animist
 		size = 50
@@ -791,7 +791,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = amazonian
 		religion = animist
 		size = 2700

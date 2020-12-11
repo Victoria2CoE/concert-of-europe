@@ -2,7 +2,7 @@
 #Under rule of Argentina 1836
 #Buenos Aires (132000/33000 POPS)
 2348 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 625
@@ -45,7 +45,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 49825
@@ -53,7 +53,7 @@
 }
 #Junin (56000/14000 POPS)
 2349 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 275
@@ -78,7 +78,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 25550
@@ -86,7 +86,7 @@
 }
 #Azul (12000/3000 POPS)
 2350 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 50
@@ -99,7 +99,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 15700
@@ -107,7 +107,7 @@
 }
 #La Plata (4000/1000 POPS)
 2351 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 15
@@ -119,7 +119,7 @@
 		size = 25
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 19000
@@ -127,7 +127,7 @@
 }
 #Mar del Plata (12000/3000 POPS)
 2352 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 50
@@ -139,7 +139,7 @@
 		size = 75
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 20700
@@ -155,13 +155,13 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 25
@@ -174,7 +174,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 1800
@@ -188,13 +188,13 @@
 		size = 75
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2725
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = animist
 		size = 50
@@ -207,7 +207,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -228,13 +228,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1875
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = animist
 		size = 50
@@ -247,7 +247,7 @@
 	}
 
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = animist
 		size = 5700
@@ -257,7 +257,7 @@
 #Under rule of Argentina 1836
 #Corrientes (96000/24000 POPS)
 2356 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 450
@@ -294,7 +294,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 19015
@@ -313,7 +313,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 15750
@@ -321,7 +321,7 @@
 }
 #Curuzu Cuatia (16000/4000 POPS)
 2357 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -340,7 +340,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 2500
@@ -359,7 +359,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = brazilian
 		religion = catholic
 		size = 1825
@@ -380,7 +380,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 1875
@@ -399,13 +399,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = brazilian
 		religion = catholic
 		size = 1825
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -424,7 +424,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700
@@ -432,7 +432,7 @@
 }
 #Colon (8000/2000 POPS)
 2359 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -451,7 +451,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 1900
@@ -459,7 +459,7 @@
 }
 #Parana (16000/4000 POPS)
 2360 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 75
@@ -478,7 +478,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 3825
@@ -488,7 +488,7 @@
 #Under rule of Argentina 1836
 #Santa Esperitu (8000/2000 POPS)
 2361 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -507,7 +507,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 5800
@@ -515,7 +515,7 @@
 }
 #Rosario (56000/14000 POPS)
 2362 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 275
@@ -552,7 +552,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 19350
@@ -560,7 +560,7 @@
 }
 #Reconquista (8000/2000 POPS)
 2363 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -579,7 +579,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -589,7 +589,7 @@
 #Under loose authority of Argentina 1836
 #Resistencia (16000/4000 POPS)
 2364 = {
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -608,7 +608,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700
@@ -633,7 +633,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 1200
@@ -641,7 +641,7 @@
 }
 #Villa Angela (16000/4000 POPS)
 2365 = {
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -660,7 +660,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700
@@ -679,7 +679,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 900
@@ -688,7 +688,7 @@
 #Under loose authority of Paraguay 1836
 #Formosa (24000/6000 POPS) #now part of Argentina
 2366 = {
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 75
@@ -707,7 +707,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 4575
@@ -732,7 +732,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 900
@@ -740,7 +740,7 @@
 }
 #Xolotas (20000/5000 POPS) #now part of Argentina
 2367 = {
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 75
@@ -759,7 +759,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 4575
@@ -769,7 +769,7 @@
 #Under rule of Argentina 1836
 #Salta (16000/4000 POPS)
 2368 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 75
@@ -806,7 +806,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2300
@@ -814,7 +814,7 @@
 }
 #Jujuy (8000/2000 POPS)
 2369 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -839,7 +839,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -847,7 +847,7 @@
 }
 #Cochinoca (4000/1000 POPS)
 2370 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 15
@@ -866,7 +866,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -874,7 +874,7 @@
 }
 #Equia (4000/1000 POPS)
 2371 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 15
@@ -893,7 +893,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -901,7 +901,7 @@
 }
 #Rivadavia (4000/1000 POPS)
 2372 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 15
@@ -920,7 +920,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 900
@@ -930,7 +930,7 @@
 #Under rule of Argentina 1836
 #Tucuman (20000/5000 POPS)
 2373 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 100
@@ -967,7 +967,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 5225
@@ -975,7 +975,7 @@
 }
 #Catamarca (12000/3000 POPS)
 2374 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 50
@@ -994,7 +994,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2700
@@ -1002,7 +1002,7 @@
 }
 #Vinchina (4000/1000 POPS)
 2375 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 15
@@ -1021,7 +1021,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -1031,7 +1031,7 @@
 #Under rule of Argentina 1836
 #Santiago del Estero (16000/4000 POPS)
 2376 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 75
@@ -1062,7 +1062,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3605
@@ -1083,13 +1083,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -1108,7 +1108,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700
@@ -1116,7 +1116,7 @@
 }
 #Mailin (8000/2000 POPS)
 2378 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -1135,7 +1135,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 1800
@@ -1145,7 +1145,7 @@
 #Under rule of Argentina 1836
 #Cordoba de Argentina (84000/21000 POPS)
 2379 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 425
@@ -1189,7 +1189,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 10300
@@ -1197,7 +1197,7 @@
 }
 #Villa Nueva (8000/2000 POPS)
 2380 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 25
@@ -1216,7 +1216,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -1224,7 +1224,7 @@
 }
 #Rio Cuarto (8000/2000 POPS)
 2381 = {
-	aristocrats = {
+	capitalists = {
 		culture = platinean
 		religion = catholic
 		size = 25
@@ -1243,7 +1243,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -1251,7 +1251,7 @@
 }
 #San Luis (8000/2000 POPS)
 2383 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 25
@@ -1270,7 +1270,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -1292,13 +1292,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1825
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 50
@@ -1317,7 +1317,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -1338,13 +1338,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1363,7 +1363,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1373,7 +1373,7 @@
 #Under rule of Argentina 1836
 #La Rioja (16000/4000 POPS)
 2385 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 75
@@ -1404,7 +1404,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 3700
@@ -1412,7 +1412,7 @@
 }
 #Santa Rita (8000/2000 POPS)
 2386 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 25
@@ -1431,7 +1431,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -1439,7 +1439,7 @@
 }
 #San Juan de la Frontera (12000/3000 POPS)
 2387 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 50
@@ -1458,7 +1458,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2700
@@ -1466,7 +1466,7 @@
 }
 #Calingasta (4000/1000 POPS)
 2388 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 15
@@ -1486,7 +1486,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
@@ -1496,7 +1496,7 @@
 #Under rule of Argentina 1836
 #Mendoza (12000/3000 POPS)
 2389 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 50
@@ -1527,7 +1527,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 2660
@@ -1535,7 +1535,7 @@
 }
 #San Rafael (8000/2000 POPS)
 2390 = {
-	aristocrats = {
+	capitalists = {
 		culture = south_andean
 		religion = catholic
 		size = 25
@@ -1554,7 +1554,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1800
@@ -1576,13 +1576,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 25
@@ -1601,7 +1601,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 1800
@@ -1611,7 +1611,7 @@
 #Under the loose rule of Argentina 1836
 #Viedma (12000/3000 POPS)
 2392 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 50
@@ -1630,7 +1630,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -1638,7 +1638,7 @@
 }
 #Telen (12000/3000 POPS)
 2393 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 50
@@ -1657,7 +1657,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -1678,13 +1678,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 75
@@ -1703,7 +1703,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 3675
@@ -1711,7 +1711,7 @@
 }
 #Curaco (12000/3000 POPS)
 2395 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 50
@@ -1730,7 +1730,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 2700
@@ -1740,7 +1740,7 @@
 #Under the loose rule of Argentina 1836
 #Rawson (4000/1000 POPS)
 2396 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1759,7 +1759,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1767,7 +1767,7 @@
 }
 #Esquel (4000/1000 POPS)
 2397 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1786,7 +1786,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1794,7 +1794,7 @@
 }
 #Puerto Deseado (4000/1000 POPS)
 2398 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1813,7 +1813,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1821,7 +1821,7 @@
 }
 #Rio Gallegos (4000/1000 POPS)
 2399 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1840,7 +1840,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1848,7 +1848,7 @@
 }
 #Rio Grande (4000/1000 POPS)
 2400 = {
-	aristocrats = {
+	capitalists = {
 		culture = patagonian
 		religion = animist
 		size = 10
@@ -1867,7 +1867,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = patagonian
 		religion = animist
 		size = 900
@@ -1890,13 +1890,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = platinean
 		religion = catholic
 		size = 900
 	}
 
-	aristocrats = {
+	capitalists = {
 		culture = guarani
 		religion = animist
 		size = 50
@@ -1915,7 +1915,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = guarani
 		religion = animist
 		size = 2700

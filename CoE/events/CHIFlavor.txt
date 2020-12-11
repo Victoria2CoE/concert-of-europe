@@ -5792,7 +5792,7 @@ country_event = {
 			fort = 3
 		}
 		capital_scope = {
-			aristocrats = {
+			capitalists = {
 				limit = { is_primary_culture = yes }
 				money = 300
 				move_pop = 1485

@@ -65,7 +65,7 @@ country_event = {
 			militancy = 3
 			consciousness = 3
 		}
-		aristocrats = {
+		capitalists = {
 			militancy = 3
 			consciousness = 3
 		}
@@ -305,7 +305,7 @@ country_event = {
 				is_primary_culture = yes
 				OR = {
 					type = soldiers
-					type = aristocrats
+					type = capitalists
 					type = officers
 				}
 			}
@@ -321,7 +321,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				NOT = { type = soldiers }
-				NOT = { type = aristocrats }
+				NOT = { type = capitalists }
 				NOT = { type = officers }
 				is_primary_culture = yes
 				location = {
@@ -966,7 +966,7 @@ country_event = {
 			militancy = 8
 			consciousness = 3
 		}
-		aristocrats = {
+		capitalists = {
 			militancy = 9
 			consciousness = 3
 		}
@@ -1022,7 +1022,7 @@ country_event = {
 			militancy = -6
 			consciousness = -3
 		}
-		aristocrats = {
+		capitalists = {
 			militancy = -6
 			consciousness = -3
 		}

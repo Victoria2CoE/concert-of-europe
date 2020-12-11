@@ -1,6 +1,6 @@
 664 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4904
 		culture = romanian
@@ -35,7 +35,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32645
 		culture = romanian
@@ -81,7 +81,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 32507
 		culture = romanian
@@ -145,7 +145,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 36651
 		culture = romanian
@@ -255,7 +255,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 97408
 		culture = romanian
@@ -287,7 +287,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 33011
 		culture = romanian
@@ -319,7 +319,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 83741
 		culture = romanian
@@ -337,7 +337,7 @@
 }
 673 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 5860
 		culture = romanian
@@ -365,7 +365,7 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49013
 		culture = romanian
@@ -398,7 +398,7 @@
 
 674 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1098
 		culture = turkish
@@ -454,28 +454,28 @@
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7737
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11309
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 457
 		culture = greek
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3813
 		culture = turkish
@@ -581,7 +581,7 @@
 }
 676 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4395
 		culture = romanian
@@ -665,35 +665,35 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 41966
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5723
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 11035
 		culture = turkish
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1235
 		culture = turkish
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2000
 		culture = russian
@@ -774,14 +774,14 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 60139
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6455
 		culture = ashkenazi
@@ -863,35 +863,35 @@
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 49265
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4990
 		culture = ashkenazi
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2609
 		culture = bulgarian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8516
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2541
 		culture = turkish
@@ -983,42 +983,42 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 46197
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 14170
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 19893
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 755
 		culture = hungarian
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5883
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3800
 		culture = ashkenazi
@@ -1030,21 +1030,21 @@
 
 654 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 4036
 		culture = hungarian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 5318
 		culture = hungarian
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 320
 		culture = north_german
@@ -1142,35 +1142,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 20443
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2174
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5768
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3040
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1075
 		culture = ashkenazi
@@ -1307,35 +1307,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 47731
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2838
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 7760
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5654
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1075
 		culture = ashkenazi
@@ -1416,35 +1416,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 42682
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1991
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4486
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1694
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1075
 		culture = ashkenazi
@@ -1454,21 +1454,21 @@
 
 }
 659 = {
-	aristocrats = {
+	capitalists = {
 
 		size = 2281
 		culture = hungarian
 		religion = catholic
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 3426
 		culture = hungarian
 		religion = protestant
 
 	}
-	aristocrats = {
+	capitalists = {
 
 		size = 869
 		culture = north_german
@@ -1566,35 +1566,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 51989
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3135
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6042
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 75229
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2150
 		culture = ashkenazi
@@ -1710,35 +1710,35 @@
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6822
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 12499
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 25868
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1625
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1075
 		culture = ashkenazi
@@ -1942,42 +1942,42 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8630
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 13947
 		culture = ukrainian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 4000
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3488
 		culture = polish
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2426
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 2129
 		culture = ashkenazi
@@ -1988,7 +1988,7 @@
 }
 663 = {
 
-	aristocrats = {
+	capitalists = {
 
 		size = 1190
 		culture = hungarian
@@ -2058,42 +2058,42 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 22205
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 9842
 		culture = ukrainian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3000
 		culture = ukrainian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1922
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3937
 		culture = south_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 1030
 		culture = ashkenazi
@@ -2210,35 +2210,35 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 64803
 		culture = romanian
 		religion = orthodox
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 6400
 		culture = hungarian
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 8400
 		culture = hungarian
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 250
 		culture = hungarian
 		religion = jewish
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 3600
 		culture = south_german
