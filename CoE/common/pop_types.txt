@@ -1637,15 +1637,15 @@ emigration_chance =
 {
 	factor = 0.10
 	modifier = {
-		factor = 0.05
+		factor = 0.06
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.10
+		factor = 0.125
 		type = farmers
 	}	
 	modifier = {
-		factor = 0.15
+		factor = 0.18
 		type = aristocrats
 	}	
 	modifier = { 
