@@ -1641,7 +1641,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = north_italian
 				}
-				literacy = 0.3
+				#literacy = 0.3
 			}
 			any_pop = {
 				limit = {
