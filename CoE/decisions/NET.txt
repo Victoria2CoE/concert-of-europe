@@ -482,7 +482,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = wallonian
 				}
-				literacy = 0.6
+				#literacy = 0.6
 				consciousness = 1
 			}
 			any_pop = {
