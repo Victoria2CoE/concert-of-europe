@@ -1636,9 +1636,16 @@ promote_to = {
 		factor = 0.01
 		modifier = {
 			factor = -50
-			literacy = 0.50
 			always = no
 		}
+		modifier = {
+			factor = -500
+		    state_scope = { has_factories = no }		
+		}				
+		modifier = {
+			factor = -500
+            unemployment_by_type = { value = 0.1 type = craftsmen }		
+		}	
 		modifier = {
 			factor = 150
 			literacy = 0.50
