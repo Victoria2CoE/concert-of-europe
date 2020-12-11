@@ -649,72 +649,72 @@ promote_to = {
 			officers = 0.005
 		} 
 	}		
-	artisans = {
-		factor = 0.01
-		modifier = {
-			factor = 25
-			literacy = 0.1
-			NOT = { literacy = 0.2 }
-			NOT = { artisans = 0.01 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.2
-			NOT = { literacy = 0.3 }
-			NOT = { artisans = 0.02 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.3
-			NOT = { literacy = 0.4 }
-			NOT = { artisans = 0.03 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.4
-			NOT = { literacy = 0.5 }
-			NOT = { artisans = 0.04 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.5
-			NOT = { literacy = 0.6 }
-			NOT = { artisans = 0.05 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.6
-			NOT = { literacy = 0.7 }
-			NOT = { artisans = 0.06 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.7
-			NOT = { literacy = 0.8 }
-			NOT = { artisans = 0.07 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.8
-			NOT = { literacy = 0.9 }
-			NOT = { artisans = 0.08 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.9
-			NOT = { literacy = 0.99 }
-			NOT = { artisans = 0.09 }
-		}
-		modifier = {
-			factor = 25
-			literacy = 0.99
-			NOT = { artisans = 0.10 }
-		}
-		modifier = {
-			factor = -50 #-500
-			artisans = 0.10
-		} 
-	}
+	#artisans = {
+	#	factor = 0.01
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.1
+	#		NOT = { literacy = 0.2 }
+	#		NOT = { artisans = 0.01 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.2
+	#		NOT = { literacy = 0.3 }
+	#		NOT = { artisans = 0.02 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.3
+	#		NOT = { literacy = 0.4 }
+	#		NOT = { artisans = 0.03 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.4
+	#		NOT = { literacy = 0.5 }
+	#		NOT = { artisans = 0.04 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.5
+	#		NOT = { literacy = 0.6 }
+	#		NOT = { artisans = 0.05 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.6
+	#		NOT = { literacy = 0.7 }
+	#		NOT = { artisans = 0.06 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.7
+	#		NOT = { literacy = 0.8 }
+	#		NOT = { artisans = 0.07 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.8
+	#		NOT = { literacy = 0.9 }
+	#		NOT = { artisans = 0.08 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.9
+	#		NOT = { literacy = 0.99 }
+	#		NOT = { artisans = 0.09 }
+	#	}
+	#	modifier = {
+	#		factor = 25
+	#		literacy = 0.99
+	#		NOT = { artisans = 0.10 }
+	#	}
+	#	modifier = {
+	#		factor = -50 #-500
+	#		artisans = 0.10
+	#	} 
+	#}
 	farmers = {
 		factor = 0.01
 		modifier = {

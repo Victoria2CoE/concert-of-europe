@@ -1425,7 +1425,7 @@ colonialmigration_chance = {
 		type = farmers
 	}	
 	modifier = {
-		factor = 2.00
+		factor = 2.50
 		type = aristocrats
 	}	
 	modifier = { 
@@ -2295,6 +2295,17 @@ emigration_chance =
 assimilation_chance = 
 {
 	factor = 0.02
+	modifier = {
+    	factor = 2.5
+		OR = {
+			strata = middle
+			type = aristocrats
+		}
+	}
+	modifier = {
+    	factor = 1.0
+		strata = rich
+	}
 	group = {
 		modifier = {
 			factor = 1
@@ -2429,18 +2440,34 @@ assimilation_chance =
 		country = { religious_policy = secularized }
 	}
 	modifier = {
-    	factor = -20
+    	factor = -10
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
 		NOT = { country = { citizenship_policy = forced_assimilation } }
+		strata = poor
 	}
 	modifier = {
-		factor = -10
+		factor = -7.5
 				location = {
        		any_core = { is_primary_culture = THIS }
     	}
 		country = { citizenship_policy = forced_assimilation }
+		strata = poor
+	}
+	modifier = {
+    	factor = -7.5
+		location = {
+       		any_core = { is_primary_culture = THIS }
+    	}
+		OR = { strata = rich }
+	}
+	modifier = {
+    	factor = -5
+		location = {
+       		any_core = { is_primary_culture = THIS }
+    	}
+		OR = { strata = middle type = aristocrats }
 	}
 	modifier = {
 		factor = 20
@@ -2529,14 +2556,6 @@ assimilation_chance =
 #general conversion mtth, same for all pops
 conversion_chance = {
 	factor = 0.05
-	modifier = {
-    	factor = 2.5
-		OR = {
-			strata = rich
-			strata = middle
-			type = aristocrats
-		}
-	}
 	group = {
 		modifier = {
 			factor = 0.2

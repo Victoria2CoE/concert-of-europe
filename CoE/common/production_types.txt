@@ -19,7 +19,7 @@ military_factory_template = {
 	{
 		poptype = capitalists
 		effect = output
-		effect_multiplier = 20
+		effect_multiplier = 10
 	}
 
 	employees = {
@@ -70,7 +70,7 @@ heavy_factory_template = {
 	{
 		poptype = capitalists
 		effect = output
-		effect_multiplier = 20
+		effect_multiplier = 10
 	}
 
 	employees = {
@@ -121,7 +121,7 @@ food_factory_template = {
 	{
 		poptype = capitalists
 		effect = output
-		effect_multiplier = 20
+		effect_multiplier = 10
 	}
 
 	employees = {
@@ -174,7 +174,7 @@ light_factory_template = {
 	{
 		poptype = capitalists
 		effect = output
-		effect_multiplier = 20
+		effect_multiplier = 10
 	}
 
 	employees = {
@@ -237,7 +237,7 @@ luxury_factory_template = {
 	{
 		poptype = capitalists
 		effect = output
-		effect_multiplier = 20
+		effect_multiplier = 10
 	}
 
 	employees = {
