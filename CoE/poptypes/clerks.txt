@@ -1,7 +1,8 @@
 strata = middle
 research_points = 4
-research_optimum = 0.16
+research_optimum = 0.20
 factory = yes
+can_build = yes
 
 rebel =
 {
