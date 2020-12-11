@@ -23,16 +23,16 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 life_needs = {
-	food_industry = 5
+	food_industry = 5.0
 }
 everyday_needs = {
-	light_industry = 6
+	light_industry = 20
 }
 luxury_needs = {
-	luxury_industry = 2.5
-	food_industry = 2.0
-	light_industry = 3
-	heavy_industry = 0.25
+	luxury_industry = 6
+	food_industry = 1.5
+	light_industry = 10.0
+	heavy_industry = 1.5
 }
 
 country_migration_target =

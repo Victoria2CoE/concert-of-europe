@@ -21,7 +21,7 @@ demote_migrant = yes
 
 administrative_efficiency = yes
 research_points = 2
-research_optimum = 0.01
+research_optimum = 0.02
 tax_eff = 1.0
 
 everyday_needs_income =
@@ -42,16 +42,16 @@ luxury_needs_income =
 }
 
 life_needs = {
-	food_industry = 4
+	food_industry = 5.0
 }
 everyday_needs = {
-	light_industry = 5
+	light_industry = 20.0
 }
 luxury_needs = {
-	luxury_industry = 2
+	luxury_industry = 6
 	food_industry = 1.5
-	light_industry = 2.5
-	heavy_industry = 0.2
+	light_industry = 12.50
+	heavy_industry = 0.75
 }
 
 

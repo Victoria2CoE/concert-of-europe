@@ -1,6 +1,6 @@
 sprite = 7
 color = { 200 187 157 }
-strata = poor
+strata = middle
 #state_capital_only = yes
 can_be_recruited = yes
 
@@ -36,18 +36,18 @@ luxury_needs_income =
 }
 
 life_needs = {
-	food_industry = 2
+	food_industry = 5.0
 }
 everyday_needs = {
-	light_industry = 3
-	military_industry = 0.1
+	light_industry = 20
+	military_industry = 2.0
 }
 luxury_needs = {
-	luxury_industry = 1
-	food_industry = 0.75
-	light_industry = 1.5
-	military_industry = 0.05
-	heavy_industry = 0.1
+	luxury_industry = 6
+	food_industry = 1.5
+	light_industry = 10.0
+	heavy_industry = 1.5
+	military_industry = 1.0
 }
 
 

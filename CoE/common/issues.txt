@@ -15,7 +15,7 @@ party_issues = {
 			max_tariff = 1
 			min_tariff = -0.25
 			
-			min_social_spending = 0.10
+			min_social_spending = 0.05
 			tax_efficiency = 0.01
 		}
 		free_trade = {
@@ -37,7 +37,7 @@ party_issues = {
 			factory_owner_cost = 0.5
 			factory_input = -0.02
 			
-			min_social_spending = 0.20
+			#min_social_spending = 0.00
 			
 			rules = {
 				build_factory = no
@@ -65,7 +65,7 @@ party_issues = {
 			min_tax = 0.1
 			factory_input = -0.01
 			
-			min_social_spending = 0.40
+			min_social_spending = 0.10
 			tax_efficiency = 0.01
 			
 			rules = {
@@ -96,7 +96,7 @@ party_issues = {
 			factory_owner_cost = 1.5
 			factory_throughput = 0.10
 			
-		    min_social_spending = 0.60
+		    min_social_spending = 0.20
 			tax_efficiency = 0.02
 			
 			rules = {
@@ -123,7 +123,7 @@ party_issues = {
 			rgo_throughput = 0.10
 			factory_owner_cost = -1	#negative costs, can't build.
 			
-			min_social_spending = 0.80
+			min_social_spending = 0.30
 			tax_efficiency = 0.03
 			
 			rules = {

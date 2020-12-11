@@ -34,18 +34,18 @@ everyday_needs_income = {
 }
 
 life_needs = {
-	food_industry = 4
+	food_industry = 5.0
 }
 everyday_needs = {
-	light_industry = 5
-	military_industry = 0.2
+	light_industry = 35.0
+	military_industry = 3.0
 }
 luxury_needs = {
-	luxury_industry = 2
-	food_industry = 1.5
-	light_industry = 2.5
-	military_industry = 0.1
-	heavy_industry = 0.2
+	luxury_industry = 10
+	food_industry = 2.0
+	light_industry = 12.5
+	heavy_industry = 1.50
+	military_industry = 2.0
 }
 
 

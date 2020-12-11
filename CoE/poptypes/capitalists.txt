@@ -23,16 +23,16 @@ rebel =
 can_build = yes
 
 life_needs = {
-	food_industry = 8
+	food_industry = 10.0
 }
 everyday_needs = {
-	light_industry = 10
+	light_industry = 35.0
 }
 luxury_needs = {
-	luxury_industry = 4
-	food_industry = 3
-	light_industry = 5
-	heavy_industry = 0.4
+	luxury_industry = 35.0
+	food_industry = 3.0
+	light_industry = 35.0
+	heavy_industry = 3.00
 }
 
 country_migration_target =
