@@ -27,25 +27,25 @@ military_factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 2.50
-			amount = 1.0
+			amount = 0.25
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
 			effect_multiplier = 5.00
-			amount = 0.50
+			amount = 0.15
 		}
 	}
 	type = factory
@@ -77,25 +77,25 @@ heavy_factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 2.50
-			amount = 1.0
+			amount = 0.25
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
 			effect_multiplier = 5.00
-			amount = 0.50
+			amount = 0.15
 		}
 	}
 	type = factory
@@ -128,25 +128,25 @@ food_factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 2.50
-			amount = 1.0
+			amount = 0.25
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
 			effect_multiplier = 5.00
-			amount = 0.50
+			amount = 0.15
 		}
 	}
 	type = factory
@@ -181,25 +181,25 @@ light_factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 2.50
-			amount = 1.0
+			amount = 0.25
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
 			effect_multiplier = 5.00
-			amount = 0.50
+			amount = 0.15
 		}
 	}
 	type = factory
@@ -244,25 +244,25 @@ luxury_factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 2.50
-			amount = 1.0
+			amount = 0.25
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 1.00
-			amount = 3.0
+			amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
 			effect_multiplier = 5.00
-			amount = 0.50
+			amount = 0.15
 		}
 	}
 	type = factory
@@ -331,26 +331,26 @@ RGO_template_farmers = {
 		{
 			poptype = labourers
 			effect = throughput
-			effect_multiplier = 0.9
-			amount = 0.9
+			effect_multiplier = 1.0
+			amount = 0.27
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.1
-			amount = 0.9
+			effect_multiplier = 2.0
+			amount = 0.24
 		}
 		{
 			poptype = farmers
 			effect = throughput
-			effect_multiplier = 1.1
-			amount = 0.9
+			effect_multiplier = 2.0
+			amount = 0.24
 		}
 		{
 			poptype = slaves
 			effect = output
-			effect_multiplier = 1.25
-			amount = 0.1
+			effect_multiplier = 1.5
+			amount = 0.25
 		}
 	}
 
@@ -370,26 +370,26 @@ RGO_template_labourers = {
 		{
 			poptype = labourers
 			effect = throughput
-			effect_multiplier = 0.9
-			amount = 0.9
+			effect_multiplier = 1.0
+			amount = 0.15
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.1
-			amount = 0.9
+			effect_multiplier = 0.30
+			amount = 1.0
 		}
 		{
 			poptype = farmers
 			effect = throughput
-			effect_multiplier = 1.1
-			amount = 0.9
+			effect_multiplier = 0.30
+			amount = 1.0
 		}
 		{
 			poptype = slaves
 			effect = output
-			effect_multiplier = 1.25
-			amount = 0.1
+			effect_multiplier = 0.25
+			amount = 1.0
 		}
 	}
 
