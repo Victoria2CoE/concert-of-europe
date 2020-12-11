@@ -50,7 +50,7 @@ guiTypes = {
 	windowType = {
 		name = "country_production"
 		backGround =""
-		position = { x=-512 y=-250 }	
+		position = { x=-650 y=-250 }	
 		size = { x=1024 y=632 }
 		moveable = 0
 		dontRender = ""
@@ -62,14 +62,14 @@ guiTypes = {
 		iconType = {
 			name ="main_bg"
 			spriteType = "GFX_main_bg"
-			position = { x= -70 y = -70 }
+			position = { x= 10000 y = 10000 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="prod_bg"
 			spriteType = "GFX_prod_bg"
-			position = { x= 18 y = 9 }
+			position = { x= 18 y = -70 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -85,7 +85,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x= -31 y = -7}
+			position = { x= 95 y = 60}
 			quadTextureSprite = "GFX_main_close_button"		
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
@@ -815,14 +815,14 @@ guiTypes = {
 	windowType = {
 		name = "goods_filter_template"
 		backGround =""
-		size = { x=31  y=22 }
+		size = { x=31  y=31 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
 		verticalBorder = ""
 		fullScreen = no
 		orientation="UPPER_LEFT"
-				
+		
 		guiButtonType = {
 			name = "filter_button"
 			quadTextureSprite = "GFX_filter_bg"
@@ -836,7 +836,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "goods_type"
-			spriteType = "GFX_resources_small"
+			spriteType = "GFX_resources_transparent"
 			position = { x=2 y =2 }
 		}	
 	}
@@ -1094,12 +1094,12 @@ guiTypes = {
 		iconType = {
 			name ="avg_infra"
 			spriteType = "GFX_prod_railroad_icon"
-			position = { x= 860 y = 2 }
+			position = { x= 960 y = 50 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = { 
 			name = "avg_infra_text"
-			position = { x = 882 y =4 }
+			position = { x = 982 y = 48 }
 			font = "vic_22"
 			text = "675"	
 			maxWidth = 60
@@ -1853,7 +1853,6 @@ guiTypes = {
 		fullScreen = no
 		orientation="UPPER_LEFT"
 		
-				
 		# merge to single picture
 		iconType = {
 			name = "prod_producing_entry"
@@ -1957,17 +1956,12 @@ guiTypes = {
 		verticalBorder = ""
 		fullScreen = no
 		orientation="CENTER"
-		
-		
-		
+			
 	}
 	
 	##########################
 	# LABELS PRODUCTION	 #
 	##########################
-	
-	
-	
 	
 	windowType = {
 		name = "production_goods_name"
@@ -1985,7 +1979,7 @@ guiTypes = {
 			spriteType = "GFX_prod_cat_bg"
 			position = { x = 0 y = 5 }
 		}
-		
+			
 		instantTextBoxType = { 
 			name = "cat_name"
 			position = { x = 10 y = 5 }
@@ -1995,25 +1989,6 @@ guiTypes = {
 			maxHeight = 16	
 			format = left
 		}
-		
-		iconType = {
-			name ="main_bg_addon2"
-			spriteType = "GFX_main_bg_addon2"
-			position = { x= -98 y = 180 }
-			Orientation = "UPPER_LEFT"
-		}	
-				
-		iconType = {
-			name ="main_bg_addon"
-			spriteType = "GFX_main_bg_addon"
-			position = { x= -98 y = 200 }
-			Orientation = "UPPER_LEFT"
-		}	
-		
-		
-		##################################################
-		
-		
 	}
 	
 	
