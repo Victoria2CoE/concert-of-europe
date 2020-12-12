@@ -522,9 +522,17 @@ political_decisions = {
 			}
 		}
 		effect = {
-			farmers = {
+			labourers = {
 				consciousness = -2
 				militancy = -2
+			}
+			aristocrats = {
+				consciousness = -1
+				militancy = -1
+			}
+			farmers = {
+				consciousness = -1
+				militancy = -1
 			}
 			capitalists = {
 				consciousness = 2
@@ -1074,6 +1082,14 @@ political_decisions = {
 			}
 		}
 		effect = {
+			labourers = {
+				consciousness = -1
+				militancy = -1
+			}
+			aristocrats = {
+				consciousness = -2
+				militancy = -2
+			}
 			farmers = {
 				consciousness = -2
 				militancy = -2
@@ -1620,9 +1636,17 @@ political_decisions = {
 			}
 		}
 		effect = {
-			farmers = {
+			labourers = {
 				consciousness = -2
 				militancy = -2
+			}
+			aristocrats = {
+				consciousness = -1
+				militancy = -1
+			}
+			farmers = {
+				consciousness = -1
+				militancy = -1
 			}
 			capitalists = {
 				consciousness = 4
@@ -1672,13 +1696,17 @@ collectivization_of_agriculture  = {
 			}
 		}
 		effect = {
-			farmers = {
+			labourers = {
 				consciousness = 4
 				militancy = 4
 			}
-			capitalists = {
-				consciousness = 10
-				militancy = 10
+			aristocrats = {
+				consciousness = 2
+				militancy = 2
+			}
+			farmers = {
+				consciousness = 2
+				militancy = 2
 			}
 			capitalists = {
 				consciousness = 10
@@ -1746,6 +1774,14 @@ reverse_collectivization  = {
 			}
 		}
 		effect = {
+			labourers = {
+				consciousness = 1
+				militancy = 1
+			}
+			aristocrats = {
+				consciousness = 2
+				militancy = 2
+			}
 			farmers = {
 				consciousness = 2
 				militancy = 2
