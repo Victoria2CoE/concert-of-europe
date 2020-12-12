@@ -19,6 +19,11 @@ rebel =
 	regular = 0.2
 }
 
+life_needs_income = {
+	type = education
+	weight = 1.0
+}
+
 life_needs = {
 	food_industry = 3.5
 }

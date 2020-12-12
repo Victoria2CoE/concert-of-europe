@@ -37,6 +37,7 @@ party_issues = {
 			max_tax = 0.5
 			factory_owner_cost = 0.5
 			factory_input = -0.02
+			education_efficiency_modifier = 0.40
 			
 			#min_social_spending = 0.00
 			

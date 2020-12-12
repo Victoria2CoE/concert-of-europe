@@ -30,6 +30,11 @@ luxury_needs = {
 	heavy_industry = 0.05
 }
 
+life_needs_income = {
+	type = education
+	weight = 1.0
+}
+
 ideologies = {
 	subordinate = {
 		factor = 1

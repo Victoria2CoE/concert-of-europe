@@ -27,18 +27,18 @@ tax_eff = 1.0
 everyday_needs_income =
 {
 	type = administration
-	weight = 1
+	weight = 1.5
 }
 
 life_needs_income = {
 	type = administration
-	weight = 1
+	weight = 1.5
 }
 
 luxury_needs_income =
 {
 	type = administration
-	weight = 1
+	weight = 1.5
 }
 
 life_needs = {
@@ -1545,61 +1545,61 @@ promote_to = {
 		factor = 0.01
 		modifier = {
 			factor = 25
-			education_spending = 0.1
-			NOT = { education_spending = 0.2 }
+			administration_spending = 0.1
+			NOT = { administration_spending = 0.2 }
 			NOT = { clergymen = 0.004 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.2
-			NOT = { education_spending = 0.3 }
+			administration_spending = 0.2
+			NOT = { administration_spending = 0.3 }
 			NOT = { clergymen = 0.008 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.3
-			NOT = { education_spending = 0.4 }
+			administration_spending = 0.3
+			NOT = { administration_spending = 0.4 }
 			NOT = { clergymen = 0.012 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.4
-			NOT = { education_spending = 0.5 }
+			administration_spending = 0.4
+			NOT = { administration_spending = 0.5 }
 			NOT = { clergymen = 0.016 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.5
-			NOT = { education_spending = 0.6 }
+			administration_spending = 0.5
+			NOT = { administration_spending = 0.6 }
 			NOT = { clergymen = 0.020 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.6
-			NOT = { education_spending = 0.7 }
+			administration_spending = 0.6
+			NOT = { administration_spending = 0.7 }
 			NOT = { clergymen = 0.024 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.7
-			NOT = { education_spending = 0.8 }
+			administration_spending = 0.7
+			NOT = { administration_spending = 0.8 }
 			NOT = { clergymen = 0.028 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.8
-			NOT = { education_spending = 0.9 }
+			administration_spending = 0.8
+			NOT = { administration_spending = 0.9 }
 			NOT = { clergymen = 0.032 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.9
-			NOT = { education_spending = 0.99 }
+			administration_spending = 0.9
+			NOT = { administration_spending = 0.99 }
 			NOT = { clergymen = 0.036 }
 		}
 		modifier = {
 			factor = 25
-			education_spending = 0.99
+			administration_spending = 0.99
 			NOT = { clergymen = 0.040 }
 		}
 		modifier = {

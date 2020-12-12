@@ -2296,14 +2296,15 @@ assimilation_chance =
 {
 	factor = 0.02
 	modifier = {
-    	factor = 2.5
-		OR = {
-			strata = middle
-			type = aristocrats
-		}
+    	factor = 5.0
+		type = aristocrats
 	}
 	modifier = {
-    	factor = 1.0
+    	factor = 5.0
+		strata = middle
+	}
+	modifier = {
+    	factor = 2.5
 		strata = rich
 	}
 	group = {
@@ -2454,6 +2455,7 @@ assimilation_chance =
     	}
 		country = { citizenship_policy = forced_assimilation }
 		strata = poor
+		NOT = { type aristocrats }
 	}
 	modifier = {
     	factor = -7.5
@@ -2463,11 +2465,18 @@ assimilation_chance =
 		OR = { strata = rich }
 	}
 	modifier = {
-    	factor = -5
+    	factor = -2.5
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		OR = { strata = middle type = aristocrats }
+		strata = middle
+	}
+	modifier = {
+    	factor = -5.0
+		location = {
+       		any_core = { is_primary_culture = THIS }
+    	}
+		type aristocrats
 	}
 	modifier = {
 		factor = 20
