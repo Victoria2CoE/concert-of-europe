@@ -135,7 +135,7 @@ political_decisions = {
 		effect = {
 			add_tax_relative_income = -3
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 100 } }
-			any_pop = { limit = { type = capitalists } money = -250 }
+			any_pop = { limit = { type = capitalists } money = -100 }
 			
 			add_country_modifier = {
 				name = cooperation_with_rich
