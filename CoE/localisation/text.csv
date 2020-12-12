@@ -2130,9 +2130,6 @@ take_from_sphere_setup;Take $THIRD$ from $RECIPIENT$'s sphere of influence;Prend
 acquire_core_state;Acquire core;Prendre territoire clé;Kernprovinz erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 acquire_core_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 acquire_core_state_setup;Acquire core $STATE$ from $RECIPIENT$;Prendre État clé $STATE$ de $RECIPIENT$;Kern-$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-acquire_state;Acquire state;Prendre État;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 acquire_state;Acquire state - tiny;Prendre État;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

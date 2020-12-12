@@ -126,10 +126,6 @@ great_war_acquire_core;Acquire core;Prendre territoire clé;Kernprovinz erwerben;
 great_war_acquire_core_desc;Aquire an enemy §Ystate§W where we have §Ycore provinces§W;Prendre un §YÉtat§W ennemi où nous avons des §Yprovinces principales§W;Erobern Sie einen feindlichen §YStaat§W, in dem wir §YKernprovinzen§W haben.;;;;;;;;;;;x,,;;;;;;;;;;;;;;;
 great_war_acquire_core_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 great_war_acquire_core_setup;Acquire core $STATE$ from $RECIPIENT$;Prendre État clé $STATE$ de $RECIPIENT$;Kern-$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-great_war_place_in_the_sun;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-great_war_place_in_the_sun_desc;Aquire an enemy §Ycolonial state§W;Prendre un §YÉtat colonial§W ennemi;Erobern Sie einen feindlichen §YKolonialstaat§W.;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;
-great_war_place_in_the_sun_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-great_war_place_in_the_sun_setup;Acquire colony $STATE$ from $RECIPIENT$;Prendre colonie $STATE$ de $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 great_war_release_puppet;Release Puppet;Libérer un État fantoche;Marionettenstaat entlassen;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;
 great_war_release_puppet_short;$THIRD$ is released;$THIRD$ est libéré;$THIRD$ wurde entlassen;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;
 great_war_release_puppet_setup;Release $THIRD$ from $RECIPIENT$;Libérer $THIRD$ de $RECIPIENT$;Entlassen Sie $THIRD$ aus $RECIPIENT$;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;
