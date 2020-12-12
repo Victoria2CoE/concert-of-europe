@@ -1,0 +1,187 @@
+political_decisions = {
+	increase_state_investments = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			OR = {
+				#economic_policy = interventionism
+				economic_policy = state_capitalism
+				economic_policy = planned_economy
+			}
+			NOT = { has_country_modifier = state_investments }
+			NOT = { has_country_modifier = cooperation_with_rich }
+			NOT = { has_country_modifier = austerity_measures }
+		}
+		effect = {
+			add_tax_relative_income = -10
+			add_country_modifier = {
+				name = state_investments
+				duration = 3600
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cooperate_with_rich = {
+		potential = {	
+			ai = no
+		}
+		allow = {
+			OR = {
+				economic_policy = interventionism
+				economic_policy = state_capitalism
+				#economic_policy = planned_economy
+			}
+		}
+		effect = {
+			add_tax_relative_income = -5
+			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 600 } }
+			any_pop = { limit = { type = capitalists } money = -500 }
+			
+			add_country_modifier = {
+				name = cooperation_with_rich
+				duration = 3600
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ennact_economic_austerity = {
+		potential = {	
+			ai = no
+		}
+		allow = {
+			OR = {
+				economic_policy = laissez_faire
+				has_country_modifier = in_bankrupcy
+			}
+		}
+		effect = {
+			add_tax_relative_income = 1
+			any_pop = { limit = { type = capitalists } money = 500 }
+			NOT = { has_country_modifier = austerity_measures }
+			
+			any_pop = {
+				limit = {
+					has_pop_culture = boer
+					type = calpitalists
+				}
+				money = 250
+			}
+			add_country_modifier = {
+				name = austerity_measures
+				duration = 3600
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+###AI
+	increase_state_investments_ai = {
+		potential = {
+			ai = yes
+			NOT = { has_country_modifier = ai_economic_flavour_cooldown }
+		}
+		allow = {
+			OR = {
+				#economic_policy = interventionism
+				economic_policy = state_capitalism
+				economic_policy = planned_economy
+			}
+			NOT = { has_country_modifier = state_investments }
+			NOT = { has_country_modifier = cooperation_with_rich }
+			NOT = { has_country_modifier = austerity_measures }
+		}
+		effect = {
+			add_tax_relative_income = -1
+			add_country_modifier = {
+				name = state_investments
+				duration = 3600
+			}
+			add_country_modifier = {
+				name = ai_economic_flavour_cooldown
+				duration = 1095
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cooperate_with_rich = {
+		potential = {	
+			ai = yes
+			NOT = { has_country_modifier = ai_economic_flavour_cooldown }
+		}
+		allow = {
+			OR = {
+				economic_policy = interventionism
+				economic_policy = state_capitalism
+				#economic_policy = planned_economy
+			}
+			
+		}
+		effect = {
+			add_tax_relative_income = -0.5
+			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 600 } }
+			any_pop = { limit = { type = capitalists } money = -500 }
+			
+			add_country_modifier = {
+				name = cooperation_with_rich
+				duration = 3600
+			}
+			add_country_modifier = {
+				name = ai_economic_flavour_cooldown
+				duration = 1095
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ennact_economic_austerity = {
+		potential = {	
+			ai = yes
+			OR = {
+				NOT = { has_country_modifier = ai_economic_flavour_cooldown }
+				has_country_modifier = in_bankrupcy
+			}
+		}
+		allow = {
+			OR = {
+				economic_policy = laissez_faire
+				has_country_modifier = in_bankrupcy
+			}
+		}
+		effect = {
+			add_tax_relative_income = 1.5
+			any_pop = { limit = { type = capitalists } money = 500 }
+			NOT = { has_country_modifier = austerity_measures }
+			
+			any_pop = {
+				limit = {
+					has_pop_culture = boer
+					type = calpitalists
+				}
+				money = 250
+			}
+			add_country_modifier = {
+				name = austerity_measures
+				duration = 3600
+			}
+			add_country_modifier = {
+				name = ai_economic_flavour_cooldown
+				duration = 1095
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

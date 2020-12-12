@@ -9,6 +9,7 @@ political_decisions = {
 			NOT = { tag = RUS }			
 		}
 		allow = {
+			NOT = { has_country_modifier = land_reform_in_process }
 			OR = {
 			    ruling_party_ideology = conservative
 				ruling_party_ideology = liberal
@@ -534,6 +535,10 @@ political_decisions = {
 				value = 0.25
 			}
             social_reform = landed_estates
+			add_country_modifier = {
+				name = land_reform_in_process
+				duration = 1850
+			}
 		}
 		
 		ai_will_do = {
@@ -548,10 +553,14 @@ political_decisions = {
 			civilized = yes
 		}
 		allow = {
+			NOT = { has_country_modifier = land_reform_in_process }
 			OR = { 
 			 NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			 ruling_party_ideology = liberal
+			 ruling_party_ideology = anarcho_liberal
 			 ruling_party_ideology = fascist
+			 ruling_party_ideology = socialist
+			 ruling_party_ideology = communist
 			}
 			OR = {
 				ruling_party_ideology = conservative
@@ -1078,6 +1087,10 @@ political_decisions = {
 				value = 0.25
 			}
             social_reform = land_purchase
+			add_country_modifier = {
+				name = land_reform_in_process
+				duration = 1850
+			}
 		}
 		
 		ai_will_do = {
@@ -1092,6 +1105,7 @@ political_decisions = {
 			civilized = yes
 		}
 		allow = {
+			NOT = { has_country_modifier = land_reform_in_process }
 			NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			NOT = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }		
 			OR = {
@@ -1623,6 +1637,10 @@ political_decisions = {
 				value = 0.25
 			}
 			social_reform = commoners_properties
+			add_country_modifier = {
+				name = land_reform_in_process
+				duration = 1850
+			}
 		}
 		
 		ai_will_do = {
@@ -1630,7 +1648,7 @@ political_decisions = {
 		}
 	}
 
-	collectivization_of_agriculture  = {
+collectivization_of_agriculture  = {
 	picture = collectivization_of_agriculture
 		potential = {
 			land_property = commoners_properties
@@ -1641,6 +1659,7 @@ political_decisions = {
 			}
 		}
 		allow = {
+			NOT = { has_country_modifier = land_reform_in_process }
 			OR = {
 				upper_house = {
 					ideology = socialist
@@ -1670,6 +1689,38 @@ political_decisions = {
 				value = 0.25
 			}
 			social_reform = collectivization
+			add_country_modifier = {
+				name = collectivization_in_process
+				duration = 1850
+			}
+			any_pop = {
+				limit = {
+					type = capitalist
+				}
+				reduce_pop = 0.80
+			}
+			any_pop = {
+				limit = {
+					type = labourers
+				}
+				reduce_pop = 0.97
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				reduce_pop = 0.98
+			}
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				reduce_pop = 0.99
+			}
+			add_country_modifier = {
+				name = land_reform_in_process
+				duration = 1850
+			}
 		}
 		
 		ai_will_do = {
@@ -1677,3 +1728,44 @@ political_decisions = {
 		}
 	}	
 }
+
+reverse_collectivization  = {
+	picture = collectivization_of_agriculture
+		potential = {
+			land_property = collectivization
+			NOT = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			NOT = { economic_policy = planned_economy }
+		}
+		allow = {
+			NOT = { has_country_modifier = land_reform_in_process }
+			NOT = {
+				upper_house = {
+					ideology = communist
+					value = 0.5
+				}
+			}
+		}
+		effect = {
+			farmers = {
+				consciousness = 2
+				militancy = 2
+			}
+			capitalists = {
+				consciousness = -5
+				militancy = -5
+			}
+			upper_house = {
+				ideology = liberal
+				value = 0.25
+			}
+			social_reform = commoners_properties
+			add_country_modifier = {
+				name = land_reform_in_process
+				duration = 1850
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}

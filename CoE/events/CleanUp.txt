@@ -2632,3 +2632,57 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 99999
+	title = "Deregulation of Land Property Structure"
+	desc = "Up to now land property in our country was dominated by small land owners, however with time market changes and accumulates land at the hands of a few."
+
+	trigger = {
+		land_property = commoners_properties
+		NOT = { 
+			NOT = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		}
+		economic_policy = planned_economy
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.9
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 0.8
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 0.9
+			trade_policy = free_trade
+		}
+	}
+
+	option = {
+		name = "We should perhaps think of land reform..."
+		social_reform = land_purchase_initiative
+	}
+}
+
+country_event = {
+	id = 99998
+	title = "Remove ai_economic_flavour_cooldown early"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		has_country_modifier = ai_economic_flavour_cooldown
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	option = {
+		name = "poggers"
+		remove_country_modifier = ai_economic_flavour_cooldown
+	}
+}
+
