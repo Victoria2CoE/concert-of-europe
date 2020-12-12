@@ -121,7 +121,7 @@ dismantle_cb = {
 	sprite_index = 11
 	is_triggered_only = yes
 	constructing_cb = no
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 	always = no #always = yes
 
@@ -135,7 +135,7 @@ dismantle_cb = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -200,7 +200,7 @@ dismantle_cb = {
 dismantle_cb_add = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 1.5
@@ -214,7 +214,7 @@ dismantle_cb_add = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -269,7 +269,7 @@ dismantle_cb_add = {
 dismantle_cb_add_new = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 1.5
@@ -283,7 +283,7 @@ dismantle_cb_add_new = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -333,7 +333,7 @@ dismantle_cb_add_new = {
 great_war_penalty_cb = {
 	sprite_index = 14
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	constructing_cb = no
@@ -348,7 +348,7 @@ great_war_penalty_cb = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -372,7 +372,7 @@ great_war_penalty_cb = {
 acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	always = no #always = yes
 
 	construction_speed = 0.8
@@ -386,7 +386,7 @@ acquire_core_state = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -447,7 +447,7 @@ acquire_core_state = {
 acquire_all_cores = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 	crisis = no
 
@@ -459,7 +459,7 @@ acquire_all_cores = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -526,7 +526,7 @@ acquire_all_cores = {
 restore_austrian_empire = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 
 	construction_speed = 0.8
@@ -540,7 +540,7 @@ restore_austrian_empire = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -644,7 +644,7 @@ restore_austrian_empire = {
 restore_byzantine_empire = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.8
 
@@ -657,7 +657,7 @@ restore_byzantine_empire = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -712,7 +712,7 @@ restore_byzantine_empire = {
 colonial_reconquest_cb = {
 	sprite_index = 2
 	is_triggered_only = no
-	months = 12
+	months = 3 #months = 12
 
 	badboy_factor = 0
 	prestige_factor = 1
@@ -722,7 +722,7 @@ colonial_reconquest_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -796,7 +796,7 @@ colonial_reconquest_cb = {
 restore_america = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.8
 
@@ -809,7 +809,7 @@ restore_america = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -888,7 +888,7 @@ restore_america = {
 unification_casus_belli = {
 	sprite_index = 5
 	is_triggered_only = no
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 1
 	crisis = no
@@ -901,7 +901,7 @@ unification_casus_belli = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -977,7 +977,7 @@ unification_casus_belli = {
 east_indian_unification = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 1
+	months = 3 #months = 1
 	constructing_cb = no
 	crisis = no
 
@@ -989,7 +989,7 @@ east_indian_unification = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1096,7 +1096,7 @@ east_indian_unification = {
 civil_war = {
 	sprite_index = 2
 	is_triggered_only = yes
-	months = 1
+	months = 3 #months = 1
 	constructing_cb = no
 	crisis = no
 
@@ -1113,7 +1113,7 @@ civil_war = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 0.5
 	break_truce_militancy_factor = 0.5
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1136,7 +1136,7 @@ civil_war = {
 unification_annex_casus_belli = {
 	sprite_index = 5
 	is_triggered_only = no
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 0
@@ -1147,7 +1147,7 @@ unification_annex_casus_belli = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1210,7 +1210,7 @@ unification_annex_casus_belli = {
 east_indian_unification_annex = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 1
+	months = 3 #months = 1
 	constructing_cb = no
 	crisis = no
 
@@ -1222,7 +1222,7 @@ east_indian_unification_annex = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1300,7 +1300,7 @@ east_indian_unification_annex = {
 annex_core_country = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 10
@@ -1312,7 +1312,7 @@ annex_core_country = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1368,7 +1368,7 @@ annex_core_country = {
 add_to_sphere = {
 	sprite_index = 3
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 	
 	always = no #always = yes
@@ -1383,7 +1383,7 @@ add_to_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1445,7 +1445,7 @@ add_to_sphere = {
 unification_humiliate_cb = {
 	sprite_index = 11
 	is_triggered_only = no
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 15
@@ -1456,7 +1456,7 @@ unification_humiliate_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1507,7 +1507,7 @@ unification_humiliate_cb = {
 unification_GP_humiliate = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 0.8
@@ -1520,7 +1520,7 @@ unification_GP_humiliate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	always = no #always = yes
 
@@ -1583,7 +1583,7 @@ unification_GP_humiliate = {
 unification_release_puppet_cb = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 0
@@ -1596,7 +1596,7 @@ unification_release_puppet_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1647,7 +1647,7 @@ unification_release_puppet_cb = {
 unification_add_to_sphere = {
 	sprite_index = 3
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 0.5
@@ -1660,7 +1660,7 @@ unification_add_to_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	always = no #always = yes
 
@@ -1706,7 +1706,7 @@ unification_add_to_sphere = {
 take_from_sphere = {
 	sprite_index = 4
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.5
 
@@ -1718,7 +1718,7 @@ take_from_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1800,7 +1800,7 @@ take_from_sphere = {
 free_peoples = {
 	sprite_index = 9
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -1814,7 +1814,7 @@ free_peoples = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2144,7 +2144,7 @@ free_peoples = {
 liberate_country = {
 	sprite_index = 15
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.25
 	
@@ -2158,7 +2158,7 @@ liberate_country = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2374,7 +2374,7 @@ liberate_country = {
 free_allied_cores = {
 	sprite_index = 9
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.75
 	
@@ -2388,7 +2388,7 @@ free_allied_cores = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2478,7 +2478,7 @@ free_allied_cores = {
 free_balkans = {
 	sprite_index = 9
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 1
@@ -2489,7 +2489,7 @@ free_balkans = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2621,7 +2621,7 @@ free_balkans = {
 monroe_doctrine = {
 	sprite_index = 9
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 1.0
@@ -2634,7 +2634,7 @@ monroe_doctrine = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 	always = no #always = yes
 
 	good_relation_prestige_factor = 1
@@ -2766,7 +2766,7 @@ monroe_doctrine = {
 oriental_crisis = {
 	sprite_index = 9
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 0
@@ -2777,7 +2777,7 @@ oriental_crisis = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2847,7 +2847,7 @@ oriental_crisis = {
 release_puppet = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.5
 
@@ -2859,7 +2859,7 @@ release_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2906,7 +2906,7 @@ release_puppet = {
 #release_puppet_AI = {
 #	sprite_index = 10
 #	is_triggered_only = yes
-#	months = 12
+#	months = 3 #months = 12
 #
 #	badboy_factor = 0
 #	prestige_factor = 1
@@ -2916,7 +2916,7 @@ release_puppet = {
 #	break_truce_prestige_factor = 1
 #	break_truce_infamy_factor = 1
 #	break_truce_militancy_factor = 1
-#	truce_months = 0
+#	truce_months = 3 #months = 0
 #
 #	good_relation_prestige_factor = 1
 #	good_relation_infamy_factor = 1
@@ -2985,7 +2985,7 @@ release_puppet = {
 gunboat = {
 	sprite_index = 1
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 	crisis = no
 
@@ -2997,7 +2997,7 @@ gunboat = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3030,7 +3030,7 @@ gunboat = {
 cut_down_to_size = {
 	sprite_index = 8
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.8
 
@@ -3042,7 +3042,7 @@ cut_down_to_size = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3124,7 +3124,7 @@ cut_down_to_size = {
 great_game_cb = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 0.8
@@ -3137,7 +3137,7 @@ great_game_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3231,7 +3231,7 @@ great_game_cb = {
 restore_british_raj = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 0
@@ -3242,7 +3242,7 @@ restore_british_raj = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3330,7 +3330,7 @@ restore_british_raj = {
 humiliate = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 
 	construction_speed = 0.8
 
@@ -3344,7 +3344,7 @@ humiliate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3436,7 +3436,7 @@ humiliate = {
 place_in_the_sun = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3450,7 +3450,7 @@ place_in_the_sun = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3537,7 +3537,7 @@ place_in_the_sun = {
 place_in_the_sun2 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3551,7 +3551,7 @@ place_in_the_sun2 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3640,7 +3640,7 @@ place_in_the_sun2 = {
 place_in_the_sun3 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3654,7 +3654,7 @@ place_in_the_sun3 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3743,7 +3743,7 @@ place_in_the_sun3 = {
 place_in_the_sun4 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3757,7 +3757,7 @@ place_in_the_sun4 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3846,7 +3846,7 @@ place_in_the_sun4 = {
 place_in_the_sun5 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3860,7 +3860,7 @@ place_in_the_sun5 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3948,7 +3948,7 @@ place_in_the_sun5 = {
 acquire_state = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -3962,7 +3962,7 @@ acquire_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4164,7 +4164,7 @@ acquire_state = {
 acquire_state2 = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -4178,7 +4178,7 @@ acquire_state2 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4382,7 +4382,7 @@ acquire_state2 = {
 acquire_state3 = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -4396,7 +4396,7 @@ acquire_state3 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4600,7 +4600,7 @@ acquire_state3 = {
 acquire_state4 = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	
 	always = no #always = yes
 
@@ -4614,7 +4614,7 @@ acquire_state4 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4817,7 +4817,7 @@ acquire_state4 = {
 china_acquire_state = {
 	sprite_index = 2
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	badboy_factor = 0
@@ -4828,7 +4828,7 @@ china_acquire_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4952,7 +4952,7 @@ china_acquire_state = {
 sahel_jihad_cb = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 1.25
@@ -4965,7 +4965,7 @@ sahel_jihad_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5030,7 +5030,7 @@ sahel_jihad_cb = {
 demand_concession_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 1.0
@@ -5043,7 +5043,7 @@ demand_concession_casus_belli = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5150,7 +5150,7 @@ demand_concession_casus_belli = {
 demand_concession_casus_belli2 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 0.5
@@ -5163,7 +5163,7 @@ demand_concession_casus_belli2 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5271,7 +5271,7 @@ demand_concession_casus_belli2 = {
 demand_concession_casus_belli3 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 0.5
@@ -5284,7 +5284,7 @@ demand_concession_casus_belli3 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5393,7 +5393,7 @@ demand_concession_casus_belli3 = {
 demand_concession_casus_belli4 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 0.5
@@ -5406,7 +5406,7 @@ demand_concession_casus_belli4 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5515,7 +5515,7 @@ demand_concession_casus_belli4 = {
 demand_concession_casus_belli5 = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 0.5
@@ -5528,7 +5528,7 @@ demand_concession_casus_belli5 = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5647,7 +5647,7 @@ demand_concession_casus_belli5 = {
 #demand_concession_NI_casus_belli = {
 #	sprite_index = 7
 #	is_triggered_only = yes
-#	months = 0
+#	months = 3 #months = 0
 #	crisis = no
 #
 #	construction_speed = 0.8
@@ -5660,7 +5660,7 @@ demand_concession_casus_belli5 = {
 #	break_truce_prestige_factor = 1
 #	break_truce_infamy_factor = 1
 #	break_truce_militancy_factor = 1
-#	truce_months = 12
+#	truce_months = 3 #months = 12
 #
 #	good_relation_prestige_factor = 0
 #	good_relation_infamy_factor = 0
@@ -5757,7 +5757,7 @@ demand_concession_casus_belli5 = {
 #demand_concession_BC_casus_belli = {
 #	sprite_index = 7
 #	is_triggered_only = yes
-#	months = 0
+#	months = 3 #months = 0
 #	crisis = no
 #
 #	construction_speed = 1
@@ -5770,7 +5770,7 @@ demand_concession_casus_belli5 = {
 #	break_truce_prestige_factor = 1
 #	break_truce_infamy_factor = 1
 #	break_truce_militancy_factor = 1
-#	truce_months = 12
+#	truce_months = 3 #months = 12
 #
 #	good_relation_prestige_factor = 0
 #	good_relation_infamy_factor = 0
@@ -5866,7 +5866,7 @@ demand_concession_casus_belli5 = {
 rude_boy = {
 	sprite_index = 11
 	is_triggered_only = no
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 2
@@ -5879,7 +5879,7 @@ rude_boy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5920,7 +5920,7 @@ rude_boy = {
 conquest = {
 	sprite_index = 2
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	construction_speed = 0.25
@@ -6098,7 +6098,7 @@ conquest = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6122,7 +6122,7 @@ conquest = {
 #annex_africa = {
 #	sprite_index = 7
 #	is_triggered_only = yes
-#	months = 0
+#	months = 3 #months = 0
 #	crisis = no
 #
 #	construction_speed = 1.5
@@ -6135,7 +6135,7 @@ conquest = {
 #	break_truce_prestige_factor = 5
 #	break_truce_infamy_factor = 2
 #	break_truce_militancy_factor = 2
-#	truce_months = 12
+#	truce_months = 3 #months = 12
 #
 #	good_relation_prestige_factor = 0
 #	good_relation_infamy_factor = 0
@@ -6213,7 +6213,7 @@ conquest = {
 annex_africa_full = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 1.5
@@ -6226,7 +6226,7 @@ annex_africa_full = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -6298,7 +6298,7 @@ annex_africa_full = {
 establish_protectorate_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 0
+	months = 3 #months = 0
 	crisis = no
 
 	construction_speed = 0.5
@@ -6311,7 +6311,7 @@ establish_protectorate_casus_belli = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 12
+	truce_months = 3 #months = 12
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -6382,7 +6382,7 @@ establish_protectorate_casus_belli = {
 #establish_protectorate_NI_casus_belli = {
 #	sprite_index = 7
 #	is_triggered_only = yes
-#	months = 0
+#	months = 3 #months = 0
 #	crisis = no
 #
 #	construction_speed = 0.8
@@ -6395,7 +6395,7 @@ establish_protectorate_casus_belli = {
 #	break_truce_prestige_factor = 5
 #	break_truce_infamy_factor = 2
 #	break_truce_militancy_factor = 2
-#	truce_months = 12
+#	truce_months = 3 #months = 12
 #
 #	good_relation_prestige_factor = 0
 #	good_relation_infamy_factor = 0
@@ -6445,7 +6445,7 @@ establish_protectorate_casus_belli = {
 #establish_protectorate_BC_casus_belli = {
 #	sprite_index = 7
 #	is_triggered_only = yes
-#	months = 0
+#	months = 3 #months = 0
 #	crisis = no
 #
 #	construction_speed = 1
@@ -6458,7 +6458,7 @@ establish_protectorate_casus_belli = {
 #	break_truce_prestige_factor = 5
 #	break_truce_infamy_factor = 2
 #	break_truce_militancy_factor = 2
-#	truce_months = 12
+#	truce_months = 3 #months = 12
 #
 #	good_relation_prestige_factor = 0
 #	good_relation_infamy_factor = 0
@@ -6510,7 +6510,7 @@ establish_protectorate_casus_belli = {
 status_quo = {
 	sprite_index = 1
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
@@ -6521,7 +6521,7 @@ status_quo = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -6545,7 +6545,7 @@ status_quo = {
 cut_down_to_size_boxer = {
 	sprite_index = 8
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 	crisis = no
 
@@ -6564,7 +6564,7 @@ cut_down_to_size_boxer = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6594,7 +6594,7 @@ cut_down_to_size_boxer = {
 make_puppet = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 	
 	always = no #always = yes
@@ -6609,7 +6609,7 @@ make_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6670,7 +6670,7 @@ make_puppet = {
 become_independent = {
 	sprite_index = 10
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 
 	always = no #always = yes
@@ -6683,7 +6683,7 @@ become_independent = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6727,7 +6727,7 @@ become_independent = {
 install_communist_gov_cb = {
 	sprite_index = 12
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 	
 	always = no #always = yes
@@ -6740,7 +6740,7 @@ install_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6800,7 +6800,7 @@ install_communist_gov_cb = {
 uninstall_communist_gov_cb = {
 	sprite_index = 13
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	crisis = no
 	
 	always = no #always = yes
@@ -6817,7 +6817,7 @@ uninstall_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6862,7 +6862,7 @@ uninstall_communist_gov_cb = {
 great_war_install_democracy = {
 	sprite_index = 13
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 
@@ -6874,7 +6874,7 @@ great_war_install_democracy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6922,7 +6922,7 @@ great_war_install_democracy = {
 great_war_install_revolution = {
 	sprite_index = 13
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 
@@ -6934,7 +6934,7 @@ great_war_install_revolution = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6976,7 +6976,7 @@ great_war_install_revolution = {
 great_war_install_fascism = {
 	sprite_index = 3
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 
@@ -6988,7 +6988,7 @@ great_war_install_fascism = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7030,7 +7030,7 @@ great_war_install_fascism = {
 great_war_install_communism = {
 	sprite_index = 12
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 
@@ -7042,7 +7042,7 @@ great_war_install_communism = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7084,7 +7084,7 @@ great_war_install_communism = {
 install_democracy = {
 	sprite_index = 13
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 	
@@ -7099,7 +7099,7 @@ install_democracy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7173,7 +7173,7 @@ install_democracy = {
 install_revolution = {
 	sprite_index = 13
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 	
@@ -7187,7 +7187,7 @@ install_revolution = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7251,7 +7251,7 @@ install_revolution = {
 install_fascism = {
 	sprite_index = 3
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 	
@@ -7265,7 +7265,7 @@ install_fascism = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7332,7 +7332,7 @@ install_fascism = {
 install_communism = {
 	sprite_index = 12
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	construction_speed = 1.5
 	crisis = no
 	
@@ -7346,7 +7346,7 @@ install_communism = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7415,7 +7415,7 @@ install_communism = {
 #acquire_substate_region = {
 #	sprite_index = 6
 #	is_triggered_only = yes
-#	months = 12
+#	months = 3 #months = 12
 #	crisis = no
 #
 #	construction_speed = 0.25
@@ -7428,7 +7428,7 @@ install_communism = {
 #	break_truce_prestige_factor = 1
 #	break_truce_infamy_factor = 2
 #	break_truce_militancy_factor = 2
-#	truce_months = 0
+#	truce_months = 3 #months = 0
 #
 #	good_relation_prestige_factor = 1
 #	good_relation_infamy_factor = 1
@@ -7474,7 +7474,7 @@ colonial_competition = {
 	is_triggered_only = yes
 	constructing_cb = no    # only used in crises
 	crisis = no
-	months = 12
+	months = 3 #months = 12
 
 	badboy_factor = 0
 	prestige_factor = 2
@@ -7484,7 +7484,7 @@ colonial_competition = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -7507,7 +7507,7 @@ colonial_competition = {
 #dismantle_forts = {
 #	sprite_index = 16
 #	is_triggered_only = yes
-#	months = 12
+#	months = 3 #months = 12
 #
 #	badboy_factor = 1
 #	prestige_factor = 1
@@ -7517,7 +7517,7 @@ colonial_competition = {
 #	break_truce_prestige_factor = 1
 #	break_truce_infamy_factor = 1
 #	break_truce_militancy_factor = 1
-#	truce_months = 0
+#	truce_months = 3 #months = 0
 #
 #	good_relation_prestige_factor = 1
 #	good_relation_infamy_factor = 1
@@ -7584,7 +7584,7 @@ colonial_competition = {
 call_allies_cb = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 1
+	months = 3 #months = 1
 	constructing_cb = no
 	crisis = no
 
@@ -7596,7 +7596,7 @@ call_allies_cb = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -7619,7 +7619,7 @@ call_allies_cb = {
 acquire_any_state = {
 	sprite_index = 6
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 	crisis = no
 
@@ -7631,7 +7631,7 @@ acquire_any_state = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -7682,7 +7682,7 @@ acquire_any_state = {
 conquest_any = {
 	sprite_index = 2
 	is_triggered_only = yes
-	months = 12
+	months = 3 #months = 12
 	constructing_cb = no
 	crisis = no
 
@@ -7700,7 +7700,7 @@ conquest_any = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 3 #months = 0
 
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
