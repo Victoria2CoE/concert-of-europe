@@ -37,7 +37,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			add_tax_relative_income = -5
+			add_tax_relative_income = -7.5
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 600 } }
 			any_pop = { limit = { type = capitalists } money = -500 }
 			
@@ -114,7 +114,7 @@ political_decisions = {
 		}
 	}
 	
-	cooperate_with_rich = {
+	cooperate_with_rich_ai = {
 		potential = {	
 			ai = yes
 			NOT = { has_country_modifier = ai_economic_flavour_cooldown }
@@ -128,9 +128,9 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_tax_relative_income = -0.5
-			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 600 } }
-			any_pop = { limit = { type = capitalists } money = -500 }
+			add_tax_relative_income = -0.75
+			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 300 } }
+			any_pop = { limit = { type = capitalists } money = -250 }
 			
 			add_country_modifier = {
 				name = cooperation_with_rich
@@ -145,7 +145,7 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	ennact_economic_austerity = {
+	ennact_economic_austerity_ai = {
 		potential = {	
 			ai = yes
 			OR = {
