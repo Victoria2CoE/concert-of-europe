@@ -104,7 +104,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = -5
+			add_tax_relative_income = -10
 			add_country_modifier = {
 				name = state_investments
 				duration = 3600
@@ -133,7 +133,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_tax_relative_income = -3
+			add_tax_relative_income = -6
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 150 } }
 			any_pop = { limit = { type = capitalists } money = -100 }
 			
