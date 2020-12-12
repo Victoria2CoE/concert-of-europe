@@ -70,6 +70,8 @@ party_issues = {
 			min_social_spending = 0.10
 			tax_efficiency = 0.01
 			
+			education_efficiency_modifier = 0.10
+			
 			rules = {
 				build_factory = no
 				expand_factory = yes
