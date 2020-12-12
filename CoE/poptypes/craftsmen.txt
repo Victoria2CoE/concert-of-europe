@@ -6,6 +6,8 @@ can_work_factory = yes
 #is_slave = yes
 allowed_to_vote = yes
 
+merge_max_size = 1
+
 color = { 127 3 3 }
 
 rebel =

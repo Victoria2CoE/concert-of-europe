@@ -4,6 +4,8 @@ research_optimum = 0.20
 factory = yes
 can_build = yes
 
+merge_max_size = 1
+
 rebel =
 {
 	cavalry = 0.0

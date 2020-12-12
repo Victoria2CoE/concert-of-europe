@@ -5,6 +5,8 @@ strata = poor
 unemployment = yes
 #equivalent = farmers
 
+merge_max_size = 1
+
 rebel =
 {
 	cavalry = 0.0

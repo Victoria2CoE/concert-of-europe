@@ -4,6 +4,8 @@ strata = middle
 #state_capital_only = yes
 can_be_recruited = yes
 
+merge_max_size = 1
+
 rebel =
 {
 	cavalry = 0.0

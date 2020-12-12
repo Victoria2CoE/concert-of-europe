@@ -6,6 +6,8 @@ unemployment = yes
 can_work_factory = yes
 #equivalent = labourers
 
+merge_max_size = 1
+
 #is_slave = yes
 allowed_to_vote = yes
 
