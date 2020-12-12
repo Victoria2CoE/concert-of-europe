@@ -35,6 +35,9 @@ political_decisions = {
 				economic_policy = state_capitalism
 				#economic_policy = planned_economy
 			}
+			NOT = { has_country_modifier = state_investments }
+			NOT = { has_country_modifier = cooperation_with_rich }
+			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
 			add_tax_relative_income = -7.5
@@ -59,11 +62,13 @@ political_decisions = {
 				economic_policy = laissez_faire
 				has_country_modifier = in_bankrupcy
 			}
+			NOT = { has_country_modifier = state_investments }
+			NOT = { has_country_modifier = cooperation_with_rich }
+			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
 			add_tax_relative_income = 1
 			any_pop = { limit = { type = capitalists } money = 500 }
-			NOT = { has_country_modifier = austerity_measures }
 			
 			any_pop = {
 				limit = {
@@ -158,11 +163,13 @@ political_decisions = {
 				economic_policy = laissez_faire
 				has_country_modifier = in_bankrupcy
 			}
+			NOT = { has_country_modifier = state_investments }
+			NOT = { has_country_modifier = cooperation_with_rich }
+			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
 			add_tax_relative_income = 1.5
 			any_pop = { limit = { type = capitalists } money = 500 }
-			NOT = { has_country_modifier = austerity_measures }
 			
 			any_pop = {
 				limit = {
