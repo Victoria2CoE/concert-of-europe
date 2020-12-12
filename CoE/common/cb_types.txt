@@ -123,7 +123,7 @@ dismantle_cb = {
 	constructing_cb = no
 	months = 12
 	crisis = no
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.25
 
@@ -209,7 +209,7 @@ dismantle_cb_add = {
 	prestige_factor = 10
 	peace_cost_factor = 35
 	penalty_factor = 3
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
@@ -278,7 +278,7 @@ dismantle_cb_add_new = {
 	prestige_factor = 10
 	peace_cost_factor = 35
 	penalty_factor = 3
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
@@ -373,7 +373,7 @@ acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.8
 
@@ -381,7 +381,7 @@ acquire_core_state = {
 	prestige_factor = 2
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -535,7 +535,7 @@ restore_austrian_empire = {
 	prestige_factor = 2
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -652,7 +652,7 @@ restore_byzantine_empire = {
 	prestige_factor = 2
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -728,7 +728,7 @@ colonial_reconquest_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		OR = {
@@ -804,7 +804,7 @@ restore_america = {
 	prestige_factor = 2
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -907,7 +907,7 @@ unification_casus_belli = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		is_vassal = no
@@ -995,7 +995,7 @@ east_indian_unification = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		is_vassal = no
@@ -1153,7 +1153,7 @@ unification_annex_casus_belli = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		is_vassal = no
@@ -1228,7 +1228,7 @@ east_indian_unification_annex = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		is_vassal = no
@@ -1307,7 +1307,7 @@ annex_core_country = {
 	prestige_factor = 5
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -1371,7 +1371,7 @@ add_to_sphere = {
 	months = 12
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -1462,7 +1462,7 @@ unification_humiliate_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -1522,7 +1522,7 @@ unification_GP_humiliate = {
 	break_truce_militancy_factor = 1
 	truce_months = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1591,7 +1591,7 @@ unification_release_puppet_cb = {
 	peace_cost_factor = 15
 	penalty_factor = 1
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
@@ -1662,7 +1662,7 @@ unification_add_to_sphere = {
 	break_truce_militancy_factor = 2
 	truce_months = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1802,7 +1802,7 @@ free_peoples = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -2148,7 +2148,7 @@ liberate_country = {
 
 	construction_speed = 0.25
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 10
 	prestige_factor = 2
@@ -2378,7 +2378,7 @@ free_allied_cores = {
 
 	construction_speed = 0.75
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 2.0
 	prestige_factor = 2
@@ -2495,7 +2495,7 @@ free_balkans = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -2635,7 +2635,7 @@ monroe_doctrine = {
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
 	truce_months = 0
-	always = yes #always = yes
+	always = no #always = yes
 
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2783,7 +2783,7 @@ oriental_crisis = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -2922,7 +2922,7 @@ release_puppet = {
 #	good_relation_infamy_factor = 1
 #	good_relation_militancy_factor = 1
 #
-#	always = yes #always = yes
+#	always = no #always = yes
 #
 #	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 #		NOT = { is_our_vassal = THIS }
@@ -3145,7 +3145,7 @@ great_game_cb = {
 
 	po_make_puppet = yes
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	war_name = WAR_PUPPET_NAME
 
@@ -3248,7 +3248,7 @@ restore_british_raj = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	po_make_puppet = yes
 
@@ -3339,7 +3339,7 @@ humiliate = {
 	peace_cost_factor = 15
 	penalty_factor = 1
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
@@ -3438,7 +3438,7 @@ place_in_the_sun = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -3539,7 +3539,7 @@ place_in_the_sun2 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -3642,7 +3642,7 @@ place_in_the_sun3 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -3745,7 +3745,7 @@ place_in_the_sun4 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -3848,7 +3848,7 @@ place_in_the_sun5 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 25
 
@@ -3950,7 +3950,7 @@ acquire_state = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.25
 
@@ -4166,7 +4166,7 @@ acquire_state2 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.25
 
@@ -4384,7 +4384,7 @@ acquire_state3 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.25
 
@@ -4602,7 +4602,7 @@ acquire_state4 = {
 	is_triggered_only = yes
 	months = 12
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.25
 
@@ -4834,7 +4834,7 @@ china_acquire_state = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5049,7 +5049,7 @@ demand_concession_casus_belli = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5169,7 +5169,7 @@ demand_concession_casus_belli2 = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5290,7 +5290,7 @@ demand_concession_casus_belli3 = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		badboy = 5.0
@@ -5412,7 +5412,7 @@ demand_concession_casus_belli4 = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5534,7 +5534,7 @@ demand_concession_casus_belli5 = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5885,7 +5885,7 @@ rude_boy = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -5925,7 +5925,7 @@ conquest = {
 
 	construction_speed = 0.25
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -6141,7 +6141,7 @@ conquest = {
 #	good_relation_infamy_factor = 0
 #	good_relation_militancy_factor = 0
 #
-#	always = yes #always = yes
+#	always = no #always = yes
 #
 #	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 #		NOT = { is_our_vassal = THIS }
@@ -6232,7 +6232,7 @@ annex_africa_full = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		NOT = { is_our_vassal = THIS }
@@ -6597,7 +6597,7 @@ make_puppet = {
 	months = 12
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	construction_speed = 0.5
 
@@ -6673,7 +6673,7 @@ become_independent = {
 	months = 12
 	crisis = no
 
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -6730,7 +6730,7 @@ install_communist_gov_cb = {
 	months = 12
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 10
 	prestige_factor = 1
@@ -6803,7 +6803,7 @@ uninstall_communist_gov_cb = {
 	months = 12
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	# Is automatically added to countries that intervened at while install_communist_gov_cb
 	# so they can revert those countries government.
@@ -6879,7 +6879,7 @@ great_war_install_democracy = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		THIS = {
@@ -6939,7 +6939,7 @@ great_war_install_revolution = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		THIS = {
@@ -6993,7 +6993,7 @@ great_war_install_fascism = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		THIS = {
@@ -7047,7 +7047,7 @@ great_war_install_communism = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	always = yes #always = yes
+	always = no #always = yes
 
 	can_use = {   OR = { ai = no  AND = { ai = yes NOT = { badboy = 0.5 } } AND = { ai = yes war = yes NOT = { badboy = 0.8  } } }
 		THIS = {
@@ -7088,7 +7088,7 @@ install_democracy = {
 	construction_speed = 1.5
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 6
 	prestige_factor = 5
@@ -7177,7 +7177,7 @@ install_revolution = {
 	construction_speed = 1.5
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 7.5
 	prestige_factor = 5
@@ -7255,7 +7255,7 @@ install_fascism = {
 	construction_speed = 1.5
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 10
 	prestige_factor = 5
@@ -7336,7 +7336,7 @@ install_communism = {
 	construction_speed = 1.5
 	crisis = no
 	
-	always = yes #always = yes
+	always = no #always = yes
 
 	badboy_factor = 12.5
 	prestige_factor = 5
