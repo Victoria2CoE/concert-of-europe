@@ -3313,7 +3313,7 @@ state_investments = {
 	icon = 47
 }
 
-cooperate_with_rich = {
+cooperation_with_rich = {
 	factory_throughput = 0.15
 	RGO_throughput = 0.15
 	#goods_demand = -0.05
