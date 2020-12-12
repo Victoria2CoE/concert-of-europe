@@ -29,12 +29,57 @@
 
 	}
 	labourers = {
-
 		size = 890
 		culture = amazonian
 		religion = animist
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	artisans = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	clergymen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	clerks = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	farmers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	officers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	##!
 	soldiers = {
 
 		size = 29
@@ -83,19 +128,109 @@
 
 	}
 	labourers = {
-
 		size = 81
 		culture = british
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	##!
 	labourers = {
-
 		size = 4718
 		culture = afro_caribbean
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	##!
 	slaves = {
 
 		size = 6000
@@ -143,12 +278,57 @@
 
 	}
 	labourers = {
-
 		size = 983
 		culture = afro_caribbean
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	##!
 	slaves = {
 
 		size = 7378
@@ -203,26 +383,161 @@
 
 	}
 	labourers = {
-
 		size = 65
 		culture = french
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = french
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 348
 		culture = afro_antillean
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = afro_antillean
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 227
 		culture = amazonian
 		religion = animist
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	artisans = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	clergymen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	clerks = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	farmers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	officers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	##!
 	slaves = {
 
 		size = 2418
@@ -256,12 +571,57 @@
 
 	}
 	labourers = {
-
 		size = 892
 		culture = amazonian
 		religion = animist
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	artisans = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	clergymen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	clerks = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	farmers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}
+	officers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = amazonian
+		religion = animist
+	}	
+	##!
 
 }
 2243 = {
@@ -288,19 +648,109 @@
 
 	}
 	labourers = {
-
 		size = 40
 		culture = british
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = british
+		religion = protestant
+	}	
+	##!
 	labourers = {
-
 		size = 3009
 		culture = afro_caribbean
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = afro_caribbean
+		religion = protestant
+	}	
+	##!
 	slaves = {
 
 		size = 4000

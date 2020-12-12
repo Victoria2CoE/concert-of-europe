@@ -71,16 +71,157 @@
 		culture = armenian
 		religion = orthodox
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = armenian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
 		size = 80040
 		culture = azerbaijani
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 65465
 		culture = azerbaijani
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	##!
 	officers = {
 		size = 493
 		culture = azerbaijani
@@ -155,26 +296,261 @@
 		culture = azerbaijani
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 19078
 		culture = azerbaijani
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 3600
 		culture = assyrian
 		religion = catholic
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	##!
 	labourers = {
 		size = 3763
 		culture = kurdish
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 3124
 		culture = kurdish
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	##!
 }
 
 #Urumia
@@ -229,26 +605,261 @@
 		culture = azerbaijani
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 14529
 		culture = azerbaijani
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 3600
 		culture = assyrian
 		religion = catholic
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = assyrian
+		religion = catholic
+	}	
+	##!
 	labourers = {
 		size = 10215
 		culture = kurdish
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 5993
 		culture = kurdish
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	##!
 }
 
 #Mahabad
@@ -278,11 +889,105 @@
 		culture = azerbaijani
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 15369
 		culture = azerbaijani
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	##!
 }
 
 #Ardabil
@@ -322,16 +1027,157 @@
 		culture = azerbaijani
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 14794
 		culture = azerbaijani
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = azerbaijani
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 14389
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	
 		clergymen = {
 		culture = tabari
@@ -432,6 +1278,53 @@
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = sephardic
 		religion = jewish
@@ -499,6 +1392,53 @@
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = armenian
 		religion = orthodox
@@ -554,6 +1494,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Gorgan
@@ -598,11 +1585,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 7649
 		culture = turkmen
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	##!
 }
 
 #Kermanshah
@@ -688,16 +1769,157 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 22078
 		culture = kurdish
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 7836
 		culture = kurdish
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	##!
 	officers = {
 		size = 30
 		culture = persian
@@ -747,6 +1969,53 @@ capitalists = {
 		culture = kurdish
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	##!
 }
 
 #Ilam
@@ -776,6 +2045,53 @@ capitalists = {
 		culture = kurdish
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		culture = luri
 		religion = shiite
@@ -810,6 +2126,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		culture = luri
 		religion = shiite
@@ -875,6 +2238,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	officers = {
 		size = 339
 		culture = persian
@@ -953,6 +2363,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Zanjan
@@ -972,6 +2429,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Qazvin
@@ -991,6 +2495,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = parsi
 		religion = zoroastrian
@@ -1021,6 +2572,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = armenian
 		religion = orthodox
@@ -1051,6 +2649,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Isfahan
@@ -1105,11 +2750,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 15500
 		culture = luri
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		culture = kurdish
 		religion = shiite
@@ -1120,6 +2859,53 @@ capitalists = {
 		culture = sephardic
 		religion = jewish
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	artisans = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	clergymen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	clerks = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	farmers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	officers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	##!
 	officers = {
 		size = 196
 		culture = persian
@@ -1154,6 +2940,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	soldiers = {
 		size = 2192
 		culture = persian
@@ -1178,6 +3011,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = sephardic
 		religion = jewish
@@ -1218,6 +3098,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = sephardic
 		religion = jewish
@@ -1277,11 +3204,105 @@ capitalists = {
 		culture = mashriqi
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 2402
 		culture = luri
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = sephardic
 		religion = jewish
@@ -1316,6 +3337,53 @@ capitalists = {
 		culture = mashriqi
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	##!
 	officers = {
 		size = 66
 		culture = persian
@@ -1356,11 +3424,105 @@ capitalists = {
 		culture = mashriqi
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 3807
 		culture = luri
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	##!
 }
 
 #Dehkord
@@ -1380,11 +3542,105 @@ capitalists = {
 		culture = luri
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = luri
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 2000
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Shiraz
@@ -1444,11 +3700,105 @@ capitalists = {
 		culture = mashriqi
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = mashriqi
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 27895
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		culture = luri
 		religion = shiite
@@ -1464,6 +3814,53 @@ capitalists = {
 		culture = sephardic
 		religion = jewish
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	artisans = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	clergymen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	clerks = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	farmers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	officers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	##!
 	officers = {
 		size = 146
 		culture = persian
@@ -1529,6 +3926,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	
 }
 
@@ -1549,6 +3993,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Lengeh
@@ -1573,11 +4064,105 @@ capitalists = {
 		culture = bedouin
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 1191
 		culture = persian
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	##!
 }
 
 #Sirjan
@@ -1597,6 +4182,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Kerman
@@ -1621,6 +4253,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = parsi
 		religion = zoroastrian
@@ -1680,6 +4359,53 @@ capitalists = {
 		culture = bedouin
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bedouin
+		religion = sunni
+	}	
+	##!
 	soldiers = {
 		size = 3000
 		culture = persian
@@ -1729,6 +4455,53 @@ capitalists = {
 		culture = bedouin
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bedouin
+		religion = shiite
+	}	
+	##!
 }
 
 
@@ -1754,11 +4527,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 7649
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 }
 
 #Zahedan
@@ -1788,11 +4655,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 5947
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 }
 
 #Minab
@@ -1817,11 +4778,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 7713
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 }
 
 #Kussurkund
@@ -1841,11 +4896,105 @@ capitalists = {
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 3000
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Chabahar
@@ -1870,6 +5019,53 @@ capitalists = {
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 	officers = {
 		size = 80
 		culture = baluchi
@@ -1929,11 +5125,105 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 9375
 		culture = turkmen
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	##!
 }
 
 
@@ -1969,6 +5259,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	officers = {
 		size = 201
 		culture = persian
@@ -2014,6 +5351,53 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 }
 
 #Bojnurd
@@ -2038,16 +5422,157 @@ capitalists = {
 		culture = persian
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 5244
 		culture = kurdish
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = kurdish
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 4673
 		culture = turkmen
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkmen
+		religion = sunni
+	}	
+	##!
 }
 
 #################################################
@@ -2113,16 +5638,157 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 82817
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 13678
 		culture = hazara
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	##!
 	officers = {
 		size = 583
 		culture = pashtun
@@ -2188,11 +5854,105 @@ capitalists = {
 		culture = uzbek
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = uzbek
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 63273
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	clergymen = {
 		culture = parsi
 		religion = zoroastrian
@@ -2258,16 +6018,157 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 2500
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 8547
 		culture = hazara
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	##!
 	clergymen = {
 		culture = parsi
 		religion = zoroastrian
@@ -2313,16 +6214,157 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 13911
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 18657
 		culture = persian
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	##!
 	clergymen = {
 		culture = parsi
 		religion = zoroastrian
@@ -2383,21 +6425,209 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 11112
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 45921
 		culture = hazara
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	##!
 	labourers = {
 		size = 14564
 		culture = hazara
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = sunni
+	}	
+	##!
 }
 
 #Farrah
@@ -2442,11 +6672,105 @@ capitalists = {
 		culture = persian
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = persian
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 74631
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	soldiers = {
 		size = 10261
 		culture = persian
@@ -2491,11 +6815,105 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 9422
 		culture = hazara
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	##!
 }
 
 #Jalalabad
@@ -2530,6 +6948,53 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		culture = kalash
 		religion = animist
@@ -2569,11 +7034,105 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 11112
 		culture = hazara
 		religion = shiite
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	artisans = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}
+	officers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hazara
+		religion = shiite
+	}	
+	##!
 }
 
 #Kunduz
@@ -2613,11 +7172,105 @@ capitalists = {
 		culture = pashtun
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = pashtun
+		religion = sunni
+	}	
+	##!
 	labourers = {
 		size = 29677
 		culture = tajik
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = tajik
+		religion = sunni
+	}	
+	##!
 	soldiers = {
 		size = 1500
 		culture = pashtun
@@ -2653,6 +7306,53 @@ capitalists = {
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 }
 
 #Kalat
@@ -2682,6 +7382,53 @@ capitalists = {
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 	officers = {
 		size = 80
 		culture = baluchi
@@ -2726,6 +7473,53 @@ capitalists = {
 		culture = baluchi
 		religion = sunni
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = baluchi
+		religion = sunni
+	}	
+	##!
 	soldiers = {
 		size = 1049
 		culture = baluchi

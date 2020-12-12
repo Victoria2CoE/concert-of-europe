@@ -85,47 +85,317 @@
 
 	}
 	labourers = {
-
 		size = 23968
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 22266
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 4235
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 7584
 		culture = slovak
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 4000
 		culture = ukrainian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 17657
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 71
@@ -215,26 +485,161 @@
 
 	}
 	labourers = {
-
 		size = 2058
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1158
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 10363
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 #############################
@@ -280,19 +685,109 @@
 
 	}
 	labourers = {
-
 		size = 6913
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 755
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 
 }
 
@@ -327,12 +822,57 @@
 
 	}
 	labourers = {
-
 		size = 21404
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	officers = {
 
 		size = 22
@@ -394,19 +934,109 @@
 
 	}
 	labourers = {
-
 		size = 17933
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 8676
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	soldiers = {
 
 		size = 343
@@ -546,47 +1176,317 @@
 
 	}
 	labourers = {
-
 		size = 17778
 		culture = romanian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 9846
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 17081
 		culture = hungarian
 		religion = protestant
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = protestant
+	}	
+	##!
 	labourers = {
-
 		size = 65701
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 17215
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 55583
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	officers = {
 
 		size = 206
@@ -690,26 +1590,161 @@
 
 	}
 	labourers = {
-
 		size = 58239
 		culture = romanian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 14812
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 11812
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 
 }
 
@@ -750,19 +1785,109 @@
 
 	}
 	labourers = {
-
 		size = 2884
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 39833
 		culture = slovene
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	##!
 
 }
 768 = {
@@ -803,19 +1928,109 @@
 
 	}
 	labourers = {
-
 		size = 6000
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 51827
 		culture = slovene
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 91
@@ -870,19 +2085,109 @@
 
 	}
 	labourers = {
-
 		size = 36239
 		culture = slovene
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = slovene
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1804
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 
 }
 770 = {
@@ -916,19 +2221,109 @@
 
 	}
 	labourers = {
-
 		size = 19115
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 21633
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 771 = {
@@ -1018,33 +2413,213 @@
 
 	}
 	labourers = {
-
 		size = 50958
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 9363
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 2976
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 5952
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 91
@@ -1121,19 +2696,109 @@
 
 	}
 	labourers = {
-
 		size = 27837
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 10187
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 774 = {
@@ -1167,19 +2832,109 @@
 
 	}
 	labourers = {
-
 		size = 10553
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 9363
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 775 = {
@@ -1199,12 +2954,57 @@
 
 	}
 	labourers = {
-
 		size = 14285
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 776 = {
@@ -1252,26 +3052,161 @@
 
 	}
 	labourers = {
-
 		size = 2449
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 4235
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 4258
 		culture = czech
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	##!
 
 }
 777 = {
@@ -1291,12 +3226,57 @@
 
 	}
 	labourers = {
-
 		size = 16826
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 778 = {
@@ -1344,26 +3324,161 @@
 
 	}
 	labourers = {
-
 		size = 4303
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 4052
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 640
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 
 }
 779 = {
@@ -1439,33 +3554,213 @@
 
 	}
 	labourers = {
-
 		size = 22137
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 5952
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 4601
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 4853
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	soldiers = {
 
 		size = 618
@@ -1563,26 +3858,161 @@
 
 	}
 	labourers = {
-
 		size = 30458
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 3412
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 5997
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	officers = {
 
 		size = 68
@@ -1644,19 +4074,109 @@
 
 	}
 	labourers = {
-
 		size = 9294
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 6945
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 }
 782 = {
 
@@ -1703,26 +4223,161 @@
 
 	}
 	labourers = {
-
 		size = 7447
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1366
 		culture = north_italian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = north_italian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1671
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 
@@ -1807,26 +4462,161 @@
 
 	}
 	labourers = {
-
 		size = 13804
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 8241
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3159
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 206
@@ -1895,26 +4685,161 @@
 
 	}
 	labourers = {
-
 		size = 15269
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 3319
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 2518
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 785 = {
@@ -1962,26 +4887,161 @@
 
 	}
 	labourers = {
-
 		size = 4258
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 16780
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3456
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 786 = {
@@ -2029,26 +5089,161 @@
 
 	}
 	labourers = {
-
 		size = 13712
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 17512
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 4280
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 
 }
 787 = {
@@ -2082,19 +5277,109 @@
 
 	}
 	labourers = {
-
 		size = 5425
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 14010
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 788 = {
@@ -2142,26 +5427,161 @@
 
 	}
 	labourers = {
-
 		size = 3571
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 13163
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 5265
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 789 = {
@@ -2209,26 +5629,161 @@
 
 	}
 	labourers = {
-
 		size = 1281
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 12888
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 14926
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 
@@ -2283,33 +5838,213 @@
 
 	}
 	labourers = {
-
 		size = 14514
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3365
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1000
 		culture = ukrainian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = ukrainian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3784
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 
 }
 792 = {
@@ -2371,47 +6106,317 @@
 
 	}
 	labourers = {
-
 		size = 21274
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 7466
 		culture = hungarian
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = hungarian
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 15123
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1500
 		culture = czech
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = czech
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 2000
 		culture = slovak
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = slovak
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 8431
 		culture = romanian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = romanian
+		religion = orthodox
+	}	
+	##!
 
 }
 793 = {
@@ -2459,26 +6464,161 @@
 
 	}
 	labourers = {
-
 		size = 13621
 		culture = croat
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = croat
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 6844
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 1634
 		culture = south_german
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = south_german
+		religion = catholic
+	}	
+	##!
 
 }
 794 = {
@@ -2512,12 +6652,57 @@
 
 	}
 	labourers = {
-
 		size = 69250
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	officers = {
 
 		size = 228
@@ -2551,12 +6736,57 @@
 
 	}
 	labourers = {
-
 		size = 46426
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 796 = {
@@ -2576,12 +6806,57 @@
 
 	}
 	labourers = {
-
 		size = 39558
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 797 = {
@@ -2601,12 +6876,57 @@
 
 	}
 	labourers = {
-
 		size = 14582
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 
 }
 798 = {
@@ -2661,26 +6981,161 @@
 
 	}
 	labourers = {
-
 		size = 44228
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3479
 		culture = bulgarian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3159
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 
 }
 799 = {
@@ -2728,26 +7183,161 @@
 
 	}
 	labourers = {
-
 		size = 36010
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 7371
 		culture = bulgarian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 4189
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 
 }
 
@@ -2803,26 +7393,161 @@
 
 	}
 	labourers = {
-
 		size = 20969
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 2563
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 19046
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 
 }
 803 = {
@@ -2884,33 +7609,213 @@
 
 	}
 	labourers = {
-
 		size = 13827
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 4715
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 22480
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 1671
 		culture = greek
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	##!
 	officers = {
 
 		size = 274
@@ -2972,19 +7877,109 @@
 
 	}
 	labourers = {
-
 		size = 10759
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3250
 		culture = bosniak
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bosniak
+		religion = sunni
+	}	
+	##!
 
 }
 
@@ -3080,47 +8075,317 @@
 
 	}
 	labourers = {
-
 		size = 15398
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 44714
 		culture = bulgarian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 2714
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 8122
 		culture = greek
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 3522
 		culture = serb
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = serb
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 251
 		culture = sephardic
 		religion = jewish
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	artisans = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	clergymen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	clerks = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	farmers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}
+	officers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = sephardic
+		religion = jewish
+	}	
+	##!
 	officers = {
 
 		size = 160
@@ -3189,33 +8454,213 @@
 
 	}
 	labourers = {
-
 		size = 5700
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 23000
 		culture = bulgarian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 8300
 		culture = greek
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 5300
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 
 }
 2577 = {
@@ -3298,39 +8743,264 @@
 
 	}
 	labourers = {
-
 		size = 11217
 		culture = bulgarian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = bulgarian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 1808
 		culture = turkish
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = turkish
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 9740
 		culture = albanian
 		religion = sunni
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = sunni
+	}	
+	##!
 	labourers = {
-
 		size = 1740
 		culture = albanian
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = albanian
+		religion = orthodox
+	}	
+	##!
 	labourers = {
-
 		size = 2967
 		culture = greek
 		religion = orthodox
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	artisans = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	clergymen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	clerks = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	farmers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}
+	officers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = greek
+		religion = orthodox
+	}	
+	##!
 
 }

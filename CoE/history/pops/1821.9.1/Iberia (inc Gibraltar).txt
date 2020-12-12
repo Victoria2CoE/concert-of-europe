@@ -32,19 +32,109 @@
 
 	}
 	labourers = {
-
 		size = 15000
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 126339
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 412
@@ -78,19 +168,109 @@
 
 	}
 	labourers = {
-
 		size = 9935
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 3571
 		culture = basque
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	##!
 
 }
 476 = {
@@ -110,19 +290,109 @@
 
 	}
 	labourers = {
-
 		size = 17000
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 52232
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 477 = {
@@ -156,12 +426,57 @@
 
 	}
 	labourers = {
-
 		size = 58239
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 503
@@ -195,19 +510,109 @@
 
 	}
 	labourers = {
-
 		size = 32690
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 3571
 		culture = basque
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	##!
 
 }
 479 = {
@@ -227,19 +632,109 @@
 
 	}
 	labourers = {
-
 		size = 46403
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 892
 		culture = basque
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	##!
 
 }
 480 = {
@@ -259,12 +754,57 @@
 
 	}
 	labourers = {
-
 		size = 37452
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 481 = {
@@ -291,12 +831,57 @@
 
 	}
 	labourers = {
-
 		size = 57415
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 482 = {
@@ -316,12 +901,57 @@
 
 	}
 	labourers = {
-
 		size = 44640
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 483 = {
@@ -341,12 +971,57 @@
 
 	}
 	labourers = {
-
 		size = 45098
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 484 = {
@@ -380,12 +1055,57 @@
 
 	}
 	labourers = {
-
 		size = 42717
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 183
@@ -419,12 +1139,57 @@
 
 	}
 	labourers = {
-
 		size = 40016
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 486 = {
@@ -444,12 +1209,57 @@
 
 	}
 	labourers = {
-
 		size = 35460
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 487 = {
@@ -532,12 +1342,57 @@
 
 	}
 	labourers = {
-
 		size = 20236
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 457
@@ -571,12 +1426,57 @@
 
 	}
 	labourers = {
-
 		size = 41939
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 489 = {
@@ -596,12 +1496,57 @@
 
 	}
 	labourers = {
-
 		size = 56957
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 490 = {
@@ -621,12 +1566,57 @@
 
 	}
 	labourers = {
-
 		size = 72135
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 491 = {
@@ -646,12 +1636,57 @@
 
 	}
 	labourers = {
-
 		size = 60070
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 492 = {
@@ -699,19 +1734,109 @@
 
 	}
 	labourers = {
-
 		size = 47433
 		culture = basque
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 17261
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 412
@@ -780,19 +1905,109 @@
 
 	}
 	labourers = {
-
 		size = 32072
 		culture = basque
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = basque
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 18291
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 494 = {
@@ -812,12 +2027,57 @@
 
 	}
 	labourers = {
-
 		size = 32828
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 495 = {
@@ -851,19 +2111,109 @@
 
 	}
 	labourers = {
-
 		size = 52287
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 1785
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 
 }
 496 = {
@@ -897,19 +2247,109 @@
 
 	}
 	labourers = {
-
 		size = 32461
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 14674
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 
 }
 497 = {
@@ -929,12 +2369,57 @@
 
 	}
 	labourers = {
-
 		size = 47159
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 498 = {
@@ -1017,19 +2502,109 @@
 
 	}
 	labourers = {
-
 		size = 48738
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 14765
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 183
@@ -1091,19 +2666,109 @@
 
 	}
 	labourers = {
-
 		size = 30493
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 17032
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 500 = {
@@ -1137,19 +2802,109 @@
 
 	}
 	labourers = {
-
 		size = 22114
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 10324
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 501 = {
@@ -1183,19 +2938,109 @@
 
 	}
 	labourers = {
-
 		size = 34659
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 16162
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 502 = {
@@ -1229,19 +3074,109 @@
 
 	}
 	labourers = {
-
 		size = 30493
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 14559
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 503 = {
@@ -1317,19 +3252,109 @@
 
 	}
 	labourers = {
-
 		size = 34705
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 36330
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 297
@@ -1391,19 +3416,109 @@
 
 	}
 	labourers = {
-
 		size = 19825
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 24060
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 
 }
 505 = {
@@ -1437,19 +3552,109 @@
 
 	}
 	labourers = {
-
 		size = 45625
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	labourers = {
-
 		size = 35071
 		culture = catalan
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = catalan
+		religion = catholic
+	}	
+	##!
 
 }
 506 = {
@@ -1476,12 +3681,57 @@
 
 	}
 	labourers = {
-
 		size = 38803
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 507 = {
@@ -1501,12 +3751,57 @@
 
 	}
 	labourers = {
-
 		size = 19252
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 508 = {
@@ -1526,12 +3821,57 @@
 
 	}
 	labourers = {
-
 		size = 41756
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 509 = {
@@ -1572,12 +3912,57 @@
 
 	}
 	labourers = {
-
 		size = 56957
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 510 = {
@@ -1597,12 +3982,57 @@
 
 	}
 	labourers = {
-
 		size = 62726
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 511 = {
@@ -1622,12 +4052,57 @@
 
 	}
 	labourers = {
-
 		size = 28730
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 512 = {
@@ -1668,12 +4143,57 @@
 
 	}
 	labourers = {
-
 		size = 54200
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 503
@@ -1728,12 +4248,57 @@
 
 	}
 	labourers = {
-
 		size = 66709
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 412
@@ -1774,12 +4339,57 @@
 
 	}
 	labourers = {
-
 		size = 71791
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 515 = {
@@ -1799,12 +4409,57 @@
 
 	}
 	labourers = {
-
 		size = 48166
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 516 = {
@@ -1824,12 +4479,57 @@
 
 	}
 	labourers = {
-
 		size = 53367
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 
 }
 
@@ -1874,12 +4574,57 @@
 
 	}
 	labourers = {
-
 		size = 183
 		culture = spanish
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = spanish
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 4
@@ -1952,12 +4697,57 @@
 
 	}
 	labourers = {
-
 		size = 137539
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 457
@@ -1991,12 +4781,57 @@
 
 	}
 	labourers = {
-
 		size = 63435
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 520 = {
@@ -2023,12 +4858,57 @@
 
 	}
 	labourers = {
-
 		size = 110343
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 521 = {
@@ -2097,12 +4977,57 @@
 
 	}
 	labourers = {
-
 		size = 20603
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 320
@@ -2143,12 +5068,57 @@
 
 	}
 	labourers = {
-
 		size = 91387
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 523 = {
@@ -2168,12 +5138,57 @@
 
 	}
 	labourers = {
-
 		size = 28890
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 524 = {
@@ -2193,12 +5208,57 @@
 
 	}
 	labourers = {
-
 		size = 20878
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 525 = {
@@ -2232,12 +5292,57 @@
 
 	}
 	labourers = {
-
 		size = 31363
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 	officers = {
 
 		size = 91
@@ -2271,12 +5376,57 @@
 
 	}
 	labourers = {
-
 		size = 19916
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
 527 = {
@@ -2296,11 +5446,56 @@
 
 	}
 	labourers = {
-
 		size = 24747
 		culture = portuguese
 		religion = catholic
-
 	}
+	###!added automatically
+	aristocrats = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	artisans = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	capitalists = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	clergymen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	clerks = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	craftsmen = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	farmers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}
+	officers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	soldiers = {
+		size = 10 #!
+		culture = portuguese
+		religion = catholic
+	}	
+	##!
 
 }
