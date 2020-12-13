@@ -2300,10 +2300,6 @@ assimilation_chance =
 		type = aristocrats
 	}
 	modifier = {
-    	factor = 1.0
-		type = farmers
-	}
-	modifier = {
     	factor = 5.0
 		strata = middle
 	}
@@ -2450,17 +2446,15 @@ assimilation_chance =
        		any_core = { is_primary_culture = THIS }
     	}
 		NOT = { country = { citizenship_policy = forced_assimilation } }
-		NOT = { location = { OR = { is_primary_culture = yes  is_accepted_culture = yes } } }
 		strata = poor
 		NOT = { type farmers }
 	}
 	modifier = {
 		factor = -7.5
-		location = {
+				location = {
        		any_core = { is_primary_culture = THIS }
     	}
 		country = { citizenship_policy = forced_assimilation }
-		NOT = { location = { OR = { is_primary_culture = yes  is_accepted_culture = yes } } }
 		strata = poor
 		type farmers
 	}
@@ -2469,7 +2463,6 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		NOT = { location = { OR = { is_primary_culture = yes  is_accepted_culture = yes } } }
 		OR = { strata = rich }
 	}
 	modifier = {
@@ -2477,7 +2470,6 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		NOT = { location = { OR = { is_primary_culture = yes  is_accepted_culture = yes } } }
 		strata = middle
 	}
 	modifier = {
@@ -2485,7 +2477,6 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		#NOT = { location = { OR = { is_primary_culture = yes  is_accepted_culture = yes }
 		type aristocrats
 	}
 	modifier = {
