@@ -6,7 +6,7 @@ unemployment = yes
 can_work_factory = yes
 #equivalent = labourers
 
-#merge_max_size = 1
+merge_max_size = 1000000
 #max_size = 1000
 
 #is_slave = yes
