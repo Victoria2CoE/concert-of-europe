@@ -5,7 +5,7 @@ unemployment = yes
 can_work_factory = yes
 #state_capital_only = yes
 
-merge_max_size = 1000000
+##merge_max_size = 1
 max_size = 1000
 
 #is_slave = yes
