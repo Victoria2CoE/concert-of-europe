@@ -7,7 +7,7 @@ can_work_factory = yes
 allowed_to_vote = yes
 
 merge_max_size = 1000
-max_size = 1000
+#max_size = 1000
 
 color = { 127 3 3 }
 
