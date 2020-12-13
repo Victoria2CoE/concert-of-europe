@@ -6,7 +6,7 @@ strata = rich
 research_points = 4
 research_optimum = 0.04
 
-#merge_max_size = 1000
+merge_max_size = 1000
 #max_size = 1000
 
 rebel =
@@ -386,13 +386,13 @@ migration_target =
 		pop_unemployment = { value = 0.5 type = THIS }
 	}	
 	modifier = {
-		factor = 0.02
+		factor = 0.01
 		has_pop_type = labourers
 		unemployment_by_type = { value = 0.1 type = labourers }
 		state_scope = { has_factories = no }
 	}
 	modifier = {
-		factor = 0.02
+		factor = 0.01
 		has_pop_type = farmers
 		unemployment_by_type = { value = 0.1 type = farmers }
 		state_scope = { has_factories = no }
