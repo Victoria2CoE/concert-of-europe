@@ -6,7 +6,7 @@ unemployment = yes
 #equivalent = farmers
 
 merge_max_size = 1000
-min_size = 1000
+max_size = 1000
 
 rebel =
 {

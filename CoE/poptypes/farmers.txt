@@ -7,7 +7,7 @@ can_work_factory = yes
 #equivalent = labourers
 
 merge_max_size = 1000
-min_size = 1000
+max_size = 1000
 
 #is_slave = yes
 allowed_to_vote = yes

@@ -5,7 +5,7 @@ factory = yes
 can_build = yes
 
 merge_max_size = 1000
-min_size = 1000
+max_size = 1000
 
 rebel =
 {
