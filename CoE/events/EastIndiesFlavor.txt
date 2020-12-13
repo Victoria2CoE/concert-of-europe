@@ -187,7 +187,7 @@ country_event = {
 					OR = {
 						region = NET_1398 #South Sumatra - Bencoolen
 						region = NET_1401 #Siak
-						region = SAK_1406 #East Sumatra
+						region = PAG_1408 #East Sumatra
 						region = PAG_1408 #West Sumatra
 						region = NET_1413 #West Java
 						region = NET_1415 #Central Java
@@ -693,7 +693,7 @@ country_event = {
 #			AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
 #			AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
 #			AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
-#			AND = { region = SAK_1406 NOT = { is_core = INO } } #East Sumatra
+#			AND = { region = PAG_1408 NOT = { is_core = INO } } #East Sumatra
 #			AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
 #			AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
 #			AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
@@ -748,7 +748,7 @@ country_event = {
 #		            	region = NET_1398 #Djambi
 #		            	region = NET_1401 #Siak
 #		            	region = ATJ_1405 #Atjeh
-#		            	region = SAK_1406 #East Sumatra
+#		            	region = PAG_1408 #East Sumatra
 #		            	region = PAG_1408 #West Sumatra
 #		            	region = NET_1426 #South Borneo
 #		            	region = NET_1422 #Bandjar
@@ -832,7 +832,7 @@ country_event = {
 ##		            	region = NET_1398 #Djambi
 ##		            	region = NET_1401 #Siak
 ##		            	region = ATJ_1405 #Atjeh
-##		            	region = SAK_1406 #East Sumatra
+##		            	region = PAG_1408 #East Sumatra
 ##		            	region = PAG_1408 #West Sumatra
 ##		            	region = NET_1426 #South Borneo
 ##		            	region = NET_1422 #Bandjar
@@ -913,7 +913,7 @@ country_event = {
 #		            	AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
 #		            	AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
 #		            	AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
-#		            	AND = { region = SAK_1406 NOT = { is_core = INO } } #East Sumatra
+#		            	AND = { region = PAG_1408 NOT = { is_core = INO } } #East Sumatra
 #		            	AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
 #		            	AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
 #		            	AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
