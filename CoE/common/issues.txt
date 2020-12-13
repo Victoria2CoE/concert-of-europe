@@ -847,6 +847,7 @@ social_reforms = {
 			min_social_spending = -0.05
 			education_efficiency_modifier = -0.50
 			pension_level = 0.05
+			global_population_growth = 0.002
 			 allow = {
 				always = no
 			 }		
@@ -864,6 +865,7 @@ social_reforms = {
             #min_social_spending = -0.05	
 			education_efficiency_modifier = -0.25
 			pension_level = 0.10
+			global_population_growth = 0.001
 			 allow = {
 				always = no
 			 }
@@ -891,6 +893,7 @@ social_reforms = {
 			pension_level = 0.40
 			min_social_spending = 0.10
 			max_tax = 0.02
+			#global_population_growth = 0.001
 			 allow = {
 				always = no
 			 }
@@ -909,6 +912,7 @@ social_reforms = {
 			pension_level = 0.60
 			min_social_spending = 0.15
 			max_tax = 0.03
+			global_population_growth = -0.001
 			 allow = {
 				always = no
 			 }
