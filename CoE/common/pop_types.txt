@@ -171,7 +171,7 @@ promotion_chance =
 	#}
 	modifier = {
 		factor = 3.0
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -180,7 +180,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -189,7 +189,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.10
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -198,7 +198,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.15
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -207,7 +207,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.20
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -216,7 +216,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.25
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -225,7 +225,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.30
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -234,7 +234,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.35
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -243,7 +243,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.40
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -252,7 +252,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.45
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -261,7 +261,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.50
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -270,7 +270,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.55
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -279,7 +279,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.60
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -288,7 +288,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.65
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -297,7 +297,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.70
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -306,7 +306,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.75
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -315,7 +315,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.80
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -324,7 +324,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.85
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -333,7 +333,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.90
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -342,7 +342,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.95
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -351,7 +351,7 @@ promotion_chance =
 	modifier = {
 		factor = 0.15
 		literacy = 0.99
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -361,147 +361,147 @@ promotion_chance =
 	modifier = {
 		factor = 1.50
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}	
 	modifier = {
 		factor = 0.075
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.10
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.15
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.20
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.25
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.30
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.35
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.40
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.45
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.50
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.55
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.60
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.65
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.70
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.75
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.80
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.85
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.90
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.95
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.075
 		literacy = 0.99
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
@@ -754,13 +754,13 @@ demotion_chance =
 	#		factor = 0.1
 	#		NOT = { everyday_needs = 0.99 }
 	#		NOT = { luxury_needs = 0.25 }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#	}
 	#	modifier = {
 	#		factor = 0.1
 	#		NOT = { everyday_needs = 0.9 }
 	#		NOT = { luxury_needs = 0.25 }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.10	
 	#	}
 	#	modifier = {
@@ -768,7 +768,7 @@ demotion_chance =
 	#		NOT = { everyday_needs = 0.8 }
 	#		NOT = { luxury_needs = 0.25 }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.20
 	#	}
 	#	modifier = {
@@ -776,7 +776,7 @@ demotion_chance =
 	#		NOT = { everyday_needs = 0.7 }
 	#		NOT = { luxury_needs = 0.25 }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.30
 	#	}
 	#	modifier = {
@@ -784,7 +784,7 @@ demotion_chance =
 	#		NOT = { everyday_needs = 0.6 }
 	#		NOT = { luxury_needs = 0.25 }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.40
 	#	}
 	#	modifier = {
@@ -793,7 +793,7 @@ demotion_chance =
 	#		NOT = { luxury_needs = 0.25 }
 	#		NOT = { OR = { type = craftsmen  type = clerks } }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.50
 	#	}
 	#	modifier = {
@@ -802,7 +802,7 @@ demotion_chance =
 	#		NOT = { luxury_needs = 0.25 }
 	#		NOT = { OR = { type = craftsmen  type = clerks } }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.60
 	#	}
 	#	modifier = {
@@ -811,7 +811,7 @@ demotion_chance =
 	#		NOT = { luxury_needs = 0.25 }
 	#		NOT = { OR = { type = craftsmen  type = clerks } }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.70
 	#	}
 	#	modifier = {
@@ -820,7 +820,7 @@ demotion_chance =
 	#		NOT = { luxury_needs = 0.25 }
 	#		NOT = { OR = { type = craftsmen  type = clerks } }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.80
 	#	}
 	#	modifier = {
@@ -829,13 +829,13 @@ demotion_chance =
 	#		NOT = { luxury_needs = 0.25 }
 	#		NOT = { OR = { type = craftsmen  type = clerks } }
 	#		location = { controlled_by = owner }
-	#		OR = { type = farmers type = labourers type = aristocrats } 
+	#		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	#		literacy = 0.90
 	#	}
 	#}
 	modifier = {
 		factor = 4.00
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -844,7 +844,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -853,7 +853,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.10
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -862,7 +862,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.15
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -871,7 +871,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.20
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -880,7 +880,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.25
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -889,7 +889,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.30
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -898,7 +898,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.35
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -907,7 +907,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.40
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -916,7 +916,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.45
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -925,7 +925,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.50
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -934,7 +934,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.55
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -943,7 +943,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.60
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -952,7 +952,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.65
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -961,7 +961,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.70
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -970,7 +970,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.75
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -979,7 +979,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.80
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -988,7 +988,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.85
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -997,7 +997,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.90
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -1006,7 +1006,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.95
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -1015,7 +1015,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.10
 		literacy = 0.99
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		OR = {
 			location = { is_primary_culture = yes }
 			location = { is_accepted_culture = yes }
@@ -1025,147 +1025,147 @@ demotion_chance =
 	modifier = {
 		factor = 2.00
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}	
 	modifier = {
 		factor = 0.05
 		literacy = 0.05
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.10
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.15
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.20
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.25
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.30
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.35
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.40
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.45
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.50
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.55
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.60
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.65
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.70
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.75
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.80
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.85
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.90
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.95
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
 	modifier = {
 		factor = 0.05
 		literacy = 0.99
-		OR = { type = farmers type = labourers type = aristocrats }
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats }
 		location = { is_primary_culture = no }
 		location = { is_accepted_culture = no }
 	}
@@ -1180,7 +1180,7 @@ factor = 0.50
 	}	
 	modifier = {
 		factor = 0.5
-		type = farmers
+		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
 		factor = 0.50
@@ -1192,7 +1192,7 @@ factor = 0.50
 	}
 	modifier = { 
 		factor = -0.25
-		OR = { type = farmers type = labourers type = aristocrats } 
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	}
 	group = {
 		modifier = {
@@ -1422,7 +1422,7 @@ colonialmigration_chance = {
 	}	
 	modifier = {
 		factor = 2.00
-		type = farmers
+		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
 		factor = 2.50
@@ -1642,7 +1642,7 @@ emigration_chance =
 	}	
 	modifier = {
 		factor = 0.125
-		type = farmers
+		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
 		factor = 0.18
@@ -1654,7 +1654,7 @@ emigration_chance =
 	}
 	modifier = { 
 		factor = -0.10
-		OR = { type = farmers type = labourers type = aristocrats } 
+		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
 	}
 	group = {
 		modifier = {
@@ -2296,7 +2296,7 @@ assimilation_chance =
 {
 	factor = 0.02
 	modifier = {
-    	factor = 5.0
+    	factor = -10.0
 		type = aristocrats
 	}
 	modifier = {
@@ -2447,6 +2447,7 @@ assimilation_chance =
     	}
 		NOT = { country = { citizenship_policy = forced_assimilation } }
 		strata = poor
+		NOT = { type farmers }
 	}
 	modifier = {
 		factor = -7.5
@@ -2455,7 +2456,7 @@ assimilation_chance =
     	}
 		country = { citizenship_policy = forced_assimilation }
 		strata = poor
-		NOT = { type aristocrats }
+		type farmers
 	}
 	modifier = {
     	factor = -7.5

@@ -6,7 +6,7 @@ can_work_factory = yes
 #is_slave = yes
 allowed_to_vote = yes
 
-#merge_max_size = 1000
+merge_max_size = 1
 #max_size = 1000
 
 color = { 127 3 3 }
@@ -1407,6 +1407,11 @@ promote_to = {
 
 	clerks = {
 		factor = 0.01
+		modifier = {
+			factor = -500
+			is_primary_culture = no
+			is_accepted_culture = no
+		}		
 		modifier = {
 			factor = -50
 			always = no

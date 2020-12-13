@@ -38,7 +38,7 @@ military_factory_template = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 1.00 #amount = 0.30
 		}
 		{
@@ -89,7 +89,7 @@ heavy_factory_template = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 1.00 #amount = 0.30
 		}
 		{
@@ -140,7 +140,7 @@ food_factory_template = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 1.00 #amount = 0.30
 		}
 		{
@@ -193,7 +193,7 @@ light_factory_template = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 1.00 #amount = 0.30
 		}
 		{
@@ -256,7 +256,7 @@ luxury_factory_template = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 1.00 #amount = 0.30
 		}
 		{
@@ -338,7 +338,7 @@ RGO_template_farmers = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 2.0
+			effect_multiplier = 0.5
 			amount = 1.00 #amount = 0.24
 		}
 		{
@@ -377,7 +377,7 @@ RGO_template_labourers = {
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 2.0
+			effect_multiplier = 0.5
 			amount = 1.00 #amount = 0.24
 		}
 		{

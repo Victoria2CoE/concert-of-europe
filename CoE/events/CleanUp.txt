@@ -2548,76 +2548,76 @@ country_event = {
 		#	limit = { AND = { exists = yes ai = yes } }
 		#	set_country_flag = game_master
 		#}
-		any_pop = { 
-			limit = { 
-				type = aristocrats 
-				OR = { 
-					is_primary_culture = yes
-					is_accepted_culture = yes
-				} 
-			}
-			pop_type = farmers
-		}	
-		any_pop = { 
-			limit = { 
-				type = farmers 
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			pop_type = aristocrats
-		}	
-		any_pop = { 
-			limit = { 
-				type = craftsmen 
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			pop_type = aristocrats
-		}
-		any_pop = { 
-			limit = { 
-				type = clerks 
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			pop_type = aristocrats
-		}
-		any_country = {
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-					OR = { 
-						is_primary_culture = yes
-						is_accepted_culture = yes
-					} 
-				}
-				pop_type = farmers
-			}
-			any_pop = { 
-				limit = { 
-					type = farmers 
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				pop_type = aristocrats
-			}	
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				pop_type = aristocrats
-			}	
-			any_pop = { 
-				limit = { 
-					type = clerks 
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				pop_type = aristocrats
-			}				
-		}
+		#any_pop = { 
+		#	limit = { 
+		#		type = aristocrats 
+		#		OR = { 
+		#			is_primary_culture = yes
+		#			is_accepted_culture = yes
+		#		} 
+		#	}
+		#	pop_type = farmers
+		#}	
+		#any_pop = { 
+		#	limit = { 
+		#		type = farmers 
+		#		is_primary_culture = no
+		#		is_accepted_culture = no
+		#	}
+		#	pop_type = aristocrats
+		#}	
+		#any_pop = { 
+		#	limit = { 
+		#		type = craftsmen 
+		#		is_primary_culture = no
+		#		is_accepted_culture = no
+		#	}
+		#	pop_type = aristocrats
+		#}
+		#any_pop = { 
+		#	limit = { 
+		#		type = clerks 
+		#		is_primary_culture = no
+		#		is_accepted_culture = no
+		#	}
+		#	pop_type = aristocrats
+		#}
+		#any_country = {
+		#	any_pop = { 
+		#		limit = { 
+		#			type = aristocrats 
+		#			OR = { 
+		#				is_primary_culture = yes
+		#				is_accepted_culture = yes
+		#			} 
+		#		}
+		#		pop_type = farmers
+		#	}
+		#	any_pop = { 
+		#		limit = { 
+		#			type = farmers 
+		#			is_primary_culture = no
+		#			is_accepted_culture = no
+		#		}
+		#		pop_type = aristocrats
+		#	}	
+		#	any_pop = { 
+		#		limit = { 
+		#			type = craftsmen 
+		#			is_primary_culture = no
+		#			is_accepted_culture = no
+		#		}
+		#		pop_type = aristocrats
+		#	}	
+		#	any_pop = { 
+		#		limit = { 
+		#			type = clerks 
+		#			is_primary_culture = no
+		#			is_accepted_culture = no
+		#		}
+		#		pop_type = aristocrats
+		#	}				
+		#}
 		
 		#any_country = {
 		#	#limit = { ai = yes }
@@ -2683,6 +2683,74 @@ country_event = {
 	option = {
 		name = "poggers"
 		remove_country_modifier = ai_economic_flavour_cooldown
+	}
+}
+
+country_event = {
+	id = 99997
+	title = "POPs Maintenance"
+	desc = "POPs Maintenance"
+
+    is_triggered_only = yes
+
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Why the hell are you playing as Bhutan?"
+		any_pop = { 
+			limit = { 
+				type = aristocrats 
+			}
+			pop_type = farmers
+		}
+		any_country = {
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				}
+				pop_type = farmers
+			}
+		}
+		any_pop = { 
+			limit = { 
+				type = craftsmen 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = farmers
+		}
+		any_pop = { 
+			limit = { 
+				type = clerks 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = farmers
+		}
+		any_country = {
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = farmers
+			}	
+			any_pop = { 
+				limit = { 
+					type = clerks 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = farmers
+			}				
+		}
 	}
 }
 
