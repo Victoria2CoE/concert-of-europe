@@ -8,7 +8,7 @@ infantry = {
 	
 	#Core Abilities
 	priority = 5
-	max_strength = 3
+	max_strength = 1
 	default_organisation = 5
 	maximum_speed = 4.00
 	floating_flag = no

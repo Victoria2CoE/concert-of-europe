@@ -9,7 +9,7 @@ regular = {
 	floating_flag = no	
 	#Core Abilities
 	priority = 10
-	max_strength = 3
+	max_strength = 1
 	default_organisation = 10
 	maximum_speed = 4.00
 	weighted_value = 2.0

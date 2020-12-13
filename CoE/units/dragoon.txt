@@ -15,7 +15,7 @@ dragoon = {
 	
 	#Core Abilities
 	priority = 15
-	max_strength = 3
+	max_strength = 1
 	default_organisation = 10
 	maximum_speed = 5
 	weighted_value = 6.0
