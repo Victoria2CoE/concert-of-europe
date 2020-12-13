@@ -2703,18 +2703,100 @@ country_event = {
 
 	option = {
 		name = "Why the hell are you playing as Bhutan?"
-		any_pop = { 
-			limit = { 
-				type = aristocrats 
-			}
-			pop_type = farmers
-		}
-		any_country = {
+		#any_owned = {
+		#	any_pop = { 
+		#		limit = { 
+		#			type = aristocrats
+		#			is_primary_culture  = no
+		#			location = { OR = { is_primary_culture  = yes is_accepted_culture  = yes } }
+		#		}
+		#	}
+		#	random = {
+		#		chance = 40
+		#		assimilate = yes
+		#	}			
+		#}
+		#any_country = {
+		#	any_owned = {
+		#		any_pop = { 
+		#			limit = { 
+		#				type = aristocrats
+		#				is_primary_culture  = no
+		#				location = { OR = { is_primary_culture  = yes is_accepted_culture  = yes } }
+		#			}
+		#		}
+		#		random = {
+		#			chance = 40
+		#			assimilate = yes
+		#		}
+		#	}
+		#}
+		#any_owned = {
+		#	any_pop = { 
+		#		limit = { 
+		#			type = farmers
+		#			is_primary_culture  = no
+		#			location = { OR = { is_primary_culture  = yes is_accepted_culture  = yes } }
+		#		}
+		#	}
+		#	random = {
+		#		chance = 10
+		#		assimilate = yes
+		#	}			
+		#}
+		#any_country = {
+		#	any_owned = {
+		#		any_pop = { 
+		#			limit = { 
+		#				type = farmers
+		#				is_primary_culture  = no
+		#				location = { OR = { is_primary_culture  = yes is_accepted_culture  = yes } }
+		#			}
+		#		}
+		#		random = {
+		#			chance = 10
+		#			assimilate = yes
+		#		}
+		#	}
+		#}
+		any_owned = {
 			any_pop = { 
 				limit = { 
-					type = aristocrats 
+					type = aristocrats
+					OR = {
+						AND = {
+							has_culture_core = yes
+							#location = { aristocrats = 0.05 }
+						}
+						AND = {
+							AND = { location = { culture = THIS  NOT = { any_pop = { has_culture_core = no type = aristocrats } } } }
+							#NOT = { location = { aristocrats = 0.10 } }
+						}
+						location = { literacy = 0.501 }
+					}
 				}
 				pop_type = farmers
+			}
+		}
+		any_country = {
+			any_owned = {
+				any_pop = { 
+					limit = { 
+						type = aristocrats
+						OR = {
+							AND = {
+								has_culture_core = yes
+								#location = { aristocrats = 0.05 }
+							}
+							AND = {
+								AND = { location = { culture = THIS  NOT = { any_pop = { has_culture_core = no type = aristocrats } } } }
+								#NOT = { location = { aristocrats = 0.10 } }
+							}
+							location = { literacy = 0.501 }
+						}
+					}
+					pop_type = farmers
+				}
 			}
 		}
 		any_pop = { 
