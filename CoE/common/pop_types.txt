@@ -1175,15 +1175,15 @@ demotion_chance =
 migration_chance = {
 factor = 0.50
 	modifier = {
-		factor = 0.25
+		factor = 0.40
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.5
+		factor = 0.80
 		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
-		factor = 0.50
+		factor = -1.00
 		type = aristocrats
 	}	
 	modifier = { 
@@ -1417,15 +1417,15 @@ factor = 0.50
 colonialmigration_chance = {
 	factor = 0.2
 	modifier = {
-		factor = 1.00
+		factor = 1.25
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 2.00
+		factor = 2.50
 		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
-		factor = 2.50
+		factor = -1.00
 		type = aristocrats
 	}	
 	modifier = { 
@@ -1637,15 +1637,15 @@ emigration_chance =
 {
 	factor = 0.10
 	modifier = {
-		factor = 0.06
+		factor = 0.10
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.125
+		factor = 0.20
 		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
-		factor = 0.18
+		factor = -0.25
 		type = aristocrats
 	}	
 	modifier = { 
