@@ -42,57 +42,12 @@
 
 	}
 	labourers = {
+
 		size = 1086
 		culture = afro_caribeno
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	##!
 	slaves = {
 
 		size = 409
@@ -148,109 +103,19 @@
 
 	}
 	labourers = {
+
 		size = 19132
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 38837
 		culture = mayan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 122
@@ -305,109 +170,19 @@
 
 	}
 	labourers = {
+
 		size = 4426
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 19418
 		culture = mayan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	##!
 
 }
 2188 = {
@@ -434,109 +209,19 @@
 
 	}
 	labourers = {
+
 		size = 4447
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 11107
 		culture = mayan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	##!
 
 }
 2189 = {
@@ -563,109 +248,19 @@
 
 	}
 	labourers = {
+
 		size = 742
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 2764
 		culture = mayan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	##!
 
 }
 2190 = {
@@ -692,109 +287,19 @@
 
 	}
 	labourers = {
+
 		size = 901
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 247
 		culture = mayan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mayan
-		religion = catholic
-	}	
-	##!
 	soldiers = {
 
 		size = 8
@@ -842,57 +347,12 @@
 
 	}
 	labourers = {
+
 		size = 47834
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 104
@@ -926,57 +386,12 @@
 
 	}
 	labourers = {
+
 		size = 32750
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2193 = {
@@ -1010,57 +425,12 @@
 
 	}
 	labourers = {
+
 		size = 33345
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 81
@@ -1094,57 +464,12 @@
 
 	}
 	labourers = {
+
 		size = 17097
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2195 = {
@@ -1164,57 +489,12 @@
 
 	}
 	labourers = {
+
 		size = 12604
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2196 = {
@@ -1234,57 +514,12 @@
 
 	}
 	labourers = {
+
 		size = 2213
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2197 = {
@@ -1318,57 +553,12 @@
 
 	}
 	labourers = {
+
 		size = 35599
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 61
@@ -1402,57 +592,12 @@
 
 	}
 	labourers = {
+
 		size = 7398
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2199 = {
@@ -1472,57 +617,12 @@
 
 	}
 	labourers = {
+
 		size = 9694
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2200 = {
@@ -1549,109 +649,19 @@
 
 	}
 	labourers = {
+
 		size = 737
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 1475
 		culture = afro_caribbean
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = afro_caribbean
-		religion = catholic
-	}	
-	##!
 
 }
 2201 = {
@@ -1685,57 +695,12 @@
 
 	}
 	labourers = {
+
 		size = 9612
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 22
@@ -1769,57 +734,12 @@
 
 	}
 	labourers = {
+
 		size = 3689
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2203 = {
@@ -1839,57 +759,12 @@
 
 	}
 	labourers = {
+
 		size = 2213
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 
 }
 2204 = {
@@ -1961,109 +836,19 @@
 
 	}
 	labourers = {
+
 		size = 2192
 		culture = afro_caribeno
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 7
 		culture = native_american_minor
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 40
@@ -2136,109 +921,19 @@
 
 	}
 	labourers = {
+
 		size = 4406
 		culture = central_american
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = central_american
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 549
 		culture = afro_caribeno
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	##!
 	slaves = {
 
 		size = 204
@@ -2292,57 +987,12 @@
 
 	}
 	labourers = {
+
 		size = 549
 		culture = afro_caribeno
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = afro_caribeno
-		religion = catholic
-	}	
-	##!
 	slaves = {
 
 		size = 204
@@ -2383,57 +1033,12 @@
 
 	}
 	labourers = {
+
 		size = 890
 		culture = native_american_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 20

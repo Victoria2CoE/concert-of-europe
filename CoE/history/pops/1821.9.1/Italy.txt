@@ -49,213 +49,33 @@
 		religion = protestant
 	}
 	labourers = {
+
 		size = 7000
 		culture = french
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 4000
 		culture = french
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = french
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 23000
 		culture = occitan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = occitan
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 150492
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 618
@@ -310,109 +130,19 @@
 
 	}
 	labourers = {
+
 		size = 13048
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 19779
 		culture = french
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = french
-		religion = catholic
-	}	
-	##!
 
 }
 722 = {
@@ -432,109 +162,19 @@
 
 	}
 	labourers = {
+
 		size = 40603
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 2000
 		culture = north_italian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = protestant
-	}	
-	##!
 
 }
 723 = {
@@ -554,57 +194,12 @@
 
 	}
 	labourers = {
+
 		size = 59704
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 724 = {
@@ -645,57 +240,12 @@
 
 	}
 	labourers = {
+
 		size = 128199
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 725 = {
@@ -715,57 +265,12 @@
 
 	}
 	labourers = {
+
 		size = 64740
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 726 = {
@@ -820,57 +325,12 @@
 
 	}
 	labourers = {
+
 		size = 252667
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 549
@@ -886,57 +346,12 @@
 
 	}
 	labourers = {
+
 		size = 6000
 		culture = romansh
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = romansh
-		religion = catholic
-	}	
-	##!
 
 }
 727 = {
@@ -956,109 +371,19 @@
 
 	}
 	labourers = {
+
 		size = 98232
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 3
 		culture = south_german
 		religion = jewish
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}
-	officers = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_german
-		religion = jewish
-	}	
-	##!
 
 }
 728 = {
@@ -1078,57 +403,12 @@
 
 	}
 	labourers = {
+
 		size = 145666
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 729 = {
@@ -1197,57 +477,12 @@
 
 	}
 	labourers = {
+
 		size = 55789
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 368
@@ -1288,57 +523,12 @@
 
 	}
 	labourers = {
+
 		size = 101689
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 731 = {
@@ -1358,57 +548,12 @@
 
 	}
 	labourers = {
+
 		size = 117004
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 732 = {
@@ -1428,57 +573,12 @@
 
 	}
 	labourers = {
+
 		size = 48349
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 733 = {
@@ -1498,57 +598,12 @@
 
 	}
 	labourers = {
+
 		size = 62451
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 734 = {
@@ -1582,109 +637,19 @@
 
 	}
 	labourers = {
+
 		size = 4221
 		culture = south_german
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 55011
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	soldiers = {
 
 		size = 228
@@ -1725,109 +690,19 @@
 
 	}
 	labourers = {
+
 		size = 16089
 		culture = south_german
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_german
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 2544
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 736 = {
@@ -1882,109 +757,19 @@
 
 	}
 	labourers = {
+
 		size = 2174
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 5768
 		culture = slovene
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 91
@@ -2046,109 +831,19 @@
 
 	}
 	labourers = {
+
 		size = 9889
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 27814
 		culture = slovene
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = slovene
-		religion = catholic
-	}	
-	##!
 
 }
 738 = {
@@ -2182,57 +877,12 @@
 
 	}
 	labourers = {
+
 		size = 95691
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 114
@@ -2281,57 +931,12 @@
 
 	}
 	labourers = {
+
 		size = 99583
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 137
@@ -2365,57 +970,12 @@
 
 	}
 	labourers = {
+
 		size = 33606
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 741 = {
@@ -2456,57 +1016,12 @@
 
 	}
 	labourers = {
+
 		size = 73869
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 183
@@ -2540,57 +1055,12 @@
 
 	}
 	labourers = {
+
 		size = 33492
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 743 = {
@@ -2610,57 +1080,12 @@
 
 	}
 	labourers = {
+
 		size = 49837
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 744 = {
@@ -2708,57 +1133,12 @@
 
 	}
 	labourers = {
+
 		size = 137264
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 389
@@ -2806,57 +1186,12 @@
 
 	}
 	labourers = {
+
 		size = 77469
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 746 = {
@@ -2897,57 +1232,12 @@
 
 	}
 	labourers = {
+
 		size = 17650
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 27
@@ -2981,57 +1271,12 @@
 
 	}
 	labourers = {
+
 		size = 77766
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 748 = {
@@ -3051,57 +1296,12 @@
 
 	}
 	labourers = {
+
 		size = 37750
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 749 = {
@@ -3149,57 +1349,12 @@
 
 	}
 	labourers = {
+
 		size = 211300
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 457
@@ -3233,57 +1388,12 @@
 
 	}
 	labourers = {
+
 		size = 36765
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 751 = {
@@ -3310,57 +1420,12 @@
 
 	}
 	labourers = {
+
 		size = 86763
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 752 = {
@@ -3380,57 +1445,12 @@
 
 	}
 	labourers = {
+
 		size = 32072
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 753 = {
@@ -3464,161 +1484,26 @@
 
 	}
 	labourers = {
+
 		size = 99445
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 3000
 		culture = albanian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 2000
 		culture = croat
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = croat
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 480
@@ -3673,57 +1558,12 @@
 
 	}
 	labourers = {
+
 		size = 185820
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 525
@@ -3757,57 +1597,12 @@
 
 	}
 	labourers = {
+
 		size = 124696
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 756 = {
@@ -3834,57 +1629,12 @@
 
 	}
 	labourers = {
+
 		size = 117027
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 757 = {
@@ -3904,57 +1654,12 @@
 
 	}
 	labourers = {
+
 		size = 117943
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 758 = {
@@ -3974,109 +1679,19 @@
 
 	}
 	labourers = {
+
 		size = 52689
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 5000
 		culture = greek
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	##!
 
 }
 759 = {
@@ -4103,109 +1718,19 @@
 
 	}
 	labourers = {
+
 		size = 106936
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 10000
 		culture = greek
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = greek
-		religion = catholic
-	}	
-	##!
 
 }
 760 = {
@@ -4239,109 +1764,19 @@
 
 	}
 	labourers = {
+
 		size = 63759
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 9200
 		culture = albanian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 390
@@ -4375,161 +1810,26 @@
 
 	}
 	labourers = {
+
 		size = 111424
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 4000
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 3000
 		culture = albanian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	##!
 
 }
 762 = {
@@ -4563,109 +1863,19 @@
 
 	}
 	labourers = {
+
 		size = 131635
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 3500
 		culture = albanian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = albanian
-		religion = catholic
-	}	
-	##!
 
 }
 763 = {
@@ -4692,109 +1902,19 @@
 
 	}
 	labourers = {
+
 		size = 65815
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 3000
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 457
@@ -4828,109 +1948,19 @@
 
 	}
 	labourers = {
+
 		size = 131940
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 4500
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 
 }
 765 = {
@@ -4964,109 +1994,19 @@
 
 	}
 	labourers = {
+
 		size = 3000
 		culture = north_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = north_italian
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 61919
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 	officers = {
 
 		size = 137
@@ -5100,109 +2040,19 @@
 
 	}
 	labourers = {
+
 		size = 2200
 		culture = catalan
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = catalan
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 32619
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }
 
@@ -5223,56 +2073,11 @@
 
 	}
 	labourers = {
+
 		size = 90060
 		culture = south_italian
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = south_italian
-		religion = catholic
-	}	
-	##!
 
 }

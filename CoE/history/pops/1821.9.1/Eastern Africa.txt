@@ -71,161 +71,26 @@
 
 	}
 	labourers = {
+
 		size = 43241
 		culture = kikuyu
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 9919
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3611
 		culture = maasai
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 1682
@@ -273,57 +138,12 @@
 
 	}
 	labourers = {
+
 		size = 11750
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2026 = {
@@ -378,161 +198,26 @@
 
 	}
 	labourers = {
+
 		size = 4576
 		culture = luo
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2671
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1088
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 742
@@ -601,213 +286,33 @@
 
 	}
 	labourers = {
+
 		size = 7272
 		culture = kikuyu
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = kikuyu
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 11601
 		culture = maasai
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7223
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2968
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2028 = {
@@ -841,161 +346,26 @@
 
 	}
 	labourers = {
+
 		size = 20136
 		culture = luo
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 18033
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 6926
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2029 = {
@@ -1043,161 +413,26 @@
 
 	}
 	labourers = {
+
 		size = 9053
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 494
 		culture = mashriqi
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mashriqi
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 9029
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 2968
@@ -1238,109 +473,19 @@
 
 	}
 	labourers = {
+
 		size = 9919
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 10810
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 1979
@@ -1381,161 +526,26 @@
 
 	}
 	labourers = {
+
 		size = 18033
 		culture = somali
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 3611
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1088
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2032 = {
@@ -1583,161 +593,26 @@
 
 	}
 	labourers = {
+
 		size = 31540
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2671
 		culture = somali
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = somali
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 4526
 		culture = oromo
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = oromo
-		religion = animist
-	}	
-	##!
 
 }
 2033 = {
@@ -1757,57 +632,12 @@
 
 	}
 	labourers = {
+
 		size = 23475
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 
@@ -1877,109 +707,19 @@
 
 	}
 	labourers = {
+
 		size = 32480
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 3611
 		culture = sukuma
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	##!
 	officers = {
 
 		size = 123
@@ -2062,109 +802,19 @@
 
 	}
 	labourers = {
+
 		size = 11478
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 2622
 		culture = sukuma
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = sunni
-	}	
-	##!
 	slaves = {
 
 		size = 5937
@@ -2205,109 +855,19 @@
 
 	}
 	labourers = {
+
 		size = 14595
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 17118
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 9895
@@ -2348,109 +908,19 @@
 
 	}
 	labourers = {
+
 		size = 10612
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 3958
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 470
@@ -2498,213 +968,33 @@
 
 	}
 	labourers = {
+
 		size = 15263
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 10810
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2968
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1979
 		culture = chewa
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	##!
 
 }
 2041 = {
@@ -2738,161 +1028,26 @@
 
 	}
 	labourers = {
+
 		size = 14966
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7198
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7916
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 
 }
 2042 = {
@@ -2954,265 +1109,40 @@
 
 	}
 	labourers = {
+
 		size = 13086
 		culture = unyamwezi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 20730
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3611
 		culture = african_minor
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 17637
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 12863
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2043 = {
@@ -3260,265 +1190,40 @@
 
 	}
 	labourers = {
+
 		size = 37230
 		culture = unyamwezi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 6258
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2671
 		culture = sukuma
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 6926
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 5937
 		culture = sukuma
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	##!
 
 }
 2044 = {
@@ -3636,317 +1341,47 @@
 
 	}
 	labourers = {
+
 		size = 8930
 		culture = luo
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = luo
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3784
 		culture = unyamwezi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 42325
 		culture = sukuma
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 890
 		culture = rundi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2671
 		culture = ruanda
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = ruanda
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 23748
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 2424
@@ -4050,265 +1485,40 @@
 
 	}
 	labourers = {
+
 		size = 20012
 		culture = unyamwezi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3487
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 12690
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2671
 		culture = sukuma
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 13853
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2046 = {
@@ -4356,213 +1566,33 @@
 
 	}
 	labourers = {
+
 		size = 31095
 		culture = unyamwezi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = unyamwezi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 22535
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3611
 		culture = rundi
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = rundi
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 11874
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2047 = {
@@ -4610,161 +1640,26 @@
 
 	}
 	labourers = {
+
 		size = 5417
 		culture = sukuma
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sukuma
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7198
 		culture = maasai
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = maasai
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 5417
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2048 = {
@@ -4819,109 +1714,19 @@
 
 	}
 	labourers = {
+
 		size = 7025
 		culture = swahili
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swahili
-		religion = sunni
-	}	
-	##!
 	labourers = {
+
 		size = 18924
 		culture = african_minor
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = sunni
-	}	
-	##!
 	slaves = {
 
 		size = 7916
@@ -4978,109 +1783,19 @@
 
 	}
 	labourers = {
+
 		size = 27953
 		culture = nguni
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 9425
 		culture = tonga
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 4947
@@ -5142,109 +1857,19 @@
 
 	}
 	labourers = {
+
 		size = 23005
 		culture = nguni
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 18874
 		culture = tonga
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 4947
@@ -5292,109 +1917,19 @@
 
 	}
 	labourers = {
+
 		size = 8880
 		culture = nguni
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 18404
 		culture = tonga
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = tonga
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 1979
@@ -5442,109 +1977,19 @@
 
 	}
 	labourers = {
+
 		size = 3611
 		culture = nguni
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = nguni
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 38961
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 22461
@@ -5627,109 +2072,19 @@
 
 	}
 	labourers = {
+
 		size = 5788
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 16524
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 7882
@@ -5833,161 +2188,26 @@
 
 	}
 	labourers = {
+
 		size = 7050
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 4799
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 6357
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 2968
@@ -6042,57 +2262,12 @@
 
 	}
 	labourers = {
+
 		size = 27409
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 9895
@@ -6147,161 +2322,26 @@
 
 	}
 	labourers = {
+
 		size = 7025
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 8831
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2681
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 2077
@@ -6377,161 +2417,26 @@
 
 	}
 	labourers = {
+
 		size = 5741
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 9993
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7767
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 2473
@@ -6565,57 +2470,12 @@
 
 	}
 	labourers = {
+
 		size = 21051
 		culture = shona
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = shona
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 9895
@@ -6670,109 +2530,19 @@
 
 	}
 	labourers = {
+
 		size = 9820
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1412
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 1979
@@ -6848,57 +2618,12 @@
 
 	}
 	labourers = {
+
 		size = 13160
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 5937
@@ -6974,109 +2699,19 @@
 
 	}
 	labourers = {
+
 		size = 4848
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 12616
 		culture = makua
 		religion = sunni
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = sunni
-	}	
-	##!
 	slaves = {
 
 		size = 8905
@@ -7119,57 +2754,12 @@
 
 	}
 	labourers = {
+
 		size = 35622
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 9895
@@ -7217,265 +2807,40 @@
 
 	}
 	labourers = {
+
 		size = 21719
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 10389
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1088
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 6926
 		culture = makua
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = makua
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 7916
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 
 }
 2065 = {
@@ -7509,109 +2874,19 @@
 
 	}
 	labourers = {
+
 		size = 18256
 		culture = sena
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sena
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 742
 		culture = african_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = african_minor
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 3463
@@ -7673,213 +2948,33 @@
 
 	}
 	labourers = {
+
 		size = 26122
 		culture = chewa
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 13531
 		culture = lomwe
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = lomwe
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 4230
 		culture = yao
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = yao
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 2968
 		culture = chewa
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	##!
 
 }
 2067 = {
@@ -7927,161 +3022,26 @@
 
 	}
 	labourers = {
+
 		size = 17118
 		culture = chewa
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 14966
 		culture = lunda
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = lunda
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 3958
 		culture = chewa
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = chewa
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 742

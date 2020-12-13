@@ -30,57 +30,12 @@
 
 	}
 	labourers = {
+
 		size = 140073
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1639 = {
@@ -100,57 +55,12 @@
 
 	}
 	labourers = {
+
 		size = 107049
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1640 = {
@@ -184,57 +94,12 @@
 
 	}
 	labourers = {
+
 		size = 313941
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 536
@@ -275,57 +140,12 @@
 
 	}
 	labourers = {
+
 		size = 116403
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1642 = {
@@ -380,109 +200,19 @@
 
 	}
 	labourers = {
+
 		size = 1630
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	labourers = {
+
 		size = 4000
 		culture = ainu
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 112
@@ -516,57 +246,12 @@
 
 	}
 	labourers = {
+
 		size = 6000
 		culture = ainu
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	##!
 
 }
 1644 = {
@@ -586,57 +271,12 @@
 
 	}
 	labourers = {
+
 		size = 8100
 		culture = ainu
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = ainu
-		religion = animist
-	}	
-	##!
 
 }
 1645 = {
@@ -677,57 +317,12 @@
 
 	}
 	labourers = {
+
 		size = 210553
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 443
@@ -768,57 +363,12 @@
 
 	}
 	labourers = {
+
 		size = 81534
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 699
@@ -859,57 +409,12 @@
 
 	}
 	labourers = {
+
 		size = 34003
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1648 = {
@@ -929,57 +434,12 @@
 
 	}
 	labourers = {
+
 		size = 74724
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1649 = {
@@ -1104,57 +564,12 @@
 
 	}
 	labourers = {
+
 		size = 192807
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 1189
@@ -1195,57 +610,12 @@
 
 	}
 	labourers = {
+
 		size = 148609
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1651 = {
@@ -1272,57 +642,12 @@
 
 	}
 	labourers = {
+
 		size = 116518
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1652 = {
@@ -1349,57 +674,12 @@
 
 	}
 	labourers = {
+
 		size = 245583
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1653 = {
@@ -1419,113 +699,23 @@
 
 	}
 	labourers = {
+
 		size = 124750
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1654 = {
 
 	labourers = {
+
 		size = 14
 		culture = micronesian
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = micronesian
-		religion = animist
-	}	
-	##!
 
 }
 1655 = {
@@ -1580,57 +770,12 @@
 
 	}
 	labourers = {
+
 		size = 261441
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1656 = {
@@ -1664,57 +809,12 @@
 
 	}
 	labourers = {
+
 		size = 225853
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	soldiers = {
 
 		size = 3428
@@ -1783,57 +883,12 @@
 
 	}
 	labourers = {
+
 		size = 367964
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 1585
@@ -1874,57 +929,12 @@
 
 	}
 	labourers = {
+
 		size = 159757
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1659 = {
@@ -1951,57 +961,12 @@
 
 	}
 	labourers = {
+
 		size = 237854
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1660 = {
@@ -2028,57 +993,12 @@
 
 	}
 	labourers = {
+
 		size = 170579
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1661 = {
@@ -2105,57 +1025,12 @@
 
 	}
 	labourers = {
+
 		size = 214844
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1662 = {
@@ -2182,57 +1057,12 @@
 
 	}
 	labourers = {
+
 		size = 140120
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 1772
@@ -2273,57 +1103,12 @@
 
 	}
 	labourers = {
+
 		size = 80695
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1664 = {
@@ -2343,57 +1128,12 @@
 
 	}
 	labourers = {
+
 		size = 162626
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1665 = {
@@ -2420,57 +1160,12 @@
 
 	}
 	labourers = {
+
 		size = 190356
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 303
@@ -2504,57 +1199,12 @@
 
 	}
 	labourers = {
+
 		size = 91540
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1667 = {
@@ -2581,57 +1231,12 @@
 
 	}
 	labourers = {
+
 		size = 147256
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1668 = {
@@ -2665,57 +1270,12 @@
 
 	}
 	labourers = {
+
 		size = 132004
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 769
@@ -2749,57 +1309,12 @@
 
 	}
 	labourers = {
+
 		size = 218110
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1670 = {
@@ -2819,57 +1334,12 @@
 
 	}
 	labourers = {
+
 		size = 67098
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1671 = {
@@ -2889,57 +1359,12 @@
 
 	}
 	labourers = {
+
 		size = 84146
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1672 = {
@@ -2959,57 +1384,12 @@
 
 	}
 	labourers = {
+
 		size = 79039
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1673 = {
@@ -3036,57 +1416,12 @@
 
 	}
 	labourers = {
+
 		size = 108658
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	soldiers = {
 
 		size = 4944
@@ -3113,57 +1448,12 @@
 
 	}
 	labourers = {
+
 		size = 40837
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1675 = {
@@ -3204,57 +1494,12 @@
 
 	}
 	labourers = {
+
 		size = 306693
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1676 = {
@@ -3288,57 +1533,12 @@
 
 	}
 	labourers = {
+
 		size = 92566
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	soldiers = {
 
 		size = 7789
@@ -3372,57 +1572,12 @@
 
 	}
 	labourers = {
+
 		size = 275086
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }
 1678 = {
@@ -3463,109 +1618,19 @@
 
 	}
 	labourers = {
+
 		size = 55908
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 	labourers = {
+
 		size = 3423
 		culture = nanfaren
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = nanfaren
-		religion = shinto
-	}	
-	##!
 	officers = {
 
 		size = 69
@@ -3606,56 +1671,11 @@
 
 	}
 	labourers = {
+
 		size = 17001
 		culture = japanese
 		religion = shinto
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	artisans = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	clergymen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	clerks = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	farmers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}
-	officers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = japanese
-		religion = shinto
-	}	
-	##!
 
 }

@@ -25,105 +25,11 @@
 		culture = inuit
 		religion = protestant
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	##!
 	labourers = {
 		size = 10
 		culture = danish
 		religion = protestant
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 }
 
 #Ammassalik
@@ -143,53 +49,6 @@
 		culture = inuit
 		religion = protestant
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = inuit
-		religion = protestant
-	}	
-	##!
 }
 
 #Scoresbysund
@@ -209,53 +68,6 @@
 		culture = inuit
 		religion = animist
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = inuit
-		religion = animist
-	}	
-	##!
 }
 
 
@@ -281,53 +93,6 @@
 		culture = icelandic
 		religion = protestant
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = icelandic
-		religion = protestant
-	}	
-	##!
 }
 
 ###Faroe###
@@ -382,57 +147,12 @@
 
 	}
 	labourers = {
+
 		size = 28615
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 306 = {
@@ -452,161 +172,26 @@
 
 	}
 	labourers = {
+
 		size = 10095
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 2431
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 507
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 307 = {
@@ -626,161 +211,26 @@
 
 	}
 	labourers = {
+
 		size = 4044
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 3531
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 1031
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 308 = {
@@ -807,57 +257,12 @@
 
 	}
 	labourers = {
+
 		size = 16322
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 45
@@ -905,57 +310,12 @@
 
 	}
 	labourers = {
+
 		size = 35895
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 91
@@ -989,57 +349,12 @@
 
 	}
 	labourers = {
+
 		size = 35552
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 311 = {
@@ -1059,57 +374,12 @@
 
 	}
 	labourers = {
+
 		size = 15635
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 312 = {
@@ -1129,57 +399,12 @@
 
 	}
 	labourers = {
+
 		size = 29417
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 313 = {
@@ -1220,57 +445,12 @@
 
 	}
 	labourers = {
+
 		size = 16734
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 91
@@ -1304,57 +484,12 @@
 
 	}
 	labourers = {
+
 		size = 18085
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 315 = {
@@ -1374,57 +509,12 @@
 
 	}
 	labourers = {
+
 		size = 21450
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 316 = {
@@ -1444,57 +534,12 @@
 
 	}
 	labourers = {
+
 		size = 15589
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 
@@ -1525,57 +570,12 @@
 
 	}
 	labourers = {
+
 		size = 20260
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 318 = {
@@ -1602,57 +602,12 @@
 
 	}
 	labourers = {
+
 		size = 17490
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 91
@@ -1686,161 +641,26 @@
 
 	}
 	labourers = {
+
 		size = 8561
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 1061
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 207
 		culture = norwegian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = norwegian
-		religion = protestant
-	}	
-	##!
 
 }
 320 = {
@@ -1860,161 +680,26 @@
 
 	}
 	labourers = {
+
 		size = 10919
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 1261
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 1007
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 321 = {
@@ -2041,161 +726,26 @@
 
 	}
 	labourers = {
+
 		size = 4026
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 3531
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 1007
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 322 = {
@@ -2243,57 +793,12 @@
 
 	}
 	labourers = {
+
 		size = 23121
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 457
@@ -2327,57 +832,12 @@
 
 	}
 	labourers = {
+
 		size = 29989
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
 		size = 2807
 		culture = finnish
@@ -2403,57 +863,12 @@
 
 	}
 	labourers = {
+
 		size = 17879
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 325 = {
@@ -2473,57 +888,12 @@
 
 	}
 	labourers = {
+
 		size = 46472
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 326 = {
@@ -2550,109 +920,19 @@
 
 	}
 	labourers = {
+
 		size = 44642
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 3007
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 327 = {
@@ -2672,57 +952,12 @@
 
 	}
 	labourers = {
+
 		size = 26532
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 328 = {
@@ -2742,109 +977,19 @@
 
 	}
 	labourers = {
+
 		size = 39650
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 2407
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 329 = {
@@ -2878,57 +1023,12 @@
 
 	}
 	labourers = {
+
 		size = 30905
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 228
@@ -2962,57 +1062,12 @@
 
 	}
 	labourers = {
+
 		size = 46472
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 331 = {
@@ -3032,57 +1087,12 @@
 
 	}
 	labourers = {
+
 		size = 8287
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 332 = {
@@ -3102,57 +1112,12 @@
 
 	}
 	labourers = {
+
 		size = 37979
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 333 = {
@@ -3172,57 +1137,12 @@
 
 	}
 	labourers = {
+
 		size = 39262
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 334 = {
@@ -3256,57 +1176,12 @@
 
 	}
 	labourers = {
+
 		size = 43148
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 23
@@ -3340,57 +1215,12 @@
 
 	}
 	labourers = {
+
 		size = 55514
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 2636 = {
@@ -3410,57 +1240,12 @@
 
 	}
 	labourers = {
+
 		size = 29150
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 
@@ -3491,57 +1276,12 @@
 
 	}
 	labourers = {
+
 		size = 13483
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 22
@@ -3575,57 +1315,12 @@
 
 	}
 	labourers = {
+
 		size = 3411
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 338 = {
@@ -3645,109 +1340,19 @@
 
 	}
 	labourers = {
+
 		size = 4581
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 3954
 		culture = sami
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = sami
-		religion = protestant
-	}	
-	##!
 
 }
 339 = {
@@ -3795,161 +1400,26 @@
 
 	}
 	labourers = {
+
 		size = 35100
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 4258
 		culture = finnish
 		religion = orthodox
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	##!
 	labourers = {
+
 		size = 4000
 		culture = ugrian
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = ugrian
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 137
@@ -3990,109 +1460,19 @@
 
 	}
 	labourers = {
+
 		size = 12797
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 847
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 341 = {
@@ -4112,57 +1492,12 @@
 
 	}
 	labourers = {
+
 		size = 24747
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 342 = {
@@ -4182,109 +1517,19 @@
 
 	}
 	labourers = {
+
 		size = 31523
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 847
 		culture = finnish
 		religion = orthodox
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = orthodox
-	}	
-	##!
 
 }
 343 = {
@@ -4339,109 +1584,19 @@
 
 	}
 	labourers = {
+
 		size = 17764
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 6707
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 45
@@ -4489,109 +1644,19 @@
 
 	}
 	labourers = {
+
 		size = 8561
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 732
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 345 = {
@@ -4632,109 +1697,19 @@
 
 	}
 	labourers = {
+
 		size = 49916
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 9363
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 7
@@ -4789,109 +1764,19 @@
 
 	}
 	labourers = {
+
 		size = 43885
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 12522
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 347 = {
@@ -4918,109 +1803,19 @@
 
 	}
 	labourers = {
+
 		size = 17077
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 549
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 
 }
 348 = {
@@ -5054,109 +1849,19 @@
 
 	}
 	labourers = {
+
 		size = 2188
 		culture = swedish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = swedish
-		religion = protestant
-	}	
-	##!
 	labourers = {
+
 		size = 115
 		culture = finnish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = finnish
-		religion = protestant
-	}	
-	##!
 
 }
 
@@ -5195,57 +1900,12 @@
 
 	}
 	labourers = {
+
 		size = 36926
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 
 }
 367 = {
@@ -5272,57 +1932,12 @@
 
 	}
 	labourers = {
+
 		size = 22892
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 183
@@ -5356,57 +1971,12 @@
 
 	}
 	labourers = {
+
 		size = 35030
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 
 }
 
@@ -5469,57 +2039,12 @@
 
 	}
 	labourers = {
+
 		size = 19247
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 457
@@ -5553,57 +2078,12 @@
 
 	}
 	labourers = {
+
 		size = 37773
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 
 }
 374 = {
@@ -5623,57 +2103,12 @@
 
 	}
 	labourers = {
+
 		size = 3204
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 
 }
 2557 = {
@@ -5693,56 +2128,11 @@
 
 	}
 	labourers = {
+
 		size = 33000
 		culture = danish
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = danish
-		religion = protestant
-	}	
-	##!
 
 }

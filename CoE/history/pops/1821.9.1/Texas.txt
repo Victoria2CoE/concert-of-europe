@@ -28,57 +28,12 @@
 
 	}
 	labourers = {
+
 		size = 900
 		culture = dixie
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	##!
 	officers = {
 
 		size = 98
@@ -94,161 +49,26 @@
 
 	}
 	labourers = {
+
 		size = 340
 		culture = native_american_minor
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 450
 		culture = mexican
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	##!
 	labourers = {
+
 		size = 200
 		culture = cherokee
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = cherokee
-		religion = animist
-	}	
-	##!
 	slaves = {
 
 		size = 100
@@ -261,109 +81,19 @@
 133 = {
 
 	labourers = {
+
 		size = 1200
 		culture = native_american_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1000
 		culture = mexican
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	##!
 	artisans = {
 
 		size = 250
@@ -379,57 +109,12 @@
 
 	}
 	labourers = {
+
 		size = 300
 		culture = dixie
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	##!
 	slaves = {
 
 		size = 650
@@ -442,57 +127,12 @@
 134 = {
 
 	labourers = {
+
 		size = 1200
 		culture = native_american_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	##!
 	artisans = {
 
 		size = 300
@@ -515,57 +155,12 @@
 
 	}
 	labourers = {
+
 		size = 500
 		culture = dixie
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	##!
 	slaves = {
 
 		size = 80
@@ -606,57 +201,12 @@
 
 	}
 	labourers = {
+
 		size = 1781
 		culture = native_american_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	##!
 	soldiers = {
 
 		size = 64
@@ -693,165 +243,30 @@
 
 	}
 	labourers = {
+
 		size = 1291
 		culture = dixie
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	##!
 
 }
 137 = {
 
 	labourers = {
+
 		size = 1200
 		culture = native_american_minor
 		religion = animist
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	artisans = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	clergymen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	clerks = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	farmers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}
-	officers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = native_american_minor
-		religion = animist
-	}	
-	##!
 	labourers = {
+
 		size = 1100
 		culture = mexican
 		religion = catholic
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	artisans = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	clergymen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	clerks = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	farmers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}
-	officers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = mexican
-		religion = catholic
-	}	
-	##!
 	artisans = {
 
 		size = 90
@@ -867,57 +282,12 @@
 
 	}
 	labourers = {
+
 		size = 800
 		culture = dixie
 		religion = protestant
+
 	}
-	###!added automatically
-	aristocrats = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	artisans = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	capitalists = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	clergymen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	clerks = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	craftsmen = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	farmers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}
-	officers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	soldiers = {
-		size = 10 #!
-		culture = dixie
-		religion = protestant
-	}	
-	##!
 	slaves = {
 
 		size = 700
