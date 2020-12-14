@@ -1651,7 +1651,27 @@ emigration_chance =
 	modifier = {
 		factor = -0.10
 		NOT = { literacy = 0.50 }
+	}	
+	modifier = {
+		factor = 0.05
+		literacy = 0.60
 	}		
+	modifier = {
+		factor = 0.05
+		literacy = 0.70
+	}	
+	modifier = {
+		factor = 0.05
+		literacy = 0.80
+	}		
+	modifier = {
+		factor = 0.05
+		literacy = 0.90
+	}		
+	modifier = {
+		factor = 0.05
+		literacy = 0.99
+	}	
 	modifier = {
 		factor = 0.20
 		type = craftsmen
@@ -1756,6 +1776,48 @@ emigration_chance =
 			factor = -0.10
 			luxury_needs = 0.6
 		}
+	}	
+	group = {
+		modifier = {
+			factor = -0.01
+			everyday_needs = 0.10
+		}
+		modifier = {
+			factor = -0.01
+			everyday_needs = 0.20
+		}
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.30
+		}
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.40
+		}
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.50
+		}
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.60
+		}
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.70
+		}		
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.80
+		}	
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.90
+		}		
+		modifier = {
+			factor = -0.01
+			luxury_needs = 0.99
+		}		
 	}	
 	group = {
 		modifier = {
