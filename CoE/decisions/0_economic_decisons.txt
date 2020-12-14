@@ -218,7 +218,7 @@ political_decisions = {
 				remove_country_modifier = demographic_collapse	
 				any_owned = {
 					limit = { is_core = FRA }
-					romve_province_modifier = demographic_collapse_prov
+					remove_province_modifier = demographic_collapse_prov
 				}
 		}
 		ai_will_do = {
