@@ -191,4 +191,34 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	end_demographic_stagnation = {                     
+		potential = {	
+			has_country_modifier = demographic_collapse
+		}
+		allow = { 
+			OR = {
+				economic_policy = planned_economy
+				AND = {
+					health_care = acceptable_health_care
+					pensions = acceptable_pensions
+					education = public
+				}
+				AND = {
+					economic_policy = laissez_faire
+					land_property = land_purchase
+					literacy = 0.60
+				}
+			}
+		}        
+		effect = {
+				remove_country_modifiers = demographic_collapse
+				add_country_modifier = {
+					name = catching_up_economically
+					duration = 9125
+				}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

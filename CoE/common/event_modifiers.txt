@@ -3158,7 +3158,7 @@ RGO_education_9 = {
     rich_income_modifier = 0.9
 	immigrant_push = 0.9
 	
-	life_rating = 0.15
+	life_rating = 0.10
 	icon = 3
 }
 
@@ -3181,7 +3181,7 @@ RGO_education_10 = {
     rich_income_modifier = 1.0
 	immigrant_push = 1.0
 	
-	life_rating = 0.10
+	#life_rating = 0.10
 	icon = 3
 }
 
@@ -3264,10 +3264,19 @@ rev_birth_place2 = {
 }
 
 demographic_collapse = {
-	global_population_growth = -0.006
+	global_population_growth = -0.015
 	culture_tech_research_bonus = 0.1
 	prestige = 0.050
-	icon = 66
+	education_efficiency_modifier = -0.50
+	icon = 18
+}
+
+catching_up_economically = {
+	global_population_growth = 0.010
+	prestige = 0.100
+	education_efficiency_modifier = 1.00
+	culture_tech_research_bonus = -0.05
+	icon = 19
 }
 
 ghost_country_haunting = { 

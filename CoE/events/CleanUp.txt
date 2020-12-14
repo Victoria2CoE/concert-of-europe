@@ -2765,3 +2765,22 @@ country_event = {
 	}
 }
 
+#country_event = {
+#	id = 99996
+#	title = "Population Total Fertility Recovers"
+#	desc = "We no more we are under the disadvantage when it comes to the growth of our population. Our economy prospers and so people think it is good to have larger families!"
+#
+#	trigger = {
+#		has_country_modifier = demographic_collapse
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 180
+#	}
+#
+#	option = {
+#		name = "poggers"
+#		
+#	}
+#}
+
