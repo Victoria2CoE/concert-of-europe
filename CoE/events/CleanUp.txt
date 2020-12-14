@@ -2513,7 +2513,7 @@ country_event = {
 				THIS = { num_of_cities = 2 }  # due to a delay between two cleanup events, it may actually annex a recently released country
 			}
 			clr_country_flag = ghost_country_host
-			any_owned = { { limit = province_id = 2128 } secede_province = THIS }
+			any_owned = { limit = { province_id = 2128 } secede_province = THIS }
 		}
 		random_country = {
 			limit = { has_country_flag = ghost_country_host }
