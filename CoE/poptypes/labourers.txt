@@ -44,237 +44,240 @@ luxury_needs = {
 country_migration_target =
 {
 	factor = 0.1
-	
+	group = {
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.1
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.2
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.3
+	}	
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.4
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.5
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.6
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.7
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.8
+	}	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.9
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { strata = poor }
+		poor_tax = 0.99
+	}	
+	}
+	group = {
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.1
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.2
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.3
+	}	
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.4
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.5
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.6
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.7
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.8
+	}	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.9
+	}
+	modifier = {
+	factor = 0.9
+		THIS = { OR = { strata = poor  strata = middle }
+		middle_tax = 0.99
+	}
+	}
+	group = {
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.1
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.2
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.3
+	}	
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.4
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.5
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.6
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.7
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.8
+	}	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.9
+	}
+	modifier = {
+	factor = 0.9
+		
+		rich_tax = 0.99
+	}
+	}
+	group = {
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.1
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.2
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.3
+	}	
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.4
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.5
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.6
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.7
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.8
+	}	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.9
+	}
+	modifier = {
+	factor = 0.9
+		
+		education_budget = 0.99
+	}	
+	}	
 	modifier = {
 	factor = 0.5
-	immigration_policy = nobody_gets_out
+		immigration_policy = nobody_gets_out
 	}
 	modifier = {
 	factor = 1
-	immigration_policy = quota_immigration
+		immigration_policy = quota_immigration
 	}
 	modifier = {
 	factor = 2
-	immigration_policy = open_immigration
+		immigration_policy = open_immigration
 	}
 	modifier = {
 	factor = 3
-	immigration_policy = naturalization
-	}
-
-	modifier = {
-		factor = 0.9
-		religious_policy = moralism
-		not = { religion = this }
+		immigration_policy = naturalization
 	}
 	modifier = {
-		factor = 1.1
-		is_greater_power = yes
+	factor = 0.75
+		immigration_policy = oppression
 	}
 	modifier = {
-		factor = 1.05
-		is_secondary_power = yes
+	factor = 1.25
+		immigration_policy = limited
 	}
 	modifier = {
-		factor = 1.2
-		religion = this
+	factor = 1.5
+		immigration_policy = protected
 	}
 	modifier = {
-		factor = 0.98
-		not = { plurality = 20 }
-	}
-	modifier = {
-		factor = 0.98
-		not = { plurality = 40 }
-	}
-	modifier = {
-		factor = 1.02
-		plurality = 60
-	}
-	modifier = {
-		factor = 1.05
-		plurality = 80
-	}
-	modifier = {
-		factor = 1.05
-		plurality = 100
-	}
-	modifier = {
-		factor = 1.02
-		prestige = 1000
-	}
-	modifier = {
-		factor = 1.02
-		prestige = 500
-	}
-	modifier = {
-		factor = 1.02
-		prestige = 100
-	}
-	modifier = {
-		factor = 1.02
-		prestige = 50
-	}
-	modifier = {
-		factor = 0.95
-		not = { prestige = 10 }
-	}
-	modifier = {
-		factor = 1.02
-		industrial_score = 1000
-	}
-	modifier = {
-		factor = 1.02
-		industrial_score = 500
-	}
-	modifier = {
-		factor = 1.02
-		industrial_score = 100
-	}
-	modifier = {
-		factor = 1.02
-		industrial_score = 50
-	}
-	modifier = {
-		factor = 0.95
-		not = { industrial_score = 10 }
-	}
-	modifier = {
-		factor = 1.02
-		num_of_cities = 20
-	}
-	modifier = {
-		factor = 1.02
-		num_of_cities = 30
-	}
-	modifier = {
-		factor = 1.02
-		num_of_cities = 50
-	}
-	modifier = {
-		factor = 1.02
-		num_of_cities = 75
-	}
-	modifier = {
-		factor = 0.98
-		not = { num_of_cities = 10 }
-	}
-	modifier = {
-		factor = 2.0
-		THIS = { religion = jewish }
-		any_owned_province = { is_core = ISR }
-	}
-	modifier = {
-		factor = 2.0
-		THIS = { religion = mormon }
-		any_owned_province = { is_core = DES }
-	}
-	modifier = {
-		factor = 1.2
-		is_culture_group = THIS
-	}
-	modifier = {
-		factor = 1.1
-		religious_policy = moralism
-		religion = this 
-	}
-	#modifier = {
-	#	factor = 0.9
-	#	religious_policy = pluralism
-	#}
-	#modifier = {
-	#	factor = 0.75
-	#	religious_policy = pro_atheism
-	#}
-
-	modifier = {
-		factor = 0.8
-		citizenship_policy = residency
-		not = { has_pop_culture = this }
-	}
-	modifier = {
-		factor = 0.8
-		citizenship_policy = forced_assimilation
-		not = { has_pop_culture = this }
-	}
-	modifier = {
-		factor = 1.2
-		citizenship_policy = residency
-		has_pop_culture = this 
-	}
-	modifier = {
-		factor = 0.8
-		citizenship_policy = limited_citizenship
-		THIS = { 
-			is_accepted_culture = no
-			is_primary_culture = no
-		}
-	}
-	modifier = {
-		factor = 1.1
-		citizenship_policy = limited_citizenship
-		THIS = { is_accepted_culture = yes }
-	}
-	modifier = {
-		factor = 1.2
-		citizenship_policy = full_citizenship
-	}
-	modifier = {
-		factor = 0.1
-		NOT = {
-			any_owned_province = {
-				life_rating = 30
-				OR = {
-					AND = {
-						has_pop_type = labourers
-						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-					}
-					AND = {
-						has_pop_type = farmers
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-					AND = {
-						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-				}
-			}
-		}
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.1
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.15
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.2
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.3
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.35
-	}
-	modifier = {
-		factor = 0.95
-		unemployment = 0.5
-	}
-	#modifier = {
-	#	factor = 1.2
-	#	OR = { government = democracy government = democracy2 government = democracy3 }
-	#}
-	modifier = {
-		factor = 1.5
+		factor = 5.0
 		OR = { 
 			continent = north_america
 			continent = south_america
