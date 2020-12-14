@@ -206,51 +206,51 @@ country_migration_target =
 	}
 	group = {
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.1
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.2
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.3
 	}	
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.4
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.5
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.6
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.7
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.8
 	}	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.9
 	}
 	modifier = {
-	factor = 0.9
+	factor = 1.2
 		
 		education_budget = 0.99
 	}	
