@@ -65,7 +65,7 @@ country_event = {
 			}				
 		}
 		
-		random_country = { limit = { exists = yes ai = yes NOT = { tag = THIS } } country_event = 6016818 }
+		#random_country = { limit = { exists = yes ai = yes NOT = { tag = THIS } } country_event = 6016818 }
 		
         any_owned = { limit = { life_rating = 1 NOT = { life_rating = 2 } } life_rating = 29 }
         any_owned = { limit = { life_rating = 2 NOT = { life_rating = 3 } } life_rating = 28 }

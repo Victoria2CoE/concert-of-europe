@@ -2465,6 +2465,7 @@ country_event = {
 	
 	trigger = {
 		limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+		NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
 	}
 
 	option = {
@@ -2521,7 +2522,14 @@ country_event = {
 			inherit = THIS
 		}
 		random_country = {
-			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+			limit = { 
+				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+				exists = no 
+				OR = { 
+					is_mobilised = yes 
+					total_amount_of_ships = 1 
+				} 
+			}
 			country_event = 6016821
 		}
 	}
