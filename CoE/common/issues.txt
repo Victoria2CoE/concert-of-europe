@@ -805,20 +805,22 @@ social_reforms = {
 			political_reform_desire = -0.025
 			pension_level = 0.50
 			min_social_spending = 0.05
+			global_pop_militancy_modifier -0.001
 			max_tax = 0.03
 		}
 		low_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.001
 			global_immigrant_attract = 0.10
 			administrative_multiplier = 2
 			#social_reform_desire = -0.1
 			political_reform_desire = -0.05
 			pension_level = 1.0
 			min_social_spending = 0.10
+			global_pop_militancy_modifier -0.002
 			max_tax = 0.06
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.003
+			global_population_growth = 0.002
 			global_immigrant_attract = 0.15
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
@@ -826,10 +828,11 @@ social_reforms = {
 			political_reform_desire = -0.075
 			pension_level = 1.5
 			min_social_spending = 0.15
+			global_pop_militancy_modifier -0.003
 			max_tax = 0.09
 		}
 		good_health_care = {
-			global_population_growth = 0.004
+			global_population_growth = 0.002
 			global_immigrant_attract = 0.20
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
@@ -837,6 +840,7 @@ social_reforms = {
 			political_reform_desire = -0.1
 			pension_level = 2
 			min_social_spending = 0.20
+			global_pop_militancy_modifier -0.004
 			max_tax = 0.12
 		}
 	}
@@ -889,7 +893,7 @@ social_reforms = {
 			pension_level = 0.20
 			min_social_spending = 0.05
 			max_tax = 0.01
-			global_population_growth = 0.001
+			#global_population_growth = 0.001
 			 allow = {
 				always = no
 			 }
