@@ -1637,11 +1637,11 @@ emigration_chance =
 {
 	factor = 0.10
 	modifier = {
-		factor = 0.10
+		factor = 0.30
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.20
+		factor = 0.10
 		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
 	}	
 	modifier = {
