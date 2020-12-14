@@ -146,6 +146,7 @@ base_values = {
 	education_efficiency_modifier = 1.00
 	land_unit_start_experience = 40
 	pension_level = 1.0
+	mobilisation_size = 0.075	
 	#pension_level = 10
 }
 
@@ -233,6 +234,7 @@ unciv_nation = {
 	global_pop_militancy_modifier = -0.10
 	education_efficiency_modifier = -0.50
 	cb_generation_speed_modifier = 1
+	mobilisation_size = -0.05	
 }
 
 
@@ -243,6 +245,7 @@ average_literacy = {
 	unit_start_experience = 25
 	tax_efficiency = 0.2
 	pension_level = 2.0
+	mobilisation_size = 0.05
 	education_efficiency_modifier = -1.00
 	#global_immigrant_attract = 1
 }
