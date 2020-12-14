@@ -1637,12 +1637,24 @@ emigration_chance =
 {
 	factor = 0.10
 	modifier = {
-		factor = 0.30
+		factor = -0.05
+		NOT = { literacy = 0.10 }
+	}	
+	modifier = {
+		factor = -0.05
+		NOT = { literacy = 0.25 }
+	}	
+	modifier = {
+		factor = -0.05
+		NOT = { literacy = 0.50 }
+	}		
+	modifier = {
+		factor = 0.20
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 0.10
-		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
+		factor = 0.05
+		type = farmers
 	}	
 	modifier = {
 		factor = -0.25
@@ -1729,15 +1741,15 @@ emigration_chance =
 			luxury_needs = 0.9 
 		}
 		modifier = {
-			factor = -0.5
+			factor = -0.10
 			luxury_needs = 0.8
 		}
 		modifier = {
-			factor = -0.5
+			factor = -0.10
 			luxury_needs = 0.7
 		}
 		modifier = {
-			factor = -0.5
+			factor = -0.10
 			luxury_needs = 0.6
 		}
 	}	
@@ -1919,23 +1931,23 @@ emigration_chance =
 		}
 	}
 	modifier = {
-		factor = 0.15
+		factor = 0.075
 		country = { religious_policy = moralism }
 		NOT = { religion = THIS }
 	}
 	modifier = {
-		factor = -0.15
+		factor = -0.075
 		country = { religious_policy = moralism }
 		religion = THIS 
 	}
 	modifier = {
-		factor = 0.1
+		factor = 0.05
 		country = { citizenship_policy = residency }
 		 is_primary_culture = no
 		 is_accepted_culture = no
 	}
 	modifier = {
-		factor = 0.15
+		factor = 0.075
 		country = { citizenship_policy = forced_assimilation }
 		 is_primary_culture = no
 		 is_accepted_culture = no
@@ -1957,7 +1969,7 @@ emigration_chance =
 	#	}
 	#}
 	modifier = {
-		factor = 0.05
+		factor = 0.025
 		country = { citizenship_policy = limited_citizenship } 
 		 is_primary_culture = no
 		 is_accepted_culture = no
@@ -2045,7 +2057,7 @@ emigration_chance =
 		}
 	}
 	modifier = {
-		factor = -0.15
+		factor = -0.10
 		strata = rich
 		is_primary_culture = no
 		is_accepted_culture = no
@@ -2199,19 +2211,19 @@ emigration_chance =
 	#	country = { land_property = land_purchase }
 	#}
 	modifier = {
-		factor = -0.25
+		factor = -0.20
 		country = { nationalvalue = nv_equality }
 	}
 	modifier = {
-		factor = -0.25
+		factor = -0.20
 		country = { nationalvalue = nv_fraternity }
     }
 	modifier = {
-		factor = -0.25
+		factor = -0.20
 		country = { nationalvalue = nv_prosperity }
 	}
 	modifier = {
-		factor = -0.25
+		factor = -0.20
 		country = { nationalvalue = nv_unity }
 	}
 	
