@@ -551,6 +551,13 @@ political_decisions = {
 				name = demographic_collapse
 				duration = -1
 			}
+			any_owned = {
+				limit = { is_core = FRA }
+				add_province_modifier = {				
+					name = demographic_collapse_prov
+					duration = -1
+				}
+			}
 		}
 	}
 	

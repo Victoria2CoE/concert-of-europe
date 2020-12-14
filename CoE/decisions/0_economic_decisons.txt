@@ -211,10 +211,14 @@ political_decisions = {
 			}
 		}        
 		effect = {
-				remove_country_modifiers = demographic_collapse
 				add_country_modifier = {
 					name = catching_up_economically
 					duration = 9125
+				}
+				remove_country_modifier = demographic_collapse	
+				any_owned = {
+					limit = { is_core = FRA }
+					romve_province_modifier = demographic_collapse_prov
 				}
 		}
 		ai_will_do = {
