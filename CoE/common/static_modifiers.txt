@@ -212,6 +212,7 @@ great_power = {
 	badboy = -0.1
 	loan_interest = -0.25
 	max_loan_modifier = 1.0
+	colonial_points = 100
 }
 
 second_power = {
@@ -222,6 +223,7 @@ second_power = {
 	badboy = -0.05
 	loan_interest = -0.10
 	max_loan_modifier = 0.5
+	colonial_points = 50
 }
 
 civ_nation = {
@@ -252,6 +254,7 @@ average_literacy = {
 	education_efficiency_modifier = -2.00
 	global_immigrant_attract = 5.0
 	max_loan_modifier = 2.0
+	global_pop_consciousness_modifier = 0.2
 	#global_immigrant_attract = 1
 }
 
