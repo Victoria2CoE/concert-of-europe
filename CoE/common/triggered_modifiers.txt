@@ -843,7 +843,7 @@ sustainable_education_1 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.00
 	icon = 19
 }
 
@@ -867,7 +867,7 @@ sustainable_education_2 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
@@ -891,7 +891,7 @@ sustainable_education_3 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
@@ -915,7 +915,7 @@ sustainable_education_4 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
@@ -939,7 +939,7 @@ sustainable_education_5 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
@@ -963,7 +963,7 @@ sustainable_education_6 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
@@ -987,7 +987,7 @@ sustainable_education_7 = { #Changed to bonus
 		    }
 		}
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 1.0
 	icon = 19
 }
 
