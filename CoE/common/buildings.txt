@@ -116,8 +116,8 @@ fort = {
 	cost = 0 # 0
 	goods_cost =
 	{
-		heavy_industry = 3000
-		military_industry = 1000
+		heavy_industry = 1000
+		military_industry = 500
 	}
 	time = 1080
 	visibility = yes
@@ -133,8 +133,8 @@ naval_base = {
 	cost = 0 # 0
 	goods_cost =
 	{
-		heavy_industry = 6000
-		military_industry = 2000
+		heavy_industry = 2000
+		military_industry = 1000
 	}
 	time = 1080
 	naval_capacity = 20
@@ -157,7 +157,7 @@ railroad = {
 	cost = 0 # 0
 	goods_cost =
 	{
-		heavy_industry = 1000
+		heavy_industry = 500
 	}
 	time = 1080
 	visibility = yes
