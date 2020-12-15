@@ -32,7 +32,7 @@ nv_independence = {
 
 nv_liberty = {
 	political_reform_desire = 0.05
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.025
 	research_points_modifier = 0.15
 	non_accepted_pop_militancy_modifier = 0.01
 	poor_everyday_needs = 0.05
@@ -43,7 +43,7 @@ nv_liberty = {
 }
 
 nv_equality = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	core_pop_militancy_modifier = -0.02
 	social_reform_desire = 0.05
 	assimilation_rate = 0.1
@@ -72,7 +72,7 @@ nv_order = {
 }
 
 nv_freedom = {
-	global_immigrant_attract = 0.4
+	global_immigrant_attract = 0.04
 	research_points_modifier = 0.15
 	culture_tech_research_bonus = 0.1
 	political_reform_desire = 0.1
@@ -87,7 +87,7 @@ nv_freedom = {
 }
 
 nv_fraternity = {
-	global_immigrant_attract = 0.1
+	global_immigrant_attract = 0.01
 	core_pop_militancy_modifier = -0.03
 	social_reform_desire = 0.1
 	assimilation_rate = 0.3
@@ -95,7 +95,7 @@ nv_fraternity = {
 }
 
 nv_unity = {
-	global_immigrant_attract = 0.1
+	global_immigrant_attract = 0.01
 	core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = -0.01
 	factory_owner_cost = -0.1
@@ -113,7 +113,7 @@ nv_supremacy = {
 	unit_start_experience = 0.5
 	supply_consumption = -0.1
 	assimilation_rate = -0.1
-	global_immigrant_attract = -0.5
+	global_immigrant_attract = -0.05
 	army_tech_research_bonus = 0.1
 	navy_tech_research_bonus = 0.05
 	social_reform_desire = -0.1
@@ -125,7 +125,7 @@ nv_prosperity = {
 	core_pop_militancy_modifier = -0.02
 	social_reform_desire = 0.2
 	assimilation_rate = 0.1
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.025
 	commerce_tech_research_bonus = 0.1
 	poor_everyday_needs = 0.2
 	middle_everyday_needs = 0.2
@@ -149,7 +149,7 @@ nv_productivity = {
 }
 
 nv_glory = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	army_tech_research_bonus = 0.1
 	navy_tech_research_bonus = 0.1
 	non_accepted_pop_militancy_modifier = 0.01

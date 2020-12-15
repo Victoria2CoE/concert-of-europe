@@ -423,7 +423,7 @@ anaconda_plan = {
 }
 
 the_homestead_act = {
-	global_immigrant_attract = 0.15	#15%
+	global_immigrant_attract = 0.015	#15%
 	global_assimilation_rate = 0.5
 	icon = 9
 }
@@ -611,7 +611,7 @@ pompeji_excavations = {
 
 ##### Boer War #####
 trek_boers = {
-	global_immigrant_attract = 2.0		#200%
+	global_immigrant_attract = 0.02		#200%
 	icon = 110
 }
 
@@ -630,7 +630,7 @@ boer_exodus = {
 }
 
 gold_rush = {
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.05
 	immigrant_attract = 10		#1000%
 	life_rating = 0.5
 	icon = 11
@@ -904,7 +904,7 @@ wallingants = {
 #### FRA - France ####
 the_french_foreign_legion = {
 	prestige = 0.02
-	global_immigrant_attract = 0.1	#1%..
+	global_immigrant_attract = 0.01	#1%..
 	icon = 95
 }
 
@@ -1144,7 +1144,7 @@ nv_independence_modifier = {
 }
 
 nv_liberty_modifier = {
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.025
 	research_points_modifier = 0.1
 	non_accepted_pop_militancy_modifier = 0.01
 	poor_everyday_needs = 0.05
@@ -1154,7 +1154,7 @@ nv_liberty_modifier = {
 }
 
 nv_equality_modifier = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	core_pop_militancy_modifier = -0.02
 	social_reform_desire = 0.05
 	assimilation_rate = 0.1
@@ -1178,7 +1178,7 @@ nv_order_modifier = {
 }
 
 nv_freedom_modifier = {
-	global_immigrant_attract = 0.4
+	global_immigrant_attract = 0.04
 	research_points_modifier = 0.1
 	culture_tech_research_bonus = 0.1
 	non_accepted_pop_militancy_modifier = 0.02
@@ -1221,7 +1221,7 @@ nv_supremacy_modifier = {
 	unit_start_experience = 0.5
 	supply_consumption = -0.1
 	assimilation_rate = -0.3
-	global_immigrant_attract = -0.5
+	global_immigrant_attract = -0.05
 	army_tech_research_bonus = 0.1
 	culture_tech_research_bonus = -0.1
 	icon = 3
@@ -1232,7 +1232,7 @@ nv_prosperity_modifier = {
 	core_pop_militancy_modifier = -0.02
 	social_reform_desire = 0.2
 	assimilation_rate = 0.1
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.025
 	commerce_tech_research_bonus = 0.1
 	poor_everyday_needs = 0.2
 	middle_everyday_needs = 0.2
@@ -1257,7 +1257,7 @@ nv_productivity_modifier = {
 }
 
 nv_glory_modifier = {
-	global_immigrant_attract = 0.1
+	global_immigrant_attract = 0.01
 	army_tech_research_bonus = 0.1
 	navy_tech_research_bonus = 0.1
 	non_accepted_pop_militancy_modifier = 0.01
@@ -1287,20 +1287,20 @@ nv_dominion_modifier = {
 
 ### Immigration ###
 the_open_door = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	mobilisation_size = -0.005
 	icon = 5
 }
 
 citizenship_tests = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	global_pop_consciousness_modifier = 0.01
 	global_pop_militancy_modifier = 0.01
 	icon = 5
 }
 
 passports = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.015
 	global_pop_consciousness_modifier = 0.01
 	global_pop_militancy_modifier = 0.01
 	icon = 5
@@ -1462,7 +1462,7 @@ usa_draft = {
 
 the_statue_of_liberty = {
 	prestige = 0.05
-	global_immigrant_attract = 0.25	#25%
+	global_immigrant_attract = 0.025	#25%
 	global_assimilation_rate = 0.5
 	icon = 15
 }
@@ -1480,7 +1480,7 @@ home_of_the_mormons = {
 
 land_of_opportunity = {
 	global_population_growth = 0.002
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.025
 	education_efficiency_modifier = 1.00
 	icon = 13
 }
@@ -2482,7 +2482,7 @@ israel_aliyah_modifier = {
 
 modern_democracy_modifier = {
 	global_assimilation_rate = 0.05
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.05
 	social_reform_desire = 0.1
 	prestige = 0.01
 	icon = 7
@@ -3212,7 +3212,7 @@ ziemia_obiecana = {
 	population_growth = 0.003
 	local_factory_output = 0.05
 	local_rgo_output = 0.1
-	global_immigrant_attract = 0.3
+	global_immigrant_attract = 0.03
 	immigrant_attract = 0.2
 	icon = 11
 }
@@ -3378,7 +3378,7 @@ collectivization_in_process = {
 }
 
 random_migration_cooldown = {
-	global_immigrant_attract = 0.05
+	global_immigrant_attract = 0.005
 	icon = 47
 }
 

@@ -187,7 +187,7 @@ badboy = {
 	war_exhaustion = 0.01
 	prestige = -0.01
 	diplomatic_points_modifier = -0.025
-	#global_immigrant_attract = -0.05
+	#global_immigrant_attract = -0.005
 	influence = -0.025
 	badboy = -0.01
 }
@@ -250,7 +250,7 @@ average_literacy = {
 	pension_level = 2.0
 	mobilisation_size = 0.05
 	education_efficiency_modifier = -10.00
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.05
 	max_loan_modifier = 2.0
 	global_pop_consciousness_modifier = 0.2
 	goods_demand = 1.0
