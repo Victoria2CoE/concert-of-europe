@@ -25,7 +25,7 @@ rebel =
 	regular = 0.2
 }
 
-everyday_needs_income = {
+luxury_needs_income = {
 	type = education
 	weight = 1.0
 }
@@ -37,10 +37,10 @@ everyday_needs = {
 	light_industry = 8
 }
 luxury_needs = {
-	luxury_industry = 3.0
-	food_industry = 2.0
-	light_industry = 4
-	heavy_industry = 0.3
+	luxury_industry = 6.0
+	food_industry = 4.0
+	light_industry = 8
+	heavy_industry = 0.6
 }
 
 #life_needs = {
@@ -58,7 +58,9 @@ luxury_needs = {
 
 country_migration_target =
 {
-	factor = 5.0
+	factor = 1.0
+	modifier = {
+		factor = 5.0
 		country = { has_country_flag = random_migration1 }
 	}	
 	modifier = {

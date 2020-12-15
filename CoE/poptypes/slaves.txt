@@ -33,7 +33,7 @@ luxury_needs = {
 	heavy_industry = 0.05
 }
 
-everyday_needs_income = {
+luxury_needs_income = {
 	type = education
 	weight = 1.0
 }

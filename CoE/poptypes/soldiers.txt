@@ -46,17 +46,19 @@ everyday_needs = {
 	military_industry = 4.0
 }
 luxury_needs = {
-	luxury_industry = 12
-	food_industry = 3.0
-	light_industry = 20.0
-	heavy_industry = 3.0
-	military_industry = 2.0
+	luxury_industry = 24
+	food_industry = 6.0
+	light_industry = 40.0
+	heavy_industry = 6.0
+	military_industry = 4.0
 }
 
 
 country_migration_target =
 {
-	factor = 5.0
+	factor = 1.0
+	modifier = {
+		factor = 5.0
 		country = { has_country_flag = random_migration1 }
 	}	
 	modifier = {
