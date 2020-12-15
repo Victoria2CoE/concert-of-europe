@@ -34,7 +34,7 @@ europe = {
 	}
 	assimilation_rate = -0.25
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 asia = {
@@ -79,7 +79,7 @@ asia = {
 	}
 	assimilation_rate = -0.5
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 east_indies = {
@@ -97,7 +97,7 @@ east_indies = {
 	}
 	assimilation_rate = -0.5
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 africa = {
@@ -127,7 +127,7 @@ africa = {
 	}
 	assimilation_rate = -0.25
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 north_america = {
@@ -150,7 +150,7 @@ north_america = {
 	}
 	assimilation_rate = 0.5
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 south_america = {
@@ -169,7 +169,7 @@ south_america = {
 	}
 	assimilation_rate = 0.5
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
 
 oceania = {
@@ -184,5 +184,5 @@ oceania = {
 	}
 	assimilation_rate = 0.5
 	farm_rgo_size = 1000.0
-	mine_rgo_size = 1000.0
+	#mine_rgo_size = 1000.0
 }
