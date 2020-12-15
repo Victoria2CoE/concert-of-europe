@@ -29,8 +29,84 @@ military_factory_building = {
 	pop_build_factory = yes
 	strategic_factory = yes
 }
+military_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 2000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = military_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+military_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 2000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = military_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
 
 heavy_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		iron = 500
+		coal = 500
+		timber = 750
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = heavy_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+heavy_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		iron = 500
+		coal = 500
+		timber = 750
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = heavy_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+heavy_factory_building3 = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -69,6 +145,42 @@ food_factory_building = {
 	pop_build_factory = yes
 	strategic_factory = yes
 }
+food_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 250
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = food_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+food_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 250
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = food_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
 
 light_factory_building = {
 	type = factory
@@ -88,8 +200,80 @@ light_factory_building = {
 	pop_build_factory = yes
 	#strategic_factory = yes
 }
+light_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = light_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+light_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = light_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
 
 luxury_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 1500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = luxury_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+luxury_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 1500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = luxury_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+luxury_factory_building3 = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2

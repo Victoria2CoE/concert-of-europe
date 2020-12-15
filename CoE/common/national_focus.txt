@@ -118,15 +118,47 @@ heavy_industry_focus = {
 		railroads = 10 #Capitalists 100% more likely to choose railroads
 		icon = 13
 	}
-	
+	heavy_industry_focus = {
+		heavy_industry = 10.0
+		icon = 14
+		limit = { 
+			civilized = yes
+		}
+	}	
 }
 
 consumer_goods_focus = {
-
+	food_industry_focus = {
+		food_industry = 10
+		icon = 24
+		limit = { 
+			civilized = yes
+		}
+	}
+	light_industry_focus = {
+		light_industry = 10.0
+		icon = 23
+		limit = { 
+			civilized = yes
+		}
+	}
+	luxury_industry_focus = {
+		luxury_industry = 10
+		icon = 27
+		limit = { 
+			civilized = yes
+		}
+	}
 }
 
 military_goods_focus = {
-
+	military_industry_focus = {
+		military_industry = 10
+		icon = 31
+		limit = { 
+			civilized = yes
+		}
+	}
 }
 
 social_development_focus = {
