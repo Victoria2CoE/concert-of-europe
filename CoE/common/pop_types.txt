@@ -1637,7 +1637,7 @@ emigration_chance =
 {
 	factor = 0.005
 	modifier = {
-		factor = 5.6
+		factor = 6.0
 		always = yes
 	}	
 	modifier = {
@@ -1650,17 +1650,17 @@ emigration_chance =
 		NOT = { literacy = 0.20 }
 	}	
 	modifier = {
-		factor = -7.5
+		factor = -5.0
 		literacy = 0.20
 		NOT = { literacy = 0.30 }
 	}	
 	modifier = {
-		factor = -5.00
+		factor = -2.50
 		literacy = 0.30
 		NOT = { literacy = 0.40 }
 	}	
 	modifier = {
-		factor = -2.50
+		factor = -1.50
 		literacy = 0.40
 		NOT = { literacy = 0.50 }
 	}	
@@ -1685,7 +1685,7 @@ emigration_chance =
 		NOT = { literacy = 0.90 }
 	}	
 	modifier = {
-		factor = -3.00
+		factor = -3.50
 		literacy = 0.90
 		NOT = { literacy = 0.99 }
 	}		

@@ -50,163 +50,161 @@ luxury_needs = {
 
 country_migration_target =
 {
-	factor = 0.10
-	modifier = {
-	factor = 2.0
+	factor = 5.0
 		country = { has_country_flag = random_migration1 }
 	}	
 	modifier = {
-	factor = 3.0
+	factor = 10.0
 		country = { has_country_flag = random_migration2 }
 	}	
 	modifier = {
-	factor = 5.0
+	factor = 15.0
 		country = { has_country_flag = random_migration3 }
 	}		
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.1
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.2
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.3
 	}	
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.4
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.5
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.6
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.7
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.8
 	}	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.9
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { strata = poor }
 		poor_tax = 0.99
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.1
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.2
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.3
 	}	
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.4
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.5
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.6
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.7
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.8
 	}	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.9
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		THIS = { OR = { strata = poor  strata = middle } }
 		middle_tax = 0.99
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.1
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.2
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.3
 	}	
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.4
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.5
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.6
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.7
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.8
 	}	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.9
 	}
 	modifier = {
-	factor = 0.9
+	factor = 0.8
 		
 		rich_tax = 0.99
 	}
