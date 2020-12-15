@@ -3377,3 +3377,8 @@ collectivization_in_process = {
 	icon = 47
 }
 
+random_migration_cooldown = {
+	global_immigrant_attract = 0.05
+	icon = 47
+}
+
