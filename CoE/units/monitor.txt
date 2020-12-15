@@ -19,12 +19,12 @@ monitor = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		military_industry = 100
+		military_industry = 80
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.50
+		military_industry = 0.40
 	}
 	
 	#Naval Abilties

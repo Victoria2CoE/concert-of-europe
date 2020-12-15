@@ -18,13 +18,13 @@ clipper_transport = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		military_industry = 10.0
+		military_industry = 8.0
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.075
-		}
+		military_industry = 0.04
+	}
 	
 
 	#Naval Abilties

@@ -20,12 +20,12 @@ dreadnought = {
 	#Building Costs
 	build_time = 2100
 	build_cost = {	
-		military_industry = 150
+		military_industry = 120
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.75
+		military_industry = 0.60
 	}
 	
 	#Naval Abilties

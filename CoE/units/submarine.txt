@@ -19,12 +19,12 @@ submarine = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		military_industry = 50
+		military_industry = 40
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.25
+		military_industry = 0.20
 	}
 	
 	#Naval Abilties

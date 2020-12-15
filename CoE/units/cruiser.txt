@@ -19,12 +19,12 @@ cruiser = {
 	#Building Costs
 	build_time = 550
 	build_cost = {	
-		military_industry = 75
+		military_industry = 60
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.375
+		military_industry = 0.30
 	}
 	
 	#Naval Abilties

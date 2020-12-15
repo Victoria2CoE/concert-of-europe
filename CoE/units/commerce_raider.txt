@@ -19,12 +19,12 @@ commerce_raider = {
 	#Building Costs
 	build_time = 365
 	build_cost = {
-		military_industry = 25
+		military_industry = 50
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.125
+		military_industry = 0.10
 	}
 	
 	#Naval Abilties
