@@ -47,7 +47,7 @@ populationsize_50k = {
 	global_population_growth = 0.003
 	mobilisation_size = 0.06
 	tax_efficiency = 0.04
-	global_immigrant_attract = 0.25
+	global_immigrant_attract = 0.50
 	icon = 11
 }
 
@@ -63,7 +63,7 @@ populationsize_100k = {
 	mobilisation_size = 0.03
 	tax_efficiency = 0.03
 	leadership_modifier = 0.1
-	global_immigrant_attract = 0.50
+	global_immigrant_attract = 1.00
 	icon = 5
 }
 
@@ -79,7 +79,7 @@ populationsize_250k = {
 	mobilisation_size = 0.01
 	tax_efficiency = 0.02
 	leadership_modifier = 0.2
-	global_immigrant_attract = 0.75
+	global_immigrant_attract = 1.5
 	icon = 5
 }
 
@@ -95,7 +95,7 @@ populationsize_500k = {
 	mobilisation_size = 0.01
 	tax_efficiency = 0.01
 	leadership_modifier = 0.3
-	global_immigrant_attract = 1.0
+	global_immigrant_attract = 2.0
 	icon = 5
 }
 
@@ -111,7 +111,7 @@ populationsize_1M = {
 	global_population_growth = 0.001
 	mobilisation_size = 0.005
 	leadership_modifier = 0.4
-	global_immigrant_attract = 1.25
+	global_immigrant_attract = 3.0
 	icon = 5
 }
 
@@ -126,7 +126,7 @@ populationsize_2_5M = {
 	global_population_growth = 0.001
 	tax_efficiency = -0.01
 	leadership_modifier = 0.5
-	global_immigrant_attract = 1.5
+	global_immigrant_attract = 3.5
 	icon = 5
 }
 
@@ -140,7 +140,7 @@ populationsize_5M = {
 	research_points = 0.20
 	tax_efficiency = -0.02
 	leadership_modifier = 0.6
-	global_immigrant_attract = 1.75
+	global_immigrant_attract = 4.0
 	icon = 5
 }
 
@@ -154,7 +154,7 @@ populationsize_10M = {
 	research_points = 0.40
 	tax_efficiency = -0.03
 	leadership_modifier = 0.7
-	global_immigrant_attract = 2.0
+	global_immigrant_attract = 4.5
 	icon = 5
 }
 
@@ -168,7 +168,7 @@ populationsize_25M = {
 	research_points = 0.60
 	tax_efficiency = -0.04
 	leadership_modifier = 0.8
-	global_immigrant_attract = 2.25
+	global_immigrant_attract = 5.0
 	icon = 5
 }
 
@@ -182,7 +182,7 @@ populationsize_50M = {
 	research_points = 0.80
 	tax_efficiency = -0.05
 	leadership_modifier = 0.9
-	global_immigrant_attract = 2.5
+	global_immigrant_attract = 5.0
 	icon = 5
 }
 
@@ -196,7 +196,7 @@ populationsize_100M = {
 	research_points = 1.20
 	tax_efficiency = -0.06
 	leadership_modifier = 1.0
-	global_immigrant_attract = 2.75
+	global_immigrant_attract = 6.0
 	icon = 5
 }
 
@@ -210,7 +210,7 @@ populationsize_200M = {
 	research_points = 1.60
 	tax_efficiency = -0.08
 	leadership_modifier = 1.1
-	global_immigrant_attract = 3.0
+	global_immigrant_attract = 6.5
 	icon = 5
 }
 
@@ -221,7 +221,7 @@ populationsize_300M = {
 	research_points = 2
 	tax_efficiency = -0.1
 	leadership_modifier = 1.2
-	global_immigrant_attract = 3.25
+	global_immigrant_attract = 7.5
 	icon = 5
 }
 

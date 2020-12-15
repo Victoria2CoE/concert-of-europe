@@ -2258,7 +2258,7 @@ emigration_chance =
 	#	}
 	#}
 	modifier = {
-		factor = -25
+		factor = -100
 		OR = { 
 			continent = north_america
 			continent = south_america
