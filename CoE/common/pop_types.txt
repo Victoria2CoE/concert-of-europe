@@ -2122,16 +2122,18 @@ emigration_chance =
 		religion = THIS 
 	}
 	modifier = {
-		factor = 0.50
+		factor = 1.0
 		country = { citizenship_policy = residency }
-		 is_primary_culture = no
-		 is_accepted_culture = no
+		is_primary_culture = no
+		is_accepted_culture = no
+		literacy = 0.25
 	}
 	modifier = {
-		factor = 0.50
+		factor = 1.25
 		country = { citizenship_policy = forced_assimilation }
-		 is_primary_culture = no
-		 is_accepted_culture = no
+		is_primary_culture = no
+		is_accepted_culture = no
+		literacy = 0.25
 	}
 	#modifier = {
 	#	factor = -0.2
@@ -2150,10 +2152,11 @@ emigration_chance =
 	#	}
 	#}
 	modifier = {
-		factor = 0.25
+		factor = 0.50
 		country = { citizenship_policy = limited_citizenship } 
-		 is_primary_culture = no
-		 is_accepted_culture = no
+		is_primary_culture = no
+		is_accepted_culture = no
+		literacy = 0.25
 	}
 	#modifier = {
 	#	factor = -0.1
