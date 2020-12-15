@@ -2700,6 +2700,45 @@ country_event = {
 }
 
 country_event = {
+	id = 99992
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		#set_country_flag = random_migration1
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}		
+		random_country = { 
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			#set_country_flag = random_migration1
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
+		}
+	}
+}
+
+country_event = {
 	id = 99996
 	title = "Random Migration"
 	desc = "You shouldn't see it..."
@@ -2710,7 +2749,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 8
+		months = 4
 	}
 
 	option = {
@@ -2749,7 +2788,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 8
+		months = 4
 	}
 
 	option = {
@@ -2795,7 +2834,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 8
+		months = 4
 	}
 
 	option = {
