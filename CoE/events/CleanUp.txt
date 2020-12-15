@@ -2700,6 +2700,99 @@ country_event = {
 }
 
 country_event = {
+	id = 99996
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		random_country = { 
+			limit = { ai = no }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+		}
+	}
+}
+
+country_event = {
+	id = 99995
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		has_country_modifier = ai_economic_flavour_cooldown
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		set_country_flag = random_migration2
+		random_country = { 
+			limit = { ai = no }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+			set_country_flag = random_migration2
+		}	
+	}
+}
+
+country_event = {
+	id = 99994
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		has_country_modifier = ai_economic_flavour_cooldown
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		set_country_flag = random_migration2
+		set_country_flag = random_migration3
+		random_country = { 
+			limit = { ai = no }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+			set_country_flag = random_migration2
+			set_country_flag = random_migration3
+		}	
+	}
+}
+
+country_event = {
 	id = 99997
 	title = "POPs Maintenance"
 	desc = "POPs Maintenance"
@@ -2725,24 +2818,24 @@ country_event = {
 			clr_country_flag = random_migration2
 			clr_country_flag = random_migration3
 		}
-		THIS = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration1
-			}
-		}
-		THIS = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration2
-			}
-		}	
-		THIS = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration3
-			}
-		}		
+		#THIS = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration1
+		#	}
+		#}
+		#THIS = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration2
+		#	}
+		#}	
+		#THIS = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration3
+		#	}
+		#}		
 		any_country = {
 			random = {
 				chance = 50
