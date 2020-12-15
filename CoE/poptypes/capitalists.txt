@@ -1424,7 +1424,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1.2
+		factor = 1.0
 		modifier = {
 			factor = 1.1
 			country = { 
