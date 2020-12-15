@@ -54,7 +54,7 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 7.0 #2.3$
+		coal = 8.0 #2.3$
 		horses = 0.1 #0.08$
  		timber = 1 #0.36$
         sulphur = 0.25 #0.175$
@@ -276,7 +276,7 @@ heavy_factory = {
 	template = heavy_factory_template #98
 	input_goods = {
 		iron = 1
-		coal = 2
+		coal = 1
 	}
 	output_goods = heavy_industry
 	value = 1.8 #1.6
