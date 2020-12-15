@@ -1637,7 +1637,7 @@ emigration_chance =
 {
 	factor = 0.02
 	modifier = {
-		factor = 5.1
+		factor = 5.6
 		always = yes
 	}	
 	modifier = {
@@ -1705,10 +1705,10 @@ emigration_chance =
 		factor = -2.5
 		type = aristocrats
 	}	
-	modifier = { 
-		factor = 0.5
-		always = yes 
-	}
+	#modifier = { 
+	#	factor = 0.5
+	#	always = yes 
+	#}
 	modifier = { 
 		factor = -1.00
 		OR = { AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } } type = labourers type = aristocrats } 
@@ -1792,7 +1792,7 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = -250
+			factor = -50
 			luxury_needs = 0.9 
 		}
 		modifier = {
@@ -1819,35 +1819,35 @@ emigration_chance =
 		}
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.30
+			everyday_needs = 0.30
 		}
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.40
+			everyday_needs = 0.40
 		}
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.50
+			everyday_needs = 0.50
 		}
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.60
+			everyday_needs = 0.60
 		}
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.70
+			everyday_needs = 0.70
 		}		
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.80
+			everyday_needs = 0.80
 		}	
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.90
+			everyday_needs = 0.90
 		}		
 		modifier = {
 			factor = -0.10
-			eveyday_needs = 0.99
+			everyday_needs = 0.99
 		}		
 	}	
 	group = {
@@ -2258,7 +2258,7 @@ emigration_chance =
 	#	}
 	#}
 	modifier = {
-		factor = -100
+		factor = -50
 		OR = { 
 			continent = north_america
 			continent = south_america
