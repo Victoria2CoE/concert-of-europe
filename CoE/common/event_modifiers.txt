@@ -2956,8 +2956,8 @@ RGO_education_0 = {
 }
 
 RGO_education_1 = {
-	local_RGO_output = 0.1
-	local_factory_output = 0.01
+	local_RGO_output = 0.2
+	local_factory_output = 0.02
 	
 	#poor_life_needs = -0.45
 	#middle_life_needs = -0.45
@@ -2979,8 +2979,8 @@ RGO_education_1 = {
 }
 
 RGO_education_2 = {
-	local_RGO_output = 0.2
-	local_factory_output = 0.02
+	local_RGO_output = 0.40
+	local_factory_output = 0.04
 	
 	#poor_life_needs = -0.4
 	#middle_life_needs = -0.4
@@ -3002,8 +3002,8 @@ RGO_education_2 = {
 }
 
 RGO_education_3 = {
-	local_RGO_output = 0.3
-	local_factory_output = 0.03
+	local_RGO_output = 0.6
+	local_factory_output = 0.06
 	
 	#poor_life_needs = -0.35
 	#middle_life_needs = -0.35
@@ -3025,8 +3025,8 @@ RGO_education_3 = {
 }
 
 RGO_education_4 = {
-	local_RGO_output = 0.4
-	local_factory_output = 0.04
+	local_RGO_output = 0.8
+	local_factory_output = 0.08
 	
 	#poor_life_needs = -0.30
 	#middle_life_needs = -0.30
@@ -3048,8 +3048,8 @@ RGO_education_4 = {
 }
 
 RGO_education_5 = {
-	local_RGO_output = 0.5
-	local_factory_output = 0.05
+	local_RGO_output = 1.0
+	local_factory_output = 0.10
 	
 	#poor_life_needs = -0.25
 	#middle_life_needs = -0.25
@@ -3071,8 +3071,8 @@ RGO_education_5 = {
 }
 
 RGO_education_6 = {
-	local_RGO_output = 0.6
-	local_factory_output = 0.06
+	local_RGO_output = 1.2
+	local_factory_output = 0.12
 	
 	#poor_life_needs = -0.20
 	#middle_life_needs = -0.20
@@ -3094,8 +3094,8 @@ RGO_education_6 = {
 }
 
 RGO_education_7 = {
-	local_RGO_output = 0.7
-	local_factory_output = 0.07
+	local_RGO_output = 1.4
+	local_factory_output = 0.14
 	
 	#poor_life_needs = -0.15
 	#middle_life_needs = -0.15
@@ -3117,8 +3117,8 @@ RGO_education_7 = {
 }
 
 RGO_education_8 = {
-	local_RGO_output = 0.8
-	local_factory_output = 0.08
+	local_RGO_output = 1.6
+	local_factory_output = 0.16
 	
 	#poor_life_needs = -0.10
 	#middle_life_needs = -0.10
@@ -3140,8 +3140,8 @@ RGO_education_8 = {
 }
 
 RGO_education_9 = {
-	local_RGO_output = 0.9
-	local_factory_output = 0.09
+	local_RGO_output = 1.8
+	local_factory_output = 0.18
 	
 	#poor_life_needs = -0.05
 	#middle_life_needs = -0.05
@@ -3163,8 +3163,8 @@ RGO_education_9 = {
 }
 
 RGO_education_10 = {
-	local_RGO_output = 1
-	local_factory_output = 0.10
+	local_RGO_output = 2
+	local_factory_output = 0.20
 	
 	#poor_life_needs = -0.0
 	#middle_life_needs = -0.0
