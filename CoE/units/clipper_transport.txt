@@ -21,9 +21,9 @@ clipper_transport = {
 		military_industry = 8.0
 	}
 	
-	supply_consumption = 1.0
+	supply_consumption = 2.0
 	supply_cost = {
-		military_industry = 0.04
+		military_industry = 0.02
 	}
 	
 
