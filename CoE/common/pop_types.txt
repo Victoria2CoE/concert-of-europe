@@ -1635,7 +1635,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.0150
+	factor = 0.0160
 	modifier = {
 		factor = 7.0
 		always = yes

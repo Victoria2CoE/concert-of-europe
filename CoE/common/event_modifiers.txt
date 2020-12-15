@@ -3305,7 +3305,7 @@ demographic_collapse = {
 }
 
 demographic_collapse_prov = {
-	population_growth = -0.001
+	population_growth = -0.002
 	life_rating = -1.0
 	icon = 18
 }
