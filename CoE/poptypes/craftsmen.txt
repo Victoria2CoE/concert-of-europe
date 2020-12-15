@@ -41,10 +41,10 @@ everyday_needs = {
 	light_industry = 20
 }
 luxury_needs = {
-	luxury_industry = 12
-	food_industry = 12.0
-	light_industry = 20.0
-	heavy_industry = 3.0
+	luxury_industry = 6
+	food_industry = 6.0
+	light_industry = 10.0
+	heavy_industry = 1.5
 }
 
 

@@ -35,10 +35,10 @@ everyday_needs = {
 	light_industry = 15.0
 }
 luxury_needs = {
-	luxury_industry = 8
-	food_industry = 4.0
-	light_industry = 12.0
-	heavy_industry = 2.0
+	luxury_industry = 4
+	food_industry = 2.0
+	light_industry = 6.0
+	heavy_industry = 1.0
 }
 
 country_migration_target =
