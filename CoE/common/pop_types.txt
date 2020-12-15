@@ -1635,7 +1635,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.025
+	factor = 0.015
 	modifier = {
 		factor = 5.6
 		always = yes
@@ -1715,69 +1715,69 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.1
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.2
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.3
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.5
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 1.0
+			factor = 0.1
 			NOT = { life_needs = 0.99 }
 			NOT = { everyday_needs = 0.10 }
 			NOT = { luxury_needs = 0.10 }
@@ -1792,7 +1792,7 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = -50
+			factor = -1.00
 			luxury_needs = 0.9 
 		}
 		modifier = {

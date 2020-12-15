@@ -26,22 +26,22 @@ rebel =
 	regular = 0.2
 }
 
-life_needs_income = {
+everyday_needs_income = {
 	type = education
 	weight = 1.0
 }
 
 life_needs = {
-	food_industry = 3
+	food_industry = 1.5
 }
 everyday_needs = {
-	light_industry = 4
+	light_industry = 8
 }
 luxury_needs = {
-	luxury_industry = 1.5
-	food_industry = 1.0
-	light_industry = 2
-	heavy_industry = 0.15
+	luxury_industry = 3.0
+	food_industry = 2.0
+	light_industry = 4
+	heavy_industry = 0.3
 }
 
 country_migration_target =
@@ -207,51 +207,51 @@ country_migration_target =
 		rich_tax = 0.99
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.1
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.2
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.3
 	}	
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.4
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.5
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.6
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.7
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.8
 	}	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.9
 	}
 	modifier = {
-	factor = 1.2
+	factor = 1.5
 		
 		education_spending = 0.99
 	}	
