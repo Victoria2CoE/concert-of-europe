@@ -148,7 +148,8 @@ base_values = {
 	pension_level = 1.0
 	mobilisation_size = 0.075	
 	global_population_growth = 0.010
-	global_immigrant_attract = 5.0
+	#global_immigrant_attract = 5.0
+	loan_interest = 1.0
 	#pension_level = 10
 }
 
@@ -249,7 +250,7 @@ average_literacy = {
 	pension_level = 2.0
 	mobilisation_size = 0.05
 	education_efficiency_modifier = -2.00
-	global_immigrant_attract = 2.5
+	global_immigrant_attract = 5.0
 	#global_immigrant_attract = 1
 }
 
