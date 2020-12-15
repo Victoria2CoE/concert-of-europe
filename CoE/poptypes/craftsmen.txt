@@ -609,6 +609,10 @@ promote_to = {
 			NOT = { limit = { has_pop_type = labourers } labourers = 0.10 }
 		}
 		modifier = {
+			factor = 300
+			craftsmen = 0.501
+		}
+		modifier = {
 			factor = 100
 			literacy = 0.01
 			NOT = { literacy = 0.02 }
@@ -1500,6 +1504,10 @@ promote_to = {
 			factor = 150
 			literacy = 0.99
 			NOT = { clerks = 0.20 }
+		}
+		modifier = {
+			factor = -500
+			clerks = 0.201
 		}
 		modifier = {
 			factor = -100

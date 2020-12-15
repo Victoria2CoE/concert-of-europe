@@ -1136,7 +1136,11 @@ promote_to = {
 			factor = 125
 			literacy = 0.50
 			#NOT = { literacy = 0.51 }
-			NOT = { craftsmen = 0.501 }
+			NOT = { craftsmen = 0.500 }
+		}
+		modifier = {
+			factor = -500
+			craftsmen = 0.501
 		}
 		#
 		#modifier = {
