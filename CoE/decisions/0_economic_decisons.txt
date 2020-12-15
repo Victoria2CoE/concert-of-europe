@@ -67,7 +67,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = 15
+			add_tax_relative_income = 30
 			any_pop = { limit = { type = capitalists } money = 500 }
 			
 			any_pop = {
@@ -168,7 +168,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = 15.0
+			add_tax_relative_income = 40.0
 			any_pop = { limit = { type = capitalists } money = 500 }
 			
 			any_pop = {

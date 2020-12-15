@@ -17,6 +17,8 @@ country_event = {
 	}
 	option = {
 		name = "OK"
+		add_tax_relative_income = 100
+		any_country = { add_tax_relative_income = 100 }
 
 		any_pop = { 
 			limit = { 
