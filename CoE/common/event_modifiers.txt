@@ -3405,7 +3405,7 @@ land_reform_in_process = {
 collectivization_in_process = {
 	farm_RGO_eff = -0.30
 	global_population_growth = -0.003
-	education_efficiency_modifier = 5.00
+	education_efficiency_modifier = 10.00
 	pension_level = 5.0
 	icon = 47
 }
