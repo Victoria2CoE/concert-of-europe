@@ -28,7 +28,7 @@ party_issues = {
 			poor_luxury_needs = 0.05
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
-			max_tariff = 0.25
+			max_tariff = 0.50
 			min_tariff = -1
 		}
 	}
