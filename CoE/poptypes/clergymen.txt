@@ -54,6 +54,18 @@ country_migration_target =
 {
 	factor = 0.10
 	modifier = {
+	factor = 2.0
+		country = { has_country_flag = random_migration1 }
+	}	
+	modifier = {
+	factor = 3.0
+		country = { has_country_flag = random_migration2 }
+	}	
+	modifier = {
+	factor = 5.0
+		country = { has_country_flag = random_migration3 }
+	}		
+	modifier = {
 	factor = 0.9
 		THIS = { strata = poor }
 		poor_tax = 0.1
@@ -279,7 +291,7 @@ country_migration_target =
 		minorities_reform = protected
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.10
 		NOT = { OR = { 
 			continent = north_america
 			continent = south_america
