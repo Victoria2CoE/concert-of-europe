@@ -65,7 +65,7 @@ country_migration_target =
 		always = yes
 	}	
 	modifier = {
-		factor = 1.5
+		factor = 2.0
 		has_country_flag = random_migration1
 	}	
 	modifier = {
@@ -73,7 +73,7 @@ country_migration_target =
 		has_country_flag = random_migration2
 	}	
 	modifier = {
-	factor = 3.0
+	factor = 2.0
 		has_country_flag = random_migration3
 	}	
 	modifier = {
