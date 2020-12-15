@@ -1698,11 +1698,11 @@ emigration_chance =
 		literacy = 0.99
 	}		
 	modifier = {
-		factor = 2.0
+		factor = 2.5
 		type = craftsmen
 	}	
 	modifier = {
-		factor = 2.5
+		factor = 3.0
 		type = farmers
 	}	
 	modifier = {
@@ -2112,23 +2112,23 @@ emigration_chance =
 		}
 	}
 	modifier = {
-		factor = 0.75
+		factor = 0.05
 		country = { religious_policy = moralism }
 		NOT = { religion = THIS }
 	}
 	modifier = {
-		factor = -0.75
+		factor = -0.05
 		country = { religious_policy = moralism }
 		religion = THIS 
 	}
 	modifier = {
-		factor = 0.5
+		factor = 0.05
 		country = { citizenship_policy = residency }
 		 is_primary_culture = no
 		 is_accepted_culture = no
 	}
 	modifier = {
-		factor = 0.75
+		factor = 0.05
 		country = { citizenship_policy = forced_assimilation }
 		 is_primary_culture = no
 		 is_accepted_culture = no
@@ -2150,7 +2150,7 @@ emigration_chance =
 	#	}
 	#}
 	modifier = {
-		factor = 0.25
+		factor = 0.025
 		country = { citizenship_policy = limited_citizenship } 
 		 is_primary_culture = no
 		 is_accepted_culture = no
