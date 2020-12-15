@@ -2706,6 +2706,7 @@ country_event = {
 
 	trigger = {
 		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
 	}
 	
 	mean_time_to_happen = {
@@ -2718,12 +2719,21 @@ country_event = {
 		clr_country_flag = random_migration2
 		clr_country_flag = random_migration3
 		set_country_flag = random_migration1
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}		
 		random_country = { 
-			limit = { ai = no }
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
 			clr_country_flag = random_migration1
 			clr_country_flag = random_migration2
 			clr_country_flag = random_migration3
 			set_country_flag = random_migration1
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
 		}
 	}
 }
@@ -2734,7 +2744,8 @@ country_event = {
 	desc = "You shouldn't see it..."
 
 	trigger = {
-		has_country_modifier = ai_economic_flavour_cooldown
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
 	}
 	
 	mean_time_to_happen = {
@@ -2748,13 +2759,27 @@ country_event = {
 		clr_country_flag = random_migration3
 		set_country_flag = random_migration1
 		set_country_flag = random_migration2
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}			
 		random_country = { 
-			limit = { ai = no }
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
 			clr_country_flag = random_migration1
 			clr_country_flag = random_migration2
 			clr_country_flag = random_migration3
 			set_country_flag = random_migration1
 			set_country_flag = random_migration2
+			
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
 		}	
 	}
 }
@@ -2765,7 +2790,8 @@ country_event = {
 	desc = "You shouldn't see it..."
 
 	trigger = {
-		has_country_modifier = ai_economic_flavour_cooldown
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
 	}
 	
 	mean_time_to_happen = {
@@ -2780,6 +2806,11 @@ country_event = {
 		set_country_flag = random_migration1
 		set_country_flag = random_migration2
 		set_country_flag = random_migration3
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}			
 		random_country = { 
 			limit = { ai = no }
 			clr_country_flag = random_migration1
@@ -2788,6 +2819,10 @@ country_event = {
 			set_country_flag = random_migration1
 			set_country_flag = random_migration2
 			set_country_flag = random_migration3
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
 		}	
 	}
 }
@@ -2918,22 +2953,22 @@ country_event = {
 	}
 }
 
-#country_event = {
-#	id = 99996
-#	title = "Population Total Fertility Recovers"
-#	desc = "We no more we are under the disadvantage when it comes to the growth of our population. Our economy prospers and so people think it is good to have larger families!"
-#
-#	trigger = {
-#		has_country_modifier = demographic_collapse
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 180
-#	}
-#
-#	option = {
-#		name = "poggers"
-#		
-#	}
-#}
+country_event = {
+	id = 99993
+	title = "Test!"
+	desc = "Test!"
+
+	trigger = {
+		has_country_modifier = demographic_collapse
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	option = {
+		name = "Poggers"
+		any_pop = { limit = { cultrue = mexican } literacy = 0.1 }
+	}
+}
 
