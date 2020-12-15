@@ -9,7 +9,7 @@ military_goods = {
 
 industrial_goods = {
 	heavy_industry = { 
-		cost = 10.0
+		cost = 1.0
 		color = { 255 255 255 }
 	}
 }

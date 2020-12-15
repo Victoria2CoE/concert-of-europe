@@ -279,7 +279,7 @@ heavy_factory = {
 		coal = 1
 	}
 	output_goods = heavy_industry
-	value = 1.8 #1.6
+	value = 18 #1.6
 }
 
 military_factory = {
