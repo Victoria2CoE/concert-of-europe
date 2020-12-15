@@ -1637,11 +1637,11 @@ emigration_chance =
 {
 	factor = 0.0150
 	modifier = {
-		factor = 6.0
+		factor = 7.5
 		always = yes
 	}	
 	modifier = {
-		factor = -2.0
+		factor = -3.5
 		NOT = { year = 1825 }
 	}	
 	modifier = {
