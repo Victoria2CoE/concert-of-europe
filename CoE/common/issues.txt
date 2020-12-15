@@ -495,16 +495,25 @@ political_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			political_reform_desire = 0.10
 			social_reform_desire = 0.05
+			education_efficiency_modifier = -1.00
+			goods_demand = -0.10
+			artisan_throughput = -0.10
+			tariff_efficiency_modifier = 0.10
+			rgo_throughput = -0.10
+			pension_level = -0.05
+			supply_consumption = -0.10
 		}
 		quota_immigration = {
 		}
 		open_immigration = {
 			global_immigrant_attract = 0.025
+			education_efficiency_modifier = 0.10
 			global_pop_militancy_modifier = 0.01
 			non_accepted_pop_militancy_modifier = -0.01
 		}
 		naturalization = {
 			global_immigrant_attract = 0.050
+			education_efficiency_modifier = 0.20
 			global_pop_militancy_modifier = 0.02
 			non_accepted_pop_militancy_modifier = -0.02
 		}
