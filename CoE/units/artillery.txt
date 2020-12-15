@@ -28,7 +28,7 @@ artillery = {
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 0.05
 	attack = 1
 	defence = 3
 	discipline = 1

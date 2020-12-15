@@ -27,7 +27,7 @@ tank = {
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 0.2
 	attack = 16
 	defence = 6
 	discipline = 1

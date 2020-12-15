@@ -26,7 +26,7 @@ horse_artillery = {
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 0.1
 	attack = 0.5
 	defence = 2.5
 	discipline = 1
