@@ -11,7 +11,7 @@ commerce_raider = {
 	
 	#Core Abilities
 	priority = 15
-	max_strength = 100
+	max_strength = 500
 	default_organisation = 5
 	maximum_speed = 7
 	weighted_value = 5.0

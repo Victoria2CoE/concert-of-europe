@@ -9,7 +9,7 @@ plane = {
 	floating_flag = no	
 	#Core Abilities
 	priority = 45
-	max_strength = 1
+	max_strength = 5
 	default_organisation = 10
 	maximum_speed = 5.00
 	weighted_value = 10.0

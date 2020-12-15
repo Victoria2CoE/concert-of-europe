@@ -8,7 +8,7 @@ horse_artillery = {
 	floating_flag = no
 	#Core Abilities
 	priority = 20
-	max_strength = 1
+	max_strength = 5
 	default_organisation = 5
 	maximum_speed = 6
 	weighted_value = 7.0

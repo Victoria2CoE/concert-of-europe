@@ -10,7 +10,7 @@ manowar = {
 
 	#Core Abilities
 	priority = 25
-	max_strength = 100
+	max_strength = 500
 	default_organisation = 5
 	maximum_speed = 4
 	weighted_value = 3.0
