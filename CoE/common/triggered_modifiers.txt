@@ -108,14 +108,13 @@ populationsize_1M = {
 		total_pops = 250000
 		NOT = {
 			total_pops = 625000
-
 		}
 	}
 	research_points = -0.00
 	global_population_growth = 0.001
 	mobilisation_size = 0.005
 	leadership_modifier = 0.4
-	global_immigrant_attract = 3.0
+	global_immigrant_attract = 2.5
 	tax_efficiency = 0.35
 	education_efficiency_modifier = 0.40	
 	icon = 5
@@ -131,7 +130,7 @@ populationsize_2_5M = {
 	research_points = 0.10
 	global_population_growth = 0.001
 	leadership_modifier = 0.5
-	global_immigrant_attract = 3.5
+	global_immigrant_attract = 3.0
 	tax_efficiency = 0.325
 	education_efficiency_modifier = 0.35
 	icon = 5
@@ -146,7 +145,7 @@ populationsize_5M = {
 	}
 	research_points = 0.20
 	leadership_modifier = 0.6
-	global_immigrant_attract = 4.0
+	global_immigrant_attract = 3.5
 	tax_efficiency = 0.30
 	education_efficiency_modifier = 0.30	
 	icon = 5
@@ -161,7 +160,7 @@ populationsize_10M = {
 	}
 	research_points = 0.40
 	leadership_modifier = 0.7
-	global_immigrant_attract = 4.5
+	global_immigrant_attract = 4.0
 	tax_efficiency = 0.25
 	education_efficiency_modifier = 0.25
 	icon = 5
@@ -176,7 +175,7 @@ populationsize_25M = {
 	}
 	research_points = 0.60
 	leadership_modifier = 0.8
-	global_immigrant_attract = 5.0
+	global_immigrant_attract = 4.5
 	tax_efficiency = 0.20
 	education_efficiency_modifier = 0.20	
 	icon = 5
@@ -206,7 +205,7 @@ populationsize_100M = {
 	}
 	research_points = 1.20
 	leadership_modifier = 1.0
-	global_immigrant_attract = 6.0
+	global_immigrant_attract = 5.5
 	tax_efficiency = 0.10
 	education_efficiency_modifier = 0.10	
 	icon = 5
@@ -221,7 +220,7 @@ populationsize_200M = {
 	}
 	research_points = 1.60
 	leadership_modifier = 1.1
-	global_immigrant_attract = 6.5
+	global_immigrant_attract = 6.0
 	tax_efficiency = 0.05
 	education_efficiency_modifier = 0.05	
 	icon = 5
@@ -233,7 +232,7 @@ populationsize_300M = {
 	}
 	research_points = 2
 	leadership_modifier = 1.2
-	global_immigrant_attract = 7.5
+	global_immigrant_attract = 7.0
 	#tax_efficiency = 0.00
 	#education_efficiency_modifier = 0.60	
 	icon = 5
