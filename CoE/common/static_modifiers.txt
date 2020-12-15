@@ -253,6 +253,7 @@ average_literacy = {
 	global_immigrant_attract = 1.0
 	max_loan_modifier = 2.0
 	global_pop_consciousness_modifier = 0.2
+	goods_demand = 1.0
 }
 
 plurality = {
