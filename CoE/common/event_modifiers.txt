@@ -2947,6 +2947,9 @@ RGO_education_0 = {
 	#poor_luxury_needs = -0.5
 	#middle_luxury_needs = -0.5
 	#rich_luxury_needs = -0.5
+
+	#farm_rgo_size = -0.0
+	#mine_rgo_size = -0.0
 	
     poor_income_modifier = 0
     middle_income_modifier = 0
@@ -2974,6 +2977,9 @@ RGO_education_1 = {
     rich_income_modifier = 0.1
 	immigrant_push = 0.1
 	
+	farm_rgo_size = -0.05
+	mine_rgo_size = -0.05
+	
 	life_rating = 0.05
 	icon = 3
 }
@@ -2991,6 +2997,9 @@ RGO_education_2 = {
 	#poor_luxury_needs = -0.4
 	#middle_luxury_needs = -0.4
 	#rich_luxury_needs = -0.4
+
+	farm_rgo_size = -0.10
+	mine_rgo_size = -0.10
 	
     poor_income_modifier = 0.2
     middle_income_modifier = 0.2
@@ -3014,6 +3023,9 @@ RGO_education_3 = {
 	#poor_luxury_needs = -0.35
 	#middle_luxury_needs = -0.35
 	#rich_luxury_needs = -0.35
+
+	farm_rgo_size = -0.15
+	mine_rgo_size = -0.15
 	
     poor_income_modifier = 0.3
     middle_income_modifier = 0.3
@@ -3037,6 +3049,9 @@ RGO_education_4 = {
 	#poor_luxury_needs = -0.30
 	#middle_luxury_needs = -0.30
 	#rich_luxury_needs = -0.30
+
+	farm_rgo_size = -0.20
+	mine_rgo_size = -0.20
 	
     poor_income_modifier = 0.4
     middle_income_modifier = 0.4
@@ -3060,6 +3075,9 @@ RGO_education_5 = {
 	#poor_luxury_needs = -0.25
 	#middle_luxury_needs = -0.25
 	#rich_luxury_needs = -0.25
+
+	farm_rgo_size = -0.25
+	mine_rgo_size = -0.25
 	
     poor_income_modifier = 0.5
     middle_income_modifier = 0.5
@@ -3083,6 +3101,9 @@ RGO_education_6 = {
 	#poor_luxury_needs = -0.20
 	#middle_luxury_needs = -0.20
 	#rich_luxury_needs = -0.20
+
+	farm_rgo_size = -0.30
+	mine_rgo_size = -0.30
 	
     poor_income_modifier = 0.6
     middle_income_modifier = 0.6
@@ -3106,6 +3127,9 @@ RGO_education_7 = {
 	#poor_luxury_needs = -0.15
 	#middle_luxury_needs = -0.15
 	#rich_luxury_needs = -0.15
+
+	farm_rgo_size = -0.35
+	mine_rgo_size = -0.35
 	
     poor_income_modifier = 0.35
     middle_income_modifier = 0.35
@@ -3129,6 +3153,9 @@ RGO_education_8 = {
 	#poor_luxury_needs = -0.10
 	#middle_luxury_needs = -0.10
 	#rich_luxury_needs = -0.10
+
+	farm_rgo_size = -0.40
+	mine_rgo_size = -0.40
 	
     poor_income_modifier = 0.8
     middle_income_modifier = 0.8
@@ -3153,6 +3180,9 @@ RGO_education_9 = {
 	#middle_luxury_needs = -0.05
 	#rich_luxury_needs = -0.05
 	
+	farm_rgo_size = -0.45
+	mine_rgo_size = -0.45
+	
     poor_income_modifier = 0.9
     middle_income_modifier = 0.9
     rich_income_modifier = 0.9
@@ -3175,6 +3205,9 @@ RGO_education_10 = {
 	#poor_luxury_needs = -0.0
 	#middle_luxury_needs = -0.0
 	#rich_luxury_needs = -0.0
+
+	farm_rgo_size = -0.50
+	mine_rgo_size = -0.50
 	
 	poor_income_modifier = 1.0
     middle_income_modifier = 1.0
