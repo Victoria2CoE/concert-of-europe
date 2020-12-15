@@ -1650,7 +1650,7 @@ naval_plans = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
@@ -1733,7 +1733,7 @@ naval_statistics = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
@@ -1816,7 +1816,7 @@ naval_logistics = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
@@ -1895,7 +1895,7 @@ naval_directionism = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
@@ -1974,7 +1974,7 @@ naval_integration = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
@@ -2053,7 +2053,7 @@ modern_naval_science = {
 	colonial_points = 10
 	education_efficiency = 0.02
 	navy_base = {
-		supply_consumption = -0.15 
+		supply_consumption = -0.10 
 	}
 	influence = 0.05
 	ai_chance = {
