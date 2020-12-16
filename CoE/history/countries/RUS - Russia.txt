@@ -82,10 +82,9 @@ schools = culture_tech_school
 
 oob = "/1821/RUS_oob.txt"
 
-govt_flag = 
-{
+govt_flag = {
 	government = socialist_democracy
-	flag = communist2
+	flag = socialist_democracy2
 }
 
 1836.1.1 = {

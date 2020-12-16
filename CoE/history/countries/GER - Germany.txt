@@ -34,8 +34,7 @@ child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
 
-govt_flag = 
-{
+govt_flag = {
 	government = bourgeois_dictatorship
 	flag = theocracy
 }

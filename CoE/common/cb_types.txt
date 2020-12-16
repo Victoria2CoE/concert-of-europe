@@ -5749,7 +5749,7 @@ demand_concession_casus_belli2 = {
 	}
 
 	allowed_states = {
-		total_pops = 250000
+		total_pops = 25000
 		NOT = { total_pops = 50000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }

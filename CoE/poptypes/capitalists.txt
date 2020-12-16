@@ -2964,7 +2964,7 @@ issues = {
 		modifier = {
 			factor = 0
 			NOT = {
-				life_needs_needs = 0.75
+				life_needs = 0.75
 			}
 			country = {
 				economic_policy = anti_industrial

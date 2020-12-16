@@ -2874,7 +2874,7 @@ country_event = {
 		}
 		NOT = {
 			owner = {
-				OR = { economic_policy = planned_economy anti_industrial }
+				OR = { economic_policy = planned_economy economic_policy = anti_industrial }
 			}
 		}
 		owner = { NOT = { has_country_flag = no_state_election_events } }
@@ -3024,7 +3024,7 @@ country_event = {
 		is_colonial = no
 		has_pop_type = craftsmen
 		NOT = {
-			owner = { OR = { economic_policy = planned_economy anti_industrial } }
+			owner = { OR = { economic_policy = planned_economy  economic_policy = anti_industrial } }
 		}
 		owner = {
 			is_ideology_enabled = socialist

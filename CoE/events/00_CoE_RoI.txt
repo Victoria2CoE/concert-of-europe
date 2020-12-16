@@ -307,7 +307,7 @@ country_event = {
 
 	option = {
 		name = "We should perhaps think of land reform..."
-		social_reform = land_purchase_initiative
+		social_reform = land_purchase
 	}
 }
 
@@ -515,14 +515,14 @@ country_event = {
 	option = {
 		name = "Why the hell are you playing as Bhutan?"
 		
-		clr_country_flag = random_migration1
-		clr_country_flag = random_migration2
-		clr_country_flag = random_migration3
-		any_country {
-			clr_country_flag = random_migration1
-			clr_country_flag = random_migration2
-			clr_country_flag = random_migration3
-		}
+		#clr_country_flag = random_migration1
+		#clr_country_flag = random_migration2
+		#clr_country_flag = random_migration3
+		#any_country = {
+		#	clr_country_flag = random_migration1
+		#	clr_country_flag = random_migration2
+		#	clr_country_flag = random_migration3
+		#}
 		#THIS = {
 		#	random = {
 		#		chance = 50
@@ -638,7 +638,7 @@ country_event = {
 
 	option = {
 		name = "Poggers"
-		any_pop = { limit = { cultrue = mexican } literacy = 0.1 }
+		any_pop = { limit = { culture = mexican } literacy = 0.1 }
 	}
 }
 
