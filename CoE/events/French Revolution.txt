@@ -27,11 +27,11 @@ country_event = {
 		}
 		OR = {
 			AND = {
-				average_militancy = 4
+				average_militancy = 2
 				has_country_modifier = springtime_of_nations
 			}
 			AND = {
-				average_militancy = 6
+				average_militancy = 3
 				NOT = { has_country_modifier = springtime_of_nations }
 			}
 			any_owned_province = {
