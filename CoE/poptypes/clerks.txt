@@ -1627,7 +1627,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 0.6
+		factor = 0.5
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -1798,20 +1798,20 @@ ideologies = {
 			is_accepted_culture = no
 		}
 		modifier = {
-			factor = 2	
+			factor = 1.5	
 			type = soldiers
 		}
 		modifier = {
-			factor = 5	
+			factor = 6	
 			type = officers
 		}
 		modifier = {
-			factor = 2.0
+			factor = 3.0
 			type = capitalists
 			labourers = 0.60
 		}
 		modifier = {
-			factor = 2.0	
+			factor = 3.0	
 			type = capitalists
 		}
 		modifier = {
