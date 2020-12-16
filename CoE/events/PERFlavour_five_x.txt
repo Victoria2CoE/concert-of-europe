@@ -1081,8 +1081,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					pop_type = clergymen
-					pop_type = capitalists
+					type = clergymen
+					type = capitalists
 				}
 			}
 			consciousness = 2

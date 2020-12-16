@@ -660,9 +660,12 @@ country_event = {
 		name = "Poggers"
 		any_country = {
 			any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 }
-			any_owned = {
-				limit = { farmers = 0.5 NOT = literacy = 0.50 }
-				any_pop = { limit = { type = farmers  literacy = 0.50 } pop_type = labourers } 
+			any_country = { any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 } }
+			any_country = {
+				farmers = {
+					limit = { NOT = { literacy = 0.20 } }
+					type = labourers 
+				}
 			}
 		}
 	}
