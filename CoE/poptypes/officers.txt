@@ -2516,7 +2516,7 @@ ideologies = {
 		modifier = {
 			factor = 2.0
 			type = capitalists
-			NOT =
+			NOT = { labourers = 0.25 }
 		}
 		modifier = {
 			factor = 1.5	
