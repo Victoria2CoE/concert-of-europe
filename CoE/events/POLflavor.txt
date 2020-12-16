@@ -178,7 +178,7 @@ country_event = {
         }
 		badboy = 10
 		ai_chance = {
-			factor = 60
+			factor = 70
 			modifier = {
 				factor = 0
                 has_country_flag = POL_refused
@@ -191,7 +191,7 @@ country_event = {
         POL = { country_event = 99950 }
 		set_country_flag = POL_refused
 		ai_chance = {
-			factor = 40
+			factor = 30
 		}
 	}
 	
@@ -335,7 +335,7 @@ country_event = {
 		name = "Propose to seced the title of King of Poland to one of our relatives" 
         POL = { country_event = 99946 }
 		ai_chance = {
-			factor = 70
+			factor = 60
 			modifier = {
 				factor = 0
                 has_country_flag = POL_refused
@@ -360,7 +360,7 @@ country_event = {
         POL = { country_event = 99950 }
 		set_country_flag = POL_refused
 		ai_chance = {
-			factor = 30
+			factor = 40
 		}
 	}
 	
