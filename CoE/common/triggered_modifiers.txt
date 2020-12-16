@@ -858,7 +858,7 @@ sustainable_education_4 = { #Changed to bonus
 sustainable_education_5 = { #Changed to bonus
 	trigger = {
 		social_spendings = 0.5
-	}}
+	}
 	}
 	education_efficiency_modifier = 0.5
 	icon = 19

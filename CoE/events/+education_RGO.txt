@@ -15,43 +15,44 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	any_country = {
+	
+	random_country = {
 		limit = { rank = 1 }
 		prestige = 250
 	}
-	any_country = {
+	random_country = {
 		limit = { rank = 2 NOT = { rank = 1 } }
 		prestige = 225
 	}
-	any_country = {
+	random_country = {
 		limit = { rank = 3 NOT = { rank = 2 } }
 		prestige = 200
 	}
-	any_country = {
+	random_country = {
 		limit = { rank = 4 NOT = { rank = 3 } }
 		prestige = 175
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 4 NOT = { rank = 3 } }
 		prestige = 150
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 5 NOT = { rank = 4 } }
 		prestige = 125
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 6 NOT = { rank = 5 } }
 		prestige = 100
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 7 NOT = { rank = 6 } }
 		prestige = 75
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 8 NOT = { rank = 7 } }
 		prestige = 50
 	}	
-	any_country = {
+	random_country = {
 		limit = { rank = 12 NOT = { rank = 8 } }
 		prestige = 10
 	}	
