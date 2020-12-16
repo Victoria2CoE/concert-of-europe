@@ -534,7 +534,8 @@ country_event = {
 
 	option = {
 		name = "Why the hell are you playing as Bhutan?"
-		
+		any_pop = { limit = { country = { education_spending = 0 } literacy = -0.01 }
+		any_country = { any_pop = { limit = { country = { education_spending = 0 } literacy = -0.01 } }
 		#clr_country_flag = random_migration1
 		#clr_country_flag = random_migration2
 		#clr_country_flag = random_migration3
@@ -648,9 +649,7 @@ country_event = {
 	title = "Test!"
 	desc = "Test!"
 
-	trigger = {
-		has_country_modifier = demographic_collapse
-	}
+	is_triggered_only = yes
 	
 	mean_time_to_happen = {
 		months = 180
