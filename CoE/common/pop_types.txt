@@ -1,7 +1,11 @@
 promotion_chance = 
 {
 	factor = 0.5
-	
+
+	modifier = {
+		factor = -50.00
+		unemployment = 0.05
+	}		
 	modifier = {
 		factor = 1.50
 		always = yes

@@ -320,50 +320,50 @@ luxury_factory = {
 
 ### RGOs #####################################################################################
 
-RGO_template_farmers = {
-	owner =
-	{
-		poptype = capitalists
-		effect = output
-		effect_multiplier = 2
-	}
-
-	employees = {
-		{
-			poptype = labourers
-			effect = throughput
-			effect_multiplier = 1.0
-			amount = 1.00 #amount = 0.27
-		}
-		{
-			poptype = aristocrats
-			effect = throughput
-			effect_multiplier = 0.5
-			amount = 1.00 #amount = 0.24
-		}
-		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.5
-			amount = 1.00 #amount = 0.24
-		}
-		{
-			poptype = craftsmen
-			effect = throughput
-			effect_multiplier = 4.5
-			amount = 1.00 #amount = 0.24
-		}
-		{
-			poptype = slaves
-			effect = output
-			effect_multiplier = 1.5
-			amount = 1.00 #amount = 0.25
-		}
-	}
-
-	type = rgo
-	workforce = 50000
-}
+#RGO_template_labourers = {
+#	owner =
+#	{
+#		poptype = capitalists
+#		effect = output
+#		effect_multiplier = 2
+#	}
+#
+#	employees = {
+#		{
+#			poptype = labourers
+#			effect = throughput
+#			effect_multiplier = 1.0
+#			amount = 1.00 #amount = 0.27
+#		}
+#		{
+#			poptype = aristocrats
+#			effect = throughput
+#			effect_multiplier = 0.5
+#			amount = 1.00 #amount = 0.24
+#		}
+#		{
+#			poptype = farmers
+#			effect = throughput
+#			effect_multiplier = 2.5
+#			amount = 1.00 #amount = 0.24
+#		}
+#		{
+#			poptype = craftsmen
+#			effect = throughput
+#			effect_multiplier = 4.5
+#			amount = 1.00 #amount = 0.24
+#		}
+#		{
+#			poptype = slaves
+#			effect = output
+#			effect_multiplier = 1.5
+#			amount = 1.00 #amount = 0.25
+#		}
+#	}
+#
+#	type = rgo
+#	workforce = 50000
+#}
 
 RGO_template_labourers = {
 	owner =
@@ -412,7 +412,7 @@ RGO_template_labourers = {
 
 
 cattle_ranch = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = cattle
 	value = 5
 	farm = yes
@@ -426,7 +426,7 @@ coal_mine = {
 }
 
 coffee_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = coffee
 	value = 3
 	farm = yes
@@ -440,28 +440,28 @@ copper_mine = {
 }
 
 cotton_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = cotton
 	value = 6
 	farm = yes
 }
 
 dye_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = dye
 	value = 4
 	farm = yes
 }
 
 fishing_wharf = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = fish
 	value = 4.5
 	farm = yes
 }
 
 grain_farm = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = grain
 	value = 5
 	farm = yes
@@ -489,14 +489,14 @@ oil_rig = {
 }
 
 opium_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = opium
 	value = 2.5
 	farm = yes
 }
 
 orchard = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = fruit
 	value = 5
 	farm = yes
@@ -517,28 +517,28 @@ rubber_lodge = {
 }
 
 sheep_ranch = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = wool
 	value = 5
 	farm = yes
 }
 
 silkworm_ranch = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = silk
 	value = 1.5
 	farm = yes
 }
 
 spice_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = spices
 	value = 1.5
 	farm = yes
 }
 
 sugar_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = sugar
 	value = 6
 	farm = yes
@@ -552,7 +552,7 @@ sulphur_mine = {
 }
 
 tea_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = tea
 	value = 2.0
 	farm = yes
@@ -566,7 +566,7 @@ timber_lodge = {
 }
 
 tobacco_plantation = {
-	template = RGO_template_farmers
+	template = RGO_template_labourers
 	output_goods = tobacco
 	value = 3
 	farm = yes
