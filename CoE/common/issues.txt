@@ -128,7 +128,7 @@ party_issues = {
 			factory_owner_cost = -1	#negative costs, can't build.
 			
 			min_social_spending = 0.30
-			tax_efficiency = 0.03
+			tax_efficiency = 0.05
 			
 			rules = {
 				build_factory = yes
@@ -148,31 +148,31 @@ party_issues = {
 				can_invest_in_pop_projects = yes
 			}
 		}
-		anti_industrial = {
-			min_tax = 0.1
-			factory_throughput = 0.00
-			rgo_throughput = 0.20
-			factory_owner_cost = -1	#negative costs, can't build.
+		anti_industrial = { #Decentralized Planning
+			min_tax = 0.40
+			factory_throughput = 0.05
+			rgo_throughput = 0.05
+			factory_owner_cost = 5	#negative costs, can't build.
 			
-			min_social_spending = 0.10
+			min_social_spending = 0.25
 			tax_efficiency = 0.03
 			
 			rules = {
-				build_factory = no
-				expand_factory = no
-				open_factory = no
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
 				destroy_factory = yes
-				build_railway = no
-				factory_priority = no
-				can_subsidise = no
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
 				pop_build_factory = no
-				pop_expand_factory = no
-				pop_open_factory = no
+				pop_expand_factory = yes
+				pop_open_factory = yes
 				delete_factory_if_no_input = no
-				build_factory_invest = no
-				expand_factory_invest = no
-				build_railway_invest = no
-				can_invest_in_pop_projects = no
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				can_invest_in_pop_projects = yes
 			}
 		}
 	}

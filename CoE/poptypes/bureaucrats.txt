@@ -3719,21 +3719,9 @@ issues = {
 	anti_industrial = {
 		factor = 0.5
 		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-				nationalvalue = nv_dominion
-			}
-		}
-		modifier = {
-			factor = 1.5
-			nationalvalue = nv_supremacy
-		}
-		modifier = {
 			factor = 0
 			NOT = {
-				life_needs = 1.0
+				life_needs_needs = 0.75
 			}
 			country = {
 				economic_policy = anti_industrial
@@ -3744,6 +3732,15 @@ issues = {
 			luxury_needs = 0.1
 			country = { 
 				economic_policy = anti_industrial
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				everyday_needs = 0.25
+			}
+			country = {
+				not = { economic_policy = anti_industrial }
 			}
 		}
 	} 

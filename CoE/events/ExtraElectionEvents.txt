@@ -2874,7 +2874,7 @@ country_event = {
 		}
 		NOT = {
 			owner = {
-				economic_policy = planned_economy
+				OR = { economic_policy = planned_economy anti_industrial }
 			}
 		}
 		owner = { NOT = { has_country_flag = no_state_election_events } }
@@ -3024,7 +3024,7 @@ country_event = {
 		is_colonial = no
 		has_pop_type = craftsmen
 		NOT = {
-			owner = { economic_policy = planned_economy }
+			owner = { OR = { economic_policy = planned_economy anti_industrial } }
 		}
 		owner = {
 			is_ideology_enabled = socialist
@@ -3048,6 +3048,10 @@ country_event = {
 		any_pop = {
 			scaled_militancy = {
 				issue = planned_economy
+				factor = 2
+			}
+			scaled_militancy = {
+				issue = anit_industrial
 				factor = 2
 			}
 		}
@@ -3074,9 +3078,13 @@ country_event = {
 		}
 		craftsmen = {
 			dominant_issue = {
-				factor = 0.30
+				factor = 0.20
 				value = planned_economy
 			}
+			dominant_issue = {
+				factor = 0.20
+				value = anit_industrial
+			}			
 			ideology = {
 				value = socialist
 				factor = 0.10
@@ -3087,8 +3095,12 @@ country_event = {
 				NOT = { type = craftsmen }
 			}
 			dominant_issue = {
-				factor = 0.10
+				factor = 0.05
 				value = planned_economy
+			}
+			dominant_issue = {
+				factor = 0.05
+				value = anti_industrial
 			}
 		}
 	}
@@ -4346,6 +4358,10 @@ country_event = {
 				factor = 3
 			}
 			scaled_militancy = {
+				issue = anti_industrial
+				factor = 3
+			}
+			scaled_militancy = {
 				issue = state_capitalism
 				factor = 2
 			}
@@ -4374,6 +4390,10 @@ country_event = {
 				issue = planned_economy
 				factor = 2
 			}
+			scaled_militancy = {
+				issue = anti_industrial
+				factor = 2
+			}			
 			scaled_militancy = {
 				issue = state_capitalism
 				factor = 1
@@ -4411,6 +4431,10 @@ country_event = {
 				issue = planned_economy
 				factor = 1
 			}
+			scaled_militancy = {
+				issue = anti_industrial
+				factor = 1
+			}					
 		}
 	}
 	
@@ -4427,6 +4451,10 @@ country_event = {
 			dominant_issue = {
 				factor = 0.05
 				value = planned_economy
+			}
+			dominant_issue = {
+				factor = 0.05
+				value = anti_industrial
 			}
 			scaled_militancy = {
 				issue = laissez_faire
