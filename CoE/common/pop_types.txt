@@ -1635,7 +1635,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.0160
+	factor = 0.0175
 	modifier = {
 		factor = 7.0
 		always = yes
@@ -1645,56 +1645,56 @@ emigration_chance =
 		NOT = { year = 1825 }
 	}	
 	modifier = {
-		factor = -15.0
+		factor = -10.0
 		NOT = { literacy = 0.10 }
 	}	
 	modifier = {
-		factor = -10.0
+		factor = -5.0
 		literacy = 0.10
 		NOT = { literacy = 0.20 }
 	}	
 	modifier = {
-		factor = -5.0
+		factor = -2.50
 		literacy = 0.20
 		NOT = { literacy = 0.30 }
 	}	
 	modifier = {
-		factor = -2.50
+		factor = -1.00
 		literacy = 0.30
 		NOT = { literacy = 0.40 }
 	}	
 	modifier = {
-		factor = -1.50
+		factor = -0.50
 		literacy = 0.40
 		NOT = { literacy = 0.50 }
 	}	
-	modifier = {
-		factor = -1.00
-		literacy = 0.50
-		NOT = { literacy = 0.60 }
-	}	
 	#modifier = {
-	#	factor = -2.00
-	#	literacy = 0.60
-	#	NOT = { literacy = 0.70 }
+	#	factor = 0.00
+	#	literacy = 0.50
+	#	NOT = { literacy = 0.60 }
 	#}	
 	modifier = {
-		factor = -0.5
+		factor = -0.50
+		literacy = 0.60
+		NOT = { literacy = 0.70 }
+	}	
+	modifier = {
+		factor = -1.0
 		literacy = 0.70
 		NOT = { literacy = 0.80 }
 	}		
 	modifier = {
-		factor = -1.00
+		factor = -1.50
 		literacy = 0.80
 		NOT = { literacy = 0.90 }
 	}	
 	modifier = {
-		factor = -1.50
+		factor = -2.00
 		literacy = 0.90
 		NOT = { literacy = 0.99 }
 	}		
 	modifier = {
-		factor = -2.00
+		factor = -2.50
 		literacy = 0.99
 	}		
 	modifier = {
