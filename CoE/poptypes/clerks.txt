@@ -801,7 +801,7 @@ promote_to = {
 		}
 	}
 	craftsmen = {
-		factor = 0.01
+		factor = 0.10
 		#modifier = {
 		#	factor = 50
 		#	NOT = { literacy = 0.1 }
