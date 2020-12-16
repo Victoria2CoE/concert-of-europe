@@ -147,7 +147,7 @@ base_values = {
 	land_unit_start_experience = 40
 	pension_level = 10.0
 	mobilisation_size = 0.075	
-	#global_population_growth = 0.020
+	global_population_growth = 0.005
 	loan_interest = 1.0
 }
 
