@@ -54,9 +54,12 @@ country_event = {
 		any_pop = { limit = { culture = dixie } literacy = 0.28 }
 		
 		any_pop = { limit = { culture = mexican } literacy = 0.20 }
+		
+		any_pop = { limit = { culture = north_german } literacy = 0.15 }
 
 
-		any_pop = { limit = { is_culture_group = germanic } literacy = 0.20 }
+		any_pop = { limit = { is_culture_group = germanic } literacy = 0.25 }
+		any_pop = { limit = { is_culture_group = germanic NOT = { culture = north_german } literacy = 0.25 } }
 		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.30 }
 		any_pop = { limit = { is_culture_group = beneluxian } literacy = 0.57 }
 		any_pop = { limit = { is_culture_group = pan_swiss } literacy = 0.20 }
