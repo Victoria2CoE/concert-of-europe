@@ -1416,6 +1416,10 @@ factor = 0.50
 colonialmigration_chance = {
 	factor = 0.2
 	modifier = {
+		factor = 1.0
+		always = yes
+	}	
+	modifier = {
 		factor = 1.25
 		type = craftsmen
 	}	
@@ -1442,7 +1446,7 @@ colonialmigration_chance = {
 	}
 	modifier = {
 		factor = 0.1
-		#consciousness = 3
+		#consciousness = 2
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -1634,10 +1638,14 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.0175
+	factor = 0.010
 	modifier = {
 		factor = 7.0
 		always = yes
+	}	
+	modifier = {
+		factor = -3.0
+		NOT = { year = 1825 }
 	}	
 	modifier = {
 		factor = -3.0
