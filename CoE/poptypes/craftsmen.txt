@@ -1367,61 +1367,61 @@ promote_to = {
 	{
 		factor = 0.01
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.1
 			NOT = { military_spending = 0.2 }
 			NOT = { soldiers = 0.005 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.2
 			NOT = { military_spending = 0.3 }
 			NOT = { soldiers = 0.010 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.3
 			NOT = { military_spending = 0.4 }
 			NOT = { soldiers = 0.015 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.4
 			NOT = { military_spending = 0.5 }
 			NOT = { soldiers = 0.020 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.5
 			NOT = { military_spending = 0.6 }
 			NOT = { soldiers = 0.025 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.6
 			NOT = { military_spending = 0.7 }
 			NOT = { soldiers = 0.030 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.7
 			NOT = { military_spending = 0.8 }
 			NOT = { soldiers = 0.035 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.8
 			NOT = { military_spending = 0.9 }
 			NOT = { soldiers = 0.040 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.9
 			NOT = { military_spending = 0.99 }
 			NOT = { soldiers = 0.045 }
 		}
 		modifier = {
-			factor = 30
+			factor = 50
 			military_spending = 0.99
 			NOT = { soldiers = 0.050 }
 		} 
