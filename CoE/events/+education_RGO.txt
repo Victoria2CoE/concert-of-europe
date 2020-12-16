@@ -16,49 +16,50 @@ country_event = {
 		days = 1
 	}
 	
-	random_country = {
-		limit = { rank = 1 }
-		prestige = 250
-	}
-	random_country = {
-		limit = { rank = 2 NOT = { rank = 1 } }
-		prestige = 225
-	}
-	random_country = {
-		limit = { rank = 3 NOT = { rank = 2 } }
-		prestige = 200
-	}
-	random_country = {
-		limit = { rank = 4 NOT = { rank = 3 } }
-		prestige = 175
-	}	
-	random_country = {
-		limit = { rank = 4 NOT = { rank = 3 } }
-		prestige = 150
-	}	
-	random_country = {
-		limit = { rank = 5 NOT = { rank = 4 } }
-		prestige = 125
-	}	
-	random_country = {
-		limit = { rank = 6 NOT = { rank = 5 } }
-		prestige = 100
-	}	
-	random_country = {
-		limit = { rank = 7 NOT = { rank = 6 } }
-		prestige = 75
-	}	
-	random_country = {
-		limit = { rank = 8 NOT = { rank = 7 } }
-		prestige = 50
-	}	
-	random_country = {
-		limit = { rank = 12 NOT = { rank = 8 } }
-		prestige = 10
-	}	
-	
 	option = {
 		name = "OK"
+		
+		random_country = {
+			limit = { rank = 1 }
+			prestige = 250
+		}
+		random_country = {
+			limit = { rank = 2 NOT = { rank = 1 } }
+			prestige = 225
+		}
+		random_country = {
+			limit = { rank = 3 NOT = { rank = 2 } }
+			prestige = 200
+		}
+		random_country = {
+			limit = { rank = 4 NOT = { rank = 3 } }
+			prestige = 175
+		}	
+		random_country = {
+			limit = { rank = 4 NOT = { rank = 3 } }
+			prestige = 150
+		}	
+		random_country = {
+			limit = { rank = 5 NOT = { rank = 4 } }
+			prestige = 125
+		}	
+		random_country = {
+			limit = { rank = 6 NOT = { rank = 5 } }
+			prestige = 100
+		}	
+		random_country = {
+			limit = { rank = 7 NOT = { rank = 6 } }
+			prestige = 75
+		}	
+		random_country = {
+			limit = { rank = 8 NOT = { rank = 7 } }
+			prestige = 50
+		}	
+		random_country = {
+			limit = { rank = 12 NOT = { rank = 8 } }
+			prestige = 10
+		}			
+		
 		add_tax_relative_income = 100
 		any_country = { add_tax_relative_income = 100 }
 
