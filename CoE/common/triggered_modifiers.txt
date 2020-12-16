@@ -825,597 +825,438 @@ occupied_capital = {
 
 sustainable_education_1 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.10
-		    	education_spending = 0.10
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.10
-		    	education_spending = 0.03
-		    }
-		}
+		social_spendings = 0.1
 	}
-	education_efficiency_modifier = 1.00
+	education_efficiency_modifier = 0.10
 	icon = 19
 }
 
 sustainable_education_2 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.20
-		    	education_spending = 0.20
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.20
-		    	education_spending = 0.10
-		    }
-		}
+		social_spendings = 0.2
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.2
 	icon = 19
 }
 
 sustainable_education_3 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.30
-		    	education_spending = 0.30
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.30
-		    	education_spending = 0.15
-		    }
-		}
+		social_spendings = 0.3
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.3
 	icon = 19
 }
 
 sustainable_education_4 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.40
-		    	education_spending = 0.40
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.40
-		    	education_spending = 0.10
-		    }
-		}
+		social_spendings = 0.4
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.4
 	icon = 19
 }
 
 sustainable_education_5 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.50
-		    	education_spending = 0.50
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.50
-		    	education_spending = 0.25
-		    }
-		}
+		social_spendings = 0.5
+	}}
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.5
 	icon = 19
 }
 
 sustainable_education_6 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.60
-		    	education_spending = 0.60
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.60
-		    	education_spending = 0.30
-		    }
-		}
+		social_spendings = 0.6
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.6
 	icon = 19
 }
 
 sustainable_education_7 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.70
-		    	education_spending = 0.70
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.70
-		    	education_spending = 0.35
-		    }
-		}
+		social_spendings = 0.7
 	}
-	education_efficiency_modifier = 1.0
+	education_efficiency_modifier = 0.7
 	icon = 19
 }
 
 sustainable_education_8 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.80
-		    	education_spending = 0.80
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.80
-		    	education_spending = 0.40
-		    }
-		}
+		social_spendings = 0.8
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 0.8
 	icon = 19
 }
 
 sustainable_education_9 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.90
-		    	education_spending = 0.90
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.90
-		    	education_spending = 0.45
-		    }
-		}
+		social_spendings = 0.9
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 0.9
 	icon = 19
 }
 
 sustainable_education_10 = { #Changed to bonus
 	trigger = {
-		#exists = yes
-		#NOT = { tech_school = unciv_tech_school }
-		#ai = no
-		#number_of_states = 2
-		#total_pops = 1000000
-		OR = {
-		    AND = { 
-			    ai = no
-		    	literacy = 0.99
-		    	education_spending = 0.99
-		    }
-		    AND = { 
-			    ai = yes
-		    	literacy = 0.99
-		    	education_spending = 0.50
-		    }
-		}
+		social_spendings = 0.99
 	}
-	education_efficiency_modifier = 0.50
+	education_efficiency_modifier = 0.99
 	icon = 19
 }
 
-#Dev
-rich_development_1 = {
-	trigger = {
-		exists = yes
-		NOT = { rich_strata_life_needs = 0.5 }
-		NOT = { rich_strata_everyday_needs = 0.1 }
-		NOT = { rich_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-rich_development_2 = {
-	trigger = {
-		exists = yes
-		NOT = { rich_strata_life_needs = 0.9 }
-		NOT = { rich_strata_everyday_needs = 0.1 }
-		NOT = { rich_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-rich_development_3 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      rich_strata_everyday_needs = 0.4
-		      rich_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_4 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      rich_strata_everyday_needs = 0.6
-		      rich_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_5 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      rich_strata_everyday_needs = 0.8
-		      rich_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_6 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      rich_strata_everyday_needs = 0.95
-		      rich_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_7 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      rich_strata_luxury_needs = 0.25
-              rich_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_8 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      rich_strata_luxury_needs = 0.5 
-			  rich_strata_everyday_needs = 0.50
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_9 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      rich_strata_luxury_needs = 0.75 
-			  rich_strata_everyday_needs = 0.50
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-rich_development_10 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      rich_strata_luxury_needs = 0.9
-	          rich_strata_everyday_needs = 0.50		  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-#Middle
-middle_development_1 = {
-	trigger = {
-		exists = yes
-		NOT = { middle_strata_life_needs = 0.5 }
-		NOT = { middle_strata_everyday_needs = 0.1 }
-		NOT = { middle_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-middle_development_2 = {
-	trigger = {
-		exists = yes
-		NOT = { middle_strata_life_needs = 0.9 }
-		NOT = { middle_strata_everyday_needs = 0.1 }
-		NOT = { middle_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-middle_development_3 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      middle_strata_everyday_needs = 0.4
-		      middle_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_4 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      middle_strata_everyday_needs = 0.6
-		      middle_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_5 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      middle_strata_everyday_needs = 0.8
-		      middle_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_6 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      middle_strata_everyday_needs = 0.95
-		      middle_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_7 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      middle_strata_luxury_needs = 0.25 
-			  middle_strata_everyday_needs = 0.50
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_8 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      middle_strata_luxury_needs = 0.5
-              middle_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_9 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      middle_strata_luxury_needs = 0.75
-              middle_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-middle_development_10 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      middle_strata_luxury_needs = 0.9
-              middle_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-#Poor
-poor_development_1 = {
-	trigger = {
-		exists = yes
-		NOT = { poor_strata_life_needs = 0.5 }
-		NOT = { poor_strata_everyday_needs = 0.1 }
-		NOT = { poor_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-poor_development_2 = {
-	trigger = {
-		exists = yes
-		NOT = { poor_strata_life_needs = 0.9 }
-		NOT = { poor_strata_everyday_needs = 0.1 }
-		NOT = { poor_strata_luxury_needs = 0.1 }
-	}	
-	education_efficiency_modifier = -0.10
-	icon = 8
-}
-
-poor_development_3 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      poor_strata_everyday_needs = 0.4
-		      poor_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_4 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      poor_strata_everyday_needs = 0.6
-		      poor_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_5 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      poor_strata_everyday_needs = 0.8
-		      poor_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_6 = {
-	trigger = {
-		exists = yes
-		OR = {
-		      poor_strata_everyday_needs = 0.95
-		      poor_strata_luxury_needs = 0.1 
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_7 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      poor_strata_luxury_needs = 0.25
-              poor_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_8 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      poor_strata_luxury_needs = 0.5
-              poor_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_9 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      poor_strata_luxury_needs = 0.75
-              poor_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
-
-poor_development_10 = {
-	trigger = {
-		exists = yes
-		AND = {
-		      poor_strata_luxury_needs = 0.9
-              poor_strata_everyday_needs = 0.50			  
-		}
-	}	
-	education_efficiency_modifier = 0.10
-	icon = 8
-}
+###Dev
+#rich_development_1 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { rich_strata_life_needs = 0.5 }
+#		NOT = { rich_strata_everyday_needs = 0.1 }
+#		NOT = { rich_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#rich_development_2 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { rich_strata_life_needs = 0.9 }
+#		NOT = { rich_strata_everyday_needs = 0.1 }
+#		NOT = { rich_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#rich_development_3 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      rich_strata_everyday_needs = 0.4
+#		      rich_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_4 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      rich_strata_everyday_needs = 0.6
+#		      rich_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_5 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      rich_strata_everyday_needs = 0.8
+#		      rich_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_6 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      rich_strata_everyday_needs = 0.95
+#		      rich_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_7 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      rich_strata_luxury_needs = 0.25
+#              rich_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_8 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      rich_strata_luxury_needs = 0.5 
+#			  rich_strata_everyday_needs = 0.50
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_9 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      rich_strata_luxury_needs = 0.75 
+#			  rich_strata_everyday_needs = 0.50
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#rich_development_10 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      rich_strata_luxury_needs = 0.9
+#	          rich_strata_everyday_needs = 0.50		  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+##Middle
+#middle_development_1 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { middle_strata_life_needs = 0.5 }
+#		NOT = { middle_strata_everyday_needs = 0.1 }
+#		NOT = { middle_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#middle_development_2 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { middle_strata_life_needs = 0.9 }
+#		NOT = { middle_strata_everyday_needs = 0.1 }
+#		NOT = { middle_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#middle_development_3 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      middle_strata_everyday_needs = 0.4
+#		      middle_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_4 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      middle_strata_everyday_needs = 0.6
+#		      middle_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_5 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      middle_strata_everyday_needs = 0.8
+#		      middle_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_6 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      middle_strata_everyday_needs = 0.95
+#		      middle_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_7 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      middle_strata_luxury_needs = 0.25 
+#			  middle_strata_everyday_needs = 0.50
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_8 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      middle_strata_luxury_needs = 0.5
+#              middle_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_9 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      middle_strata_luxury_needs = 0.75
+#              middle_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#middle_development_10 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      middle_strata_luxury_needs = 0.9
+#              middle_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+##Poor
+#poor_development_1 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { poor_strata_life_needs = 0.5 }
+#		NOT = { poor_strata_everyday_needs = 0.1 }
+#		NOT = { poor_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#poor_development_2 = {
+#	trigger = {
+#		exists = yes
+#		NOT = { poor_strata_life_needs = 0.9 }
+#		NOT = { poor_strata_everyday_needs = 0.1 }
+#		NOT = { poor_strata_luxury_needs = 0.1 }
+#	}	
+#	education_efficiency_modifier = -0.10
+#	icon = 8
+#}
+#
+#poor_development_3 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      poor_strata_everyday_needs = 0.4
+#		      poor_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_4 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      poor_strata_everyday_needs = 0.6
+#		      poor_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_5 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      poor_strata_everyday_needs = 0.8
+#		      poor_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_6 = {
+#	trigger = {
+#		exists = yes
+#		OR = {
+#		      poor_strata_everyday_needs = 0.95
+#		      poor_strata_luxury_needs = 0.1 
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_7 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      poor_strata_luxury_needs = 0.25
+#              poor_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_8 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      poor_strata_luxury_needs = 0.5
+#              poor_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_9 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      poor_strata_luxury_needs = 0.75
+#              poor_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
+#
+#poor_development_10 = {
+#	trigger = {
+#		exists = yes
+#		AND = {
+#		      poor_strata_luxury_needs = 0.9
+#              poor_strata_everyday_needs = 0.50			  
+#		}
+#	}	
+#	education_efficiency_modifier = 0.10
+#	icon = 8
+#}
