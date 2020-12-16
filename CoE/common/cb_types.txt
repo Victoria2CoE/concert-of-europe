@@ -3489,7 +3489,7 @@ place_in_the_sun = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 10000 }
+		NOT = { total_pops = 50000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -3513,7 +3513,7 @@ place_in_the_sun = {
 	}
 
 	allowed_states_in_crisis = {
-		NOT = { total_pops = 100000 }
+		NOT = { total_pops = 50000 }
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -3590,8 +3590,8 @@ place_in_the_sun2 = {
 	}
 
 	allowed_states = {
-		total_pops = 250000
-		NOT = { total_pops = 500000 }
+		total_pops = 100000
+		NOT = { total_pops = 250000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -3615,8 +3615,8 @@ place_in_the_sun2 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 25000
-		NOT = { total_pops = 50000 }
+		total_pops = 100000
+		NOT = { total_pops = 250000 }
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -3693,8 +3693,8 @@ place_in_the_sun3 = {
 	}
 
 	allowed_states = {
-		total_pops = 50000
-		NOT = { total_pops = 100000 }
+		total_pops = 250000
+		NOT = { total_pops = 500000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -3718,8 +3718,8 @@ place_in_the_sun3 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 50000
-		NOT = { total_pops = 100000 }
+		total_pops = 250000
+		NOT = { total_pops = 500000 }
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -3796,8 +3796,8 @@ place_in_the_sun4 = {
 	}
 
 	allowed_states = {
-		total_pops = 100000
-		NOT = { total_pops = 250000 }
+		total_pops = 500000
+		NOT = { total_pops = 1000000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -3821,8 +3821,8 @@ place_in_the_sun4 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 100000
-		NOT = { total_pops = 250000 }
+		total_pops = 500000
+		NOT = { total_pops = 1000000 }
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -3899,8 +3899,8 @@ place_in_the_sun5 = {
 	}
 
 	allowed_states = {
-		total_pops = 250000
-		NOT = { total_pops = 500000 }
+		total_pops = 1000000
+		NOT = { total_pops = 2500000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -3924,8 +3924,8 @@ place_in_the_sun5 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 250000
-		NOT = { total_pops = 500000 }
+		total_pops = 1000000
+		NOT = { total_pops = 2500000 }
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -4002,7 +4002,7 @@ place_in_the_sun6 = {
 	}
 
 	allowed_states = {
-		total_pops = 500000
+		total_pops = 2500000
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -4026,7 +4026,7 @@ place_in_the_sun6 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 5000000
+		total_pops = 2500000
 		any_owned_province = {
 			OR = {
 				port = yes
@@ -4345,7 +4345,7 @@ acquire_state2 = {
 	}
 
 	allowed_states = {
-		total_pops = 10000
+		total_pops = 100000
 		NOT = { total_pops = 250000 }
 		#AI treats colonial states with only civilized cores as regular states
 		OR = {
@@ -5117,8 +5117,8 @@ acquire_state5 = {
 	}
 
 	allowed_states_in_crisis = {
-		total_pops = 2500000
-		NOT = { total_pops = 5000000 }
+		total_pops = 1000000
+		NOT = { total_pops = 2500000 }
 		any_owned_province = {
 			any_neighbor_province = {
 				owner = { tag = THIS }
@@ -5217,7 +5217,7 @@ acquire_state6 = {
 	}
 
 	allowed_states = {
-		total_pops = 5000000
+		total_pops = 2500000
 		#AI treats colonial states with only civilized cores as regular states
 		OR = {
 			is_colonial = no
@@ -5629,7 +5629,7 @@ demand_concession_casus_belli = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 25000 }
+		NOT = { total_pops = 50000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -5749,8 +5749,8 @@ demand_concession_casus_belli2 = {
 	}
 
 	allowed_states = {
-		total_pops = 25000
-		NOT = { total_pops = 50000 }
+		total_pops = 50000
+		NOT = { total_pops = 100000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -5871,8 +5871,8 @@ demand_concession_casus_belli3 = {
 	}
 
 	allowed_states = {
-		total_pops = 50000
-		NOT = { total_pops = 100000 }
+		total_pops = 100000
+		NOT = { total_pops = 500000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -5992,8 +5992,8 @@ demand_concession_casus_belli4 = {
 	}
 
 	allowed_states = {
-		total_pops = 100000
-		NOT = { total_pops = 250000 }
+		total_pops = 500000
+		NOT = { total_pops = 1000000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -6125,8 +6125,8 @@ demand_concession_casus_belli5 = {
 	}
 
 	allowed_states = {
-		total_pops = 250000
-		NOT = { total_pops = 500000 }
+		total_pops = 1000000
+		NOT = { total_pops = 2500000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -6258,7 +6258,7 @@ demand_concession_casus_belli6 = {
 	}
 
 	allowed_states = {
-		total_pops = 500000
+		total_pops = 2500000
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
