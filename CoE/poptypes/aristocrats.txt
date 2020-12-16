@@ -1059,18 +1059,21 @@ ideologies = {
 			or = {
 			social_reform_want = 0.50
 			political_reform_want = 0.50
+			}
 		}
 		modifier = {
 			factor = 1.3
 			or = {
 			social_reform_want = 0.60
 			political_reform_want = 0.60
+			}
 		}
 		modifier = {
 			factor = 1.3
 			or = {
 			social_reform_want = 0.70
 			political_reform_want = 0.70
+			}
 		}
 		modifier = {
 			factor = 1.3
@@ -1104,7 +1107,7 @@ ideologies = {
 			factor = 5.0
 			strata = middle
 		}
-}
+	}
 	
 		separatist = {
 		factor = 1.0
@@ -1247,7 +1250,7 @@ ideologies = {
 		#	}
 		#	country = { has_country_flag = post_colonial_era }
 		#}
-}
+	}
 	
 	fascist = {
 		factor = 1.0
@@ -1699,7 +1702,7 @@ ideologies = {
 			factor = 1.5	
 			strata = middle
 		}
-}
+	}
 
 	conservative = {
 		factor = 1.0
@@ -2274,7 +2277,7 @@ ideologies = {
 		}
 	}
 
-liberal = {
+	liberal = {
 		factor = 1
 		modifier = {
 			factor = 1.2
