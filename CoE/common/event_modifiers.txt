@@ -3305,7 +3305,7 @@ demographic_collapse = {
 }
 
 demographic_collapse_prov = {
-	population_growth = -0.002
+	population_growth = -0.02
 	life_rating = -1.0
 	icon = 18
 }
@@ -3319,7 +3319,7 @@ catching_up_economically = {
 }
 
 catching_up_economically_prov = {
-	global_population_growth = 0.002
+	global_population_growth = 0.02
 	icon = 19
 }
 
