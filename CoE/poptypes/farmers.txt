@@ -606,7 +606,7 @@ migration_target =
 
 promote_to = {
 	labourers = {
-		factor = 0.01
+		factor = 0.10
 		#modifier = {
 		#	factor = -500
 		#	is_primary_culture = no

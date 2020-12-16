@@ -605,7 +605,7 @@ migration_target =
 
 promote_to = {
 	labourers = {
-		factor = 0.01
+		factor = 0.10
 		#modifier = {
 		#	factor = -500
 		#	is_primary_culture = no
@@ -913,11 +913,10 @@ promote_to = {
 		}
 	}
 	farmers = {
-		factor = 0.01
+		factor = 0.10
 		modifier = {
 			factor = 200
 			NOT = { limit = { has_pop_type = farmers } farmers = 0.10 }
-			NOT = { limit = { has_pop_type = labourers } labourers = 0.10 }
 		}
 		modifier = {
 			factor = 300
