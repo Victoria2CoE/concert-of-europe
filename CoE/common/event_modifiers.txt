@@ -2980,7 +2980,7 @@ RGO_education_1 = {
 	farm_rgo_size = -0.05
 	mine_rgo_size = -0.05
 	
-	life_rating = 0.05
+	life_rating = 0.10
 	icon = 3
 }
 
@@ -3006,7 +3006,7 @@ RGO_education_2 = {
     rich_income_modifier = 0.2
 	immigrant_push = 0.2
 	
-	life_rating = 0.10
+	life_rating = 0.20
 	icon = 3
 }
 
@@ -3032,7 +3032,7 @@ RGO_education_3 = {
     rich_income_modifier = 0.3
 	immigrant_push = 0.30
 	
-	life_rating = 0.15
+	life_rating = 0.30
 	icon = 3
 }
 
@@ -3058,7 +3058,7 @@ RGO_education_4 = {
     rich_income_modifier = 0.4
 	immigrant_push = 0.4
 	
-	life_rating = 0.20
+	life_rating = 0.28
 	icon = 3
 }
 
@@ -3084,7 +3084,7 @@ RGO_education_5 = {
     rich_income_modifier = 0.5
 	immigrant_push = 0.5
 	
-	life_rating = 0.25
+	life_rating = 0.26
 	icon = 3
 }
 
@@ -3110,7 +3110,7 @@ RGO_education_6 = {
     rich_income_modifier = 0.6
 	immigrant_push = 0.6
 	
-	life_rating = 0.30
+	life_rating = 0.24
 	icon = 3
 }
 
@@ -3136,7 +3136,7 @@ RGO_education_7 = {
     rich_income_modifier = 0.35
 	immigrant_push = 0.35
 	
-	life_rating = 0.25
+	life_rating = 0.22
 	icon = 3
 }
 
@@ -3188,7 +3188,7 @@ RGO_education_9 = {
     rich_income_modifier = 0.9
 	immigrant_push = 0.9
 	
-	life_rating = 0.10
+	life_rating = 0.18
 	icon = 3
 }
 
@@ -3214,7 +3214,7 @@ RGO_education_10 = {
     rich_income_modifier = 1.0
 	immigrant_push = 1.0
 	
-	#life_rating = 0.10
+	#life_rating = 0.1
 	icon = 3
 }
 
