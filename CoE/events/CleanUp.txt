@@ -17,12 +17,12 @@ country_event = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
-			communist = 20
-			socialist = 40
-			average_militancy = 5
+			communist = 30
+			socialist = 60
+			average_militancy = 6
 		}
 	}
 	
@@ -96,12 +96,12 @@ country_event = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			#revolt_percentage = 0.10
+			national_provinces_occupied = 0.20
 			is_disarmed = yes
-			communist = 20
-			socialist = 40
-			average_militancy = 5
+			communist = 50
+			socialist = 75
+			average_militancy = 6
 		}
 	}
 	
@@ -175,12 +175,12 @@ country_event = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			#revolt_percentage = 0.10
+			national_provinces_occupied = 0.20
 			is_disarmed = yes
-			communist = 20
-			socialist = 40
-			average_militancy = 5
+			communist = 50
+			socialist = 75
+			average_militancy = 6
 		}
 	}
 	
@@ -254,8 +254,8 @@ country_event = {
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
-			revolt_percentage = .10
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			upper_house = { ideology = reactionary value = 0.3 }
 			average_militancy = 5
@@ -362,8 +362,8 @@ country_event = {
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
-			revolt_percentage = .10
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			upper_house = { ideology = reactionary value = 0.3 }
 			average_militancy = 5
@@ -470,8 +470,8 @@ country_event = {
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
-			revolt_percentage = .10
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			upper_house = { ideology = reactionary value = 0.3 }
 			average_militancy = 5
@@ -578,8 +578,8 @@ country_event = {
 		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			anarcho_liberal = 20
 			average_militancy = 5
@@ -650,8 +650,8 @@ country_event = {
 		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			anarcho_liberal = 20
 			average_militancy = 5
@@ -722,8 +722,8 @@ country_event = {
 		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			anarcho_liberal = 20
 			average_militancy = 5
@@ -794,11 +794,11 @@ country_event = {
 		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			fascist = 20
-			average_militancy = 5
+			average_militancy = 6
 		}
 	}
 	
@@ -866,11 +866,11 @@ country_event = {
 		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			fascist = 20
-			average_militancy = 5
+			average_militancy = 6
 		}
 	}
 	
@@ -938,11 +938,11 @@ country_event = {
 		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
-			num_of_revolts = 1
-			national_provinces_occupied = .10
+			revolt_percentage = 0.10
+			national_provinces_occupied = 0.10
 			is_disarmed = yes
 			fascist = 20
-			average_militancy = 5
+			average_militancy = 6
 		}
 	}
 	
@@ -1004,7 +1004,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = proletarian_dictatorship
+			#government = proletarian_dictatorship
 			government = presidential_dictatorship
 			government = bourgeois_dictatorship
 			government = fascist_dictatorship
@@ -1042,6 +1042,42 @@ country_event = {
 		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		civilized = yes
 		NOT = { vote_franschise = none_voting }
+		#NOT = { political_parties = underground_parties }
+		#NOT = { upper_house_composition = party_appointed }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	major = yes
+	option = {
+		name = "EVTOPTA60050"
+		remove_country_modifier = fight_the_power
+		government = socialist_democracy
+		election = yes
+	}
+}
+
+country_event = {
+	id = 60028
+	title = "EVTNAME60000"
+	desc = "EVTDESC60000"
+	news = yes
+	news_desc_long = "EVTDESC60000_NEWS_LONG"
+	news_desc_medium = "EVTDESC60000_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60000_NEWS_SHORT"
+	picture = "senate_debate"
+	
+	trigger = {
+		exists = yes
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		civilized = yes
+		NOT = { vote_franschise = non_secret_ballots }
+		NOT = { vote_franschise = secret_ballots }
+		NOT = { vote_franschise = none_voting }
+		#vote_franschise = universal_voting
+		ruling_party_ideology = communist
+		communist = 0.60
 		#NOT = { political_parties = underground_parties }
 		#NOT = { upper_house_composition = party_appointed }
 	}
