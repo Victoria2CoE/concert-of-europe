@@ -39,6 +39,11 @@ child_labor = child_labor_legal
 arts_endowment = small_endowment
 education = elite
 
+govt_flag = {
+	government = socialist_democracy
+	flag = socialist_democracy2
+}
+
 ruling_party = RUS_conservative
 upper_house = {
 	fascist = 0
@@ -81,11 +86,6 @@ nonstate_consciousness = 1
 schools = culture_tech_school
 
 oob = "/1821/RUS_oob.txt"
-
-govt_flag = {
-	government = socialist_democracy
-	flag = socialist_democracy2
-}
 
 1836.1.1 = {
 	literacy = 0.01 #literacy = 0.10

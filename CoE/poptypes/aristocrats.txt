@@ -1097,13 +1097,6 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.3
-			or = {
-			social_reform_want = 0.99
-			political_reform_want = 0.99
-			}
-		}
-		modifier = {
 			factor = 5.0
 			strata = middle
 		}
@@ -2970,7 +2963,7 @@ issues = {
 		modifier = {
 			factor = 0
 			NOT = {
-				life_needs_needs = 0.75
+				life_needs = 0.75
 			}
 			country = {
 				economic_policy = anti_industrial
