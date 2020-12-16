@@ -652,7 +652,7 @@ the_concert_of_europe = {
 		NOT = { year = 1840 }
 	}
 	global_pop_consciousness_modifier = -0.1
-	tax_efficiency = 0.10
+	tax_efficiency = 0.25
 	icon = 1
 }
 
