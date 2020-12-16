@@ -14,7 +14,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = -20
+			add_tax_relative_income = -30
 			add_country_modifier = {
 				name = state_investments
 				duration = 3600
@@ -40,7 +40,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = -12
+			add_tax_relative_income = -15
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 300 } }
 			any_pop = { limit = { type = capitalists } money = -250 }
 			
@@ -67,7 +67,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = 30
+			add_tax_relative_income = 50
 			any_pop = { limit = { type = capitalists } money = 500 }
 			
 			any_pop = {
@@ -104,7 +104,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = -5.0
+			add_tax_relative_income = -6.0
 			add_country_modifier = {
 				name = state_investments
 				duration = 3600
@@ -133,7 +133,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_tax_relative_income = -3.0
+			add_tax_relative_income = -4.0
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 150 } }
 			any_pop = { limit = { type = capitalists } money = -100 }
 			
@@ -168,7 +168,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = 40.0
+			add_tax_relative_income = 75.0
 			any_pop = { limit = { type = capitalists } money = 500 }
 			
 			any_pop = {
