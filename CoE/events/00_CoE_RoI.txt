@@ -145,10 +145,13 @@ country_event = {
 				THIS = { num_of_cities = 2 }  # due to a delay between two cleanup events, it may actually annex a recently released country
 			}
 			clr_country_flag = ghost_country_host
-			any_owned = { limit = { province_id = 2128 } secede_province = THIS }
+			country_event = 6016819
 		}
 		random_country = {
-			limit = { has_country_flag = ghost_country_host }
+			limit = { 
+				has_country_flag = ghost_country_host 
+				NOT = { THIS = { num_of_cities = 2 } }
+			}
 			clr_country_flag = ghost_country_host
 			inherit = THIS
 		}
@@ -163,6 +166,23 @@ country_event = {
 			}
 			country_event = 6016821
 		}
+	}
+}
+
+country_event = {
+	id = 6016819 #HPM-inspired ghost unit cleanup 2/2 +1
+	title = "Exiled on the shores"
+	desc = "It seems like some soldiers from far away country refused to yield when their nation has fallen, and they ended up in one of our colonies, but now that their country is safe again they return and..."
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "...have brought us some gifts as thanks for hosting them!"
+		money = 100
 	}
 }
 
@@ -541,24 +561,24 @@ country_event = {
 		#		set_country_flag = random_migration3
 		#	}
 		#}		
-		any_country = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration1
-			}
-		}
-		any_country = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration2
-			}
-		}	
-		any_country = {
-			random = {
-				chance = 50
-				set_country_flag = random_migration3
-			}
-		}		
+		#any_country = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration1
+		#	}
+		#}
+		#any_country = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration2
+		#	}
+		#}	
+		#any_country = {
+		#	random = {
+		#		chance = 50
+		#		set_country_flag = random_migration3
+		#	}
+		#}		
 		
 		random_country = {
 			limit = { 
