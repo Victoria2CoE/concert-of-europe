@@ -538,3 +538,30 @@ country_event = {
 	}
 
 }
+
+country_event = {
+
+	id = 99800
+
+    trigger = {
+		OR = { tag = POL  tag = PLC }
+		vassal_of = AUS
+		KRA = { sphere_owner = { tag = AUS } }
+	}
+
+	title = "Integration of Krakow"
+	desc = "As an associate of Austria we are presented with opportunity to annex Free City of Kraków."
+	picture = "polski_sejm"
+
+	option = {
+		name = "But I hope that they don't keep the Dragon under the city anymore!" 
+		POL = { inherit = KRA }
+		badboy = 3
+		prestige = 1
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
