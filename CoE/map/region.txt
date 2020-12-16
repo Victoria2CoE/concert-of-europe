@@ -344,9 +344,9 @@ AUS_654 = { 654 661 651 647 660 2533 } #Northern Transylvania
 
 AUS_657 = { 659 655 656 772 } #Southern Transylvania
 
-AUS_702 = { 702 951 952 953 705 } #Galicia
+AUS_702 = { 702 951 952 953 } #Galicia
 
-AUS_703 = { 703 704 3253 714 } #Lesser Poland
+AUS_703 = { 703 704 3253 714 705 } #Lesser Poland
 
 AUS_726 = { 726 727 728 } #Lombardia
 
