@@ -353,7 +353,7 @@ party = {
 party = {
 	name = "NET_vrije_socialisten"
 	start_date = 1898.8.2
-	end_date = 1936.1.1
+	end_date = 2000.1.1 #end_date = 1936.1.1
 
 	ideology = anarcho_liberal
 
