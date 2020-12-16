@@ -393,16 +393,16 @@ RGO_template_labourers = {
 			amount = 1.00 #amount = 0.24
 		}
 		{
-			poptype = slaves
-			effect = output
-			effect_multiplier = 1.5
-			amount = 1.00 #amount = 0.25
-		}
-		{
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 5.0
 			amount = 1.00 #amount = 0.24
+		}
+		{
+			poptype = slaves
+			effect = output
+			effect_multiplier = 1.5
+			amount = 1.00 #amount = 0.25
 		}		
 	}
 
