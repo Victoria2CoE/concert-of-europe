@@ -1858,6 +1858,22 @@ ideologies = {
 			factor = 5.0
 			strata = middle
 		}
+		modifier = {
+			factor = 2.0
+			strata = poor
+		}
+		modifier = {
+			factor = 2.0
+			type = labourers
+		}
+		modifier = {
+			factor = 3.0
+			type = farmers
+		}
+		modifier = {
+			factor = 1.5
+			type = craftsmen
+		}
 	}
 	
 		separatist = {
@@ -3254,7 +3270,7 @@ ideologies = {
 			militancy = 6
 		}
 		modifier = {
-			factor = 2.5
+			factor = 5.0
 			strata = poor
 			NOT = { type = labourers }
 			NOT = { is_ideology_enabled = socialist }
