@@ -1028,6 +1028,37 @@ country_event = {
 }
 
 country_event = {
+	id = 60029
+	title = "EVTNAME60050"
+	desc = "EVTDESC60050"
+	news = yes
+	news_desc_long = "EVTDESC60050_NEWS_LONG"
+	news_desc_medium = "EVTDESC60050_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60050_NEWS_SHORT"
+	picture = "senate_debate"
+	
+	trigger = {
+		exists = yes
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+		civilized = yes
+		NOT = { vote_franschise = none_voting }
+		#NOT = { political_parties = underground_parties }
+		#NOT = { upper_house_composition = party_appointed }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	major = yes
+	option = {
+		name = "EVTOPTA60050"
+		remove_country_modifier = fight_the_power
+		government = socialist_democracy
+		election = yes
+	}
+}
+
+country_event = {
 	id = 60051
 	title = "EVTNAME60050"
 	desc = "EVTDESC60050"
