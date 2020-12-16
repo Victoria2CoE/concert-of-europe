@@ -1,7 +1,7 @@
 sprite = 9
 color = { 189 57 36 }
 #is_artisan = yes
-strata = poor @Seasonal Workers
+strata = poor #Seasonal Workers
 unemployment = yes
 can_work_factory = yes
 #equivalent = labourers
@@ -1514,7 +1514,7 @@ promote_to = {
 	}
 }
 
-ideologiesideologies = {
+ideologies = {
 
 	subordinate = {
 		factor = 0
