@@ -223,6 +223,7 @@ country_event = {
 	           who = POL
 	           value = 500
           }
+		  create_vassal = POL
 		}
         relation = {
 	       who = AUS
@@ -305,6 +306,7 @@ country_event = {
 	           who = POL
 	           value = 500
           }
+		  create_vassal = POL
 		}
         relation = {
 	       who = PRU
@@ -333,7 +335,7 @@ country_event = {
 		name = "Propose to seced the title of King of Poland to one of our relatives" 
         POL = { country_event = 99946 }
 		ai_chance = {
-			factor = 30
+			factor = 70
 			modifier = {
 				factor = 0
                 has_country_flag = POL_refused
@@ -341,17 +343,17 @@ country_event = {
 		}
 	}
 	
-	option = {
-		name = "Propose them to enlarge the Kingdom of Poland and Grant more autonomy but they will remain under personal union" 
-        POL = { country_event = 99945 }
-		ai_chance = {
-			factor = 40
-			modifier = {
-				factor = 0
-                has_country_flag = POL_refused
-			}
-		}
-	}
+	#option = {
+	#	name = "Propose them to enlarge the Kingdom of Poland and Grant more autonomy but they will remain under personal union" 
+    #    POL = { country_event = 99945 }
+	#	ai_chance = {
+	#		factor = 40
+	#		modifier = {
+	#			factor = 0
+    #            has_country_flag = POL_refused
+	#		}
+	#	}
+	#}
 	
 	option = {
 		name = "This may not be the wisest decision" 
@@ -391,43 +393,6 @@ country_event = {
 	           who = POL
 	           value = 500
           }
-		}
-        relation = {
-	       who = RUS
-	       value = 100
-        }
-		badboy = 10
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-}
-
-country_event = {
-
-	id = 99945 
-
-    is_triggered_only = yes
-
-	title = "New personal Union?"
-	desc = "Romanovs propose us more land and greater autonomy but they demand that we remain under Personal Union."
-	picture = "polski_sejm"
-
-	option = {
-		name = "Not everyone may like it..." 
-		create_alliance = RUS
-		RUS = {
-		  any_owned = {
-				limit = { OR = { is_core = POL is_core = LIT } }
-				secede_province = POL
-				add_core = POL
-		  }
-          diplomatic_influence = {
-	           who = POL
-	           value = 500
-          }
 		  create_vassal = POL
 		}
         relation = {
@@ -437,17 +402,55 @@ country_event = {
 		badboy = 10
 	}
 	
-	option = {
-		name = "NEVER!"
-		RUS = { set_country_flag = POL_refused }
-		country_event = 99957
-	}
-	
 	mean_time_to_happen = {
 		days = 1
 	}
 
 }
+
+#country_event = {
+#
+#	id = 99945 
+#
+#    is_triggered_only = yes
+#
+#	title = "New personal Union?"
+#	desc = "Romanovs propose us more land and greater autonomy but they demand that we remain under Personal Union."
+#	picture = "polski_sejm"
+#
+#	option = {
+#		name = "Not everyone may like it..." 
+#		create_alliance = RUS
+#		RUS = {
+#		  any_owned = {
+#				limit = { OR = { is_core = POL is_core = LIT } }
+#				secede_province = POL
+#				add_core = POL
+#		  }
+#          diplomatic_influence = {
+#	           who = POL
+#	           value = 500
+#          }
+#		  create_vassal = POL
+#		}
+#        relation = {
+#	       who = RUS
+#	       value = 100
+#        }
+#		badboy = 10
+#	}
+#	
+#	option = {
+#		name = "NEVER!"
+#		RUS = { set_country_flag = POL_refused }
+#		country_event = 99957
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#}
 
 country_event = {
 
@@ -483,7 +486,7 @@ country_event = {
 	option = {
 		name = "Rule of the strong hand will lead our nation to glory" 
 		government = presidential_dictatorship
-		ruling_party_ideology = liberal
+		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = appointed
 		political_reform = no_meeting
@@ -507,7 +510,7 @@ country_event = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = non_secret_ballots
-		social_reform = landed_estates
+		social_reform = commoners_properties
 		nationalvalue = nv_equality
 		ai_chance = {
 			factor = 50
@@ -517,7 +520,7 @@ country_event = {
 	option = {
 		name = "Golden Liberty!" 
 		government = democracy
-		ruling_party_ideology = liberal
+		ruling_party_ideology = conservative
 		political_reform = landed_voting
 		political_reform = appointed
 		political_reform = yes_meeting
