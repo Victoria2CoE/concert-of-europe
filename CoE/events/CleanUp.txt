@@ -2435,19 +2435,3 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 99993
-	title = "Test!"
-	desc = "Test!"
-
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 180
-	}
-
-	option = {
-		name = "Poggers"
-		add_country_modifier = { name = test_moodifier1  duration = -1 }
-	}
-}
