@@ -12,7 +12,7 @@ infantry = {
 	default_organisation = 5
 	maximum_speed = 4.00
 	floating_flag = no
-	weighted_value = 1.0
+	weighted_value = 5.0
 
 
 	#Building Costs

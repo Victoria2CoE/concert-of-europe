@@ -17,7 +17,7 @@ hussar = {
 	max_strength = 5
 	default_organisation = 10
 	maximum_speed = 6.00
-	weighted_value = 7.0
+	weighted_value = 35.0
 
 	#Building Costs
 	build_time = 40

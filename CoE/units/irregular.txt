@@ -10,9 +10,9 @@ irregular = {
 	priority = 5
 	max_strength = 5
 	default_organisation = 5
-	maximum_speed = 4
+	maximum_speed = 4.5
 	floating_flag = no
-	weighted_value = 1.0
+	weighted_value = 5.0
 
 	#Building Costs
 	build_time = 20
@@ -22,7 +22,7 @@ irregular = {
 
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 0.03
+		military_industry = 0.04
 	}
 
 
@@ -31,8 +31,7 @@ irregular = {
 	attack = 2
 	defence = 2
 	discipline = 1
-	support = 0.0
+	support = 0.30
 	maneuver = 1
-
 
 }
