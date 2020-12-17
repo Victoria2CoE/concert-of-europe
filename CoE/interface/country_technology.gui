@@ -34,7 +34,7 @@ guiTypes = {
 	#offset
 	positionType = {
 		name = "tech_offset"
-		position = { x = 0 y = 8 }
+		position = { x = 0 y = 16 }
 	}
 		
 	##########################
@@ -422,7 +422,7 @@ guiTypes = {
 		name = "tech_window"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=194 y=34 }
+		size = { x=194 y=28 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
