@@ -295,10 +295,10 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 10
+		grain = 8
 	}
 	output_goods = food_industry
-	value = 6.5
+	value = 5.5
 }
 
 light_factory = {
