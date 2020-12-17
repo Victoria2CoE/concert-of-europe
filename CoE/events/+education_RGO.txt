@@ -60,8 +60,8 @@ country_event = {
 			prestige = 10
 		}			
 		
-		add_tax_relative_income = 100
-		any_country = { add_tax_relative_income = 100 }
+		add_tax_relative_income = 500
+		any_country = { add_tax_relative_income = 500 }
 
 		any_pop = { 
 			limit = { 
