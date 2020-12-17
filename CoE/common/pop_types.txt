@@ -1421,23 +1421,23 @@ colonialmigration_chance = {
 	}	
 	modifier = {
 		factor = 0.2
-		num_of_cities = 100
+		country = { num_of_cities = 100 }
 	}	
 	modifier = {
 		factor = 0.2
-		num_of_cities = 150
+		country = { num_of_cities = 150 }
 	}	
 	modifier = {
 		factor = 0.2
-		num_of_cities = 200
+		country = { num_of_cities = 200 }
 	}	
 	modifier = {
 		factor = 0.2
-		num_of_cities = 250
+		country = { num_of_cities = 250 }
 	}		
 	modifier = {
 		factor = 1.25
-		type = craftsmen
+		country = { type = craftsmen }
 	}	
 	modifier = {
 		factor = 2.50
