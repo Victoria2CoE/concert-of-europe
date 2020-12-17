@@ -592,7 +592,7 @@ country_event = {
 		clr_global_flag = house_of_saud_exiled
 		set_global_flag = house_of_saud_returned
 		NEJ_1157 = { add_core = NEJ } #Riyadh
-		NEJ_1156 = { add_core = NEJ } #Kaf
+		NEJ_1151 = { add_core = NEJ } #Kaf
 		1157 = { secede_province = NEJ }
 		random_owned = {
 			limit = { province_id = 1164 }
