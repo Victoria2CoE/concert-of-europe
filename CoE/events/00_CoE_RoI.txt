@@ -591,28 +591,28 @@ country_event = {
 		
 		any_country = {
 			limit = { rich_strata_luxury_needs = 0.90  has_country_modifier = overbuying_stuff_rich1 }
-			add_country_modifier = { name = overbuying_stuff_rich1  duration = -1 }
+			add_country_modifier = { name = overbuying_stuff_rich2  duration = -1 }
 		}
 		any_country = {
 			limit = { middle_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_middle1 }
-			add_country_modifier = { name = overbuying_stuff_middle1  duration = -1 }
+			add_country_modifier = { name = overbuying_stuff_middle2  duration = -1 }
 		}
 		any_country = {
 			limit = { poor_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_poor1 }
-			add_country_modifier = { name = overbuying_stuff_poor1  duration = -1 }
+			add_country_modifier = { name = overbuying_stuff_poor2  duration = -1 }
 		}
 		
 		any_country = {
-			limit = { rich_strata_luxury_needs = 0.90  has_country_modifier = overbuying_stuff_rich3 }
-			add_country_modifier = { name = overbuying_stuff_rich1  duration = -1 }
+			limit = { rich_strata_luxury_needs = 0.90  has_country_modifier = overbuying_stuff_rich2 }
+			add_country_modifier = { name = overbuying_stuff_rich3  duration = -1 }
 		}
 		any_country = {
-			limit = { middle_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_middle3 }
-			add_country_modifier = { name = overbuying_stuff_middle1  duration = -1 }
+			limit = { middle_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_middle2 }
+			add_country_modifier = { name = overbuying_stuff_middle3  duration = -1 }
 		}
 		any_country = {
-			limit = { poor_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_poor3 }
-			add_country_modifier = { name = overbuying_stuff_poor1  duration = -1 }
+			limit = { poor_strata_luxury_needs = 0.90 has_country_modifier = overbuying_stuff_poor2 }
+			add_country_modifier = { name = overbuying_stuff_poor3  duration = -1 }
 		}
 		
 		
