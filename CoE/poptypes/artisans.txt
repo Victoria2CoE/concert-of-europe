@@ -23,9 +23,9 @@ rebel =
 strata = middle
 
 
-luxury_needs_income = {
+everyday_needs_income = {
 	type = education
-	weight = 1.0
+	weight = 5.0
 }
 
 life_needs = {
