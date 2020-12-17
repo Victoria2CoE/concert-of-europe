@@ -689,7 +689,7 @@ social_reforms = {
 		}
 		trinket_safety = {
 		    minimum_wage = 0.075
-			factory_maintenance = 0.025
+			factory_maintenance = 0.25
 			global_immigrant_attract = 0.005
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.005
@@ -698,7 +698,7 @@ social_reforms = {
 		}
 		low_safety = {
 		    minimum_wage = 0.10
-			factory_maintenance = 0.05
+			factory_maintenance = 0.5
 			global_immigrant_attract = 0.010
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.01
@@ -707,7 +707,7 @@ social_reforms = {
 		}
 		acceptable_safety = {
 		    minimum_wage = 0.125
-			factory_maintenance = 0.075
+			factory_maintenance = 0.75
 			global_immigrant_attract = 0.015
 			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.015
@@ -717,7 +717,7 @@ social_reforms = {
 		}
 		good_safety = {
 		    minimum_wage = 0.150
-			factory_maintenance = 0.10
+			factory_maintenance = 1.00
 			global_immigrant_attract = 0.02
 			administrative_multiplier = 4
 			global_pop_militancy_modifier = -0.02
