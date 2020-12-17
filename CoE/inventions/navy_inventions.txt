@@ -908,7 +908,7 @@ converted_hulk_carriers = {
 	}
 }
 purpose_built_carriers = {
-	limit = { modern_ship_construction = 1 }
+	limit = { modern_ship_construction_1930 = 1 }
 	chance = {
 		base = 5
 		modifier = {
@@ -944,7 +944,7 @@ advanced_submarines = {
 }
 modern_battlecruisers = {
 	limit = {
-		modern_ship_construction = 1 
+		modern_ship_construction_1930 = 1 
 		NOT = {
 			invention = light_cruisers 
 			invention =  15_inch_main_armament 

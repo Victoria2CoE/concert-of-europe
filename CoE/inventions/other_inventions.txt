@@ -70,26 +70,14 @@ advanced_riflemaking = {
 }
 
 military_industrial_complex = {
-	limit = { modern_divisional_structure_1920 = 1 }
+	limit = { modern_divisional_structure_1930 = 1 }
 	news = no
 	chance = {
 		base = 5
 	}
 	effect = {
 		factory_goods_output = {
-			military_industry = 0.03
-		}
-		factory_goods_output = {
-			military_industry = 0.03
-		}
-		factory_goods_output = {
-			military_industry = 0.03
-		}
-		factory_goods_output = {
-			military_industry = 0.03
-		}
-		factory_goods_output = {
-			military_industry = 0.03
+			military_industry = 0.10
 		}
 	}
 }
@@ -729,7 +717,7 @@ portland_steel =  {
 }
 
 self_propelled_artillery = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_artillery_1930 = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -1152,7 +1140,7 @@ superior_firepower_doctrine = {
 
 human_wave_doctrine = {
 	limit = {
-		modern_army_doctrine_1920 = 1
+		modern_army_doctrine_1930 = 1
 		invention = human_wave_vs_spearhead
 		NOT = { invention = grand_battle_plan_doctrine }
 		has_country_flag = existing_country
@@ -1173,7 +1161,7 @@ human_wave_doctrine = {
 
 spearhead_doctrine = {
 	limit = {
-		modern_army_doctrine_1920 = 1
+		modern_army_doctrine_1930 = 1
 		invention = human_wave_vs_spearhead
 		NOT = { invention = human_wave_doctrine }
 		has_country_flag = existing_country
@@ -4691,7 +4679,7 @@ frontline_heaquarters = {
 }
 
 radio_coordination = {
-	limit = { modern_army_leadership = 1 }
+	limit = { modern_army_leadership_1930 = 1 }
 	news = no
 	chance = { 
 		base = 2
@@ -4718,1468 +4706,1468 @@ signals_intelligence = {
 	}
 }
 
-early_1930_army_armament = {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-mid_1930_army_armament	= {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_army_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-late_1930_army_armament	= {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_army_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-early_1940_army_armament = {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_army_armament }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-mid_1940_army_armament	= {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_army_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-late_1940_army_armament	= {
-	limit = { modern_divisional_structure_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_army_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		army_base = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.1
-		}
-		artillery = {
-			attack = -0.25
-		}
-		horse_artillery = {
-			attack = -0.25
-		}
-		plane = {
-			attack = -0.25
-		}
-	}
-}
-
-early_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-mid_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_army_heavy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-late_1930_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_army_heavy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-early_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_army_heavy_armament }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-mid_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_army_heavy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-late_1940_army_heavy_armament = {
-	limit = { modern_artillery = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_army_heavy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 0.15
-		}
-		horse_artillery = {
-			attack = 0.15
-		}
-		plane = {
-			attack = 0.15
-		}
-	}
-}
-
-early_1930_army_doctrine = {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-mid_1930_army_doctrine	= {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_army_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-late_1930_army_doctrine	= {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_army_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-early_1940_army_doctrine = {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_army_doctrine }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-mid_1940_army_doctrine	= {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_army_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-late_1940_army_doctrine	= {
-	limit = { modern_army_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_army_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		army_base = {
-			reconnaissance = 0.25
-			maximum_speed = 0.25
-			supply_consumption = 0.05
-		}
-	}
-}
-
-early_1930_army_leadership = {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-mid_1930_army_leadership	= {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_army_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-late_1930_army_leadership	= {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_army_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-early_1940_army_leadership = {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_army_leadership }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-mid_1940_army_leadership = {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_army_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-late_1940_army_leadership = {
-	limit = { modern_army_leadership = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_army_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 5
-			supply_consumption = 0.05
-		}
-		military_tactics = 0.05
-	}
-}
-
-early_1930_navy_armament = {
-	limit = { modern_naval_design_1920 = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-mid_1930_navy_armament	= {
-	limit = { modern_naval_design_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_navy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-late_1930_navy_armament	= {
-	limit = { modern_naval_design_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_navy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-early_1940_navy_armament = {
-	limit = { modern_naval_design_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_navy_armament }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-mid_1940_navy_armament	= {
-	limit = { modern_naval_design_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_navy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-late_1940_navy_armament	= {
-	limit = { modern_naval_design_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_navy_armament }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		dreadnought = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		cruiser = {
-			gun_power = 2
-			hull = 2
-			supply_consumption = 0.05
-		}
-
-		ironclad = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		monitor = {
-			gun_power = 1
-			hull = 1
-			supply_consumption = 0.05
-		}
-
-		submarine = {
-			gun_power = 1
-			hull = 0.5
-			supply_consumption = 0.05
-		}
-	}
-}
-
-early_1930_navy_leadership = {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-mid_1930_navy_leadership	= {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_navy_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-late_1930_navy_leadership	= {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_navy_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-early_1940_navy_leadership = {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_navy_leadership }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-mid_1940_navy_leadership	= {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_navy_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-late_1940_navy_leadership	= {
-	limit = { modern_naval_training_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_navy_leadership }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-		}
-	}
-}
-
-early_1930_navy_doctrine = {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		max_naval_base = 1
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-mid_1930_navy_doctrine	= {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_navy_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-late_1930_navy_doctrine	= {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_navy_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-early_1940_navy_doctrine = {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_navy_doctrine }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		max_naval_base = 1
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-mid_1940_navy_doctrine	= {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_navy_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-late_1940_navy_doctrine	= {
-	limit = { modern_naval_doctrine_1920 = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_navy_doctrine }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		navy_base = {
-			default_organisation = 1
-			maximum_speed = 0.25
-		}
-	}
-}
-
-early_1930_navy_logistics = {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1930 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
-
-mid_1930_navy_logistics	= {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1930_navy_logistics }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1933 }
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
-
-late_1930_navy_logistics	= {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1930_navy_logistics }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1936 }
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
-
-early_1940_navy_logistics = {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = -5
-			NOT = { year = 1940 }
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = late_1930_navy_logistics }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
-
-mid_1940_navy_logistics	= {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = early_1940_navy_logistics }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1943 }
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
-
-late_1940_navy_logistics	= {
-	limit = { modern_naval_science = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = -5
-			NOT = { invention = mid_1940_navy_logistics }
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1946 }
-		}
-	}
-	effect = {
-		supply_range = 0.25
-		navy_base = {
-			supply_consumption = -0.05			
-		}
-	}
-}
+#early_1930_army_armament = {
+#	limit = { modern_divisional_structure_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#mid_1930_army_armament	= {
+#	limit = { modern_divisional_structure_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_army_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#late_1930_army_armament	= {
+#	limit = { modern_divisional_structure_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_army_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#early_1940_army_armament = {
+#	limit = { modern_divisional_structure_1930 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_army_armament }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#mid_1940_army_armament	= {
+#	limit = { modern_divisional_structure_1930 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_army_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#late_1940_army_armament	= {
+#	limit = { modern_divisional_structure_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_army_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			attack = 0.25
+#			defence = 0.25
+#			supply_consumption = 0.1
+#		}
+#		artillery = {
+#			attack = -0.25
+#		}
+#		horse_artillery = {
+#			attack = -0.25
+#		}
+#		plane = {
+#			attack = -0.25
+#		}
+#	}
+#}
+#
+#early_1930_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#mid_1930_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_army_heavy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#late_1930_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_army_heavy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#early_1940_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_army_heavy_armament }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#mid_1940_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_army_heavy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#late_1940_army_heavy_armament = {
+#	limit = { modern_artillery = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_army_heavy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		artillery = {
+#			attack = 0.15
+#		}
+#		horse_artillery = {
+#			attack = 0.15
+#		}
+#		plane = {
+#			attack = 0.15
+#		}
+#	}
+#}
+#
+#early_1930_army_doctrine = {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#mid_1930_army_doctrine	= {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_army_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#late_1930_army_doctrine	= {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_army_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#early_1940_army_doctrine = {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_army_doctrine }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#mid_1940_army_doctrine	= {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_army_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#late_1940_army_doctrine	= {
+#	limit = { modern_army_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_army_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			reconnaissance = 0.25
+#			maximum_speed = 0.25
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#early_1930_army_leadership = {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#mid_1930_army_leadership	= {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_army_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#late_1930_army_leadership	= {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_army_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#early_1940_army_leadership = {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_army_leadership }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#mid_1940_army_leadership = {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_army_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#late_1940_army_leadership = {
+#	limit = { modern_army_leadership = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_army_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		army_base = {
+#			default_organisation = 5
+#			supply_consumption = 0.05
+#		}
+#		military_tactics = 0.05
+#	}
+#}
+#
+#early_1930_navy_armament = {
+#	limit = { modern_naval_design_1920 = 1 }
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#mid_1930_navy_armament	= {
+#	limit = { modern_naval_design_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_navy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#late_1930_navy_armament	= {
+#	limit = { modern_naval_design_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_navy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#early_1940_navy_armament = {
+#	limit = { modern_naval_design_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_navy_armament }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#mid_1940_navy_armament	= {
+#	limit = { modern_naval_design_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_navy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#late_1940_navy_armament	= {
+#	limit = { modern_naval_design_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_navy_armament }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		dreadnought = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		cruiser = {
+#			gun_power = 2
+#			hull = 2
+#			supply_consumption = 0.05
+#		}
+#
+#		ironclad = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		monitor = {
+#			gun_power = 1
+#			hull = 1
+#			supply_consumption = 0.05
+#		}
+#
+#		submarine = {
+#			gun_power = 1
+#			hull = 0.5
+#			supply_consumption = 0.05
+#		}
+#	}
+#}
+#
+#early_1930_navy_leadership = {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#mid_1930_navy_leadership	= {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_navy_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#late_1930_navy_leadership	= {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_navy_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#early_1940_navy_leadership = {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_navy_leadership }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#mid_1940_navy_leadership	= {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_navy_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#late_1940_navy_leadership	= {
+#	limit = { modern_naval_training_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_navy_leadership }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#		}
+#	}
+#}
+#
+#early_1930_navy_doctrine = {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		max_naval_base = 1
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#mid_1930_navy_doctrine	= {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_navy_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#late_1930_navy_doctrine	= {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_navy_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#early_1940_navy_doctrine = {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_navy_doctrine }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		max_naval_base = 1
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#mid_1940_navy_doctrine	= {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_navy_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#late_1940_navy_doctrine	= {
+#	limit = { modern_naval_doctrine_1920 = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_navy_doctrine }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		navy_base = {
+#			default_organisation = 1
+#			maximum_speed = 0.25
+#		}
+#	}
+#}
+#
+#early_1930_navy_logistics = {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1930 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
+#
+#mid_1930_navy_logistics	= {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1930_navy_logistics }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1933 }
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
+#
+#late_1930_navy_logistics	= {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1930_navy_logistics }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1936 }
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
+#
+#early_1940_navy_logistics = {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1940 }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = late_1930_navy_logistics }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
+#
+#mid_1940_navy_logistics	= {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = early_1940_navy_logistics }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1943 }
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
+#
+#late_1940_navy_logistics	= {
+#	limit = { modern_naval_science = 1 }
+#	news = no
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { invention = mid_1940_navy_logistics }
+#		}
+#		modifier = {
+#			factor = -5
+#			NOT = { year = 1946 }
+#		}
+#	}
+#	effect = {
+#		supply_range = 0.25
+#		navy_base = {
+#			supply_consumption = -0.05			
+#		}
+#	}
+#}
 
 military_horse_breeding = {
 	limit = { army_professionalism = 1 }
@@ -6376,7 +6364,7 @@ improved_synthetic_materials = {
 }
 
 modern_synthetic_materials = {
-	limit = { modern_chemistry = 1 }
+	limit = { modern_chemistry_1930 = 1 }
 	news = no
 	chance = {
 		base = 6
@@ -7246,7 +7234,7 @@ cornish_engine = {
 }
 
 technocracy = {
-	limit = { post_colonialism = 1 }
+	limit = { post_colonialism_1930 = 1 }
 	news = no
 	chance = {
 		base = 2

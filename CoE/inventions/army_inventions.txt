@@ -759,7 +759,7 @@ grand_battle_plan_vs_superior_firepower = {
 	
 }
 human_wave_vs_spearhead = {
-	limit = { modern_army_doctrine_1920 = 1 }
+	limit = { modern_army_doctrine_1930 = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1049,7 +1049,7 @@ medium_tank = {
 }
 heavy_tank = {
 	limit = {
-		modern_artillery = 1
+		modern_artillery_1930 = 1
 		invention = tank_experiments
 		has_country_flag = existing_country
 	}
@@ -1109,7 +1109,7 @@ anti_aircraft_artillery = {
 	}
 }
 improved_anti_aircraft_artillery = {
-	limit = { modern_artillery = 1 }
+	limit = { modern_artillery_1930 = 1 }
 	news = no
 	chance = {
 		base = 5
@@ -1591,7 +1591,7 @@ late_interwar_fighters = {
 }
 t_air_superiority = {
 	limit = { 
-		modern_military_science = 1 
+		modern_military_science_1930 = 1 
 		invention = military_aviation
 	}
 	news = no
@@ -1713,7 +1713,7 @@ operational_destruction_doctrine = {
 }
 strategic_destruction_doctrine = {
 	limit = { 
-		modern_military_science = 1 
+		modern_military_science_1930 = 1 
 		invention = military_aviation
 		has_country_flag = existing_country
 	}

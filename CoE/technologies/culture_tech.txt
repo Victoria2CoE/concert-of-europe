@@ -397,7 +397,7 @@ modern_aesthetics_1930 = {
 	area = aesthetics
 	year = 1930
 	education_efficiency = 0.03   cost = 60000
-	permanent_prestige = 20
+	permanent_prestige = 50
 	prestige = 0.1
 	ai_chance = {
 		factor = 1.1
@@ -1371,7 +1371,7 @@ mathematical_sociology = {
 mathematical_sociology_1930 = {
 	area = social_thought
 	year = 1930
-	cost = 80000
+	cost = 60000
 	permanent_prestige = 20
 	war_exhaustion = -0.15
 	education_efficiency = 0.10
@@ -1961,7 +1961,7 @@ post_colonialism = {
 post_colonialism_1930 = {
 	area = political_thought
 	year = 1930
-	education_efficiency = 0.03   cost = 80000
+	education_efficiency = 0.03   cost = 60000
 	permanent_prestige = 20
 	max_national_focus = 1 
 	influence = 0.25
@@ -2602,7 +2602,7 @@ humanistic_psychology = {
 humanistic_psychology_1930 = {
 	area = psychology
 	year = 1930
-	cost = 80000
+	cost = 60000
 	permanent_prestige = 20
 	education_efficiency = 0.05
 	reinforce_rate = 0.025

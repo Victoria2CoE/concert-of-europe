@@ -670,7 +670,7 @@ modern_army_doctrine_1920 = {
 modern_army_doctrine_1930 = {
 	area = army_doctrine
 	year = 1930
-	education_efficiency = 0.01   cost = 80000 
+	education_efficiency = 0.01   cost = 60000 
 	unciv_military = yes
 	
 	army_base = {
@@ -1482,7 +1482,7 @@ modern_divisional_structure_1920 = {
 modern_divisional_structure_1930 = {
 	area = light_armament
 	year = 1930
-	education_efficiency = 0.01   cost = 80000
+	education_efficiency = 0.01   cost = 60000
 	unciv_military = yes
 
 	#combat_width = -1
@@ -2416,7 +2416,7 @@ modern_artillery = {
 modern_artillery_1930 = {
 	area = heavy_armament
 	year = 1930
-	education_efficiency = 0.01   cost = 80000
+	education_efficiency = 0.01   cost = 60000
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -3349,7 +3349,7 @@ modern_military_science = {
 modern_military_science_1930 = {
 	area = military_science
 	year = 1930
-	education_efficiency = 0.01   cost = 80000
+	education_efficiency = 0.01   cost = 60000
 	mobilisation_size = 0.005
 	army_base = {
 		default_organisation = 10
@@ -4292,7 +4292,7 @@ modern_army_leadership = {
 modern_army_leadership_1930 = {
 	area = army_leadership
 	year = 1930
-	education_efficiency = 0.01   cost = 80000
+	education_efficiency = 0.01   cost = 60000
 	unciv_military = yes
 	morale = 0.25
 

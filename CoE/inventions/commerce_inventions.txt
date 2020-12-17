@@ -2184,7 +2184,7 @@ mixed_economy = {
 
 The_New_Deal ={
 	limit = {
-		globalized_markets = 1
+		globalized_markets_1930 = 1
 		has_country_flag = existing_country
 	}
 	news = no
