@@ -183,6 +183,7 @@ country_event = {
 	option = {
 		name = "...have brought us some gifts as thanks for hosting them!"
 		money = 100
+		2127 = { secede_province = THIS }
 	}
 }
 
