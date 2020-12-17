@@ -903,36 +903,36 @@ sustainable_education_10 = { #Changed to bonus
 	icon = 19
 }
 
-###Demand+
-overbuying_stuff_rich = { #experimental
-	trigger = {
-		rich_strata_luxury_needs = 0.90
-	}
-	rich_strata_life_needs = 0.25
-	rich_strata_everyday_needs = 0.5
-	rich_strata_luxury_needs = 1.0
-	icon = 19
-}
-
-overbuying_stuff_middle = { #experimental
-	trigger = {
-		middle_luxury_needs = 0.90
-	}
-	middle_life_needs = 0.25
-	middle_everyday_needs = 0.5
-	middle_luxury_needs = 1.0
-	icon = 19
-}
-
-overbuying_stuff_poor = { #experimental
-	trigger = {
-		middle_luxury_needs = 0.90
-	}
-	poor_life_needs = 0.25
-	poor_everyday_needs = 0.5
-	poor_luxury_needs = 1.0
-	icon = 19
-}
+####Demand+
+#overbuying_stuff_rich = { #experimental
+#	trigger = {
+#		rich_strata_luxury_needs = 0.90
+#	}
+#	rich_strata_life_needs = 0.25
+#	rich_strata_everyday_needs = 0.5
+#	rich_strata_luxury_needs = 1.0
+#	icon = 19
+#}
+#
+#overbuying_stuff_middle = { #experimental
+#	trigger = {
+#		middle_luxury_needs = 0.90
+#	}
+#	middle_life_needs = 0.25
+#	middle_everyday_needs = 0.5
+#	middle_luxury_needs = 1.0
+#	icon = 19
+#}
+#
+#overbuying_stuff_poor = { #experimental
+#	trigger = {
+#		middle_luxury_needs = 0.90
+#	}
+#	poor_life_needs = 0.25
+#	poor_everyday_needs = 0.5
+#	poor_luxury_needs = 1.0
+#	icon = 19
+#}
 
 ###Dev
 #rich_development_1 = {
