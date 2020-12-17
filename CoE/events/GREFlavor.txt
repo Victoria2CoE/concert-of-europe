@@ -23,6 +23,7 @@ country_event = {
 			has_country_flag = hosting_london_conference_1830
 			has_country_modifier = neutrality
 			year = 1840
+			GRE = { badboy = 0.1 }
 		}
 		GRE = {
 			exists = yes
