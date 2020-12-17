@@ -3479,3 +3479,10 @@ overbuying_stuff_poor3 = {
    poor_strata_luxury_needs = 1.0
    icon = 12
 }
+
+###Test Modifiers
+test_modifier1 = {
+   rgo_throughput = 10.0
+   factory_throughput = 10.0
+   icon = 12
+}

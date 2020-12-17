@@ -738,26 +738,7 @@ country_event = {
 
 	option = {
 		name = "Poggers"
-		any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 }
-		any_country = { any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 } }
-		any_country = {
-			any_pop = {
-				limit = { type = farmers NOT = { literacy = 0.50 } }
-				pop_type = labourers 
-			}
-			any_pop = {
-				limit = { type = aristocrats NOT = { literacy = 0.50 } }
-				pop_type = labourers 
-			}
-			any_pop = {
-				limit = { type = craftsmen NOT = { literacy = 0.50 } }
-				pop_type = farmers 
-			}
-			any_pop = {
-				limit = { type = clerks NOT = { literacy = 0.50 } }
-				pop_type = craftsmen 
-			}
-		}
+		add_country_modifier = { name = test_moodifier1  duration = -1 }
 	}
 }
 
