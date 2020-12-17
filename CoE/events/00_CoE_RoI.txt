@@ -436,6 +436,7 @@ country_event = {
 	trigger = {
 		ai = yes
 		NOT = { has_country_modifier = random_migration_cooldown }
+		total_pops = 1000000
 	}
 	
 	mean_time_to_happen = {
@@ -455,7 +456,7 @@ country_event = {
 			duration = 240
 		}			
 		random_country = { 
-			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } total_pops = 1000000 }
 			clr_country_flag = random_migration1
 			clr_country_flag = random_migration2
 			clr_country_flag = random_migration3
@@ -465,11 +466,7 @@ country_event = {
 			add_country_modifier = {
 				name = random_migration_cooldown
 				duration = 240
-			}
-			add_country_modifier = {
-				name = random_migration_cooldown
-				duration = 240
-			}				
+			}		
 		}	
 	}
 }
@@ -482,6 +479,7 @@ country_event = {
 	trigger = {
 		ai = yes
 		NOT = { has_country_modifier = random_migration_cooldown }
+		total_pops = 2500000		
 	}
 	
 	mean_time_to_happen = {
@@ -502,7 +500,7 @@ country_event = {
 			duration = 240
 		}			
 		random_country = { 
-			limit = { ai = no }
+			limit = { ai = no  total_pops = 2500000	}
 			clr_country_flag = random_migration1
 			clr_country_flag = random_migration2
 			clr_country_flag = random_migration3
