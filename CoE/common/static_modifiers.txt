@@ -67,8 +67,8 @@ very_hard_ai = {
 ##########################################################################
 
 overseas = {
-	farm_rgo_size = 3
-	mine_rgo_size = 3
+	#farm_RGO_size = 3
+	#mine_RGO_size = 3
 	population_growth = -0.0002
 	assimilation_rate = -0.5
 	pop_consciousness_modifier = -0.1

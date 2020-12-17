@@ -2597,28 +2597,28 @@ no_terrace_farming = {
 
 terrace_farming_modifier = {
 	farm_RGO_eff = 0.25
-	farm_RGO_size = 0.25
+	#farm_RGO_size = 0.25
 	icon = 13
 }
 
 marsh_land_reclaimed = {
 	farm_RGO_eff = 0.4
-	farm_RGO_size = 0.4
-	mine_RGO_size = 0.5
+	#farm_RGO_size = 0.4
+	#mine_RGO_size = 0.5
 	icon = 13
 }
 
 bad_flooding_modifier = {
 	pop_militancy_modifier = 0.05
 	farm_rgo_eff = -0.5
-	farm_RGO_size = -0.5
+	#farm_RGO_size = -0.5
 	icon = 20
 }
 
 good_flooding_modifier = {
 	pop_militancy_modifier = -0.05
 	farm_rgo_eff = 0.5
-	farm_RGO_size = 0.5
+	#farm_RGO_size = 0.5
 	icon = 19
 }
 
@@ -2632,7 +2632,7 @@ religious_insurrection = {
 
 deforestation_modifier = {
 	farm_RGO_eff = -0.75
-	farm_RGO_size = -0.75
+	#farm_RGO_size = -0.75
 	local_factory_throughput = 0.25
 	local_factory_output = 0.25
 	icon = 10
@@ -2640,49 +2640,49 @@ deforestation_modifier = {
 
 sprawling_forest = {
 	farm_RGO_eff = 1
-	farm_RGO_size = 1
+	#farm_RGO_size = 1
 	icon = 9
 }
 
 dense_forest = {
 	farm_RGO_eff = 0.75
-	farm_RGO_size = 0.75
+	#farm_RGO_size = 0.75
 	icon = 9
 }
 
 large_forest = {
 	farm_RGO_eff = 0.5
-	farm_RGO_size = 0.5
+	#farm_RGO_size = 0.5
 	icon = 9
 }
 
 normal_forest = {
 	farm_RGO_eff = 0.25
-	farm_RGO_size = 0.25
+	#farm_RGO_size = 0.25
 	icon = 9
 }
 
 small_forest = {
 	farm_RGO_eff = -0.25
-	farm_RGO_size = -0.25
+	#farm_RGO_size = -0.25
 	icon = 10
 }
 
 marginal_forest = {
 	farm_RGO_eff = -0.5
-	farm_RGO_size = -0.5
+	#farm_RGO_size = -0.5
 	icon = 10
 }
 
 scarce_forest = {
 	farm_RGO_eff = -0.75
-	farm_RGO_size = -0.75
+	#farm_RGO_size = -0.75
 	icon = 10
 }
 
 no_forest = {
 	farm_RGO_eff = -0.99
-	farm_RGO_size = -0.99
+	#farm_RGO_size = -0.99
 	icon = 10
 }
 
@@ -2948,8 +2948,11 @@ RGO_education_0 = {
 	#middle_luxury_needs = -0.5
 	#rich_luxury_needs = -0.5
 
-	#farm_rgo_size = -0.0
-	#mine_rgo_size = -0.0
+	##farm_RGO_size = -0.0
+	##mine_RGO_size = -0.0
+	
+	farm_RGO_size = -0.50
+	mine_RGO_size = -0.50
 	
     poor_income_modifier = 0
     middle_income_modifier = 0
@@ -2977,8 +2980,8 @@ RGO_education_1 = {
     rich_income_modifier = 0.1
 	immigrant_push = 0.1
 	
-	farm_rgo_size = -0.05
-	mine_rgo_size = -0.05
+	farm_RGO_size = -0.52
+	mine_RGO_size = -0.52
 	
 	life_rating = 0.10
 	icon = 3
@@ -2998,8 +3001,11 @@ RGO_education_2 = {
 	#middle_luxury_needs = -0.4
 	#rich_luxury_needs = -0.4
 
-	farm_rgo_size = -0.10
-	mine_rgo_size = -0.10
+	#farm_RGO_size = -0.10
+	#mine_RGO_size = -0.10
+	
+	farm_RGO_size = -0.54
+	mine_RGO_size = -0.54	
 	
     poor_income_modifier = 0.2
     middle_income_modifier = 0.2
@@ -3023,9 +3029,9 @@ RGO_education_3 = {
 	#poor_luxury_needs = -0.35
 	#middle_luxury_needs = -0.35
 	#rich_luxury_needs = -0.35
-
-	farm_rgo_size = -0.15
-	mine_rgo_size = -0.15
+	
+	farm_RGO_size = -0.56
+	mine_RGO_size = -0.56	
 	
     poor_income_modifier = 0.3
     middle_income_modifier = 0.3
@@ -3050,8 +3056,9 @@ RGO_education_4 = {
 	#middle_luxury_needs = -0.30
 	#rich_luxury_needs = -0.30
 
-	farm_rgo_size = -0.20
-	mine_rgo_size = -0.20
+	farm_RGO_size = -0.58
+	mine_RGO_size = -0.58
+
 	
     poor_income_modifier = 0.4
     middle_income_modifier = 0.4
@@ -3076,8 +3083,8 @@ RGO_education_5 = {
 	#middle_luxury_needs = -0.25
 	#rich_luxury_needs = -0.25
 
-	farm_rgo_size = -0.25
-	mine_rgo_size = -0.25
+	farm_RGO_size = -0.60
+	mine_RGO_size = -0.60
 	
     poor_income_modifier = 0.5
     middle_income_modifier = 0.5
@@ -3102,8 +3109,11 @@ RGO_education_6 = {
 	#middle_luxury_needs = -0.20
 	#rich_luxury_needs = -0.20
 
-	farm_rgo_size = -0.30
-	mine_rgo_size = -0.30
+	#farm_RGO_size = -0.30
+	#mine_RGO_size = -0.30
+
+	farm_RGO_size = -0.62
+	mine_RGO_size = -0.62
 	
     poor_income_modifier = 0.6
     middle_income_modifier = 0.6
@@ -3128,8 +3138,8 @@ RGO_education_7 = {
 	#middle_luxury_needs = -0.15
 	#rich_luxury_needs = -0.15
 
-	farm_rgo_size = -0.35
-	mine_rgo_size = -0.35
+	farm_RGO_size = -0.64
+	mine_RGO_size = -0.64
 	
     poor_income_modifier = 0.35
     middle_income_modifier = 0.35
@@ -3154,8 +3164,8 @@ RGO_education_8 = {
 	#middle_luxury_needs = -0.10
 	#rich_luxury_needs = -0.10
 
-	farm_rgo_size = -0.40
-	mine_rgo_size = -0.40
+	farm_RGO_size = -0.66
+	mine_RGO_size = -0.66
 	
     poor_income_modifier = 0.8
     middle_income_modifier = 0.8
@@ -3180,8 +3190,8 @@ RGO_education_9 = {
 	#middle_luxury_needs = -0.05
 	#rich_luxury_needs = -0.05
 	
-	farm_rgo_size = -0.45
-	mine_rgo_size = -0.45
+	farm_RGO_size = -0.68
+	mine_RGO_size = -0.68
 	
     poor_income_modifier = 0.9
     middle_income_modifier = 0.9
@@ -3206,8 +3216,8 @@ RGO_education_10 = {
 	#middle_luxury_needs = -0.0
 	#rich_luxury_needs = -0.0
 
-	farm_rgo_size = -0.50
-	mine_rgo_size = -0.50
+	farm_RGO_size = -0.70
+	mine_RGO_size = -0.70
 	
 	poor_income_modifier = 1.0
     middle_income_modifier = 1.0
