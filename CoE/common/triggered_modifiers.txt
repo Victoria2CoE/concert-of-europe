@@ -823,85 +823,85 @@ occupied_capital = {
 	icon = 1
 }
 
-sustainable_education_1 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.1
-	}
-	education_efficiency_modifier = 0.10
-	icon = 19
-}
-
-sustainable_education_2 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.2
-	}
-	education_efficiency_modifier = 0.2
-	icon = 19
-}
-
-sustainable_education_3 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.3
-	}
-	education_efficiency_modifier = 0.3
-	icon = 19
-}
-
-sustainable_education_4 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.4
-	}
-	education_efficiency_modifier = 0.4
-	icon = 19
-}
-
-sustainable_education_5 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.5
-	}
-	education_efficiency_modifier = 0.5
-	icon = 19
-}
-
-sustainable_education_6 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.6
-	}
-	education_efficiency_modifier = 0.6
-	icon = 19
-}
-
-sustainable_education_7 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.7
-	}
-	education_efficiency_modifier = 0.7
-	icon = 19
-}
-
-sustainable_education_8 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.8
-	}
-	education_efficiency_modifier = 0.8
-	icon = 19
-}
-
-sustainable_education_9 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.9
-	}
-	education_efficiency_modifier = 0.9
-	icon = 19
-}
-
-sustainable_education_10 = { #Changed to bonus
-	trigger = {
-		social_spending = 0.99
-	}
-	education_efficiency_modifier = 0.99
-	icon = 19
-}
+#sustainable_education_1 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.1
+#	}
+#	education_efficiency_modifier = 0.10
+#	icon = 19
+#}
+#
+#sustainable_education_2 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.2
+#	}
+#	education_efficiency_modifier = 0.2
+#	icon = 19
+#}
+#
+#sustainable_education_3 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.3
+#	}
+#	education_efficiency_modifier = 0.3
+#	icon = 19
+#}
+#
+#sustainable_education_4 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.4
+#	}
+#	education_efficiency_modifier = 0.4
+#	icon = 19
+#}
+#
+#sustainable_education_5 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.5
+#	}
+#	education_efficiency_modifier = 0.5
+#	icon = 19
+#}
+#
+#sustainable_education_6 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.6
+#	}
+#	education_efficiency_modifier = 0.6
+#	icon = 19
+#}
+#
+#sustainable_education_7 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.7
+#	}
+#	education_efficiency_modifier = 0.7
+#	icon = 19
+#}
+#
+#sustainable_education_8 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.8
+#	}
+#	education_efficiency_modifier = 0.8
+#	icon = 19
+#}
+#
+#sustainable_education_9 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.9
+#	}
+#	education_efficiency_modifier = 0.9
+#	icon = 19
+#}
+#
+#sustainable_education_10 = { #Changed to bonus
+#	trigger = {
+#		social_spending = 0.99
+#	}
+#	education_efficiency_modifier = 0.99
+#	icon = 19
+#}
 
 ###Demand+
 overbuying_stuff_rich = { #experimental
