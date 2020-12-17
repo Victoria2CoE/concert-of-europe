@@ -66,7 +66,7 @@ province_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -76,11 +76,11 @@ province_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 					}
 		    }
@@ -143,7 +143,7 @@ province_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -153,11 +153,11 @@ province_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 						  is_core = SAF
 					}
@@ -224,7 +224,7 @@ country_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -234,11 +234,11 @@ country_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 						  is_core = SAF
 					}
@@ -264,7 +264,7 @@ country_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -274,11 +274,11 @@ country_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 						  is_core = SAF
 					}
@@ -304,7 +304,7 @@ country_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -314,11 +314,11 @@ country_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 						  is_core = SAF
 					}
@@ -344,7 +344,7 @@ country_event = {
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
-			         continet = asia 
+			         continent = asia 
                      OR = {	
                            AND = {					 
 					              owner = { tag = JAP }
@@ -354,11 +354,11 @@ country_event = {
 					}
 			}
 			AND = { 
-			        continet = africa 
+			        continent = africa 
                     OR = {	
                           AND = {					 
 					             owner = { tag = FRA }
-                                 is_core = ALG							   
+                                 is_core = ALD							   
                           }
 						  is_core = SAF
 					}

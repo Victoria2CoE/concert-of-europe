@@ -95,7 +95,7 @@ country_event = {
 	is_triggered_only = yes	
 	
 	trigger = {
-		limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+		exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 }
 		NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
 	}
 
