@@ -1,4 +1,4 @@
-sprite = 3
+captialsprite = 3
 color = { 240 240 240 }
 strata = middle
 
@@ -881,7 +881,7 @@ promote_to = {
 	{
 		factor = 0.01
  		modifier = {
-			factor = 20
+			factor = 50
 			NOT  = { literacy = 0.1 }
 			NOT = { state_scope = { capitalists  = 0.025 } }
 		}
