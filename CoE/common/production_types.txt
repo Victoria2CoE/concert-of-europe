@@ -3,15 +3,15 @@
 
 military_factory_template = {
 	efficiency = {
-		coal = 6.0 #3.45$
-		horses = 0.25 #0.4$
-		lead = 1 #0.92$
-		copper = 1 #1.4$
-		sulphur = 0.5 #0.7$
-		timber = 0.5 #0.36$
-		cattle = 0.1 #0.04$
-		cotton = 0.1 #0.04$
-		wool = 0.05 #0.02$
+		coal = 15.0 #3.45$
+		horses = .625 #0.4$
+		lead = 2.5 #0.92$
+		copper = 2.5 #1.4$
+		sulphur = 1.25 #0.7$
+		timber = 1.25 #0.36$
+		cattle = 0.25 #0.04$
+		cotton = 0.25 #0.04$
+		wool = 0.75 #0.02$
 		#4.387$
 	}
 
@@ -54,15 +54,15 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 12.0 #2.3$
-		horses = 0.15 #0.08$
- 		timber = 1.5 #0.36$
-        sulphur = 0.375 #0.175$
-        copper = 3 #0.52$
-		lead = 3 #0.46$
-		oil = 3 #0.8$
-		rubber = 3 #0.8$
-		iron = 18
+		coal = 30.0 #2.3$
+		horses = 0.30 #0.08$
+ 		timber = 3.75 #0.36$
+        sulphur = 0.94 #0.175$
+        copper = 7.5 #0.52$
+		lead = 7.5 #0.46$
+		oil = 7.5 #0.8$
+		rubber = 7.5 #0.8$
+		iron = 45.0
 		#6.215$
 	}
 
@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 2.0
-		coal = 1 #0.46$
-		horses = 0.3 #0.24$
- 		timber = 0.75 #0.27$
-		lead = 0.1 #0.046$
-		cattle = 3 #1.2$
-		fish = 3 #1.2$
-		fruit = 2.02 #0.845$
+		grain = 5.00
+		coal = 2.5 #0.46$
+		horses = 1.88 #0.24$
+ 		timber = 1.88 #0.27$
+		lead = 0.25 #0.046$
+		cattle = 7.5 #1.2$
+		fish = 7.5 #1.2$
+		fruit = 5.00 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 0.10 #0.07$
+		sulphur = 6.25 #0.07$
 		#4.436$
 	}
 
@@ -157,18 +157,18 @@ food_factory_template = {
 
 light_factory_template = {
 	efficiency = {
-		coal = 8 #1.38$
- 		timber = 8 #1.44$
-		dye = 4 #0.8$
-		wool = 8 #0.8$
-		cotton = 20 #2$
-		rubber = 4 #0.4$
-		oil = 4 #0.4$
-		#copper = 0.40 #0.208$
-		#lead = 0.20 #0.092$
-		#iron = 0.60 #0.396$
-		cattle = 10 #0.4$
-		grain = 12.0
+		coal = 15 #1.38$
+ 		timber = 20 #1.44$
+		dye = 7.5 #0.8$
+		wool = 1.2 #0.8$
+		cotton = 1.5 #2$
+		rubber = 37.5 #0.4$
+		oil = 3 #0.4$
+		#copper = 1.00 #0.208$
+		#lead = 0.50 #0.092$
+		#iron = 1.50 #0.396$
+		cattle = 18.75 #0.4$
+		grain = 22.50
 		#7.916$
 	}
 
@@ -211,28 +211,28 @@ light_factory_template = {
 
 luxury_factory_template = {
 	efficiency = {
-		silk = 3.0 #1.5$ 
-		spices = 2 #1.6$
-		opium = 2 #1.6$
-		coffee = 2 #0.9$
-		tea = 2 #0.5$
+		silk = 7.5 #1.5$ 
+		spices = 5 #1.6$
+		opium = 5 #1.6$
+		coffee = 5 #0.9$
+		tea = 5 #0.5$
 		#cattle = 3.0 #0.6$
 		fruit = 2.6 #0.52$
 		#grain = 0.5 #0.15$	
 		#coal = 2 #0.92$
  		#timber = 2 #0.72$
-		tropical_wood = 2 #1$
+		tropical_wood = 5 #1$
 		#timber = 3 #0.72$
-		dye = 4 #1.6$
+		dye = 20 #1.6$
 		#wool = 3.2 #0.64$
-		cotton = 18 #2.4$
+		cotton = 45 #2.4$
 		#rubber = 2 #0.8$
 		#copper = 0.60 #0.312$
 		#oil = 1 #0.4$
 		#lead = 0.25 #0.115$
 		#iron = 0.80 #0.528$
 		#silk = 1.5 #1.5$ 
-		horses = 0.1 #0.08$
+		horses = 0.25 #0.08$
 		#sugar = 0.40 #0.12$
 		#spices = 1 #1.6$
 		#opium = 1 #1.6$
