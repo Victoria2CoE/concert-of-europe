@@ -23,10 +23,10 @@ rebel =
 strata = middle
 
 
-life_needs_income = {
-	type = education
-	weight = 1.0
-}
+#ife_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
 
 life_needs = {
 	food_industry = 1.5

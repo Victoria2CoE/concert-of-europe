@@ -1390,7 +1390,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "exp_0_pops"
-			position = { x = 10000 y = 10000 }
+			position = { x = 580 y = 178 }
 			size = { x=200 y= 32 }
 			Orientation = "UPPER_LEFT"
 			format = left

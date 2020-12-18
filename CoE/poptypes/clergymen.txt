@@ -22,7 +22,7 @@ rebel =
 demote_migrant = no
 can_reduce_consciousness = yes
 research_points = 2	#if max %, then 2 extra research points.
-research_optimum = 0.03	#2%
+research_optimum = 0.04	#2%
 
 life_needs_income = {
 	type = administration

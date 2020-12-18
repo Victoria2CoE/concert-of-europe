@@ -4,7 +4,7 @@ strata = rich
 #state_capital_only = yes
 #is_artisan = yes
 research_points = 2
-research_optimum = 0.04
+research_optimum = 0.05
 
 #merge_max_size = 1000000
 #max_size = 1000
@@ -23,7 +23,17 @@ rebel =
 	regular = 0.3
 }
 
-life_needs_income = {
+ife_needs_income = {
+	type = education
+	weight = 1.0
+}
+
+everyday_needs_income = {
+	type = education
+	weight = 1.0
+}
+
+luxury_needs_income = {
 	type = education
 	weight = 1.0
 }

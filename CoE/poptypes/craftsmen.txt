@@ -28,10 +28,10 @@ rebel =
 	regular = 0.2
 }
 
-life_needs_income = {
-	type = education
-	weight = 1.0
-}
+#ife_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
 
 strata = poor
 

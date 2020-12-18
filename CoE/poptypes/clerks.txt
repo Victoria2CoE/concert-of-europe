@@ -21,10 +21,10 @@ rebel =
 	regular = 0.3
 }
 
-life_needs_income = {
-	type = education
-	weight = 1.0
-}
+#ife_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
 
 sprite = 5
 unemployment = yes
