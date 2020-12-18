@@ -6,6 +6,9 @@ can_work_factory = yes
 #is_slave = yes
 allowed_to_vote = yes
 
+research_points = 1
+research_optimum = 0.50
+
 #merge_max_size = 1000000
 #max_size = 1000
 
