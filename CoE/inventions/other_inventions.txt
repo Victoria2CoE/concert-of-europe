@@ -2660,7 +2660,7 @@ first_railroads = {
 	}
 	effect = {
 		shared_prestige = 5
-		#activate_building = railroad
+		activate_building = railroad
 		mobilisation_size = 0.002
 	}
 }
