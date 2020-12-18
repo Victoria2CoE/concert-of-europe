@@ -45,7 +45,7 @@ upper_house = {
 set_country_flag = existing_country
 
 education_reform = yes_education_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 
 # Technologies
 malthusian_thought = 1
@@ -64,7 +64,7 @@ literacy = 0.01 #literacy = 0.4
 
 land_reform = yes_land_reform
 education_reform = yes_education_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 
 # Technologies
@@ -91,7 +91,7 @@ foreign_navies = advanced_foreign_navies
 naval_schools = yes_naval_schools
 land_reform = yes_land_reform
 finance_reform = yes_finance_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 medicine_reform = alchemy
 taxation_reform = tax_farmers
 diplomatic_reform = interactive

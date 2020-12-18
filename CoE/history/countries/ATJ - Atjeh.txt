@@ -69,7 +69,7 @@ oob = "ATJ_oob.txt"
 	
 	unciv_light_armament = gunpowder_weapons
 	unciv_artillery = early_light_artillery
-	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+	academic_institutions = madrasahs
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
 	
@@ -88,7 +88,7 @@ oob = "ATJ_oob.txt"
 
 unciv_light_armament = gunpowder_weapons
 unciv_artillery = early_light_artillery
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

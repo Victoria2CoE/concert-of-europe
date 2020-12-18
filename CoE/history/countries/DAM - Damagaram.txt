@@ -47,7 +47,7 @@ upper_house = {
 set_country_flag = existing_country
 
 unciv_light_armament = gunpowder_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 diplomatic_reform = interactive
 
 # Technologies
@@ -68,7 +68,7 @@ oob = "DAM_oob.txt"
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 diplomatic_reform = interactive
 
 # Technologies

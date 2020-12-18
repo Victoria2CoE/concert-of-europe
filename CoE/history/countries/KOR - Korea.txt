@@ -45,7 +45,7 @@ upper_house = {
 
 set_country_flag = existing_country
 
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 
 # Technologies
@@ -65,7 +65,7 @@ literacy = 0.01 #literacy = 0.06
 non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 admin_reform = yes_admin_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_inspectors
 
 # Technologies
@@ -81,7 +81,7 @@ freedom_of_trade = 1
 
 unciv_light_armament = gunpowder_weapons
 admin_reform = yes_admin_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_inspectors
 
 # Technologies

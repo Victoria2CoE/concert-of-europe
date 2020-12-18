@@ -75,7 +75,7 @@ oob = "PAN_oob.txt"
 	unciv_officer_corps = foreign_officers_commanding
 	unciv_artillery = early_light_artillery
 	admin_reform = yes_admin_reform
-	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+	academic_institutions = madrasahs
 	diplomatic_reform = interactive
 	
 	# Technologies

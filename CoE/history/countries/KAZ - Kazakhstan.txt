@@ -46,7 +46,7 @@ upper_house = {
 }
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 diplomatic_reform = interactive
 
 # Technologies
@@ -63,7 +63,7 @@ nonstate_consciousness = 0
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

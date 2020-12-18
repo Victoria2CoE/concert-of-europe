@@ -48,7 +48,7 @@ set_country_flag = existing_country
 unciv_light_armament = gunpowder_weapons
 unciv_naval_construction = unciv_standardised_naval_designs
 unciv_naval_organisation = unciv_local_admiralities
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 diplomatic_reform = interactive
 
 # Technologies
@@ -74,7 +74,7 @@ non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy =
 
 unciv_light_armament = gunpowder_weapons
 unciv_artillery = early_light_artillery
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
@@ -100,7 +100,7 @@ unciv_officer_corps = foreign_officers_commanding
 unciv_artillery = early_light_artillery
 admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

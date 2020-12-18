@@ -58,7 +58,7 @@ literacy = 0.01 #literacy = 0.1
 non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 unciv_light_armament = gunpowder_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 diplomatic_reform = interactive
 
 # Technologies
@@ -71,7 +71,7 @@ early_classical_theory_and_critique = 1
 
 unciv_light_armament = gunpowder_weapons
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

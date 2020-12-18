@@ -45,7 +45,7 @@ upper_house = {
 
 set_country_flag = existing_country
 
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 
 # Technologies
@@ -67,7 +67,7 @@ oob = "CHI_oob.txt"
 	set_country_flag = khoja_rebellion
 
 	admin_reform = yes_admin_reform
-	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+	academic_institutions = madrasahs
 	taxation_reform = tax_farmers
 
 	# Technologies
@@ -86,7 +86,7 @@ unciv_officer_corps = foreign_officers_commanding
 unciv_artillery = early_light_artillery
 admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+academic_institutions = madrasahs
 taxation_reform = tax_farmers
 
 # Technologies
