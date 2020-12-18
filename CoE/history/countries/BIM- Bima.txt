@@ -42,7 +42,7 @@ upper_house = {
 	communist = 0
 }
 
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies
@@ -54,7 +54,7 @@ classicism_n_early_romanticism = 1
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

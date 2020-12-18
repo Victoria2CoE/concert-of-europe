@@ -47,7 +47,7 @@ set_country_flag = tozama_daimyo
 
 unciv_light_armament = gunpowder_weapons
 education_reform = yes_education_reform
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 
 # Technologies
 flintlock_rifles = 1
@@ -69,7 +69,7 @@ unciv_light_armament = gunpowder_weapons
 unciv_artillery = early_light_artillery
 land_reform = yes_land_reform
 education_reform = yes_education_reform
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 
 # Technologies
@@ -100,7 +100,7 @@ naval_schools = yes_naval_schools
 land_reform = yes_land_reform
 finance_reform = yes_finance_reform
 education_reform = yes_education_reform
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 medicine_reform = alchemy
 taxation_reform = tax_farmers
 diplomatic_reform = interactive

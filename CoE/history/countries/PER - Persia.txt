@@ -55,7 +55,7 @@ unciv_artillery = early_light_artillery
 unciv_military_training = field_drills
 unciv_military_doctrines = the_lessons_of_war
 unciv_officer_corps = foreign_officers_commanding
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
@@ -87,7 +87,7 @@ oob = "/1821/PER_oob.txt"
 	foreign_training = yes_foreign_training
 	unciv_light_armament = gunpowder_weapons
 	finance_reform = yes_finance_reform
-	academic_institutions = madrasahs
+	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 	medicine_reform = alchemy
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
