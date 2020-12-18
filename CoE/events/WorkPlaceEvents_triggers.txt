@@ -1170,11 +1170,11 @@ country_event = {
 		random_country = {
 			limit = {
 				civilized = yes
-				#any_state = { #has_building = havy_factory_building }
+				#any_state = { #has_building = heavy_factory_building }
 			}
 			random_owned = {
 				limit = {
-					#state_scope = { #has_building = havy_factory_building }
+					#state_scope = { #has_building = heavy_factory_building }
 				}
 				province_event = { id = 12161 }
 			}
