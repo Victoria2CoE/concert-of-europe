@@ -278,7 +278,7 @@ heavy_factory = {
 	input_goods = {
 		#iron = 1
 		coal = 10
-		iron = 6
+		iron = 2
 	}
 	output_goods = heavy_industry
 	value = 4 #1.6
