@@ -12,17 +12,18 @@ political_decisions = {
 		}
 		
 		allow = {
-			civilization_progress = 0.10
+			civilization_progress = 0.20
 		}
 		
 		effect = {
-			civilize = yes
+			civilized = yes
 			add_country_modifier = {
 				name = just_civilized
 				duration = 3650
 			}			
 			country_event = 90910
 		}
+		
 		set_country_flag = already_civilized
 	}
 	civilize_your_nation_china = {
@@ -38,7 +39,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			civilization_progress = 0.10
+			civilization_progress = 0.20
 		}
 		
 		effect = {

@@ -3935,6 +3935,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA90910"
 		prestige = 10
+		civilized = yes
 		remove_country_modifier = educational_reform
 		remove_country_modifier = military_reform
 		remove_country_modifier = western_influences
