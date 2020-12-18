@@ -377,7 +377,7 @@ acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12 #months = 12
-	always = no #always = yes
+	always = yes #always = yes
 
 	construction_speed = 0.25 #construction_speed = 0.25 0.8
 
@@ -453,7 +453,7 @@ acquire_all_cores = {
 	is_triggered_only = yes
 	months = 12 #months = 12
 	constructing_cb = no
-	crisis = no
+	crisis = yes
 
 	badboy_factor = 10
 	prestige_factor = 2
@@ -1311,7 +1311,7 @@ annex_core_country = {
 	prestige_factor = 5
 	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = no #always = yes
+	always = yes #always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
