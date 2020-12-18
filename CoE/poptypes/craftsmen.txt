@@ -28,9 +28,9 @@ rebel =
 	regular = 0.2
 }
 
-everyday_needs_income = {
+life_needs_income = {
 	type = education
-	weight = 5.0
+	weight = 1.0
 }
 
 strata = poor
