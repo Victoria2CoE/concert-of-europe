@@ -690,10 +690,10 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 5, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 0.0, -- ai weight for new bureaucrat
-	INDUSTRYWORKER_WEIGHT = 0.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 0.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 0.0, -- ai weight for soldiers
+	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
+	INDUSTRYWORKER_WEIGHT = 20.0, -- ai weight for new industry workers
+	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
+	SOLDIER_WEIGHT = 15.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.05, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.5, -- ai weight for new production
