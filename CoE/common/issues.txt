@@ -2048,6 +2048,7 @@ military_reforms = {
 		}
 		field_drills = {
 			#unit stats improve
+			technology_cost = 1520
 			land_organisation = 0.02
 			mobilisation_size = 0.005
 			technology_cost = 1900
