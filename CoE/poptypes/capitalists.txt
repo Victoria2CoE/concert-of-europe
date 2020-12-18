@@ -684,7 +684,11 @@ promote_to =
 		}  
 	}
 	officers = {
-		factor = 0.01		
+		factor = 0.01
+ 		modifier = {
+			factor = -10
+			NOT = { state_scope = { capitalists  = 0.032 } }
+		}		
 		modifier = {
 			factor = 10
 			military_spending = 0.1
@@ -752,6 +756,10 @@ promote_to =
 	clergymen =
 	{
 		factor = 0.01
+ 		modifier = {
+			factor = -10
+			NOT = { state_scope = { capitalists  = 0.032 } }
+		}		
 		modifier = {
 			factor = 5
 			administration_spending = 0.1
@@ -818,6 +826,10 @@ promote_to =
 	}
 	bureaucrats = {
 		factor = 0.01
+ 		modifier = {
+			factor = -10
+			NOT = { state_scope = { capitalists  = 0.032 } }
+		}
 		modifier = {
 			factor = 5
 			administration_spending = 0.1
