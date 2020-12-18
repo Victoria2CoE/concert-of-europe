@@ -149,7 +149,7 @@ base_values = {
 	mobilisation_size = 0.075	
 	global_population_growth = 0.010
 	loan_interest = 1.0
-	factory_maintenance = 5.0
+	factory_maintenance = 10.0
 	min_military_spending = 0.10
 	tax_efficiency = 0.20
 }
