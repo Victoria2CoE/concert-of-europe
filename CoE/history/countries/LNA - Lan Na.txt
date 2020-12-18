@@ -44,7 +44,7 @@ upper_house = {
 }
 
 unciv_light_armament = gunpowder_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies
@@ -65,7 +65,7 @@ oob = "LNA_oob.txt"
 1861.1.1 = {
 
 unciv_light_armament = gunpowder_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies

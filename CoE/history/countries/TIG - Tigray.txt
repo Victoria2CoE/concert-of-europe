@@ -48,7 +48,7 @@ upper_house = {
 set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies
@@ -69,7 +69,7 @@ literacy = 0.01 #literacy = 0.03
 non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

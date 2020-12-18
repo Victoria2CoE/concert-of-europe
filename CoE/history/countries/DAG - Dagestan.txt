@@ -49,7 +49,7 @@ set_country_flag = existing_country
 unciv_light_armament = gunpowder_weapons
 unciv_artillery = early_light_artillery
 finance_reform = yes_finance_reform
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

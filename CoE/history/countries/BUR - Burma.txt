@@ -47,7 +47,7 @@ set_country_flag = existing_country
 
 unciv_light_armament = gunpowder_weapons
 unciv_artillery = early_light_artillery
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies
@@ -71,7 +71,7 @@ oob = "/1821/BUR_oob.txt"
 	set_country_flag = return_of_the_king
 
 	foreign_weapons = yes_foreign_weapons
-	academic_institutions = madrasahs
+	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
 
@@ -90,7 +90,7 @@ oob = "/1821/BUR_oob.txt"
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 

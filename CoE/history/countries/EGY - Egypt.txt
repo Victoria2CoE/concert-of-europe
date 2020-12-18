@@ -50,7 +50,7 @@ set_country_flag = existing_country
 unciv_light_armament = gunpowder_weapons
 unciv_naval_construction = unciv_standardised_naval_designs
 unciv_naval_organisation = unciv_local_admiralities
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
@@ -83,7 +83,7 @@ oob = "/1821/EGY_oob.txt"
 	foreign_navies = yes_foreign_navies
 	education_reform = yes_education_reform
 	pre_indust = yes_pre_indust
-	academic_institutions = madrasahs
+	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
 	
@@ -120,7 +120,7 @@ oob = "/1821/EGY_oob.txt"
 	finance_reform = yes_finance_reform
 	education_reform = yes_education_reform
 	pre_indust = no_pre_indust
-	academic_institutions = madrasahs
+	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
 

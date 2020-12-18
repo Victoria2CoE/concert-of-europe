@@ -47,7 +47,7 @@ upper_house = {
 set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 diplomatic_reform = interactive
 
 # Technologies
@@ -68,7 +68,7 @@ oob = "/1821/HZJ_oob.txt"
 	literacy = 0.01 #literacy = 0.2
 	
 	foreign_weapons = yes_foreign_weapons
-	academic_institutions = madrasahs
+	academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
 	
@@ -81,7 +81,7 @@ oob = "/1821/HZJ_oob.txt"
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
