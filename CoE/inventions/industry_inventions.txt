@@ -795,7 +795,7 @@ pit_coal = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 1
+			coal = 0.1
 		}
 	}
 	
@@ -814,7 +814,7 @@ coke = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 0.5
+			coal = 0.05
 		}
 	}
 	
@@ -830,13 +830,13 @@ advanced_ore_roasting_processes = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			iron = 0.5
+			iron = 0.05
 		}
 		rgo_goods_throughput = {
-			lead = 1
+			lead = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 0.4
+			copper = 0.05
 		}
 	}
 	
@@ -855,13 +855,13 @@ advanced_ore_grinding_processes = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			iron = 0.5
+			iron = 0.05
 		}
 		rgo_goods_throughput = {
-			lead = 1
+			lead = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 0.5
+			copper = 0.05
 		}
 	}
 	
@@ -880,13 +880,13 @@ advanced_ore_smelting_processes = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			iron = 1
+			iron = 0.1
 		}
 		rgo_goods_throughput = {
-			lead = 1
+			lead = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 1
+			copper = 0.1
 		}
 	}
 	

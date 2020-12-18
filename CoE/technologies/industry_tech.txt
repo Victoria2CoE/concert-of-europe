@@ -1605,13 +1605,13 @@ mechanized_mining = {
 	cost = 4500
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 1
+		coal = 0.1
 	}
 	rgo_goods_throughput = {
-		copper = 1
+		copper = 0.1
 	}
 	rgo_goods_throughput = {
-		lead = 1
+		lead = 0.1
 	}
 	ai_chance = {
 		factor = 2
@@ -1697,22 +1697,22 @@ clean_coal = {
 	cost = 7600
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 4
+		coal = 0.4
 	}
 	rgo_goods_throughput = {
-		iron = 0.5
+		iron = 0.05
 	}
 	rgo_goods_throughput = {
-		sulphur = 0.5
+		sulphur = 0.05
 	}
 	factory_goods_throughput = {
 		heavy_industry =  0.05 
 	}
 	rgo_goods_throughput = {
-		copper = 0.5
+		copper = 0.05
 	}
 	rgo_goods_throughput = {
-		lead = 0.5
+		lead = 0.05
 	}
 	ai_chance = {
 		factor = 2
@@ -1801,13 +1801,13 @@ cheap_iron = {
 		precious_metal = 0.025
 	}
 	rgo_goods_throughput = {
-		iron = 2
+		iron = 0.2
 	}
 	rgo_goods_throughput = {
-		sulphur = 0.5
+		sulphur = 0.05
 	}
 	rgo_goods_throughput = {
-		coal = 2
+		coal = 0.2
 	}
 	factory_goods_throughput = {
 		heavy_industry =  0.05 
@@ -1816,10 +1816,10 @@ cheap_iron = {
 		heavy_industry =  0.05 
 	}
 	rgo_goods_throughput = {
-		copper = 2
+		copper = 0.2
 	}
 	rgo_goods_throughput = {
-		lead = 0.5
+		lead = 0.05
 	}
 	ai_chance = {
 		factor = 1.5
@@ -1910,25 +1910,22 @@ cheap_steel =  {
 		precious_metal = 0.1
 	}
 	rgo_goods_throughput = {
-		sulphur = 2
+		sulphur = 0.2
 	}
 	rgo_goods_throughput = {
-		coal = 2
+		coal = 0.2
 	}
 	rgo_goods_throughput = {
-		iron = 2
+		iron = 0.2
 	}
 	rgo_goods_throughput = {
-		copper = 2
+		copper = 0.2
 	}
 	rgo_goods_throughput = {
-		lead = 2
+		lead = 0.2
 	}
 	factory_goods_output = {
 		heavy_industry =  0.2
-	}
-	factory_goods_output = {
-		heavy_industry =  0.2 
 	}
 	ai_chance = {
 		factor = 1.5
@@ -2032,28 +2029,25 @@ advanced_metallurgy = {
 	education_efficiency = 0.05
 	
 	rgo_goods_throughput = {
-		oil = 4
+		oil = 1
 	}
 	rgo_goods_throughput = {
-		iron = 4
+		iron = 0.4
 	}
 	rgo_goods_throughput = {
-		sulphur = 4
+		sulphur = 0.4
 	}
 	factory_goods_throughput = {
 		heavy_industry =  0.2 
 	}
-	factory_goods_throughput = {
-		heavy_industry =  0.2 
+	rgo_goods_throughput = {
+		copper = 0.4
 	}
 	rgo_goods_throughput = {
-		copper = 4
+		lead = 0.4
 	}
 	rgo_goods_throughput = {
-		lead = 4
-	}
-	rgo_goods_throughput = {
-		coal = 4
+		coal = 0.4
 	}
 	ai_chance = {
 		factor = 1.5
@@ -2141,10 +2135,10 @@ electric_furnace = {
 	cost = 30000
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 4
+		coal = 0.4
 	}
 	rgo_goods_throughput = {
-		iron = 4
+		iron = 0.4
 	}
 	factory_goods_output = {
 		heavy_industry =  0.1 
@@ -2153,16 +2147,16 @@ electric_furnace = {
 		heavy_industry =  0.1 
 	}
 	rgo_goods_throughput = {
-		copper = 4
+		copper = 0.4
 	}
 	rgo_goods_throughput = {
-		lead = 4
+		lead = 0.4
 	}
 	rgo_goods_throughput = {
-		oil = 4
+		oil = 0.4
 	}
 	rgo_goods_throughput = {
-		sulphur = 4
+		sulphur = 0.4
 	}
 	ai_chance = {
 		factor = 2
@@ -2246,10 +2240,10 @@ modern_metallurgy = {
 	cost = 40000
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 4
+		coal = 0.4
 	}
 	rgo_goods_throughput = {
-		iron = 4
+		iron = 0.4
 	}
 	factory_goods_output = {
 		heavy_industry =  0.1 
@@ -2258,16 +2252,16 @@ modern_metallurgy = {
 		heavy_industry =  0.1 
 	}
 	rgo_goods_throughput = {
-		copper = 4
+		copper = 0.4
 	}
 	rgo_goods_throughput = {
-		lead = 4
+		lead = 0.4
 	}
 	rgo_goods_throughput = {
-		oil = 4
+		oil = 0.4
 	}
 	rgo_goods_throughput = {
-		sulphur = 4
+		sulphur = 0.4
 	}
 	ai_chance = {
 		factor = 2
@@ -2357,6 +2351,12 @@ modern_metallurgy_1930 = {
 	factory_goods_output = {
 		heavy_industry =  0.25 
 	}
+	rgo_goods_throughput = {
+		coal = 0.2
+	}
+	rgo_goods_throughput = {
+		iron = 0.2
+	}			
 	ai_chance = {
 		factor = 2
 		modifier = {
