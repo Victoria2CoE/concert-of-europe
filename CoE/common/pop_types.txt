@@ -1186,7 +1186,7 @@ factor = 0.25
 		type = aristocrats
 	}	
 	modifier = { 
-		factor = 0.10
+		factor = 0.25
 		always = yes 
 	}
 	modifier = { 
@@ -1414,7 +1414,7 @@ factor = 0.25
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.15
+	factor = 0.05
 	modifier = {
 		factor = 0.2
 		always = yes
