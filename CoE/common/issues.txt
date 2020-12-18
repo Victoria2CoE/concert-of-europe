@@ -209,7 +209,7 @@ party_issues = {
 	war_policy = {
 		jingoism = {
 			max_military_spending = 1
-			min_military_spending = 0.25
+			min_military_spending = 0.20
 			cb_generation_speed_modifier = 0.3
 			is_jingoism = yes
 			org_regain = 0.2
@@ -529,7 +529,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = -0.02
 			land_unit_start_experience = 10
 			max_military_spending = 0.20
-			min_military_spending = 0.10
+			min_military_spending = 0.20
 			rgo_throughput = -0.25
 			factory_throughput = -0.25
 		}
@@ -541,7 +541,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			land_unit_start_experience = 7.5
 			max_military_spending = 0.10
-			min_military_spending = 0.05
+			min_military_spending = 0.15
 			rgo_throughput = -0.15
 			factory_throughput = -0.15
 		}
@@ -552,6 +552,7 @@ political_reforms = {
 			land_unit_start_experience = 5
 			rgo_throughput = -0.10
 			factory_throughput = -0.10
+			min_military_spending = 0.10			
 		}
 		one_year_draft = {
 			#mobilization_impact = 0
@@ -561,7 +562,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = 0.01
 			land_unit_start_experience = 2.5
 			max_military_spending = -0.10
-			min_military_spending = -0.05
+			min_military_spending = 0.05
 			rgo_throughput = -0.05
 			factory_throughput = -0.05
 		}
@@ -573,7 +574,7 @@ political_reforms = {
 			global_pop_consciousness_modifier = 0.02
 			global_pop_militancy_modifier = -0.01
 			max_military_spending = -0.20
-			min_military_spending = -0.20
+			#min_military_spending = -0.20
 		}
 	}
 	minorities_reform = {

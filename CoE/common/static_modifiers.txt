@@ -150,6 +150,7 @@ base_values = {
 	global_population_growth = 0.010
 	loan_interest = 1.0
 	factory_maintenance = 5.0
+	min_military_spending = 0.10
 }
 
 war = {
