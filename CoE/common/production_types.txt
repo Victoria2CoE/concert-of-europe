@@ -3,7 +3,7 @@
 
 military_factory_template = {
 	efficiency = {
-		coal = 7.5 #3.45$
+		coal = 6.5 #3.45$
 		horses = 0.5 #0.4$
 		lead = 2 #0.92$
 		copper = 2 #1.4$
@@ -105,7 +105,7 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 2.0
+		grain = 1.5
 		coal = 1 #0.46$
 		horses = 0.3 #0.24$
  		timber = 0.75 #0.27$
@@ -277,7 +277,7 @@ heavy_factory = {
 	template = heavy_factory_template #98
 	input_goods = {
 		#iron = 1
-		coal = 1
+		coal = 3
 	}
 	output_goods = heavy_industry
 	value = 4 #1.6
@@ -295,7 +295,7 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 8
+		grain = 10
 	}
 	output_goods = food_industry
 	value = 8.5
