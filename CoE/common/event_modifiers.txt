@@ -1337,6 +1337,7 @@ just_civilized = {
 	global_pop_consciousness_modifier = 0.05
 	prestige = 0.05
 	research_points_modifier = 0.1
+	education_efficiency_modifier = 2.5
 	icon = 13
 }
 

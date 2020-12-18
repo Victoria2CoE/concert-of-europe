@@ -3954,7 +3954,7 @@ country_event = {
 			remove_province_modifier = boxer_presence
 			remove_province_modifier = boxer_agitation
 		}
-		activate_building = heavy_factory_building 
+		#activate_building = heavy_factory_building 
 		activate_unit = regular
 	}
 }
