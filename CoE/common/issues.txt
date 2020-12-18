@@ -252,7 +252,7 @@ political_reforms = {
 			allow = {
 				always = no
 			}
-			political_reform_desire = 0.05
+			#political_reform_desire = 0.05
 		}
 		no_slavery = {
 			rules = { slavery_allowed = no }
@@ -270,8 +270,8 @@ political_reforms = {
 			middle_vote = 0
 			poor_vote = 0
 			cb_generation_speed_modifier = 0.3
-			political_reform_desire = 0.25
-			social_reform_desire = 0.125
+			#political_reform_desire = 0.25
+			#social_reform_desire = 0.125
 		}
 		landed_voting = {
 			rich_vote = 1
@@ -279,16 +279,16 @@ political_reforms = {
 			poor_vote = 0.01
 			global_immigrant_attract = 0.005
 			cb_generation_speed_modifier = 0.1
-			political_reform_desire = 0.20
-			social_reform_desire = 0.10
+			#political_reform_desire = 0.20
+			#social_reform_desire = 0.10
 		}
 		wealth_weighted_voting = {
 			rich_vote = 2
 			middle_vote = 1
 			poor_vote = 0.01
 			global_immigrant_attract = 0.01
-			political_reform_desire = 0.15
-			social_reform_desire = 0.075
+			#political_reform_desire = 0.15
+			#social_reform_desire = 0.075
 		}
 		wealth_voting = {
 			rich_vote = 1
@@ -296,8 +296,8 @@ political_reforms = {
 			poor_vote = 0.05
 			global_immigrant_attract = 0.015
 			cb_generation_speed_modifier = -0.1
-			political_reform_desire = 0.10
-			social_reform_desire = 0.05
+			#political_reform_desire = 0.10
+			#social_reform_desire = 0.05
 		}
 		universal_weighted_voting = {
 			rich_vote = 3
@@ -305,8 +305,8 @@ political_reforms = {
 			poor_vote = 1
 			global_immigrant_attract = 0.02
 			cb_generation_speed_modifier = -0.2
-			political_reform_desire = 0.05
-			social_reform_desire = 0.025
+			#political_reform_desire = 0.05
+			#social_reform_desire = 0.025
 		}
 		universal_voting = {
 			rich_vote = 1
@@ -323,20 +323,20 @@ political_reforms = {
 			allow = {
 				always = no
 			}
-			political_reform_desire = 0.10
+			#political_reform_desire = 0.10
 		}
 		appointed = {
 			rules = { rich_only = yes }
-			political_reform_desire = 0.05
-			social_reform_desire = 0.025
+			#political_reform_desire = 0.05
+			#social_reform_desire = 0.025
 		}
 		state_equal_weight = {
 			rules = { state_vote = yes }
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-			political_reform_desire = 0.025
-			social_reform_desire = 0.01
+			#political_reform_desire = 0.025
+			#social_reform_desire = 0.01
 		}
 		population_equal_weight = {
 			rules = { population_vote = yes }
@@ -372,13 +372,13 @@ political_reforms = {
 		no_meeting = {
 			suppression_points_modifier = 0.25
 			global_pop_consciousness_modifier = -0.01
-			political_reform_desire = 0.05
-			social_reform_desire = 0.025
+			#political_reform_desire = 0.05
+			#social_reform_desire = 0.025
 		}
 		yes_meeting = {
 			issue_change_speed = 0.5
 			global_immigrant_attract = 0.005
-			social_reform_desire = 0.025
+			#social_reform_desire = 0.025
 		}
 	}
 	press_rights = {
@@ -388,16 +388,16 @@ political_reforms = {
 			global_pop_consciousness_modifier = -0.01
 			ruling_party_support = 0.10
 			global_immigrant_attract = -0.001
-			political_reform_desire = 0.10
-			social_reform_desire = 0.05
+			#political_reform_desire = 0.10
+			#social_reform_desire = 0.05
 		}
 		censored_press = {
 			literacy_con_impact = 0.5
 			suppression_points_modifier = -0.25
 			ruling_party_support = 0.05
 			issue_change_speed = 0.5
-			political_reform_desire = 0.05
-			social_reform_desire = 0.025
+			#political_reform_desire = 0.05
+			#social_reform_desire = 0.025
 		}
 		free_press = {
 			literacy_con_impact = 1
@@ -406,15 +406,15 @@ political_reforms = {
 			issue_change_speed = 1
 			global_immigrant_attract = 0.005
 			global_pop_consciousness_modifier = 0.01
-			social_reform_desire = 0.025
+			#social_reform_desire = 0.025
 		}
 	}
 	trade_unions = {
 		next_step_only = yes
 		no_trade_unions = {
-			social_reform_desire = 0.00
+			#social_reform_desire = 0.00
 			global_pop_consciousness_modifier = -0.01
-			political_reform_desire = 0.05
+			#political_reform_desire = 0.05
 		}
 		state_controlled = {
 			social_reform_desire = 0.10
@@ -448,8 +448,8 @@ political_reforms = {
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-		    political_reform_desire = 0.10
-			social_reform_desire = 0.05
+		    #political_reform_desire = 0.10
+			#social_reform_desire = 0.05
 		}
 		harassment = {
 			ruling_party_support = 0.15
@@ -458,8 +458,8 @@ political_reforms = {
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-			political_reform_desire = 0.075
-			social_reform_desire = 0.035
+			#political_reform_desire = 0.075
+			#social_reform_desire = 0.035
 		}
 		gerrymandering = {
 			ruling_party_support = 0.10
@@ -467,8 +467,8 @@ political_reforms = {
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-			political_reform_desire = 0.05
-			social_reform_desire = 0.025
+			#political_reform_desire = 0.05
+			#social_reform_desire = 0.025
 		}
 		non_secret_ballots = {
 			ruling_party_support = 0.05
@@ -477,8 +477,8 @@ political_reforms = {
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-			political_reform_desire = 0.025
-			social_reform_desire = 0.01
+			#political_reform_desire = 0.025
+			#social_reform_desire = 0.01
 		}
 		secret_ballots = {
 			global_immigrant_attract = 0.02
@@ -493,8 +493,8 @@ political_reforms = {
 		nobody_gets_out = {
 			global_immigrant_attract = -1.0
 			global_pop_consciousness_modifier = -0.01
-			political_reform_desire = 0.10
-			social_reform_desire = 0.05
+			#political_reform_desire = 0.10
+			#social_reform_desire = 0.05
 			education_efficiency_modifier = -1.00
 			goods_demand = -0.10
 			artisan_throughput = -0.10
@@ -609,14 +609,14 @@ social_reforms = {
 			minimum_wage = 0.2
 			global_immigrant_attract = 0.005
 			administrative_multiplier = 1
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 		}
 		low_minimum_wage = {
 			minimum_wage = 0.3
 			global_immigrant_attract = 0.01
 			administrative_multiplier = 2
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 		}
 		acceptable_minimum_wage = {
@@ -624,7 +624,7 @@ social_reforms = {
 			global_immigrant_attract = 0.015
 			global_pop_consciousness_modifier = -0.01
 			administrative_multiplier = 3
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 		}
 		good_minimum_wage = {
@@ -632,7 +632,7 @@ social_reforms = {
 			global_immigrant_attract = 0.020
 			global_pop_consciousness_modifier = -0.02
 			administrative_multiplier = 4
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.1
 			political_reform_desire = -0.1
 		}
 	}
@@ -648,7 +648,7 @@ social_reforms = {
 			global_immigrant_attract = 0.005
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.005
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 		}
 		twelve_hours = {
@@ -657,7 +657,7 @@ social_reforms = {
 			global_immigrant_attract = 0.010
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.01
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 		}
 		ten_hours = {
@@ -667,7 +667,7 @@ social_reforms = {
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
 			global_pop_militancy_modifier = -0.015
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 		}
 		eight_hours = {
@@ -677,7 +677,7 @@ social_reforms = {
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
 			global_pop_militancy_modifier = -0.02
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.10
 			political_reform_desire = -0.1
 		}
 	}
@@ -693,7 +693,7 @@ social_reforms = {
 			global_immigrant_attract = 0.005
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.005
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 		}
 		low_safety = {
@@ -702,7 +702,7 @@ social_reforms = {
 			global_immigrant_attract = 0.010
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.01
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 		}
 		acceptable_safety = {
@@ -712,7 +712,7 @@ social_reforms = {
 			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.015
 			global_pop_consciousness_modifier = -0.01
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 		}
 		good_safety = {
@@ -722,7 +722,7 @@ social_reforms = {
 			administrative_multiplier = 4
 			global_pop_militancy_modifier = -0.02
 			global_pop_consciousness_modifier = -0.02
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.10
 			political_reform_desire = -0.1
 		}
 	}
@@ -734,14 +734,14 @@ social_reforms = {
 		trinket_subsidies = {
 			unemployment_benefit = 2.5
 			global_immigrant_attract = 0.005
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 			min_social_spending = 0.03
 		}
 		low_subsidies = {
 			unemployment_benefit = 5
 			global_immigrant_attract = 0.010
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 			min_social_spending = 0.05
 		}
@@ -749,7 +749,7 @@ social_reforms = {
 			unemployment_benefit = 7.5
 			global_immigrant_attract = 0.015
 			global_pop_consciousness_modifier = -0.01
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 			min_social_spending = 0.07
 		}
@@ -757,7 +757,7 @@ social_reforms = {
 			unemployment_benefit = 10
 			global_immigrant_attract = 0.020
 			global_pop_consciousness_modifier = -0.02
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.10
 			political_reform_desire = -0.1
 			min_social_spending = 0.10
 		}
@@ -771,7 +771,7 @@ social_reforms = {
 			min_social_spending = 0.05
 			max_tax = 0.02
 			global_immigrant_attract = 0.005
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 		}
 		low_pensions = {
@@ -779,7 +779,7 @@ social_reforms = {
 			min_social_spending = 0.10
 			max_tax = 0.04
 			global_immigrant_attract = 0.010
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 		}
 		acceptable_pensions = {
@@ -788,7 +788,7 @@ social_reforms = {
 			max_tax = 0.06
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.015
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 		}
 		good_pensions = {
@@ -797,7 +797,7 @@ social_reforms = {
 			max_tax = 0.08
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.020
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.10
 			political_reform_desire = -0.1
 		}
 	}
@@ -810,7 +810,7 @@ social_reforms = {
 			global_population_growth = 0.001
 			global_immigrant_attract = 0.005
 			administrative_multiplier = 1
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.025
 			pension_level = 5.00
 			min_social_spending = 0.05
@@ -821,7 +821,7 @@ social_reforms = {
 			global_population_growth = 0.001
 			global_immigrant_attract = 0.010
 			administrative_multiplier = 2
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.05
 			political_reform_desire = -0.05
 			pension_level = 10.0
 			min_social_spending = 0.10
@@ -833,7 +833,7 @@ social_reforms = {
 			global_immigrant_attract = 0.015
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
-			#social_reform_desire = -0.15
+			social_reform_desire = -0.075
 			political_reform_desire = -0.075
 			pension_level = 15.0
 			min_social_spending = 0.15
@@ -845,7 +845,7 @@ social_reforms = {
 			global_immigrant_attract = 0.020
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
-			#social_reform_desire = -0.2
+			social_reform_desire = -0.1
 			political_reform_desire = -0.1
 			pension_level = 2
 			min_social_spending = 0.20
@@ -911,7 +911,7 @@ social_reforms = {
 			farm_RGO_eff = 0.20
 			education_efficiency_modifier = 0.50
 			political_reform_desire = -0.05
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.05
 			pension_level = 4.00
 			min_social_spending = 0.10
 			max_tax = 0.02
@@ -927,7 +927,7 @@ social_reforms = {
 			factory_output = 0.1
 			education_efficiency_modifier = 0.5
 			political_reform_desire = -0.05
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.1
 			poor_life_needs = 0.30
 			poor_everyday_needs = 0.30
 			poor_luxury_needs = 0.30
@@ -951,7 +951,7 @@ social_reforms = {
 		child_labor_restricted = {
 			global_population_growth = 0.0005
 			factory_throughput = -0.025
-			#social_reform_desire = -0.025
+			social_reform_desire = -0.01
 			political_reform_desire = -0.025
 			pension_level = 0.50
 			min_social_spending = 0.01
@@ -960,7 +960,7 @@ social_reforms = {
 		child_labor_illegal = {
 			global_population_growth = 0.001
 			factory_throughput = -0.05
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.02
 			political_reform_desire = -0.05
 			education_efficiency_modifier = 0.20
 			pension_level = 1.00
@@ -977,7 +977,7 @@ social_reforms = {
 		church = {
 			education_efficiency_modifier = 0.40
 			global_immigrant_attract = 0.005
-			#social_reform_desire = -0.05
+			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 			pension_level = 10.0
 			min_social_spending = 0.10
@@ -986,7 +986,7 @@ social_reforms = {
 		public = {
 			education_efficiency_modifier = 0.80
 			global_immigrant_attract = 0.010
-			#social_reform_desire = -0.1
+			social_reform_desire = -0.10
 			political_reform_desire = -0.05
 			pension_level = 20.0
 			min_social_spending = 0.20

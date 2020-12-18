@@ -619,7 +619,8 @@ promote_to = {
 			always = yes
 		}
 		modifier = {
-			factor = 50
+			factor = 100
+			NOT = { literacy = 0.02 }
 			NOT = { labourers = 0.88 }
 		}
 		modifier = {
@@ -917,10 +918,10 @@ promote_to = {
 	}
 	farmers = {
 		factor = 0.10
-		modifier = {
-			factor = 200
-			NOT = { limit = { has_pop_type = farmers } farmers = 0.10 }
-		}
+		#modifier = {
+		#	factor = 200
+		#	NOT = { limit = { has_pop_type = farmers } farmers = 0.10 }
+		#}
 		modifier = {
 			factor = 300
 			state_scope = { craftsmen = 0.501 }
