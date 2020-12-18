@@ -94,23 +94,23 @@ promotion_focus = {
 	#	}
 	#}
 
-	promote_officers = {
-		officers = 0.15 #10% more likely to become this type
-		icon = 11
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-		}
-	}
-
-	promote_soldiers = {
-		soldiers = 0.15 #10% more likely to become this type
-		icon = 12
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-		}
-	}
+	#promote_officers = {
+	#	officers = 0.15 #10% more likely to become this type
+	#	icon = 11
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#	}
+	#}
+	#
+	#promote_soldiers = {
+	#	soldiers = 0.15 #10% more likely to become this type
+	#	icon = 12
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#	}
+	#}
 }
 
 heavy_industry_focus = {	
