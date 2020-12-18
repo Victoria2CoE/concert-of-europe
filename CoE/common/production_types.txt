@@ -62,7 +62,7 @@ heavy_factory_template = {
 		lead = 1 #0.46$
 		oil = 2 #0.8$
 		rubber = 2 #0.8$
-		iron = 18
+		iron = 12
 		#6.215$
 	}
 
@@ -278,6 +278,7 @@ heavy_factory = {
 	input_goods = {
 		#iron = 1
 		coal = 10
+		iron = 6
 	}
 	output_goods = heavy_industry
 	value = 4 #1.6
