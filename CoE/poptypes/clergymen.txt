@@ -615,64 +615,64 @@ promote_to = {
 			factor = 20
 			military_spending = 0.1
 			NOT = { military_spending = 0.2 }
-			NOT = { officers = 0.001 }
+			NOT = { state_scope = { officers  = 0.001 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.2
 			NOT = { military_spending = 0.3 }
-			NOT = { officers = 0.001 }
+			NOT = { state_scope = { officers  = 0.001 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.3
 			NOT = { military_spending = 0.4 }
-			NOT = { officers = 0.002 }
+			NOT = { state_scope = { officers  = 0.002 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.4
 			NOT = { military_spending = 0.5 }
-			NOT = { officers = 0.002 }
+			NOT = { state_scope = { officers  = 0.002 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.5
 			NOT = { military_spending = 0.6 }
-			NOT = { officers = 0.003 }
+			NOT = { state_scope = { officers  = 0.003 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.6
 			NOT = { military_spending = 0.7 }
-			NOT = { officers = 0.003 }
+			NOT = { state_scope = { officers  = 0.003 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.7
 			NOT = { military_spending = 0.8 }
-			NOT = { officers = 0.004 }
+			NOT = { state_scope = { officers  = 0.004 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.8
 			NOT = { military_spending = 0.9 }
-			NOT = { officers = 0.004 }
+			NOT = { state_scope = { officers  = 0.004 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.9
 			NOT = { military_spending = 0.99 }
-			NOT = { officers = 0.005 }
+			NOT = { state_scope = { officers  = 0.005 } }
 		}
 		modifier = {
 			factor = 20
 			military_spending = 0.99
-			NOT = { officers = 0.005 }
+			NOT = { state_scope = { officers  = 0.005 } }
 		}
 		modifier = {
 			factor = -50 #-500
-			officers = 0.005
+			state_scope = { officers  = 0.005 }
 		} 
 	}		
 	bureaucrats = {
@@ -681,64 +681,64 @@ promote_to = {
 			factor = 25
 			administration_spending = 0.1
 			NOT = { administration_spending = 0.2 }
-			NOT = { bureaucrats = 0.003 }
+			NOT = { state_scope = { bureaucrats = 0.003 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.2
 			NOT = { administration_spending = 0.3 }
-			NOT = { bureaucrats = 0.006 }
+			NOT = { state_scope = { bureaucrats = 0.006 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.3
 			NOT = { administration_spending = 0.4 }
-			NOT = { bureaucrats = 0.009 }
+			NOT = { state_scope = { bureaucrats = 0.009 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.4
 			NOT = { administration_spending = 0.5 }
-			NOT = { bureaucrats = 0.012 }
+			NOT = { state_scope = { bureaucrats = 0.012 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.5
 			NOT = { administration_spending = 0.6 }
-			NOT = { bureaucrats = 0.015 }
+			NOT = { state_scope = { bureaucrats = 0.015 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.6
 			NOT = { administration_spending = 0.7 }
-			NOT = { bureaucrats = 0.018 }
+			NOT = { state_scope = { bureaucrats = 0.018 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.7
 			NOT = { administration_spending = 0.8 }
-			NOT = { bureaucrats = 0.021 }
+			NOT = { state_scope = { bureaucrats = 0.021 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.8
 			NOT = { administration_spending = 0.9 }
-			NOT = { bureaucrats = 0.024 }
+			NOT = { state_scope = { bureaucrats = 0.024 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.9
 			NOT = { administration_spending = 0.99 }
-			NOT = { bureaucrats = 0.027 }
+			NOT = { state_scope = { bureaucrats = 0.027 } }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.99
-			NOT = { bureaucrats = 0.030 }
+			NOT = { state_scope = { bureaucrats = 0.030 } }
 		}
 		modifier = {
 			factor = -50 #-500
-			bureaucrats = 0.030
+			state_scope = { bureaucrats = 0.030 }
 		} 
 	}
 	soldiers =
@@ -815,66 +815,66 @@ promote_to = {
 		modifier = {
 			factor = 25
 			NOT = { administration_spending = 0.1 }
-			clergymen = 0.001
+			state_scope = { clergymen = 0.001 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.1
 			NOT = { administration_spending = 0.2 }
-			clergymen = 0.004
+			state_scope = { clergymen = 0.004 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.2
 			NOT = { administration_spending = 0.3 }
-			clergymen = 0.008
+			state_scope = { clergymen = 0.008 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.3
 			NOT = { administration_spending = 0.4 }
-			clergymen = 0.012
+			state_scope = { clergymen = 0.012 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.4
 			NOT = { administration_spending = 0.5 }
-			clergymen = 0.016
+			state_scope = { clergymen = 0.016 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.5
 			NOT = { administration_spending = 0.6 }
-			clergymen = 0.020
+			state_scope = { clergymen = 0.020 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.6
 			NOT = { administration_spending = 0.7 }
-			clergymen = 0.024
+			state_scope = { clergymen = 0.024 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.7
 			NOT = { administration_spending = 0.8 }
-			clergymen = 0.028
+			state_scope = { clergymen = 0.028 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.8
 			NOT = { administration_spending = 0.9 }
-			clergymen = 0.032
+			state_scope = { clergymen = 0.032 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.9
 			NOT = { administration_spending = 0.99 }
-			clergymen = 0.036
+			state_scope = { clergymen = 0.036 }
 		}
 		modifier = {
 			factor = 25
 			administration_spending = 0.99
-			clergymen = 0.040
+			state_scope = { clergymen = 0.040 }
 		}
 	}
 	capitalists = 
@@ -883,70 +883,70 @@ promote_to = {
  		modifier = {
 			factor = 20
 			literacy = 0.1
-			NOT = { capitalists = 0.03 }
+			NOT = { state_scope = { capitalists  = 0.03 } }
 		}
  		modifier = {
 			factor = 20
 			literacy = 0.1
 			NOT = { literacy = 0.2 }
-			NOT = { capitalists = 0.032 }
+			NOT = { state_scope = { capitalists  = 0.032 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.2
 			NOT = { literacy = 0.3 }
-			NOT = { capitalists = 0.034 }
+			NOT = { state_scope = { capitalists  = 0.034 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.3
 			NOT = { literacy = 0.4 }
-			NOT = { capitalists = 0.036 }
+			NOT = { state_scope = { capitalists  = 0.036 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.4
 			NOT = { literacy = 0.5 }
-			NOT = { capitalists = 0.038 }
+			NOT = { state_scope = { capitalists  = 0.038 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.5
 			NOT = { literacy = 0.6 }
-			NOT = { capitalists = 0.040 }
+			NOT = { state_scope = { capitalists  = 0.040 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.6
 			NOT = { literacy = 0.7 }
-			NOT = { capitalists = 0.042 }
+			NOT = { state_scope = { capitalists  = 0.042 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.7
 			NOT = { literacy = 0.8 }
-			NOT = { capitalists = 0.044 }
+			NOT = { state_scope = { capitalists  = 0.044 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.8
 			NOT = { literacy = 0.9 }
-			NOT = { capitalists = 0.046 }
+			NOT = { state_scope = { capitalists  = 0.046 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.9
 			NOT = { literacy = 0.99 }
-			NOT = { capitalists = 0.048 }
+			NOT = { state_scope = { capitalists  = 0.048 } }
 		}
 		modifier = {
 			factor = 20
 			literacy = 0.99
-			NOT = { capitalists = 0.05 }
+			NOT = { state_scope = { capitalists  = 0.05 } }
 		} 
 		modifier = {
 			factor = -50 #-500
-			capitalists = 0.051
+			state_scope = { capitalists  = 0.051 }
 		}  		
 	}
 }
