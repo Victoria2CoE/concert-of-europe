@@ -277,7 +277,7 @@ heavy_factory = {
 	template = heavy_factory_template #98
 	input_goods = {
 		#iron = 1
-		coal = 1
+		coal = 10
 	}
 	output_goods = heavy_industry
 	value = 4 #1.6

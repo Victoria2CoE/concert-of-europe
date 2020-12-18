@@ -94,9 +94,9 @@ heavy_factory_building2 = {
 	max_level = 999
 	goods_cost =
 	{
-		iron = 500
-		coal = 500
-		timber = 750
+		iron = 750
+		#coal = 500
+		timber = 1500
 	}
 	time = 30
 	visibility = yes
@@ -114,9 +114,9 @@ heavy_factory_building3 = {
 	max_level = 999
 	goods_cost =
 	{
-		iron = 500
-		coal = 500
-		timber = 750
+		iron = 750
+		#coal = 500
+		timber = 1500
 	}
 	time = 30
 	visibility = yes
