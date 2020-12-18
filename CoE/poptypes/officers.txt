@@ -619,6 +619,11 @@ promote_to =
 		factor = 0.01
  		modifier = {
 			factor = 20
+			NOT  = { literacy = 0.1 }
+			NOT = { state_scope = { capitalists  = 0.025 } }
+		}
+ 		modifier = {
+			factor = 20
 			literacy = 0.1
 			NOT = { state_scope = { capitalists  = 0.03 } }
 		}
