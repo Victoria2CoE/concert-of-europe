@@ -3,12 +3,12 @@
 
 military_factory_template = {
 	efficiency = {
-		coal = 7.5 #3.45$
-		horses = 0.5 #0.4$
-		lead = 2 #0.92$
-		copper = 2 #1.4$
-		sulphur = 1 #0.7$
-		timber = 1 #0.36$
+		coal = 6.0 #3.45$
+		horses = 0.25 #0.4$
+		lead = 1 #0.92$
+		copper = 1 #1.4$
+		sulphur = 0.5 #0.7$
+		timber = 0.5 #0.36$
 		cattle = 0.1 #0.04$
 		cotton = 0.1 #0.04$
 		wool = 0.05 #0.02$
@@ -54,15 +54,15 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 8.0 #2.3$
-		horses = 0.1 #0.08$
- 		timber = 1 #0.36$
-        sulphur = 0.25 #0.175$
-        copper = 2 #0.52$
-		lead = 2 #0.46$
-		oil = 2 #0.8$
-		rubber = 2 #0.8$
-		iron = 12
+		coal = 12.0 #2.3$
+		horses = 0.15 #0.08$
+ 		timber = 1.5 #0.36$
+        sulphur = 0.375 #0.175$
+        copper = 3 #0.52$
+		lead = 3 #0.46$
+		oil = 3 #0.8$
+		rubber = 3 #0.8$
+		iron = 18
 		#6.215$
 	}
 
@@ -157,18 +157,18 @@ food_factory_template = {
 
 light_factory_template = {
 	efficiency = {
-		coal = 4 #1.38$
+		coal = 8 #1.38$
  		timber = 8 #1.44$
-		dye = 2 #0.8$
-		wool = 4 #0.8$
-		cotton = 10 #2$
-		rubber = 2 #0.4$
-		oil = 2 #0.4$
+		dye = 4 #0.8$
+		wool = 8 #0.8$
+		cotton = 20 #2$
+		rubber = 4 #0.4$
+		oil = 4 #0.4$
 		#copper = 0.40 #0.208$
 		#lead = 0.20 #0.092$
 		#iron = 0.60 #0.396$
-		cattle = 5 #0.4$
-		grain = 6.0
+		cattle = 10 #0.4$
+		grain = 12.0
 		#7.916$
 	}
 
@@ -310,7 +310,7 @@ food_factory = {
 		grain = 8
 	}
 	output_goods = food_industry
-	value = 18.0
+	value = 40.0
 }
 
 light_factory = {
