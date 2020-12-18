@@ -8,73 +8,73 @@ promotion_focus = {
 	#	}
 	#}
 
-	promote_artisans = {
-		artisans = 0.15 #10% more likely to become this type
-		icon = 3
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-		}
-	}
-
-	promote_bureaucrats = {
-		bureaucrats = 0.15 #10% more likely to become this type
-		icon = 4
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-		}
-	}
+	#promote_artisans = {
+	#	artisans = 0.15 #10% more likely to become this type
+	#	icon = 3
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#	}
+	#}
+	#
+	#promote_bureaucrats = {
+	#	bureaucrats = 0.15 #10% more likely to become this type
+	#	icon = 4
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#	}
+	#}
 
 	promote_capitalists = {
-		capitalists = 0.15 #10% more likely to become this type
+		capitalists = 0.20 #10% more likely to become this type
 		icon = 5
 		outliner_show_as_percent = yes
 		limit = { 
-			ai = no
+			#ai = no
 			civilized = yes
-			literacy = 0.10
+			#literacy = 0.10
 			is_colonial = no
 		}
 	}
 	
-	promote_clergymen = {
-		clergymen = 0.15 #10% more likely to become this type
-		icon = 6
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-		}
-	}
-
-	promote_clerks = {
-		clerks = 0.1 #10% more likely to become this type
-		icon = 7
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-			civilized = yes
-			literacy = 0.35
-			is_colonial = no
-		OR = {
-				NOT = { unemployment_by_type = { type = clerks value = 0.5 } }
-				owner = { ai = no }
-			}
-		}
-	}
-
-	promote_craftsmen = {
-		craftsmen = 0.1 #10% more likely to become this type
-		aristocrats = 0.20
-		farmers = 0.20
-		icon = 8
-		outliner_show_as_percent = yes
-		limit = { 
-			ai = no
-			is_colonial = no
-			NOT = { state_scope = { any_owned_province = { unemployment_by_type = { type = craftsmen value = 0.5 } } } }
-		}
-	}
+	#promote_clergymen = {
+	#	clergymen = 0.15 #10% more likely to become this type
+	#	icon = 6
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#	}
+	#}
+	#
+	#promote_clerks = {
+	#	clerks = 0.1 #10% more likely to become this type
+	#	icon = 7
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#		civilized = yes
+	#		literacy = 0.35
+	#		is_colonial = no
+	#	OR = {
+	#			NOT = { unemployment_by_type = { type = clerks value = 0.5 } }
+	#			owner = { ai = no }
+	#		}
+	#	}
+	#}
+	#
+	#promote_craftsmen = {
+	#	craftsmen = 0.1 #10% more likely to become this type
+	#	aristocrats = 0.20
+	#	farmers = 0.20
+	#	icon = 8
+	#	outliner_show_as_percent = yes
+	#	limit = { 
+	#		ai = no
+	#		is_colonial = no
+	#		NOT = { state_scope = { any_owned_province = { unemployment_by_type = { type = craftsmen value = 0.5 } } } }
+	#	}
+	#}
 
 	#promote_farmers = {
 	#	farmers = 0.15 #10% more likely to become this type
