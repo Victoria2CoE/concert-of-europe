@@ -911,9 +911,6 @@ promote_to =
 			literacy = 0.50
 		}
 	}
-	
-promote_to =
-{
 	farmers = {
 		factor = 0.01
 		#modifier = {
