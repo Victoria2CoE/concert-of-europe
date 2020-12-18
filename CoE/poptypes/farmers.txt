@@ -1136,8 +1136,8 @@ promote_to = {
 			is_accepted_culture = no
 		}		
 		modifier = {
-			factor = -500
-		    state_scope = { has_factories = no }		
+			factor = -500	
+			civilized = no
 		}				
 		modifier = {
 			factor = -500
