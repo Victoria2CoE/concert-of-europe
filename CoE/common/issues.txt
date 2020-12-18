@@ -19,7 +19,7 @@ party_issues = {
 			tax_efficiency = 0.01
 		}
 		free_trade = {
-			education_efficiency_modifier = 0.20
+			education_efficiency_modifier = 0.50
 			factory_throughput = 0.1
 			rgo_throughput = -0.1
 			poor_everyday_needs = 0.05
@@ -37,7 +37,7 @@ party_issues = {
 			max_tax = 0.5
 			factory_owner_cost = 0.5
 			factory_input = -0.02
-			education_efficiency_modifier = 0.40
+			education_efficiency_modifier = 1.0
 			
 			#min_social_spending = 0.00
 			
@@ -70,7 +70,7 @@ party_issues = {
 			min_social_spending = 0.10
 			tax_efficiency = 0.01
 			
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.20
 			
 			rules = {
 				build_factory = no
@@ -102,6 +102,8 @@ party_issues = {
 			
 		    min_social_spending = 0.20
 			tax_efficiency = 0.02
+			
+			education_efficiency_modifier = 0.10
 			
 			rules = {
 				build_factory = yes
@@ -156,6 +158,8 @@ party_issues = {
 			
 			min_social_spending = 0.25
 			tax_efficiency = 0.03
+			
+			education_efficiency_modifier = 0.05
 			
 			rules = {
 				build_factory = yes
