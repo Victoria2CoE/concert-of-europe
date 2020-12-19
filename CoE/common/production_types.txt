@@ -29,12 +29,12 @@ military_factory_template = {
 			effect_multiplier = 5.00
 			amount = 1.00 #amount = 0.25
 		}
-		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.00
-			amount = 1.00 #amount = 0.30
-		}
+		#{
+		#	poptype = farmers
+		#	effect = throughput
+		#	effect_multiplier = 2.00
+		#	amount = 1.00 #amount = 0.30
+		#}
 		{
 			poptype = 00_urban_poor
 			effect = throughput
@@ -80,12 +80,12 @@ heavy_factory_template = {
 			effect_multiplier = 5.00
 			amount = 1.00 #amount = 0.25
 		}
-		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.00
-			amount = 1.00 #amount = 0.30
-		}
+		#{
+		#	poptype = farmers
+		#	effect = throughput
+		#	effect_multiplier = 2.00
+		#	amount = 1.00 #amount = 0.30
+		#}
 		{
 			poptype = 00_urban_poor
 			effect = throughput
@@ -132,12 +132,12 @@ food_factory_template = {
 			effect_multiplier = 5.00
 			amount = 1.00 #amount = 0.25
 		}
-		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.00
-			amount = 1.00 #amount = 0.30
-		}
+		#{
+		#	poptype = farmers
+		#	effect = throughput
+		#	effect_multiplier = 2.00
+		#	amount = 1.00 #amount = 0.30
+		#}
 		{
 			poptype = 00_urban_poor
 			effect = throughput
@@ -186,14 +186,14 @@ light_factory_template = {
 			effect_multiplier = 5.00
 			amount = 1.00 #amount = 0.25
 		}
+		#{
+		#	poptype = farmers
+		#	effect = throughput
+		#	effect_multiplier = 2.00
+		#	amount = 1.00 #amount = 0.30
+		#}
 		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.00
-			amount = 1.00 #amount = 0.30
-		}
-		{
-			poptype = aristocrats
+			poptype = 00_urban_poor
 			effect = throughput
 			effect_multiplier = 1.00
 			amount = 1.00 #amount = 0.30
@@ -259,14 +259,14 @@ luxury_factory_template = {
 			effect_multiplier = 5.00
 			amount = 1.00 #amount = 0.25
 		}
+		#{
+		#	poptype = farmers
+		#	effect = throughput
+		#	effect_multiplier = 2.00
+		#	amount = 1.00 #amount = 0.30
+		#}
 		{
-			poptype = farmers
-			effect = throughput
-			effect_multiplier = 2.00
-			amount = 1.00 #amount = 0.30
-		}
-		{
-			poptype = aristocrats
+			poptype = 00_urban_poor
 			effect = throughput
 			effect_multiplier = 1.00
 			amount = 1.00 #amount = 0.30
