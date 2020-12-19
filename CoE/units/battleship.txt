@@ -13,7 +13,7 @@ battleship = {
 	
 	#Core Abilities
 	priority = 40
-	max_strength = 500
+	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 9
 	weighted_value = 7.0

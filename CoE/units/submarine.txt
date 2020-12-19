@@ -11,7 +11,7 @@ submarine = {
 	
 	#Core Abilities
 	priority = 20
-	max_strength = 500
+	max_strength = 100
 	default_organisation = 5
 	maximum_speed = 7
 	weighted_value = 5.0

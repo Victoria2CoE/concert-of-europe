@@ -10,7 +10,7 @@ cruiser = {
 	
 	#Core Abilities
 	priority = 12
-	max_strength = 500
+	max_strength = 100
 	default_organisation = 5
 	maximum_speed = 8
 	weighted_value = 8.0
