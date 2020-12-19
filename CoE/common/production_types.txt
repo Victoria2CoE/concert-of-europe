@@ -310,7 +310,7 @@ food_factory = {
 		grain = 16
 	}
 	output_goods = food_industry
-	value = 10.0
+	value = 20.0
 }
 
 light_factory = {
