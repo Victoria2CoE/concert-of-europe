@@ -1353,62 +1353,57 @@ promote_to = {
 		}	
 		modifier = {
 			factor = 150
-			literacy = 0.50
-			NOT = { literacy = 0.55 }
-			NOT = { state_scope = { clerks = 0.02 } }
-		}
-		modifier = {
-			factor = 150
-			literacy = 0.55
-			NOT = { literacy = 0.60 }
-			NOT = { state_scope = { clerks = 0.04 } }
-		}
-		modifier = {
-			factor = 150
 			literacy = 0.60
-			NOT = { literacy = 0.65 }
-			NOT = { state_scope = { clerks = 0.06 } }
+			NOT = { literacy = 0.55 }
+			NOT = { state_scope = { clerks = 0.03 } }
 		}
 		modifier = {
 			factor = 150
 			literacy = 0.65
-			NOT = { literacy = 0.70 }
-			NOT = { state_scope = { clerks = 0.08 } }
+			NOT = { literacy = 0.60 }
+			NOT = { state_scope = { clerks = 0.06 } }
 		}
 		modifier = {
 			factor = 150
 			literacy = 0.70
-			NOT = { literacy = 0.75 }
-			NOT = { state_scope = { clerks = 0.10 } }
+			NOT = { literacy = 0.65 }
+			NOT = { state_scope = { clerks = 0.09 } }
 		}
 		modifier = {
 			factor = 150
 			literacy = 0.75
-			NOT = { literacy = 0.80 }
+			NOT = { literacy = 0.70 }
 			NOT = { state_scope = { clerks = 0.12 } }
 		}
 		modifier = {
 			factor = 150
 			literacy = 0.80
-			NOT = { literacy = 0.85 }
-			NOT = { state_scope = { clerks = 0.14 } }
+			NOT = { literacy = 0.75 }
+			NOT = { state_scope = { clerks = 0.15 } }
 		}
 		modifier = {
 			factor = 150
 			literacy = 0.85
-			NOT = { literacy = 0.90 }
-			NOT = { state_scope = { clerks = 0.16 } }
-		}
-		modifier = {
-			factor = 150
-			literacy = 0.90
-			NOT = { literacy = 0.95 }
+			NOT = { literacy = 0.80 }
 			NOT = { state_scope = { clerks = 0.18 } }
 		}
 		modifier = {
 			factor = 150
+			literacy = 0.90
+			NOT = { literacy = 0.85 }
+			NOT = { state_scope = { clerks = 0.21 } }
+		}
+		modifier = {
+			factor = 150
+			literacy = 0.95
+			NOT = { literacy = 0.90 }
+			NOT = { state_scope = { clerks = 0.23 } }
+		}
+		modifier = {
+			factor = 150
 			literacy = 0.99
-			NOT = { state_scope = { clerks = 0.20 } }
+			NOT = { literacy = 0.95 }
+			NOT = { state_scope = { clerks = 0.25 } }
 		}
 		modifier = {
 			factor = -500
