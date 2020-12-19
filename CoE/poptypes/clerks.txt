@@ -1820,7 +1820,7 @@ ideologies = {
 		modifier = {
 			factor = 3.0
 			type = capitalists
-			labourers = 0.60
+			state_scope = { labourers = 0.60 }
 		}
 		modifier = {
 			factor = 3.0	
@@ -1947,7 +1947,7 @@ ideologies = {
 		modifier = {
 			factor = 3.0
 			type = capitalists
-			labourers = 0.50
+			state_scope = { labourers = 0.50 }
 		}
 		modifier = {
 			factor = 3.0	
@@ -2639,12 +2639,12 @@ ideologies = {
 		modifier = {
 			factor = 2.0
 			type = capitalists
-			NOT = { labourers = 0.50 }
+			NOT = { state_scope = { labourers = 0.50 } }
 		}
 		modifier = {
 			factor = 2.0
 			type = capitalists
-			NOT = { labourers = 0.25 }
+			NOT = { state_scope = { labourers = 0.25 } }
 		}
 		modifier = {
 			factor = 1.5	
@@ -2905,12 +2905,12 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			type = capitalists
-			NOT = { labourers = 0.50 }
+			NOT = { state_scope = { labourers = 0.50 } }
 		}
 		modifier = {
 			factor = 1.5
 			type = capitalists
-			NOT = { labourers = 0.25 }
+			NOT = { state_scope = { labourers = 0.25 } }
 		}		
 	}
 }

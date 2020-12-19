@@ -36,7 +36,7 @@ military_factory_template = {
 			amount = 1.00 #amount = 0.30
 		}
 		{
-			poptype = aristocrats
+			poptype = 00_urban_poor
 			effect = throughput
 			effect_multiplier = 1.00
 			amount = 1.00 #amount = 0.30
@@ -87,7 +87,7 @@ heavy_factory_template = {
 			amount = 1.00 #amount = 0.30
 		}
 		{
-			poptype = aristocrats
+			poptype = 00_urban_poor
 			effect = throughput
 			effect_multiplier = 1.00
 			amount = 1.00 #amount = 0.30
@@ -139,7 +139,7 @@ food_factory_template = {
 			amount = 1.00 #amount = 0.30
 		}
 		{
-			poptype = aristocrats
+			poptype = 00_urban_poor
 			effect = throughput
 			effect_multiplier = 1.00
 			amount = 1.00 #amount = 0.30

@@ -75,14 +75,14 @@ country_event = {
 			pop_type = farmers
 		}
 		
-		any_pop = { 
-			limit = { 
-				type = craftsmen 
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			pop_type = farmers
-		}
+		#any_pop = { 
+		#	limit = { 
+		#		type = craftsmen 
+		#		is_primary_culture = no
+		#		is_accepted_culture = no
+		#	}
+		#	pop_type = farmers
+		#}
 		any_country = {
 			any_pop = { 
 				limit = { 
@@ -96,14 +96,14 @@ country_event = {
 				pop_type = farmers
 			}
 			
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				pop_type = farmers
-			}
+			#any_pop = { 
+			#	limit = { 
+			#		type = craftsmen 
+			#		is_primary_culture = no
+			#		is_accepted_culture = no
+			#	}
+			#	pop_type = farmers
+			#}
 		}
 		any_pop = { 
 			limit = { 
@@ -111,7 +111,7 @@ country_event = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
-			pop_type = farmers
+			pop_type = craftsmen
 		}
 		any_country = {
 			any_pop = { 
@@ -128,7 +128,7 @@ country_event = {
 					is_primary_culture = no
 					is_accepted_culture = no
 				}
-				pop_type = farmers
+				pop_type = craftsmen
 			}				
 		}
 		

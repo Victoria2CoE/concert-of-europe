@@ -1620,295 +1620,295 @@ promote_to = {
 		modifier = {
 			factor = 100
 			NOT = { literacy = 0.02 }
-			NOT = { labourers = 0.88 }
+			NOT = { state_scope = { labourers = 0.88 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.02
 			NOT = { literacy = 0.03 }
-			NOT = { labourers = 0.86 }
+			NOT = { state_scope = { labourers = 0.86 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.03
 			NOT = { literacy = 0.04 }
-			NOT = { labourers = 0.84 }
+			NOT = { state_scope = { labourers = 0.84 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.04
 			NOT = { literacy = 0.05 }
-			NOT = { labourers = 0.82 }
+			NOT = { state_scope = { labourers = 0.82 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.05
 			NOT = { literacy = 0.06 }
-			NOT = { labourers = 0.80 }
+			NOT = { state_scope = { labourers = 0.80 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.06
 			NOT = { literacy = 0.07 }
-			NOT = { labourers = 0.78 }
+			NOT = { state_scope = { labourers = 0.78 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.07
 			NOT = { literacy = 0.08 }
-			NOT = { labourers = 0.76 }
+			NOT = { state_scope = { labourers = 0.76 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.08
 			NOT = { literacy = 0.09 }
-			NOT = { labourers = 0.74 }
+			NOT = { state_scope = { labourers = 0.74 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.09
 			NOT = { literacy = 0.10 }
-			NOT = { labourers = 0.72 }
+			NOT = { state_scope = { labourers = 0.72 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.10
 			NOT = { literacy = 0.11 }
-			NOT = { labourers = 0.70 }
+			NOT = { state_scope = { labourers = 0.70 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.11
 			NOT = { literacy = 0.12 }
-			NOT = { labourers = 0.68 }
+			NOT = { state_scope = { labourers = 0.68 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.12
 			NOT = { literacy = 0.13 }
-			NOT = { labourers = 0.66 }
+			NOT = { state_scope = { labourers = 0.66 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.13
 			NOT = { literacy = 0.14 }
-			NOT = { labourers = 0.64 }
+			NOT = { state_scope = { labourers = 0.64 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.14
 			NOT = { literacy = 0.15 }
-			NOT = { labourers = 0.62 }
+			NOT = { state_scope = { labourers = 0.62 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.15
 			NOT = { literacy = 0.16 }
-			NOT = { labourers = 0.60 }
+			NOT = { state_scope = { labourers = 0.60 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.16
 			NOT = { literacy = 0.17 }
-			NOT = { labourers = 0.58 }
+			NOT = { state_scope = { labourers = 0.58 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.17
 			NOT = { literacy = 0.18 }
-			NOT = { labourers = 0.56 }
+			NOT = { state_scope = { labourers = 0.56 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.18
 			NOT = { literacy = 0.19 }
-			NOT = { labourers = 0.54 }
+			NOT = { state_scope = { labourers = 0.54 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.19
 			NOT = { literacy = 0.20 }
-			NOT = { labourers = 0.52 }
+			NOT = { state_scope = { labourers = 0.52 } }
 		}
         modifier = {
 			factor = 50
 			literacy = 0.20
 			NOT = { literacy = 0.21 }
-			NOT = { labourers = 0.50 }
+			NOT = { state_scope = { labourers = 0.50 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.21
 			NOT = { literacy = 0.22 }
-			NOT = { labourers = 0.48 }
+			NOT = { state_scope = { labourers = 0.48 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.22
 			NOT = { literacy = 0.23 }
-			NOT = { labourers = 0.46 }
+			NOT = { state_scope = { labourers = 0.46 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.23
 			NOT = { literacy = 0.24 }
-			NOT = { labourers = 0.44 }
+			NOT = { state_scope = { labourers = 0.44 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.24
 			NOT = { literacy = 0.25 }
-			NOT = { labourers = 0.42 }
+			NOT = { state_scope = { labourers = 0.42 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.25
 			NOT = { literacy = 0.26 }
-			NOT = { labourers = 0.40 }
+			NOT = { state_scope = { labourers = 0.40 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.26
 			NOT = { literacy = 0.27 }
-			NOT = { labourers = 0.38 }
+			NOT = { state_scope = { labourers = 0.38 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.27
 			NOT = { literacy = 0.28 }
-			NOT = { labourers = 0.36 }
+			NOT = { state_scope = { labourers = 0.36 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.28
 			NOT = { literacy = 0.29 }
-			NOT = { labourers = 0.34 }
+			NOT = { state_scope = { labourers = 0.34 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.29
 			NOT = { literacy = 0.30 }
-			NOT = { labourers = 0.32 }
+			NOT = { state_scope = { labourers = 0.32 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.30
 			NOT = { literacy = 0.31 }
-			NOT = { labourers = 0.30 }
+			NOT = { state_scope = { labourers = 0.30 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.31
 			NOT = { literacy = 0.32 }
-			NOT = { labourers = 0.28 }
+			NOT = { state_scope = { labourers = 0.28 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.32
 			NOT = { literacy = 0.33 }
-			NOT = { labourers = 0.26 }
+			NOT = { state_scope = { labourers = 0.26 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.33
 			NOT = { literacy = 0.34 }
-			NOT = { labourers = 0.24 }
+			NOT = { state_scope = { labourers = 0.24 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.34
 			NOT = { literacy = 0.35 }
-			NOT = { labourers = 0.22 }
+			NOT = { state_scope = { labourers = 0.22 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.35
 			NOT = { literacy = 0.36 }
-			NOT = { labourers = 0.20 }
+			NOT = { state_scope = { labourers = 0.20 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.36
 			NOT = { literacy = 0.37 }
-			NOT = { labourers = 0.18 }
+			NOT = { state_scope = { labourers = 0.18 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.37
 			NOT = { literacy = 0.38 }
-			NOT = { labourers = 0.16 }
+			NOT = { state_scope = { labourers = 0.16 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.38
 			NOT = { literacy = 0.39 }
-			NOT = { labourers = 0.14 }
+			NOT = { state_scope = { labourers = 0.14 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.39
 			NOT = { literacy = 0.40 }
-			NOT = { labourers = 0.12 }
+			NOT = { state_scope = { labourers = 0.12 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.40
 			NOT = { literacy = 0.41 }
-			NOT = { labourers = 0.10 }
+			NOT = { state_scope = { labourers = 0.10 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.41
 			NOT = { literacy = 0.42 }
-			NOT = { labourers = 0.09 }
+			NOT = { state_scope = { labourers = 0.09 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.42
 			NOT = { literacy = 0.43 }
-			NOT = { labourers = 0.08 }
+			NOT = { state_scope = { labourers = 0.08 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.43
 			NOT = { literacy = 0.44 }
-			NOT = { labourers = 0.07 }
+			NOT = { state_scope = { labourers = 0.07 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.44
 			NOT = { literacy = 0.45 }
-			NOT = { labourers = 0.06 }
+			NOT = { state_scope = { labourers = 0.06 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.45
 			NOT = { literacy = 0.46 }
-			NOT = { labourers = 0.05 }
+			NOT = { state_scope = { labourers = 0.05 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.46
 			NOT = { literacy = 0.47 }
-			NOT = { labourers = 0.04 }
+			NOT = { state_scope = { labourers = 0.04 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.47
 			NOT = { literacy = 0.48 }
-			NOT = { labourers = 0.03 }
+			NOT = { state_scope = { labourers = 0.03 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.48
 			NOT = { literacy = 0.49 }
-			NOT = { labourers = 0.02 }
+			NOT = { state_scope = { labourers = 0.02 } }
 		}
 		modifier = {
 			factor = 50
 			literacy = 0.49
 			NOT = { literacy = 0.50 }
-			NOT = { labourers = 0.01 }
+			NOT = { state_scope = { labourers = 0.01 } }
 		}
 		modifier = {
 			factor = -200
@@ -2725,7 +2725,7 @@ ideologies = {
 		modifier = {
 			factor = 3.0
 			type = capitalists
-			labourers = 0.60
+			state_scope = { labourers = 0.60 }
 		}
 		modifier = {
 			factor = 3.0	
@@ -2852,7 +2852,7 @@ ideologies = {
 		modifier = {
 			factor = 3.0
 			type = capitalists
-			labourers = 0.50
+			state_scope = { labourers = 0.50 }
 		}
 		modifier = {
 			factor = 3.0	
@@ -3544,12 +3544,12 @@ ideologies = {
 		modifier = {
 			factor = 2.0
 			type = capitalists
-			NOT = { labourers = 0.50 }
+			NOT = { state_scope = { labourers = 0.50 } }
 		}
 		modifier = {
 			factor = 2.0
 			type = capitalists
-			NOT = { labourers = 0.25 }
+			NOT = { state_scope = { labourers = 0.25 } }
 		}
 		modifier = {
 			factor = 1.5	
@@ -3810,12 +3810,12 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			type = capitalists
-			NOT = { labourers = 0.50 }
+			NOT = { state_scope = { labourers = 0.50 } }
 		}
 		modifier = {
 			factor = 1.5
 			type = capitalists
-			NOT = { labourers = 0.25 }
+			NOT = { state_scope = { labourers = 0.25 } }
 		}		
 	}
 }

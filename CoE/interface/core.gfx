@@ -42,7 +42,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_small"
 		texturefile = "gfx\\interface\\pops_small.tga"
-		noOfFrames = 12
+		noOfFrames = 13
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		norefcount = yes
 	}
@@ -50,7 +50,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_small2"
 		texturefile = "gfx\\interface\\pops_small.tga"
-		noOfFrames = 12
+		noOfFrames = 13
 		effectFile = "gfx\\FX\\buttonstate2.fx"
 		norefcount = yes
 	}
@@ -58,7 +58,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_mini"
 		texturefile = "gfx\\interface\\pops_mini.tga"
-		noOfFrames = 12
+		noOfFrames = 13
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		norefcount = yes
 	}
