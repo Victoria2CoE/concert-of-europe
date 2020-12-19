@@ -307,7 +307,7 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 320
+		grain = 480
 	}
 	output_goods = food_industry
 	value = 600.0
@@ -1231,7 +1231,7 @@ artisan_canned_food = {
 		cattle = 500
 	}
 	output_goods = food_industry
-	value = 180
+	value = 270
 
 	owner = {
 		poptype = artisans
@@ -1362,7 +1362,7 @@ artisan_fertilizer = {
 		sulphur = 183
 	}
 	output_goods = food_industry
-	value = 133.35
+	value = 200
 
 	owner = {
 		poptype = artisans
@@ -1491,7 +1491,7 @@ artisan_baker = {
 		grain = 670
 	}
 	output_goods = food_industry
-	value = 180
+	value = 270
 
 	owner = {
 		poptype = artisans
@@ -1509,7 +1509,7 @@ artisan_fishmonger = {
 		fish = 500
 	}
 	output_goods = food_industry
-	value = 180
+	value = 270
 
 	owner = {
 		poptype = artisans
@@ -1527,7 +1527,7 @@ artisan_costermonger = {
 		fruit = 500
 	}
 	output_goods = food_industry
-	value = 180
+	value = 270
 
 	owner = {
 		poptype = artisans
