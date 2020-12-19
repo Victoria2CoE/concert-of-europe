@@ -123,7 +123,7 @@ economy = {
 	EMPLOYMENT_FIRE_LOWEST = 0.05,				-- we Fire pops no slower then x% of total required per day
 	TRADE_CAP_LOW_LIMIT_LAND = 0.50, 				-- the lowest % the slider can go for land units
 	TRADE_CAP_LOW_LIMIT_NAVAL = 0.50, 			-- the lowest % the slider can go for naval units
-	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.50, 		-- the lowest % the slider can go for constructions
+	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.25, 		-- the lowest % the slider can go for constructions
 	FACTORY_PURCHASE_MIN_FACTOR = 0.1,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.05		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
@@ -690,10 +690,10 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 5, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 1.0, -- ai weight for new bureaucrat
+	ADMINISTRATOR_WEIGHT = 3.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 1.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 1.0, -- ai weight for soldiers
+	SOLDIER_WEIGHT = 2.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.05, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 5.0, -- ai weight for new production

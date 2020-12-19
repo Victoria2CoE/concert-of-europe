@@ -32,7 +32,7 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = { 
 			#ai = no
-			civilized = yes
+			#civilized = yes
 			#literacy = 0.10
 			is_colonial = no
 		}
