@@ -55,7 +55,7 @@ raw_material_goods = {
 		color = { 125 158 43 }
 	}
 	coal = { 
-		cost = 1.84
+		cost = 0.74
 		tradeable = yes
 		#money = yes	
 		color = { 11 29 77 }
