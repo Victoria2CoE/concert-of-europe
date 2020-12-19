@@ -3,42 +3,42 @@
 #
 # Effects are fully scriptable here.
 
-the_british_raj = {
-	trigger = {
-		300 = { owned_by = THIS }
-		1236 = {
-			is_colonial = yes
-			owned_by = THIS
-		}
-		1251 = {
-			is_colonial = yes
-			owned_by = THIS
-		}
-		1297 = {
-			is_colonial = yes
-			owned_by = THIS
-		}
-	}
-	research_points = 1.5
-	prestige = 0.02
-	icon = 19
-}
-
-dutch_east_india = {
-	trigger = {
-		1413 = {
-			is_colonial = yes
-			owned_by = THIS
-		}
-		1418 = {
-			is_colonial = yes
-			owned_by = THIS
-		}
-	}
-	research_points = 0.75
-	prestige = 0.01
-	icon = 19
-}
+#the_british_raj = {
+#	trigger = {
+#		300 = { owned_by = THIS }
+#		1236 = {
+#			is_colonial = yes
+#			owned_by = THIS
+#		}
+#		1251 = {
+#			is_colonial = yes
+#			owned_by = THIS
+#		}
+#		1297 = {
+#			is_colonial = yes
+#			owned_by = THIS
+#		}
+#	}
+#	research_points = 1.5
+#	prestige = 0.02
+#	icon = 19
+#}
+#
+#dutch_east_india = {
+#	trigger = {
+#		1413 = {
+#			is_colonial = yes
+#			owned_by = THIS
+#		}
+#		1418 = {
+#			is_colonial = yes
+#			owned_by = THIS
+#		}
+#	}
+#	research_points = 0.75
+#	prestige = 0.01
+#	icon = 19
+#}
 
 populationsize_50k = {
 	trigger = {
@@ -657,40 +657,40 @@ the_concert_of_europe = {
 	icon = 1
 }
 
-memory_of_iberian_glory  = {
-	trigger = {
-		or = {
-			and = {
-				487 = { #Madrid
-					owned_by = THIS
-				}
-				1455 = { #Manila
-					is_colonial = yes
-					owned_by = THIS
-				}
-				2209 = { #Havana
-					is_colonial = yes
-					owned_by = THIS
-				}
-			}
-			and = {
-				521 = { #Lisbon
-					owned_by = THIS
-				}
-				2003 = { #Benguela
-					is_colonial = yes
-					owned_by = THIS
-				}
-				2060 = { #Mocambique
-					is_colonial = yes
-					owned_by = THIS
-				}
-			}
-		}
-	}
-	research_points = 0.5
-	icon = 19
-}
+#memory_of_iberian_glory  = {
+#	trigger = {
+#		or = {
+#			and = {
+#				487 = { #Madrid
+#					owned_by = THIS
+#				}
+#				1455 = { #Manila
+#					is_colonial = yes
+#					owned_by = THIS
+#				}
+#				2209 = { #Havana
+#					is_colonial = yes
+#					owned_by = THIS
+#				}
+#			}
+#			and = {
+#				521 = { #Lisbon
+#					owned_by = THIS
+#				}
+#				2003 = { #Benguela
+#					is_colonial = yes
+#					owned_by = THIS
+#				}
+#				2060 = { #Mocambique
+#					is_colonial = yes
+#					owned_by = THIS
+#				}
+#			}
+#		}
+#	}
+#	research_points = 0.5
+#	icon = 19
+#}
 
 social_dissent = {
 	trigger = {
