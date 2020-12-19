@@ -211,28 +211,28 @@ light_factory_template = {
 
 luxury_factory_template = {
 	efficiency = {
-		silk = 75 #1.5$ 
-		spices = 50 #1.6$
-		opium = 50 #1.6$
-		coffee = 50 #0.9$
-		tea = 50 #0.5$
+		silk = 7.5 #1.5$ 
+		spices = 5 #1.6$
+		opium = 5 #1.6$
+		coffee = 5 #0.9$
+		tea = 5 #0.5$
 		#cattle = 3.0 #0.6$
-		fruit = 26 #0.52$
+		fruit = 2.6 #0.52$
 		#grain = 0.5 #0.15$	
 		#coal = 2 #0.92$
  		#timber = 2 #0.72$
-		tropical_wood = 50 #1$
+		tropical_wood = 5 #1$
 		#timber = 3 #0.72$
-		dye = 200 #1.6$
+		dye = 20 #1.6$
 		#wool = 3.2 #0.64$
-		cotton = 450 #2.4$
+		cotton = 45 #2.4$
 		#rubber = 2 #0.8$
 		#copper = 0.60 #0.312$
 		#oil = 1 #0.4$
 		#lead = 0.25 #0.115$
 		#iron = 0.80 #0.528$
 		#silk = 1.5 #1.5$ 
-		horses = 2.5 #0.08$
+		horses = 0.25 #0.08$
 		#sugar = 0.40 #0.12$
 		#spices = 1 #1.6$
 		#opium = 1 #1.6$
@@ -325,10 +325,10 @@ light_factory = {
 luxury_factory = {
 	template = light_factory_template #98
 	input_goods = {
-		light_industry = 100
+		light_industry = 10
 	}
 	output_goods = luxury_industry
-	value = 112.5
+	value = 7.5
 }
 
 ### RGOs #####################################################################################
@@ -851,7 +851,7 @@ artisan_machine_parts2 = {
 		iron = 5.52			#108
 		coal = 18			#82
 	}
-	output_goods = heavy_industry
+	output_goods = luxury_industry
 	value = 5.61 #
 
 	owner = {
@@ -887,11 +887,11 @@ artisan_machine_parts2 = {
 
 artisan_luxury_clothes = {
 	input_goods = {
-		light_industry = 2.8
-		silk = 180
+		light_industry = 0.28
+		silk = 18
 	}
 	output_goods = luxury_industry
-	value = 49 #5
+	value = 3.3 #5
 
 	owner = {
 		poptype = artisans
@@ -906,11 +906,11 @@ artisan_luxury_clothes = {
 
 artisan_luxury_furniture = {
 	input_goods = {
-		light_industry = 3.4
-		tropical_wood = 180
+		light_industry = 0.34
+		tropical_wood = 18
 	}
 	output_goods = luxury_industry
-	value = 49 #5
+	value = 3.3 #5
 
 	owner = {
 		poptype = artisans
@@ -1266,12 +1266,12 @@ artisan_liquor = {
 
 artisan_winery = {
 	input_goods = {
-		fruit = 420
-		heavy_industry = 1.75
+		fruit = 42
+		heavy_industry = 0.175
 	}
 	output_goods = luxury_industry
 
-	value = 49 #5
+	value = 3.3 #5
 	owner = {
 		poptype = artisans
 		effect = output
@@ -1379,10 +1379,10 @@ artisan_fertilizer = {
 
 artisan_cigar = {
 	input_goods = {
-		tobacco = 280
+		tobacco = 28
 	}
 	output_goods = luxury_industry
-	value = 49 #5
+	value = 3.3 #5
 	owner = {
 		poptype = artisans
 		effect = output
@@ -1396,11 +1396,11 @@ artisan_cigar = {
 
 artisan_cigarette = {
 	input_goods = {
-		tobacco = 240
-		timber = 27.8
+		tobacco = 24
+		timber = 2.78
 	}
 	output_goods = luxury_industry
-	value = 49 #5
+	value = 3.3 #5
 	owner = {
 		poptype = artisans
 		effect = output
@@ -1548,7 +1548,7 @@ artisan_bronzeworker = {
 		lead = 12
 	}
 
-	output_goods = heavy_industry
+	output_goods = luxury_industry
 	value = 5.61 #
 
 	owner = {
@@ -1563,11 +1563,11 @@ artisan_bronzeworker = {
 
 artisan_moonshiner = {
 	input_goods = {
-		sugar = 262.5
-		heavy_industry = 3.5
+		sugar = 26.25
+		heavy_industry = 0.35
 	}
 	output_goods = luxury_industry
-	value = 49 #5
+	value = 3.3 #5
 
 	owner = {
 		poptype = artisans
@@ -1602,11 +1602,11 @@ artisan_powderer = {
 
 artisan_chemist = {
 	input_goods = {
-		opium = 190
-		heavy_industry = 3.5
+		opium = 19
+		heavy_industry = 0.35
 	}
 	output_goods = luxury_industry
-	value = 101.25 #
+	value = 6.75 #
 
 	owner = {
 		poptype = artisans
@@ -1659,10 +1659,10 @@ artisan_newspaper = {
 
 artisan_spices_rafiner = {
 	input_goods = {
-		spices = 211.9
+		spices = 21.19
 	}
 	output_goods = luxury_industry
-	value = 101.25 #
+	value = 6.75 #
 
 	owner = {
 		poptype = artisans
@@ -1677,10 +1677,10 @@ artisan_spices_rafiner = {
 
 artisan_coffee_rafiner = {
 	input_goods = {
-		coffee = 376.7
+		coffee = 37.67
 	}
 	output_goods = luxury_industry
-	value = 101.25 #
+	value = 6.75 #
 
 	owner = {
 		poptype = artisans
@@ -1695,10 +1695,10 @@ artisan_coffee_rafiner = {
 
 artisan_tea_rafiner = {
 	input_goods = {
-		tea = 678.0
+		tea = 67.80
 	}
 	output_goods = luxury_industry
-	value = 101.25 #
+	value = 6.75 #
 
 	owner = {
 		poptype = artisans
@@ -1713,11 +1713,11 @@ artisan_tea_rafiner = {
 
 artisan_cake_maker = {
 	input_goods = {
-		grain = 820
-		fruit = 232.5
+		grain = 82
+		fruit = 23.25
 	}
 	output_goods = luxury_industry
-	value = 101.25 #
+	value = 6.75 #
 
 	owner = {
 		poptype = artisans
