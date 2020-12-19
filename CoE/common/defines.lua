@@ -690,13 +690,13 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 5, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
+	ADMINISTRATOR_WEIGHT = 5.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 20.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 15.0, -- ai weight for soldiers
+	EDUCATOR_WEIGHT = 5.0, -- ai weigth for new clergy
+	SOLDIER_WEIGHT = 10.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.05, -- max amount of population AI wants to be capis
-	PRODUCTION_WEIGHT = 0.5, -- ai weight for new production
+	PRODUCTION_WEIGHT = 1.0, -- ai weight for new production
 	SPAM_PENALTY = 10, -- makes certain diplomatic action less common 
 	ONE_SIDE_MAX_WARSCORE = 100, -- don't add too many wargoals to one side in a war
 	POP_PROJECT_INVESTMENT_MAX_BUDGET_FACTOR = 0.25, -- how much % of our current budget can be spend on the pop project investments.
