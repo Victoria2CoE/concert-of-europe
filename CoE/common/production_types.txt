@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 5.00
+		grain = 20.00
 		coal = 2.5 #0.46$
-		horses = 1.88 #0.24$
- 		timber = 1.88 #0.27$
-		lead = 0.25 #0.046$
-		cattle = 7.5 #1.2$
-		fish = 7.5 #1.2$
-		fruit = 5.00 #0.845$
+		horses = 7.5 #0.24$
+ 		timber = 7.5 #0.27$
+		lead = 1.0 #0.046$
+		cattle = 30.0 #1.2$
+		fish = 30.0 #1.2$
+		fruit = 20.00 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 6.25 #0.07$
+		sulphur = 26.0 #0.07$
 		#4.436$
 	}
 
@@ -307,16 +307,16 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 8
+		grain = 16
 	}
 	output_goods = food_industry
-	value = 20.0
+	value = 10.0
 }
 
 light_factory = {
 	template = light_factory_template #98
 	input_goods = {
-		heavy_industry = 6
+		heavy_industry = 3.0
 	}
 	output_goods = light_industry
 	value = 6.0
@@ -325,7 +325,7 @@ light_factory = {
 luxury_factory = {
 	template = light_factory_template #98
 	input_goods = {
-		light_industry = 15
+		light_industry = 10
 	}
 	output_goods = luxury_industry
 	value = 7.5

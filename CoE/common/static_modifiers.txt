@@ -151,7 +151,7 @@ base_values = {
 	loan_interest = 1.0
 	#factory_maintenance = 25.0
 	min_military_spending = 0.10
-	tax_efficiency = 0.20
+	tax_efficiency = 0.50
 }
 
 war = {
@@ -250,14 +250,14 @@ average_literacy = {
 	leadership = 1
 	org_regain = 1
 	unit_start_experience = 25
-	tax_efficiency = -0.2
+	tax_efficiency = -0.5
 	pension_level = 20.0
 	mobilisation_size = 0.05
 	education_efficiency_modifier = -2.00
 	global_immigrant_attract = 0.05
 	max_loan_modifier = 2.0
 	global_pop_consciousness_modifier = 0.2
-	goods_demand = 5.0
+	goods_demand = 10.0
 }
 
 plurality = {
