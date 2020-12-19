@@ -41,16 +41,16 @@ luxury_needs_income = {
 can_build = yes
 
 life_needs = {
-	food_industry = 5.0
+	food_industry = 0.25
 }
 everyday_needs = {
-	light_industry = 100.0
+	light_industry = 7.0
 }
 luxury_needs = {
-	luxury_industry = 70.0
-	food_industry = 6.0
-	light_industry = 40.0
-	heavy_industry = 6.00
+	luxury_industry = 7.0
+	food_industry = 0.6
+	light_industry = 7.0
+	heavy_industry = 0.6
 }
 
 country_migration_target =
