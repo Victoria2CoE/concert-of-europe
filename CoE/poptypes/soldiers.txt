@@ -3,6 +3,7 @@ color = { 200 187 157 }
 strata = middle
 state_capital_only = yes
 can_be_recruited = yes
+demote_migrant = yes
 
 #merge_max_size = 1000000
 #max_size = 1000
