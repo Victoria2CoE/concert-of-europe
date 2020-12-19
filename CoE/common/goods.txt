@@ -16,7 +16,7 @@ industrial_goods = {
 
 consumer_goods = {
 	food_industry = { 
-		cost = 2.5
+		cost = 3.0
 		color = { 255 255 255 }
 	}
 	light_industry = { 

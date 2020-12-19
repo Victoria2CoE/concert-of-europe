@@ -25,10 +25,11 @@ life_needs = {
 }
 everyday_needs = {
 	light_industry = 1
+	food_industry = 2.5
 }
 luxury_needs = {
 	luxury_industry = 0.5
-	food_industry = 0.5
+	food_industry = 2.5
 	light_industry = 0.5
 	heavy_industry = 0.05
 }

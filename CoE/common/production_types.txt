@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 20.00
-		coal = 2.5 #0.46$
-		horses = 7.5 #0.24$
- 		timber = 7.5 #0.27$
-		lead = 1.0 #0.046$
-		cattle = 30.0 #1.2$
-		fish = 30.0 #1.2$
-		fruit = 20.00 #0.845$
+		grain = 800.00
+		coal = 50 #0.46$
+		horses = 250 #0.24$
+ 		timber = 150 #0.27$
+		lead = 40 #0.046$
+		cattle = 1200 #1.2$
+		fish = 1200 #1.2$
+		fruit = 800 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 26.0 #0.07$
+		sulphur = 208 #0.07$
 		#4.436$
 	}
 
@@ -307,10 +307,10 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 16
+		grain = 32
 	}
 	output_goods = food_industry
-	value = 20.0
+	value = 600.0
 }
 
 light_factory = {
@@ -390,31 +390,31 @@ RGO_template_labourers = {
 		{
 			poptype = labourers
 			effect = throughput
-			effect_multiplier = 2.0
+			effect_multiplier = 1.0
 			amount = 0.25 #amount = 0.27
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 1.0
+			effect_multiplier = 0.50
 			amount = 0.25 #amount = 0.24
 		}
 		{
 			poptype = farmers
 			effect = throughput
-			effect_multiplier = 3.0
+			effect_multiplier = 1.5
 			amount = 0.20 #amount = 0.24
 		}
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 12.0
+			effect_multiplier = 6.0
 			amount = 0.10 #amount = 0.24
 		}
 		{
 			poptype = slaves
 			effect = output
-			effect_multiplier = 2.5
+			effect_multiplier = 1.25
 			amount = 0.30 #amount = 0.25
 		}		
 	}

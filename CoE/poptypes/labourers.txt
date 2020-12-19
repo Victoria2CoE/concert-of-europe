@@ -32,10 +32,11 @@ life_needs = {
 }
 everyday_needs = {
 	light_industry = 10
+	food_industry = 10
 }
 luxury_needs = {
 	luxury_industry = 4
-	food_industry = 2.0
+	food_industry = 10
 	light_industry = 5.0
 	heavy_industry = 1.00
 }
