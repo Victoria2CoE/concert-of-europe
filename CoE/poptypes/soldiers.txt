@@ -45,11 +45,11 @@ life_needs = {
 everyday_needs = {
 	light_industry = 40
 	military_industry = 4.0
-	food_industry = 15
+	food_industry = 30
 }
 luxury_needs = {
 	luxury_industry = 23
-	food_industry = 15
+	food_industry = 30
 	light_industry = 20.0
 	heavy_industry = 3.0
 	military_industry = 2.0
