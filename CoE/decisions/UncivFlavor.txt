@@ -22,9 +22,13 @@ political_decisions = {
 				duration = 3650
 			}			
 			country_event = 90910
+			set_country_flag = already_civilized
 		}
 		
-		set_country_flag = already_civilized
+		
+		ai_will_do = {
+			factor = 1
+		}		
 	}
 	civilize_your_nation_china = {
 		potential = {
