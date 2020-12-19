@@ -292,13 +292,13 @@ heavy_factory = {
 		iron = 2
 	}
 	output_goods = heavy_industry
-	value = 5 #1.6
+	value = 6 #1.6
 }
 
 military_factory = {
 	template = military_factory_template #98
 	input_goods = {
-		heavy_industry = 1
+		heavy_industry = 8
 	}
 	output_goods = military_industry
 	value = 8.0
@@ -316,16 +316,16 @@ food_factory = {
 light_factory = {
 	template = light_factory_template #98
 	input_goods = {
-		heavy_industry = 1
+		heavy_industry = 6
 	}
 	output_goods = light_industry
-	value = 4.5
+	value = 6.0
 }
 
 luxury_factory = {
 	template = light_factory_template #98
 	input_goods = {
-		light_industry = 3
+		light_industry = 15
 	}
 	output_goods = luxury_industry
 	value = 7.5

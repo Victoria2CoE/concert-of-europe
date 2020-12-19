@@ -58,10 +58,13 @@ country_event = {
 		random_country = {
 			limit = { rank = 12 NOT = { rank = 8 } }
 			prestige = 10
-		}			
+		}	
+
+		heavy_industry = 10000
+		any_country = { heavy_industry = 10000 }
 		
-		add_tax_relative_income = 500
-		any_country = { add_tax_relative_income = 500 }
+		add_tax_relative_income = 250
+		any_country = { add_tax_relative_income = 250 }
 
 		any_pop = { 
 			limit = { 
