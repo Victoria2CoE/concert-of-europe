@@ -257,7 +257,7 @@ average_literacy = {
 	global_immigrant_attract = 0.05
 	max_loan_modifier = 2.0
 	global_pop_consciousness_modifier = 0.2
-	rich_everyday_needs = 100.0
+	rich_everyday_needs = 50.0
 	rich_luxury_needs = 100.0
 	#goods_demand = 60.0
 }
