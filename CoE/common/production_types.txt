@@ -54,15 +54,15 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 30.0 #2.3$
-		horses = 0.30 #0.08$
- 		timber = 3.75 #0.36$
-        sulphur = 0.94 #0.175$
-        copper = 7.5 #0.52$
-		lead = 7.5 #0.46$
-		oil = 7.5 #0.8$
-		rubber = 7.5 #0.8$
-		iron = 45.0
+		coal = 15.0 #2.3$
+		horses = 0.15 #0.08$
+ 		timber = 1.875 #0.36$
+        sulphur = 0.47 #0.175$
+        copper = 3.75 #0.52$
+		lead = 3.75 #0.46$
+		oil = 3.75 #0.8$
+		rubber = 3.75 #0.8$
+		iron = 22.5
 		#6.215$
 	}
 
@@ -288,11 +288,11 @@ heavy_factory = {
 	template = heavy_factory_template #98
 	input_goods = {
 		#iron = 1
-		coal = 5
-		iron = 2
+		coal = 2.5
+		iron = 1
 	}
 	output_goods = heavy_industry
-	value = 6 #1.6
+	value = 4 #1.6
 }
 
 military_factory = {
@@ -811,8 +811,8 @@ artisan_telephone = {
 
 artisan_electric_gear = {
 	input_goods = {
-		rubber = 20
-		copper = 20
+		rubber = 15
+		copper = 15
 	}
 	output_goods = heavy_industry
 	value = 3.3 #
@@ -848,8 +848,8 @@ artisan_electric_gear = {
 
 artisan_machine_parts2 = {
 	input_goods = {
-		iron = 5.52			#108
-		coal = 18			#82
+		iron = 13.66			#108
+		coal = 13.5			#82
 	}
 	output_goods = heavy_industry
 	value = 5.61 #
@@ -1322,7 +1322,7 @@ artisan_winery = {
 
 artisan_cement = {
 	input_goods = {
-		coal = 42
+		coal = 31.5
 	}
 	output_goods = heavy_industry
 	value = 3.36
@@ -1340,8 +1340,8 @@ artisan_cement = {
 
 artisan_glass = {
 	input_goods = {
-		coal = 13	#59.4
-		lead = 30	#138
+		coal = 9.75	#59.4
+		lead = 22.5	#138
 	}
 	output_goods = heavy_industry
 	value = 3.36
@@ -1544,8 +1544,8 @@ artisan_costermonger = {
 
 artisan_bronzeworker = {
 	input_goods = {
-		copper = 30
-		lead = 12
+		copper = 22.5
+		lead = 9
 	}
 
 	output_goods = heavy_industry
