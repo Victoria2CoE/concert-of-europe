@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 400
-		coal = 25 #0.46$
-		horses = 125 #0.24$
- 		timber = 75 #0.27$
-		lead = 20 #0.046$
-		cattle = 600 #1.2$
-		fish = 600 #1.2$
-		fruit = 400 #0.845$
+		grain = 800
+		coal = 50 #0.46$
+		horses = 250 #0.24$
+ 		timber = 150 #0.27$
+		lead = 40 #0.046$
+		cattle = 1200 #1.2$
+		fish = 1200 #1.2$
+		fruit = 800 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 104 #0.07$
+		sulphur = 208 #0.07$
 		#4.436$
 	}
 
@@ -307,10 +307,10 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 160
+		grain = 320
 	}
 	output_goods = food_industry
-	value = 300.0
+	value = 600.0
 }
 
 light_factory = {
@@ -1228,10 +1228,10 @@ artisan_ammunition = {
 
 artisan_canned_food = {
 	input_goods = {
-		cattle = 250
+		cattle = 500
 	}
 	output_goods = food_industry
-	value = 90
+	value = 180
 
 	owner = {
 		poptype = artisans
@@ -1359,10 +1359,10 @@ artisan_glass = {
 
 artisan_fertilizer = {
 	input_goods = {
-		sulphur = 142.5
+		sulphur = 183
 	}
 	output_goods = food_industry
-	value = 66.675
+	value = 133.35
 
 	owner = {
 		poptype = artisans
@@ -1488,10 +1488,10 @@ artisan_shoemaker = {
 
 artisan_baker = {
 	input_goods = {
-		grain = 335
+		grain = 670
 	}
 	output_goods = food_industry
-	value = 90
+	value = 180
 
 	owner = {
 		poptype = artisans
@@ -1506,10 +1506,10 @@ artisan_baker = {
 
 artisan_fishmonger = {
 	input_goods = {
-		fish = 250
+		fish = 500
 	}
 	output_goods = food_industry
-	value = 90
+	value = 180
 
 	owner = {
 		poptype = artisans
@@ -1524,10 +1524,10 @@ artisan_fishmonger = {
 
 artisan_costermonger = {
 	input_goods = {
-		fruit = 250
+		fruit = 500
 	}
 	output_goods = food_industry
-	value = 90
+	value = 180
 
 	owner = {
 		poptype = artisans
