@@ -41,15 +41,15 @@ luxury_needs_income = {
 can_build = yes
 
 life_needs = {
-	food_industry = 5.0
+	food_industry = 10.0
 }
 everyday_needs = {
 	light_industry = 100.0
-	food_industry = 60
+	food_industry = 80
 }
 luxury_needs = {
 	luxury_industry = 70.0
-	food_industry = 60
+	food_industry = 80
 	light_industry = 40.0
 	heavy_industry = 6.00
 }

@@ -31,15 +31,15 @@ rebel =
 #}
 
 life_needs = {
-	food_industry = 1.5
+	food_industry = 3.0
 }
 everyday_needs = {
 	light_industry = 8
-	food_industry = 20
+	food_industry = 40
 }
 luxury_needs = {
 	luxury_industry = 3.0
-	food_industry = 20
+	food_industry = 40
 	light_industry = 4
 	heavy_industry = 0.3
 }

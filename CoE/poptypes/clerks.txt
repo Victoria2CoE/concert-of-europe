@@ -32,15 +32,15 @@ can_work_factory = yes
 color = { 234 227 40 }
 
 life_needs = {
-	food_industry = 5.0
+	food_industry = 10.0
 }
 everyday_needs = {
 	light_industry = 80
-	food_industry = 60
+	food_industry = 180
 }
 luxury_needs = {
 	luxury_industry = 36
-	food_industry = 60
+	food_industry = 180
 	light_industry = 40.0
 	heavy_industry = 6.0
 }
