@@ -924,7 +924,7 @@ promote_to =
 		}
 		modifier = {
 			factor = -500
-			NOT = { location = { any_pop = { type = farmers culture = THIS } } }
+			location = { any_pop = { NOT = { type = farmers }  NOT = { culture = THIS } } }
 		}
 		modifier = {
 			factor = 100

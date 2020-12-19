@@ -623,60 +623,60 @@ promote_to =
 			factor = -10
 			NOT = { state_scope = { capitalists  = 0.032 } }
 		}
- 		#modifier = {
-		#	factor = 20
-		#	literacy = 0.1
-		#	NOT = { literacy = 0.2 }
-		#	state_scope = { capitalists  = 0.034 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.2
-		#	NOT = { literacy = 0.3 }
-		#	state_scope = { capitalists  = 0.036 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.3
-		#	NOT = { literacy = 0.4 }
-		#	state_scope = { capitalists  = 0.038 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.4
-		#	NOT = { literacy = 0.5 }
-		#	state_scope = { capitalists  = 0.040 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.5
-		#	NOT = { literacy = 0.6 }
-		#	state_scope = { capitalists  = 0.042 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.6
-		#	NOT = { literacy = 0.7 }
-		#	state_scope = { capitalists  = 0.044 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.7
-		#	NOT = { literacy = 0.8 }
-		#	state_scope = { capitalists  = 0.046 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.8
-		#	NOT = { literacy = 0.9 }
-		#	state_scope = { capitalists  = 0.048 }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.9
-		#	NOT = { literacy = 0.99 }
-		#	state_scope = { capitalists  = 0.05 }
-		#}
+ 		modifier = {
+			factor = 20
+			literacy = 0.1
+			NOT = { literacy = 0.2 }
+			state_scope = { capitalists  = 0.034 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.2
+			NOT = { literacy = 0.3 }
+			state_scope = { capitalists  = 0.036 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.3
+			NOT = { literacy = 0.4 }
+			state_scope = { capitalists  = 0.038 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.4
+			NOT = { literacy = 0.5 }
+			state_scope = { capitalists  = 0.040 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.5
+			NOT = { literacy = 0.6 }
+			state_scope = { capitalists  = 0.042 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.6
+			NOT = { literacy = 0.7 }
+			state_scope = { capitalists  = 0.044 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.7
+			NOT = { literacy = 0.8 }
+			state_scope = { capitalists  = 0.046 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.8
+			NOT = { literacy = 0.9 }
+			state_scope = { capitalists  = 0.048 }
+		}
+		modifier = {
+			factor = 20
+			literacy = 0.9
+			NOT = { literacy = 0.99 }
+			state_scope = { capitalists  = 0.05 }
+		}
 		modifier = {
 			factor = 20
 			literacy = 0.99

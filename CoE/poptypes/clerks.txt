@@ -802,11 +802,10 @@ promote_to = {
 	}
 	craftsmen = {
 		factor = 0.10
-		#modifier = {
-		#	factor = 50
-		#	NOT = { literacy = 0.1 }
-		#	state_scope = { clerks = 0.000 }
-		#}
+		modifier = {
+			factor = 100
+			NOT = { literacy = 0.50 }
+		}
 		modifier = {
 			factor = 50
 			literacy = 0.50
