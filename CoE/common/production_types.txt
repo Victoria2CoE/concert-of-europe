@@ -318,7 +318,7 @@ light_factory = {
 		heavy_industry = 6
 	}
 	output_goods = light_industry
-	value = 6.0
+	value = 10
 }
 
 luxury_factory = {
