@@ -472,7 +472,7 @@ machine_tools = {
 	
 	
 }
-whitney_n_colts_standardized_military_industry = {
+whitney_n_colts_standardized_small_arms = {
 	limit = { interchangeable_parts = 1 }
 	news = no
 	chance = {
