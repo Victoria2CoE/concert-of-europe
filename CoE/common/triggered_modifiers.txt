@@ -909,9 +909,9 @@ overbuying_stuff_rich = { #experimental
 	trigger = {
 		rich_strata_luxury_needs = 0.90
 	}
-	rich_strata_life_needs = 0.25
-	rich_strata_everyday_needs = 0.5
-	rich_strata_luxury_needs = 1.0
+	rich_life_needs = 0.25
+	rich_everyday_needs = 0.5
+	rich_luxury_needs = 1.0
 	icon = 19
 }
 
