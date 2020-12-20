@@ -111,7 +111,7 @@ populationsize_1M = {
 			total_pops = 625000
 		}
 	}
-	research_points = -0.00
+	#research_points = -0.00
 	global_population_growth = 0.001
 	mobilisation_size = 0.005
 	leadership_modifier = 0.4
