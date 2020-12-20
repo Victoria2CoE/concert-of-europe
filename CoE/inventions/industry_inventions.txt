@@ -7,10 +7,10 @@ tulls_seed_drill = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.2
+			grain = 0.05
 		}
 		rgo_goods_throughput = {
-			fruit = 0.2
+			fruit = 0.05
 		}
 	}
 	
@@ -27,7 +27,7 @@ rotherham_plough = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.2
+			grain = 0.05
 		}
 	}
 	
@@ -233,7 +233,7 @@ sharp_n_roberts_power_loom = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cotton = 0.3
+			cotton = 0.1
 		}
 		factory_goods_output = {
 			light_industry =  0.01 
@@ -256,7 +256,7 @@ jacquard_power_loom = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			wool = 0.3
+			wool = 0.1
 		}
 		factory_goods_output = {
 			light_industry =  0.01 
@@ -281,14 +281,14 @@ northrop_power_loom = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cotton = 0.3
+			cotton = 0.1
 		}
 		rgo_goods_throughput = {
-			wool = 0.3
+			wool = 0.1
 		}
 
 		rgo_goods_throughput = {
-			silk = 0.5
+			silk = 0.2
 		}
 
 		factory_goods_output = {
@@ -310,17 +310,17 @@ mechanical_saw = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.5
+			timber = 0.1
 		}
 		rgo_goods_throughput = {
-			tropical_wood = 0.5
+			tropical_wood = 0.1
 		}
 		factory_goods_output = {
 			heavy_industry =  0.02
 		} 
-		factory_goods_throughput = {
-			heavy_industry =  0.1
-		} 
+		#factory_goods_throughput = {
+		#	heavy_industry =  0.1
+		#} 
 	}
 	
 	
@@ -341,17 +341,17 @@ mechanical_precision_saw = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.5
+			timber = 0.1
 		}
 		rgo_goods_throughput = {
-			tropical_wood = 0.5
+			tropical_wood = 0.1
 		}
 		factory_goods_output = {
 			heavy_industry =  0.02
 		} 
-		factory_goods_throughput = {
-			heavy_industry =  0.1
-		} 
+		#factory_goods_throughput = {
+		#	heavy_industry =  0.1
+		#} 
 	}
 	
 	
@@ -368,10 +368,10 @@ hussey_n_mccormicks_reaping_machine = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.2
+			grain = 0.05
 		}
 		rgo_goods_throughput = {
-			fruit = 0.2
+			fruit = 0.05
 		}
 	}
 	
@@ -389,15 +389,15 @@ pitts_threshing_machine = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.5
+			grain = 0.1
 		}
 
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.1
 		}
 
 		rgo_goods_throughput = {
-			tea = 0.5
+			tea = 0.1
 		}
 	}
 	
@@ -412,7 +412,7 @@ mechanized_slaughtering_block = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.5
+			cattle = 0.1
 		}
 	}
 	
@@ -572,7 +572,7 @@ oil_pumping_machinery = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			oil = 2
+			oil = 0.2
 		}
 	}
 	
@@ -587,19 +587,19 @@ drying_techniques = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			tea = 1
+			tea = 0.1
 		}
 		rgo_goods_throughput = {
-			coffee = 1
+			coffee = 0.1
 		}
 		rgo_goods_throughput = {
-			opium = 2
+			opium = 0.2
 		}
 		rgo_goods_throughput = {
-			spices = 2
+			spices = 0.2
 		}
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.05
 		}
 	}
 	
@@ -697,20 +697,20 @@ refrigerator_technology = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.5
+			cattle = 0.1
 		}
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.1
 		}
 		rgo_goods_throughput = {
-			fish = 0.5
+			fish = 0.1
 		}
 		factory_goods_output = {
 			food_industry = 0.02
 		}
-		factory_goods_output = {
-			food_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	food_industry = 0.02
+		#}
 	}
 	
 	
@@ -1078,7 +1078,8 @@ genetics_heredity = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
+		education_efficiency = 0.025
 	}
 	
 	
@@ -1150,19 +1151,19 @@ artificial_fertilizers = {
 	}
 	effect = {
 	rgo_goods_throughput = {
-		grain = 1
+		grain = 0.1
 		}
 		rgo_goods_throughput = {
-			tea = 1
+			tea = 0.1
 		}
 		rgo_goods_throughput = {
-			opium = 1
+			opium = 0.1
 		}
 		rgo_goods_throughput = {
-			sugar = 1
+			sugar = 0.1
 		}
 		rgo_goods_throughput = {
-			spices = 1
+			spices = 0.1
 		}
 	factory_goods_output = {
 		food_industry =  0.02
@@ -1210,7 +1211,7 @@ rubber_vulcanization = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			rubber = 2
+			rubber = 0.2
 		} 
 	}
 	
@@ -1271,7 +1272,7 @@ carbon_soil_enrichment = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 1
+			grain = 0.1
 		}
 	factory_goods_output = {
 		food_industry =  0.02

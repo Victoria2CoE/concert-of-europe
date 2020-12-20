@@ -345,88 +345,88 @@ trench_systems = {
 		}
 	}
 }
-gas_attack_capability = {
-	limit = {
-		infiltration = 1 
-		organic_chemistry = 1
-		military_directionism = 1
-		has_country_flag = existing_country
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = -10
-			not = { infiltration = 1 }
-		}
-		modifier = {
-			factor = -10
-			not = { military_directionism = 1 }
-		}
-		modifier = {
-			factor = -10
-			not = { organic_chemistry = 1 }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = 2
-			year = 1910
-		}
-		modifier = {
-			factor = 2
-			any_greater_power = {
-				invention = gas_attack_capability
-			}
-		}
-	}
-	effect = {
-		gas_attack = yes
-	}
-	
-	
-	
-}
-gas_defense_capability = {
-	limit = {
-		deep_defense_system = 1 
-		organic_chemistry = 1
-		has_country_flag = existing_country
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 2
-			war = yes
-			war_countries = { invention = gas_attack_capability }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-			war_countries = { invention = gas_defense_capability }
-		}
-		modifier = {
-			factor = 2
-			war = yes
-			infiltration = 1
-		}
-		modifier = {
-			factor = 5
-			invention = gas_attack_capability
-		}
-		modifier = {
-			factor = 2
-			year = 1910
-		}
-	}
-	effect = {
-		gas_defence = yes
-	}
-	
-	
-	
-}
+#gas_attack_capability = {
+#	limit = {
+#		infiltration = 1 
+#		organic_chemistry = 1
+#		military_directionism = 1
+#		has_country_flag = existing_country
+#	}
+#	chance = {
+#		base = 0
+#		modifier = {
+#			factor = -10
+#			not = { infiltration = 1 }
+#		}
+#		modifier = {
+#			factor = -10
+#			not = { military_directionism = 1 }
+#		}
+#		modifier = {
+#			factor = -10
+#			not = { organic_chemistry = 1 }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#		}
+#		modifier = {
+#			factor = 2
+#			year = 1910
+#		}
+#		modifier = {
+#			factor = 2
+#			any_greater_power = {
+#				invention = gas_attack_capability
+#			}
+#		}
+#	}
+#	effect = {
+#		gas_attack = yes
+#	}
+#	
+#	
+#	
+#}
+#gas_defense_capability = {
+#	limit = {
+#		deep_defense_system = 1 
+#		organic_chemistry = 1
+#		has_country_flag = existing_country
+#	}
+#	chance = {
+#		base = 0
+#		modifier = {
+#			factor = 2
+#			war = yes
+#			war_countries = { invention = gas_attack_capability }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#			war_countries = { invention = gas_defense_capability }
+#		}
+#		modifier = {
+#			factor = 2
+#			war = yes
+#			infiltration = 1
+#		}
+#		modifier = {
+#			factor = 5
+#			invention = gas_attack_capability
+#		}
+#		modifier = {
+#			factor = 2
+#			year = 1910
+#		}
+#	}
+#	effect = {
+#		gas_defence = yes
+#	}
+#	
+#	
+#	
+#}
 elastic_defense_system = {
 	limit = { deep_defense_system = 1 }
 	news = no

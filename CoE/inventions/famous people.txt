@@ -34,7 +34,7 @@ marcel_mauss = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.10
+		education_efficiency = 0.05
 		shared_prestige = 15
 	}	
 }
@@ -175,7 +175,7 @@ emile_dirkheim = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.05
+		education_efficiency = 0.025
 		shared_prestige = 5
 	}	
 }
@@ -535,8 +535,10 @@ prophylactics = {
 		}
 	}
 	effect = {
-		#pop_growth = -0.0002
-		pop_growth = 0.0001
+		##pop_growth = -0.0002
+		#pop_growth = 0.0001
+		education_efficiency = 0.025
+		lit
 	}	
 }
 
@@ -640,7 +642,8 @@ cholera_vaccine = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
+		education_efficiency = 0.025
 		permanent_prestige = 5
 	}	
 }
@@ -659,7 +662,8 @@ anaesthesia = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
+		education_efficiency = 0.025
 		shared_prestige = 5
 	}	
 }

@@ -360,7 +360,7 @@ turbine_driven_trawlers = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			fish = 0.2
+			fish = 0.05
 		}
 	}
 }
@@ -384,13 +384,13 @@ combine_harvesters = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.4
+			grain = 0.1
 		}
 		rgo_goods_throughput = {
-			sugar = 0.2
+			sugar = 0.05
 		}
 		rgo_goods_throughput = {
-			spices = 0.2
+			spices = 0.05
 		}
 	}	
 }
@@ -407,28 +407,28 @@ mechanised_plantations = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coffee = 0.2
+			coffee = 0.05
 		}
 		rgo_goods_throughput = {
-			opium = 0.2
+			opium = 0.05
 		}
 		rgo_goods_throughput = {
-			tobacco = 0.2
+			tobacco = 0.05
 		}
 		rgo_goods_throughput = {
-			silk = 0.2
+			silk = 0.05
 		}
 		rgo_goods_throughput = {
-			sugar = 0.2
+			sugar = 0.05
 		}
 		rgo_goods_throughput = {
-			spices = 0.2
+			spices = 0.05
 		}
 		rgo_goods_throughput = {
-			cotton = 0.2
+			cotton = 0.05
 		}
 		rgo_goods_throughput = {
-			wool = 0.2
+			wool = 0.05
 		}
 	}	
 }
@@ -441,7 +441,7 @@ cattle_breeding_program = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.2
+			cattle = 0.05
 		}
 	}
 }
@@ -454,7 +454,7 @@ advanced_drilling_techniques = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			oil = 1
+			oil = 0.1
 		}
 	}
 }
@@ -467,7 +467,7 @@ mechanized_wells = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			oil = 2
+			oil = 0.5
 		}
 	}
 }
@@ -480,31 +480,31 @@ industrial_farming = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.5
+			grain = 0.1
 		}
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.1
 		}
 		rgo_goods_throughput = {
-			tea = 0.5
+			tea = 0.1
 		}
 		rgo_goods_throughput = {
-			opium = 0.5
+			opium = 0.1
 		}
 		rgo_goods_throughput = {
-			sugar = 0.5
+			sugar = 0.1
 		}
 		rgo_goods_throughput = {
-			tobacco = 0.5
+			tobacco = 0.1
 		}
 		rgo_goods_throughput = {
-			spices = 0.5
+			spices = 0.1
 		}
 		rgo_goods_throughput = {
-			cotton = 0.5
+			cotton = 0.1
 		}
 		rgo_goods_throughput = {
-			wool = 0.5
+			wool = 0.1
 		}
 	}
 }
@@ -517,31 +517,31 @@ mechanized_farming_equipment = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.5
+			grain = 0.1
 		}
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.1
 		}
 		rgo_goods_throughput = {
-			tea = 0.5
+			tea = 0.1
 		}
 		rgo_goods_throughput = {
-			opium = 0.5
+			opium = 0.1
 		}
 		rgo_goods_throughput = {
-			sugar = 0.5
+			sugar = 0.1
 		}
 		rgo_goods_throughput = {
-			tobacco = 0.5
+			tobacco = 0.1
 		}
 		rgo_goods_throughput = {
-			spices = 0.5
+			spices = 0.1
 		}
 		rgo_goods_throughput = {
-			cotton = 0.5
+			cotton = 0.1
 		}
 		rgo_goods_throughput = {
-			wool = 0.5
+			wool = 0.1
 		}
 	}
 }
@@ -554,10 +554,10 @@ cattle_trucks = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.2
+			cattle = 0.05
 		}
 		rgo_goods_throughput = {
-			wool = 0.2
+			wool = 0.05
 		}
 		factory_goods_throughput = {
 			food_industry =  0.10
@@ -617,10 +617,10 @@ inclosure = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.1
+			cattle = 0.025
 		}
 		rgo_goods_throughput = {
-			wool = 0.1
+			wool = 0.025
 		}
 		factory_goods_output = {
 			food_industry =  0.05
@@ -640,7 +640,7 @@ spinning_jenny = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			wool = 0.2
+			wool = 0.025
 		}
 	}
 }
@@ -653,7 +653,7 @@ tree_plantations = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.2
+			timber = 0.05
 		}
 	}
 }
@@ -666,7 +666,7 @@ logging = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.2
+			timber = 0.05
 		}
 	}
 }
@@ -679,7 +679,7 @@ regenerative_forestry = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.2
+			timber = 0.05
 		}
 	}
 }
@@ -1195,7 +1195,7 @@ nitrate_extraction_process = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			sulphur = 0.2
+			sulphur = 0.05
 		}
 	}
 }
@@ -1208,7 +1208,7 @@ artficial_nitrates = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			sulphur = 0.4
+			sulphur = 0.10
 		}
 	}
 }
@@ -1355,10 +1355,10 @@ copper_pits = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			copper = 0.2
+			copper = 0.05
 		}
 		rgo_goods_throughput = {
-			lead = 0.5
+			lead = 0.1
 		}
 	}
 }
@@ -3392,7 +3392,7 @@ sunday_schools = {
 		base = 3
 	}
 	effect = {
-		education_efficiency = 0.05
+		education_efficiency = 0.025
 	}
 }
 
@@ -3415,7 +3415,7 @@ infant_schools = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.075
+		education_efficiency = 0.05
 	}
 }
 
@@ -3430,7 +3430,7 @@ state_education = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.05
+		education_efficiency = 0.025
 	}
 }
 
@@ -3453,7 +3453,7 @@ curriculum = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.075
+		education_efficiency = 0.05
 	}
 }
 
@@ -3491,7 +3491,7 @@ high_schools = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.075
+		education_efficiency = 0.025
 	}
 }
 
@@ -3514,7 +3514,7 @@ scholarships = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.075
+		education_efficiency = 0.05
 	}
 }
 
@@ -3967,7 +3967,7 @@ scientific_forestry = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			timber = 0.5
+			timber = 0.1
 		}
 	}
 }
@@ -6335,34 +6335,34 @@ improved_synthetic_materials = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 2
+			coal = 0.2
 		}
 		rgo_goods_throughput = {
-			iron = 2
+			iron = 0.2
 		}
 		rgo_goods_throughput = {
-			copper = 2
+			copper = 0.2
 		}
 		rgo_goods_throughput = {
-			lead = 2
+			lead = 0.2
 		}
 		rgo_goods_throughput = {
-			oil = 2
+			oil = 0.2
 		}
 		rgo_goods_throughput = {
-			timber = 2.0
+			timber = 0.2
 		}
 		rgo_goods_throughput = {
-			tropical_wood = 2.0
+			tropical_wood = 0.2
 		}
 		factory_goods_throughput = {
 			heavy_industry =  0.25
 		} 
 		rgo_goods_throughput = {
-			sulphur = 2
+			sulphur = 0.2
 		}
 		rgo_goods_throughput = {
-			rubber = 2
+			rubber = 0.2
 		}
 	}
 }
@@ -6375,34 +6375,34 @@ modern_synthetic_materials = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 2
+			coal = 0.2
 		}
 		rgo_goods_throughput = {
-			iron = 2
+			iron = 0.2
 		}
 		rgo_goods_throughput = {
-			copper = 2
+			copper = 0.2
 		}
 		rgo_goods_throughput = {
-			lead = 2
+			lead = 0.2
 		}
 		rgo_goods_throughput = {
-			oil = 2
+			oil = 0.2
 		}
 		rgo_goods_throughput = {
-			timber = 2.0
+			timber = 0.2
 		}
 		rgo_goods_throughput = {
-			tropical_wood = 2.0
+			tropical_wood = 0.2
 		}
 		factory_goods_throughput = {
 			heavy_industry =  0.25
 		} 
 		rgo_goods_throughput = {
-			sulphur = 2
+			sulphur = 0.2
 		}
 		rgo_goods_throughput = {
-			rubber = 2
+			rubber = 0.2
 		}
 	}
 }
@@ -6465,22 +6465,22 @@ modern_mining_equipment = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 4
+			coal = 0.4
 		}
 		rgo_goods_throughput = {
-			iron = 4
+			iron = 0.4
 		}
 		rgo_goods_throughput = {
-			copper = 4
+			copper = 0.4
 		}
 		rgo_goods_throughput = {
-			lead = 4
+			lead = 0.4
 		}
 		rgo_goods_throughput = {
-			oil = 4
+			oil = 0.4
 		}
 		rgo_goods_throughput = {
-			sulphur = 4
+			sulphur = 0.4
 		}
 	}
 }
@@ -6493,13 +6493,13 @@ electrometallurgy = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			iron = 2
+			iron = 0.2
 		}
 		rgo_goods_throughput = {
-			copper = 2
+			iron = 0.2
 		}
 		rgo_goods_throughput = {
-			lead = 2
+			iron = 0.2
 		}
 		factory_goods_throughput = {
 			heavy_industry =  0.5
@@ -7074,25 +7074,25 @@ colonial_exploitation = {
 	effect = {
 		colonial_points = 100
 		rgo_goods_throughput = {
-			tea = 0.5
+			tea = 0.1
 		}
 		rgo_goods_throughput = {
-			coffee = 0.5
+			coffee = 0.1
 		}
 		rgo_goods_throughput = {
-			opium = 0.5
+			opium = 0.1
 		}
 		rgo_goods_throughput = {
-			spices = 0.5
+			spices = 0.1
 		}
 		rgo_goods_throughput = {
-			fruit = 0.5
+			fruit = 0.1
 		}
 		rgo_goods_throughput = {
-			grain = 0.5
+			grain = 0.1
 		}
 		rgo_goods_throughput = {
-			sugar = 0.5
+			sugar = 0.1
 		}
 	}
 }
@@ -7105,13 +7105,13 @@ shaft_mining_invention = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 1
+			coal = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 1
+			copper = 0.1
 		}
 		rgo_goods_throughput = {
-			lead = 1
+			lead = 0.1
 		}
 	}
 }
@@ -7127,19 +7127,19 @@ pit_mining_invention = {
 			precious_metal = 0.025
 		}
 		rgo_goods_throughput = {
-			iron = 2
+			iron = 0.1
 		}
 		rgo_goods_throughput = {
-			sulphur = 0.5
+			sulphur = 0.1
 		}
 		rgo_goods_throughput = {
-			coal = 0.5
+			coal = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 1
+			copper = 0.2
 		}
 		rgo_goods_throughput = {
-			lead = 0.5
+			lead = 0.1
 		}
 	}
 }
@@ -7152,22 +7152,22 @@ strip_mining_invention = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 2
+			coal = 0.2
 		}
 		rgo_goods_throughput = {
-			iron = 2
+			iron = 0.2
 		}
 		rgo_goods_throughput = {
-			copper = 2
+			copper = 0.2
 		}
 		rgo_goods_throughput = {
-			lead = 2
+			lead = 0.2
 		}
 		rgo_goods_throughput = {
-			oil = 2
+			oil = 0.2
 		}
 		rgo_goods_throughput = {
-			sulphur = 2
+			sulphur = 0.2
 		}
 	}
 }
@@ -7180,10 +7180,10 @@ crop_rotation_invention = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.1
+			grain = 0.05
 		}
 		rgo_goods_throughput = {
-			fruit = 0.1
+			fruit = 0.05
 		}
 	}
 }
@@ -7199,16 +7199,16 @@ steam_water_pumps = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 0.5
+			coal = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 0.5
+			copper = 0.1
 		}
 		rgo_goods_throughput = {
-			lead = 0.5
+			lead = 0.1
 		}
 		rgo_goods_throughput = {
-			iron = 0.5
+			iron = 0.1
 		}
 	}
 }
@@ -7223,16 +7223,16 @@ cornish_engine = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 0.5
+			coal = 0.1
 		}
 		rgo_goods_throughput = {
-			copper = 0.5
+			copper = 0.1
 		}
 		rgo_goods_throughput = {
-			lead = 0.5
+			lead = 0.1
 		}
 		rgo_goods_throughput = {
-			iron = 0.5
+			iron = 0.1
 		}
 	}
 }
@@ -7699,7 +7699,7 @@ culture_2 = {
 	}
 	effect = {
 		permanent_prestige = 2
-		education_efficiency = 0.10
+		education_efficiency = 0.05
 	}
 }
 
@@ -7939,7 +7939,7 @@ early_archaeology = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.025
+		education_efficiency = 0.01
 	}
 }
 
@@ -7976,6 +7976,6 @@ modern_archaeology = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.025
+		education_efficiency = 0.01
 	}
 }
