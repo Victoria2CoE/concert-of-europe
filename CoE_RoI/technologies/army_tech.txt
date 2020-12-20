@@ -1486,12 +1486,10 @@ modern_divisional_structure_1930 = {
 	unciv_military = yes
 
 	#combat_width = -1
-	effect = {
-		army_base = {
-			reconnaissance = 0.5
-			maximum_speed = 3.0
-			supply_consumption = 1.0
-		}
+	army_base = {
+		reconnaissance = 0.5
+		maximum_speed = 3.0
+		supply_consumption = 1.0
 	}
 	
 	ai_chance = {
