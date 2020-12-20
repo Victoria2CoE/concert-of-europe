@@ -1,0 +1,23 @@
+BUK = { value = -100 }
+army = {
+	name = "Army of the Khanate of Khiva"
+	location = 1191
+	regiment = {
+		name= "1.Yomud"
+		type = hussar
+		home = 1191
+	}
+
+	regiment = {
+		name= "2.Yomud"
+		type = hussar
+		home = 1191
+	}
+
+	regiment = {
+		name= "3.Yomud"
+		type = hussar
+		home = 1191
+	}
+
+}

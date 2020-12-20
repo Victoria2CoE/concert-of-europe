@@ -1,0 +1,812 @@
+country_event = {
+
+	id = 46300
+	news = yes
+	news_desc_long = "EVTDESC46300_NEWS_LONG"
+	news_desc_medium = "EVTDESC46300_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46300_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = BRZ
+			tag = UPB
+		}
+		exists = yes
+		year = 1864
+		romanticism = 1 #has romanticism tech
+		slavery = yes_slavery
+		NOT = {
+			year = 1872
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1865
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME46300"
+	desc = "EVTDESC46300"
+	picture = "NavioNegreiro"
+
+	option = {
+		name = "EVTOPTA46300" 
+		any_pop = {
+			limit = {
+				consciousness = 4
+			}
+			dominant_issue = {
+				value = no_slavery
+				factor = 0.3
+			}
+		}
+		slaves = {
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 46301
+	news = yes
+	news_desc_long = "EVTDESC46301_NEWS_LONG"
+	news_desc_medium = "EVTDESC46301_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46301_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = BRZ
+			tag = UPB
+		}
+		exists = yes
+		year = 1895
+		NOT = {
+			year = 1910
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.55 #increase likelihood to happen
+			year = 1898
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1902
+		}
+	}
+
+	title = "EVTNAME46301"
+	desc = "EVTDESC46301"
+	picture = "football"
+
+	option = {
+		name = "EVTOPTA46301" 
+		set_country_flag = JogoBonito
+		prestige = 3
+		poor_strata = {
+			militancy = -2
+		}
+	}
+}
+
+province_event = {
+
+	id = 46302
+	news = yes
+	news_desc_long = "EVTDESC46302_NEWS_LONG"
+	news_desc_medium = "EVTDESC46302_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46302_NEWS_SHORT"
+
+	trigger = {
+		province_id = 2436 #Bahia
+		OR = {
+			owned_by = BRZ
+			owned_by = UPB
+		}
+		year = 1837
+		owner = { slavery = yes_slavery }
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.80 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME46302"
+	desc = "EVTDESC46302"
+	picture = "Slaves"
+
+	option = {
+		name = "EVTOPTA46302" 
+		set_country_flag = Sabinada
+		slaves = {
+			militancy = 6
+		}		
+	}
+}
+
+country_event = {
+
+	id = 46303
+
+	title = "EVTNAME46303" #War of the Farrapos
+	desc = "EVTDESC46303"
+	picture = "rebellion"
+
+	trigger = {
+		OR = {
+			tag = BRZ
+			tag = UPB
+		}
+		exists = yes
+		owns = 2463
+		NOT = { year = 1845 }
+		has_country_flag = farrapos_war
+		OR = {
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "They will submit or suffer the consequences."
+		any_pop = {
+			limit = {
+				location = { is_core = RGS }
+				has_pop_culture = brazilian
+			}
+			militancy = 6
+			consciousness = 3
+		}
+		any_owned = {
+			limit = { is_core = RGS }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 46304
+	title = "EVTNAME46304" #Solano's Ambition
+	desc = "EVTDESC46304"
+	picture = "administration"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRG
+		exists = yes
+		war = no
+		year = 1860
+		OR = {
+			ARG = { owns = 2554 }
+			BRZ = { owns = 2416 }
+			UPB = { owns = 2416 }
+		}
+		NOT = {
+			num_of_revolts = 1
+			truce_with = BRZ
+			truce_with = UPB
+			in_sphere = BRZ
+			in_sphere = UPB
+			in_sphere = ARG
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			badboy = 0.64
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.1
+			2554 = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 0.5
+			URU = { ruling_party_ideology = liberal }
+		}
+	}
+
+	option = {
+		name = "Begin the war!"
+		2416 = { add_core = PRG } #Dourados
+		2554 = { add_core = PRG } #Misiones
+		add_country_modifier = {
+			name = small_country_draft
+			duration = 365
+		}
+		any_pop = {
+			militancy = -6
+			dominant_issue = {
+				factor = 0.20
+				value = jingoism
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BRZ
+				owns = 2416
+				is_vassal = no
+			}
+			THIS = {
+				leave_alliance = BRZ
+				war = {
+					target = BRZ
+					attacker_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2416
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = UPB
+				owns = 2416
+			}
+			THIS = {
+				leave_alliance = UPB
+				war = {
+					target = UPB
+					attacker_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2416
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				OR = {
+					2416 = {
+						NOT = {
+							owned_by = BRZ
+							owned_by = UPB
+						}
+					}
+					BRZ = { is_vassal = yes }
+				}
+				ARG = { owns = 2554 }
+			}
+			THIS = {
+				leave_alliance = ARG
+				war = {
+					target = ARG
+					attacker_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2554
+					}
+					call_ally = yes
+				}
+			}
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+
+	option = {
+		name = "This would be terrible for Paraguay."
+		prestige = -5
+		any_pop = {
+			militancy = 3
+			dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 46305
+	title = "EVTNAME46305" #Claiming the Jungle
+	desc = "EVTDESC46305"
+	picture = "Expansion"
+	
+	trigger = {
+		OR = {
+			tag = BRZ
+			tag = UPB
+		}
+		owns = 2405
+		OR = {
+			2404 = { empty = yes } #Tefe
+			2407 = { empty = yes } #Tabatinga
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = "We must claim the jungle."
+		treasury = -8000
+		random_owned = {
+			limit = {
+				2404 = { empty = no }
+				2407 = { empty = yes }
+			}
+			2407 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2404 = { empty = yes }
+			}
+			2404 = {
+				secede_province = THIS
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 46306
+	title = "EVTNAME46306" #Province event for Quilombos to appear in non-American slave states
+	desc = "EVTDESC46306"
+	
+	trigger = {
+		state_scope = {
+			is_slave = yes
+		}
+		owner = {
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+			NOT = {
+				tag = USA
+				tag = CSA
+				tag = TEX
+			}
+		}
+		NOT = {
+			has_province_modifier = quilombo_presence
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 675
+		modifier = {
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {
+			factor = 1.15
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 1.2
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.25
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 8
+		}
+	}
+	
+	option = {
+		name = "Find them!"
+		add_province_modifier = {
+			name = quilombo_presence
+			duration = 1825
+		}
+	}
+}
+
+country_event = {
+	id = 46315
+	title = "EVTNAME46315" #Involvement in Portuguese Succession?
+	desc = "EVTDESC46315"
+	picture = "carlists"
+	
+	trigger = {
+		tag = BRZ
+		OR = {
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		}
+		POR = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
+		is_vassal = no
+		NOT = {
+			year = 1840
+			has_country_flag = pedro_events_begun
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Pedro II will make a great leader, some day."
+		set_country_flag = pedro_events_begun
+	}
+}
+
+country_event = {
+	id = 46316
+	title = "EVTNAME46316" #Pedro II comes of age early due to a change in laws, the golden age of Brazil begins!
+	desc = "EVTDESC46316"
+	picture = "pedro_ii_grand"
+	
+	trigger = {
+		tag = BRZ
+		year = 1840
+		has_country_flag = pedro_events_begun
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "He will be a great reformer."
+		clr_country_flag = pedro_events_begun
+		prestige = 5
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = great_reformer
+			duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = 46325
+	title = "EVTNAME46325" #War of the Farrapos
+	desc = "EVTDESC46325"
+	picture = "Rebellion"
+	
+	trigger = {
+		tag = BRZ
+		exists = yes
+		year = 1832
+		RGS = { exists = no }
+		owns = 2463 #Porto Alegre
+		NOT = {
+			has_country_flag = farrapos_war
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.2
+			war = yes
+		}
+	}
+	
+	option = {
+		name = "Those fools!"
+		set_country_flag = farrapos_war
+		BRZ_2467 = { add_core = RGS } #Rio Grande do Sul
+		random_owned = {
+			limit = { region = URU_2344 }
+			RGS = { set_country_flag = cisplatina_is_ours }
+			URU_2344 = { add_core = RGS } #Uruguay
+		}
+		release = RGS
+		RGS = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+		}
+		random_owned = {
+			limit = {
+				owner = { is_vassal = no }
+			}
+			owner = {
+				war = {
+					target = RGS
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_vassal = yes }
+			}
+			random_country = {
+				limit = {
+					is_our_vassal = BRZ
+				}
+				country_event = 46326
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 46326
+	title = "EVTNAME46325" #War of the Farrapos
+	desc = "EVTDESC46325"
+	picture = "Rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Those fools!"
+		war = {
+			target = RGS
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			call_ally = yes
+		}
+	}
+}
+
+country_event = {
+	id = 46330
+	title = "EVTNAME46330" #The Religious Question
+	desc = "EVTDESC46330"
+	picture = "religious_question"
+	
+	trigger = {
+		tag = BRZ
+		year = 1865
+		war = no
+		OR = {
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		}
+		NOT = {
+			has_country_flag = religious_question_started
+			has_country_flag = religious_question_decided
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 28
+		modifier = {
+			factor = 0.3
+			year = 1870
+		}
+	}
+	
+	option = { #Side with the Freemasons, historical
+		name = "The interdict against the Freemasons will be rescinded."
+		prestige = 5
+		set_country_flag = religious_question_started
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = { #Side with the Church
+		name = "The Freemasons are heretics and should be expelled at once."
+		prestige = -5
+		set_country_flag = religious_question_decided
+		add_country_modifier = {
+			name = freemason_expulsion_modifier
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 46331
+	title = "EVTNAME46330" #Dom Vital refuses to rescind his interdict, Costa joins in
+	desc = "EVTDESC46331"
+	picture = "religious_question"
+	
+	trigger = {
+		tag = BRZ
+		has_country_flag = religious_question_started
+		NOT = {
+			has_country_flag = religious_question_decided
+			has_country_flag = rq_bishops_imprisoned
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	option = { #Imprison the two bishops, historical
+		name = "These men are undermining the state. Imprison them."
+		prestige = 5
+		set_country_flag = rq_bishops_imprisoned
+		any_pop = {
+			limit = {
+				has_pop_religion = catholic
+			}
+			consciousness = 3
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = { # Accept the interdict, expel the Freemasons
+		name = "Bishop Vital has made his point. Allow the interdict to stand."
+		prestige = -15
+		set_country_flag = religious_question_decided
+		any_pop = {
+			limit = {
+				has_pop_religion = catholic
+			}
+			consciousness = 1.5
+		}
+		add_country_modifier = {
+			name = freemason_expulsion_modifier
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 46332
+	title = "EVTNAME46330" #The Religious Question ends with some difficulty for the monarchy
+	desc = "EVTDESC46332"
+	picture = "religious_question"
+	
+	trigger = {
+		tag = BRZ
+		has_country_flag = rq_bishops_imprisoned
+		NOT = {
+			has_country_flag = religious_question_decided
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = { #Free the bishops
+		name = "The bishops must be freed."
+		set_country_flag = religious_question_decided
+		prestige = -25
+		plurality = -5
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = { #Defy popular opinion
+		name = "No one is above the law."
+		set_country_flag = religious_question_decided
+		prestige = 5
+		plurality = 2
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		remove_country_modifier = eleftherios_venizelos
+		remove_country_modifier = simon_bolivar
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = catholic
+			}
+			militancy = 4
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

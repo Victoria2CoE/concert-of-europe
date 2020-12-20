@@ -1,0 +1,10 @@
+army = {
+	name = "Army of the Prince-Bishop"
+	location = 2583
+	regiment = {
+		name= "1st Montenegrin regular"
+		type = regular
+		home = 2583
+	}
+}
+

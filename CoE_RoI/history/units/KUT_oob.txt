@@ -1,0 +1,26 @@
+ENG = {
+	value = 125
+}
+army = {
+	name = "Army of the Maharao of Kutch"
+	location = 1293
+	regiment = {
+		name= "1.Kutch"
+		type = infantry
+		home = 1293
+	}
+
+	regiment = {
+		name= "2.Kutch"
+		type = infantry
+		home = 1293
+	}
+
+	regiment = {
+		name= "3.Kutch"
+		type = infantry
+		home = 1293
+	}
+
+}
+

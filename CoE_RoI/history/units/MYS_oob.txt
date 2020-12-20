@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Army of the Wadiyar of Mysore"
+	location = 1314
+	regiment = {
+		name= "1.Mysore Contingent"
+		type = infantry
+		home = 1314
+	}
+
+	regiment = {
+		name= "2.Mysore Contingent"
+		type = infantry
+		home = 1314
+	}
+
+	regiment = {
+		name= "3.Mysore Contingent"
+		type = infantry
+		home = 1314
+	}
+
+}
+

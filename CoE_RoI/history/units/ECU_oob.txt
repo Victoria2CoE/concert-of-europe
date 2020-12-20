@@ -1,0 +1,30 @@
+SPA = {
+	value = 100
+}
+USA = {
+	value = 100
+}
+
+army = {
+	name = "Ejército de Ecuador"
+	location = 2279
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = regular
+		home = 2279
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = regular
+		home = 2279
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = regular
+		home = 2279
+	}
+
+}
+

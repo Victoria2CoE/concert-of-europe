@@ -1,0 +1,39 @@
+commerce_raider = {
+	icon = 8
+	naval_icon = 5	
+	type = naval
+	sprite = Raider
+	active = no
+	unit_type = light_ship
+	move_sound = steam_move
+	select_sound = steam_selected
+	floating_flag = yes
+	
+	#Core Abilities
+	priority = 15
+	max_strength = 100
+	default_organisation = 5
+	maximum_speed = 7
+	weighted_value = 5.0
+
+	#Building Costs
+	build_time = 365
+	build_cost = {
+		military_industry = 50
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		military_industry = 0.05
+	}
+	
+	#Naval Abilties
+	hull = 5
+	gun_power = 5
+	can_build_overseas = yes
+	fire_range = 0.4
+	evasion = 0.75
+	min_port_level = 1
+	limit_per_port = -1
+	supply_consumption_score = 1
+}

@@ -1,0 +1,480 @@
+country_event = {
+	id = 46450
+	title = "EVTNAME46450" #The Walloon Movement
+	desc = "EVTDESC46450"
+	picture = "nationalists"
+	
+	trigger = {
+		tag = NET
+		exists = yes
+		mass_politics = 1
+		any_owned_province = {
+			is_core = WLL
+			culture = wallonian
+			NOT = { has_province_modifier = wallingants }
+		}
+		OR = {
+			invention = separatism
+			invention = terrorism
+		}
+		NOT = {
+			citizenship_policy = full_citizenship
+			minorities_reform = protected
+			has_country_flag = francophonie_embraced
+			has_country_flag = walloon_movement
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.8
+			citizenship_policy = residency
+		}
+		modifier = {
+			factor = 0.5
+			minorities_reform = oppression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_flag = signed_treaty_of_london
+		}
+	}
+	
+	option = {
+		name = "Maybe they'll just forget about it."
+		set_country_flag = walloon_movement
+		set_variable = {
+			which = wallingant_provinces
+			value = 1
+		}
+		387 = {
+			add_core = WLL
+			any_pop = {
+				limit = { has_pop_culture = wallonian }
+				consciousness = 3
+				ideology = {
+					value = separatist
+					factor = 0.25
+				}
+			}
+			add_province_modifier = {
+				name = wallingants
+				duration = -1
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 46451
+	title = "EVTNAME46451" #Wallingants in $PROVINCENAME$
+	desc = "EVTDESC46451"
+	
+	trigger = {
+		is_core = WLL
+		culture = wallonian
+		NOT = { has_province_modifier = wallingants }
+		owner = { has_country_flag = walloon_movement }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = { has_province_modifier = wallingants }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { citizenship_policy = residency }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { minorities_reform = protected }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { minorities_reform = oppression }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { invention = dogma_of_violence }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { invention = terrorism }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { invention = secret_police }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { average_consciousness = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { average_militancy = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.1
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 0.5
+			has_country_flag = signed_treaty_of_london
+		}
+	}
+	
+	option = {
+		name = "This is becoming a serious issue."
+		owner = {
+			change_variable = {
+				which = wallingant_provinces
+				value = 1
+			}
+		}
+		any_pop = {
+			limit = { has_pop_culture = wallonian }
+			consciousness = 3
+			ideology = {
+				value = separatist
+				factor = 0.25
+			}
+		}
+		add_province_modifier = {
+			name = wallingants
+			duration = -1
+		}
+	}
+}
+
+province_event = {
+	id = 46452
+	title = "EVTNAME46452" #Wallingant Riot in $PROVINCENAME$
+	desc = "EVTDESC46452"
+
+	trigger = {
+		has_province_modifier = wallingants
+		NOT = { has_province_modifier = nationalist_agitation }
+		owner = { has_country_flag = walloon_movement }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 5
+			owner = { citizenship_policy = full_citizenship }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { citizenship_policy = residency }
+		}
+		modifier = {
+			factor = 5
+			owner = { minorities_reform = protected }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { minorities_reform = oppression }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { invention = dogma_of_violence }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { invention = terrorism }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { invention = secret_police }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { average_consciousness = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { average_militancy = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+	}
+
+	option = {
+		name = "This will make reconciliation far more difficult."
+		add_province_modifier = {
+			name = nationalist_agitation
+			duration = 1825
+		}
+		any_pop = {
+			limit = { has_pop_culture = wallonian }
+			militancy = 6
+			ideology = {
+				value = separatist
+				factor = 0.25
+			}
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = dutch
+					has_pop_culture = flemish
+				}
+			}
+			consciousness = 2
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 46453
+	title = "EVTNAME46453" #Wallonian Autonomy
+	desc = "EVTDESC46453"
+	picture = "danishgovernment"
+	
+	trigger = {
+		tag = NET
+		exists = yes
+		election = no
+		war = no
+		has_country_flag = walloon_movement
+		is_possible_vassal = WLL
+		any_owned_province = { is_core = WLL }
+		NOT = { exists = WLL }
+		OR = {
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		}
+		check_variable = {
+			which = wallingant_provinces
+			value = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			NOT = { has_country_flag = WLL_independence_refused }
+			year = 1918
+		}
+		modifier = {
+			factor = 2
+			has_country_flag = WLL_independence_refused
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = wallingant_provinces
+				value = 6
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = wallingant_provinces
+				value = 7
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = WLL }
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = WLL }
+				average_militancy = 7
+			}
+		}
+	}
+	
+	option = {
+		name = "Very well. Give them their autonomy."
+		clr_country_flag = WLL_independence_refused
+		prestige = -25
+		badboy = -3
+		any_pop = {
+			limit = {
+				has_pop_culture = wallonian
+				location = { is_core = WLL }
+			}
+			militancy = -10
+			ideology = {
+				value = separatist
+				factor = 0.25
+			}
+		}
+		399 = { remove_core = WLL }
+		400 = { remove_core = WLL }
+		WLL = {
+			all_core = { remove_core = THIS }
+		}
+		release_vassal = WLL
+		WLL = {
+			prestige = -80
+			capital = 387
+		}
+		relation = {
+			who = WLL
+			value = 200
+		}
+		diplomatic_influence = {
+			who = WLL
+			value = 200
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.5
+				NOT = { citizenship_policy = full_citizenship }
+			}
+			modifier = {
+				factor = 1.5
+				OR = { government = democracy government = democracy2 government = democracy3 }
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 1.25
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 1.5
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 1.2
+				average_militancy = 3
+			}
+			modifier = {
+				factor = 1.2
+				average_militancy = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "No. Wallonia is part of the Netherlands."
+		set_country_flag = WLL_independence_refused
+		any_owned = {
+			limit = {
+				is_core = WLL
+				NOT = { has_province_modifier = nationalist_agitation }
+				has_province_modifier = wallingants
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = wallonian
+				location = { is_core = WLL }
+			}
+			militancy = 6
+			ideology = {
+				value = separatist
+				factor = 0.25
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				has_country_flag = WLL_independence_refused
+			}
+			modifier = {
+				factor = 2
+				NOT = { citizenship_policy = full_citizenship }
+			}
+			modifier = {
+				factor = 0.5
+				OR = { government = democracy government = democracy2 government = democracy3 }
+			}
+			modifier = {
+				factor = 1.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 0.75
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0.8
+				average_militancy = 3
+			}
+			modifier = {
+				factor = 0.8
+				average_militancy = 5
+			}
+		}
+	}
+}

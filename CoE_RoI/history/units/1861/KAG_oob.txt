@@ -1,0 +1,54 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+AIN = { value = 100 }
+
+army = {
+	name = "Army of Daimyo Maeda"
+	location = 1646
+	regiment = {
+		name= "1.Samurai"
+		type = hussar
+		home = 1646
+	}
+	regiment = {
+		name= "2.Samurai"
+		type = hussar
+		home = 1646
+	}
+	regiment = {
+		name= "3.Samurai"
+		type = hussar
+		home = 1646
+	}
+	regiment = {
+		name= "1.Kaga"
+		type = infantry
+		home = 1646
+	}
+	regiment = {
+		name= "2.Kaga"
+		type = infantry
+		home = 1646
+	}
+	regiment = {
+		name= "3.Kaga"
+		type = infantry
+		home = 1646
+	}
+	regiment = {
+		name= "4.Kaga"
+		type = infantry
+		home = 1646
+	}
+	regiment = {
+		name= "5.Kaga"
+		type = infantry
+		home = 1646
+	}
+	regiment = {
+		name= "6.Kaga"
+		type = infantry
+		home = 1646
+	}
+}

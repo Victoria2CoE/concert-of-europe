@@ -1,0 +1,727 @@
+#################################################################################
+#																				#
+#             				Sepoy Rebellion	Events								#
+#																				#
+#################################################################################
+
+province_event = {
+	
+	id = 97100
+	title = "EVTNAME97100" #Rebellion in Indian State
+	desc = "EVTDESC97100"
+	
+	trigger = {
+		is_core = HND
+		controlled_by = THIS
+		OR = {
+			culture = assamese
+			culture = bengali
+			culture = bihari
+			culture = nepali
+			culture = oriya
+			culture = avadhi
+			culture = kanauji
+			culture = panjabi
+			culture = kashmiri
+			culture = gujarati
+			culture = marathi
+			culture = sindi
+			culture = rajput
+			culture = kannada
+			culture = malayalam
+			culture = tamil
+			culture = telegu
+		}
+		NOT = { has_province_modifier = nationalist_agitation }
+		owner = {
+			NOT = { is_culture_group = south_asian }
+			OR = {
+				has_country_flag = sepoy_rebellion
+				has_global_flag = indian_call_to_union
+			}
+		}
+		NOT = { poor_strata_everyday_needs = 0.9 }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				is_core = HND
+				has_province_modifier = nationalist_agitation
+			}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				is_core = HND
+				controlled_by = REB
+			}
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_everyday_needs = 0.7
+		}
+		modifier = {
+			factor = 2
+			poor_strata_luxury_needs = 0.5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_life_needs = 0.8 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { average_consciousness = 3 }
+		}
+		modifier = {
+			factor = 3
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.2
+			owner = { war = yes }
+		}
+	}
+	
+	option = {
+		name = "Unacceptable!"
+		state_scope = {
+			any_pop = {
+				limit = {
+					is_culture_group = south_asian
+					location = { is_core = HND }
+				}
+				militancy = 6
+			}
+			any_owned = {
+				limit = {
+					is_core = HND
+					OR = {
+						culture = assamese
+						culture = bengali
+						culture = bihari
+						culture = nepali
+						culture = oriya
+						culture = avadhi
+						culture = kanauji
+						culture = panjabi
+						culture = kashmiri
+						culture = gujarati
+						culture = marathi
+						culture = sindi
+						culture = rajput
+						culture = kannada
+						culture = malayalam
+						culture = tamil
+						culture = telegu
+					}
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 365
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	
+	id = 97105
+	title = "EVTNAME97105" #Rebellion Agaist Foreign Rule
+	desc = "EVTDESC97105"
+	picture = "sepoy"
+	
+	trigger = {
+		exists = yes
+		is_culture_group = south_asian
+		is_vassal = yes
+		war = no
+		OR = {
+			any_greater_power = {
+				is_our_vassal = THIS
+				has_country_flag = sepoy_rebellion
+			}
+			has_global_flag = indian_call_to_union
+		}
+		NOT = {
+			any_owned_province = { has_province_modifier = nationalist_agitation }
+		}
+		NOT = { poor_strata_everyday_needs = 0.7 }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 2
+			poor_strata_luxury_needs = 0.5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_life_needs = 0.8 }
+		}
+	}
+	
+	option = {
+		name = "This could mean trouble."
+		random_state = {
+			limit = { any_owned_province = { is_core = HND } }
+			any_pop = {
+				limit = { is_culture_group = south_asian }
+				militancy = 4
+			}
+			any_owned = {
+				limit = { is_core = HND }
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 365
+				}
+			}
+		}
+	}
+}
+
+	
+#################################################################################
+#																				#
+#             				Indian Nationalism	Events							#
+#																				#
+#################################################################################	
+
+country_event = {
+	
+	id = 97110
+	title = "EVTNAME97110" #The Stirrings of Indian Nationalism
+	desc = "EVTDESC97110"
+	news = yes
+	news_desc_long = "EVTDESC97110"
+	news_desc_medium = "EVTDESC97110_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97110_NEWS_SHORT"
+	picture = "national_congress"
+	
+	trigger = {
+		exists = yes
+		OR = {
+			is_culture_group = south_asian
+			any_owned_province = { is_core = HND }
+		}
+		is_vassal = no
+		revolution_n_counterrevolution = 1
+		NOT = { has_global_flag = indian_call_to_union }
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.5
+			OR = {
+				tag = DRA
+				tag = HDU
+				tag = MRT
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = { is_culture_group = south_asian }
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { is_culture_group = south_asian }
+			war = yes
+		}
+		modifier = {
+			factor = 0.8
+			any_owned_province = {
+				is_core = HND
+				average_militancy = 2
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_owned_province = {
+				is_core = HND
+				average_militancy = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_owned_province = {
+				is_core = HND
+				average_militancy = 4
+			}
+		}
+		modifier = {
+			factor = 0.5
+			mass_politics = 1
+		}
+		modifier = {
+			factor = 0.5
+			is_secondary_power = yes
+			is_culture_group = south_asian
+		}
+		modifier = {
+			factor = 0.1
+			is_greater_power = yes
+			is_culture_group = south_asian
+		}
+	}
+	
+	option = {
+		name = "Interesting."
+		set_global_flag = indian_call_to_union
+		clr_country_flag = sepoy_rebellion
+		any_owned = {
+			limit = {
+				owner = {
+					OR = {
+						is_greater_power = no
+						NOT = { is_culture_group = south_asian }
+					}
+				}
+				is_core = HND
+				OR = {
+					culture = assamese
+					culture = bengali
+					culture = bihari
+					culture = nepali
+					culture = oriya
+					culture = avadhi
+					culture = kanauji
+					culture = panjabi
+					culture = kashmiri
+					culture = gujarati
+					culture = marathi
+					culture = sindi
+					culture = rajput
+					culture = kannada
+					culture = malayalam
+					culture = tamil
+					culture = telegu
+				}
+			}
+			random_list = {
+				25 = {
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+				50 = {
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 730
+					}
+				}
+				25 = {
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { tag = THIS }
+				any_owned_province = { is_core = HND }
+			}
+			country_event = 97111
+		}
+	}
+}
+
+country_event = {
+	
+	id = 97111
+	title = "EVTNAME97110"
+	desc = "EVTDESC97111"
+	picture = "national_congress"	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "This could be trouble."
+		clr_country_flag = sepoy_rebellion
+		any_owned = {
+			limit = {
+				owner = {
+					OR = {
+						is_greater_power = no
+						NOT = { is_culture_group = south_asian }
+					}
+				}
+				is_core = HND
+				OR = {
+					culture = assamese
+					culture = bengali
+					culture = bihari
+					culture = nepali
+					culture = oriya
+					culture = avadhi
+					culture = kanauji
+					culture = panjabi
+					culture = kashmiri
+					culture = gujarati
+					culture = marathi
+					culture = sindi
+					culture = rajput
+					culture = kannada
+					culture = malayalam
+					culture = tamil
+					culture = telegu
+				}
+			}
+			random_list = {
+				25 = {
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+				50 = {
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 730
+					}
+				}
+			}
+		}
+	}
+}
+
+#################################################################################
+#																				#
+#             					Panjab Events									#
+#																				#
+#################################################################################
+
+country_event = {
+
+	id = 97115
+	title = "EVTNAME97115" #The Death of Ranjit Singh
+	desc = "EVTDESC97115"
+	picture = "india"
+	
+	trigger = {
+		tag = PNJ
+		exists = yes
+		neighbour = ENG
+		has_country_flag = singh
+		NOT = { has_leader = "Ranjit Singh" }
+		NOT = { truce_with = ENG }
+		NOT = { has_country_flag = ranjit_singh_dead }
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "We mourn the Maharajah's passing."
+		set_country_flag = ranjit_singh_dead
+		remove_country_modifier = military_man
+		remove_country_modifier = shastar_vidya
+		any_pop = { militancy = 4 }
+		ENG = { country_event = 97116 }
+	}
+}
+
+country_event = {
+
+	id = 97116
+	title = "EVTNAME97115"
+	desc = "EVTDESC97116"
+	news = yes
+	news_desc_long = "EVTDESC97116_NEWS_LONG"
+	news_desc_medium = "EVTDESC97116_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97116_NEWS_SHORT"
+	picture = "india"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Instability in the Panjab is unacceptable."
+		relation = { who = PNJ value = -100 }
+		leave_alliance = PNJ
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { nationalism_n_imperialism = 1 }
+				}
+			}
+			owner = {
+				casus_belli = {
+					target = PNJ
+					type = great_game_cb
+					months = 60
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					nationalism_n_imperialism = 1
+					NOT = { has_global_flag = berlin_conference }
+				}
+			}
+			owner = {
+				casus_belli = {
+					target = PNJ
+					type = establish_protectorate_NI_casus_belli
+					months = 60
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					nationalism_n_imperialism = 1
+					has_global_flag = berlin_conference
+				}
+			}
+			owner = {
+				casus_belli = {
+					target = PNJ
+					type = establish_protectorate_BC_casus_belli
+					months = 60
+				}
+			}
+		}
+	}
+}
+
+#################################################################################
+#																				#
+#             				Retreat From India									#
+#																				#
+#################################################################################
+
+country_event = {
+	id = 97122
+	title = "EVTNAME97120" #Retreat From India?
+	desc = "EVTDESC97120"
+	picture = "india"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "For the good of $COUNTRY$, we must retreat."
+		prestige_factor = -0.25
+		set_global_flag = british_dismantled
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				war_with = THIS
+			}
+			country_event = 97123
+		}
+		any_country = {
+			limit = {
+				any_core = { owned_by = THIS }
+				exists = no
+				is_cultural_union = no
+				is_culture_group = south_asian
+			}
+			country_event = 97124
+		}
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				exists = yes
+				NOT = { war_with = THIS }
+			}
+			country_event = 800148
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Never! The Raj is $COUNTRY_ADJ$ domain!"
+		set_country_flag = refused_indian_retreat
+		prestige_factor = -0.1
+		war_exhaustion = 30
+		any_pop = {
+			limit = {
+				is_culture_group = south_asian
+				location = { is_core = HND }
+			}
+			militancy = 8
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 97123
+	title = "EVTNAME97121" #Britain Retreats From India!
+	desc = "EVTDESC97121"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hurrah!"
+		prestige = 20
+		civilized = yes
+		any_country = {
+			limit = {
+				OR = {
+					tag = FROM
+					is_culture_group = south_asian
+					alliance_with = FROM
+				}
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		random_owned = {
+			limit = {
+				owner = { civilized = yes }
+			}
+			FROM = {
+				any_owned = {
+					limit = { is_core = THIS }
+					secede_province = THIS
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { civilized = no }
+			}
+			FROM = { release = THIS }
+		}
+		any_pop = {
+			limit = { is_culture_group = south_asian }
+			militancy = -4
+		}
+	}
+}
+
+# Independence event for Indian minors
+country_event = {
+	
+	id = 97124
+	title = "$COUNTRY$ Granted Independence"
+	desc = "Freedom!"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA96031" #Great
+		FROM = { release = THIS }
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				is_culture_group = south_asian
+			}
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 200 }
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = { tag = FROM }
+				NOT = { any_greater_power = { is_culture_group = south_asian } }
+				neighbour = THIS
+			}
+			diplomatic_influence = { who = THIS value = 100 }
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = { tag = FROM }
+				NOT = { any_greater_power = { is_culture_group = south_asian } }
+				NOT = { any_greater_power = { neighbour = THIS } }
+				any_owned_province = { continent = asia }
+			}
+			diplomatic_influence = { who = THIS value = 50 }
+		}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+			relation = {
+				who = THIS
+				value = -200
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					has_global_flag = indian_call_to_union
+				}
+			}
+			owner = { set_country_flag = civilize_after_release }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					NOT = { has_global_flag = indian_call_to_union }
+					OR = {
+						tag = MAH
+						tag = MUG
+						tag = BNG
+					}
+				}
+			}
+			owner = { set_country_flag = civilize_after_release }
+		}
+	}
+}
+
+country_event = {
+	
+	id = 97125
+	title = "The collapse of British India"
+	desc = "British government has abandoned us, our existence is unsustainable!"
+
+	trigger = { 
+	    tag = HND
+		primary_culture = british
+		is_vassal = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+
+	option = {
+		name = "All hail the free India"
+			set_country_flag = demanded_indian_retreat
+			ENG = {
+				inherit = HND
+				country_event = 97122
+			}
+	}
+}

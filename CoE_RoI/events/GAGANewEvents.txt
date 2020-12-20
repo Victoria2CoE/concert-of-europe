@@ -1,0 +1,418 @@
+#########################################################
+#		NEW EVENTS FOR THE DIVIDE BY ZERO MODMOD		#
+#		by GAGA Extrem									#
+#		JAN 2014										#
+#########################################################
+
+# ID LIST
+# 555000 - Popular Figurehead (conservative)
+# 555001 - Popular Figurehead (liberal)
+# 555002 - Popular Figurehead (reactionary)
+# 555003 - Popular Figurehead (anarcho_liberal)
+# 555004 - Popular Figurehead (socialist)
+# 555005 - Popular Figurehead (communist)
+# 555006 - Popular Figurehead (fascist)
+# 555007 - Popular Figurehead (social_liberal)
+# 555008 - Popular Figurehead (separatist)
+
+# 555010 - Charismatic Leader (conservative)
+# 555011 - Charismatic Leader (liberal)
+# 555012 - Charismatic Leader (reactionary)
+# 555013 - Charismatic Leader (anarcho_liberal)
+# 555014 - Charismatic Leader (socialist)
+# 555015 - Charismatic Leader (communist)
+# 555016 - Charismatic Leader (fascist)
+# 555017 - Charismatic Leader (social_liberal)
+# 555018 - Charismatic Leader (separatist)
+
+# 555020 - End of Popular Figurehead - Natural Death
+# 555021 - End of Popular Figurehead - Assassination
+# 555022 - End of Popular Figurehead - Discredited
+# 555023 - End of Popular Figurehead - Retired
+# 555024 - End of Charismatic Leader - Natural Death
+# 555025 - End of Charismatic Leader - Assassination
+# 555026 - End of Charismatic Leader - Discredited
+# 555027 - End of Charismatic Leader - Retired
+
+# 555030 - Party Quarrel (conservative)
+# 555031 - Party Quarrel (liberal)
+# 555032 - Party Quarrel (reactionary)
+# 555033 - Party Quarrel (anarcho_liberal)
+# 555034 - Party Quarrel (socialist)
+# 555035 - Party Quarrel (communist)
+# 555036 - Party Quarrel (fascist)
+# 555037 - Party Quarrel (social_liberal)
+# 555038 - Party Quarrel (separatist)
+
+# 555040 - Party Splinter (conservative)
+# 555041 - Party Splinter (liberal)
+# 555042 - Party Splinter (reactionary)
+# 555043 - Party Splinter (anarcho_liberal)
+# 555044 - Party Splinter (socialist)
+# 555045 - Party Splinter (communist)
+# 555046 - Party Splinter (fascist)
+# 555047 - Party Splinter (social_liberal)
+# 555048 - Party Splinter (separatist)
+
+# 555050 - Party Alliance (conservative/reactionary)
+# 555051 - Party Alliance (conservative/liberal)
+# 555052 - Party Alliance (conservative/socialist)
+# 555053 - Party Alliance (liberal/anarcho_liberal)
+# 555054 - Party Alliance (liberal/socialist)
+# 555055 - Party Alliance (liberal/social_liberal)
+# 555056 - Party Alliance (socialist/communist)
+# 555057 - Party Alliance (socialist/social_liberal)
+# 555058 - Party Alliance (fascist/conservative)
+# 555059 - Party Alliance (fascist/reactionary)
+
+# 555060 - End of Quarral (Quarral)
+# 555061 - Healing Wounds (Splinter)
+# 555062 - Separate Ways (Alliance)
+
+# 555070 - improved_capitalist_and_worker_promotion_1
+# 555071 - improved_capitalist_and_worker_promotion_2
+# 555072 - improved_capitalist_and_worker_promotion_3
+# 555073 - improved_capitalist_and_worker_promotion_4
+# 555074 - improved_capitalist_and_worker_promotion_5
+
+# 555075 - The Age of Nationalism
+# 555076 - Vanguard Party of $COUNTRY$ - first
+# 555077 - Vanguard Party of $COUNTRY$ - rest
+# 555078 - The Great Experiment: Communism
+# 555079 - The Great Experiment: Fascism
+
+# 555080 - Rebel Armament 1860
+# 555081 - Rebel Armament 1880
+# 555082 - Rebel Armament 1900
+# 555083 - Rebel Armament 1920
+
+# 555090 - Colonial Maintenance
+# 555091 - Colonial Maintenance (Post Colonial)
+# 555092 - The Dusk of an Era
+
+# - - - - - - - - - -
+
+# 555075 - The Age of Nationalism
+country_event = {
+	id = 555075
+	title = "EVTNAME555075"
+	desc = "EVTDESC555075"
+	picture = "nationalists"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		exists = yes
+		invention = separatism
+		NOT = {	has_global_flag = the_age_of_nationalism }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555075"
+		prestige = 25
+		set_global_flag = the_age_of_nationalism
+	}
+}
+
+# 555076 - Vanguard Party of $COUNTRY$ - first
+country_event = {
+	id = 555076
+	title = "EVTNAME555076"
+	desc = "EVTDESC555076"
+	picture = "communist_riot"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		invention = vangaurd_party
+		NOT = { has_country_flag = vanguard_party_formed }
+		NOT = { has_global_flag = the_vanguard_party_has_formed }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 2.0
+			NOT = { literacy = 0.5 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { literacy = 0.75 }
+		}
+		modifier = {
+			factor = 4.0
+			NOT = { invention = vangaurd_party }
+		}
+		modifier = {
+			factor = 0.25
+			invention = dogma_of_mass_action
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA555076"
+		prestige = 10
+		set_country_flag = vanguard_party_formed
+		set_global_flag = the_vanguard_party_has_formed
+	}
+}
+
+# 555077 - Vanguard Party of $COUNTRY$ - rest
+country_event = {
+	id = 555077
+	title = "EVTNAME555077"
+	desc = "EVTDESC555077"
+	picture = "communist_riot"
+	
+	trigger = {
+		exists = yes
+		NOT = { has_country_flag = vanguard_party_formed }
+		has_global_flag = the_vanguard_party_has_formed
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		
+		modifier = {
+			factor = 2.0
+			NOT = { literacy = 0.5 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { literacy = 0.75 }
+		}
+		modifier = {
+			factor = 4.0
+			NOT = { invention = vangaurd_party }
+		}
+		modifier = {
+			factor = 0.25
+			invention = dogma_of_mass_action
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA555077"
+		prestige = -5
+		set_country_flag = vanguard_party_formed
+	}
+}
+
+# 555078 - The Great Experiment: Communism
+country_event = {
+	id = 555078
+	title = "EVTNAME555078"
+	desc = "EVTDESC555078"
+	picture = "communist_crowd"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		is_greater_power = yes
+		NOT = { has_global_flag = the_great_experiment_communist }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555078"
+		any_pop = {
+			militancy = -2
+			consciousness = -5
+		}
+		prestige = 10
+		set_country_flag = great_experiment_communist
+		set_global_flag = the_great_experiment_communist
+	}
+}
+
+# 555079 - The Great Experiment: Fascism
+country_event = {
+	id = 555079
+	title = "EVTNAME555079"
+	desc = "EVTDESC555079"
+	picture = "Fascist"
+	major = yes
+	
+	trigger = {	exists = yes
+		is_greater_power = yes
+		NOT = { has_global_flag = the_great_experiment_fascist }
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555079"
+		any_pop = {
+			militancy = -2
+			consciousness = -5
+		}
+		prestige = 10
+		set_country_flag = great_experiment_fascism
+		set_global_flag = the_great_experiment_fascist
+	}
+}
+
+# 555080 - Rebel Armament 1860
+country_event = {
+	id = 555080
+	title = "EVTNAME555080"
+	desc = "EVTDESC555080"
+	picture = "Rebellion"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		year = 1860
+		NOT = { has_global_flag = rebel_armament_1860 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555080"
+		set_global_flag = rebel_armament_1860
+		REB = {
+			activate_technology = post_napoleonic_thought
+			activate_technology = flintlock_rifles
+		}
+	}
+}
+
+# 555081 - Rebel Armament 1880
+country_event = {
+	id = 555081
+	title = "EVTNAME555081"
+	desc = "EVTDESC555081"
+	picture = "Rebellion"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		year = 1880
+		has_global_flag = rebel_armament_1860
+		NOT = { has_global_flag = rebel_armament_1880 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555081"
+		set_global_flag = rebel_armament_1880
+		REB = {
+			activate_technology = strategic_mobility
+			activate_technology = muzzle_loaded_rifles
+			activate_technology = bronze_muzzle_loaded_artillery
+			activate_technology = military_staff_system
+			activate_technology = army_command_principle
+		}
+	}
+}
+
+# 555082 - Rebel Armament 1900
+country_event = {
+	id = 555082
+	title = "EVTNAME555082"
+	desc = "EVTDESC555082"
+	picture = "Rebellion"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		year = 1900
+		has_global_flag = rebel_armament_1880
+		NOT = { has_global_flag = rebel_armament_1900 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555082"
+		set_global_flag = rebel_armament_1900
+		REB = {
+			activate_technology = point_defense_system
+			activate_technology = breech_loaded_rifles
+			activate_technology = iron_muzzle_loaded_artillery
+			activate_technology = military_plans
+			activate_technology = army_professionalism
+		}
+	}
+}
+
+# 555083 - Rebel Armament 1920
+country_event = {
+	id = 555083
+	title = "EVTNAME555083"
+	desc = "EVTDESC555083"
+	picture = "Rebellion"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		year = 1920
+		has_global_flag = rebel_armament_1900
+		NOT = { has_global_flag = rebel_armament_1920 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555083"
+		set_global_flag = rebel_armament_1920
+		REB = {
+			activate_technology = deep_defense_system
+			activate_technology = bolt_action_rifles
+			activate_technology = iron_breech_loaded_artillery
+			activate_technology = military_statistics
+			activate_technology = army_decision_making
+		}
+	}
+}
+
+
+# 555092 - The Dusk of an Era
+country_event = {
+	id = 555092
+	title = "EVTNAME555092"
+	desc = "EVTDESC555092"
+	picture = "nationalists"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {	
+		exists = yes
+		post_colonialism = 1
+		not = {	has_global_flag = post_colonial_era_fired }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA555092"
+		prestige = 25
+		set_global_flag = post_colonial_era_fired
+		any_country = {
+			set_country_flag = post_colonial_era
+		}
+	}
+}

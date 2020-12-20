@@ -1,0 +1,20 @@
+army = {
+	name = "I. Korps"
+	location = 528
+	regiment = {
+		name= "1.Hamburgische Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.Hamburgische Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.Hamburgische Division"
+		type = regular
+	}
+
+}
+

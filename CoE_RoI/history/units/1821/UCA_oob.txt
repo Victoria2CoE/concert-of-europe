@@ -1,0 +1,38 @@
+
+leader = {
+	name = "Gabino Gainza"
+	type = land
+	date = 1811.1.1
+	personality = impetuous
+	background = disgraced
+}
+
+army = {
+	name = "Ejército Federal"
+	location = 2187
+	regiment = {
+		name= "1. División de Infantería"
+		type = regular
+		home = 2186
+	}
+
+	regiment = {
+		name= "2. División de Infantería"
+		type = regular
+		home = 2191
+	}
+
+	regiment = {
+		name= "3. División de Infantería"
+		type = regular
+		home = 2193
+	}
+	
+	regiment = {
+		name= "4. División de Infantería"
+		type = regular
+		home = 2197
+	}
+
+}
+

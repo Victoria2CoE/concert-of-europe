@@ -1,0 +1,52 @@
+SPA = {
+	value = 100
+}
+USA = {
+	value = 100
+}
+PBC = {
+	value = -100
+}
+ARG = {
+	value = 75
+}
+
+army = {
+	name = "Ejército de Chile"
+	location = 2324
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = regular
+		home = 2324
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = regular
+		home = 2324
+	}
+
+	regiment = {
+		name= "4. Brigada de Infanteria"
+		type = regular
+		home = 2324
+	}
+
+	regiment = {
+		name= "5. Brigada de Infanteria"
+		type = hussar
+		home = 2324
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballería"
+		type = hussar
+		home = 2324
+	}
+
+}

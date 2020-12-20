@@ -1,0 +1,127 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+AIN = { value = 100 }
+
+leader = {
+	name = "Takenaka Shigekata"
+	type = land
+	date = 1836.1.1
+	personality = cautious
+	background = pawn
+}
+
+leader = {
+	name = "Katsu Kaishu"
+	type = land
+	date = 1836.1.1
+	personality = sharp
+	background = engineer
+}
+
+army = {
+	name = "Army of the Tokugawa Shogunate"
+	location = 1649
+	regiment = {
+		name= "1.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "2.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "3.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "1.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "2.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "3.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "4.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "5.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "6.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "7.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "8.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "9.Edo"
+		type = infantry
+		home = 1649
+	}
+}
+
+army = {
+	name = "Army of the Matsudaira Daimyo"
+	location = 1676
+	regiment = {
+		name= "1.Samurai"
+		type = hussar
+		home = 1676
+	}
+	regiment = {
+		name= "1.Shizuoka"
+		type = infantry
+		home = 1676
+	}
+	regiment = {
+		name= "2.Shizuoka"
+		type = infantry
+		home = 1676
+	}
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1649
+	ship = {
+		name= "Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Choyo Maru"
+		type = commerce_raider
+	}
+	ship = {
+		name= "Kanko Maru"
+		type = commerce_raider
+	}
+	ship = {
+		name= "Kanrin Maru"
+		type = commerce_raider
+	}
+}
+

@@ -1,0 +1,155 @@
+DEN = {
+	value = 150
+}
+NOR = {
+	value = 100
+}
+FIN = {
+	value = 100
+}
+ENG = {
+	value = 125
+}
+RUS = {
+	value = 125
+}
+army = {
+	name = "Svenska Armén"
+	location = 322
+	regiment = {
+		name= "Svea Livgarde"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Västgöta Regemente"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = regular
+		home = 322
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = hussar
+		home = 322
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = dragoon
+		home = 322
+	}
+
+}
+
+navy = {
+	name = "Swedish Navy"
+	location = 322
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fäderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dristigheten"
+		type = manowar
+	}
+
+	ship = {
+		name= "Försiktigheten"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gustav den Store"
+		type = manowar
+	}
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

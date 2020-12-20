@@ -1,0 +1,70 @@
+army = {
+	name = "Ejército del Sur"
+	location = 2251
+	regiment = {
+		name= "1.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.2a División de Infantería"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.2a División de Infantería"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.2a División de Infantería"
+		type = infantry
+	}
+
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 2207
+	regiment = {
+		name= "1.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.4a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.4a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.4a División de Infantería"
+		type = regular
+	}
+
+}
+

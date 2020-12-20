@@ -1,0 +1,1403 @@
+country_event = {
+
+	id = 35300
+
+	trigger = {
+		tag = ITA
+		exists = yes
+		year = 1910
+		NOT = {
+			year = 1913
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1911
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1912
+		}
+	}
+
+	title = "EVTNAME35300"
+	desc = "EVTDESC35300"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35300" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 35301
+
+	trigger = {
+		tag = ITA
+		exists = yes
+		year = 1902
+		NOT = {
+			year = 1905
+			}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1903
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1904
+		}
+	}
+
+	title = "EVTNAME35301"
+	desc = "EVTDESC35301"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35301" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 35302 #Parallel to PAP35700
+	title = "EVTNAME35700"
+	desc = "EVTDESC35700"
+	picture = "pope"
+	
+	trigger = {
+		tag = ITA
+		exists = yes
+		year = 1891
+		NOT = {
+			year = 1894
+			exists = PAP
+			has_global_flag = RerumNovarum
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1892
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1893
+		}
+	}
+
+	option = {
+		name = "EVTOPTA35700" 
+		prestige = 5
+		labourers = {
+			consciousness = 1
+		}
+		craftsmen = {
+			consciousness = 1
+		}
+		artisans = {
+			consciousness = 1
+		}
+		soldiers = {
+			consciousness = 1
+		}
+		set_global_flag = RerumNovarum		
+	}
+}
+
+country_event = {
+	id = 35305
+	title = "EVTNAME35305" #the Guerra di Libia
+	desc = "EVTDESC35305"
+	picture = "deliberation"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ITA
+		exists = yes
+		war = no
+		is_disarmed = no
+		has_global_flag = berlin_congress_held
+		OR = {
+			military_directionism = 1
+			mass_politics = 1
+			year = 1910
+		}
+		is_greater_power = yes
+		war_policy = jingoism
+		TUR = {
+			owns = 1731
+			is_greater_power = no
+			NOT = {
+				alliance_with = ITA
+				in_sphere = ITA
+			}
+		}
+		NOT = { has_country_modifier = no_more_war }
+	}
+	
+	mean_time_to_happen = {
+		months = 25
+		modifier = {
+			factor = 0.25
+			TUR = { war = yes }
+		}
+	}
+	
+	option = {
+		name = "For the glory of Italia!"
+		set_country_flag = guerra_di_libia
+		any_pop = {
+			limit = { is_culture_group = italian }
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = -4
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = yes }
+				1731 = { is_colonial = no }
+			}
+			owner = {
+				war = {
+					target = TUR
+					attacker_goal = {
+						casus_belli = acquire_any_state
+						state_province_id = 1731
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = no }
+				1731 = { is_colonial = no }
+			}
+			owner = {
+				war = {
+					target = TUR
+					attacker_goal = {
+						casus_belli = acquire_any_state
+						state_province_id = 1731
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = yes }
+				1731 = { is_colonial = yes }
+			}
+			owner = {
+				war = {
+					target = TUR
+					attacker_goal = {
+						casus_belli = place_in_the_sun
+						state_province_id = 1731
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = no }
+				1731 = { is_colonial = yes }
+			}
+			owner = {
+				war = {
+					target = TUR
+					attacker_goal = {
+						casus_belli = place_in_the_sun
+						state_province_id = 1731
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.5
+				badboy = 0.6
+				NOT = {
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "This is not the time."
+		any_pop = {
+			limit = { is_culture_group = italian }
+			dominant_issue = {
+				factor = 0.02
+				value = pacifism
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				badboy = 0.6
+				NOT = {
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				}
+			}
+		}
+	}
+}
+
+#First Italian War of Independence
+country_event = {
+	id = 35310
+	title = "EVTNAME35310"
+	desc = "EVTDESC35310"
+	picture = "nationalists"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AUS
+		exists = yes
+		has_global_flag = hungarian_revolution_occurred
+		OR = {
+			owns = 729 #Venice
+			owns = 726 #Milan
+		}
+		OR = {
+			729 = { controlled_by = AUS }
+			729 = { controlled_by = REB }
+			726 = { controlled_by = AUS }
+			726 = { controlled_by = REB }
+		}
+		has_country_modifier = springtime_of_nations
+		NOT = {
+			LOM = { involved_in_crisis = yes }
+			VEN = { involved_in_crisis = yes }
+			has_global_flag = italian_rebellions
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 8
+	}
+	
+	immediate = {
+		set_global_flag = italian_rebellions
+	}
+	
+	option = {
+		name = "Restore order in Italy!"
+		any_owned = {
+			limit = { is_core = LOM }
+			secede_province = LOM
+			LOM = {
+				set_country_flag = had_liberal_revolution
+				add_country_modifier = {
+					name = small_country_draft
+					duration = 365
+				}
+				any_pop = {
+					militancy = -6
+				}
+				military_industry = 50
+				light_industry = 50
+				military_industry = 50
+				horses = 50
+				leadership = 40
+			}
+			AUS = {
+				war = {
+					target = LOM
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		any_owned = {
+			limit = { region = AUS_729 }
+			secede_province = VEN
+			VEN = {
+				set_country_flag = had_liberal_revolution
+				add_country_modifier = {
+					name = small_country_draft
+					duration = 365
+				}
+				any_pop = {
+					militancy = -6
+				}
+				military_industry = 50
+				light_industry = 50
+				military_industry = 50
+				horses = 50
+				leadership = 40
+			}
+			AUS = {
+				war = {
+					target = VEN
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		relation = { who = LOM value = -100 }
+		relation = { who = VEN value = -100 }
+		any_country = {
+			limit = {
+				OR = {
+					tag = SAR
+					tag = SVY
+				}
+				exists = yes
+			}
+			country_event = { id = 35311 days = 5 }
+		}
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = north_italian
+					primary_culture = south_italian
+				}
+				NOT = {
+					tag = SAR
+					tag = SVY
+					tag = LOM
+					tag = VEN
+				}
+			}
+			country_event = { id = 35312 days = 5 }
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "Let them go; we have larger problems."
+		any_owned = {
+			limit = { is_core = LOM }
+			secede_province = LOM
+		}
+		any_owned = {
+			limit = { region = AUS_729 }
+			secede_province = VEN
+		}
+		VEN = { set_country_flag = had_liberal_revolution }
+		LOM = { set_country_flag = had_liberal_revolution }
+		prestige = -20
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = "For the Republic of San Marco!"
+		any_owned = {
+			limit = { is_core = LOM }
+			secede_province = LOM
+			LOM = {
+				set_country_flag = had_liberal_revolution
+				add_country_modifier = {
+					name = small_country_draft
+					duration = 365
+				}
+				any_pop = {
+					militancy = -6
+				}
+				military_industry = 50
+				light_industry = 50
+				military_industry = 50
+				horses = 50
+				leadership = 40
+			}
+			THIS = {
+				war = {
+					target = LOM
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		any_owned = {
+			limit = { region = AUS_729 }
+			secede_province = VEN
+			VEN = {
+				set_country_flag = had_liberal_revolution
+				add_country_modifier = {
+					name = small_country_draft
+					duration = 365
+				}
+				any_pop = {
+					militancy = -6
+				}
+				military_industry = 50
+				light_industry = 50
+				military_industry = 50
+				horses = 50
+				leadership = 40
+			}
+			THIS = {
+				war = {
+					target = VEN
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		relation = { who = LOM value = -100 }
+		relation = { who = VEN value = -100 }
+		any_country = {
+			limit = {
+				OR = {
+					tag = SAR
+					tag = SVY
+				}
+				exists = yes
+			}
+			country_event = { id = 35311 days = 5 }
+		}
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = north_italian
+					primary_culture = south_italian
+				}
+				NOT = {
+					tag = SAR
+					tag = SVY
+					tag = LOM
+					tag = VEN
+				}
+			}
+			country_event = { id = 35312 days = 5 }
+		}
+		change_tag_no_core_switch = VEN
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 35311
+	title = "EVTNAME35310"
+	desc = "EVTDESC35311"
+	picture = "Rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Declare war, for Italy!"
+		set_global_flag = first_italian_war
+		leave_alliance = PAP
+		leave_alliance = FRA
+		FRA = {
+			diplomatic_influence = {
+				who = SAR
+				value = -100
+			}
+		}
+		LOM = {
+			annex_to = SAR
+		}
+		AUS_726 = { add_core = SAR }
+		AUS = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = acquire_any_state
+					state_province_id = 727
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+			country_event = 35314
+		}
+		relation = { who = VEN value = 200 }
+		relation = { who = AUS value = -100 }
+		treasury = -5000
+		VEN = {
+			add_country_modifier = {
+				name = begin_revolution
+				duration = 730
+			}
+			country_event = 35313
+		}
+ 		VEN = { treasury = 5000 }
+		prestige = 3
+		VEN = { prestige = 3 }
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+				}
+			}
+			militancy = -3
+		}	
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "Give diplomatic and financial support, but avoid war."
+		relation = { who = LOM value = 100 }
+		relation = { who = VEN value = 100 }
+		relation = { who = AUS value = -50 }
+		treasury = -10000
+		LOM = { treasury = 5000 }
+		VEN = { treasury = 5000 }
+		LOM = { prestige = 2 }
+		VEN = { prestige = 2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 9
+				war = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "Support republican scum? Never!"
+		prestige = 5
+		relation = { who = AUS value = 50 }
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+				}
+			}
+			militancy = 2
+			consciousness = 3
+		}	
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 35312
+	title = "EVTNAME35310"
+	desc = "EVTDESC35312"
+	picture = "Rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Give them our full support."
+		relation = { who = LOM value = 100 }
+		relation = { who = VEN value = 100 }
+		relation = { who = AUS value = -75 }
+		AUS = { diplomatic_influence = { who = THIS value = -50 } }
+		leave_alliance = AUS
+		end_war = LOM
+		end_war = VEN
+		end_war = SAR
+		end_war = SVY
+		treasury = -6000
+		LOM = { treasury = 3000 }
+		VEN = { treasury = 3000 }
+		LOM = { prestige = 2 }
+		VEN = { prestige = 2 }
+		AUS = { prestige = -1 }
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+				}
+			}
+			militancy = -1
+		}	
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					tag = PAP
+					tag = SIC
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Give them minimal support."
+		relation = { who = LOM value = 50 }
+		relation = { who = VEN value = 50 }
+		relation = { who = AUS value = -25 }
+		AUS = { diplomatic_influence = { who = THIS value = -25 } }
+		leave_alliance = AUS
+		end_war = LOM
+		end_war = VEN
+		end_war = SAR
+		end_war = SVY
+		treasury = -3000
+		LOM = { treasury = 1500 }
+		VEN = { treasury = 1500 }
+		LOM = { prestige = 1 }
+		VEN = { prestige = 1 }
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	option = {
+		name = "Repudiate the liberal insurrection."
+		relation = { who = LOM value = -50 }
+		relation = { who = VEN value = -50 }
+		relation = { who = AUS value = 50 }
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+				}
+			}
+			militancy = 2
+			consciousness = 3
+		}	
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 35313
+	title = "EVTNAME35313"
+	desc = "EVTDESC35313"
+	picture = "Unite"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Onwards, Italia!"
+		relation = { who = FROM value = 400 }
+		create_alliance = FROM
+		FROM = { diplomatic_influence = { who = THIS value = 200 } }
+	}
+}
+
+country_event = {
+	id = 35314
+	title = "EVTNAME35314"
+	desc = "EVTDESC35314"
+	picture = "rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Curse them!"
+	}
+}
+
+#Second Italian War of Independence
+country_event = {
+
+	id = 90038
+	title = "EVTNAME90038" #The Pact of Plombières
+	desc = "EVTDESC90038"
+	news = yes
+	news_desc_long = "EVTDESC90038_NEWS_LONG"
+	news_desc_medium = "EVTDESC90038_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90038_NEWS_SHORT"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We will agree to the pact."
+		diplomatic_influence = { who = SAR value = 100 }
+		random_owned = {
+			limit = {
+				owner = {
+					ai = yes
+					NOT = { badboy = 0.68 }
+				}
+			}
+			owner = {
+				badboy = -25
+				badboy = 18
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						ai = no
+						badboy = 0.68
+					}
+				}
+			}
+			owner = { badboy = 3 }
+		}
+		SAR = {
+			prestige = 10
+			relation = {
+				who = FRA
+				value = 150
+			}
+			create_alliance = FRA
+			add_country_modifier = {
+				name = csa_draft
+				duration = 365
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = italian
+				OR = {
+					in_sphere = FRA
+					part_of_sphere = no
+				}
+				ai = yes
+				NOT = { alliance_with = FRA }
+			}
+			create_alliance = FRA
+		}		
+		random_country = {
+			limit = {
+				tag = AUS
+				owns = 726
+				owns = 727
+				owns = 728
+				exists = SAR
+			}
+			THIS = {
+				relation = {
+					who = AUS
+					value = -150
+				}
+				casus_belli = {
+					target = AUS
+					type = free_peoples
+					months = 12
+				}
+				war = {
+					target = AUS
+					attacker_goal = {
+						casus_belli = free_peoples
+						country = SAR
+						state_province_id = 726
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = AUS
+				owns = 726
+				owns = 727
+				owns = 728
+				exists = SVY
+			}
+			THIS = {
+				relation = {
+					who = AUS
+					value = -150
+				}
+				casus_belli = {
+					target = AUS
+					type = free_peoples
+					months = 12
+				}
+				war = {
+					target = AUS
+					attacker_goal = {
+						casus_belli = free_peoples
+						country = SVY
+						state_province_id = 726
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = KUK
+				owns = 726
+				owns = 727
+				owns = 728
+				exists = SAR
+			}
+			THIS = {
+				relation = {
+					who = KUK
+					value = -150
+				}
+				casus_belli = {
+					target = KUK
+					type = free_peoples
+					months = 12
+				}
+				war = {
+					target = KUK
+					attacker_goal = {
+						casus_belli = free_peoples
+						country = SAR
+						state_province_id = 726
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = KUK
+				owns = 726
+				owns = 727
+				owns = 728
+				exists = SVY
+			}
+			THIS = {
+				relation = {
+					who = KUK
+					value = -150
+				}
+				casus_belli = {
+					target = KUK
+					type = free_peoples
+					months = 12
+				}
+				war = {
+					target = KUK
+					attacker_goal = {
+						casus_belli = free_peoples
+						country = SVY
+						state_province_id = 726
+					}
+					call_ally = yes
+				}
+			}
+		}		
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "This is not in France's best interest."
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		FROM = {
+			prestige = -10
+			relation = {
+				who = FRA
+				value = -100
+			}
+			leave_alliance = FRA
+			country_event = 96161
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+
+	id = 96160
+	title = "Union with Sardinia"
+	desc = "For the good of Italian reunification, our people wish to unite with the Sardinians."
+
+	trigger = {
+		exists = yes
+		primary_culture = north_italian
+		war = no
+		is_vassal = no
+		ai = yes
+		NOT = {
+			tag = SAR
+			tag = SVY
+			exists = ITA
+			truce_with = SAR
+			truce_with = SVY
+			has_country_flag = does_not_want_to_unify
+			has_country_flag = attempted_sardinia_union
+		}
+		OR = {
+			part_of_sphere = no
+			sphere_owner = { is_sphere_leader_of = SAR }
+			in_sphere = SAR
+			in_sphere = SVY
+		}
+		OR = {
+			SAR = {
+				war = no
+				neighbour = THIS
+				is_vassal = no
+			}
+			SVY = {
+				war = no
+				neighbour = THIS
+				is_vassal = no
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "Viva Italia!"
+		set_country_flag = attempted_sardinia_union
+		random_owned = {
+			limit = {
+				SAR = { exists = yes }
+			}
+			owner = {
+				all_core = { add_core = SAR }
+			}
+		}
+		random_owned = {
+			limit = {
+				SVY = { exists = yes }
+			}
+			owner = {
+				all_core = { add_core = SVY }
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = made_the_call_to_union }
+			}
+			SAR = { set_country_flag = made_the_call_to_union }
+			SVY = { set_country_flag = made_the_call_to_union }
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = SAR
+					tag = SVY
+				}
+				exists = yes
+				ai = yes
+			}
+			prestige = 10
+			inherit = THIS
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = SAR
+					tag = SVY
+				}
+				exists = yes
+				ai = no
+			}
+			prestige = 10
+			country_event = 60130
+		}
+	}
+}
+
+country_event = {
+	
+	id = 96161
+	title = "Failure of Plombières"
+	desc = "The Pact of Plombières has failed, and our deal with France is broken."
+	picture = "treaty"
+	
+	trigger = {
+		OR = {
+			tag = SAR
+			tag = SVY
+		}
+		exists = yes
+		war = no
+		has_country_flag = plombieres
+		NOT = {
+			has_global_flag = plombieres_refused
+			has_country_flag = cavour_has_done_his
+			owns = 726
+			owns = 727
+			owns = 728
+		}
+		FRA = {
+			war = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Unfortunate."
+		set_global_flag = plombieres_refused
+		465 = { add_core = FRA }
+		466 = { add_core = FRA }
+		472 = { add_core = FRA }
+		PAP_741 = { add_core = THIS }
+		MOD_739 = { add_core = THIS }
+		TUS_744 = { add_core = THIS }
+	}
+}
+
+country_event = {
+
+	id = 96165
+	title = "EVTNAME96165" #Italian Unification
+	desc = "EVTDESC96165"
+	picture = "unite"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "This is a threat to $COUNTRY$."
+		set_country_flag = objects_to_italy
+		relation = {
+			who = ITA
+			value = -100
+		}
+		random_owned = {
+			limit = {
+				owner = { is_greater_power = yes }
+			}
+			owner = {
+				diplomatic_influence = {
+					who = ITA
+					value = -200
+				}
+			}
+		}
+		leave_alliance = ITA
+		casus_belli = {
+			target = ITA
+			type = humiliate
+			months = 12
+		}
+		casus_belli = {
+			target = ITA
+			type = free_peoples
+			months = 36
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.1
+				is_sphere_leader_of = ITA
+			}
+			modifier = {
+				factor = 0.25
+				alliance_with = ITA
+			}
+			modifier = {
+				factor = 0.5
+				tag = FRA
+				NOT = {
+					465 = { owned_by = ITA }
+					466 = { owned_by = ITA }
+					472 = { owned_by = ITA }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { relation = { who = ITA value = 0 } }
+			}
+			modifier = {
+				factor = 0.5
+				relation = { who = ITA value = 100 }
+			}
+		}
+	}
+
+	option = {
+		name = "We must reconcile with Italy."
+		set_country_flag = accepts_italy
+		relation = {
+			who = ITA
+			value = 100
+		}
+		random_owned = {
+			limit = {
+				owner = { is_greater_power = yes }
+			}
+			owner = {
+				diplomatic_influence = {
+					who = ITA
+					value = 25
+				}
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 1.5
+				tag = FRA
+				NOT = {
+					465 = { owned_by = ITA }
+					466 = { owned_by = ITA }
+					472 = { owned_by = ITA }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				tag = FRA
+				OR = {
+					465 = { owned_by = ITA }
+					466 = { owned_by = ITA }
+					472 = { owned_by = ITA }
+				}
+			}
+			modifier = {
+				factor = 0
+				any_core = { owned_by = ITA }
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					tag = AUS
+					tag = KUK
+				}
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { relation = { who = ITA value = 0 } }
+			}
+			modifier = {
+				factor = 1.5
+				relation = { who = ITA value = 100 }
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 96170
+	title = "EVTNAME96170" #Il Risorgimento
+	desc = "EVTDESC96170"
+	major = yes
+
+	trigger = {
+		exists = yes
+		is_culture_group = italian
+		war = no
+		is_vassal = no
+		is_disarmed = no
+		NOT = {
+			exists = ITA
+			has_country_flag = does_not_want_to_be_unified
+		}
+		OR = {
+			nationalism_n_imperialism = 1
+			AND = {
+				year = 1890
+				OR = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+			}
+		}
+		OR = {
+			has_global_flag = italian_call_to_union
+			has_global_flag = garibaldi_redshirts
+			AND = {
+				OR = {
+					tag = SAR
+					tag = SVY
+					tag = SIC
+				}
+				exists = GER
+				year = 1890
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 40
+		modifier = {
+			factor = 0.25
+			has_country_flag = made_the_call_to_union
+		}
+		modifier = {
+			factor = 0.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = no
+			is_secondary_power = no
+		}
+		modifier = {
+			factor = 3
+			NOT = { year = 1870 }
+		}
+		modifier = {
+			factor = 1.5
+			year = 1870
+			NOT = { year = 1880 }
+		}
+		modifier = {
+			factor = 0.5
+			year = 1890
+		}
+		modifier = {
+			factor = 0.75
+			exists = GER
+		}
+	}
+
+	option = {				
+		name = "EVTOPTA11103" #Accept inheritance
+		clr_country_flag = made_the_call_to_union
+		prestige = 10
+		random_country = {
+			limit = { is_sphere_leader_of = THIS }
+			set_country_flag = objects_to_italy
+		}
+		add_accepted_culture = south_italian
+		add_accepted_culture = north_italian
+		change_tag = culture
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+					tag = PAP
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = 11101
+		}
+		random_country = {
+			limit = {
+				tag = PAP
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -200
+			}
+			leave_alliance = THIS
+			any_owned = {
+				limit = {
+					NOT = { province_id = 749 }
+				}
+				secede_province = THIS
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { is_culture_group = italian }
+				OR = {
+					has_country_flag = objects_to_italy
+					AND = {
+						neighbour = ITA
+						OR = {
+							tag = AUS
+							tag = KUK
+						}
+					}
+					AND = {
+						neighbour = ITA
+						is_greater_power = yes
+					}
+				}
+			}
+			country_event = 96165
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB11103" #Refuse inheritance
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		clr_country_flag = made_the_call_to_union
+		any_pop = {
+			militancy = 6
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					tag = SAR
+					tag = SVY
+				}
+			}
+		}
+	}
+}			

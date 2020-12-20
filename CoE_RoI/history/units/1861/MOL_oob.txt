@@ -1,0 +1,27 @@
+TUR = {
+	value = 125
+}
+WAL = {
+	value = 200
+}
+
+army = {
+	name = "Armata Principatul Moldovei"
+	location = 673
+	regiment = {
+		name= "1. Infanterie Moldovei"
+		type = regular
+	}
+
+	regiment = {
+		name= "2. Infanterie Moldovei"
+		type = regular
+	}
+
+	regiment = {
+		name= "3. Infanterie Moldovei"
+		type = regular
+	}
+
+}
+

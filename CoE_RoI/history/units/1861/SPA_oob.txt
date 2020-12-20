@@ -1,0 +1,342 @@
+#Sphere of Influence
+MEX = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ECU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PEU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BOL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CHL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+UCA = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+COL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+navy = {
+	name = "1a Escuadra del Norte"
+	location = 474
+	ship = {
+		name= "Sagunto"
+		type = frigate
+	}
+
+	ship = {
+		name= "Vencedora"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2a Escuadra del Norte"
+	location = 512
+	ship = {
+		name= "Francisco de Asís"
+		type = manowar
+	}
+
+}
+
+navy = {
+	name = "Escuadra del Atlántico"
+	location = 2212
+	ship = {
+		name= "Escuadra del Atlántico"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Escuadra del Mediterráneo"
+	location = 498
+	ship = {
+		name= "Escuadra del Mediterráneo"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Escuadra del Pacífico"
+	location = 1455
+	ship = {
+		name= "Escuadra del Pacífico"
+		type = clipper_transport
+	}
+
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 498
+	regiment = {
+		name= "1.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.2a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.4a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.4a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.4a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.3a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.1a División de Caballería"
+		type = hussar
+	}
+
+	regiment = {
+		name= "2.1a División de Caballería"
+		type = hussar
+	}
+
+	regiment = {
+		name= "3.1a División de Caballería"
+		type = hussar
+	}
+
+	regiment = {
+		name= "4.1a División de Caballería"
+		type = hussar
+	}
+
+}
+
+army = {
+	name = "Ejército del Sur"
+	location = 513
+	regiment = {
+		name= "1.5a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.5a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.5a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.6a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.6a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.6a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.7a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.7a División de Infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.7a División de Infantería"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "Ejército de Cuba"
+	location = 2212
+	regiment = {
+		name= "1.1a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.1a Infantería Colonial"
+		type = hussar
+	}
+
+	regiment = {
+		name= "1.2a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2a Infantería Colonial"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "Ejército de Puerto Rico"
+	location = 2222
+	regiment = {
+		name= "1.3a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.3a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.3a Infantería Colonial"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "Ejército de Filipinas"
+	location = 1455
+	regiment = {
+		name= "1.4a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.4a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.4a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.5a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.5a Infantería Colonial"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.5a Infantería Colonial"
+		type = regular
+	}
+
+}
+

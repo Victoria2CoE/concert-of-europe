@@ -1,0 +1,62 @@
+capital = 2204
+primary_culture = central_american
+culture = north_andean
+religion = catholic
+government = presidential_dictatorship
+plurality = 0.1
+nationalvalue = nv_order
+literacy = 0.01 #literacy = 0.25
+civilized = yes
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = underground_parties
+minorities_reform = limited
+immigration_policy = open_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+land_property=landed_estates
+child_labor = child_labor_restricted
+arts_endowment=no_endowment
+education = elite
+
+ruling_party = PNM_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 70
+	reactionary = 12
+	anarcho_liberal = 3
+	socialist = 0
+	communist = 0
+}
+
+set_country_flag = liberal_constitution
+
+1836.1.1 = {
+	set_country_flag = federation
+	clr_country_flag = liberal_constitution
+}
+
+1861.1.1 = {
+	oob = "/1861/PNM_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

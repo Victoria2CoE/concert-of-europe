@@ -1,0 +1,32 @@
+AUS = {
+	value = 75
+}
+
+army = {
+	name = "Esercito Toscano"
+	location = 744
+	regiment = {
+		name= "1. Fanteria di Linea"
+		type = regular
+		home = 744
+	}
+
+	regiment = {
+		name= "2. Fanteria di Linea"
+		type = regular
+		home = 744
+	}
+
+	regiment = {
+		name= "3. Fanteria di Linea"
+		type = regular
+		home = 744
+	}
+
+	regiment = {
+		name= "1. regularia Civica"
+		type = regular
+		home = 744
+	}
+}
+

@@ -1,0 +1,463 @@
+#Sphere of Influence
+
+#Europe
+POR = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#North America
+MEX = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+UCA = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#South America
+ECU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+PEU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BOL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CHL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+PRG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CLM = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#Africa
+MOR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+EGY = {
+	value = 0		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+DAH = {
+	value = 30
+}
+OYO = {
+	value = 30
+}
+ARO = {
+	value = 40
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 30
+}
+KON = {
+	value = 40
+}
+LOA = {
+	value = 30
+}
+GBU = {
+	value = 50
+}
+TOO = {
+	value = 50
+}
+WOL = {
+	value = 50
+}
+
+#Asia
+QNG ={
+	level = 0
+}
+SUL = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#Other GP's
+ENG = {
+	value = -75
+}
+FRA = {
+	value = 125
+}
+
+#Army
+
+army = {
+	name = "Ejército Cristino del Centro"
+	location = 487
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "3. regularia Real"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "1. Brigada de Infantería 'El Ramillete'"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = regular
+		home = 487
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = engineer
+		home = 487
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = hussar
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = hussar
+		home = 487
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = hussar
+		home = 487
+	}
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 498
+	
+	regiment = {
+		name= "4. Brigada de Infantería 'San Jorge'"
+		type = regular
+		home = 477
+	}
+
+	regiment = {
+		name= "1. Brigada de Artillería"
+		type = artillery
+		home = 477
+	}
+	
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = regular
+		home = 477
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantería 'La Granja'"
+		type = regular
+		home = 477
+	}
+
+	regiment = {
+		name= "7. Brigada de Infantería"
+		type = regular
+		home = 477
+	}
+}
+
+army = {
+	name = "Ejército del Sur"
+	location = 512
+
+	regiment = {
+		name= "8. Brigada de Infantería"
+		type = regular
+		home = 2233
+	}
+
+	regiment = {
+		name= "9. Brigada de Infantería"
+		type = regular
+		home = 2233
+	}
+
+	regiment = {
+		name= "10. Brigada de Infantería"
+		type = regular
+		home = 2233
+	}
+
+	regiment = {
+		name= "11. Brigada de Infantería"
+		type = regular
+		home = 2233
+	}
+	
+	regiment = {
+		name= "12. Brigada de Infantería"
+		type = regular
+		home = 2233
+	}
+}
+
+army = {
+	name = "Ejército de Cuba"
+	location = 2209
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = regular
+		home = 2209
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = regular
+		home = 2209
+	}
+}
+
+army = {
+	name = "Ejército de Puerto Rico"
+	location = 2222
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = regular
+		home = 512
+	}
+}
+
+army = {
+	name = "Ejército de Filipinas"
+	location = 1455
+	
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = regular
+		home = 512
+	}
+}
+
+army = {
+	name = "Ejército de Mindanao"
+	location = 1463
+	
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = regular
+		home = 512
+	}
+}
+
+navy = {
+	name = "Armada de Cuba"
+	location = 2212
+	
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Cuba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada de Filipinas"
+	location = 1455
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada Real Española"
+	location = 506
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}

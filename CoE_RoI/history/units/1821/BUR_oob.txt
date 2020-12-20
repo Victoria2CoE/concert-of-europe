@@ -1,0 +1,119 @@
+QNG = {
+	value = 50
+}
+SIA = {
+	value = -50
+}
+ASM = {
+	value = -150
+}
+
+leader = {
+	name = "Maha Bandula"
+	type = land
+	date = 1800.1.1
+	personality = daring
+	background = rising_star
+	prestige = 0.15
+}
+
+army = {
+	name = "Army of Burma"
+	location = 1337
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "4. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "6. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "7. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "8. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "9. Brigade"
+		type = infantry
+		home = 1334
+	}
+
+}
+
+army = {
+	name = "Army of Western Burma"
+	location = 1339
+	regiment = {
+		name= "10. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+	regiment = {
+		name= "11. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+	regiment = {
+		name= "12. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+	regiment = {
+		name= "13. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+	regiment = {
+		name= "15. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+	regiment = {
+		name= "16. Brigade"
+		type = infantry
+		home = 1339
+	}
+
+}
+

@@ -1,0 +1,231 @@
+# Audax Validator "!" Ignore_1004
+#Sol Hachuel
+country_event = {
+	id = 290100
+	trigger = {
+		tag = MOR
+		year = 1834
+		war = no
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	title = "EVTNAME290100"
+	desc = "EVTDESC290100"
+	picture = "sol_hachuel"
+
+	news = yes
+	news_title = EVTNEWS290100_title
+	news_desc_short = EVTNEWS290100_short
+	news_desc_medium = EVTNEWS290100_medium
+	news_desc_long = EVTNEWS290100_long
+	
+	option = {
+		name = "Regrettable, but the law is clear: Death to apostates"
+		prestige = -3
+		any_pop = {
+			limit = {
+				religion = jewish
+			}
+			consciousness = 2
+			militancy = 1
+			ideology = {
+				factor = 0.05
+				value = liberal
+			}
+		}
+		any_pop = {
+			limit = {
+				religion = sunni
+			}
+			consciousness = -1
+			ideology = {
+				factor = -0.02
+				value = reactionary
+			}
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "Perhaps she never converted in the first place?"
+		any_pop = {
+			limit = {
+				religion = jewish
+			}
+			consciousness = 2
+			militancy = -1
+		}
+		any_pop = {
+			limit = {
+				religion = sunni
+			}
+			consciousness = 1
+			scaled_militancy = {
+				factor = 1
+				ideology = reactionary
+			}
+			ideology = {
+				factor = 0.05
+				value = reactionary
+			}
+		}
+		1680 = {
+			any_pop = {
+				limit = {
+					religion = sunni
+				}
+				consciousness = 1
+				scaled_militancy = {
+					factor = 2
+					ideology = reactionary
+				}
+				ideology = {
+					factor = 0.05
+					value = reactionary
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			
+		}
+	}
+}
+
+
+#############################################
+#											#
+#			  Unequal Treaties				#
+#											#
+#############################################
+
+country_event = {
+	id = 290115
+	title = "EVTNAME290115" #Morocco submits
+	desc = "EVTDESC290115"
+	news = yes
+	news_title = "EVTNEWS290115_title"
+	news_desc_long = "EVTNEWS290115_long"
+	news_desc_medium = "EVTNEWS290115_medium"
+	news_desc_short = "EVTNEWS290115_short"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		treasury = 25000
+		relation = { who = MOR value = 300 } #No more war for a while
+		diplomatic_influence = { who = MOR value = 5 }
+		
+		###DO NOT CHANGE ORDER IN WHICH PROVINCES ARE SECEDED BELOW!!!###
+		random_owned = {					#If Morocco no longer owns Ifni, it secedes Casablanca
+			limit = {
+				OR = { #Morocco doesn't control Tangiers, or player controls Melilla
+					NOT = { MOR = { owns = 1686 } }
+					owner = { owns = 1689 }
+				}
+				NOT = { MOR = { owns = 1695 } }
+				MOR = {
+					owns = 1691
+				}
+			}
+			1691 = { secede_province = THIS }
+		}
+		
+		random_owned = {					#Once the Rif is taken, Morocco secedes Ifni
+			limit = {
+				OR = {	#Either the complete rif is taken, or player controls Melilla
+					NOT = { MOR = { owns = 1686 } }
+					owner = { owns = 1689 }
+				}
+				NOT = { 
+					MOR = { owns = 1687 }
+					MOR = { owns = 1688 }
+					MOR = { owns = 1689 }					
+				}
+				MOR = { 
+					owns = 1695
+				}
+			}
+			1695 = { secede_province = THIS }
+		}
+		
+		random_owned = { 					#Ajdir goes if Morocco doesn't control Tetouan
+			limit = {
+				NOT = {
+					MOR = { owns = 1687 }
+				}
+				MOR = { owns = 1688 }
+			}
+			1688 = { secede_province = THIS }
+		}
+		
+		random_owned = { 					#Tetouan if either Morocco doesn't control Tangiers, or player control Melilla
+			limit = {
+				OR = {
+					owner = { owns = 1689 }
+					NOT = { MOR = { owns = 1686 } }
+				}
+				MOR = { owns = 1687 }
+			}
+			1687 = { secede_province = THIS }
+		}
+		
+		random_owned = {					#unless Spain owns Casablanca, Tangiers goes to someone else
+			limit = {
+				OR = {
+					NOT = { owner = { owns = 1689 } }
+					AND = {
+						NOT = { MOR = { owns = 1688 } }
+						NOT = { MOR = { owns = 1687 } }
+						NOT = { MOR = { owns = 1691 } } #Morocco no longer controls Casablanca. 
+					}
+				}
+				MOR = { owns = 1686 }
+			}
+			1686 = { secede_province = THIS }
+		}
+		
+		random_owned = {					#Should Spain loose Melilla, it can be seceded to someone else
+			limit = {
+				NOT = { MOR = { owns = 1688 } }
+				MOR = { owns = 1689 }
+			}
+			1689 = { secede_province = THIS }
+		}
+		
+		###YOU MAY CHANGE THINGS AGAIN###
+		
+		any_country = {	#Peace on Earth!
+			limit = {
+				OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					is_greater_power = no
+				}
+				alliance_with = THIS
+				war_with = MOR
+			}
+			end_war = MOR
+		}
+		any_country = {
+			limit = {
+				OR = {
+					vassal_of = MOR
+					substate_of = MOR
+					alliance_with = MOR
+				}
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+	}
+}

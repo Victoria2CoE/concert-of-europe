@@ -1,0 +1,2518 @@
+country_event = {
+
+	id = 44100
+	news = yes
+	news_desc_long = "EVTDESC44100_NEWS_LONG"
+	news_desc_medium = "EVTDESC44100_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44100_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1885
+		NOT = {
+			year = 1888
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44100"
+	desc = "EVTDESC44100"
+	picture = "HuckleberryFinn"
+
+	option = {
+		name = "EVTOPTA44100" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 44101
+	news = yes
+	news_desc_long = "EVTDESC44101_NEWS_LONG"
+	news_desc_medium = "EVTDESC44101_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44101_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1893
+		NOT = {
+			year = 1896
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44101"
+	desc = "EVTDESC44101"
+	picture = "speedrecord"
+
+	option = {
+		name = "EVTOPTA44101" 
+		prestige = 3
+	}
+
+}
+
+country_event = {
+
+	id = 44102
+	news = yes
+	news_desc_long = "EVTDESC44102_NEWS_LONG"
+	news_desc_medium = "EVTDESC44102_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44102_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		invention = double_standard 
+		year = 1895
+		NOT = {
+			year = 1898
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1896
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1897
+		}
+	}
+
+	title = "EVTNAME44102"
+	desc = "EVTDESC44102"
+	picture = "CrossofGold"
+
+	option = {
+		name = "EVTOPTA44102" 
+		plurality = 3
+		any_pop = {
+			consciousness = 1
+		}
+	}
+
+}
+
+country_event = {
+
+	id = 44103
+	news = yes
+	news_desc_long = "EVTDESC44103_NEWS_LONG"
+	news_desc_medium = "EVTDESC44103_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44103_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1856
+		war = no
+		NOT = {
+			year = 1859
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1857
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1858
+		}
+	}
+
+	title = "EVTNAME44103"
+	desc = "EVTDESC44103"
+	picture = "HMS_Resolute"
+
+	option = {
+		name = "EVTOPTA44103" 
+		prestige = 3
+		relation = { who = ENG value = 100 }
+	}
+
+}
+
+country_event = {
+
+	id = 44104
+	news = yes
+	news_desc_long = "EVTDESC44104_NEWS_LONG"
+	news_desc_medium = "EVTDESC44104_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44104_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44104"
+	desc = "EVTDESC44104"
+	picture = "HoraceMann"
+
+	option = {
+		name = "EVTOPTA44104" 
+		prestige = 2
+		plurality = 1
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44105
+	news = yes
+	news_desc_long = "EVTDESC44105_NEWS_LONG"
+	news_desc_medium = "EVTDESC44105_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44105_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1846
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44105"
+	desc = "EVTDESC44105"
+	picture = "Smithsonian"
+
+	option = {
+		name = "EVTOPTA44105" 
+		prestige = 5
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44106
+	news = yes
+	news_desc_long = "EVTDESC44106_NEWS_LONG"
+	news_desc_medium = "EVTDESC44106_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44106_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1841
+		NOT = {
+			year = 1844
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1842
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME44106"
+	desc = "EVTDESC44106"
+	picture = "Emerson"
+
+	option = {
+		name = "EVTOPTA44106" 
+		prestige = 2
+		any_pop = {
+			dominant_issue = { 
+				factor = 0.10
+				value = moralism
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44107
+	news = yes
+	news_desc_long = "EVTDESC44107_NEWS_LONG"
+	news_desc_medium = "EVTDESC44107_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44107_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		year = 1861
+		NOT = {
+			year = 1864
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1862
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME44107"
+	desc = "EVTDESC44107"
+	picture = "CommonLaw"
+
+	option = {
+		name = "EVTOPTA44107" 
+		prestige = 1
+		plurality = 2
+	}
+}
+
+country_event = {
+
+	id = 44108
+	news = yes
+	news_desc_long = "EVTDESC44108_NEWS_LONG"
+	news_desc_medium = "EVTDESC44108_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44108_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1885
+		has_global_flag = american_civil_war_has_happened
+		NOT = {
+			exists = CSA
+			year = 1888
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44108"
+	desc = "EVTDESC44108"
+	picture = "Grant"
+
+	option = {
+		name = "EVTOPTA44108" 
+		prestige = 10
+	}
+}
+
+country_event = {
+
+	id = 44109
+	news = yes
+	news_desc_long = "EVTDESC44109_NEWS_LONG"
+	news_desc_medium = "EVTDESC44109_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44109_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1890
+		is_greater_power = yes
+		NOT = {
+			year = 1893
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1891
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1892
+		}
+	}
+
+	title = "EVTNAME44109"
+	desc = "EVTDESC44109"
+	picture = "SeaPower"
+
+	option = {
+		name = "EVTOPTA44109" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 44110
+	news = yes
+	news_desc_long = "EVTDESC44110_NEWS_LONG"
+	news_desc_medium = "EVTDESC44110_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44110_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1916
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		is_greater_power = yes
+		war = yes
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1917
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1920
+		}
+	}
+
+	title = "EVTNAME44110"
+	desc = "EVTDESC44110"
+	picture = "Spies"
+
+	option = {
+		name = "EVTOPTA44110" 
+		prestige = -10
+		any_pop = {
+			militancy = -2
+			consciousness = -2
+			}
+		political_reform = censored_press
+		political_reform = non_socialist
+		plurality = -10
+	}
+
+
+	option = {
+		name = "EVTOPTB44110" 
+		prestige = 25
+		political_reform = free_press
+		political_reform = all_trade_unions
+		plurality = 10
+		craftsmen = {
+			ideology = {
+				factor = 0.15
+				value = socialist
+				}
+			}
+		labourers = {
+			ideology = {
+				factor = 0.20
+				value = socialist
+				}
+			}
+		soldiers = {
+			ideology = {
+				factor = 0.05
+				value = socialist
+				}
+			}
+	}
+}
+
+country_event = {
+
+	id = 44111
+	news = yes
+	news_desc_long = "EVTDESC44111_NEWS_LONG"
+	news_desc_medium = "EVTDESC44111_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44111_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1865
+		war = no
+		NOT = {
+			year = 1871
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1866
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME44111"
+	desc = "EVTDESC44111"
+	picture = "pinkertons"
+
+	option = {
+		name = "EVTOPTA44111" 
+		prestige = 1
+	}
+}
+
+country_event = {
+
+	id = 44112
+	news = yes
+	news_desc_long = "EVTDESC44112_NEWS_LONG"
+	news_desc_medium = "EVTDESC44112_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44112_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1876
+		war = no
+		NOT = {
+			year = 1880
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1877
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1878
+		}
+	}
+
+	title = "EVTNAME44112"
+	desc = "EVTDESC44112"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44112" 
+		prestige = 1
+		farmers = {
+			consciousness = -1
+		}
+		labourers = {
+			consciousness = -1
+		}
+		soldiers = {
+			consciousness = -1
+		}
+		artisans = {
+			consciousness = -1
+		}
+		craftsmen = {
+			consciousness = -1
+		}
+		clerks = {
+			consciousness = -1
+		}
+		clergymen = {
+			consciousness = -1
+		}
+	}
+}
+
+country_event = {
+
+	id = 44113
+	news = yes
+	news_desc_long = "EVTDESC44113_NEWS_LONG"
+	news_desc_medium = "EVTDESC44113_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44113_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1871
+		owns = 163 #Chicago
+		NOT = {
+			year = 1874
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1872
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1873
+		}
+	}
+
+	title = "EVTNAME44113"
+	desc = "EVTDESC44113"
+	picture = "chicagofire"
+
+	option = {
+		name = "EVTOPTA44113" 
+		treasury = -2500
+	}
+}
+
+country_event = {
+
+	id = 44114
+	news = yes
+	news_desc_long = "EVTDESC44114_NEWS_LONG"
+	news_desc_medium = "EVTDESC44114_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44114_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = USA
+			tag = CSA
+			tag = FSA
+		}
+		exists = yes
+		year = 1881
+		owns = 102 #S Arizona
+		NOT = {
+			year = 1884
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1882
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1883
+		}
+	}
+
+	title = "EVTNAME44114"
+	desc = "EVTDESC44114"
+	picture = "WyattEarp"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 1
+	}
+}
+
+
+country_event = {
+
+	id = 44115
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1846
+		NOT = {
+			year = 1850
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44115"
+	desc = "EVTDESC44115"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 2
+	}
+}
+
+#Second Great Awakening
+country_event = {
+
+	id = 44116
+	news = yes
+	news_desc_long = "EVTDESC44116_NEWS_LONG"
+	news_desc_medium = "EVTDESC44116_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44116_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1836
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1837
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME44116"
+	desc = "EVTDESC44116"
+	picture = "secondawakening"
+
+	option = {
+		name = "EVTOPTA44116"
+		any_pop = {
+			consciousness = 0.3
+		}
+		farmers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+			}
+		}		
+		labourers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+			}
+		}		
+		soldiers = { 
+			dominant_issue = {
+				factor = 0.25
+				value = moralism
+			}
+		}		
+		artisans = { 
+			dominant_issue = {
+				factor = 0.30
+				value = moralism
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44117
+	news = yes
+	news_desc_long = "EVTDESC44117_NEWS_LONG"
+	news_desc_medium = "EVTDESC44117_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44117_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1837
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44117"
+	desc = "EVTDESC44117"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44117" 
+		any_pop = { 
+			scaled_consciousness = {
+				factor = 1
+				ideology = liberal
+			}
+		}		
+	}
+}
+
+country_event = {
+
+	id = 44118
+	news = yes
+	news_desc_long = "EVTDESC44118_NEWS_LONG"
+	news_desc_medium = "EVTDESC44118_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44118_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1837
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44118"
+	desc = "EVTDESC44118"
+	picture = "charity"
+
+	option = {
+		name = "EVTOPTA44118" 
+		plurality = 1
+		farmers = { 
+			militancy = -1
+		}		
+		labourers = { 
+			militancy = -1
+		}		
+		soldiers = { 
+			militancy = -1
+		}		
+		artisans = { 
+			militancy = -1
+		}		
+	}
+}
+
+country_event = {
+
+	id = 44119
+	news = yes
+	news_desc_long = "EVTDESC44119_NEWS_LONG"
+	news_desc_medium = "EVTDESC44119_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44119_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1848
+		NOT = {
+			year = 1852
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1849
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME44119"
+	desc = "EVTDESC44119"
+	picture = "JJHughes"
+
+	option = {
+		name = "EVTOPTA44119" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = catholic
+			}
+			consciousness = 1
+		}		
+	}
+}
+
+
+# Moral Crusaders
+country_event = {
+
+	id = 44120
+	news = yes
+	news_desc_long = "EVTDESC44120_NEWS_LONG"
+	news_desc_medium = "EVTDESC44120_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44120_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		moralism = 5
+		year = 1838
+		NOT = {
+			year = 1930
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 60
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1885
+		}
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1910
+		}
+	}
+
+	title = "EVTNAME44120"
+	desc = "EVTDESC44120"
+	picture = "saloon"
+
+	option = {
+		name = "EVTOPTA44120" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = protestant
+			}
+			consciousness = 1
+			dominant_issue = {
+				factor = 0.02
+				value = moralism
+			}		
+			dominant_issue = {
+				factor = 0.04
+				value = secularized
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44121
+	news = yes
+	news_desc_long = "EVTDESC44121_NEWS_LONG"
+	news_desc_medium = "EVTDESC44121_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44121_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1839
+		}
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44121"
+	desc = "EVTDESC44121"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44121" 
+		any_pop = { 
+			limit = {
+				has_pop_culture = afro_american
+			}
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+	id = 44122 #Gadsden Purchase
+	title = "EVTNAME44122"
+	desc = "EVTDESC44122"
+	picture = "gadsden"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sell the desert and all of Baja California."
+		treasury = 100000
+		relation = { who = USA value = 25 }
+		102 = {
+			add_core = USA
+			remove_core = MEX
+			secede_province = USA
+		}
+		2138 = {
+			add_core = USA
+			remove_core = MEX
+			secede_province = USA
+		}
+		2139 = {
+			add_core = USA
+			remove_core = MEX
+			secede_province = USA
+		}
+		USA = { country_event = 44123 }
+		ai_chance = {
+			factor = 30
+		}
+	}
+	
+	option = {
+		name = "Sell the strip of desert."
+		treasury = 30000
+		relation = { who = USA value = 10 }
+		102 = {
+			add_core = USA
+			remove_core = MEX
+			secede_province = USA
+		}
+		USA = { country_event = 44124 }
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				money = 250000
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { money = 100000 }
+			}
+		}
+	}
+	
+	option = {
+		name = "Refuse the sale."
+		relation = { who = USA value = -25 }
+		USA = { country_event = 44125 }
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 4
+				money = 500000
+			}
+			modifier = {
+				factor = 2
+				money = 250000
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { money = 100000 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44123
+	title = "EVTNAME44123" #Lower California Acquired
+	desc = "EVTDESC44123"
+	picture = "gadsden"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A grand day for Manifest Destiny!"
+		prestige = 5
+		diplomatic_influence = { who = MEX value = 25 }
+		treasury = -100000
+	}
+}
+
+country_event = {
+	id = 44124
+	title = "EVTNAME44124" #Gadsden Strip Acquired
+	desc = "EVTDESC44124"
+	picture = "gadsden"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A grand day for Manifest Destiny!"
+		prestige = 2
+		diplomatic_influence = { who = MEX value = 10 }
+		treasury = -30000
+	}
+}
+
+country_event = {
+	id = 44125
+	title = "EVTNAME44125" #Offer Rebuffed
+	desc = "EVTDESC44125"
+	picture = "gadsden"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "How dare they!"
+		prestige = -2
+		diplomatic_influence = { who = MEX value = -25 }
+		leave_alliance = MEX
+	}
+}
+
+#Mexican-American War
+country_event = {
+	id = 44126
+	title = "EVTNAME44126" #USA Demands Northwest Territories!
+	desc = "EVTDESC44126"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "No. That land is rightfully ours."
+		set_country_flag = mexico_refused_usa_once
+		USA = { country_event = 44127 }
+		any_pop = {
+			militancy = -1
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "We cannot afford for this to escalate."
+		set_country_flag = treaty_of_guadalupe_hidalgo
+		all_core = {
+			limit = {
+				is_core = USA
+			}
+			remove_core = MEX
+		}
+		prestige = -20
+		any_owned = {
+			limit = {
+				is_core = USA
+			}
+			secede_province = USA
+		}
+		MEX = { money = 100000 }
+		USA = {
+			country_event = 44128
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { in_sphere = USA }
+				part_of_sphere = yes
+			}
+			modifier = {
+				factor = 2
+				USA = { brigades_compare = 2 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					USA = { brigades_compare = 1 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44127
+	title = "EVTNAME44127" #Mexico Has Refused!
+	desc = "EVTDESC44127"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Our military could use the target practice."
+		set_global_flag = mexican_american_war
+		war_exhaustion = -20
+		relation = { who = MEX value = -200 }
+		diplomatic_influence = { who = MEX value = -200 }
+		leave_alliance = MEX
+		random_owned = {
+			limit = {
+				owner = { ai = yes }
+			}
+			owner = {
+				add_country_modifier = {
+					name = usa_draft
+					duration = 365
+				}
+			}
+		}
+		war = {
+			target = MEX
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+				country = USA
+			}
+		}
+		any_pop = {
+			limit = { has_pop_culture = mexican }
+			militancy = 6
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "We don't need this to come to a war yet."
+		set_global_flag = no_mexican_american_war
+		prestige_factor = -0.2
+		any_pop = {
+			consciousness = 1
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+
+	id = 44128
+	title = "EVTNAME44826" #Mexico Agrees
+	desc = "EVTDESC44826"
+	news = yes
+	news_title = "EVTNAME44825"
+	news_desc_long = "EVTDESC44826_NEWS_LONG"
+	news_desc_medium = "EVTDESC44826_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44826_NEWS_SHORT"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A wise move."
+		set_country_flag = treaty_of_guadalupe_hidalgo
+		prestige = 20
+		money = -100000
+		relation = {
+			who = FROM
+			value = 200
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = 400
+		}
+	}
+}
+
+country_event = {
+
+	id = 44129
+	title = "EVTNAME44129" #The Mormon Exodus
+	desc = "EVTDESC44129"
+	picture = "secondawakening"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1846
+		owns = 166
+		97 = { owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Just as well."
+		any_pop = {
+			limit = { has_pop_religion = mormon }
+			dominant_issue = {
+				value = moralism
+				factor = 0.5
+			}
+			consciousness = 5
+			move_pop = 97
+		}
+		97 = {
+			add_province_modifier = {
+				name = home_of_the_mormons
+				duration = 10950
+			}
+			any_pop = {
+				limit = { has_pop_culture = native_american_minor }
+				reduce_pop = 0.25
+			}
+		}
+		MEX_94 = { add_core = DES }
+		MEX_97 = { add_core = DES }
+		88 = { add_core = DES }
+		89 = { add_core = DES }
+		90 = { add_core = DES }
+		100 = { add_core = DES }
+		101 = { add_core = DES }
+	}
+}
+
+#Webster-Ashburton Treaty Events
+country_event = {
+	id = 44130 #The Maine Census
+	title = "EVTNAME44130"
+	desc = "EVTDESC44130"
+	picture = "aroostook"
+	
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1830
+		ENG = {
+			owns = 250 #Caribou
+			owns = 69 #Edmundston
+		}
+		NOT = {
+			war_with = ENG
+			has_country_flag = aroostook_war
+		}
+	}
+	
+	mean_time_to_happen =  {
+		months = 6
+		modifier = {
+			factor = 0.25
+			month = 9
+		}
+		modifier = {
+			factor = 0.25
+			month = 11
+		}
+		modifier = {
+			factor = 0.1
+			year = 1831
+		}
+	}
+	
+	option = {
+		name = "This sounds like trouble..."
+		set_country_flag = aroostook_war
+		random_country = {
+			limit = {
+				tag = ENG
+				NOT = { tag = THIS }
+			}
+			country_event = 44130
+		}
+		250 = { #Caribou
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 5475
+			}
+		}
+		69 = { #Edmundston
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 5475
+			}
+		}
+		relation = { who = ENG value = -25 }
+	}
+}
+
+country_event = {
+	id = 44131 #A Border Treaty
+	title = "EVTNAME44131"
+	desc = "EVTDESC44131"
+	picture = "treaty"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		has_country_flag = aroostook_war
+		year = 1840
+		ENG = {
+			owns = 250 #Caribou
+			owns = 69 #Edmundston
+			NOT = { has_country_flag = lord_durhams_report_ignored }
+		}
+		NOT = {
+			has_country_flag = webster_ashburton
+			war_with = ENG
+			truce_with = ENG
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 18
+	}
+
+	option = {
+		name = "Try to keep the peace."
+		set_country_flag = webster_ashburton
+		250 = { add_core = USA }
+		ENG = { country_event = 44132 }
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.1
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "Demand all of the contested lands."
+		set_country_flag = webster_ashburton
+		badboy = 2
+		250 = { add_core = USA }
+		69 = { add_core = USA }
+		ENG = { country_event = 44133 }
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+			modifier = {
+				factor = 2
+				ENG = { war = yes }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44132
+	title = "EVTNAME44131" #Maine Border Treaty: Conciliatory
+	desc = "EVTDESC44132"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We can accept a compromise."
+		badboy = -3
+		69 = {
+			remove_core = NEN
+		}
+		250 = {
+			remove_core = ENG
+			remove_core = MRU
+			secede_province = USA
+		}
+		relation = { who = FROM value = 25 }
+		FROM = { country_event = 44134 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.1
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "No! The entire region is ours!"
+		badboy = 2
+		relation = { who = FROM value = -50 }
+		FROM = { country_event = 44135 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44133
+	title = "EVTNAME44131" #Maine Border Treaty: Belligerent
+	desc = "EVTDESC44133"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We acknowledge their claims."
+		prestige = -5
+		badboy = -3
+		69 = {
+			remove_core = ENG
+			remove_core = MRU
+			secede_province = USA
+		}
+		250 = {
+			remove_core = ENG
+			remove_core = MRU
+			secede_province = USA
+		}
+		relation = { who = FROM value = 25 }
+		FROM = {
+			prestige = 5
+			country_event = 44134
+		}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0.1
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "Nonsense! The region is ours!"
+		relation = { who = FROM value = -50 }
+		FROM = { country_event = 44135 }
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44134
+	title = "EVTNAME44134" #Webster–Ashburton Treaty
+	desc = "EVTDESC44134"
+	news = yes
+	news_desc_long = "EVTDESC44122_NEWS_LONG"
+	news_desc_medium = "EVTDESC44122_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44122_NEWS_SHORT"
+	picture = "treaty"
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		relation = { who = FROM value = 25 }
+	}
+}
+
+country_event = {
+	id = 44135
+	title = "EVTNAME44135" #Negotiations Break Down
+	desc = "EVTDESC44135"
+	picture = "rebellion"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we must prepare for the worst."
+		relation = { who = FROM value = -100 }
+		leave_alliance = FROM
+	}
+}
+
+country_event = {
+	id = 44136 #A Border Ultimatum (Webster-Ashburton alternative if UK has ignored Lord Durham's Report)
+	title = "EVTNAME44136"
+	desc = "EVTDESC44136"
+	picture = "deliberation"
+
+	trigger = {
+		tag = USA
+		exists = yes
+		has_country_flag = aroostook_war
+		ENG = {
+			owns = 250 #Caribou
+			owns = 69 #Edmundston
+			has_country_flag = lord_durhams_report_ignored
+		}
+		NOT = {
+			has_country_flag = webster_ashburton
+			war_with = ENG
+			truce_with = ENG
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		days = 10
+	}
+	
+	option = {
+		name = "Stake our claim in northern Maine."
+		set_country_flag = webster_ashburton
+		250 = { add_core = USA }
+		69 = { add_core = USA }
+		ENG = { country_event = 44137 }
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "Claim northern Maine and southwestern Upper Canada."
+		set_country_flag = webster_ashburton
+		badboy = 3
+		250 = { add_core = USA }
+		69 = { add_core = USA }
+		53 = { add_core = USA }
+		54 = { add_core = USA }
+		55 = { add_core = USA }
+		ENG = { country_event = 44137 }
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 3
+				ENG = { war = yes }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44137
+	title = "EVTNAME44136" #A Border Ultimatum: American Aggression
+	desc = "EVTDESC44137"
+	picture = "deliberation"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We acknowledge their claims."
+		prestige = -5
+		badboy = -3
+		any_owned = {
+			limit = { is_core = USA }
+			remove_core = ENG
+			remove_core = MRU
+			remove_core = CAN
+			secede_province = USA
+		}
+		relation = { who = FROM value = 25 }
+		FROM = {
+			prestige = 5
+			country_event = 44134
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0.1
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "Nonsense! That land is ours!"
+		relation = { who = FROM value = -50 }
+		FROM = { country_event = 44138 }
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44138
+	title = "EVTNAME44135" #Negotiations Break Down
+	desc = "EVTDESC44135"
+	picture = "rebellion"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we must press our claims by force."
+		relation = { who = FROM value = -100 }
+		leave_alliance = FROM
+		casus_belli = {
+			target = ENG
+			type = free_peoples
+			months = 120
+		}
+	}
+}
+
+country_event = {
+
+	id = 44140
+	title = "EVTNAME44140" #The Northern Alaska Purchase
+	desc = "EVTDESC44140"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sell the territory."
+		FROM = { country_event = 44142 }
+		money = 50000
+		prestige = 5
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.1
+				any_core = { owned_by = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				truce_with = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = "Never! We got there first."
+		FROM = { country_event = 44141 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.75
+				relation = { who = FROM value = 100 }
+			}
+			modifier = {
+				factor = 0.5
+				alliance_with = FROM
+			}
+		}		
+	}
+}
+
+country_event = {
+
+	id = 44141
+	title = "EVTNAME44141" #Refused
+	desc = "EVTDESC44141"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A foolish move."
+		relation = {
+			who = FROM
+			value = -50
+		}
+		leave_alliance = FROM
+		any_pop = {
+			dominant_issue = {
+				factor = 0.02
+				value = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	
+	id = 44142
+	title = "EVTNAME44142" #Agreed
+	desc = "EVTDESC44142"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A wise move."
+		money = -50000
+		FROM = {
+			any_owned = {
+				limit = { region = USA_1 }
+				secede_province = THIS
+			}
+		}
+		relation = {
+			who = FROM
+			value = 50
+		}
+	}
+}
+
+country_event = {
+
+	id = 44145
+	title = "EVTNAME44145" #The Hawaiian Islands Purchase
+	desc = "EVTDESC44145"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sell the territory."
+		FROM = { country_event = 44147 }
+		money = 50000
+		prestige = 5
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.1
+				any_core = { owned_by = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				truce_with = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = "Never! We got there first."
+		FROM = { country_event = 44146 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.75
+				relation = { who = FROM value = 100 }
+			}
+			modifier = {
+				factor = 0.5
+				alliance_with = FROM
+			}
+		}		
+	}
+}
+
+country_event = {
+
+	id = 44146
+	title = "EVTNAME44141" #Refused
+	desc = "EVTDESC44146"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A foolish move."
+		relation = {
+			who = FROM
+			value = -50
+		}
+		leave_alliance = FROM
+		any_pop = {
+			dominant_issue = {
+				factor = 0.02
+				value = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	
+	id = 44147
+	title = "EVTNAME44142"
+	desc = "EVTDESC44147"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A wise move."
+		money = -50000
+		FROM = {
+			any_owned = {
+				limit = { region = HAW_658 }
+				secede_province = THIS
+			}
+		}
+		relation = {
+			who = FROM
+			value = 50
+		}
+	}
+}
+
+#Oregon Treaty events
+country_event = {
+	id = 44148
+	title = "EVTNAME44148" #The Oregon Trail
+	desc = "EVTDESC44148"
+	picture = "pioneer_wagons"
+	
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1835
+		NOT = {
+			has_country_flag = oregon_trail
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "You have died of Dysentery."
+		set_country_flag = oregon_trail
+		20 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		21 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		78 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		79 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		80 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		81 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		82 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		83 = { life_rating = 5 change_variable = { which = dt_rating  value = 5 } }
+		ENG = { country_event = 44149 }
+	}
+}
+
+country_event = {
+	id = 44149
+	title = "EVTNAME44149" #The Columbia District
+	desc = "EVTDESC44149"
+	picture = "pioneer_wagons"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Westward, ho!"
+	}
+}
+
+country_event = {
+	id = 44150
+	title = "EVTNAME44150" #54-40 or Fight!
+	desc = "EVTDESC44150"
+	picture = "boer_war"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		exists = yes
+		year = 1840
+		79 = {
+			empty = no
+			OR = {
+				owned_by = USA
+				owned_by = ENG
+			}
+		}
+		21 = {
+			empty = no
+			OR = {
+				owned_by = USA
+				owned_by = ENG
+			}
+		}
+		NOT = { war_with = ENG }
+		election = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.1
+			year = 1850
+		}
+	}
+	
+	option = {
+		name = "All of Oregon belongs to the United States."
+		ENG = { country_event = 44154 }
+		badboy = 5
+		USA_81 = { add_core = USA }
+		USA_78 = { add_core = USA }
+		CAN_13 = { add_core = USA }
+		any_pop = {
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.8
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.2
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0
+				alliance_with = ENG
+			}
+			modifier = {
+				factor = 0.5
+				truce_with = ENG
+			}
+			modifier = {
+				factor = 0.25
+				relation = { who = ENG value = 50 }
+			}
+			modifier = {
+				factor = 4
+				owns = 21
+			}
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+		}
+	}
+	
+	option = {
+		name = "Settle on a compromise with the British."
+		USA_81 = { add_core = USA }
+		USA_78 = { add_core = USA }
+		ENG = { country_event = 44151 }
+		any_pop = {
+			scaled_consciousness = {
+				issue = jingoism
+				factor = 3
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { relation = { who = ENG value = 0 } }
+			}
+			modifier = {
+				factor = 1.5
+				ENG = { owns = 79 }
+			}
+			modifier = {
+				factor = 1.2
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44151
+	title = "EVTNAME44151" #The Columbia District
+	desc = "EVTDESC44151"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will agree to split the territory between us."
+		badboy = -2
+		prestige = -10
+		USA = { country_event = 44152 }
+		CAN_13 = { add_core = ENG }
+		CAN_19 = { add_core = ENG }
+		ENG_22 = { add_core = ENG }
+		USA_78 = {
+			remove_core = COL
+			remove_core = ENG
+		}
+		USA_81 = {
+			remove_core = COL
+			remove_core = ENG
+		}
+		USA_91 = {
+			remove_core = COL
+			remove_core = ENG
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = USA_78
+					region = USA_81
+					region = USA_91
+				}
+				is_core = USA
+			}
+			secede_province = USA
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.8
+				NOT = { relation = { who = USA value = 0 } }
+			}
+			modifier = {
+				factor = 1.2
+				relation = { who = USA value = 100 }
+			}
+			modifier = {
+				factor = 0.8
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 1.5
+				USA = { owns = 21 }
+			}
+		}
+	}
+	
+	option = {
+		name = "We refuse to be bullied by a former colony."
+		badboy = 5
+		prestige = 10
+		leave_alliance = USA
+		USA = { country_event = 44153 }
+		CAN_13 = { add_core = ENG }
+		CAN_19 = { add_core = ENG }
+		ENG_22 = { add_core = ENG }
+		78 = {
+			add_core = ENG
+			add_core = COL
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				alliance_with = USA
+			}
+			modifier = {
+				factor = 0.5
+				relation = { who = USA value = 100 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { relation = { who = USA value = 0 } }
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0
+				war_policy = pacifism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44152
+	title = "EVTNAME44152" #The Oregon Treaty
+	desc = "EVTDESC44152"
+	news = yes
+	news_desc_long = "EVTDESC44152_NEWS_LONG"
+	news_desc_medium = "EVTDESC44152_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44152_NEWS_SHORT"
+	picture = "treaty"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This will settle the matter once and for all."
+		prestige = 10
+		relation = { who = ENG value = 100 }
+		any_owned = {
+			limit = {
+				OR = {
+					region = CAN_13
+					region = CAN_19
+					region = ENG_22
+					region = ENG_30
+				}
+			}
+			secede_province = ENG
+		}
+		any_pop = {
+			scaled_consciousness = {
+				issue = pacifism
+				factor = -3
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44153
+	title = "EVTNAME44153" #Negotiations Break Down
+	desc = "EVTDESC44153"
+	news = yes
+	news_desc_long = "EVTDESC44153_NEWS_LONG"
+	news_desc_medium = "EVTDESC44153_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44153_NEWS_SHORT"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Abandon our claims."
+		prestige = -20
+		relation = { who = ENG value = -50 }
+		any_owned = {
+			limit = {
+				OR = {
+					region = CAN_13
+					region = CAN_19
+					region = ENG_22
+					region = ENG_30
+					province_id = 78
+				}
+			}
+			remove_core = USA
+			secede_province = ENG
+		}
+		FROM = {
+			any_owned = {
+				limit = {
+					OR = {
+						region = USA_78
+						region = USA_81
+						region = USA_91
+					}
+				}
+				remove_core = USA
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				issue = jingoism
+				factor = 3
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				any_greater_power = { war_with = THIS }
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "Press ahead with our claims."
+		prestige = 5
+		relation = { who = ENG value = -100 }
+		CAN_13 = { add_core = USA }
+		any_pop = {
+			scaled_consciousness = {
+				issue = jingoism
+				factor = -3
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0
+				war_policy = pacifism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44154
+	title = "EVTNAME44154" #American Claims in Columbia
+	desc = "EVTDESC44154"
+	news = yes
+	news_desc_long = "EVTDESC44154_NEWS_LONG"
+	news_desc_medium = "EVTDESC44154_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44154_NEWS_SHORT"
+	picture = "administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let them have Columbia. It is not worth fighting over."
+		prestige = -20
+		USA = { country_event = 44155 }
+		relation = { who = USA value = -50 }
+		CAN_13 = { remove_core = ENG }
+		any_owned = {
+			limit = {
+				OR = {
+					region = USA_78
+					region = USA_81
+					region = USA_91
+					region = CAN_13
+				}
+				is_core = USA
+			}
+			remove_core = ENG
+			secede_province = USA
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 1.5
+				any_greater_power = { war_with = ENG }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { relation = { who = USA value = 0 } }
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+		}
+	}
+	
+	option = {
+		name = "We will not allow a former colony to bully us."
+		prestige = 5
+		leave_alliance = USA
+		relation = { who = USA value = -100 }
+		CAN_13 = { add_core = ENG }
+		CAN_19 = { add_core = ENG }
+		ENG_22 = { add_core = ENG }
+		USA_78 = {
+			add_core = ENG
+			add_core = COL
+		}
+		USA_81 = {
+			add_core = ENG
+			add_core = COL
+		}
+		USA_91 = {
+			add_core = ENG
+			add_core = COL
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.5
+				relation = { who = USA value = 100 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { relation = { who = USA value = 0 } }
+			}
+			modifier = {
+				factor = 1.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 0.8
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = pacifism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 44155
+	title = "EVTNAME44155" #Oregon Country is Ours
+	desc = "EVTDESC44155"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "A grand day for Manifest Destiny!"
+		prestige = 25
+		any_pop = {
+			scaled_consciousness = {
+				issue = jingoism
+				factor = -6
+			}
+		}
+	}
+}

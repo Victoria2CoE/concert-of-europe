@@ -1,0 +1,692 @@
+#Sphere of Influence
+BEL = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+LUX = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PAP = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+SIC = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SWI = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SAR = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+army = {
+	name = "I. Corps"
+	location = 420
+	regiment = {
+		name= "1.1ère  Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ère  Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ère  Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.2nde Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2nde Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2nde Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.3ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.3ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.3ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "II. Corps"
+	location = 404
+	regiment = {
+		name= "1.4ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.4ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.4ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.5ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.5ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.5ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.6ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.6ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.6ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "IV. Corps"
+	location = 749
+	regiment = {
+		name= "1.10ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.10ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.10ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "IX. Corps"
+	location = 433
+	regiment = {
+		name= "1.1ère Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ère Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ère Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.1ère Division de Chasseurs"
+		type = engineer
+	}
+
+	regiment = {
+		name= "1.2ème Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2ème Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2ème Division de Chasseurs"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.2ème Division de Chasseurs"
+		type = engineer
+	}
+
+}
+
+army = {
+	name = "V. Corps"
+	location = 409
+	regiment = {
+		name= "1.13ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.13ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.13ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.14ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.14ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.14ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.15ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.15ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.15ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "VI. Corps"
+	location = 458
+	regiment = {
+		name= "1.16ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.16ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.16ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.17ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.17ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.17ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.18ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.18ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.18ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.19ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.19ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.19ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.20ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.20ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.20ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "VII. Corps"
+	location = 472
+	regiment = {
+		name= "1.21ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.21ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.21ème Division d'Infanterie"
+		type = regular
+		home = 457
+	}
+
+	regiment = {
+		name= "1.22ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.22ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.22ème Division d'Infanterie"
+		type = regular	}
+
+	regiment = {
+		name= "1.23ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.23ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.23ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.24ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.24ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.24ème Division d'Infanterie"
+		type = regular
+	}
+
+
+}
+
+army = {
+	name = "Corps de Garde"
+	location = 426
+	regiment = {
+		name= "1.1ère Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ère Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ère Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.1ère Division de Garde"
+		type = guard
+	}
+
+	regiment = {
+		name= "1.2ème Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2ème Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2ème Division de Garde"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.2ème Division de Garde"
+		type = guard
+	}
+
+}
+
+army = {
+	name = "Corps de Cavalerie"
+	location = 425
+	regiment = {
+		name= "1.1ère Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "2.1ère Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "3.1ère Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "4.1ère Division de Cavalerie"
+		type = cuirassier
+	}
+
+	regiment = {
+		name= "1.2ème Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "2.2ème Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "3.2ème Division de Cavalerie"
+		type = hussar
+	}
+
+	regiment = {
+		name= "4.2ème Division de Cavalerie"
+		type = cuirassier
+	}
+
+	regiment = {
+		name= "1.1ère Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "2.1ère Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "3.1ère Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "1.2ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "2.2ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "3.2ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "1.3ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "2.3ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+	regiment = {
+		name= "3.3ème Division Légère de Cavalerie"
+		type = dragoon
+	}
+
+}
+
+army = {
+	name = "Troupes d'Afrique"
+	location = 1706
+	regiment = {
+		name= "1.La Legion Etranger"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.La Legion Etranger"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.La Legion Etranger"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.1ère Division  d'Afrique"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ère Division  d'Afrique"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ère Division  d'Afrique"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "Troupes d'Indochine"
+	location = 1380
+	regiment = {
+		name= "1.11ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.11ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.11ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.12ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.12ème Division d'Infanterie"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.12ème Division d'Infanterie"
+		type = regular
+	}
+
+}
+
+navy = {
+	name = "Escadre du Nord"
+	location = 303
+	ship = {
+		name= "Gloire"
+		type = ironclad
+	}
+	ship = {
+		name= "Algerisas"
+		type = manowar
+	}
+
+	ship = {
+		name= "Impérial"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jean Bart"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ville de Paris"
+		type = manowar
+	}
+
+	ship = {
+		name= "Valmy"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wagram"
+		type = manowar
+	}
+
+	ship = {
+		name= "Royal Louis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jupiter"
+		type = manowar
+	}
+	ship = {
+		name= "Amazone"
+		type = frigate
+	}
+	ship = {
+		name= "Clorinde"
+		type = frigate
+	}
+	ship = {
+		name= "Entreprenante"
+		type = frigate
+	}
+	ship = {
+		name= "Normandie"
+		type = frigate
+	}
+	ship = {
+		name= "Pallas"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 303
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+

@@ -1,0 +1,22 @@
+RUS = {
+	value = 25
+}
+ENG = {
+	value = 25
+}
+
+army = {
+	name = "Army of Kohun-dil-Khan"
+	location = 1215
+	regiment = {
+		name= "1. Durranni"
+		type = irregular
+		home = 1215
+	}
+
+	regiment = {
+		name= "2. Durranni"
+		type = irregular
+		home = 1215
+	}
+}

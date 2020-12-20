@@ -1,0 +1,102 @@
+ASH = {
+	value = -20
+}
+BEN = {
+	value = -30
+}
+DAH = {
+	value = -10
+}
+OYO = {
+	value = -30
+}
+ARO = {
+	value = -20
+}
+CLA = {
+	value = -15
+}
+WRI = {
+	value = -15
+}
+TOO = {
+	value = 100
+}
+MAS = {
+	value = 100
+}
+MOS = {
+	value = -5
+}
+SEG = {
+	value = -20
+}
+DND = {
+	value = 5
+}
+JAL = {
+	value = 100
+}
+
+army = {
+	name = "Army of the Sultan of Sokoto"
+	location = 1948
+	regiment = {
+		name= "1.Fulbe"
+		type = hussar
+		home = 1945
+	}
+
+	regiment = {
+		name= "2.Fulbe"
+		type = infantry
+		home = 1945
+	}
+
+	regiment = {
+		name= "3.Fulbe"
+		type = infantry
+		home = 1945
+	}
+
+}
+
+army = {
+	name = "Army of the Emir of Adamawa"
+	location = 1950
+	regiment = {
+		name= "4. Fulbe"
+		type = hussar
+		home = 1945
+	}
+
+	regiment = {
+		name= "5. Fulbe"
+		type = infantry
+		home = 1945
+	}
+}
+
+army = {
+	name = "Army of the Emir of Ilorin"
+	location = 1927
+	regiment = {
+		name= "1. Yoruba"
+		type = hussar
+		home = 1937
+	}
+
+	regiment = {
+		name= "6. Fulbe"
+		type = infantry
+		home = 1937
+	}
+
+	regiment = {
+		name= "7. Fulbe"
+		type = infantry
+		home = 1937
+	}
+
+}
+

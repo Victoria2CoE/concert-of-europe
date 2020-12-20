@@ -1,0 +1,182 @@
+USA = {
+	value = 100
+}
+SPA = {
+	value = -75
+}
+
+leader = {
+	name = "Martin de Cos"
+	type = land
+	date = "1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+army = {
+
+	name = "Ejército de México"
+
+	location = 2172
+	
+	regiment = {
+
+		name= "1. Division"
+
+		type = regular
+		
+		home = 2172
+
+	}
+
+
+	regiment = {
+
+		name = "2. Division"
+
+		type = regular
+		
+		home = 2172
+
+	}
+	
+	regiment = {
+
+		name = "3. Division"
+
+		type = regular
+		
+		home = 2172
+
+	}
+	
+	regiment = {
+
+		name= "4. Division"
+
+		type = hussar
+		
+		home = 2183
+	}
+
+}
+army = {
+
+	name = "Ejército del Norte"
+
+	location = 2146
+
+	regiment = {
+
+		name = "1. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2173
+
+	}
+
+
+	regiment = {
+
+		name = "2. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2173
+
+	}
+	
+	regiment = {
+
+		name = "3. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2170
+
+	}
+	
+	regiment = {
+
+		name = "4. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2170
+
+	}
+
+}
+army = {
+
+	name = "Ejército de América Central"
+
+	location = 2186
+	regiment = {
+
+		name= "1. Division"
+
+		type = infantry
+		
+		home = 2186
+
+	}
+
+
+	regiment = {
+
+		name = "2. Division"
+
+		type = infantry
+		
+		home = 2191
+
+	}
+	
+	regiment = {
+
+		name = "3. Division"
+
+		type = infantry
+		
+		home = 2193
+
+	}
+	
+	regiment = {
+
+		name= "4. Division"
+
+		type = hussar
+		
+		home = 2197
+	}
+
+}
+navy = {
+
+	name = "Armada de Mexico"
+
+	location = 2162
+
+	ship = {
+
+ 		name = "Vencedor del Alamo"
+
+		type = frigate
+
+	}
+
+
+	ship = {
+
+		name = "Matilda"
+
+		type = clipper_transport
+
+	}
+
+
+}
+

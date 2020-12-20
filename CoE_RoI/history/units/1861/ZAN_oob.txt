@@ -1,0 +1,115 @@
+army = {
+	name = "Royal Army"
+	location = 2048
+	regiment = {
+		name= "1.Royal Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Royal Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Royal Army"
+		type = infantry
+	}
+
+}
+
+army = {
+	name = "Tribal Army"
+	location = 1869
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+}
+

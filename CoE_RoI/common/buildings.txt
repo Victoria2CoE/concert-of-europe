@@ -1,0 +1,354 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+#
+# Order in here matters for selection priority if icons are overlapping,
+# so leave bases on top
+
+#
+# cost = 0 # x #==> cost in ic to build (subject to other modifiers)
+# time = x #==> number of days to build.
+#
+
+############# MODERN FACTORIES
+
+military_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 2000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = military_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+military_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 2000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = military_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+military_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 2000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = military_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+heavy_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		#iron = 750
+		#coal = 500
+		timber = 5000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = heavy_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+heavy_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		#iron = 750
+		#coal = 500
+		timber = 5000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = heavy_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+heavy_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		#iron = 750
+		#coal = 500
+		timber = 5000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = heavy_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+food_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 250
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = food_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+food_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 250
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = food_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+food_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 250
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = food_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+light_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = light_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+light_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = light_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+light_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = light_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+
+luxury_factory_building = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 1500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = luxury_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+luxury_factory_building2 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 1500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = luxury_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+luxury_factory_building3 = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 999
+	goods_cost =
+	{
+		heavy_industry = 1500
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = luxury_factory
+	pop_build_factory = yes
+	#strategic_factory = yes
+}
+
+############### NON FACTORIES##############################################################################
+
+fort = {
+	type = fort
+
+	cost = 0 # 0
+	goods_cost =
+	{
+		heavy_industry = 1000
+		military_industry = 500
+	}
+	time = 1080
+	visibility = yes
+	onmap = yes
+	max_level = 6
+	province = yes
+	fort_level = 1
+}
+
+naval_base = {
+	type = naval_base
+
+	cost = 0 # 0
+	goods_cost =
+	{
+		heavy_industry = 2000
+		military_industry = 1000
+	}
+	time = 1080
+	naval_capacity = 20
+	capital = yes
+	onmap = yes
+	port = yes
+	visibility = yes
+	max_level = 6
+	province = yes
+	infrastructure = 0.05
+	colonial_points = { 20 35 50 65 80 95 } #points at levels 1-6
+	colonial_range = 50
+	local_ship_build = -0.1
+	one_per_state = yes
+}
+
+railroad = {
+	type = infrastructure
+
+	cost = 0 # 0
+	goods_cost =
+	{
+		heavy_industry = 500
+	}
+	time = 1080
+	visibility = yes
+	onmap = yes
+	max_level = 6
+	province = yes
+	infrastructure = 0.10
+	pop_build_factory = yes
+	spawn_railway_track = yes
+}

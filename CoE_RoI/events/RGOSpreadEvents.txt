@@ -1,0 +1,1859 @@
+# Tractors
+province_event = {
+	id = 29900
+	title = "EVTNAME29900"
+	desc = "EVTDESC29900"
+	
+	trigger = {
+		NOT = { has_province_modifier = local_tractors }
+		owner = { invention = tractors }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = { invention = tractors }
+			}
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			literacy = 1
+		}
+		modifier = {
+			factor = 0.5
+			literacy = 0.9
+			NOT = {
+				literacy = 1
+			}
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.8
+			NOT = {
+				literacy = 0.9
+			}
+		}
+		modifier = {
+			factor = 1.5
+			literacy = 0.7
+			NOT = {
+				literacy = 0.8
+			}
+		}
+		modifier = {
+			factor = 2
+			literacy = 0.6
+			NOT = {
+				literacy = 0.7
+			}
+		}
+		modifier = {
+			factor = 2.5
+			literacy = 0.5
+			NOT = {
+				literacy = 0.6
+			}
+		}
+		modifier = {
+			factor = 3
+			literacy = 0.4
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3.5
+			literacy = 0.3
+			NOT = {
+				literacy = 0.4
+			}
+		}
+		modifier = {
+			factor = 4
+			literacy = 0.2
+			NOT = {
+				literacy = 0.3
+			}
+		}
+		modifier = {
+			factor = 4.5
+			literacy = 0.1
+			NOT = {
+				literacy = 0.2
+			}
+		}
+		modifier = {
+			factor = 5
+			literacy = 0
+			NOT = {
+				literacy = 0.1
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_tractors
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29900"
+		state_scope = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = local_tractors }
+				}
+				add_province_modifier = {
+					name = local_tractors
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+# Electricity
+province_event = {
+	id = 29901
+	title = "EVTNAME29901"
+	desc = "EVTDESC29901"
+	
+	trigger = {
+		NOT = {
+			has_province_modifier = local_electricity
+		}
+		owner = { invention = edison_light_bulb }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_electricity
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29901"
+		state_scope = {
+			any_owned = {
+				add_province_modifier = {
+					name = local_electricity
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+# Nitroglycerin
+province_event = {
+	id = 29902
+	title = "EVTNAME29902"
+	desc = "EVTDESC29902"
+	
+	trigger = {
+		NOT = { has_province_modifier = local_nitroglycerin }
+		owner = { invention = nitroglycerin }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				owner = { invention = nitroglycerin }
+			}
+		}		
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_nitroglycerin
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29902"
+		state_scope = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = local_nitroglycerin }
+				}
+				add_province_modifier = {
+					name = local_nitroglycerin
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+# Distribution Channels
+province_event = {
+	id = 29903
+	title = "EVTNAME29903"
+	desc = "EVTDESC29903"
+	
+	trigger = {
+		NOT = { has_province_modifier = local_distribution_channels }
+		owner = { invention = distribution_channels }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+        modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_distribution_channels
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29903"
+		state_scope = {
+			any_owned = {
+				add_province_modifier = {
+					name = local_distribution_channels
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+# Machine Tools
+province_event = {
+	id = 29904
+	title = "EVTNAME29904"
+	desc = "EVTDESC29904"
+	
+	trigger = {
+		NOT = { has_province_modifier = local_machine_tools }
+		owner = { invention = machine_tools }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+        modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				owner = {
+					invention = machine_tools
+				}
+			}
+		}		
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				NOT = {
+					num_of_cities = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_machine_tools
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29903"
+		state_scope = {
+			any_owned = {
+				add_province_modifier = {
+					name = local_machine_tools
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+#########################################
+#										#
+#		MINING RGO SPREAD EVENTS		#
+#										#
+#########################################
+
+#Shaft mines
+province_event = {
+	id = 299051
+	title = "Shaft Mining in $STATENAME$"
+	desc = "Deep shaft mining has been adopted throughout $STATENAME$."
+	
+	trigger = {
+		NOT = { has_province_modifier = shaft_mine }
+		NOT = { has_province_modifier = pit_mine }
+		NOT = { has_province_modifier = strip_mine }
+		owner = { mechanized_mining = 1 }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = { mechanized_mining = 1 }
+			}
+		}
+        modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = shaft_mine
+					has_province_modifier = pit_mine
+					has_province_modifier = strip_mine
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Excellent"
+		state_scope = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = shaft_mine }
+					NOT = { has_province_modifier = pit_mine }
+					NOT = { has_province_modifier = strip_mine }
+				}
+				add_province_modifier = {
+					name = shaft_mine
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 299052
+	title = "Pit Mining in $STATENAME$"
+	desc = "Pit mining has been adopted throughout $STATENAME$."
+	
+	trigger = {
+		has_province_modifier = shaft_mine
+		NOT = { has_province_modifier = pit_mine }
+		NOT = { has_province_modifier = strip_mine }
+		owner = { cheap_iron = 1 }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = {
+					cheap_iron = 1
+				}
+			}
+		}
+        modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = pit_mine
+					has_province_modifier = strip_mine
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Excellent"
+		state_scope = {
+			any_owned = {
+				limit = { has_province_modifier = shaft_mine }
+				remove_province_modifier = shaft_mine
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = pit_mine }
+					NOT = { has_province_modifier = strip_mine }
+				}
+				add_province_modifier = {
+					name = pit_mine
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 299053
+	title = "Strip Mining in $STATENAME$"
+	desc = "Strip mining has been adopted throughout $STATENAME$."
+	
+	trigger = {
+		has_province_modifier = pit_mine
+		NOT = { has_province_modifier = strip_mine }
+		owner = { electric_furnace  = 1 }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = {
+					electric_furnace  = 1
+				}
+			}
+		}
+        modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+					has_province_modifier = strip_mine
+			}
+		}
+	}
+	
+	option = {
+		name = "Excellent"
+		state_scope = {
+			any_owned = {
+				limit = { has_province_modifier = shaft_mine }
+				remove_province_modifier = shaft_mine
+			}
+			any_owned = {
+				limit = { has_province_modifier = pit_mine }
+				remove_province_modifier = pit_mine
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = strip_mine }
+				}
+				add_province_modifier = {
+					name = strip_mine
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+#########################################
+#										#
+#		FARMING RGO SPREAD EVENTS		#
+#										#
+#########################################
+
+province_event = {
+	id = 29907
+	title = "Crop Rotation in $STATENAME$"
+	desc = "Crop rotation has been adopted throughout $STATENAME$."
+	
+	trigger = {
+		NOT = { has_province_modifier = crop_rotation }
+		NOT = { has_province_modifier = phosphates }
+		NOT = { has_province_modifier = nitrates }	
+		owner = { water_wheel_power = 1 }	
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 5
+			owner = {
+				NOT = { water_wheel_power = 1 }
+			}
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.05
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.75
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.75
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.75
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = crop_rotation
+					has_province_modifier = phosphates
+					has_province_modifier = nitrates
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Wonderful"
+		state_scope = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = crop_rotation }
+					NOT = { has_province_modifier = phosphates }
+					NOT = { has_province_modifier = nitrates }
+				}
+				add_province_modifier = {
+					name = crop_rotation
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+province_event = {
+	id = 29906
+	title = "Phosphates in $STATENAME$"
+	desc = "Phosphate food_industrys have been adopted throughout $STATENAME$."
+	
+	trigger = {
+		has_province_modifier = crop_rotation
+		NOT = { has_province_modifier = phosphates }
+		NOT = { has_province_modifier = nitrates }	
+		owner = { invention = artificial_food_industrys }
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = {
+					invention = artificial_food_industrys
+				}
+			}
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = phosphates
+					has_province_modifier = nitrates
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Excellent"
+		state_scope = {
+			any_owned = {
+				limit = { has_province_modifier = crop_rotation }
+				remove_province_modifier = crop_rotation
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = phosphates }
+					NOT = { has_province_modifier = nitrates }
+				}
+				add_province_modifier = {
+					name = phosphates
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+province_event = {
+	id = 29905
+	title = "Nitrates in $STATENAME$"
+	desc = "Nitrate food_industrys have been adopted throughout $STATENAME$."
+	
+	trigger = {
+		has_province_modifier = phosphates
+		NOT = { has_province_modifier = nitrates }	
+		owner = { invention = carbon_soil_enrichment }	
+		is_colonial = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 3
+			NOT = {
+				owner = {
+					invention = carbon_soil_enrichment
+				}
+			}
+		}
+        #modifier = {
+		#factor = 4
+		#owner = { land_property = serfdom }
+	    #}
+        #modifier = {
+		#factor = 2
+		#owner = { land_property = landed_estates }
+	    #}
+		modifier = {
+			factor = 0.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.95
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				literacy = 0.5
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				literacy = 0.25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 15
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 20
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 25
+			}
+		}
+		modifier = {
+			factor = 0.95
+			owner = {
+				plurality = 30
+			}
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 4
+			state_scope = {
+				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+					has_province_modifier = nitrates
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29900"
+		state_scope = {
+			any_owned = {
+				limit = { has_province_modifier = crop_rotation }
+				remove_province_modifier = crop_rotation
+			}
+			any_owned = {
+				limit = { has_province_modifier = phosphates }
+				remove_province_modifier = phosphates
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = nitrates }
+				}
+				add_province_modifier = {
+					name = nitrates
+					duration = -1
+				}
+			}
+		}		
+	}
+}

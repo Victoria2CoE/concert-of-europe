@@ -1,0 +1,121 @@
+political_decisions = {
+	declare_republic_of_neuchatel = {
+		potential = {
+			owns = 608
+			not = { tag = PRU
+				tag = NGF
+				tag = GER
+			 }
+			608 = {
+				OR = {
+					is_core = PRU
+					is_core = NGF
+					is_core = GER
+				}
+			}
+		}
+		allow = {
+			prestige = 1
+			OR = {
+				romanticism = 1
+				PRU = { exists = no }
+			}
+		}
+		effect = {
+			prestige = 5
+			608 = {
+				remove_core = PRU
+				remove_core = NGF
+				remove_core = GER
+			}
+			relation = {
+				who = PRU
+				value = 20
+			}
+			relation = {
+				who = NGF
+				value = 20
+			}
+			relation = {
+				who = GER
+				value = 20
+			}
+		}
+	}
+	call_geneva_convention = {
+		potential = {
+			tag = SWI
+			owns = 607
+			NOT = {
+				has_global_flag = geneva_convention_held
+			}
+		}
+		
+		allow = {
+			any_greater_power = {
+				war_exhaustion = 5
+			}
+			empiricism = 1
+		}
+		
+		effect = {
+			set_global_flag = geneva_convention_held
+			any_country = {
+				limit = {
+					civilized = yes
+					NOT = {
+						tag = THIS
+					}
+				}
+				country_event = 31311
+			}
+			prestige = 10
+		}
+	}
+	
+	sign_the_geneva_convention = {
+		potential = {
+			civilized = yes
+			has_global_flag = geneva_convention_held
+			NOT = {
+				has_country_modifier = signed_the_geneva_convention
+			}
+		}
+		
+		allow = {
+			NOT = {
+				badboy = 0.4
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = signed_the_geneva_convention
+				duration = -1
+			}
+			badboy = -1
+		}
+	}
+
+	build_gotthard_tunnel = {
+		potential = {
+			tag = SWI
+			owns = 606
+			NOT = {
+				has_country_flag = gotthard_tunnel_built
+			}
+		}
+		
+		allow = {
+			invention = machine_tools
+		}
+		
+		effect = {
+			606 = {
+				infrastructure = 4
+			}
+			prestige = 5
+			set_country_flag = gotthard_tunnel_built
+		}
+	}
+}

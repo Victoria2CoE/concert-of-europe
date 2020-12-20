@@ -1,0 +1,20 @@
+SPA = { value = 100 }
+JAP = { value = 100 }
+NET = { value = 100 }
+TKG = { value = 100 }
+SEN = { value = 100 }
+YZW = { value = 100 }
+KAG = { value = 100 }
+TOS = { value = 100 }
+CHO = { value = 100 }
+SAT = { value = 100 }
+
+army = {
+	name = "Royal army of Sulu"
+	location = 1464
+	regiment = {
+		name= "The Sultan's Elite"
+		type = infantry
+	}
+}
+

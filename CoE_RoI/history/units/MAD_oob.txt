@@ -1,0 +1,47 @@
+army = {
+	name = "Merina Royal Army"
+	location = 2115
+	regiment = {
+		name= "1. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "2. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "3. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "4. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "5. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "6. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+
+	regiment = {
+		name= "7. regular Brigade"
+		type = infantry
+		home = 2121
+	}
+}
+
+

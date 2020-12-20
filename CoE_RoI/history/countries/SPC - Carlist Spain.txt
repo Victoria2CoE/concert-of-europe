@@ -1,0 +1,192 @@
+capital = 487
+primary_culture = spanish
+culture = catalan
+culture = basque
+religion = catholic
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_might
+literacy = 0.01 #literacy = 0.20
+civilized = yes
+
+
+#GreaterPowers = prestige
+prestige = 50
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = party_appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+minorities_reform = limited
+immigration_policy = quota_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+land_property=landed_estates
+child_labor = child_labor_restricted
+arts_endowment=no_endowment
+education = elite
+
+ruling_party = SPA_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 40
+	reactionary = 45
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
+
+#Inventions
+#corvettes = yes
+initial_muzzle_loaded_rifle_armament = yes
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+govt_flag = {
+	government = hms_government
+	flag = democracy
+}
+
+oob = "SPC_oob.txt"
+1861.1.1 = {
+	oob = "/1861/SPC_oob.txt"
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = party_appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+minorities_reform = limited
+immigration_policy = quota_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+land_property=landed_estates
+child_labor = child_labor_legal
+arts_endowment=no_endowment
+education = church
+
+
+# Technologies
+	post_napoleonic_thought = 1
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	iron_muzzle_loaded_artillery = 1
+	military_staff_system = 1
+	army_command_principle = 1
+	private_banks = 1
+	no_standard = 1
+	early_classical_theory_and_critique = 1
+	freedom_of_trade = 1
+	guild_based_production = 1
+	classicism_n_early_romanticism = 1
+	late_enlightenment_philosophy = 1
+	idealism = 1
+	malthusian_thought = 1
+	enlightenment_thought = 1
+	ideological_thought = 1
+	state_n_government = 1
+	introspectionism = 1
+	water_wheel_power = 1
+	publishing_industry = 1
+	mechanical_production = 1
+	interchangeable_parts = 1
+	mechanized_mining = 1
+	experimental_railroad = 1
+	basic_chemistry = 1
+	medicine = 1
+	post_nelsonian_thought = 1
+	battleship_column_doctrine = 1
+	clipper_design = 1
+	naval_design_bureaus = 1
+	alphabetic_flag_signaling = 1
+	naval_plans = 1
+	the_command_principle = 1
+
+#Inventions
+	john_ramsay_mcculloch = yes
+	nassau_william_sr = yes
+	james_mill = yes
+	ammunition_production = yes
+	small_arms_production = yes
+	explosives_production = yes
+	artillery_production = yes
+	building_station_shipyards = yes
+	aerial_bacteria_and_antiseptic_principle = yes
+	combat_medicine = yes
+	clinical_thermometers_and_binaural_stethoscopes = yes
+	prophylaxis_against_malaria = yes
+	genetics_heredity = yes
+	hussey_n_mccormicks_reaping_machine = yes
+	pitts_threshing_machine = yes
+	mechanized_slaughtering_block = yes
+	chemotherapy = yes
+	mechanical_precision_saw = yes
+	mechanical_saw = yes
+	northrop_power_loom = yes
+	speedy_maneuvering_tactic = yes
+	jacquard_power_loom = yes
+	long_range_fire_tactic = yes
+	sharp_n_roberts_power_loom = yes
+	food_packing_system = yes
+	machine_tools = yes
+	precision_work = yes
+	neokantian_idealism = yes
+	whitney_n_colts_standardized_small_arms = yes
+	pressure_chambers_for_thorax_surgery = yes
+	proto_existentialism = yes
+	integral_distillery_process = yes
+	vaccination = yes
+	initial_muzzle_loaded_rifle_armament = yes
+}

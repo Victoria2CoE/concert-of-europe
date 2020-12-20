@@ -1,0 +1,194 @@
+political_decisions = {
+	switch_to_army_tech = {
+		alert = no
+		potential = {
+			state_n_government = 1
+			tech_school = traditional_academic
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			OR = {
+				nationalvalue = nv_order
+				nationalvalue = nv_might
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = army_tech_school
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	switch_to_navy_tech = {
+		alert = no
+		potential = {
+			state_n_government = 1
+			tech_school = traditional_academic
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			OR = {
+				nationalvalue = nv_order
+				nationalvalue = nv_might
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+			any_owned_province = { is_overseas = yes }
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = naval_tech_school
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				nationalvalue = nv_might
+			}
+			modifier = {
+				factor = 0
+				nationalvalue = nv_order
+			}
+		}
+	}
+	switch_to_culture_tech = {
+		alert = no
+		potential = {
+			state_n_government = 1
+			tech_school = traditional_academic
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			average_consciousness = 4
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_equality
+				nationalvalue = nv_freedom
+				nationalvalue = nv_fraternity
+				nationalvalue = nv_unity
+				nationalvalue = nv_prosperity
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = culture_tech_school
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				nationalvalue = nv_liberty
+			}
+		}
+	}
+	switch_to_trade_tech = {
+		alert = no
+		potential = {
+			state_n_government = 1
+			tech_school = traditional_academic
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+				nationalvalue = nv_glory
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = commerce_tech_school
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	switch_to_industry_tech = {
+		alert = no
+		potential = {
+			state_n_government = 1
+			tech_school = traditional_academic
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			OR = {
+				nationalvalue = nv_equality
+				nationalvalue = nv_order
+				nationalvalue = nv_fraternity
+				nationalvalue = nv_unity
+				nationalvalue = nv_productivity
+				nationalvalue = nv_prosperity
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = industrial_tech_school
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				nationalvalue = nv_order
+			}
+			modifier = {
+				factor = 0
+				nationalvalue = nv_equality
+			}
+		}
+	}
+	switch_to_traditional_academic = {
+		alert = no
+		potential = {
+			NOT = { tech_school = traditional_academic }
+			state_n_government = 1
+			NOT = { has_country_flag = hidden_decisions }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = traditional_academic
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

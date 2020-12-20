@@ -1,0 +1,56 @@
+capital = 2087
+primary_culture = boer
+culture = anglo_african
+religion = protestant
+government = hms_government
+plurality = 0.6
+nationalvalue = nv_liberty
+literacy = 0.01 #literacy = 0.2
+civilized = yes
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+minorities_reform = limited
+immigration_policy = open_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = ten_hours
+safety_regulations = low_safety
+health_care = no_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+land_property=landed_estates
+child_labor = child_labor_legal
+arts_endowment=no_endowment
+education = elite
+
+ruling_party = SAF_conservative_2
+upper_house = {
+	fascist = 0
+	liberal = 14
+	conservative = 77
+	reactionary = 9
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+set_country_flag = post_colonial_country
+
+1861.1.1 = {
+	oob = "/1861/SAF_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

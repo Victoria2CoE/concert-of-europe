@@ -1,0 +1,45 @@
+army = {
+	name = "Army of Mexico"
+	location = 2174
+	regiment = {
+		name= "1.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "4.1. Division"
+		type = hussar
+	}
+
+}
+
+army = {
+	name = "Army of the East"
+	location = 2146
+	regiment = {
+		name= "1.2. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = regular
+	}
+
+}
+

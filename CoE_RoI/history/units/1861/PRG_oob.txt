@@ -1,0 +1,20 @@
+army = {
+	name = "Ejército del Paraguay"
+	location = 2341
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = regular
+	}
+
+}
+

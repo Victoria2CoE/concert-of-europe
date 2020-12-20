@@ -1,0 +1,17 @@
+army = {
+	name = "Army of the Dogra Rajas"
+	location = 1225
+	regiment = {
+		name= "1.Jammu Division"
+		type = regular
+		home = 1225
+	}
+
+	regiment = {
+		name= "2.Jammu Division"
+		type = regular
+		home = 1223
+	}
+
+}
+

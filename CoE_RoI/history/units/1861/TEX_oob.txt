@@ -1,0 +1,35 @@
+USA = {
+	value = 125
+}
+
+leader = {
+	name = "Sam Houston"
+	type = land
+	date="1836.1.1"
+	personality = genius
+	background = school_of_defense
+}
+
+
+army = {
+	name = "Army of Texas"
+	location = 137
+	regiment = {
+		name= "Travis' Command"
+		type = regular
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = regular
+	}
+	regiment = {
+		name= "Texan Army"
+		type = regular
+	}
+	regiment = {
+		name= "Texan Artillery"
+		type = artillery
+	}
+	
+}

@@ -1,0 +1,23 @@
+TUR = {
+	value = 150
+}
+
+army = {
+	name = "Ibn Rashid's Army"
+	location = 1160
+	regiment = {
+		name= "1. 'Ateba"
+		type = hussar
+		home = 1160
+	}
+	regiment = {
+		name= "2. 'Ateba"
+		type = hussar
+		home = 1160
+	}
+	regiment = {
+		name= "3. 'Ateba"
+		type = hussar
+		home = 1160
+	}
+}

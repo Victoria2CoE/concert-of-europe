@@ -1,0 +1,148 @@
+# Liberian Independence
+country_event = {
+	id = 95026
+	title = "EVTNAME95026"
+	desc = "EVTDESC95026"
+	picture = "deliberation"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = LIB
+		exists = yes
+		war = no
+		vassal_of = USA
+		year = 1847
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Proclaim independence."
+		USA = { country_event = 95027 }
+		1889 = { secede_province = LIB }
+		1890 = { secede_province = LIB }
+		1891 = { secede_province = LIB }
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "We value American protection."
+		USA = {
+			relation = {
+				who = THIS
+				value = 50
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = 50
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 95027
+	title = "EVTNAME95026"
+	desc = "EVTDESC95027"
+	picture = "deliberation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Grant them independence."
+		badboy = -2
+		release_vassal = LIB
+		relation = {
+			who = LIB
+			value = 50
+		}
+		diplomatic_influence = {
+			who = LIB
+			value = 50
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "This is not in our interests."
+		LIB = { country_event = 95028 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 95028
+	title = "$FROMCOUNTRY$ Has Refused"
+	desc = "Despite the urging of the ACS, the $FROMCOUNTRY_ADJ$ has denied $COUNTRY_ADJ$ independence."
+	picture = "administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Outrageous!"
+		prestige = -5
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = 5
+		}
+		any_owned = {
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95029
+	title = "EVTNAME95029" #Establishment of Liberia
+	desc = "EVTDESC95029"
+	picture = "expansion"
+	
+	trigger = {
+		tag = USA
+		exists = yes
+		NOT = {
+			has_country_flag = liberia_established
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "We wish them well."
+		set_country_flag = liberia_established
+		1887 = {
+			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
+			secede_province = THIS
+		}
+		1888 = {
+			secede_province = THIS
+		}
+		release_vassal = LIB
+		diplomatic_influence = { who = LIB value = 200 }
+	}
+}

@@ -1,0 +1,211 @@
+ENG = {
+	value = 100
+}
+QNG = {
+	value = 125
+}
+BRZ = {
+	value = 100
+}
+SPA = {
+	value = 100
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+ZUL = {
+	value = 50
+}
+SUA = {
+	value = 100
+}
+DAH = {
+	value = 40
+}
+OYO = {
+	value = 35
+}
+ARO = {
+	value = 50
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 40
+}
+KON = {
+	value = 25
+}
+LOA = {
+	value = 75
+}
+GBU = {
+	value = 100
+}
+TOO = {
+	value = 35
+}
+WOL = {
+	value = 35
+}
+MOR = {
+	value = 75
+}
+
+army = {
+	name = "Exército Português"
+	location = 521
+	
+regiment = {
+		name= "1. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+	
+regiment = {
+		name= "2. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+	
+regiment = {
+		name= "3. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+	
+regiment = {
+		name= "4. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+	
+regiment = {
+		name= "5. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+	
+regiment = {
+		name= "6. Brigada de Infantaria"
+		type = regular
+		home = 521
+	}
+
+}
+
+
+
+army = {
+	name = "Exército do Africa Ocidental"
+	location = 1999
+	
+	
+regiment = {
+		name = "1. Divisão Colonial"
+		type = regular
+		home = 521
+	}
+}
+
+
+
+army = {
+	name = "Exército do Africa Oriental"
+	location = 2057
+	
+	
+regiment = {
+		name = "2. Divisão Colonial"
+		type = regular
+		home = 2060
+	}
+}
+
+
+
+army = {
+	name = "Exército da Índia"
+	location = 1303
+	
+	
+regiment = {
+		name = "3. Divisão Colonial"
+		type = regular
+		home = 1303
+	}
+}
+
+
+
+
+
+navy = {
+	name = "Portugese Royal Navy"
+	location = 524
+	ship = {
+		name= "Rainha de Portugal "
+		type = manowar
+	}
+
+	ship = {
+		name= "Dom João VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceição"
+		type = manowar
+	}
+
+	ship = {
+		name= "São Sebastião"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazônia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Princesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+
+}
+

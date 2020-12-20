@@ -1,0 +1,76 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+AIN = { value = 100 }
+USA = { value = 0 }
+
+army = {
+	name = "Army of the Tokugawa Shogunate"
+	location = 1649
+	regiment = {
+		name= "1.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "2.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "3.Samurai"
+		type = hussar
+		home = 1649
+	}
+	regiment = {
+		name= "1.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "2.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "3.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "4.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "5.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "6.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "7.Edo"
+		type = infantry
+		home = 1649
+	}
+	regiment = {
+		name= "8.Edo"
+		type = infantry
+		home = 1649
+	}
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1657
+	ship = {
+		name= "1 Yusosentai"
+		type = clipper_transport
+	}
+
+}
+

@@ -1,0 +1,73 @@
+SHW = {
+	value = 35
+}
+
+GON = {
+	value = 35
+}
+
+EGY = {
+	value = 75
+}
+
+GEL = {
+	value = 10
+}
+
+MAJ = {
+	value = 10
+}
+
+leader = {
+   name = "Wolde Selassie"
+   type = land
+   date = 1836.1.1
+   background = sinner
+   personality = diligent
+}
+
+army = {
+	name = "Army of the Negus of Tigre"
+	location = 1853
+	regiment = {
+		name = "1st Royal Guard"
+		type = hussar
+		home = 1853
+	}
+	regiment = {
+		name = "2nd Royal Guard"
+		type = hussar
+		home = 1853
+	}
+	regiment = {
+		name= "1st Tigray Division"
+		type = infantry
+		home = 1853
+	}
+	regiment = {
+		name= "2nd Tigray Division"
+		type = infantry
+		home = 1853
+	}
+	regiment = {
+		name= "3rd Tigray Division"
+		type = infantry
+		home = 1853
+	}
+	regiment = {
+		name= "4th Tigray Division"
+		type = infantry
+		home = 1853
+	}
+	regiment = {
+		name= "5th Tigray Division"
+		type = infantry
+		home = 1853
+	}
+	regiment = {
+		name= "6th Tigray Division"
+		type = infantry
+		home = 1853
+	}
+
+}

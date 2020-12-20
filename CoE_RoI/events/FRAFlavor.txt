@@ -1,0 +1,1685 @@
+country_event = {
+
+	id = 37200
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1837
+		NOT = {
+			year = 1840
+			war_with = SWI
+			has_global_flag = LouisNapoleonExtradite
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME37200"
+	desc = "EVTDESC37200"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA37200" 
+		relation = { who = SWI value = -50 }
+		set_global_flag = LouisNapoleonExtradite
+	}
+
+	option = {
+		name = "EVTOPTB37200" 
+		relation = { who = SWI value = 50 }
+		any_pop = {
+			limit = { 
+				has_pop_culture = french
+			} 
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 37201
+	news = yes
+	news_desc_long = "EVTDESC37201_NEWS_LONG"
+	news_desc_medium = "EVTDESC37201_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37201_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1836
+		war = no
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1837
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1838
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME37201"
+	desc = "EVTDESC37201"
+	picture = "ArcdeTriomphe"
+
+	option = {
+		name = "EVTOPTA37201" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37202
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1840
+		war = no
+		NOT = {
+			year = 1843
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1841
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME37202"
+	desc = "EVTDESC37202"
+	picture = "JulyColumn"
+
+	option = {
+		name = "EVTOPTA37202" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37203
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1840
+		war = no
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		NOT = {
+			ruling_party_ideology = liberal
+			year = 1843
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1841
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME37203"
+	desc = "EVTDESC37203"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA37203"
+		upper_house = {
+			ideology = reactionary
+			value = 0.3
+		}
+		rich_strata = {
+			ideology = {
+				value = reactionary
+				factor = 0.3
+			}
+		}		
+		prestige = -5
+	}
+
+}
+
+country_event = {
+
+	id = 37204
+	news = yes
+	news_desc_long = "EVTDESC37204_NEWS_LONG"
+	news_desc_medium = "EVTDESC37204_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37204_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1840
+		war = no
+		NOT = {
+			year = 1843
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1841
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME37204"
+	desc = "EVTDESC37204"
+	picture = "Bonaparte"
+
+	option = {
+		name = "EVTOPTA37204" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37205
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1842
+		war = no
+		NOT = {
+			year = 1846
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1843
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME37205"
+	desc = "EVTDESC37205"
+	picture = "balloon"
+
+	option = {
+		name = "EVTOPTA37205" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37206
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1846
+		war = no
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME37206"
+	desc = "EVTDESC37206"
+	picture = "sax"
+
+	option = {
+		name = "EVTOPTA37206" 
+		prestige = 2
+	}
+
+}
+
+country_event = {
+
+	id = 37207
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1846
+		war = no
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME37207"
+	desc = "EVTDESC37207"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA37207"
+		upper_house = {
+			ideology = reactionary
+			value = 0.1
+		}
+		rich_strata = {
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+		}
+		any_pop = { 
+			scaled_militancy = {
+				factor = 2
+				ideology = reactionary
+			}
+		}
+	}
+
+}
+
+country_event = {
+
+	id = 37208
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1845
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		war = no
+		NOT = {
+			year = 1851
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1849
+		}
+	}
+
+	title = "EVTNAME37208"
+	desc = "EVTDESC37208"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA37207" 
+		prestige = 5
+		set_country_flag = louies_back
+		any_pop = {
+			ideology = { factor = 0.10 value = liberal }
+		}
+	}
+
+}
+
+
+country_event = {
+
+	id = 37209
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1845
+		war = no
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME37209"
+	desc = "EVTDESC37209"
+	picture = "observer"
+
+	option = {
+		name = "EVTOPTA37209" 
+		prestige = 2
+	}
+
+}
+
+country_event = {
+
+	id = 37210
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1851
+		war = no
+		NOT = {
+			year = 1854
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1852
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1853
+		}
+	}
+
+	title = "EVTNAME37210"
+	desc = "EVTDESC37210"
+	picture = "anarchism"
+
+	option = {
+		name = "EVTOPTA37210" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37211
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1852
+		war = no
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1853
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME37211"
+	desc = "EVTDESC37211"
+	picture = "airship"
+
+	option = {
+		name = "EVTOPTA37211" 
+		prestige = 2
+	}
+
+}
+
+
+country_event = {
+
+	id = 37213
+	news = yes
+	news_desc_long = "EVTDESC37213_NEWS_LONG"
+	news_desc_medium = "EVTDESC37213_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37213_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1836
+		NOT = {
+			year = 1840
+			war_with = USA
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1853
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME37213"
+	desc = "EVTDESC37213"
+	picture = "Tocqueville"
+
+	option = {
+		name = "EVTOPTA37213" 
+		prestige = 3
+		relation = { who = USA value = 25 }
+		any_pop = {
+			ideology = { factor = 0.05 value = liberal }
+		}
+	}
+
+}
+
+country_event = {
+
+	id = 37215
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1857
+		NOT = {
+			year = 1860
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1858
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1859
+		}
+	}
+
+	title = "EVTNAME37215"
+	desc = "EVTDESC37215"
+	picture = "Bovary"
+
+	option = {
+		name = "EVTOPTA37215" 
+		prestige = 5
+	}
+
+}
+
+
+country_event = {
+
+	id = 37216
+	news = yes
+	news_desc_long = "EVTDESC37216_NEWS_LONG"
+	news_desc_medium = "EVTDESC37216_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37216_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		exists = GER
+		year = 1894
+		NOT = {
+			year = 1897
+			war_with = GER
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1895
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1896
+		}
+	}
+
+	title = "EVTNAME37216"
+	desc = "EVTDESC37216"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA37216" 
+		prestige = 5
+		dominant_issue = { factor = 0.1 value = full_citizenship }
+		dominant_issue = { factor = 0.1 value = moralism }
+		set_country_flag = DreyfusTrial
+	}
+
+	option = {
+		name = "EVTOPTB37216" 
+		prestige = -5
+		officers = {
+			militancy = 2 
+		}
+		soldiers = {
+			militancy = 1 
+		}
+		set_country_flag = DreyfusInnocent
+		dominant_issue = { factor = 0.1 value = full_citizenship }
+		dominant_issue = { factor = 0.1 value = moralism }
+	}
+}
+
+country_event = {
+
+	id = 37217
+	news = yes
+	news_desc_long = "EVTDESC37217_NEWS_LONG"
+	news_desc_medium = "EVTDESC37217_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37217_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		exists = GER
+		year = 1898
+		has_country_flag = DreyfusTrial
+		NOT = {
+			year = 1902
+			war_with = GER
+			has_country_flag = DreyfusInnocent
+			has_country_flag = DreyfusGuilty
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1899
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1900
+		}
+	}
+
+	title = "EVTNAME37217"
+	desc = "EVTDESC37217"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA37217" 
+		set_country_flag = DreyfusGuilty
+		any_pop = { 
+			scaled_consciousness = {
+                               factor = 3
+			       ideology = liberal
+			}
+			scaled_consciousness = {
+                               factor = 3
+			       ideology = socialist
+			}
+			scaled_militancy = {
+				factor = 1
+				ideology = socialist
+			}
+			dominant_issue = { factor = 0.2 value = full_citizenship }
+			dominant_issue = { factor = 0.1 value = moralism }
+		}
+	}
+}
+
+
+country_event = {
+
+	id = 37218
+	news = yes
+	news_desc_long = "EVTDESC37218_NEWS_LONG"
+	news_desc_medium = "EVTDESC37218_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37218_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		exists = GER
+		year = 1899
+		has_country_flag = DreyfusGuilty
+		NOT = {
+			year = 1903
+			war_with = GER
+			has_country_flag = JAccuse
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1900
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME37218"
+	desc = "EVTDESC37218"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA37218" 
+		prestige = -15
+		plurality = 5
+		set_country_flag = JAccuse
+		any_pop = {
+			consciousness = 1 
+			dominant_issue = { factor = 0.2 value = full_citizenship }
+			dominant_issue = { factor = 0.2 value = moralism }
+		}
+	}
+}
+
+country_event = {
+
+	id = 37220
+	news = yes
+	news_desc_long = "EVTDESC37220_NEWS_LONG"
+	news_desc_medium = "EVTDESC37220_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37220_NEWS_SHORT"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1858
+		NOT = {
+			year = 1861
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1859
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1860
+		}
+	}
+
+	title = "EVTNAME37220"
+	desc = "EVTDESC37220"
+	picture = "vision"
+
+	option = {
+		name = "EVTOPTA37220" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 37221
+
+	trigger = {
+		tag = FRA
+		year = 1892
+		NOT = {
+			year = 1895
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1893
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1894
+		}
+	}
+
+	title = "EVTNAME37221"
+	desc = "EVTDESC37221"
+	picture = "Bernhardt"
+
+	option = {
+		name = "EVTOPTA37221" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37222
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1908
+		invention = wright_n_langleys_aeroplanes
+		NOT = {
+			year = 1915
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1909
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1911
+		}
+	}
+
+	title = "EVTNAME37222"
+	desc = "EVTDESC37222"
+	picture = "typeix"
+
+	option = {
+		name = "EVTOPTA37222" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37223
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		year = 1898
+		invention = daimlers_automobile
+		NOT = {
+			year = 1905
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1899
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME37223"
+	desc = "EVTDESC37223"
+		picture = "Jenatzky"
+
+	option = {
+		name = "EVTOPTA37222" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37224
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		invention = expressionist_art
+		invention = expressionist_music
+		year = 1909
+		NOT = {
+			year = 1912
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1910
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1911
+		}
+	}
+
+	title = "EVTNAME37224"
+	desc = "EVTDESC37224"
+	picture = "ballet"
+
+	option = {
+		name = "EVTOPTA37221" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 37225
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		invention = impressionist_art
+		year = 1863
+		NOT = {
+			year = 1880
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1865
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1870
+		}
+	}
+
+	title = "EVTNAME37225"
+	desc = "EVTDESC37225"
+	picture = "Manet"
+
+	option = {
+		name = "EVTOPTA37225" 
+		prestige = 2
+		capitalists = {
+			consciousness = 1 
+		}
+		clergymen = {
+			consciousness = 1 
+		}
+		officers = {
+			consciousness = 1 
+		}
+		bureaucrats = {
+			consciousness = 1 
+		}
+	}
+
+}
+
+country_event = {
+	id = 37226
+	title = "Corsican Rebellion"
+	desc = "The rebellion in Corsica has gone on for too long, and we have lost control over the island."
+	picture = "rebellion"
+	
+	trigger = {
+		exists = yes
+		473 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		war = no
+		NOT = { exists = CRS }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "An outrage!"
+		prestige = -20
+		473 = {
+			change_controller = THIS
+			any_pop = {
+				limit = { has_pop_culture = north_italian }
+				militancy = -8
+			}
+			secede_province = CRS
+		}
+	}
+}
+
+country_event = {
+	id = 37227
+	title = "Rebellion in Crete"
+	desc = "The rebellion in Crete has gone on for too long, and we have lost control over the island."
+	picture = "rebellion"
+	
+	trigger = {
+		exists = yes
+		847 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		848 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		war = no
+		NOT = { exists = CRE }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "An outrage!"
+		prestige = -20
+		any_owned = {
+			limit = { is_core = CRE }
+			change_controller = THIS
+			any_pop = {
+				limit = { has_pop_culture = greek }
+				militancy = -8
+			}
+			secede_province = CRE
+		}
+	}
+}
+
+country_event = {
+	id = 37228
+	title = "Rebellion in Cyprus"
+	desc = "The rebellion in Cyprus has gone on for too long, and we have lost control over the island."
+	picture = "rebellion"
+	
+	trigger = {
+		exists = yes
+		855 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		856 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		857 = {
+			owned_by = THIS
+			controlled_by = REB
+			province_control_days = 180
+		}
+		war = no
+		NOT = { exists = CYP }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "An outrage!"
+		prestige = -20
+		any_owned = {
+			limit = { is_core = CYP }
+			change_controller = THIS
+			any_pop = { militancy = -8 }
+			secede_province = CYP
+		}
+	}
+}
+
+#annexation of Tahiti
+country_event = {
+	id = 37230
+	title = "EVTNAME37230" #The Kingdom of Pomare
+	desc = "EVTDESC37230"
+	picture = "Waitangi"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		exists = yes
+		war = no
+		money = 1000
+		801 = { empty = yes }
+		invention = prophylaxis_against_malaria
+		NOT = {
+			badboy = 0.92
+			truce_with = ENG
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			year = 1842
+		}
+		modifier = {
+			factor = 0.5
+			year = 1845
+		}
+	}
+	
+	option = {
+		name = "We will approve the treaty."
+		prestige = 5
+		badboy = 2
+		treasury = -1000
+		801 = {
+			secede_province = THIS
+			naval_base = 1
+		}
+		random_country = {
+			limit = {
+				tag = ENG
+				exists = yes
+				is_greater_power = yes
+			}
+			casus_belli = {
+				target = FRA
+				type = place_in_the_sun
+				months = 12
+			}
+		}
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "We have no interest in the Pacific."
+		prestige = -5
+		badboy = -2
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 37234
+	title = "EVTNAME37234" #The Fan Affair
+	desc = "EVTDESC37234"
+	picture = "Ottoman"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		OR = {
+			has_country_flag = charles_x
+			has_country_flag = july_revolution
+		}
+		NOT = {
+			year = 1836
+			truce_with = ALD
+		}
+		ALD = {
+			exists = yes
+			civilized = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.1
+			year = 1830
+		}
+	}
+	
+	option = {
+		name = "What a splendid pretext for war!"
+		badboy = 2
+		leave_alliance = ALD
+		relation = { who = ALD value = -200 }
+		diplomatic_influence = { who = ALD value = -200 }
+		ALD = {
+			capital = 1708
+		}
+		war = {
+			target = ALD
+			attacker_goal = {
+				casus_belli = demand_concession_casus_belli
+				state_province_id = 1700
+			}
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				badboy = 0.92
+			}
+		}
+	}
+	
+	option = {
+		name = "Of course, we will pay what we owe."
+		prestige = -5
+		treasury = -10000
+		ALD = { treasury = 10000 }
+		relation = { who = ALD value = 25 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+
+	id = 37235
+	title = "EVTNAME37235" #The Algerian Rebellion
+	desc = "EVTDESC37235"
+	picture = "arab_revolt"
+
+	trigger = {
+		tag = FRA
+		exists = yes
+		war = no
+		is_disarmed = no
+		ALD = {
+			exists = yes
+			neighbour = THIS
+			civilized = no
+		}
+		NOT = {
+			alliance_with = ALD
+			truce_with = ALD
+			has_country_flag = no_more_algerian_rebellion
+			has_country_modifier = punitive_effects
+			war_policy = pacifism
+			casus_belli = ALD
+			year = 1860
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 4
+			has_country_flag = algerian_rebellion
+		}
+		modifier = {
+			factor = 3
+			ai = no
+		}
+	}
+
+	option = {
+		name = "This must be dealt with immediately."
+		badboy = 2
+		relation = { who = ALD value = -200 }
+		diplomatic_influence = { who = ALD value = -200 }
+		random_country = {
+			limit = {
+				tag = ALD
+				NOT = { number_of_states = 2 }
+			}
+			add_casus_belli = {
+				target = THIS
+				type = establish_protectorate_casus_belli
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = ALD
+				number_of_states = 2
+			}
+			add_casus_belli = {
+				target = THIS
+				type = demand_concession_casus_belli
+				months = 24
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				badboy = 0.92
+			}
+		}
+	}
+	option = {
+		name = "It would be better to parley with the Emir."
+		prestige = -5
+		relation = { who = ALD value = 25 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Do not bother me with this again."
+		set_country_flag = no_more_algerian_rebellion
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#########################################################
+#														#
+#  				July Revolution Events 					#
+#														#
+#########################################################
+
+country_event = {
+    id = 37240
+    title = "EVTNAME37240" # The Accession of Charles X
+    desc = "EVTDESC37240"
+    picture = "monarchy"
+    fire_only_once = yes
+
+    news = yes
+    news_title = "EVTNAME37240_NEWS"
+    news_desc_long = "EVTDESC37240_NEWS_LONG"
+    news_desc_medium = "EVTDESC37240_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC37240_NEWS_SHORT"
+
+    trigger = {
+        tag = FRA
+        year = 1824
+        month = 9 # September 16th historicaly
+        NOT = {
+                OR = {
+                        has_country_flag = july_revolution
+                        year = 1836 # Death of Charles X
+                }
+        }
+        OR = {
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+                OR = { government = hms_government government = hms_government2 government = hms_government3 }
+                OR = { government = theocracy government = theocracy2 government = theocracy3 }
+        }
+    }
+	
+    mean_time_to_happen = {
+		days = 1
+	}
+	
+    option = {
+        name = "Long live the king!"
+        set_country_flag = charles_x
+        political_reform = underground_parties
+        political_reform = no_meeting
+        plurality = -5
+        any_pop = {
+            limit = {
+                location = { is_colonial = no }
+            }
+            ideology = {
+                value = liberal
+                factor = 0.1
+            }
+            consciousness = 2
+            scaled_militancy = {
+                ideology = liberal
+                factor = 10
+            }
+        }
+        add_country_modifier = {
+            name = liberal_reaction
+            duration = 3650
+        }
+    }
+}
+
+### Replaced with decision
+#country_event = {
+#	id = 37242
+#	title = "EVTNAME37242" #Constitution Suspended
+#	desc = "EVTDESC37242"
+#	picture = "deliberation"
+#	fire_only_once = yes
+#	
+#	news = yes
+#	news_title = "EVTNAME37242_NEWS"
+#	news_desc_long = "EVTDESC37242_NEWS_LONG"
+#	news_desc_medium = "EVTDESC37242_NEWS_MEDIUM"
+#	news_desc_short = "EVTDESC37242_NEWS_SHORT"
+#
+#	trigger = {
+#		tag = FRA
+#		has_country_flag = charles_x
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 60
+#		modifier = {
+#			factor = 0.75
+#			average_militancy = 4
+#		}
+#		modifier = {
+#			factor = 0.5
+#			average_militancy = 6
+#		}
+#		modifier = {
+#			factor = 0.5
+#			year = 1828
+#		}
+#		modifier = {
+#			factor = 0.5
+#			year = 1830
+#		}
+#		modifier = {
+#			factor = 0.1
+#			has_global_flag = DIM_belgian_revolution
+#		}
+#	}
+#
+#	option = {
+#		name = "The Ancien Regime returns..."
+#		set_country_flag = three_glorious_days
+#		political_reform = none_voting
+#		political_reform = censored_press
+#		plurality = -5
+#		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+#		ruling_party_ideology = reactionary
+#		any_pop = {
+#			limit = {
+#				location = { is_colonial = no }
+#			}
+#			ideology = {
+#				value = liberal
+#				factor = 0.2
+#			}
+#			consciousness = 4
+#			scaled_militancy = {
+#				ideology = liberal
+#				factor = 20
+#			}
+#		}
+#		add_country_modifier = {
+#			name = national_confusion
+#			duration = 365
+#		}
+#		add_country_modifier = {
+#			name = liberal_agitation
+#			duration = 3650
+#		}
+#	}
+#}
+
+country_event = {
+    id = 37244
+
+    title = "EVTNAME37244" #July Revolution
+    desc = "EVTDESC37244"
+    picture = "july_revolution"
+    fire_only_once = yes
+
+    trigger = {
+        tag = FRA
+                OR = {
+                    has_country_flag = three_glorious_days
+                    average_militancy = 5
+                }
+                OR = {
+                       OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                       OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+                       OR = { government = theocracy government = theocracy2 government = theocracy3 }
+                }
+                NOT = {
+                    year = 1836
+                }
+    }
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    news = yes
+    news_title = "EVTNAME37244_NEWS"
+    news_desc_long = "EVTDESC37244_NEWS_LONG"
+    news_desc_medium = "EVTDESC37244_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC37244_NEWS_SHORT"
+
+    option = {
+        name = "Charles will abdicate, and Louis Philippe will be king."
+        set_country_flag = july_revolution
+        clr_country_flag = charles_x
+        clr_country_flag = three_glorious_days
+        political_reform = wealth_weighted_voting
+        political_reform = state_equal_weight
+        political_reform = free_press
+        political_reform = yes_meeting
+        plurality = 10
+        government = hms_government3
+        ruling_party_ideology = liberal
+        any_pop = {
+            limit = {
+                location = { is_colonial = no }
+            }
+            ideology = {
+                value = conservative
+                factor = 0.25
+            }
+            consciousness = -2
+            scaled_militancy = {
+                ideology = liberal
+                factor = -20
+            }
+        }
+        remove_country_modifier = liberal_reaction
+        remove_country_modifier = liberal_agitation
+        add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+        random_country = {
+            limit = {
+                tag = NET
+                has_country_flag = united_netherlands
+            }
+            #country_event = { id = 210428 days = 3 }
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+    option = {
+        name = "Kings do not bow to shopkeepers."
+        set_country_flag = july_revolution
+        clr_country_flag = three_glorious_days
+        middle_strata = {
+            ideology = {
+                value = liberal
+                factor = 0.3
+            }
+            consciousness = 6
+            scaled_militancy = {
+                ideology = liberal
+                factor = 50
+            }
+        }
+        random_country = {
+            limit = {
+                tag = NET
+                has_country_flag = united_netherlands
+            }
+            #country_event = { id = 210428 days = 3 }
+        }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {
+	id = 37300
+	title = "Luxembourg wants to join us"
+	desc = "Luxembourg has recently petitioned to join us as we now have become the dominant power in the region, should we accept or simply guarantee our friendship?"
+	picture = "ArcdeTriomphe"
+	
+	trigger = {
+		owns = 572
+		owns = 575
+		has_country_flag = crisis_on_the_rhine
+		has_unclaimed_cores = no
+		LUX = {
+			ai = yes
+			in_sphere = FRA
+			war = no
+		}
+		war = no
+		OR = {
+			LUX = { is_vassal = no }
+			is_our_vassal = LUX
+		}
+		NOT = { has_country_flag = no_luxembourg }
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "Let them join us as our bretheren."
+		inherit = LUX
+		prestige = 6
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "We don't want them, cooperation is enough."
+		prestige = -2
+		badboy = -1
+		set_country_flag = no_luxembourg
+		relation = { who = LUX value = 400 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

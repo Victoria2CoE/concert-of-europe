@@ -1,0 +1,170 @@
+country_event = {
+	id = 99665
+	title = "A Declaration from Miswati" 
+	desc = "The self proclaimed king of the Nguni in the proince of Suazi, Miswati has issued a declaration to either lend him the province of Suazi to create an independent state, or fight him."
+	tag = ZUL
+	year = 1840
+	picture = "blood_river"
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { months = 3 }
+	
+	option = {
+		name = "We have no other choice..."
+		prestige = -5
+		2114 = { 
+			secede_province = SUA
+			remove_core = ZUL
+			remove_core = MAT
+			add_core = SUA 
+		}
+		relation = { who = SUA value = -100 }
+		SUA = { prestige = 20 }
+		any_pop = {
+			limit = { has_pop_culture = xhosa }
+			money = 250
+			reduce_pop = .2
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = "To war it shall be!"
+		prestige = 5
+		2114 = { 
+			secede_province = SUA
+			remove_core = MAT
+			add_core = SUA 
+		}
+		SUA = { 
+			alliance_with = MAT
+		}
+		add_casus_belli = {
+				target = SUA
+				type = great_game_cb
+				months = 36
+			}
+		relation = { who = SUA value = -100 }
+		SUA = { prestige = 20 }
+		any_pop = {
+			limit = { has_pop_culture = xhosa }
+			money = 150
+			reduce_pop = .35
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = {
+	id = 99666
+	title = "Integration of Thohoyandu" 
+	desc = "The large amount of Nguni's in the province of Thohoyndu, and it's startegy for war with the Zulu has led to us declaring it as our own" 
+	tag = MAT
+	year = 1837
+	picture = "blood_river"
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { months = 5 }
+	
+	option = {
+		name = "An excellent development!"
+		prestige = 7
+		2110 = { add_core = MAT }
+		relation = { who = GAZ value = -100 }
+		GAZ = { prestige = -5 }
+		ai_chance = {
+			factor = 98
+		}
+	}
+
+	option = {
+		name = "We have no interest in pursuing this."
+		prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = nguni }
+			militancy = 3
+			consciousness = 3
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+
+country_event = { 
+	id = 95518
+	title = "The Matabele Retreat"
+	desc = "With the demise of the Matabele rule over the Vaal river and its surrounding territories, the Matabele King has decided to flee."
+	picture = "blood_river"
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+		
+	option = {
+		name = "This is the best for the future of our people."
+		MAT = { capital = 2071 }
+		2069 = { life_rating = 25 }
+		2071 = { life_rating = 25 }
+		2574 = { life_rating = 20 }
+		2075 = { life_rating = 20 }
+		2108 = {
+			any_pop = { limit = { culture = nguni }
+			reduce_pop = 0.8
+			}
+		}
+	}
+}
+	
+	
+country_event = { 
+	id = 95519
+	title = "Years of the Crushings"
+	desc = "As King Shaka created the militaristic Zulu Kingdom in the territory between the Tugela River and Pongola River, his forces caused a wave of warfare and disruption to sweep to other peoples."
+	picture = "mfecane"
+	trigger = {
+		tag = MAT
+		war = no
+		year = 1830
+		owns = 2110
+		NOT = { has_country_flag = the_mfecane }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 10 }
+	
+	option = {
+		name = "End this travesty by negotiation"
+		set_country_flag = the_mfecane
+		any_owned = { limit = { is_core = THIS } remove_core = GAZ remove_core = ZUL remove_core = BAS }
+		any_pop = { militancy = -5 consciousness = -3 }
+		2105 = { life_rating = 20 }
+		2106 = { life_rating = 15 }
+		2107 = { life_rating = 15 }
+		2108 = { life_rating = 15 }
+		2109 = { life_rating = 20 }
+		2110 = { life_rating = 20 }
+		random_list = {
+			30 = { 
+				any_pop = { limit = { NOT = { OR = { culture = nguni } } } reduce_pop = 0.3 }
+				any_pop = { limit = { culture = nguni } reduce_pop = 0.9 }
+			}
+			45 = { 
+				any_pop = { limit = { NOT = { OR = { culture = nguni } } } reduce_pop = 0.35 }
+				any_pop = { limit = { culture = nguni } reduce_pop = 0.85 }
+			}
+			25 = { 
+				any_pop = { limit = { NOT = { OR = { culture = nguni } } } reduce_pop = 0.4 }
+				any_pop = { limit = { culture = nguni } reduce_pop = 0.8 }
+				}
+			}
+		}
+	}
+
+}

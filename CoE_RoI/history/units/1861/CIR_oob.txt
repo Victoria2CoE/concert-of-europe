@@ -1,0 +1,38 @@
+army = {
+	name = "Circassian Army"
+	location = 1056
+	
+regiment = {
+		name= "1.Circassian Infantry"
+		type = regular
+	}
+
+	
+regiment = {
+		name= "2.Circassian Infantry"
+		type = infantry
+	}
+}
+
+
+
+army = {
+	name = "Adyge Army"
+	location = 1051
+	
+regiment = {
+		name= "1.Adyge Infantry"
+		type = regular
+	}
+
+	
+regiment = {
+		name= "1.Adyge Ghazis"
+			type = hussar		home = 1051	}
+regiment = {
+		name= "2.Adyge Infantry"
+		type = infantry
+		home = 1051
+	}
+}
+

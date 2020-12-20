@@ -1,0 +1,28 @@
+army = {
+	name = "Bedouins"
+	location = 1153
+	regiment = {
+		name= "1.Beni Atiya"
+		type = irregular
+	}
+
+	regiment = {
+		name= "2.Beni Atiya"
+		type = irregular
+	}
+}
+
+army = {
+	name = "Bedouins"
+	location = 1151
+	regiment = {
+		name= "1.Harb"
+		type = irregular
+	}
+
+	regiment = {
+		name= "2.Harb"
+		type = irregular
+	}
+}
+

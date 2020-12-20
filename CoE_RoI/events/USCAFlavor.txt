@@ -1,0 +1,1656 @@
+country_event = {
+	id = 97550
+	title = "EVTNAME97550" #The Federal Republic
+	desc = "EVTDESC97550"
+	news = yes
+	news_title = "EVTNAME97550_NEWS_TITLE"
+	news_desc_long = "EVTDESC97550_NEWS_LONG"
+	news_desc_medium = "EVTDESC97550_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97550_NEWS_SHORT"
+	picture = "mexico_soldiers"
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		year = 1830
+		NOT = {
+			has_country_flag = usca_legitimate
+			has_country_flag = chaos_in_usca
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.001
+			has_country_flag = 1836_start
+		}
+		modifier = {
+			factor = 2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 10
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.2
+			average_militancy = 8
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		clr_country_flag = 1836_start
+		set_country_flag = chaos_in_usca
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NIC
+					is_core = HON
+					is_core = COS
+					is_core = ELS
+					is_core = PNM
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 3650
+			}
+			any_pop = {
+				ideology = {
+					value = conservative
+					factor = 0.5
+				}
+				ideology = {
+					value = liberal
+					factor = 0.3
+				}
+				militancy = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97551
+	title = "EVTNAME97551" #Costa Rica Declares Independence
+	desc = "EVTDESC97551"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = UCA
+		owns = 2201
+		war = no
+		NOT = {
+			has_country_flag = costa_rica_independence
+			has_country_flag = usca_legitimate
+			exists = COS
+		}
+		OR = {
+			exists = NIC
+			any_owned_province = {
+				province_id = 2201
+				controlled_by_rebels = yes
+				province_control_days = 30
+				NOT = { country_units_in_province = UCA }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.5
+			UCA_2201 = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2201 = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2201 = { average_militancy = 8 }
+		}
+		modifier = {
+			factor = 24
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		set_country_flag = costa_rica_independence
+		prestige = -5
+		any_owned = {
+			limit = { is_core = COS }
+			secede_province = COS
+		}
+		COS = {
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97552
+	title = "EVTNAME97552" #Nicaragua Declares Independence
+	desc = "EVTDESC97552"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = UCA
+		owns = 2197
+		war = no
+		NOT = {
+			has_country_flag = nicaragua_independence
+			has_country_flag = usca_legitimate
+			exists = NIC
+		}
+		OR = {
+			exists = HON
+			any_owned_province = {
+				province_id = 2197
+				controlled_by_rebels = yes
+				province_control_days = 30
+				NOT = { country_units_in_province = UCA }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.5
+			UCA_2197 = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2197 = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2197 = { average_militancy = 8 }
+		}
+		modifier = {
+			factor = 24
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		set_country_flag = nicaragua_independence
+		prestige = -5
+		any_owned = {
+			limit = { is_core = NIC }
+			secede_province = NIC
+		}
+		NIC = {
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97553
+	title = "EVTNAME97553" #El Salvador Declares Independence
+	desc = "EVTDESC97553"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = UCA
+		owns = 2191
+		war = no
+		NOT = {
+			has_country_flag = el_salvador_independence
+			has_country_flag = usca_legitimate
+			exists = ELS
+		}
+		OR = {
+			exists = HON
+			any_owned_province = {
+				province_id = 2191
+				controlled_by_rebels = yes
+				province_control_days = 30
+				NOT = { country_units_in_province = UCA }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.5
+			UCA_2191 = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2191 = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2191 = { average_militancy = 8 }
+		}
+		modifier = {
+			factor = 24
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		set_country_flag = el_salvador_independence
+		prestige = -5
+		any_owned = {
+			limit = { is_core = ELS }
+			secede_province = ELS
+		}
+		ELS = {
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97554
+	title = "EVTNAME97554" #Honduras Declares Independence
+	desc = "EVTDESC97554"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = UCA
+		owns = 2193
+		war = no
+		NOT = {
+			has_country_flag = honduras_independence
+			has_country_flag = usca_legitimate
+			exists = HON
+		}
+		OR = {
+			exists = NIC
+			exists = ELS
+			any_owned_province = {
+				province_id = 2193
+				controlled_by_rebels = yes
+				province_control_days = 30
+				NOT = { country_units_in_province = UCA }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.5
+			UCA_2193 = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2193 = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.5
+			UCA_2193 = { average_militancy = 8 }
+		}
+		modifier = {
+			factor = 24
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		set_country_flag = honduras_independence
+		prestige = -5
+		any_owned = {
+			limit = { is_core = HON }
+			secede_province = HON
+		}
+		HON = {
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97555
+	title = "EVTNAME97555" #Panama Declares Independence
+	desc = "EVTDESC97555"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = UCA
+		owns = 2204
+		war = no
+		NOT = {
+			has_country_flag = panama_independence
+			has_country_flag = usca_legitimate
+			exists = PNM
+		}
+		OR = {
+			exists = COS
+			any_owned_province = {
+				province_id = 2204
+				controlled_by_rebels = yes
+				province_control_days = 30
+				NOT = { country_units_in_province = UCA }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+		modifier = {
+			factor = 0.5
+			CLM_1723 = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			CLM_1723 = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.5
+			CLM_1723 = { average_militancy = 8 }
+		}
+		modifier = {
+			factor = 24
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	option = {
+		name = "The republic must live on!"
+		set_country_flag = panama_independence
+		prestige = -5
+		any_owned = {
+			limit = { is_core = PNM }
+			secede_province = PNM
+		}
+		PNM = {
+			relation = { who = THIS value = -100 }
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97556
+	title = "The Secession of Costa Rica"
+	desc = "Costa Rica has seceded from the Federal Republic, sparking renewed unrest elsewhere in the union."
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		exists = COS
+		any_owned_province = {
+			OR = {
+				is_core = ELS
+				is_core = HON
+				is_core = NIC
+				is_core = PNM
+			}
+		}
+		NOT = { year = 1840 }
+		NOT = { has_global_flag = the_usca_has_failed }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "Order must be restored!"
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = NIC
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = 2
+		relation = { who = COS value = -100 }
+		war = {
+			target = COS
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		COS = {
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				exists = ELS
+			}
+			modifier = {
+				factor = 0.8
+				exists = HON
+			}
+			modifier = {
+				factor = 0.8
+				exists = NIC
+			}
+			modifier = {
+				factor = 0.8
+				exists = PNM
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Let them go."
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = NIC
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = -2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 97557
+	title = "The Secession of El Salvador"
+	desc = "El Salvador has seceded from the Federal Republic, sparking renewed unrest elsewhere in the union."
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		exists = ELS
+		any_owned_province = {
+			OR = {
+				is_core = HON
+				is_core = NIC
+				is_core = COS
+				is_core = PNM
+			}
+		}
+		NOT = { year = 1840 }
+		NOT = { has_global_flag = the_usca_has_failed }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "Order must be restored!"
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = HON
+						is_core = NIC
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = 2
+		relation = { who = ELS value = -100 }
+		war = {
+			target = ELS
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		ELS = {
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				exists = HON
+			}
+			modifier = {
+				factor = 0.8
+				exists = NIC
+			}
+			modifier = {
+				factor = 0.8
+				exists = COS
+			}
+			modifier = {
+				factor = 0.8
+				exists = PNM
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Let them go."
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = HON
+						is_core = NIC
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = -2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 97558
+	title = "The Secession of Honduras"
+	desc = "Honduras has seceded from the Federal Republic, sparking renewed unrest elsewhere in the union."
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		exists = HON
+		any_owned_province = {
+			OR = {
+				is_core = ELS
+				is_core = NIC
+				is_core = COS
+				is_core = PNM
+			}
+		}
+		NOT = { year = 1840 }
+		NOT = { has_global_flag = the_usca_has_failed }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "Order must be restored!"
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = NIC
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = 2
+		relation = { who = HON value = -100 }
+		war = {
+			target = HON
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		HON = {
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				exists = ELS
+			}
+			modifier = {
+				factor = 0.8
+				exists = NIC
+			}
+			modifier = {
+				factor = 0.8
+				exists = COS
+			}
+			modifier = {
+				factor = 0.8
+				exists = PNM
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Let them go."
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = NIC
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = -2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 97559
+	title = "The Secession of Nicaragua"
+	desc = "Nicaragua has seceded from the Federal Republic, sparking renewed unrest elsewhere in the union."
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		exists = NIC
+		any_owned_province = {
+			OR = {
+				is_core = ELS
+				is_core = HON
+				is_core = COS
+				is_core = PNM
+			}
+		}
+		NOT = { year = 1840 }
+		NOT = { has_global_flag = the_usca_has_failed }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "Order must be restored!"
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = 2
+		relation = { who = NIC value = -100 }
+		war = {
+			target = NIC
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		NIC = {
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				exists = ELS
+			}
+			modifier = {
+				factor = 0.8
+				exists = HON
+			}
+			modifier = {
+				factor = 0.8
+				exists = COS
+			}
+			modifier = {
+				factor = 0.8
+				exists = PNM
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Let them go."
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = COS
+						is_core = PNM
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = -2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 975591
+	title = "The Secession of Panama"
+	desc = "Panama has seceded from the Federal Republic, sparking renewed unrest elsewhere in the union."
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		exists = PNM
+		has_country_flag = panama_independence
+		any_owned_province = {
+			OR = {
+				is_core = ELS
+				is_core = HON
+				is_core = COS
+				is_core = NIC
+			}
+		}
+		NOT = { year = 1840 }
+		NOT = { has_global_flag = the_usca_has_failed }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "Order must be restored!"
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = COS
+						is_core = NIC
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = 2
+		relation = { who = NIC value = -100 }
+		war = {
+			target = NIC
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		NIC = {
+			casus_belli = {
+				target = UCA
+				type = free_peoples
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.8
+				exists = ELS
+			}
+			modifier = {
+				factor = 0.8
+				exists = HON
+			}
+			modifier = {
+				factor = 0.8
+				exists = COS
+			}
+			modifier = {
+				factor = 0.8
+				exists = NIC
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Let them go."
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				location = {
+					OR = {
+						is_core = ELS
+						is_core = HON
+						is_core = COS
+						is_core = NIC
+					}
+				}
+			}
+			militancy = 9
+		}
+		prestige = -2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 97560
+	title = "EVTNAME97560" #End of the Republic?
+	desc = "EVTDESC97560"
+	news = yes
+	news_title = "EVTNAME97560_NEWS_TITLE"
+	news_desc_long = "EVTDESC97560_NEWS_LONG"
+	news_desc_medium = "EVTDESC97560_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97560_NEWS_SHORT"
+	picture = "mexico_soldiers"
+	major = yes
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		has_country_flag = chaos_in_usca
+		OR = {
+			exists = ELS
+			exists = HON
+			exists = NIC
+			exists = COS
+			exists = PNM
+		}
+		NOT = {
+			has_country_flag = usca_legitimate
+			is_greater_power = yes
+			is_secondary_power = yes
+			has_global_flag = the_usca_has_failed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.75
+			exists = ELS
+		}
+		modifier = {
+			factor = 0.75
+			exists = HON
+		}
+		modifier = {
+			factor = 0.75
+			exists = NIC
+		}
+		modifier = {
+			factor = 0.75
+			exists = COS
+		}
+		modifier = {
+			factor = 0.75
+			exists = PNM
+		}
+		modifier = {
+			factor = 0.75
+			year = 1836
+		}
+		modifier = {
+			factor = 0.5
+			year = 1839
+		}
+		modifier = {
+			factor = 0.5
+			year = 1840
+		}
+	}
+	
+	immediate = {
+		set_global_flag = the_usca_has_failed
+	}
+	
+	option = {
+		name = "We will fight to preserve the republic!"
+		set_country_flag = usca_civil_war
+		random_owned = {
+			limit = {
+				province_id = 2191
+				ELS = { exists = no }
+			}
+			owner = {
+				release = ELS
+				war = {
+					target = ELS
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2193
+				HON = { exists = no }
+			}
+			owner = {
+				release = HON
+				war = {
+					target = HON
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2197
+				NIC = { exists = no }
+			}
+			owner = {
+				release = NIC
+				war = {
+					target = NIC
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2201
+				COS = { exists = no }
+			}
+			owner = {
+				release = COS
+				war = {
+					target = COS
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2204
+				PNM = { exists = no }
+			}
+			owner = {
+				release = PNM
+				war = {
+					target = PNM
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				province_id = 2183
+				YUC = { exists = no }
+			}
+			owner = {
+				release = YUC
+				war = {
+					target = YUC
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = status_quo
+					}
+				}
+			}
+		}
+		add_country_modifier = {
+			name = csa_draft
+			duration = 1095
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = NIC
+					tag = ELS
+					tag = COS
+					tag = HON
+					tag = PNM
+					tag = YUC
+				}
+			}
+			relation = { who = UCA value = -200 }
+			add_country_modifier = {
+				name = csa_draft
+				duration = 1095
+			}
+		}
+		any_pop = {
+			militancy = -5
+			consciousness = -5
+		}
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "The republic must end."
+		prestige = 5
+		random_owned = {
+			limit = {
+				province_id = 2191
+				ELS = { exists = no }
+			}
+			owner = { release = ELS }
+		}
+		random_owned = {
+			limit = {
+				province_id = 2193
+				HON = { exists = no }
+			}
+			owner = { release = HON }
+		}
+		random_owned = {
+			limit = {
+				province_id = 2197
+				NIC = { exists = no }
+			}
+			owner = { release = NIC }
+		}
+		random_owned = {
+			limit = {
+				province_id = 2201
+				COS = { exists = no }
+			}
+			owner = { release = COS }
+		}
+		random_owned = {
+			limit = {
+				province_id = 2204
+				PNM = { exists = no }
+			}
+			owner = { release = PNM }
+		}
+		random_owned = {
+			limit = {
+				province_id = 2183
+				YUC = { exists = no }
+			}
+			owner = { release = YUC }
+		}
+		all_core = { remove_core = UCA }
+		change_tag = GUA
+		relation = { who = ELS value = 50 }
+		relation = { who = HON value = 50 }
+		relation = { who = NIC value = 50 }
+		relation = { who = COS value = 50 }
+		relation = { who = PNM value = 50 }
+		relation = { who = YUC value = 50 }
+		relation = { who = MEX value = -50 }
+		any_pop = {
+			militancy = -5
+			consciousness = -5
+		}
+		any_greater_power = {
+			diplomatic_influence = { who = THIS value = -200 }
+			leave_alliance = THIS
+		}
+		ai_chance = { factor = 80 }
+	}
+}
+
+#End a civil war that has gone on too long
+country_event = {
+	id = 975600
+	title = "The War Must End"
+	desc = "We must end the civil war. It has gone on too long."
+	
+	trigger = {
+		tag = UCA
+		exists = yes
+		ai = yes
+		OR = {
+			war_with = ELS
+			war_with = HON
+			war_with = NIC
+			war_with = COS
+			war_with = PNM
+			war_with = YUC
+		}
+		has_country_flag = usca_civil_war
+		OR = {
+			NOT = { total_amount_of_divisions = 1 }
+			AND = {
+				war_with = ELS
+				ELS = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+			AND = {
+				war_with = HON
+				HON = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+			AND = {
+				war_with = NIC
+				NIC = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+			AND = {
+				war_with = COS
+				COS = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+			AND = {
+				war_with = PNM
+				PNM = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+			AND = {
+				war_with = YUC
+				YUC = {
+					NOT = {
+						any_owned_province = { controlled_by = THIS }
+						any_owned_province = { country_units_in_province = UCA }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "So must it be."
+		any_country = {
+			limit = {
+				OR = {
+					tag = ELS
+					tag = HON
+					tag = NIC
+					tag = COS
+					tag = PNM
+					tag = YUC
+				}
+				ai = yes
+				war_with = THIS
+				NOT = {
+					any_owned_province = { controlled_by = THIS }
+					any_owned_province = { country_units_in_province = UCA }
+				}
+			}
+			end_war = THIS
+		}
+	}
+}
+
+# Apply for USCA Statehood
+country_event = {
+	id = 16401
+	title = "EVTNAME16401"
+	desc = "EVTDESC16401"
+	news = yes
+	news_title = "EVTNAME16401_NEWS_TITLE"
+	news_desc_long = "EVTDESC16401_NEWS_LONG"
+	news_desc_medium = "EVTDESC16401_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC16401_NEWS_SHORT"
+	picture = "deliberation"
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "We accept."
+		prestige = 5
+		FROM = {
+			all_core = { add_core = UCA }
+		}
+		random_owned = {
+			limit = {
+				FROM = { tag = YUC }
+			}
+			owner = { add_accepted_culture = mayan }
+		}
+		inherit = FROM
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = "We refuse."
+		relation = {
+			who = FROM
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Belize Purchase 1/3
+country_event = {
+	id = 32550
+	title = "EVTNAME32550"
+	desc = "EVTDESC32550"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We gladly accept."
+		money = 50000
+		2190 = { remove_core = THIS }
+		FROM = { country_event = 32551 }
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "We refuse."
+		UCA = { country_event = 32552 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Belize Purchase 2/3
+country_event = {
+	id = 32551
+	title = "EVTNAME32551"
+	desc = "EVTDESC32551"
+	picture = "administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent."
+		prestige = 5
+		money = -50000
+		2190 = { secede_province = THIS }
+		relation = { who = FROM value = 50 }
+		any_pop = { consciousness = -1 }
+	}
+}
+
+# Belize Purchase 3/3
+country_event = {
+	id = 32552
+	title = "EVTNAME32552"
+	desc = "EVTDESC32552"
+	picture = "administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hm, I see."
+		relation = { who = FROM value = -100 }
+	}
+}
+
+#############################################################
+#															#
+#         				1821 Start Events					#
+#															#
+#############################################################
+
+country_event = {
+	id = 97580
+	title = "EVTNAME97580" #Joining Mexico?
+	desc = "EVTDESC97580"
+	picture = "churchmexico"
+
+	trigger = {
+		tag = UCA
+		exists = yes
+		OR = {
+			PNM = { has_country_flag = federation }
+			year = 1822
+		}
+		NOT = {
+			has_country_flag = join_mexico
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = "We will petition Mexico for annexation."
+		set_country_flag = join_mexico
+		clr_country_flag = liberal_constitution
+		MEX = { country_event = 97581 }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We will make our own way."
+		set_country_flag = join_mexico
+		clr_country_flag = liberal_constitution
+		2182 = { add_core = MEX }
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				type = clergymen
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 4
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 8
+			}
+		}
+		leave_alliance = MEX
+		relation = { who = MEX value = -50 }
+		MEX = {
+			casus_belli = {
+				target = THIS
+				type = humiliate
+				months = 60
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 97581
+	title = "EVTNAME97581" #Central America petitions for annexation
+	desc = "EVTDESC97581"
+	picture = "churchmexico"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We welcome them."
+		prestige = 2
+		2182 = { add_core = MEX }
+		inherit = FROM
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We refuse."
+		relation = {
+			who = FROM
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 97582
+	title = "EVTNAME97582" #Reorganization?
+	desc = "EVTDESC97582"
+	picture = "deliberation"
+
+	trigger = {
+		tag = UCA
+		exists = yes
+		average_militancy = 6
+		has_country_flag = chaos_in_usca
+		NOT = {
+			has_country_flag = usca_legitimate
+			has_country_flag = reorganization
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+		modifier = {
+			factor = 0.5
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 8
+		}
+	}
+
+	option = {
+		name = "Authorize secession, but threaten war with anyone who secedes."
+		set_country_flag = reorganization
+		any_owned = {
+			limit = { is_core = NIC }
+			secede_province = NIC
+		}
+		NIC = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+			relation = { who = THIS value = -100 }
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "Dissolve the Congress, and suppress dissent."
+		set_country_flag = reorganization
+		political_reform = none_voting
+		political_reform = underground_parties
+		government = presidential_dictatorship
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		remove_country_modifier = conservative_reaction
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			ideology = {
+				value = liberal
+				factor = 0.2
+			}
+			consciousness = 4
+			scaled_militancy = {
+				ideology = liberal
+				factor = 10
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NIC
+					is_core = HON
+					is_core = COS
+					is_core = ELS
+					is_core = PNM
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 5475
+			}
+			any_pop = {
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+				militancy = 1
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

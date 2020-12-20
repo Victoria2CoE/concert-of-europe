@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Army of Nagpur"
+	location = 1277
+	regiment = {
+		name= "1.Nagpur Contingent"
+		type = infantry
+		home = 1277
+	}
+
+	regiment = {
+		name= "2.Nagpur Contingent"
+		type = infantry
+		home = 1277
+	}
+
+	regiment = {
+		name= "3.Nagpur Contingent"
+		type = infantry
+		home = 1277
+	}
+
+}
+

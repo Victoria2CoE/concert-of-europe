@@ -1,0 +1,1343 @@
+#Sphere of Influence
+
+#Asia
+ATJ = {
+	value = 25
+	level = 2
+	influence_value = 0
+}
+BUR = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+SIA = {
+	value = 150
+	level = 3
+	influence_value = 0
+}
+NEP = {
+	value = 150
+}
+QNG ={
+	level = 0
+}
+JOH = { 
+	value = 50
+	level = 3
+}
+AOT = { 
+	value = 50
+	level = 3
+}
+
+#Middle East
+PER = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+AFG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BHR = {
+	value = 50
+	level = 4
+	influence_value = 0
+}
+ABU = {
+	value = 50
+	level = 5
+	influence_value = 0
+}
+OMA = {
+	value = 50
+	level = 4
+	influence_value = 0
+}
+NEJ = {
+	value = 100
+	level = 4
+	influence_value = 0
+}
+NYE = {
+	value = 50
+}
+YEM = {
+	value = -50
+}
+
+#Europe
+POR = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+NET = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+
+}
+DEN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+
+}
+SWE = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+GRE = {
+	value = 75
+	level = 4
+	influence_value = 0
+}
+BEL = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+HAN = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+#South America
+VNZ = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+ARG = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+URU = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#India
+HND = {
+	value = 150
+	level = 5
+	influence_value = 0
+}
+PNJ = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+AWA = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BAS = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BER = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BIK = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BHO = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BUN = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+GWA = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+HYD = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+IND = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+JAI = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+JAS = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+JOD = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+KUT = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+MEW = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+MYS = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+NAG = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ORI = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+TRA = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+#Africa
+EGY = {
+	value = 0		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+MOR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BEN = {
+	value = 60
+}
+ZUL = {
+	value = -20
+}
+XHO = {
+	value = -50
+}
+DAH = {
+	value = 65
+}
+OYO = {
+	value = 55
+}
+ARO = {
+	value = 50
+}
+CLA = {
+	value = 55
+}
+WRI = {
+	value = 55
+}
+GBU = {
+	value = 45
+}
+TOO = {
+	value = 40
+}
+WOL = {
+	value = 40
+}
+
+#Other GP's
+FRA = {
+	value = -75
+}
+USA = {
+	value = 50
+}
+AUS = {
+	value = -75
+}
+SPA = {
+	value = -75
+}
+PRU = {
+	value = -75
+}
+RUS = {
+	value = -75
+}
+TUR = {
+	value = 125
+}
+
+
+leader = {
+	name = "Thomas Cochrane"
+	date = 1831.1.1
+	type = sea
+	personality = charismatic
+	background = renowned_adventurer
+	prestige = 0.1
+}
+
+
+army = {
+	name = "The Aden Garrison"
+	location = 1412
+	regiment = {
+		name = "1.1st Division"
+		type = regular
+		home = 300
+	}
+}
+
+army = {
+	name = "1st Corps"
+	location = 300
+	regiment = {
+		name= "1.1st hussar Division"
+		type = hussar
+		home = 300
+	}
+	regiment = {
+		name= "2.1st hussar Division"
+		type = hussar
+		home = 300
+	}
+	regiment = {
+		name= "3.1st hussar Division"
+		type = hussar
+		home = 300
+	}
+	regiment = {
+		name= "1.1st Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "2.1st Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "3.1st Division"
+		type = regular
+		home = 300
+	}
+}
+
+army = {
+	name = "2nd Division"
+	location = 288
+	regiment = {
+		name= "1.2nd Division"
+		type = regular
+		home = 284
+	}
+	regiment = {
+		name= "2.2nd Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "3.2nd Division"
+		type = regular
+		home = 300
+	}
+}
+
+
+army = {
+	name = "3rd Division"
+	location = 273
+	regiment = {
+		name= "1.3rd Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "2.3rd Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "3.3rd Division"
+		type = regular
+		home = 300
+	}
+}
+
+army = {
+	name = "4th Division"
+	location = 263
+	regiment = {
+		name= "1.4th Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "2.4th Division"
+		type = regular
+		home = 300
+	}
+	regiment = {
+		name= "3.4th Division"
+		type = regular
+		home = 300
+	}
+}
+
+army = {
+	name = "5th Division"
+	location = 269
+	regiment = {
+		name= "1.5th Division"
+		type = regular
+		home = 271
+	}
+	regiment = {
+		name= "2.5th Division"
+		type = regular
+		home = 271
+	}
+	regiment = {
+		name= "3.5th Division"
+		type = regular
+		home = 271
+	}
+}
+
+army = {
+	name = "The Canada Garrison"
+	location = 57
+	regiment = {
+		name= "1.6th Division"
+		type = regular
+		home = 271
+	}
+	regiment = {
+		name= "2.6th Division"
+		type = regular
+		home = 271
+	}
+	regiment = {
+		name= "3.6th Division"
+		type = regular
+		home = 271
+	}
+}
+
+army = {
+	name = "The South Africa Garrison"
+	location = 2087
+	regiment = {
+		name= "1.7th Division"
+		type = regular
+		home = 271
+	}
+	regiment = {
+		name= "2.7th Division"
+		type = regular
+		home = 280
+	}
+	regiment = {
+		name= "3.7th Division"
+		type = regular
+		home = 280
+	}
+}
+
+army = {
+	name = "The Australia Garrison"
+	location = 2468
+	regiment = {
+		name= "1.8th Division"
+		type = regular
+		home = 280
+	}
+	regiment = {
+		name= "2.8th Division"
+		type = regular
+		home = 280
+	}
+	regiment = {
+		name= "3.8th Division"
+		type = regular
+		home = 280
+	}
+}
+
+army = {
+	name = "The Bombay Army"
+	location = 1297
+	regiment = {
+		name= "1.9th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "2.9th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "3.9th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "1.1st Indian Division"
+		type = infantry
+		home = 1297
+	}
+	regiment = {
+		name= "2.1st Indian Division"
+		type = infantry
+		home = 1297
+	}
+	regiment = {
+		name= "3.1st Indian Division"
+		type = infantry
+		home = 1297
+	}
+	regiment = {
+		name= "1.2nd Indian Division"
+		type = infantry
+		home = 1297
+	}
+	regiment = {
+		name= "2.2nd Indian Division"
+		type = infantry
+		home = 1297
+	}
+	regiment = {
+		name= "3.2nd Indian Division"
+		type = infantry
+		home = 1297
+	}
+}
+
+army = {
+	name = "The Calcutta Army"
+	location = 1256
+	regiment = {
+		name= "1.10th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "2.10th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "3.10th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "1.3rd Indian Division"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "2.3rd Indian Division"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "3.3rd Indian Division"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "1.4th Indian Division"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "2.4th Indian Division"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "3.4th Indian Division"
+		type = infantry
+		home = 1251
+	}
+}
+
+army = {
+	name = "The Delhi Army"
+	location = 1236
+	regiment = {
+		name= "1.2nd hussar Division"
+		type = hussar
+		home = 1236
+	}
+	regiment = {
+		name= "2.2nd hussar Division"
+		type = hussar
+		home = 1236
+	}
+	regiment = {
+		name= "3.2nd hussar Division"
+		type = hussar
+		home = 1236
+	}
+	regiment = {
+		name= "1.11th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "3.11th Division"
+		type = regular
+		home = 277
+	}
+	regiment = {
+		name= "1.12th Division"
+		type = regular
+		home = 296
+	}
+	regiment = {
+		name= "2.12th Division"
+		type = regular
+		home = 296
+	}
+	regiment = {
+		name= "3.12th Division"
+		type = regular
+		home = 296
+	}
+}
+
+army = {
+	name = "5th Indian Division"
+	location = 1304
+	regiment = {
+		name= "1.5th Indian Division"
+		type = infantry
+		home = 1304
+	}
+	regiment = {
+		name= "2.5th Indian Division"
+		type = infantry
+		home = 1304
+	}
+	regiment = {
+		name= "3.5th Indian Division"
+		type = infantry
+		home = 1304
+	}
+}
+
+navy = {
+	name = "Channel Fleet"
+	location = 303
+	ship = {
+		name= "HMS Asia"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Belleisle"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Bellerophon"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Bombay"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Britannia"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Calcutta"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Camperdown"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Carnatic"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Clarence"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Formidable"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Ganges"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Hastings"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Hawke"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Malabar"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Monarch"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Neptune"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Powerful"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Prince Regent"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Princess Charlotte"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Rodney"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Royal Adelaide"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Royal George"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Thunderer"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Vanregular"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Vengeance"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Waterloo"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Conquestadore"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Eagle"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Forth"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Gloucester"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Pique"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Seahorse"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Stag"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Thalia"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Vernon"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Vindictive"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Medea"
+		type = commerce_raider
+	}
+	ship = {
+		name= "HMS Phoenix"
+		type = commerce_raider
+	}
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 303
+	ship = {
+		name= "HMS Blenheim"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Cambridge"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Cornwallis"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Defence"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Genoa"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Hercules"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Amazon"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Fisregular"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Isis"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Latona"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 299 #Plymouth
+	ship = {
+		name= "HMS Bellona"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Benbow"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Devonshire"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Hogue"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Medway"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Amphitrite"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Arethusa"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Blonde"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Brilliant"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Forte"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Java"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Laurel"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Pallas"
+		type = frigate
+	}
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "23th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "27th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "28th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "29th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "30th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "3rd Reserve Squadron"
+	location = 299 #Plymouth
+	ship = {
+		name= "HMS Ajax"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Armada"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Caledonia"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Edinburgh"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Egmont"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Bacchante"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Belvidera"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Briton"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Crescent"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Galatea"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Havannah"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Maidstone"
+		type = frigate
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "19th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "20th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "21th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "22th Transport Flotilla"
+		type = clipper_transport
+	}	
+}
+
+navy = {
+	name = "4th Reserve Squadron"
+	location = 301 #Canterbury
+	ship = {
+		name= "HMS Foudroyant"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Hibernia"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Illustrious"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Implacable"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Kent"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Apollo"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Horatio"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Leonidas"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Naiad"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Owen Glendower"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Resistance"
+		type = frigate
+	}
+	ship = {
+		name= "11th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "12th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "13th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "14th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "15th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "16th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "17th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "18th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "5th Reserve Squadron"
+	location = 281 #Hull
+	ship = {
+		name= "HMS Achille"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Canopus"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Boadicea"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Dryad"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Endymion"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Unite"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Mediterranean Fleet"
+	location = 854 #Malta
+	ship = {
+		name= "HMS Agincourt"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Black Prince"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Melville"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Alfred"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Andromeda"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Circe"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Clyde"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Cornwall"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Eurotas"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Fox"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Hotspur"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Leda"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Penelope"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Salamander"
+		type = commerce_raider
+	}
+}
+
+navy = {
+	name = "Lisbon Station"
+	location = 517 #Gibraltar
+	ship = {
+		name= "HMS Africaine"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Cerberus"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Nemesis"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "North America Station"
+	location = 71 #Halifax
+	ship = {
+		name= "HMS Saint Vincent"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Wellesley"
+		type = manowar
+	}
+	ship = {
+		name= "HMS Aeolus"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Barham"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Daedalus"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Hebe"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Mercury"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Mermaid"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "South Atlantic Station"
+	location = 2131 # Falklands
+	ship = {
+		name= "HMS Hamadryad"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Lancaster"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Thames"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "West Africa Station"
+	location = 1884 #Freetown
+	ship = {
+		name= "HMS Diana"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "East Indies Station"
+	location = 1321 #Colombo
+	ship = {
+		name= "HMS Madagascar"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Portland"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Winchester"
+		type = frigate
+	}
+}

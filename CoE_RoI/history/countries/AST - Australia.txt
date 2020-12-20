@@ -1,0 +1,52 @@
+capital = 2468
+primary_culture = australian
+religion = protestant
+government = hms_government
+plurality = 0.98
+nationalvalue = nv_liberty
+literacy = 0.01 #literacy = 0.7
+civilized = yes
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+minorities_reform = oppression
+immigration_policy = naturalization
+conscription = two_year_draft
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = ten_hours
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = low_pensions
+land_property=landed_estates
+child_labor = child_labor_restricted
+arts_endowment = no_endowment
+education = elite
+
+ruling_party = AST_liberal_2
+upper_house = {
+	fascist = 0
+	liberal = 65
+	conservative = 25
+	reactionary = 5
+	anarcho_liberal = 5
+	socialist = 0
+	communist = 0
+}
+1861.1.1 = {
+	oob = "/1861/AST_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

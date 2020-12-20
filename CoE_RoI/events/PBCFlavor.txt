@@ -1,0 +1,594 @@
+country_event = {
+	id = 97040
+	title = "EVTNAME97040" #A Peruvian Confederation?
+	desc = "EVTDESC97040"
+	picture = "deliberation"
+
+	trigger = {
+		tag = PEU
+		exists = yes
+		NOT = {
+			war_with = SPA
+			truce_with = BOL
+			BOL = { has_country_flag = wants_to_unify }
+			has_global_flag = peru_bolivia_confederated
+			state_n_government = 1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "The Perus must be united!"
+		set_country_flag = ejecting_sucre
+		prestige = 2
+		BOL = { country_event = 97041 }
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				OR = {
+					war = yes
+					truce_with = BOL
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "We must accept Bolivia's independence, for now."
+		prestige = -2
+		relation = { who = BOL value = 25 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 97041
+	title = "EVTNAME97040" #A Peruvian Confederation?
+	desc = "EVTDESC97041"
+	picture = "deliberation"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "$COUNTRY$ will retain its independence, whatever Peru does."
+		prestige = 2
+		add_country_modifier = {
+			name = coup_risk
+			duration = 1825
+		}
+		any_country = {
+			leave_alliance = BOL
+			leave_alliance = PEU
+		}
+		leave_alliance = PEU
+		casus_belli = {
+			target = PEU
+			type = humiliate
+			months = 60
+		}
+		PEU = {
+			add_country_modifier = {
+				name = usa_draft
+				duration = 365
+			}
+			casus_belli = {
+				target = BOL
+				type = cut_down_to_size
+				months = 60
+			}
+			war = {
+				target = BOL
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = humiliate
+				}
+			}
+		}
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "Remove the president. We will begin negotiating the confederation."
+		PEU = { clr_country_flag = ejecting_sucre }
+		set_country_flag = wants_to_unify
+		relation = { who = PEU value = 400 }
+		create_alliance = PEU
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 97042
+	title = "EVTNAME97040" #A Peruvian Confederation?: Failure
+	desc = "EVTDESC97042"
+	picture = "deliberation"
+
+	trigger = {
+		tag = PEU
+		exists = yes
+		truce_with = BOL
+		has_country_flag = ejecting_sucre
+		NOT = {
+			BOL = { has_country_flag = wants_to_unify }
+			has_global_flag = peru_bolivia_confederated
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "We must accept Bolivia's independence, for now."
+		clr_country_flag = ejecting_sucre
+		prestige = -2
+		relation = { who = BOL value = 100 }
+	}
+}
+
+country_event = {
+	id = 97043
+	title = "EVTNAME97043" #Gran Colombia-Peru War
+	desc = "EVTDESC97043"
+	picture = "rebellion"
+
+	trigger = {
+		OR = {
+			tag = GCO
+			tag = CLM
+		}
+		exists = yes
+		BOL = { has_country_flag = wants_to_unify }
+		NOT = { has_global_flag = peru_bolivia_confederated }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = "We will show Peru who leads in South America!"
+		prestige = 2
+		leave_alliance = PEU
+		leave_alliance = BOL
+		casus_belli = {
+			target = PEU
+			type = humiliate
+			months = 60
+		}
+		war = {
+			target = PEU
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "We will allow the Perus to choose their own course."
+		prestige = -2
+		relation = { who = PEU value = 25 }
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 40
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 97045
+	title = "EVTNAME97045" #Confederation Conflict
+	desc = "EVTDESC97045"
+	picture = "deliberation"
+
+	trigger = {
+		OR = {
+			tag = PEU
+			tag = BOL
+		}
+		exists = yes
+		BOL = { has_country_flag = wants_to_unify }
+		NOT = {
+			has_global_flag = peru_bolivia_confederated
+			war_with = BOL
+			war_with = PEU
+			revolution_n_counterrevolution = 1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Enough talk! $COUNTRY$ will dominate the Confederation!"
+		any_country = {
+			leave_alliance = BOL
+			leave_alliance = PEU
+		}
+		leave_alliance = PEU
+		leave_alliance = BOL
+		PEU = {
+			casus_belli = {
+				target = BOL
+				type = cut_down_to_size
+				months = 60
+			}
+		}
+		BOL = {
+			casus_belli = {
+				target = PEU
+				type = cut_down_to_size
+				months = 60
+			}
+			war = {
+				target = PEU
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = cut_down_to_size
+				}
+			}
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				OR = {
+					war = yes
+					truce_with = BOL
+					truce_with = PEU
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Let the negotiations continue."
+		relation = { who = PEU value = -25 }
+		relation = { who = BOL value = -25 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 97046
+	title = "EVTNAME97046" #The Three Republics
+	desc = "EVTDESC97046"
+	picture = "peru-bolivia"
+
+	trigger = {
+		tag = PBC
+		exists = yes
+		has_country_flag = three_republics
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "La Paz is fine this time of year."
+		clr_country_flag = three_republics
+		release_vassal = BOL
+		create_alliance = BOL
+		BOL = {
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = SPU
+						region = ARG_2368
+						region = BOL_2309
+						province_id = 2310
+						province_id = 2312
+						province_id = 2314
+					}
+				}
+				secede_province = THIS
+			}
+		}
+		capital = 2310 #La Paz
+		release_vassal = NPU
+		create_alliance = NPU
+	}
+}
+
+country_event = {
+	id = 97047
+	title = "EVTNAME97047" #1836 PBC Setup
+	desc = "EVTDESC97047"
+	picture = "peru-bolivia"
+
+	trigger = {
+		tag = PBC
+		exists = yes
+		has_country_flag = 1836_pbc
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "The Perus must remain united!"
+		clr_country_flag = 1836_pbc
+		add_country_modifier = {
+			name = national_instability
+			duration = 1460
+		}
+	}
+}
+
+country_event = {
+	id = 97055
+	title = "EVTNAME97055" #End of the Confederation?
+	desc = "EVTDESC97055"
+	news = yes
+	news_title = "EVTNAME97055_NEWS_TITLE"
+	news_desc_long = "EVTDESC97055_NEWS_LONG"
+	news_desc_medium = "EVTDESC97055_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97055_NEWS_SHORT"
+	major = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PBC
+		exists = yes
+		war = no
+		has_recently_lost_war = yes
+		OR = {
+			AND = {
+				NOT = { owns = 2305 }
+				NOT = { owns = 2370 }
+			}
+			AND = {
+				exists = PEU
+				NOT = { is_our_vassal = PEU }
+			}
+			AND = {
+				exists = NPU
+				NOT = { is_our_vassal = NPU }
+			}
+		}
+		NOT = {
+			has_country_flag = pbc_united
+			has_country_flag = end_of_the_confederation
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	immediate = {
+		set_country_flag = end_of_the_confederation
+	}
+
+	option = {
+		name = "So must it be."
+		set_global_flag = first_pbc_fell
+		prestige = -5
+		badboy = -2
+		random_country = {
+			limit = {
+				tag = PEU
+				vassal_of = PBC
+			}
+			THIS = { release_vassal = PEU }
+		}
+		random_country = {
+			limit = {
+				tag = NPU
+				vassal_of = PBC
+			}
+			THIS = { release_vassal = NPU }
+		}
+		random_country = {
+			limit = {
+				tag = SPU
+				vassal_of = PBC
+			}
+			THIS = { release_vassal = SPU }
+		}
+		random_country = {
+			limit = {
+				tag = BOL
+				vassal_of = PBC
+			}
+			THIS = { release_vassal = BOL }
+		}
+		release = PEU
+		PBC = {
+			all_core = { remove_core = PBC }
+		}
+		random_owned = {
+			limit = { province_id = 2313 }
+			owner = {
+				capital = 2313
+				change_tag = BOL
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2304 }
+			owner = {
+				capital = 2304
+				any_owned = {
+					limit = {
+						is_core = BOL
+					}
+					secede_province = BOL
+				}
+				change_tag = SPU
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = CHL
+					tag = ARG
+					tag = LPL
+					tag = PEU
+					tag = NPU
+				}
+			}
+			relation = { who = THIS value = 300 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = { owns = 2295 }
+			}
+		}
+	}
+
+	option = {
+		name = "Never! The Confederation lives on!"
+		badboy = 2
+		random_owned = {
+			limit = { province_id = 2313 }
+			owner = {
+				all_core = {
+					limit = { is_core = PEU }
+					remove_core = PBC
+				}
+				any_owned = {
+					limit = { is_core = PEU }
+					any_pop = { militancy = 6 }
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2304 }
+			owner = {
+				all_core = {
+					limit = { is_core = BOL }
+					remove_core = PBC
+				}
+				any_owned = {
+					limit = { is_core = BOL }
+					any_pop = { militancy = 6 }
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = PEU
+				vassal_of = PBC
+			}
+			THIS = {
+				release_vassal = PEU
+				leave_alliance = PEU
+				war = {
+					target = PEU
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = NPU
+				vassal_of = PBC
+			}
+			THIS = {
+				release_vassal = NPU
+				leave_alliance = NPU
+				war = {
+					target = NPU
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = SPU
+				vassal_of = PBC
+			}
+			THIS = {
+				release_vassal = SPU
+				leave_alliance = SPU
+				war = {
+					target = SPU
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BOL
+				vassal_of = PBC
+			}
+			THIS = {
+				release_vassal = BOL
+				leave_alliance = BOL
+				war = {
+					target = BOL
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					call_ally = yes
+				}
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				owns = 2295
+			}
+			modifier = {
+				factor = 0
+				NOT = { total_amount_of_divisions = 1 }
+			}
+		}
+	}
+}
