@@ -504,7 +504,7 @@ country_event = {
 			owner = {
 				casus_belli = {
 					target = PNJ
-					type = establish_protectorate_BC_casus_belli
+					type = establish_protectorate_casus_belli
 					months = 60
 				}
 			}

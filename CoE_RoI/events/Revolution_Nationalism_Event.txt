@@ -715,7 +715,7 @@ country_event = {
 			owner = {
 				add_casus_belli = {
 					target = FROM
-					type = establish_protectorate_BC_casus_belli
+					type = establish_protectorate_casus_belli
 					months = 60
 				}
 			}

@@ -419,13 +419,13 @@ country_event = {
 			owner = {
 				casus_belli = {
 					target = FROM
-					type = establish_protectorate_BC_casus_belli
+					type = establish_protectorate_casus_belli
 					months = 60
 				}
 				war = {
 					target = FROM
 					attacker_goal = {
-						casus_belli = establish_protectorate_BC_casus_belli
+						casus_belli = establish_protectorate_casus_belli
 					}
 				}
 			}
@@ -775,7 +775,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
+				type = establish_protectorate_casus_belli
 				months = 60
 			}
 			country_event = 95515
@@ -819,7 +819,7 @@ country_event = {
 			war = {
 				target = THIS
 				attacker_goal = {
-					casus_belli = establish_protectorate_BC_casus_belli
+					casus_belli = establish_protectorate_casus_belli
 				}
 			}
 		}
