@@ -3395,7 +3395,7 @@ austerity_measures = {
 	global_population_growth = -0.001
 	education_efficiency_modifier = 1.0
 	tax_efficiency = -0.10
-	min_social_spendings = -0.05
+	min_social_spending = -0.05
 	pension_level = -5.0
 	icon = 47
 }

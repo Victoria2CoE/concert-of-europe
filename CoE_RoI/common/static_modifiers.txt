@@ -214,7 +214,7 @@ great_power = {
 	badboy = -0.1
 	loan_interest = -0.25
 	max_loan_modifier = 1.0
-	colonial_points = 100
+	#colonial_points = 100
 }
 
 second_power = {
@@ -225,7 +225,7 @@ second_power = {
 	badboy = -0.05
 	loan_interest = -0.10
 	max_loan_modifier = 0.5
-	colonial_points = 50
+	#colonial_points = 50
 }
 
 civ_nation = {
