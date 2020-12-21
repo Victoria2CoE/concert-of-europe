@@ -108,12 +108,12 @@ practical_steam_engine = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -164,7 +164,7 @@ practical_steam_engine = {
 				big_producer = grain
 				big_producer = fruit
 				big_producer = tea
-				big_producer = heavy_industry
+				#big_producer = heavy_industry
 				NOT = { industrial_score = 10 }
 			}
 		}
@@ -212,12 +212,12 @@ high_n_low_pressure_steam_engines = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -317,12 +317,12 @@ steam_turbine = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -418,12 +418,12 @@ combustion_engine = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
 	#pop_growth = -0.0001 
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
@@ -523,12 +523,12 @@ electrical_power_generation = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -612,12 +612,12 @@ modern_power_generation = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -705,12 +705,12 @@ modern_power_generation_1930 = {
 	education_efficiency = 0.05
 	rgo_throughput = 0.2
 	factory_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -800,12 +800,12 @@ publishing_industry = {
 	education_efficiency = 0.05
 	factory_throughput = 0.05
 	rgo_throughput = 0.05
-	factory_goods_throughput = {
-		#luxury_industry = -0.05
-	}
-	factory_goods_throughput = {
-		#light_industry =0.05
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.05
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.05
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -897,12 +897,12 @@ mechanical_production = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -941,7 +941,7 @@ mechanical_production = {
 				big_producer = wool
 				big_producer = cotton
 				big_producer = timber
-				#big_producer = heavy_industry
+				big_producer = heavy_industry
 				big_producer = grain
 				big_producer = fruit
 				big_producer = tea
@@ -997,12 +997,12 @@ interchangeable_parts = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1049,12 +1049,12 @@ interchangeable_parts = {
 				big_producer = grain
 				big_producer = fruit
 				big_producer = tea
-				big_producer = heavy_industry
+				#big_producer = heavy_industry
 				big_producer = military_industry
 				big_producer = food_industry
 				big_producer = luxury_industry
-				big_producer = luxury_industry
-				big_producer = light_industry
+				#big_producer = luxury_industry
+				#big_producer = light_industry
 			}
 		}
 		modifier = {
@@ -1101,12 +1101,12 @@ semi_automatization = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1201,12 +1201,12 @@ assembly_line = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1254,8 +1254,8 @@ assembly_line = {
 				big_producer = cattle
 				big_producer = fruit
 				big_producer = fish
-				big_producer = luxury_industry
-				big_producer = luxury_industry
+				#big_producer = luxury_industry
+				#big_producer = luxury_industry
 				big_producer = oil
 				big_producer = grain
 				big_producer = tea
@@ -1308,12 +1308,12 @@ shift_work = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1404,12 +1404,12 @@ mechanized_manufacture = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1504,12 +1504,12 @@ mechanized_manufacture_1930 = {
 	education_efficiency = 0.05
 	factory_throughput = 0.1 
 	rgo_throughput = 0.1
-	factory_goods_throughput = {
-		#luxury_industry = -0.1
-	}
-	factory_goods_throughput = {
-		#light_industry =0.1
-	}
+	#factory_goods_throughput = {
+	#	#luxury_industry = -0.1
+	#}
+	#factory_goods_throughput = {
+	#	#light_industry =0.1
+	#}
    #poor_life_needs = 0.1
    #middle_life_needs = 0.1
    #rich_life_needs = 0.1
@@ -1812,9 +1812,9 @@ cheap_iron = {
 	factory_goods_throughput = {
 		heavy_industry =  0.05 
 	}
-	factory_goods_output = {
-		heavy_industry =  0.05 
-	}
+	#factory_goods_output = {
+	#	heavy_industry =  0.05 
+	#}
 	rgo_goods_throughput = {
 		copper = 0.2
 	}
@@ -1958,7 +1958,7 @@ cheap_steel =  {
 				produces = oil
 				big_producer = sulphur
 				big_producer = heavy_industry
-				big_producer = heavy_industry
+				#big_producer = heavy_industry
 				big_producer = military_industry
 			}
 		}
@@ -1970,11 +1970,11 @@ cheap_steel =  {
 			NOT = { produces = copper }
 			NOT = { produces = lead }
 			NOT = { produces = heavy_industry }
-			NOT = { produces = heavy_industry }
+			#NOT = { produces = heavy_industry }
 			NOT = { produces = oil }
 			NOT = { produces = precious_metal }
-			NOT = { produces = heavy_industry }
-			NOT = { produces = heavy_industry }
+			#NOT = { produces = heavy_industry }
+			#NOT = { produces = heavy_industry }
 		}
 		modifier = {
 			factor = 1.4
@@ -2248,9 +2248,9 @@ modern_metallurgy = {
 	factory_goods_output = {
 		heavy_industry =  0.1 
 	}
-	factory_goods_output = {
-		heavy_industry =  0.1 
-	}
+	#factory_goods_output = {
+	#	heavy_industry =  0.1 
+	#}
 	rgo_goods_throughput = {
 		copper = 0.4
 	}
@@ -3166,7 +3166,7 @@ basic_chemistry = {
 	pop_growth = 0.0001 
 	soldier_to_pop_loss = 0.01
 	rgo_goods_throughput = {
-		sulphur = 2
+		sulphur = 0.2
 	}
 	ai_chance = {
 		factor = 1.1
@@ -3218,7 +3218,7 @@ basic_chemistry = {
 				big_producer = food_industry
 				big_producer = light_industry
 				big_producer = rubber
-				big_producer = luxury_industry
+				#big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -3316,7 +3316,7 @@ medicine = {
 				big_producer = food_industry
 				big_producer = light_industry
 				big_producer = rubber
-				big_producer = luxury_industry
+				#big_producer = luxury_industry
 			}
 		}
 		modifier = {
@@ -3364,7 +3364,7 @@ inorganic_chemistry = {
 	supply_limit = 0.25
 	#pop_growth = 0.0001
 	rgo_goods_throughput = {
-		sulphur = 1
+		sulphur = 0.1
 	}
 	ai_chance = {
 		factor = 1.1
@@ -3499,11 +3499,11 @@ organic_chemistry = {
 			factor = 1.5
 			OR = { 
 				big_producer = luxury_industry
-				big_producer = luxury_industry
+				#big_producer = luxury_industry
 				big_producer = grain
 				big_producer = food_industry
 				big_producer = heavy_industry
-				big_producer = heavy_industry
+				#big_producer = heavy_industry
 				big_producer = rubber
 			}
 		}
@@ -3610,7 +3610,7 @@ electricity = {
 			OR = { 
 				big_producer = luxury_industry
 				big_producer = heavy_industry
-				big_producer = heavy_industry
+				#big_producer = heavy_industry
 				big_producer = rubber
 			}
 		}
