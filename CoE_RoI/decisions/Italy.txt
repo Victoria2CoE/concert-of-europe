@@ -198,21 +198,21 @@ political_decisions = {
 			random_country = {
 				limit = {
 					owns = 741
-					set_country_flag = south_italian_rel
+					has_country_flag = south_italian_rel
 				}
 				741 = { secede_province = THIS }
 			}
 			random_country = {
 				limit = {
 					owns = 742
-					set_country_flag = south_italian_rel
+					has_country_flag = south_italian_rel
 				}
 				742 = { secede_province = THIS }
 			}
 			random_country = {
 				limit = {
 					owns = 743
-					set_country_flag = south_italian_rel
+					has_country_flag = south_italian_rel
 				}
 				743 = { secede_province = THIS }
 			}
