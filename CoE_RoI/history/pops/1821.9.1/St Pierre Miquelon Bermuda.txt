@@ -2,22 +2,22 @@
 	artisans = {
 		size = 36
 		culture = french_canadian
-		religion = french_canadian #religion = catholic
+		religion = catholic
 	}
 	bureaucrats = {
 		size = 1
 		culture = french_canadian
-		religion = french_canadian #religion = catholic
+		religion = catholic
 	}
 	clergymen = {
 		size = 3
 		culture = french_canadian
-		religion = french_canadian #religion = catholic
+		religion = catholic
 	}
 	labourers = {
 		size = 368
 		culture = french_canadian
-		religion = french_canadian #religion = catholic
+		religion = catholic
 	}
 }
 
@@ -25,56 +25,56 @@
 	capitalists = {
 		size = 114
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	artisans = {
 		size = 81
 		culture = afro_caribbean
-		religion = afro_caribbean #religion = protestant
+		religion = protestant
 	}
 	artisans = {
 		size = 122
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	bureaucrats = {
 		size = 4
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	clergymen = {
 		size = 12
 		culture = afro_caribbean
-		religion = afro_caribbean #religion = protestant
+		religion = protestant
 	}
 	clergymen = {
 		size = 20
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	labourers = {
 		size = 509
 		culture = afro_caribbean
-		religion = afro_caribbean #religion = protestant
+		religion = protestant
 	}
 	labourers = {
 		size = 639
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	soldiers = {
 		size = 1065
 		culture = afro_caribbean
-		religion = afro_caribbean #religion = protestant
+		religion = protestant
 	}
 	soldiers = {
 		size = 20
 		culture = british
-		religion = british #religion = protestant
+		religion = protestant
 	}
 	slaves = {
 		size = 400
 		culture = afro_caribbean
-		religion = afro_caribbean #religion = protestant
+		religion = protestant
 	}
 }

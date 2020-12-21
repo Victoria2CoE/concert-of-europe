@@ -9,8 +9,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			#pop_majority_religion = catholic
-			#pop_majority_religion = protestant
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
 		}
 		NOT = {
 			has_country_modifier = libertine_culture
@@ -97,8 +97,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			#pop_majority_religion = catholic
-			#pop_majority_religion = protestant
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
 		}
 		NOT = {
 			has_country_modifier = liquor_prohibition
@@ -363,8 +363,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			#pop_majority_religion = catholic
-			#pop_majority_religion = protestant
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
 		}
 		moralism = 10
 		conservative = 20
@@ -435,8 +435,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			#pop_majority_religion = catholic
-			#pop_majority_religion = protestant
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
 		}
 		has_country_modifier = temperance_league
 		NOT = { has_country_modifier = liquor_prohibition }
@@ -509,8 +509,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			#pop_majority_religion = catholic
-			#pop_majority_religion = protestant
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
 		}
 		socialist = 20
 	}

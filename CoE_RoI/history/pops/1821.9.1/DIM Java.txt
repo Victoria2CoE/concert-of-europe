@@ -4,172 +4,172 @@
 1413 = {
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 750
 	}
 
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1750
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 3000
 
 	}
 
 	capitalists = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 550
 	}
 
 	bureaucrats = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 150
 	}
 
 	artisans = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 4200
 	}
 
 	labourers = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 11500
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 625
 	}
 
 	bureaucrats = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 420
 	}
 	
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 3320
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 23025
 	}
 
 
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 455
 	}
 
 
 	bureaucrats = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 375
 	}
 
 	artisans = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 2900
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 57350
 	}
 
 	clergymen = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 2925
 	}
 	
 	clergymen = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 75
 	}
 
 	labourers = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 1500
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 2000
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 2000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 4800
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 20
 	}
 }
@@ -177,86 +177,86 @@
 1414 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 300
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 2100
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 28000
 	}
 
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 1000
 	}
 
 	clergymen = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 500
 	}
 
 	artisans = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 6000
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 56000
 	}
 
 	capitalists = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 300
 	}
 
 	artisans = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 1250
 	}
 
 	labourers = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 18000
 	}
 
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 3000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 6100
 	}
 }
@@ -265,110 +265,110 @@
 1415 = {
 	capitalists = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 100
 	}
 
 	clergymen = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 3000
 	}
 
 	labourers = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 4725
 	}
 
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 275
 	}
 
 	clergymen = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 150
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 14000
 	}
 
 	artisans = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 600
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 2200
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 2200
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 8600
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 222750
 	}
 
 	capitalists = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 25
 	}
 
 	artisans = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 675
 	}
 
 	clergymen = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 50
 	}
 
 
 	labourers = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 4250
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 3000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 2000
 	}
 }
@@ -376,43 +376,43 @@
 1416 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 880
 	}
 
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 720
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 3750
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 52325
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 7000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 3150
 	}
 }
@@ -421,73 +421,73 @@
 1417 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 2750
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 2600
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 10000
 	}
 	
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 4000
 	}
 
 	soldiers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 3000
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 207600
 	}
 
 	capitalists = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 100
 	}
 
 	clergymen = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 600
 	}
 
 	labourers = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 9225
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 5500
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 5500
 	}
 }
@@ -496,115 +496,115 @@
 1418 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 1500
 	}
 
 	capitalists = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 1000
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 1525
 	}
 
 	clergymen = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 1000
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 5250
 	}
 
 	artisans = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 4000
 	}
 
 	soldiers = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size= 3000
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 202000
 	}
 
 	labourers = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 30500
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 150
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 125
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 750
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 18000
 	}
 
 	capitalists = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 75
 	}
 
 	clergymen = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 3250
 	}
 
 	labourers = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 5725
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 3000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 7500
 	}
 }
@@ -612,44 +612,44 @@
 1419 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 1100
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 900
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 9000
 	}
 
 	soldiers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size= 3000
 	}
 
 	soldiers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size= 2000
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 94000
 	}
 
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 3100
 	}
 }
@@ -658,73 +658,73 @@
 1420 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 1000
 	}
 
 	capitalists = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 400
 	}
 
 	capitalists = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 250
 	}
 
 	capitalists = {
 		culture = balinese
-		religion = balinese #religion = sunni
+		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 950
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 8000
 	}
 
 	artisans = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 1500
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 79100
 	}
 
 	labourers = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 70000
 	}
 
 	labourers = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 20000
 	}
 
 	labourers = {
 		culture = balinese
-		religion = balinese #religion = sunni
+		religion = sunni
 		size = 10000
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 8500
 	}
 }
@@ -762,62 +762,62 @@
 1421 = {
 	capitalists = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 1500
 	}
 
 	clergymen = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 1175
 	}
 
 	artisans = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 4500
 	}
 
 	soldiers = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size= 2100
 
 	}
 
 	labourers = {
 		culture = madurese
-		religion = madurese #religion = sunni
+		religion = sunni
 		size = 105825
 	}
 
 	clergymen = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 2000
 	}
 
 	labourers = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 6800
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 2800
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 1400
 	}
 
@@ -827,127 +827,127 @@
 1724 = {
 	capitalists = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 300
 	}
 
 	bureaucrats = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 100
 	}
 
 	labourers = {
 		culture = betawi
-		religion = betawi #religion = sunni
+		religion = sunni
 		size = 9750
 	}
 
 	capitalists = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 1650
 	}
 
 	bureaucrats = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 1000
 	}
 
 	artisans = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 4750
 	}
 
 	labourers = {
 		culture = bantenese
-		religion = bantenese #religion = sunni
+		religion = sunni
 		size = 40340
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 100
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 400
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 10050
 	}
 
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 400
 	}
 
 	artisans = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 400
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 19450
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 250
 	}
 
 	artisans = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 400
 	}
 
 	labourers = {
 		culture = yue
-		religion = yue #religion = mahayana
+		religion = mahayana
 		size = 600
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 7000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 7500
 	}
 
@@ -957,62 +957,62 @@
 1716 = {
 	capitalists = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 100
 	}
 
 	artisans = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 1675
 	}
 
 	labourers = {
 		culture = sundanese
-		religion = sundanese #religion = sunni
+		religion = sunni
 		size = 28000
 	}
 
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 1300
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 700
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 6000
 	}
 
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 152150
 	}
 
 	slaves = {
 		culture = moluccan
-		religion = moluccan #religion = sunni
+		religion = sunni
 		size = 3000
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 8100
 	}
 
@@ -1022,43 +1022,43 @@
 1717 = {
 	capitalists = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 250
 	}
 
 	artisans = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 3525
 	}
 
 	soldiers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size= 1650
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = sunni
+		religion = sunni
 		size = 45225
 	}
 
 	labourers = {
 		culture = javan
-		religion = javan #religion = animist
+		religion = animist
 		size = 6225
 	}
 
 	slaves = {
 		culture = balinese
-		religion = balinese #religion = hindu
+		religion = hindu
 		size = 8000
 	}
 

@@ -5,121 +5,121 @@
 375 = {
 	clergymen = {
 		culture = sephardic
-		religion = sephardic #religion = jewish
+		religion = jewish
 		size = 75
 	}
 	
 	artisans = {
 		culture = sephardic
-		religion = sephardic #religion = jewish
+		religion = jewish
 		size = 6925
 	}
 	
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1108
 	}
 	
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 392
 	}
 	
 	officers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 350
 	}
 	
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 2300
 	}
 	
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 300
 	}
 	
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1650
 	}
 	
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 200
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 4000
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 2000
 	}
 	
 	clerks = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1500
 	}
 	
 	clerks = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 500
 	}
 	
 	craftsmen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 900
 	}
 	
 	craftsmen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 100
 	}
 	
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 3000
 
 	}
@@ -127,26 +127,26 @@
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size= 2400
 
 	}
 	
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 32300
 	}
 	
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 11000
 	}
 	
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 8500
 	}
 }
@@ -154,74 +154,74 @@
 376 = {
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 525
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 225
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 625
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 5250
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 10000
 	}
 
 	craftsmen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 2250
 
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 78725
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 22400
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 3500
 	}
 
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 1100
 	}
 }
@@ -229,81 +229,81 @@
 377 = {
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 62
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 350
 	}
 
 	labourers = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 350
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 150
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 150
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 8000
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 4000
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 700
 
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size= 400
 
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 13966
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 10209
 	}
 }
@@ -311,56 +311,56 @@
 378 = {
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 69
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 350
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 2850
 	}
 
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 670
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 1100
 
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 28700
 	}
 
 	labourers = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 7700
 	}
 }
@@ -368,93 +368,93 @@
 379 = {
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 1000
 	}
 
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 25
 	}
 
 	capitalists = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 1200
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 200
 	}
 
 	officers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 30
 	}
 
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 700
 	}
 
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 800
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 2150
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 3000
 
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size= 100
 
 	}
 
 	labourers = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 50800
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 2700
 	}
 }
@@ -462,63 +462,63 @@
 380 = {
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 400
 	}
 
 	capitalists = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 450
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 50
 	}
 
 
 	clergymen = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 360
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 40
 	}
 
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 2980
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 370
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 1100
 
 	}
 
 	labourers = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 31050
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 4000
 	}
 }
@@ -526,36 +526,36 @@
 381 = {
 	capitalists = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 400
 	}
 
 	labourers = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 34100
 	}
 	
 	artisans = {
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 		size = 5000
 	}
 
 	craftsmen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 250
 	}
 	labourers = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 1200
 	}
 }
@@ -563,91 +563,91 @@
 382 = {
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 1000
 	}
 
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 25
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 510
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 60
 	}
 	
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 2800
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 550
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 1400
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 80000
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 6750
 	}
 
 	clergymen = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 250
 	}
 
 	labourers = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 3200
 	}
 
@@ -656,79 +656,79 @@
 383 = {
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 500
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 300
 	}
 
 	officers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 150
 	}
 
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 760
 	}
 
 	bureaucrats = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 40
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 5850
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 900
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 3000
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size= 1000
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 29450
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 2000
 	}
 
 	labourers = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 5100
 	}
 }
@@ -736,61 +736,61 @@
 384 = {
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 25
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 473
 	}
 
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 3502
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 3000
 	}
 	
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 29868
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 16932
 	}
 
 	artisans = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 100
 	}
 
 	labourers = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 900
 	}
 }
@@ -798,82 +798,82 @@
 385 = {
 	clergymen = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 25
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 500
 	}
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 100
 	}
 	capitalists = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 175
 	}
 	capitalists = {
 		culture = frisian
-		religion = frisian #religion = catholic
+		religion = catholic
 		size = 25
 	}
 
 	clergymen = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
 		culture = frisian
-		religion = frisian #religion = catholic
+		religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 5075
 	}
 	
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 5075
 	}
 
 	artisans = {
 		culture = frisian
-		religion = frisian #religion = catholic
+		religion = catholic
 		size = 400
 	}
 
 	soldiers = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 2000
 	}
 
 	labourers = {
 		culture = frisian
-		religion = frisian #religion = protestant
+		religion = protestant
 		size = 36200
 	}
 	
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 3525
 	}
 
 	labourers = {
 		culture = frisian
-		religion = frisian #religion = catholic
+		religion = catholic
 		size = 4000
 	}
 }
@@ -881,49 +881,49 @@
 386 = {
 	artisans = {
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 		size = 50
 	}
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1050
 	}
 
 	soldiers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size= 1100
 
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 16547
 	}
 
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 203
 	}
 
 	labourers = {
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 		size = 1100
 	}
 
@@ -933,42 +933,42 @@
 2595 = {
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 100
 	}
 	capitalists = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 180
 	}
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 100
 	}
 	clergymen = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 300
 	}
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 1000
 	}
 	artisans = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 1300
 	}
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 		size = 16350
 	}
 	labourers = {
 		culture = dutch
-		religion = dutch #religion = catholic
+		religion = catholic
 		size = 30000
 	}
 }
@@ -983,175 +983,175 @@
 
 		size = 5409
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 360
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 1312
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	artisans = {
 
 		size = 9552
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 9157
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 2288
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 366
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 732
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 15
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 53
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 22
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	clergymen = {
 
 		size = 572
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 228
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 152
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	clerks = {
 
 		size = 1572
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 92
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 1007
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	craftsmen = {
 
 		size = 17704
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 1526
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 104749
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 8225
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	officers = {
 
 		size = 183
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	officers = {
 
 		size = 410
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 8722
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 1007
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1162,49 +1162,49 @@
 
 		size = 9157
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 1007
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 257
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 572
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 72
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 92051
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 5051
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1215,42 +1215,42 @@
 
 		size = 9157
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 5494
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 4486
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 1144
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 45
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 137127
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1261,56 +1261,56 @@
 
 		size = 1350
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	artisans = {
 
 		size = 3296
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 9157
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 2678
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 22
 		culture = ashkenazi
-		religion = ashkenazi #religion = jewish
+		religion = jewish
 
 	}
 	clergymen = {
 
 		size = 526
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 45
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 61993
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1321,21 +1321,21 @@
 
 		size = 3388
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 434
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 56934
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1346,91 +1346,91 @@
 
 		size = 6989
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 2747
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 147
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 457
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 572
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 137
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 107
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 610
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 7332
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 52392
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 7165
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 3065
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 3594
 		culture = dutch
-		religion = dutch #religion = protestant
+		religion = protestant
 
 	}
 
@@ -1441,91 +1441,91 @@
 
 		size = 607
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 614
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 2257
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 91
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 250
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 31
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 71
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 631
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 1200
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 4858
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 15517
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 49188
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1536,133 +1536,133 @@
 
 		size = 3188
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 200
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 1273
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 1000
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 2579
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 30
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 137
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 91
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 426
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 180
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 8408
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 22240
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 43920
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	officers = {
 
 		size = 320
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	officers = {
 
 		size = 60
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 8012
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 1007
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 307
 		culture = picard
-		religion = picard #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 91
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 
 	}
 
@@ -1673,35 +1673,35 @@
 
 		size = 2930
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 320
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clerks = {
 
 		size = 91
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	craftsmen = {
 
 		size = 1831
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 41939
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 
@@ -1712,56 +1712,56 @@
 
 		size = 1045
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 145
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 412
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 220
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 31
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 19445
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 2692
 		culture = flemish
-		religion = flemish #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 7669
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 
 	}
 
@@ -1773,49 +1773,49 @@
 
 		size = 1236
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 228
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 549
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 206
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 24197
 		culture = wallonian
-		religion = wallonian #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 3845
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 7783
 		culture = north_german
-		religion = north_german #religion = protestant
+		religion = protestant
 
 	}
 
@@ -1830,84 +1830,84 @@
 
 		size = 160
 		culture = north_german
-		religion = north_german #religion = catholic
+		religion = catholic
 
 	}
 	capitalists = {
 
 		size = 228
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 1686
 		culture = north_german
-		religion = north_german #religion = catholic
+		religion = catholic
 
 	}
 	artisans = {
 
 		size = 602
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 67
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 237
 		culture = north_german
-		religion = north_german #religion = catholic
+		religion = catholic
 
 	}
 	clergymen = {
 
 		size = 151
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 23644
 		culture = north_german
-		religion = north_german #religion = catholic
+		religion = catholic
 
 	}
 	labourers = {
 
 		size = 11404
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	officers = {
 
 		size = 45
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 1831
 		culture = north_german
-		religion = north_german #religion = catholic
+		religion = catholic
 
 	}
 	soldiers = {
 
 		size = 228
 		culture = french
-		religion = french #religion = catholic
+		religion = catholic
 
 	}
 

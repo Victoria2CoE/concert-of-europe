@@ -2596,11 +2596,11 @@ assimilation_chance =
 	#		NOT = { consciousness = 1 }
 	#	}
 	#}
-	#modifier = {
-	#	factor = 10
-	#	has_pop_religion = jewish
-	#	country = { religion = jewish }
-	#}
+	modifier = {
+		factor = 10
+		has_pop_religion = jewish
+		country = { religion = jewish }
+	}
 	#modifier = {
 	#	factor = 4
 	#	OR = { 
@@ -2781,145 +2781,141 @@ assimilation_chance =
 #general conversion mtth, same for all pops
 conversion_chance = {
 	factor = 0.05
+	group = {
+		modifier = {
+			factor = 0.2
+			NOT = { luxury_needs = 0.9 }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { luxury_needs = 0.7 }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { luxury_needs = 0.5 }
+		}
+	}
 	modifier = {
-    	factor = -100.0
-		always = yes
-	}	
-	#group = {
-	#	modifier = {
-	#		factor = 0.2
-	#		NOT = { luxury_needs = 0.9 }
-	#	}
-	#	modifier = {
-	#		factor = 0.2
-	#		NOT = { luxury_needs = 0.7 }
-	#	}
-	#	modifier = {
-	#		factor = 0.2
-	#		NOT = { luxury_needs = 0.5 }
-	#	}
-	#}
-	#modifier = {
-    #	factor = 1
-	#	country = { citizenship_policy = forced_assimilation }
-	#}
-	#modifier = {
-	#	factor = 2.5
-	#	OR = { 
-	#		strata = rich
-	#		strata = middle
-	#	}
-	#}
-	#group = {
-	#	modifier = {
-	#		factor = -1
-	#		NOT = { consciousness = 5 }
-	#	}
-	#	modifier = {
-	#		factor = -2
-	#		NOT = { consciousness = 3 }
-	#	}
-	#	modifier = {
-	#		factor = -3
-	#		NOT = { consciousness = 1 }
-	#	}
-	#}
-	#group = {
-	#	modifier = {
-	#		factor = -0.8
-	#		militancy = 5
-	#	}
-	#	modifier = {
-	#		factor = -0.5
-	#		militancy = 3
-	#	}
-	#	modifier = {
-	#		factor = -0.2
-	#		militancy = 1
-	#	}
-	#}
-	#modifier = {
-	#	factor = -10
-	#	has_pop_religion = jewish
-	#}
-	#modifier = {
-	#	factor = -10
-	#	has_pop_religion = mormon
-	#}
-	#modifier = {
-	#	factor = 2
-	#	has_pop_religion = animist
-	#	#location = { continent = africa }
-	#}
-	#modifier = {
-	#	factor = -1
-	#	continent = europe
-	#}
-	#modifier = {
-	#	factor = -2
-	#	OR = {
-	#		country = { religion = jewish }
-	#		country = { religion = shinto }
-	#	}
-	#}
-	#group = {
-	#	modifier = {
-	#		factor = 0.6
-	#		NOT = { life_needs = 0.9 }
-	#	}
-	#	modifier = {
-	#		factor = 0.6
-	#		NOT = { life_needs = 0.8 }
-	#	}
-	#	modifier = {
-	#		factor = 0.6
-	#		NOT = { life_needs = 0.7 }
-	#	}
-	#}
-	#modifier = {
-	#	factor = -10000
-	#	NOT = { 
-	#		location = { controlled_by = owner }
-	#	}
-	#}
-	#modifier = {
-	#	factor = 1
-	#	culture = THIS
-	#}
-	#modifier = {
-	#	factor = 2.5
-	#	country = { religious_policy = moralism }
-	#}
-	#modifier = {
-	#	factor = 2
-	#	country = { religious_policy = pluralism }
-	#}
-	#modifier = {
-	#	factor = -3
-	#	country = { religious_policy = pro_atheism }
-	#}
-	#group = {
-	#	modifier = {
-	#		factor = 0.2
-	#		unemployment = 0.1
-	#	}
-	#	modifier = {
-	#		factor = 0.2
-	#		unemployment = 0.2
-	#	}
-	#	modifier = {
-	#		factor = 0.2
-	#		unemployment = 0.3
-	#	}
-	#}
-	#group = {
-	#	modifier = {
-	#		factor = -0.2
-	#		NOT = { literacy = 0.2 }
-	#	}
-	#	modifier = {
-	#		factor = -0.2
-	#		NOT = { literacy = 0.1 }
-	#	}
-	#}
+    	factor = 1
+		country = { citizenship_policy = forced_assimilation }
+	}
+	modifier = {
+		factor = 2.5
+		OR = { 
+			strata = rich
+			strata = middle
+		}
+	}
+	group = {
+		modifier = {
+			factor = -1
+			NOT = { consciousness = 5 }
+		}
+		modifier = {
+			factor = -2
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = -3
+			NOT = { consciousness = 1 }
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.8
+			militancy = 5
+		}
+		modifier = {
+			factor = -0.5
+			militancy = 3
+		}
+		modifier = {
+			factor = -0.2
+			militancy = 1
+		}
+	}
+	modifier = {
+		factor = -10
+		has_pop_religion = jewish
+	}
+	modifier = {
+		factor = -10
+		has_pop_religion = mormon
+	}
+	modifier = {
+		factor = 2
+		has_pop_religion = animist
+		#location = { continent = africa }
+	}
+	modifier = {
+		factor = -1
+		continent = europe
+	}
+	modifier = {
+		factor = -2
+		OR = {
+			country = { religion = jewish }
+			country = { religion = shinto }
+		}
+	}
+	group = {
+		modifier = {
+			factor = 0.6
+			NOT = { life_needs = 0.9 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { life_needs = 0.8 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { life_needs = 0.7 }
+		}
+	}
+	modifier = {
+		factor = -10000
+		NOT = { 
+			location = { controlled_by = owner }
+		}
+	}
+	modifier = {
+		factor = 1
+		culture = THIS
+	}
+	modifier = {
+		factor = 2.5
+		country = { religious_policy = moralism }
+	}
+	modifier = {
+		factor = 2
+		country = { religious_policy = pluralism }
+	}
+	modifier = {
+		factor = -3
+		country = { religious_policy = pro_atheism }
+	}
+	group = {
+		modifier = {
+			factor = 0.2
+			unemployment = 0.1
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.2
+			unemployment = 0.3
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.2
+			NOT = { literacy = 0.2 }
+		}
+		modifier = {
+			factor = -0.2
+			NOT = { literacy = 0.1 }
+		}
+	}
 }
