@@ -534,52 +534,7 @@ country_event = {
 	option = {
 		name = "Why the hell are you playing as Bhutan?"
 		any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } }
-		any_country = { any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } } }
-		#clr_country_flag = random_migration1
-		#clr_country_flag = random_migration2
-		#clr_country_flag = random_migration3
-		#any_country = {
-		#	clr_country_flag = random_migration1
-		#	clr_country_flag = random_migration2
-		#	clr_country_flag = random_migration3
-		#}
-		#THIS = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration1
-		#	}
-		#}
-		#THIS = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration2
-		#	}
-		#}	
-		#THIS = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration3
-		#	}
-		#}		
-		#any_country = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration1
-		#	}
-		#}
-		#any_country = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration2
-		#	}
-		#}	
-		#any_country = {
-		#	random = {
-		#		chance = 50
-		#		set_country_flag = random_migration3
-		#	}
-		#}		
-		
+		any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
 		random_country = {
 			limit = { 
 				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
