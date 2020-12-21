@@ -146,7 +146,7 @@ province_event = {
 			consciousness = -2
 			militancy = -2
 		}
-		owner = {
+		#owner = {
 			any_pop = {
 				limit = {
 					OR = {
@@ -163,7 +163,7 @@ province_event = {
 				which = persian_ulama
 				value = 1
 			}
-		}
+		#}
 		add_province_modifier = {
 			name = futile
 			duration = 30
