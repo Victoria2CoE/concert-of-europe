@@ -116,10 +116,7 @@ province_event = {
 	option = {
 		name = "Demand the Russians give up this Armenian."
 		RUS = {
-			country_event = {
-				id = 301111
-				#days = 3
-			}
+			country_event = 301111
 			relation = {
 				who = PER
 				value = -25
@@ -384,10 +381,7 @@ country_event = {
 	option = {
 		name = "Sent in the cavalry to deal with the rioters!"
 		RUS = {
-			country_event = {
-				id = 301114
-				#days = 5
-			}
+			country_event = 301114
 		}
 		any_pop = {
 			limit = {
@@ -419,10 +413,7 @@ country_event = {
 		name = "Take the Armenian by force..."
 		badboy = 8
 		RUS = {
-			country_event = {
-				id = 301115
-				#days = 5
-			}
+			country_event = 301115
 			diplomatic_influence = {
 				who = PER
 				value = -50
@@ -466,10 +457,7 @@ country_event = {
 	option = {
 		name = "Take out the Ulama instigators."
 		RUS = {
-			country_event = {
-				id = 301114
-				#days = 5
-			}
+			country_event = id = 301114
 		}
 		clergymen = {
 			reduce_pop = 0.6

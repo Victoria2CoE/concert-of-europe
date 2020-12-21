@@ -19,10 +19,7 @@ province_event = {
 		name = "Our interests in the region are too important."	
 		owner = { prestige = 3 }
 		NET = {
-			country_event = { 
-			id = 211301 
-			#days = 15 
-			}
+			country_event = 211301 
 		}
 		ai_chance = {
 			factor = 60
@@ -72,10 +69,7 @@ province_event = {
 	option = {
 		name = "Offer to trade Larantoeka for Koepang"
 		NET = {
-			country_event = { 
-			id = 211303 
-			#days = 15 
-			}
+			country_event = 211303 
 		}
 		ai_chance = {
 			factor = 10
@@ -84,9 +78,7 @@ province_event = {
 	option = {
 		name = "Offer to trade Dili and Larantoeka for the Dutch Goldcoast"
 		NET = {
-			country_event = { id = 211304 
-			#days = 15 
-			}
+			country_event = 211304 
 		}
 		ai_chance = { 
 			factor = 10
@@ -202,7 +194,7 @@ country_event = {
 	option = {
 		name = "Mutually beneficial indeed"	
 		prestige = 2
-		NET = { country_event = { id = 211305 } }
+		NET = { country_event = 211305 }
 		FROM = {
 			any_owned = {
 				limit = {
@@ -404,7 +396,7 @@ country_event = {
 		}
 		1446 = {
 			owner = { 
-			    country_event = { id = 211312 }
+			    country_event = 211312 
 				any_owned = {
 					limit = {
 						region = BAL_1438
@@ -438,7 +430,7 @@ country_event = {
 	option = {
 		name = "We cannot offend the Portuguese."
 		set_country_flag = DIM_flores_offer
-		1446 = { owner = { country_event = { id = 211313 } } }
+		1446 = { owner = { country_event = 211313 } }
 		relation = {
 			with = POR
 			value = 25

@@ -255,10 +255,7 @@ country_event = {
 			limit = {
 				vassal_of = THIS
 			}
-			country_event = { 
-			id = 301012 
-			#days = 2 
-			}
+			country_event = 301012 
 		}
 	}
 }
@@ -393,10 +390,7 @@ country_event = {
 		}
 		1206 = {
 			owner = {
-				country_event = {
-					id = 301014
-					#days = 3
-				}
+				country_event = 301014
 			}
 		}
 	}
@@ -660,10 +654,7 @@ country_event = {
 			}
 		}
 		RUS = {
-			country_event = { 
-			id = 301021 
-			#days = 10 
-			}
+			country_event = 301021 
 			diplomatic_influence = {
 				who = PER
 				value = -25
@@ -739,9 +730,7 @@ country_event = {
 	option = {
 		name = "The Persians will hear of this!"
 		PER = {
-			country_event = { id = 301022 
-			#days = 10 
-			}
+			country_event = 301022 
 		}
 		relation = {
 			who = PER
@@ -759,10 +748,7 @@ country_event = {
 		name = "Perhaps it is time for a little, victorious war"
 		set_country_flag = the_war_drums
 		PER = {
-			country_event = { 
-			id = 301023 
-			#days = 10 
-			}
+			country_event = 301023
 		}
 		badboy = 4
 		prestige = 2
@@ -807,9 +793,7 @@ country_event = {
 	option = {
 		name = "Let's not loose *our* head over this"
 		PER = {
-			country_event = { id = 301031 
-			#days = 10 
-			}
+			country_event = 301031
 		}
 		prestige = -5
 		any_pop = {
@@ -868,10 +852,7 @@ country_event = {
 	option = {
 		name = "Gifts! Gifts solve all the world's problems"
 		RUS = {
-			country_event = { 
-			id = 301025 
-			#days = 10 
-			}
+			country_event = 301025 
 			diplomatic_influence = {
 				who = PER
 				value = 15
@@ -895,10 +876,7 @@ country_event = {
 	option = {
 		name = "Heads. Spikes. Walls."
 		RUS = {
-			country_event = { 
-			id = 301024 
-			#days = 10 
-			}
+			country_event = 301024 
 			diplomatic_influence = {
 				who = PER
 				value = 25
@@ -946,10 +924,7 @@ country_event = {
 	option = {
 		name = "We will not bow to the Russians!"
 		RUS = {
-			country_event = { 
-			id = 301026 
-			#days = 10 
-			}
+			country_event = 301026
 			diplomatic_influence = {
 				who = PER
 				value = -30
@@ -988,9 +963,7 @@ country_event = {
 	option = {
 		name = "Gifts! Gifts solve all the world's problems"
 		RUS = {
-			country_event = { id = 301025 
-			#days = 10 
-			}
+			country_event = 301025
 			diplomatic_influence = {
 				who = PER
 				value = 20
@@ -1014,10 +987,7 @@ country_event = {
 	option = {
 		name = "Concessions! Please the Russians with concessions! [Azerbaijan -> Russian sphereling]"
 		RUS = {
-			country_event = { 
-			id = 301030 
-			#days = 10 
-			}
+			country_event = 301030 
 			diplomatic_influence = {
 				who = PER
 				value = 30
@@ -1040,10 +1010,7 @@ country_event = {
 	option = {
 		name = "Perhaps the British will help...?"
 		ENG = {
-			country_event = { 
-			id = 301032 
-			#days = 5 
-			}
+			country_event = 301032 
 			diplomatic_influence = {
 				who = PER
 				value = 15
@@ -1066,10 +1033,7 @@ country_event = {
 	option = {
 		name = "We will not bow to the Russians!"
 		RUS = {
-			country_event = { 
-			id = 301026 
-			#days = 10 
-			}
+			country_event = 301026 
 			diplomatic_influence = {
 				who = PER
 				value = -25
@@ -1112,10 +1076,7 @@ country_event = {
 	option = {
 		name = "Offer the Shah all the 'help' he needs"
 		PER = {
-			country_event = { 
-			id = 301027 
-			#days = 10 
-			}
+			country_event = 301027 
 		}
 		relation = {
 			who = PER
@@ -1128,10 +1089,7 @@ country_event = {
 	option = {
 		name = "We are satisfied by how the Shah handled the situation"
 		PER = {
-			country_event = { 
-			id = 301028 
-			#days = 10 
-			}
+			country_event = 301028 
 		}
 		relation = {
 			who = PER
@@ -1156,10 +1114,7 @@ country_event = {
 		name = "This will do nicely"
 		clr_country_flag = the_war_drums
 		PER = {
-			country_event = { 
-			id = 301028 
-			#days = 10 
-			}
+			country_event = 301028 
 		}
 		prestige = 2
 		relation = {
@@ -1181,10 +1136,7 @@ country_event = {
 	option = {
 		name = "A diamond? Land is what we are after!"
 		PER = {
-			country_event = { 
-			id = 301036 
-			#days = 10
-			}
+			country_event = 301036 
 		}
 		ai_chance = {
 			factor = 10
@@ -1302,10 +1254,7 @@ country_event = {
 	option = {
 		name = "Yes please"
 		RUS = {
-			country_event = { 
-			id = 301029 
-			#days = 10 
-			}
+			country_event = 301029 
 			diplomatic_influence = {
 				who = PER
 				value = 25
@@ -1359,9 +1308,7 @@ country_event = {
 	option = {
 		name = "It feels like an infringement of our sovereignty"
 		RUS = {
-			country_event = { id = 301026 
-			#days = 10 
-			}
+			country_event = 301026
 		}
 		ai_chance = {
 			factor = 60
@@ -1437,10 +1384,7 @@ country_event = {
 		name = "We Russians are know for our magnanimity..."
 		prestige = 10
 		PER = {
-			country_event = { 
-			id = 301028 
-			#days = 10 
-			}
+			country_event = 301028
 			any_owned = {
 				limit = {
 					OR = {
@@ -1482,9 +1426,7 @@ country_event = {
 	option = {
 		name = "Keeping the Caucasus in line is difficult enough as it is..."
 		PER = {
-			country_event = { id = 301028 
-			#days = 10 
-			}
+			country_event = 301028
 		}
 		any_pop = {
 			limit = {
@@ -1540,9 +1482,7 @@ country_event = {
 	option = {
 		name = "We're ready for a Persian adventure"
 		PER = {
-			country_event = { id = 301034 
-			#days = 10 
-			}
+			country_event = 301034 
 		}
 		diplomatic_influence = {
 			who = PER
@@ -1559,10 +1499,7 @@ country_event = {
 	option = {
 		name = "It isn't our fault the Shah can't control the rabble"
 		PER = {
-			country_event = { 
-			id = 301035 
-			#days = 5 
-			}
+			country_event = 301035 
 		}
 		diplomatic_influence = {
 			who = PER
@@ -1601,10 +1538,7 @@ country_event = {
 	option = {
 		name = "Concessions! Offer the Russians Concessions! [Offer Azerbaijan]"
 		RUS = {
-			country_event = { 
-			id = 301030 
-			#days = 10 
-			}
+			country_event = 301030 
 		}
 		ai_chance = {
 			factor = 65
@@ -1614,9 +1548,7 @@ country_event = {
 	option = {
 		name = "Then we stand alone!"
 		RUS = {
-			country_event = { id = 301026 
-			#days = 10 
-			}
+			country_event = 301026 
 		}
 		ai_chance = {
 			factor = 35
@@ -1636,9 +1568,7 @@ country_event = {
 	option = {
 		name = "Land! Please the Russians with land! [Offer Azerbaijan]"
 		RUS = {
-			country_event = { id = 301037 
-			#days = 10 
-			}
+			country_event = 301037 
 		}
 		ai_chance = {
 			factor = 80
@@ -1648,9 +1578,7 @@ country_event = {
 	option = {
 		name = "We will not bow to the Russians!"
 		RUS = {
-			country_event = { id = 301026 
-			#days = 10 
-			}
+			country_event = 301026 
 		}
 		ai_chance = {
 			factor = 20
@@ -1671,10 +1599,7 @@ country_event = {
 		name = "We Russians are know for our magnanimity..."
 		prestige = 10
 		PER = {
-			country_event = { 
-			id = 301028 
-			#days = 10 
-			}
+			country_event = 301028 
 			any_owned = {
 				limit = {
 					OR = {
@@ -1720,10 +1645,7 @@ country_event = {
 	option = {
 		name = "Keeping the Caucasus in line is difficult enough as it is..."
 		PER = {
-			country_event = { 
-			id = 301028 
-			#days = 10 
-			}
+			country_event = 301028 
 		}
 		any_pop = {
 			limit = {
@@ -1784,10 +1706,7 @@ country_event = {
 		badboy = 3
 		money = 50000
 		TUR = {
-			country_event = {
-				id = 301041
-				#days = 1
-			}
+			country_event = 301041
 		}
 		ENG = {
 			diplomatic_influence = {
@@ -1914,10 +1833,7 @@ country_event = {
 	option = {
 		name = "Our honour has been satisfied"
 		TUR = {
-			country_event = {
-				id = 301043
-				#days = 3
-			}
+			country_event = 301043
 		}
 		ai_chance = {
 			factor = 95
@@ -1963,10 +1879,7 @@ country_event = {
 			value = -400
 		}
 		PER = {
-			country_event = {
-				id = 301044
-				#days = 3
-			}
+			country_event = 301044
 		}
 		ai_chance = {
 			factor = 95
@@ -1978,10 +1891,7 @@ country_event = {
 		war_exhaustion = 5
 		prestige = 3
 		PER = {
-			country_event = {
-				id = 301045
-				#days = 3
-			}
+			country_event = 301045
 		}
 		ai_chance = {
 			factor = 5
@@ -2215,10 +2125,7 @@ country_event = {
 	option = {
 		name = "We will get back at them later."
 		PER = {
-			country_event = {
-				id = 300984
-				#days = 5
-			}
+			country_event = 300984
 		}
 		prestige = -15
 		war_exhaustion = -5
@@ -2243,10 +2150,7 @@ country_event = {
 	option = {
 		name = "We fight on."
 		PER = {
-			country_event = {
-				id = 300985
-				#days = 5
-			}
+			country_event = 300985
 		}
 		prestige = 3
 		war_exhaustion = 10
@@ -2299,10 +2203,7 @@ country_event = {
 	option = {
 		name = "It was fun while it lasted."
 		TUR = {
-			country_event = {
-				id = 300988
-				#days = 5
-			}
+			country_event = 300988
 		}
 		ai_chance = {
 			factor = 100
@@ -2331,10 +2232,7 @@ country_event = {
 		name = "Good."
 		end_war = PER
 		PER = {
-			country_event = {
-				id = 300984
-				#days = 5
-			}
+			country_event = 300984
 			any_owned = {
 				limit = {
 					OR = {
@@ -2391,10 +2289,7 @@ country_event = {
 	option = {
 		name = "We fight on."
 		PER = {
-			country_event = {
-				id = 300985
-				#days = 5
-			}
+			country_event = 300985
 		}
 		badboy = 10
 		war_exhaustion = 20
@@ -2739,67 +2634,40 @@ country_event = {
 					tag = KHZ
 				}
 			}
-			country_event = {
-				id = 301072
-				#days = 153
-			}
+			country_event = 301072
 		}
 		random_list = {
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 45
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 167
-					}
+					country_event = 301072
 				}
 			}
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 32
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 74
-					}
+					country_event = 301072
 				}
 			}
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 149
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 184
-					}
+					country_event = 301072
 				}
 
 			}
 			10 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 64
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 201
-					}
+					country_event = 301072
 				}
 
 			}
@@ -3332,67 +3200,40 @@ country_event = {
 					tag = KHZ
 				}
 			}
-			country_event = {
-				id = 301072
-				#days = 45
-			}
+			country_event = 301072
 		}
 		random_list = {
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 45
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 167
-					}
+					country_event = 301072
 				}
 			}
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 32
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 74
-					}
+					country_event = 301072
 				}
 			}
 			30 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 149
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 184
-					}
+					country_event = 301072
 				}
 
 			}
 			10 = {
 				KHR = {
-					country_event = {
-						id = 301072
-						#days = 64
-					}
+					country_event = 301072
 				}
 				KHZ = {
-					country_event = {
-						id = 301072
-						#days = 201
-					}
+					country_event = 301072
 				}
 
 			}
