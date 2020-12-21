@@ -85,7 +85,7 @@ country_event = {
 		name = "EVTOPTA33401" 
 		prestige = -10
 		any_pop = {
-			limit = { has_pop_religion = catholic }
+			#limit = { has_pop_religion = catholic }
 			militancy = 3
 		}
 		any_pop = {
