@@ -554,7 +554,7 @@
 		size = 250
 	}
 	labourers = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 1200
 	}
@@ -634,19 +634,19 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 250
 	}
 
 	labourers = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 3200
 	}
@@ -783,13 +783,13 @@
 	}
 
 	artisans = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 100
 	}
 
 	labourers = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 900
 	}
@@ -922,7 +922,7 @@
 	}
 
 	labourers = {
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 		size = 1100
 	}
@@ -1175,7 +1175,7 @@
 	artisans = {
 
 		size = 257
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1189,7 +1189,7 @@
 	clergymen = {
 
 		size = 72
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1203,7 +1203,7 @@
 	labourers = {
 
 		size = 5051
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1454,7 +1454,7 @@
 	artisans = {
 
 		size = 2257
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1475,7 +1475,7 @@
 	clergymen = {
 
 		size = 250
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1489,7 +1489,7 @@
 	clerks = {
 
 		size = 71
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1503,7 +1503,7 @@
 	craftsmen = {
 
 		size = 1200
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1524,7 +1524,7 @@
 	labourers = {
 
 		size = 49188
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1542,7 +1542,7 @@
 	capitalists = {
 
 		size = 200
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1556,7 +1556,7 @@
 	artisans = {
 
 		size = 1000
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1570,7 +1570,7 @@
 	capitalists = {
 
 		size = 30
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1598,7 +1598,7 @@
 	clergymen = {
 
 		size = 180
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1612,7 +1612,7 @@
 	labourers = {
 
 		size = 22240
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1633,7 +1633,7 @@
 	officers = {
 
 		size = 60
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -1654,14 +1654,14 @@
 	soldiers = {
 
 		size = 307
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	soldiers = {
 
 		size = 91
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1725,7 +1725,7 @@
 	artisans = {
 
 		size = 412
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1760,7 +1760,7 @@
 	labourers = {
 
 		size = 7669
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1786,7 +1786,7 @@
 	artisans = {
 
 		size = 549
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1814,7 +1814,7 @@
 	labourers = {
 
 		size = 7783
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1829,7 +1829,7 @@
 	capitalists = {
 
 		size = 160
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = catholic
 
 	}
@@ -1843,7 +1843,7 @@
 	artisans = {
 
 		size = 1686
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = catholic
 
 	}
@@ -1864,7 +1864,7 @@
 	clergymen = {
 
 		size = 237
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = catholic
 
 	}
@@ -1878,7 +1878,7 @@
 	labourers = {
 
 		size = 23644
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = catholic
 
 	}
@@ -1899,7 +1899,7 @@
 	soldiers = {
 
 		size = 1831
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = catholic
 
 	}

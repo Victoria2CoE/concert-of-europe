@@ -63,8 +63,8 @@ country_event = {
 		heavy_industry = 10000
 		any_country = { heavy_industry = 10000 }
 		
-		add_tax_relative_income = 10
-		any_country = { add_tax_relative_income = 10 }
+		add_tax_relative_income = 100
+		any_country = { add_tax_relative_income = 100 }
 
 		any_pop = { 
 			limit = { 

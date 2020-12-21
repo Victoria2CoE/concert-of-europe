@@ -39,7 +39,7 @@ country_event = {
 		prestige = 3
 		any_pop = { 
 			limit = { 
-				has_pop_culture = north_italian 
+				has_pop_religion = north_italian 
 			} 
 			consciousness = 1 
 		}

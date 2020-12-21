@@ -1054,7 +1054,7 @@ political_decisions = {
 	create_german_baltic_states = {
 		picture = form_baltic_states
 		potential = {
-			primary_culture = north_german
+			has_country_flag = north_german_rel
 			NOT = {
 				has_global_flag = baltic_states_formed
 			}

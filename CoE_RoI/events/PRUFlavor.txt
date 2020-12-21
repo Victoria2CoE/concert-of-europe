@@ -91,11 +91,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA34601" 
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_religion = north_german }
 			consciousness = 1
 		}	
 		any_pop = {
-			limit = { has_pop_culture = south_german }
+			limit = { has_pop_religion = south_german }
 			consciousness = 1
 		}	
 	}
@@ -454,11 +454,11 @@ country_event = {
 		prestige = 2
 		social_reform = child_labor_restricted
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_religion = north_german }
 			consciousness = 1
 		}	
 		any_pop = {
-			limit = { has_pop_culture = south_german }
+			limit = { has_pop_religion = south_german }
 			consciousness = 1
 		}	
 	}	

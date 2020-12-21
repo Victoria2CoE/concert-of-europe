@@ -128,7 +128,7 @@ political_decisions = {
 
 	slovene_language_at_celje_gymnasium = { #original VIP event by Hrast, edited by Palisadoes
 		potential = {
-			primary_culture = south_german
+			has_country_flag = south_german_rel
 			owns = 767 #Maribor
 			NOT = {
 				has_country_flag = slovene_language_at_celje_gymnasium
@@ -158,9 +158,9 @@ political_decisions = {
 		effect = {
 			plurality = 5
 			any_pop = { limit = { culture = slovene } consciousness = -1 militancy = -1 }
-			any_pop = { limit = { culture = south_german } consciousness = 1 }
+			any_pop = { limit = { religion = south_german } consciousness = 1 }
 			767 = {
-				any_pop = { limit = { culture = south_german } consciousness = 1 militancy = 1 }
+				any_pop = { limit = { religion = south_german } consciousness = 1 militancy = 1 }
 				any_pop = {
 					dominant_issue = {
 						value = limited_citizenship

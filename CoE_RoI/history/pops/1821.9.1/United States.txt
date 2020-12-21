@@ -2607,7 +2607,7 @@
 	artisans = {
 
 		size = 108
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -2656,7 +2656,7 @@
 	labourers = {
 
 		size = 136
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -3581,7 +3581,7 @@
 	artisans = {
 
 		size = 186
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -3609,7 +3609,7 @@
 	labourers = {
 
 		size = 3468
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -3992,7 +3992,7 @@
 	artisans = {
 
 		size = 260
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4027,7 +4027,7 @@
 	labourers = {
 
 		size = 4892
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4052,7 +4052,7 @@
 	artisans = {
 
 		size = 373
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4073,7 +4073,7 @@
 	labourers = {
 
 		size = 6995
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4091,7 +4091,7 @@
 	artisans = {
 
 		size = 259
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4112,7 +4112,7 @@
 	labourers = {
 
 		size = 4898
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4130,7 +4130,7 @@
 	artisans = {
 
 		size = 296
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -4165,7 +4165,7 @@
 	labourers = {
 
 		size = 5603
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -6189,7 +6189,7 @@
 	clergymen = {
 
 		size = 56
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}

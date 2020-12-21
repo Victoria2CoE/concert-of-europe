@@ -406,8 +406,8 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
-					primary_culture = north_italian
-					primary_culture = south_italian
+					primary_culture = italian
+					#primary_culture = south_italian
 				}
 				NOT = {
 					tag = SAR
@@ -518,8 +518,8 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
-					primary_culture = north_italian
-					primary_culture = south_italian
+					primary_culture = italian
+					#primary_culture = south_italian
 				}
 				NOT = {
 					tag = SAR
@@ -589,8 +589,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_religion = north_italian
+					has_pop_religion = south_italian
 				}
 			}
 			militancy = -3
@@ -626,8 +626,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_religion = north_italian
+					has_pop_religion = south_italian
 				}
 			}
 			militancy = 2
@@ -667,8 +667,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_religion = north_italian
+					has_pop_religion = south_italian
 				}
 			}
 			militancy = -1
@@ -714,8 +714,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_religion = north_italian
+					has_pop_religion = south_italian
 				}
 			}
 			militancy = 2
@@ -970,7 +970,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		primary_culture = north_italian
+		primary_culture = italian
 		war = no
 		is_vassal = no
 		ai = yes
@@ -1324,8 +1324,8 @@ country_event = {
 			limit = { is_sphere_leader_of = THIS }
 			set_country_flag = objects_to_italy
 		}
-		add_accepted_culture = south_italian
-		add_accepted_culture = north_italian
+		#add_accepted_culture = south_italian
+		add_accepted_culture = italian
 		change_tag = culture
 		any_country = {
 			limit = {

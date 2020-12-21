@@ -3,7 +3,7 @@ political_decisions = {
 	form_south_german_confederation = {
 		potential = {
 			is_greater_power = yes
-			primary_culture = south_german
+			has_country_flag = south_german_rel
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = SGF
@@ -37,7 +37,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { culture = south_german }
+						NOT = { religion = south_german }
 					}
 				}
 			}
@@ -60,7 +60,7 @@ political_decisions = {
 					NOT = { is_core = THIS }
 					any_core = {
 						exists = no
-						primary_culture = south_german
+						has_country_flag = south_german_rel
 						has_country_flag = wants_to_unify
 						NOT = { has_country_flag = post_colonial_country }
 					}
@@ -79,7 +79,7 @@ political_decisions = {
 			change_tag = SGF
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					in_sphere = THIS
 					NOT = {
 						has_country_flag = post_colonial_country
@@ -127,7 +127,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { culture = south_german }
+						NOT = { religion = south_german }
 					}
 				}
 			}
@@ -168,7 +168,7 @@ political_decisions = {
 			change_tag = SGF
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					in_sphere = THIS
 					NOT = { 
 						has_country_flag = post_colonial_country
@@ -193,7 +193,7 @@ political_decisions = {
 	form_north_german_confederation = {
 		potential = {
 			is_greater_power = yes
-			primary_culture = north_german
+			has_country_flag = north_german_rel
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = GER
@@ -218,7 +218,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { culture = north_german }
+						NOT = { religion = north_german }
 						is_core = SCH
 						is_core = NET
 					}
@@ -236,7 +236,7 @@ political_decisions = {
 					NOT = { is_core = THIS }
 					any_core = {
 						exists = no
-						primary_culture = north_german
+						has_country_flag = north_german_rel
 						has_country_flag = wants_to_unify
 						NOT = { has_country_flag = post_colonial_country }
 					}
@@ -248,7 +248,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
-						primary_culture = north_german
+						has_country_flag = north_german_rel
 						tag = SCH
 						tag = EFR
 					}
@@ -379,8 +379,8 @@ political_decisions = {
 				add_core = GER
 			}
 			change_tag = GER
-			add_accepted_culture = north_german
-			add_accepted_culture = south_german
+			add_accepted_culture = german
+			#add_accepted_culture = south_german
 			set_global_flag = 3hurrahs
 			random_country = {
 				limit = {
@@ -543,8 +543,8 @@ political_decisions = {
 			}
 			change_tag = GER
 			government = prussian_constitutionalism2
-			add_accepted_culture = north_german
-			add_accepted_culture = south_german
+			add_accepted_culture = german
+			#add_accepted_culture = south_german
 			set_global_flag = 3hurrahs
 			random_country = {
 				limit = {
@@ -717,7 +717,7 @@ political_decisions = {
 			}
 			change_tag = GER
 			government = prussian_constitutionalism3
-			add_accepted_culture = north_german
+			add_accepted_culture = german
 			set_global_flag = 3hurrahs
 			any_country = {
 				limit = {
@@ -871,8 +871,8 @@ political_decisions = {
 			all_core = { remove_core = THIS }
 			change_tag = ITA
 			capital = 749
-			add_accepted_culture = north_italian
-			add_accepted_culture = south_italian
+			add_accepted_culture = italian
+			#add_accepted_culture = south_italian
 			add_accepted_culture = maltese
 			any_country = {
 				limit = {
@@ -1086,7 +1086,7 @@ political_decisions = {
 		picture = form_north_german_confederation
 		potential = {
 			is_greater_power = yes
-			primary_culture = north_german
+			has_country_flag = north_german_rel
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = GER
@@ -1112,7 +1112,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { culture = north_german }
+						NOT = { religion = north_german }
 						owner = {
 							NOT = { is_culture_group = germanic }
 						}
@@ -1131,7 +1131,7 @@ political_decisions = {
 					NOT = { is_core = THIS }
 					any_core = {
 						exists = no
-						primary_culture = north_german
+						has_country_flag = north_german_rel
 						has_country_flag = wants_to_unify
 						NOT = { has_country_flag = post_colonial_country }
 					}
@@ -1143,7 +1143,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
-						primary_culture = north_german
+						has_country_flag = north_german_rel
 						tag = SCH
 					}
 					in_sphere = THIS 
@@ -1170,7 +1170,7 @@ political_decisions = {
 		picture = form_south_german_confederation
 		potential = {
 			is_greater_power = yes
-			primary_culture = south_german
+			has_country_flag = south_german_rel
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = SGF
@@ -1218,7 +1218,7 @@ political_decisions = {
 					NOT = { is_core = THIS }
 					any_core = {
 						exists = no
-						primary_culture = south_german
+						has_country_flag = south_german_rel
 						has_country_flag = wants_to_unify
 						NOT = { has_country_flag = post_colonial_country }
 					}
@@ -1229,7 +1229,7 @@ political_decisions = {
 			set_country_flag = secondary_union_formation
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					in_sphere = THIS
 					NOT = { tag = THIS }
 					NOT = { tag = KUK }
@@ -1310,7 +1310,7 @@ political_decisions = {
 			random_country = {
 				limit = {
 					is_greater_power = yes
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 				}
 				diplomatic_influence = { who = THIS value = 100 }
 			}

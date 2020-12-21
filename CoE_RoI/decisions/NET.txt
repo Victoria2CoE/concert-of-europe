@@ -354,7 +354,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = wallonian
-						has_pop_culture = picard
+						has_pop_culture = french
 					}
 				}
 				militancy = -4
@@ -370,7 +370,7 @@ political_decisions = {
 			}
 			political_reform = protected
 			add_accepted_culture = wallonian
-			add_accepted_culture = picard
+			add_accepted_culture = french
 			nationalvalue = nv_equality
 		}
 		
@@ -469,7 +469,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					OR = {
-						has_pop_culture = north_german
+						has_pop_religion = north_german
 						has_pop_culture = french
 						has_pop_culture = picard
 						has_pop_culture = sephardic

@@ -1,0 +1,533 @@
+#Celebes Region (1040000)
+#Buginese States
+#Makassar (280.000/70.000POPs)
+1430 = {
+	capitalists = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 650
+	}
+
+	bureaucrats = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 10000
+	}
+
+	soldiers = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size= 300
+
+	}
+
+	labourers = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 45025
+	}
+
+	capitalists = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 750
+	}
+
+	soldiers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size= 300
+
+	}
+
+	labourers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 9500
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 2500
+	}
+}
+
+#Bone (310000/77500 POPS)
+1431 = {
+	capitalists = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 850
+	}
+
+	clergymen = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 700
+	}
+
+	artisans = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 2950
+	}
+
+	soldiers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size= 2350
+
+	}
+
+	labourers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 45000
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 5000
+	}
+
+	labourers = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 9900
+	}
+	soldiers = {
+		culture = makassarese
+		religion = makassarese #religion = sunni
+		size = 1250
+	}
+}
+
+
+#Wadjo (56000/14000 POPS)
+2649 = {
+	capitalists = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size= 1000
+	}
+
+	labourers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 7000
+	}
+
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 50
+	}
+
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 500
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 4000
+	}
+}
+
+#Soppeng (88000/22000 POPS)
+2622 = {
+	capitalists = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 275
+	}
+
+	artisans = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 1750
+	}
+
+	soldiers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 1500
+	}
+
+	labourers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 18175
+	}
+}
+
+#Northern Celebes
+#Mamuju (128000/32000 POPS)
+1432 = {
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 1500
+	}
+
+	soldiers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size= 1500
+
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 21750
+	}
+
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 100
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 6675
+	}
+}
+#Menado (256000/54000 POPS)
+1433 = {
+	capitalists = {
+		culture = minahasan
+		religion = minahasan #religion = animist
+		size = 500
+	}
+
+	clergymen = {
+		culture = minahasan
+		religion = minahasan #religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = minahasan
+		religion = minahasan #religion = animist
+		size = 1400
+	}
+
+	soldiers = {
+		culture = minahasan
+		religion = minahasan #religion = animist
+		size= 500
+
+	}
+
+	labourers = {
+		culture = minahasan
+		religion = minahasan #religion = animist
+		size = 35100
+	}
+
+	capitalists = {
+		culture = minahasan
+		religion = minahasan #religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = minahasan
+		religion = minahasan #religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = minahasan
+		religion = minahasan #religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = minahasan
+		religion = minahasan #religion = sunni
+		size= 175
+
+	}
+
+	labourers = {
+		culture = minahasan
+		religion = minahasan #religion = sunni
+		size = 10175
+	}
+
+	capitalists = {
+		culture = minahasan
+		religion = minahasan #religion = protestant
+		size = 125
+	}
+
+	clergymen = {
+		culture = minahasan
+		religion = minahasan #religion = protestant
+		size = 125
+	}
+
+	artisans = {
+		culture = minahasan
+		religion = minahasan #religion = protestant
+		size = 800
+	}
+
+	labourers = {
+		culture = minahasan
+		religion = minahasan #religion = protestant
+		size = 3500
+	}
+}
+
+
+#Eastern Celebes
+#Luwak (100000/37000 POPS)
+1434 = {
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 550
+	}
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 500
+	}
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 375
+	}
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size= 2500
+
+	}
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 2850
+	}
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 2450
+	}
+
+	soldiers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size= 4500
+
+	}
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 60125
+	}
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = animist
+		size = 44125
+	}
+	
+}
+
+#Bulon (48000/12000 POPS)
+1437 = {
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size= 100
+
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 11025
+	}
+
+}
+
+#Luwu (120000/30000 POPS)
+#Palopo (13000 POPS)
+1436 = {
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 550
+	}
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 2250
+	}
+
+	soldiers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size= 2025
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 15425
+	}
+
+	artisans = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 250
+	}
+
+	labourers = {
+		culture = bunginese
+		religion = bunginese #religion = sunni
+		size = 3025
+	}
+
+}
+
+#Palopo (7000 POPS)
+1435 = {
+	capitalists = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 225
+	}
+
+	labourers = {
+		culture = moluccan
+		religion = moluccan #religion = sunni
+		size = 6500
+	}
+
+}

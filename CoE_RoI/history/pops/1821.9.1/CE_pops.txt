@@ -5585,7 +5585,7 @@
 	craftsmen = {
 
 		size = 20
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}

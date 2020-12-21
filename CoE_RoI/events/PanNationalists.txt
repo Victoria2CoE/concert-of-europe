@@ -357,13 +357,13 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { primary_culture = north_german }
+				owner = { has_country_flag = north_german_rel }
 				NOT = { exists = GER }
 				exists = NGF
 			}
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
 				}
 				leave_alliance = THIS
@@ -391,7 +391,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { primary_culture = north_german }
+				owner = { has_country_flag = north_german_rel }
 				NOT = { exists = GER }
 				NOT = { exists = NGF }
 				exists = SGF
@@ -412,7 +412,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					NOT = {
 						tag = AUS
 						tag = KUK
@@ -424,7 +424,7 @@ country_event = {
 			}
 			any_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
 				}
 				leave_alliance = THIS
@@ -453,7 +453,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					NOT = {
 						tag = AUS
 						tag = KUK
@@ -479,16 +479,16 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { primary_culture = north_german }
+				owner = { has_country_flag = north_german_rel }
 				NOT = { exists = GER }
 				NOT = { exists = NGF }
 				NOT = { exists = SGF }
 			}
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
-					any_greater_power = { primary_culture = north_german }
+					any_greater_power = { has_country_flag = north_german_rel }
 				}
 				leave_alliance = THIS
 				diplomatic_influence = {
@@ -502,7 +502,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
 					is_sphere_leader_of = THIS
 					neighbour = THIS
@@ -511,7 +511,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
 					OR = {
 						NOT = { is_sphere_leader_of = THIS }
@@ -522,11 +522,11 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
 					NOT = {
 						is_sphere_leader_of = THIS
-						any_greater_power = { primary_culture = north_german }
+						any_greater_power = { has_country_flag = north_german_rel }
 					}
 				}
 				country_event = 11104
@@ -535,7 +535,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					NOT = {
 						tag = AUS
 						tag = KUK
@@ -548,9 +548,9 @@ country_event = {
 			}
 			any_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
-					any_greater_power = { primary_culture = south_german }
+					any_greater_power = { has_country_flag = south_german_rel }
 				}
 				leave_alliance = THIS
 				diplomatic_influence = {
@@ -564,7 +564,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
 					is_sphere_leader_of = THIS
 					neighbour = THIS
@@ -577,7 +577,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
 					OR = {
 						NOT = { is_sphere_leader_of = THIS }
@@ -590,10 +590,10 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
 					NOT = {
-						any_greater_power = { primary_culture = south_german }
+						any_greater_power = { has_country_flag = south_german_rel }
 					}
 				}
 				country_event = 11104
@@ -692,7 +692,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = south_german
+					has_country_flag = south_german_rel
 					is_greater_power = yes
 					exists = yes
 					GER = {
@@ -725,11 +725,11 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					primary_culture = north_german
+					has_country_flag = north_german_rel
 					is_greater_power = yes
 					exists = yes
 					NOT = {
-						any_greater_power = { primary_culture = south_german }
+						any_greater_power = { has_country_flag = south_german_rel }
 					}
 					GER = {
 						OR = {

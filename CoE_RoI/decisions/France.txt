@@ -233,10 +233,10 @@ political_decisions = {
 		effect = {
 			any_country = {
 				limit = {
-					OR = {
-						primary_culture = north_german
-						primary_culture = south_german
-					}
+					#OR = {
+						primary_culture = german
+						#primary_culture = south_german
+					#}
 				}
 				relation = {
 					who = THIS
@@ -461,9 +461,9 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = enacted_french_schooling
-			remove_accepted_culture = occitan
-			remove_accepted_culture = picard
-			remove_accepted_culture = wallonian
+			#remove_accepted_culture = occitan
+			#remove_accepted_culture = picard
+			#remove_accepted_culture = wallonian
 			random_owned = {
 				limit = {
 					owner = { education = church }
@@ -476,7 +476,7 @@ political_decisions = {
 						is_core = OCC
 						is_core = BRT
 						is_core = WLL
-						culture = picard
+						religion = picard
 					}
 				}
 				add_province_modifier = {

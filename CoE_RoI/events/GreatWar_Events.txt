@@ -3188,7 +3188,7 @@ country_event = {
 		set_country_flag = francophonie_embraced
 		clr_country_flag = walloon_movement
 		remove_accepted_culture = wallonian
-		remove_accepted_culture = picard
+		#remove_accepted_culture = picard
 		BEL_394 = {
 			remove_core = NET
 		}

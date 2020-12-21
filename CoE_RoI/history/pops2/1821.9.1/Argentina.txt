@@ -1,0 +1,1924 @@
+#2348-2400 ;2554
+#Under rule of Argentina 1836
+#Buenos Aires (132000/33000 POPS)
+2348 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 625
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 500
+	}
+
+	officers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 375
+	}
+
+	artisans = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 10000
+	}
+	
+	artisans = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 1000
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 49825
+	}
+}
+#Junin (56000/14000 POPS)
+2349 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 275
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 5100
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 1000
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25550
+	}
+}
+#Azul (12000/3000 POPS)
+2350 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15700
+	}
+}
+#La Plata (4000/1000 POPS)
+2351 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 19000
+	}
+}
+#Mar del Plata (12000/3000 POPS)
+2352 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 20700
+	}
+}
+#Under loose authority of Argentina 1836
+#Trenque Lanquen (12000/9000 POPS)
+2353 = {
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 1800
+	}
+}
+#Bahia Blanca (24000/6000 POPS)
+2354 = {
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2725
+	}
+
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 2700
+	}
+}
+#Carmen (20000/5000 POPS)
+2355 = {
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1875
+	}
+
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = animist
+		size = 75
+	}
+
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = animist
+		size = 5700
+	}
+}
+#Corrientes Region (164000)
+#Under rule of Argentina 1836
+#Corrientes (96000/24000 POPS)
+2356 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 1100
+	}
+
+	officers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 35
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 4000
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 225
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 19015
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 25
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 15750
+	}
+}
+#Curuzu Cuatia (16000/4000 POPS)
+2357 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 2500
+	}
+
+	clergymen = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size = 1825
+	}
+}
+#Santo Tomas (28000/7000 POPS)
+2358 = {
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 1875
+	}
+
+	clergymen = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = brazilian
+		religion = brazilian #religion = catholic
+		size = 1825
+	}
+
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 25
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 2700
+	}
+}
+#Colon (8000/2000 POPS)
+2359 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 1900
+	}
+}
+#Parana (16000/4000 POPS)
+2360 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 50
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 3825
+	}
+}
+#Santa Fe Region (72000)
+#Under rule of Argentina 1836
+#Santa Esperitu (8000/2000 POPS)
+2361 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 5800
+	}
+}
+#Rosario (56000/14000 POPS)
+2362 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 275
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 300
+	}
+
+	officers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 4000
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 150
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 19350
+	}
+}
+#Reconquista (8000/2000 POPS)
+2363 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#Chaco Region (76000) #see Paraguay.txt for balance of region
+#Under loose authority of Argentina 1836
+#Resistencia (16000/4000 POPS)
+2364 = {
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 25
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 2700
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 2
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 23
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 1200
+	}
+}
+#Villa Angela (16000/4000 POPS)
+2365 = {
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 25
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 2700
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 900
+	}
+}
+#Under loose authority of Paraguay 1836
+#Formosa (24000/6000 POPS) #now part of Argentina
+2366 = {
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 50
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 4575
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 2
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 23
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 900
+	}
+}
+#Xolotas (20000/5000 POPS) #now part of Argentina
+2367 = {
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 50
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 4575
+	}
+}
+#Salta Region (36000)
+#Under rule of Argentina 1836
+#Salta (16000/4000 POPS)
+2368 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 50
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2300
+	}
+}
+#Jujuy (8000/2000 POPS)
+2369 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+}
+#Cochinoca (4000/1000 POPS)
+2370 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 10
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+}
+#Equia (4000/1000 POPS)
+2371 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 10
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+}
+#Rivadavia (4000/1000 POPS)
+2372 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 10
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 900
+	}
+}
+#Tucuman Region (36000)
+#Under rule of Argentina 1836
+#Tucuman (20000/5000 POPS)
+2373 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 15
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2500
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 50
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 5225
+	}
+}
+#Catamarca (12000/3000 POPS)
+2374 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2700
+	}
+}
+#Vinchina (4000/1000 POPS)
+2375 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 10
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+}
+#Santiago del Estero Region (40000)
+#Under rule of Argentina 1836
+#Santiago del Estero (16000/4000 POPS)
+2376 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 50
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 3605
+	}
+}
+#Anatuya (16000/4000 POPS)
+2377 = {
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 25
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 2700
+	}
+}
+#Mailin (8000/2000 POPS)
+2378 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 1800
+	}
+}
+#Cordoba Region (136000)
+#Under rule of Argentina 1836
+#Cordoba de Argentina (84000/21000 POPS)
+2379 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 425
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 40
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 35
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 3000
+
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 2000
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10300
+	}
+}
+#Villa Nueva (8000/2000 POPS)
+2380 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#Rio Cuarto (8000/2000 POPS)
+2381 = {
+	capitalists = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#San Luis (8000/2000 POPS)
+2383 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#Under the loose rule of Argentina 1836
+#Renanco (20000/5000 POPS)
+2382 = {
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1825
+	}
+
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 175
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 2700
+	}
+}
+#Mercedes (8000/2000 POPS)
+2384 = {
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 5
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#La Rioja Region (40000)
+#Under rule of Argentina 1836
+#La Rioja (16000/4000 POPS)
+2385 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 15
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 250
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 3700
+	}
+}
+#Santa Rita (8000/2000 POPS)
+2386 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#San Juan de la Frontera (12000/3000 POPS)
+2387 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 75
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2700
+	}
+}
+#Calingasta (4000/1000 POPS)
+2388 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 60
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+}
+#Mendoza Region (32000)
+#Under rule of Argentina 1836
+#Mendoza (12000/3000 POPS)
+2389 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 5
+	}
+
+	officers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 75
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 200
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 2660
+	}
+}
+#San Rafael (8000/2000 POPS)
+2390 = {
+	capitalists = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 125
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 1800
+	}
+}
+#Under the loose rule of Argentina 1836
+#Neuquen (12000/3000 POPS)
+2391 = {
+	clergymen = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size= 75
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 125
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 1800
+	}
+}
+#Rio Negro-La Pampa Region (52000)
+#Under the loose rule of Argentina 1836
+#Viedma (12000/3000 POPS)
+2392 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 175
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 2700
+	}
+}
+#Telen (12000/3000 POPS)
+2393 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 175
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 2700
+	}
+}
+#Bariloche (16000/4000 POPS)
+2394 = {
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 25
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 75
+
+	}
+
+	labourers = {
+		culture = south_andean
+		religion = south_andean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 250
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 3675
+	}
+}
+#Curaco (12000/3000 POPS)
+2395 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 175
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 2700
+	}
+}
+#Patagonia Region (20000)
+#Under the loose rule of Argentina 1836
+#Rawson (4000/1000 POPS)
+2396 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 65
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#Esquel (4000/1000 POPS)
+2397 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 65
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#Puerto Deseado (4000/1000 POPS)
+2398 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 65
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#Rio Gallegos (4000/1000 POPS)
+2399 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 65
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#Rio Grande (4000/1000 POPS)
+2400 = {
+	capitalists = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size= 65
+
+	}
+
+	labourers = {
+		culture = patagonian
+		religion = patagonian #religion = animist
+		size = 900
+	}
+}
+#Paraguay Region (16000) #see Paraguay.txt & Brazil.txt for balance of region
+#Under loose authority of Paraguay 1836
+#Posadas (16000/4000 POPS) #now part of Argentina
+2554 = {
+	clergymen = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 75
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size= 25
+
+	}
+
+	labourers = {
+		culture = platinean
+		religion = platinean #religion = catholic
+		size = 900
+	}
+
+	capitalists = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size= 175
+
+	}
+
+	labourers = {
+		culture = guarani
+		religion = guarani #religion = animist
+		size = 2700
+	}
+
+}

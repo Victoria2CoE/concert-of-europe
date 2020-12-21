@@ -33,8 +33,8 @@ political_decisions = {
 						}
 						NOT = {
 							OR = {
-								culture = north_italian
-								culture = south_italian
+								has_pop_religion = north_italian
+								has_pop_religion = south_italian
 							}
 						}
 					}
@@ -46,10 +46,10 @@ political_decisions = {
 			prestige = 10
 			any_country = {
 				limit = {
-					OR = {
-						primary_culture = north_italian
-						primary_culture = south_italian
-					}
+					#OR = {
+						primary_culture = italian
+						#primary_culture = south_italian
+					#}
 					in_sphere = THIS
 				}
 				annex_to = THIS

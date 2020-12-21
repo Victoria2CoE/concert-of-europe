@@ -1612,7 +1612,7 @@
 	capitalists = {
 
 		size = 709
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1626,7 +1626,7 @@
 	artisans = {
 
 		size = 1400
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1693,7 +1693,7 @@
 	artisans = {
 
 		size = 469
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -2622,14 +2622,14 @@
 	capitalists = {
 
 		size = 183
-		culture = south_italian
+		culture = italian #culture = south_italian
 		religion = south_italian #religion = catholic
 
 	}
 	artisans = {
 
 		size = 1137
-		culture = south_italian
+		culture = italian #culture = south_italian
 		religion = south_italian #religion = catholic
 
 	}
@@ -2650,14 +2650,14 @@
 	bureaucrats = {
 
 		size = 10
-		culture = south_italian
+		culture = italian #culture = south_italian
 		religion = south_italian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 251
-		culture = south_italian
+		culture = italian #culture = south_italian
 		religion = south_italian #religion = catholic
 
 	}
@@ -2678,7 +2678,7 @@
 	soldiers = {
 
 		size = 457
-		culture = south_italian
+		culture = italian #culture = south_italian
 		religion = south_italian #religion = catholic
 
 	}

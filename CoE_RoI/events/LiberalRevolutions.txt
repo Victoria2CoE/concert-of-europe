@@ -4047,7 +4047,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = north_italian
+				has_pop_religion = north_italian
 				location = { is_core = ITA }
 			}
 			militancy = 8

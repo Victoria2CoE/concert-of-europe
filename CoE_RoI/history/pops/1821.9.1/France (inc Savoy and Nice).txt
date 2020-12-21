@@ -3,7 +3,7 @@
 	artisans = {
 
 		size = 4578
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -17,7 +17,7 @@
 	clergymen = {
 
 		size = 426
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -31,7 +31,7 @@
 	labourers = {
 
 		size = 15770
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -64,14 +64,14 @@
 	clergymen = {
 
 		size = 541
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	labourers = {
 
 		size = 47883
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -111,21 +111,21 @@
 	artisans = {
 
 		size = 9157
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	artisans = {
 
 		size = 3451
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 1002
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -139,7 +139,7 @@
 	clergymen = {
 
 		size = 1201
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -153,14 +153,14 @@
 	labourers = {
 
 		size = 92007
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	officers = {
 
 		size = 566
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -174,7 +174,7 @@
 	soldiers = {
 
 		size = 4579
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -199,14 +199,14 @@
 	clergymen = {
 
 		size = 60
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	labourers = {
 
 		size = 4320
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -224,7 +224,7 @@
 	artisans = {
 
 		size = 5265
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -245,7 +245,7 @@
 	labourers = {
 
 		size = 27585
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -270,7 +270,7 @@
 	artisans = {
 
 		size = 1907
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -284,14 +284,14 @@
 	bureaucrats = {
 
 		size = 600
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 1259
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -305,21 +305,21 @@
 	labourers = {
 
 		size = 22889
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	officers = {
 
 		size = 200
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	soldiers = {
 
 		size = 6300
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -337,7 +337,7 @@
 	artisans = {
 
 		size = 650
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -358,7 +358,7 @@
 	labourers = {
 
 		size = 12000
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -376,21 +376,21 @@
 	artisans = {
 
 		size = 2004
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 640
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
 	labourers = {
 
 		size = 58788
-		culture = picard
+		culture = french #culture = picard
 		religion = picard #religion = catholic
 
 	}
@@ -543,21 +543,21 @@
 	artisans = {
 
 		size = 5036
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	artisans = {
 
 		size = 5494
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	artisans = {
 
 		size = 1350
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = jewish
 
 	}
@@ -571,14 +571,14 @@
 	bureaucrats = {
 
 		size = 228
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 183
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -592,14 +592,14 @@
 	clergymen = {
 
 		size = 343
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 366
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -613,14 +613,14 @@
 	labourers = {
 
 		size = 33116
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	labourers = {
 
 		size = 38496
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -638,21 +638,21 @@
 	artisans = {
 
 		size = 1373
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	artisans = {
 
 		size = 2289
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	artisans = {
 
 		size = 1007
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = jewish
 
 	}
@@ -666,14 +666,14 @@
 	clergymen = {
 
 		size = 274
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 343
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -687,14 +687,14 @@
 	labourers = {
 
 		size = 25273
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	labourers = {
 
 		size = 37887
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -726,14 +726,14 @@
 	artisans = {
 
 		size = 1144
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	artisans = {
 
 		size = 892
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = jewish
 
 	}
@@ -747,7 +747,7 @@
 	bureaucrats = {
 
 		size = 160
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -768,7 +768,7 @@
 	labourers = {
 
 		size = 457
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -800,14 +800,14 @@
 	capitalists = {
 
 		size = 732
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	capitalists = {
 
 		size = 228
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -821,21 +821,21 @@
 	artisans = {
 
 		size = 3204
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	artisans = {
 
 		size = 1373
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = jewish
 
 	}
 	artisans = {
 
 		size = 2289
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -849,7 +849,7 @@
 	clergymen = {
 
 		size = 251
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -863,28 +863,28 @@
 	labourers = {
 
 		size = 5746
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	labourers = {
 
 		size = 25433
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	officers = {
 
 		size = 128
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	officers = {
 
 		size = 54
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
@@ -898,14 +898,14 @@
 	soldiers = {
 
 		size = 824
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = protestant
 
 	}
 	soldiers = {
 
 		size = 183
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -923,7 +923,7 @@
 	artisans = {
 
 		size = 1396
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -944,7 +944,7 @@
 	labourers = {
 
 		size = 1281
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -962,7 +962,7 @@
 	artisans = {
 
 		size = 1121
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -983,7 +983,7 @@
 	labourers = {
 
 		size = 640
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2149,7 +2149,7 @@
 	artisans = {
 
 		size = 4008
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2163,7 +2163,7 @@
 	clergymen = {
 
 		size = 420
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2177,7 +2177,7 @@
 	labourers = {
 
 		size = 30000
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2188,7 +2188,7 @@
 	artisans = {
 
 		size = 230
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2209,7 +2209,7 @@
 	clergymen = {
 
 		size = 110
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2223,7 +2223,7 @@
 	labourers = {
 
 		size = 2500
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2255,7 +2255,7 @@
 	artisans = {
 
 		size = 4000
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2269,7 +2269,7 @@
 	clergymen = {
 
 		size = 1831
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2283,7 +2283,7 @@
 	labourers = {
 
 		size = 100000
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2308,7 +2308,7 @@
 	artisans = {
 
 		size = 1831
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2322,14 +2322,14 @@
 	clergymen = {
 
 		size = 1602
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 101462
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2368,7 +2368,7 @@
 	clergymen = {
 
 		size = 961
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2382,7 +2382,7 @@
 	labourers = {
 
 		size = 83454
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2414,7 +2414,7 @@
 	labourers = {
 
 		size = 40058
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2555,7 +2555,7 @@
 	labourers = {
 
 		size = 11500
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2580,7 +2580,7 @@
 	artisans = {
 
 		size = 2742
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2601,7 +2601,7 @@
 	labourers = {
 
 		size = 126479
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2619,7 +2619,7 @@
 	artisans = {
 
 		size = 920
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2640,7 +2640,7 @@
 	labourers = {
 
 		size = 20400
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2707,7 +2707,7 @@
 	labourers = {
 
 		size = 93219
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2739,14 +2739,14 @@
 	clergymen = {
 
 		size = 1327
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 67899
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2764,21 +2764,21 @@
 	artisans = {
 
 		size = 3662
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 778
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 73577
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2810,7 +2810,7 @@
 	artisans = {
 
 		size = 5494
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2831,7 +2831,7 @@
 	craftsmen = {
 
 		size = 3052
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2845,7 +2845,7 @@
 	labourers = {
 
 		size = 34043
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2884,7 +2884,7 @@
 	labourers = {
 
 		size = 73874
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2902,7 +2902,7 @@
 	artisans = {
 
 		size = 2517
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2916,14 +2916,14 @@
 	clergymen = {
 
 		size = 1034
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 74694
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2969,14 +2969,14 @@
 	clergymen = {
 
 		size = 1648
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 158555
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -2990,7 +2990,7 @@
 	soldiers = {
 
 		size = 4134
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3001,21 +3001,21 @@
 	artisans = {
 
 		size = 5952
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 1144
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 106036
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3033,14 +3033,14 @@
 	clergymen = {
 
 		size = 686
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 27471
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3058,7 +3058,7 @@
 	artisans = {
 
 		size = 1144
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3072,7 +3072,7 @@
 	clergymen = {
 
 		size = 114
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3086,7 +3086,7 @@
 	labourers = {
 
 		size = 10416
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3111,7 +3111,7 @@
 	capitalists = {
 
 		size = 120
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3125,7 +3125,7 @@
 	artisans = {
 
 		size = 276
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3139,28 +3139,28 @@
 	bureaucrats = {
 
 		size = 43
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 525
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 75
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 2756
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3181,7 +3181,7 @@
 	officers = {
 
 		size = 21
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3194,7 +3194,7 @@
 	soldiers = {
 
 		size = 247		
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3212,7 +3212,7 @@
 	artisans = {
 
 		size = 263
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3226,14 +3226,14 @@
 	clergymen = {
 
 		size = 26
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 5068
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3280,7 +3280,7 @@
 	artisans = {
 
 		size = 9157
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3294,14 +3294,14 @@
 	clergymen = {
 
 		size = 824
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 27471
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3322,7 +3322,7 @@
 	soldiers = {
 
 		size = 3021
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3340,14 +3340,14 @@
 	clergymen = {
 
 		size = 572
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 23465
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3365,21 +3365,21 @@
 	artisans = {
 
 		size = 2439
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 490
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 44505
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3397,21 +3397,21 @@
 	artisans = {
 
 		size = 6809
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 603
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
 	labourers = {
 
 		size = 47021
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3447,28 +3447,28 @@
 	artisans = {
 
 		size = 5494
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 389
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 17238
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 17238
-		culture = occitan
+		culture = french #culture = occitan
 		religion = occitan #religion = catholic
 
 	}
@@ -3486,14 +3486,14 @@
 	capitalists = {
 
 		size = 137
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
 	artisans = {
 
 		size = 1373
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -3528,7 +3528,7 @@
 	labourers = {
 
 		size = 39375
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}

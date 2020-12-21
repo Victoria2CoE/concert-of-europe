@@ -1,0 +1,2138 @@
+#############################
+# Greenland, Iceland, Faroe	#
+#############################
+
+###Greenland###
+#Godthab
+251 = {
+	artisans = {
+		size = 13
+		culture = danish
+		religion = danish #religion = protestant
+	}
+	bureaucrats = {
+		size = 22
+		culture = danish
+		religion = danish #religion = protestant
+	}
+	clergymen = {
+		size = 13
+		culture = danish
+		religion = danish #religion = protestant
+	}
+	labourers = {
+		size = 1007
+		culture = inuit
+		religion = inuit #religion = protestant
+	}
+	labourers = {
+		size = 10
+		culture = danish
+		religion = danish #religion = protestant
+	}
+}
+
+#Ammassalik
+2591 = {
+	artisans = {
+		size = 3
+		culture = danish
+		religion = danish #religion = protestant
+	}
+	clergymen = {
+		size = 3
+		culture = danish
+		religion = danish #religion = protestant
+	}
+	labourers = {
+		size = 274
+		culture = inuit
+		religion = inuit #religion = protestant
+	}
+}
+
+#Scoresbysund
+2632 = {
+	artisans = {
+		size = 8
+		culture = inuit
+		religion = inuit #religion = animist
+	}
+	clergymen = {
+		size = 4
+		culture = inuit
+		religion = inuit #religion = animist
+	}
+	labourers = {
+		size = 457
+		culture = inuit
+		religion = inuit #religion = animist
+	}
+}
+
+
+###Iceland###
+252 = {
+	artisans = {
+		size = 690
+		culture = icelandic
+		religion = icelandic #religion = protestant
+	}
+	bureaucrats = {
+		size = 22
+		culture = icelandic
+		religion = icelandic #religion = protestant
+	}
+	clergymen = {
+		size = 91
+		culture = icelandic
+		religion = icelandic #religion = protestant
+	}
+	labourers = {
+		size = 12028
+		culture = icelandic
+		religion = icelandic #religion = protestant
+	}
+}
+
+###Faroe###
+253 = {
+	bureaucrats = {
+		culture = danish
+		religion = danish #religion = protestant
+		size = 25
+	}
+	clergymen = {
+		culture = danish
+		religion = danish #religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = faroese
+		religion = faroese #religion = protestant
+		size = 135
+	}
+	labourers = {
+		culture = faroese
+		religion = faroese #religion = protestant
+		size = 1075
+	}
+}
+
+
+#################
+#	  Norway	#
+#################
+305 = {
+
+	artisans = {
+
+		size = 2976
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 274
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 28615
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+306 = {
+
+	artisans = {
+
+		size = 686
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 10095
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 2431
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+	labourers = {
+
+		size = 507
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+307 = {
+
+	artisans = {
+
+		size = 457
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4044
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3531
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1031
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+308 = {
+
+	capitalists = {
+
+		size = 640
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 16322
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	officers = {
+
+		size = 45
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 2060
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+309 = {
+
+	capitalists = {
+
+		size = 1281
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 4578
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 457
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 183
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 35895
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	officers = {
+
+		size = 91
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 3159
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+310 = {
+
+	artisans = {
+
+		size = 1831
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 35552
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+311 = {
+
+	artisans = {
+
+		size = 686
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 15635
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+312 = {
+
+	artisans = {
+
+		size = 1831
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 29417
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+313 = {
+
+	capitalists = {
+
+		size = 778
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 6409
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 457
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	capitalists = {
+
+		size = 4
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 16734
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	officers = {
+
+		size = 91
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 3204
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+314 = {
+
+	artisans = {
+
+		size = 1007
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 18085
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+315 = {
+
+	artisans = {
+
+		size = 1144
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 21450
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+316 = {
+
+	artisans = {
+
+		size = 686
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 15589
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+
+#################
+#	 Sweden		#
+#################
+317 = {
+
+	artisans = {
+
+		size = 1831
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 274
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 20260
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+318 = {
+
+	capitalists = {
+
+		size = 183
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 17490
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 2569
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+319 = {
+
+	artisans = {
+
+		size = 457
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 8561
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1061
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+	labourers = {
+
+		size = 207
+		culture = norwegian
+		religion = norwegian #religion = protestant
+
+	}
+
+}
+320 = {
+
+	artisans = {
+
+		size = 686
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 10919
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1261
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+321 = {
+
+	artisans = {
+
+		size = 366
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 91
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4026
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3531
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+322 = {
+
+	capitalists = {
+
+		size = 1578
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 686
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 23121
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 457
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 6684
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+323 = {
+
+	artisans = {
+
+		size = 1602
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 29989
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+		size = 2807
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+324 = {
+
+	artisans = {
+
+		size = 1144
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 17879
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+325 = {
+
+	artisans = {
+
+		size = 2747
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 46472
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+326 = {
+
+	artisans = {
+
+		size = 2518
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 44642
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3007
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+327 = {
+
+	artisans = {
+
+		size = 1373
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 26532
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+328 = {
+
+	artisans = {
+
+		size = 2289
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 274
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 39650
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 2407
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+329 = {
+
+	capitalists = {
+
+		size = 1610
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 4578
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 595
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 30905
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 5036
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+330 = {
+
+	artisans = {
+
+		size = 2289
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 46472
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+331 = {
+
+	artisans = {
+
+		size = 640
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 8287
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+332 = {
+
+	artisans = {
+
+		size = 2289
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 202
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 37979
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+333 = {
+
+	artisans = {
+
+		size = 2204
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 243
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 39262
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+334 = {
+
+	capitalists = {
+
+		size = 1183
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 2383
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 732
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 238
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 43148
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 23
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 4100
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+335 = {
+
+	artisans = {
+
+		size = 2861
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 55514
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+2636 = {
+
+	artisans = {
+
+		size = 2050
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 205
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 29150
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+
+#################
+#	 Finland	#
+#################
+336 = {
+
+	artisans = {
+
+		size = 732
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 137
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 13483
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	officers = {
+
+		size = 22
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 585
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+337 = {
+
+	artisans = {
+
+		size = 183
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3411
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+338 = {
+
+	artisans = {
+
+		size = 434
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4581
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3954
+		culture = sami
+		religion = sami #religion = protestant
+
+	}
+
+}
+339 = {
+
+	capitalists = {
+
+		size = 45
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 2014
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 228
+		culture = finnish
+		religion = finnish #religion = orthodox
+
+	}
+	bureaucrats = {
+
+		size = 45
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 137
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 434
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 35100
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4258
+		culture = finnish
+		religion = finnish #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 4000
+		culture = ugrian
+		religion = ugrian #religion = protestant
+
+	}
+	officers = {
+
+		size = 137
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 412
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 91
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+
+}
+340 = {
+
+	artisans = {
+
+		size = 732
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 128
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 12797
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 847
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+341 = {
+
+	artisans = {
+
+		size = 1327
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 251
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 24747
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+342 = {
+
+	artisans = {
+
+		size = 1739
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 334
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 31523
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 847
+		culture = finnish
+		religion = finnish #religion = orthodox
+
+	}
+
+}
+343 = {
+
+	capitalists = {
+
+		size = 389
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 2060
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1602
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 137
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 206
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 17764
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 6707
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 45
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	officers = {
+
+		size = 137
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 1520
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+344 = {
+
+	artisans = {
+
+		size = 526
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 8561
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 732
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+345 = {
+
+	capitalists = {
+
+		size = 2106
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 2701
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 503
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 526
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 49916
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 9363
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 7
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 2443
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 114
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+346 = {
+
+	artisans = {
+
+		size = 2380
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 434
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 43885
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 12522
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+347 = {
+
+	artisans = {
+
+		size = 1007
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 91
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 17077
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 549
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+
+}
+348 = {
+
+	artisans = {
+
+		size = 137
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 9
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 32
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 4
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 2188
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 115
+		culture = finnish
+		religion = finnish #religion = protestant
+
+	}
+
+}
+
+
+#################
+#	 Denmark	#
+#################
+366 = {
+
+	artisans = {
+
+		size = 9157
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 2976
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 320
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 36926
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+367 = {
+
+	capitalists = {
+
+		size = 1144
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 6409
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 22892
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	officers = {
+
+		size = 183
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 7554
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+368 = {
+
+	artisans = {
+
+		size = 2015
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 342
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 35030
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+
+372 = {
+
+	capitalists = {
+
+		size = 1602
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 9034
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = north_german
+		religion = north_german #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 457
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 368
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clerks = {
+
+		size = 47
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 19247
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	officers = {
+
+		size = 457
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 16528
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+373 = {
+
+	artisans = {
+
+		size = 2764
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 37773
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+374 = {
+
+	artisans = {
+
+		size = 383
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3204
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}
+2557 = {
+
+	artisans = {
+
+		size = 5494
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 320
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+	labourers = {
+
+		size = 33000
+		culture = danish
+		religion = danish #religion = protestant
+
+	}
+
+}

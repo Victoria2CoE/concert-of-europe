@@ -306,8 +306,8 @@ country_event = {
 	option = {				# Accept inheritance
 		name = "EVTOPTA11103"
 		clr_country_flag = made_the_call_to_union
-		add_accepted_culture = south_italian
-		add_accepted_culture = north_italian
+		#add_accepted_culture = south_italian
+		add_accepted_culture = italian
 		change_tag = culture
 		any_country = {
 			limit = {
@@ -591,7 +591,7 @@ country_event = {
 				NOT = {
 					OR = {
 						any_owned_province = { port = yes }
-						any_neighbor_country = { primary_culture = south_german }
+						any_neighbor_country = { has_country_flag = south_german_rel }
 					}
 				}
 			}
@@ -618,7 +618,7 @@ country_event = {
 				tag = NGF
 				any_owned_province = {
 					is_core = GER
-					culture = south_german
+					religion = south_german
 				}
 			}
 			AND = {
@@ -644,13 +644,13 @@ country_event = {
 			limit = {
 				owner = { tag = NGF }
 			}
-			owner = { add_accepted_culture = south_german }
+			#owner = { add_accepted_religion = south_german }
 		}
 		random_owned = {
 			limit = {
 				owner = { tag = SGF }
 			}
-			owner = { add_accepted_culture = north_german }
+			owner = { add_accepted_culture = german }
 		}
 		change_tag = GER
 		random_country = {
@@ -937,7 +937,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		primary_culture = north_german
+		has_country_flag = north_german_rel
 		war = no
 		is_vassal = no
 		NOT = {
@@ -951,7 +951,7 @@ country_event = {
 				is_secondary_power = yes
 				NOT = {
 					any_greater_power = {
-						primary_culture = north_german
+						has_country_flag = north_german_rel
 						NOT = { has_country_flag = refused_NGF_idea }
 					}
 				}
@@ -965,7 +965,7 @@ country_event = {
 					any_core = {
 						NOT = { province_id = 370 }
 						NOT = { province_id = 371 }
-						culture = north_german
+						relio = north_german
 						owner = { NOT = { is_culture_group = germanic } }
 					}
 				}
@@ -981,7 +981,7 @@ country_event = {
 				any_core = {
 					NOT = { province_id = 370 }
 					NOT = { province_id = 371 }
-					culture = north_german
+					religion = north_german
 					owned_by = FRA
 				}
 			}
@@ -1025,7 +1025,7 @@ country_event = {
 		set_country_flag = secondary_union_formation
 		any_country = {
 			limit = {
-				primary_culture = north_german 
+				has_country_flag = north_german_rel 
 				NOT = {
 					tag = THIS
 					has_country_flag = post_colonial_country
@@ -1036,7 +1036,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german 
+				has_country_flag = north_german_rel 
 				exists = yes
 				NOT = { tag = THIS }
 			}

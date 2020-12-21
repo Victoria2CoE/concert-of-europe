@@ -1064,7 +1064,7 @@ country_event = {
 		473 = {
 			change_controller = THIS
 			any_pop = {
-				limit = { has_pop_culture = north_italian }
+				limit = { has_pop_religion = north_italian }
 				militancy = -8
 			}
 			secede_province = CRS

@@ -1,0 +1,1042 @@
+#################################
+#DIM Borneo			#
+#(1322620/330655 POPS)		#
+#################################
+
+###########North East Borneo (247700/61925 POPS)
+#Tarakan (132600/33150 POPS)
+1425 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 250
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size= 800
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 22000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 140
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 160
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size= 1000
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 6600
+	}
+}
+#Samarinda (150000/35000 POPS)
+1429 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 500
+
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 8000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 400
+	}
+	
+	bureaucrats = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 350
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1300
+	}
+
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size= 4000
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 16650
+	}
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 3000
+	}
+}
+
+#Gunung Tabur (49480/12370 POPs)
+2629 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 155
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 180
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 890
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 9400
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 450
+	}
+	
+	bureaucrats = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 135
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 245
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1550
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 12000
+	}
+
+}
+
+
+#Kutai Timur (67100/16775 POPs)
+2652 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 250
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 450
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 7500
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 200
+	}
+	
+	bureaucrats = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 450
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 6000
+	}
+
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 1500
+	}
+
+}
+
+#Kutai Barat (128180/32045 POPS)
+2680 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 350
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 250
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 900
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 17500
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 275
+	}
+	
+	bureaucrats = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 800
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 7000
+	}
+
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 3500
+	}
+}
+
+#####Banjar (208000/52000 POPS ######
+#Banjarmasin (38960/9740 POPS)
+2640 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 275
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 2100
+	}
+
+	capitalists = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 375
+	}
+
+	artisans = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size= 800
+
+	}
+
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 8200
+	}
+}
+#Martapoera
+1423 = {
+	capitalists = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 350
+	}
+
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 800
+	}
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 700
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size= 1800
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 4000
+	}
+	
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 17950
+	}
+}
+
+#Muraleve (91500/22875 POPS)
+1422 = {
+	capitalists = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 50
+	}
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 100
+	}
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 400
+	}
+	
+	artisans = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 3000
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 12000
+	}
+	
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 8000
+	}
+}
+#Pasir (36440/8360 POPS)
+1424 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 200
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 200
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 900
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size= 500
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 9300
+	}
+
+	capitalists = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 350
+	}
+
+	clergymen = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 510
+	}
+
+	artisans = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 2600
+	}
+
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 12000
+	}
+	soldiers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 500
+	}
+}
+
+
+#Kota Waringin (55000/13500 POPS)
+1427 = {
+	capitalists = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 700
+	}
+	clergymen = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 400
+	}
+	artisans = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 2200
+	}
+	labourers = {
+		culture = banjarnese
+		religion = banjarnese #religion = sunni
+		size = 22000
+	}
+
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 230
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 500
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 29000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 230
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 700
+	}
+
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size= 400
+
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 8100
+	}
+}
+
+
+
+########West Borneo (+-600000/150000 POPS) #############
+#Pontianak (180620/45155 POPS)
+1426 = {
+	capitalists = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 50
+	}
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 15000
+	}
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 500
+	}
+	bureaucrats = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 50
+	}
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 250
+	}
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 4000
+	}
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size= 2000
+	}
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 12000
+	}
+	bureaucrats = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 125
+	}
+	clergymen = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 75
+	}
+	artisans = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 4150
+	}
+	labourers = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 10250
+	}
+	artisans = {
+		culture = yue
+		religion = yue #religion = mahayana
+		size = 1500
+	}
+}
+
+#Sintang (17000/4500 POPS)
+2599 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 890
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 850
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 4050
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 750
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 38100
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 285
+	}
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 230
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 850
+	}
+	
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 750
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 4700
+	}
+}
+
+
+#Sambas (34000/8500)
+2666 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 240
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 3000
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 17000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1600
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 7000
+	}
+	
+	artisans = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 2000
+	}
+
+	labourers = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 6000
+	}
+
+}
+
+#Lanfang (95000/23750)
+2637 = {
+	capitalists = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 250
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 140
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 750
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 8000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 300
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 200
+	}
+
+	clergymen = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 3000
+	}
+
+	officers = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 80
+	}
+
+	labourers = {
+		culture = hakka
+		religion = hakka #religion = mahayana
+		size = 15000
+	}
+	
+	artisans = {
+		culture = yue
+		religion = yue #religion = mahayana
+		size = 2050
+	}
+}
+
+
+#Matan (25000/6250)
+1452 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 400
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 1800
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 15000
+	}
+
+	capitalists = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 350
+	}
+
+	clergymen = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 280
+	}
+
+	soldiers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1500
+	}
+
+	artisans = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 1500
+	}
+
+	labourers = {
+		culture = malay
+		religion = malay #religion = sunni
+		size = 7000
+	}
+
+}
+
+####Dayak Lands (151260/37815 POPS)########
+#Palangkaraya (43800/10950 POPs)
+1428 = {
+	capitalists = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 490
+	}
+
+	clergymen = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 690
+	}
+
+	artisans = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 920
+	}
+
+	soldiers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 1700
+	}
+
+	labourers = {
+		culture = dayak
+		religion = dayak #religion = animist
+		size = 43150
+	}
+
+}
+
+

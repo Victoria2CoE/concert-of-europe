@@ -198,21 +198,21 @@ political_decisions = {
 			random_country = {
 				limit = {
 					owns = 741
-					primary_culture = south_italian
+					set_country_flag = south_italian_rel
 				}
 				741 = { secede_province = THIS }
 			}
 			random_country = {
 				limit = {
 					owns = 742
-					primary_culture = south_italian
+					set_country_flag = south_italian_rel
 				}
 				742 = { secede_province = THIS }
 			}
 			random_country = {
 				limit = {
 					owns = 743
-					primary_culture = south_italian
+					set_country_flag = south_italian_rel
 				}
 				743 = { secede_province = THIS }
 			}
@@ -480,8 +480,8 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = north_italian
-							has_pop_culture = south_italian
+							has_pop_religion = north_italian
+							has_pop_religion = south_italian
 						}
 					}
 					consciousness = 2
@@ -866,9 +866,9 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = perfect_fusion
-			add_accepted_culture = south_italian
+			#add_accepted_culture = south_italian
 			any_pop = {
-				limit = { has_pop_culture = south_italian }
+				limit = { has_pop_religion = south_italian }
 				militancy = -4
 			}
 		}
@@ -935,8 +935,8 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = north_italian
-							has_pop_culture = south_italian
+							has_pop_religion = north_italian
+							has_pop_religion = south_italian
 						}
 					}
 					consciousness = 2
@@ -973,10 +973,10 @@ political_decisions = {
 			all_core = { add_core = ITA }
 			any_pop = {
 				limit = {
-					OR = {
-						has_pop_culture = north_italian
-						has_pop_culture = south_italian
-					}
+					#OR = {
+						has_pop_religion = north_italian
+						#has_pop_culture = south_italian
+					#}
 				}
 				militancy = -4
 			}
@@ -1150,7 +1150,7 @@ political_decisions = {
 			}
 			change_tag = SVY
 			any_pop = {
-				limit = { has_pop_culture = north_italian }
+				limit = { has_pop_religion = north_italian }
 				militancy = -3
 			}
 		}
@@ -1207,7 +1207,7 @@ political_decisions = {
 				annex_to = THIS
 			}
 			change_tag = SAR
-			add_accepted_culture = south_italian
+			#add_accepted_culture = south_italian
 			any_pop = {
 				limit = { is_culture_group = italian }
 				militancy = -3
@@ -1226,8 +1226,8 @@ political_decisions = {
 			owns = 782 #Dubrovnik
 			owns = 2582 #Kotor
 			OR = {
-				primary_culture = north_italian
-				primary_culture = south_italian
+				has_pop_religion = north_italian
+				has_pop_religion = south_italian
 			}
 			has_country_flag = italia_ulterior
 			NOT = { has_global_flag = italy_has_renamed_dalmatia }
@@ -1305,8 +1305,8 @@ political_decisions = {
 			owns = 734 #Trient
 			owns = 735 #Bozen
 			OR = {
-				primary_culture = north_italian
-				primary_culture = south_italian
+				has_pop_religion = north_italian
+				has_pop_religion = south_italian
 			}
 			NOT = { has_global_flag = italy_has_renamed_trentino }
 		}
@@ -1334,10 +1334,10 @@ political_decisions = {
 		potential = {
 			owns = 734 #Trient
 			owns = 735 #Bozen
-			OR = {
-				primary_culture = north_german
-				primary_culture = south_german
-			}
+			#OR = {
+				has_country_flag = north_german_rel
+				#primary_culture = south_german
+			#}
 			has_global_flag = italy_has_renamed_trentino
 		}
 		

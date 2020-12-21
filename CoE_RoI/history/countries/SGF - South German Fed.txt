@@ -1,6 +1,6 @@
 capital = 599
-primary_culture = south_german
-culture = north_german
+primary_culture = north_german   set_country_flag = south_german_rel
+#culture = north_german
 religion = catholic
 government = democracy
 plurality = 0.15

@@ -115,7 +115,7 @@ country_event = {
 			consciousness = 2
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_religion = north_german }
 			militancy = -2
 			dominant_issue = {
 				factor = 0.05
@@ -213,7 +213,7 @@ country_event = {
 			add_core = THIS
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_religion = north_german }
 			militancy = 3
 		}
 		any_country = {
@@ -452,7 +452,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		NOT = { tag = GER }
-		primary_culture = north_german
+		has_country_flag = north_german_rel
 		is_greater_power = yes
 		state_n_government = 1
 		war = no
@@ -495,7 +495,7 @@ country_event = {
 		badboy = -5
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				has_country_flag = north_german_rel
 				is_greater_power = no
 				exists = yes
 			}

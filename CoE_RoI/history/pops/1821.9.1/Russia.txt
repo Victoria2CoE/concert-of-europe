@@ -2304,7 +2304,7 @@
 	}
 	artisans = {
 		size = 506
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 	}
 	bureaucrats = {
@@ -2470,7 +2470,7 @@
 	}
 	artisans = {
 		size = 216
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 	}
 	artisans = {
@@ -2487,7 +2487,7 @@
 	}
 	clergymen = {
 		size = 68
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 	}
 	clergymen = {
@@ -2660,7 +2660,7 @@
 	}
 	artisans = {
 		size = 881
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 	}
 	bureaucrats = {

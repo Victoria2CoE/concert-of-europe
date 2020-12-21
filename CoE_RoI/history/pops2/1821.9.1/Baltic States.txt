@@ -1,0 +1,1555 @@
+#################
+#	 Estonia	#
+#################
+349 = {
+
+	capitalists = {
+
+		size = 1057
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	capitalists = {
+
+		size = 1121
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 686
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 755
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 274
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	artisans = {
+
+		size = 160
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	bureaucrats = {
+
+		size = 68
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 22
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 297
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 31981
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 366
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	officers = {
+
+		size = 114
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	officers = {
+
+		size = 45
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	soldiers = {
+
+		size = 2048
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 22
+		culture = swedish
+		religion = swedish #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 137
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+
+}
+350 = {
+
+	artisans = {
+
+		size = 2106
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 91
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 389
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 37429
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+
+}
+351 = {
+
+	artisans = {
+
+		size = 503
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 549
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 366
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 19046
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+
+}
+352 = {
+
+	artisans = {
+
+		size = 503
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1190
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 91
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 320
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 31592
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1213
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+
+}
+353 = {
+
+	artisans = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 135
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 9
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3319
+		culture = estonian
+		religion = estonian #religion = protestant
+
+	}
+
+}
+
+##############
+#	Latvia	 #
+##############
+354 = {
+
+	capitalists = {
+
+		size = 2986
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	capitalists = {
+
+		size = 246
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 1373
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 6158
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 1373
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 2632
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	bureaucrats = {
+
+		size = 108
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 38
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 297
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 35506
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	officers = {
+
+		size = 143
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	officers = {
+
+		size = 51
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	soldiers = {
+
+		size = 1363
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 91
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+
+}
+355 = {
+
+	artisans = {
+
+		size = 1567
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 299
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 507
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 48
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 186
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 507
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 25
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 38
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 25
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 72
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 53818
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1798
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+	}
+	labourers = {
+
+		size = 719
+		culture = russian
+		religion = russian #religion = orthodox
+	}
+
+}
+
+356 = {
+
+	artisans = {
+
+		size = 595
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 2014
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 366
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 68
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 18131
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1396
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 1877
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 3525
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+
+}
+357 = {
+
+	capitalists = {
+
+		size = 2057
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	capitalists = {
+
+		size = 120
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	capitalists = {
+
+		size = 457
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 228
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 686
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 183
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	bureaucrats = {
+
+		size = 75
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 30
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 206
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 25891
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 686
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	officers = {
+
+		size = 85
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	officers = {
+
+		size = 40
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	soldiers = {
+
+		size = 1200
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	soldiers = {
+
+		size = 297
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	soldiers = {
+
+		size = 183
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+358 = {
+
+	artisans = {
+
+		size = 274
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 640
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 228
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 206
+		culture = ugrian
+		religion = ugrian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 26967
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1373
+		culture = ugrian
+		religion = ugrian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 869
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+359 = {
+
+	artisans = {
+
+		size = 137
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 366
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 185
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 19664
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 686
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+
+3251 = {
+
+	artisans = {
+
+		size = 1300
+		culture = latvian
+		religion = latvian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 200
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	artisans = {
+
+		size = 250
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 500
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 45
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	artisans = {
+
+		size = 180
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 700
+		culture = latvian
+		religion = latvian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 100
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 20
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 30
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 20
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 85
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 41000
+		culture = latvian
+		religion = latvian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 4000
+		culture = latvian
+		religion = latvian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 1750
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 700
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 3854
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 3054
+		culture = byelorussian
+		religion = byelorussian #religion = catholic
+
+	}
+
+}
+
+#################
+#	Lithuania	#
+#################
+360 = {
+
+	capitalists = {
+
+		size = 5719
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 1689
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 2833
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 750
+		culture = tatar
+		religion = tatar #religion = jewish
+
+	}
+	artisans = {
+
+		size = 450
+		culture = tatar
+		religion = tatar #religion = sunni
+
+	}
+	artisans = {
+
+		size = 1200
+		culture = byelorussian
+		religion = byelorussian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 2976
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 2204
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 108
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 107
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 71
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 50
+		culture = byelorussian
+		religion = byelorussian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 48
+		culture = tatar
+		religion = tatar #religion = sunni
+
+	}
+	clergymen = {
+
+		size = 58
+		culture = tatar
+		religion = tatar #religion = jewish
+
+	}
+	clergymen = {
+		size = 126
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	labourers = {
+
+		size = 5154
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 7560
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 3600
+		culture = byelorussian
+		religion = byelorussian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 10400
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	officers = {
+
+		size = 124
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	soldiers = {
+
+		size = 896
+		culture = byelorussian
+		religion = byelorussian #religion = orthodox
+
+	}
+	soldiers = {
+
+		size = 1439
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	soldiers = {
+
+		size = 480
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+361 = {
+
+	capitalists = {
+
+		size = 5612
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 953
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 237
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 1648
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	bureaucrats = {
+
+		size = 98
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 366
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+		size = 26
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 504
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	labourers = {
+
+		size = 27839
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 2500
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4503
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 6455
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	officers = {
+
+		size = 104
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	soldiers = {
+
+		size = 3433
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	soldiers = {
+
+		size = 144
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+
+363 = {
+
+	artisans = {
+
+		size = 1402
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 2717
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 183
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	artisans = {
+
+		size = 200
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	artisans = {
+
+		size = 91
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 68
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+	labourers = {
+
+		size = 26569
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 2000
+		culture = lithuanian
+		religion = lithuanian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 6249
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 686
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	labourers = {
+
+		size = 3000
+		culture = polish
+		religion = polish #religion = catholic
+
+	}
+	labourers = {
+
+		size = 1671
+		culture = russian
+		religion = russian #religion = orthodox
+
+	}
+
+}
+364 = {
+
+	artisans = {
+
+		size = 1144
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 1281
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 366
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 34651
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 2000
+		culture = lithuanian
+		religion = lithuanian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 4944
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+
+}
+365 = {
+
+	artisans = {
+
+		size = 457
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	artisans = {
+
+		size = 549
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	artisans = {
+
+		size = 91
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	clergymen = {
+
+		size = 137
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+	labourers = {
+
+		size = 13491
+		culture = lithuanian
+		religion = lithuanian #religion = catholic
+
+	}
+	labourers = {
+
+		size = 1000
+		culture = lithuanian
+		religion = lithuanian #religion = protestant
+
+	}
+	labourers = {
+
+		size = 2129
+		culture = ashkenazi
+		religion = ashkenazi #religion = jewish
+
+	}
+	labourers = {
+
+		size = 778
+		culture = russian_german
+		religion = russian_german #religion = protestant
+
+	}
+
+}

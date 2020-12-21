@@ -2013,7 +2013,7 @@
 	artisans = {
 
 		size = 1007
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}

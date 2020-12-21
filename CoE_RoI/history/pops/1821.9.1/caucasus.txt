@@ -515,7 +515,7 @@
 	capitalists = {
 
 		size = 132
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -613,7 +613,7 @@
 	labourers = {
 
 		size = 1118
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}

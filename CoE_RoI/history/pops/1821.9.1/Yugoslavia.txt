@@ -10,7 +10,7 @@
 	capitalists = {
 
 		size = 1007
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -45,7 +45,7 @@
 	artisans = {
 
 		size = 1053
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -80,7 +80,7 @@
 	clergymen = {
 
 		size = 251
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -122,7 +122,7 @@
 	labourers = {
 
 		size = 17657
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -164,7 +164,7 @@
 	soldiers = {
 
 		size = 231
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -224,7 +224,7 @@
 	labourers = {
 
 		size = 1158
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -443,7 +443,7 @@
 	capitalists = {
 
 		size = 320
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -471,7 +471,7 @@
 	artisans = {
 
 		size = 2820
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -499,7 +499,7 @@
 	bureaucrats = {
 
 		size = 434
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -527,7 +527,7 @@
 	clergymen = {
 
 		size = 492
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -569,7 +569,7 @@
 	labourers = {
 
 		size = 65701
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -597,7 +597,7 @@
 	officers = {
 
 		size = 320
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -625,7 +625,7 @@
 	soldiers = {
 
 		size = 778
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -664,7 +664,7 @@
 	artisans = {
 
 		size = 732
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -685,7 +685,7 @@
 	clergymen = {
 
 		size = 137
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -706,7 +706,7 @@
 	labourers = {
 
 		size = 11812
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -724,7 +724,7 @@
 	artisans = {
 
 		size = 1007
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -738,7 +738,7 @@
 	clergymen = {
 
 		size = 45
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -752,7 +752,7 @@
 	labourers = {
 
 		size = 2884
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -770,7 +770,7 @@
 	capitalists = {
 
 		size = 1442
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -784,7 +784,7 @@
 	bureaucrats = {
 
 		size = 228
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -805,7 +805,7 @@
 	labourers = {
 
 		size = 6000
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -819,14 +819,14 @@
 	officers = {
 
 		size = 91
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	soldiers = {
 
 		size = 1053
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -851,7 +851,7 @@
 	bureaucrats = {
 
 		size = 1
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -865,7 +865,7 @@
 	clergymen = {
 
 		size = 22
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -879,7 +879,7 @@
 	labourers = {
 
 		size = 1804
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -890,7 +890,7 @@
 	artisans = {
 
 		size = 1327
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -904,7 +904,7 @@
 	clergymen = {
 
 		size = 183
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -918,7 +918,7 @@
 	labourers = {
 
 		size = 19115
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -971,7 +971,7 @@
 	artisans = {
 
 		size = 274
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -985,7 +985,7 @@
 	bureaucrats = {
 
 		size = 593
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1013,7 +1013,7 @@
 	clergymen = {
 
 		size = 68
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1041,7 +1041,7 @@
 	labourers = {
 
 		size = 5952
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1076,7 +1076,7 @@
 	soldiers = {
 
 		size = 68
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1311,7 +1311,7 @@
 	artisans = {
 
 		size = 1190
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1332,7 +1332,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1353,7 +1353,7 @@
 	labourers = {
 
 		size = 4052
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1378,7 +1378,7 @@
 	capitalists = {
 
 		size = 320
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1406,7 +1406,7 @@
 	artisans = {
 
 		size = 320
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1434,7 +1434,7 @@
 	clergymen = {
 
 		size = 45
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1462,7 +1462,7 @@
 	labourers = {
 
 		size = 4853
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1490,7 +1490,7 @@
 	soldiers = {
 
 		size = 45
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -1502,7 +1502,7 @@
 	capitalists = {
 
 		size = 709
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1516,7 +1516,7 @@
 	artisans = {
 
 		size = 1657
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1537,7 +1537,7 @@
 	bureaucrats = {
 
 		size = 68
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1551,7 +1551,7 @@
 	clergymen = {
 
 		size = 122
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1572,7 +1572,7 @@
 	labourers = {
 
 		size = 3412
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1586,7 +1586,7 @@
 	officers = {
 
 		size = 68
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1600,7 +1600,7 @@
 	soldiers = {
 
 		size = 222
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1625,7 +1625,7 @@
 	artisans = {
 
 		size = 1240
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1639,7 +1639,7 @@
 	clergymen = {
 
 		size = 258
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1653,7 +1653,7 @@
 	labourers = {
 
 		size = 6945
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1670,7 +1670,7 @@
 	artisans = {
 
 		size = 657
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1691,7 +1691,7 @@
 	clergymen = {
 
 		size = 22
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -1712,7 +1712,7 @@
 	labourers = {
 
 		size = 1366
-		culture = north_italian
+		culture = italian #culture = north_italian
 		religion = north_italian #religion = catholic
 
 	}
@@ -2257,7 +2257,7 @@
 	artisans = {
 
 		size = 320
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2278,7 +2278,7 @@
 	clergymen = {
 
 		size = 45
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2306,7 +2306,7 @@
 	labourers = {
 
 		size = 3784
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2331,7 +2331,7 @@
 	artisans = {
 
 		size = 1007
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2359,7 +2359,7 @@
 	clergymen = {
 
 		size = 183
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2387,7 +2387,7 @@
 	labourers = {
 
 		size = 15123
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2433,7 +2433,7 @@
 	artisans = {
 
 		size = 91
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2454,7 +2454,7 @@
 	clergymen = {
 
 		size = 36
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -2475,7 +2475,7 @@
 	labourers = {
 
 		size = 1634
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}

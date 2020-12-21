@@ -73,14 +73,14 @@
 	artisans = {
 
 		size = 3204
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
 
 	clergymen = {
 		size = 86
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}

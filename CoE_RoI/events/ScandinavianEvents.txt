@@ -833,7 +833,7 @@ country_event = {
 			add_core = THIS
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_religion = north_german }
 			militancy = 3
 		}
 		any_country = {

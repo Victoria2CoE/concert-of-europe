@@ -297,7 +297,7 @@ country_event = { #original VIP event by Palisadoes
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = south_german
+				has_pop_religion = south_german
 				location = { is_core = BOH }
 			}
 			consciousness = 4
@@ -316,7 +316,7 @@ country_event = { #original VIP event by Palisadoes
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = south_german
+				has_pop_religion = south_german
 				location = { is_core = BOH }
 			}
 			consciousness = -2

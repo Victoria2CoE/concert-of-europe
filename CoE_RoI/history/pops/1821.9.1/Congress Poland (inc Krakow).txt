@@ -24,7 +24,7 @@
 	artisans = {
 
 		size = 183
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -52,7 +52,7 @@
 	clergymen = {
 
 		size = 68
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -80,7 +80,7 @@
 	labourers = {
 
 		size = 3365
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -155,7 +155,7 @@
 	labourers = {
 
 		size = 840
-		culture = south_german
+		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
@@ -224,7 +224,7 @@
 	artisans = {
 
 		size = 2289
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -259,7 +259,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -294,7 +294,7 @@
 	labourers = {
 
 		size = 3113
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -329,7 +329,7 @@
 	soldiers = {
 
 		size = 45
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -470,7 +470,7 @@
 	artisans = {
 
 		size = 228
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -498,7 +498,7 @@
 	clergymen = {
 
 		size = 32
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -519,7 +519,7 @@
 	labourers = {
 
 		size = 2463
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -590,7 +590,7 @@
 	artisans = {
 
 		size = 228
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -611,7 +611,7 @@
 	clergymen = {
 
 		size = 22
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -632,7 +632,7 @@
 	labourers = {
 
 		size = 1556
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -704,7 +704,7 @@
 	artisans = {
 
 		size = 183
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -739,7 +739,7 @@
 	clergymen = {
 
 		size = 68
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -767,7 +767,7 @@
 	labourers = {
 
 		size = 3388
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -860,7 +860,7 @@
 	artisans = {
 
 		size = 3004
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -881,7 +881,7 @@
 	clergymen = {
 
 		size = 74
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -902,7 +902,7 @@
 	labourers = {
 
 		size = 3004
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -937,7 +937,7 @@
 	soldiers = {
 
 		size = 200
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1023,7 +1023,7 @@
 	artisans = {
 
 		size = 183
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1051,7 +1051,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1079,7 +1079,7 @@
 	labourers = {
 
 		size = 3411
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1130,7 +1130,7 @@
 	artisans = {
 		
 		size = 1200
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
@@ -1193,7 +1193,7 @@
 	labourers = {
 
 		size = 2004
-		culture = north_german
+		culture = german  #culture = north_german
 		religion = north_german #religion = protestant
 
 	}
