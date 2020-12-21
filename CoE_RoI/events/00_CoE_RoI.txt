@@ -533,8 +533,8 @@ country_event = {
 
 	option = {
 		name = "Why the hell are you playing as Bhutan?"
-		any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } }
-		any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
+		#any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } }
+		#any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
 		random_country = {
 			limit = { 
 				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
