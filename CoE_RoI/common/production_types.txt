@@ -4,7 +4,7 @@
 military_factory_template = {
 	efficiency = {
 		coal = 15.0 #3.45$
-		horses = .625 #0.4$
+		horses = 0.625 #0.4$
 		lead = 2.5 #0.92$
 		copper = 2.5 #1.4$
 		sulphur = 1.25 #0.7$
