@@ -671,15 +671,15 @@ industrialized_armament_industry = {
 		factory_goods_output = {
 			military_industry = 0.01
 		}
-		factory_goods_output = {
-			military_industry = 0.01
-		}
-		factory_goods_output = {
-			military_industry = 0.01
-		}
-		factory_goods_output = {
-			military_industry =  0.01
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.01
+		#}
+		#factory_goods_output = {
+		#	military_industry = 0.01
+		#}
+		#factory_goods_output = {
+		#	military_industry =  0.01
+		#}
 	}
 	
 	

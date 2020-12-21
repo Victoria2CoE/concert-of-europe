@@ -8,9 +8,9 @@ home_rifle_smiths = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -27,9 +27,9 @@ small_scale_riflemaking = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -45,9 +45,9 @@ rifle_war_experience = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -63,9 +63,9 @@ advanced_riflemaking = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 }
 
@@ -92,9 +92,9 @@ improved_artillery_manufacturing = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -111,9 +111,9 @@ practical_artillery_experience = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -131,9 +131,9 @@ advanced_target_practice = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -151,9 +151,9 @@ heavy_artillery_making = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -186,9 +186,9 @@ improved_ship_building_R&D = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -205,9 +205,9 @@ late_colonial_ships = {
 		factory_goods_output = {
 			military_industry = 0.02
 		}
-		factory_goods_output = {
-			military_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	military_industry = 0.02
+		#}
 	}
 	
 	
@@ -570,21 +570,21 @@ motorised_infantry = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 3
+			factor = 5
 			invention = daimlers_automobile
 		}
 		modifier = {
-			factor = 3
+			factor = 5
 			invention = national_radio_networks 
 		}
-		modifier = {
-			factor = 1
-			invention = gas_attack_capability 
-		}
-		modifier = {
-			factor = 1
-			invention = gas_defense_capability 
-		}
+		#modifier = {
+		#	factor = 1
+		#	invention = gas_attack_capability 
+		#}
+		#modifier = {
+		#	factor = 1
+		#	invention = gas_defense_capability 
+		#}
 		modifier = {
 			factor = 5
 			invention = stormtrooper_training 
@@ -2784,12 +2784,12 @@ luxury_focus = {
 		factory_goods_output = {
 			light_industry =  0.02
 		}
-		factory_goods_output = {
-			luxury_industry = 0.02
-		}
-		factory_goods_output = {
-			light_industry = 0.02
-		}
+		#factory_goods_output = {
+		#	luxury_industry = 0.02
+		#}
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#}
 		factory_goods_output = {
 			food_industry = 0.02
 		}
@@ -2816,24 +2816,24 @@ necessity_focus = {
 		factory_goods_output = {
 			light_industry =  0.02
 		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
-		factory_goods_output = {
-			light_industry =  0.02
-		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
-		factory_goods_output = {
-			food_industry = 0.02
-		} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
+		#factory_goods_output = {
+		#	light_industry =  0.02
+		#} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
+		#factory_goods_output = {
+		#	food_industry = 0.02
+		#} 
 		factory_goods_output = {
 			heavy_industry =  0.02
 		} 
@@ -2862,12 +2862,12 @@ high_tech_focus = {
 		factory_goods_output = {
 			light_industry = 0.02
 		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
-		factory_goods_output = {
-			light_industry = 0.02
-		} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
+		#factory_goods_output = {
+		#	light_industry = 0.02
+		#} 
 		factory_goods_output = {
 			luxury_industry =  0.02
 		} 
@@ -6448,12 +6448,12 @@ industrial_electrolysis = {
 		factory_goods_output = {
 			heavy_industry =  0.1
 		}
-		factory_goods_output = {
-			heavy_industry =  0.1
-		}
-		factory_goods_output = {
-			heavy_industry =  0.1
-		}
+		#factory_goods_output = {
+		#	heavy_industry =  0.1
+		#}
+		#factory_goods_output = {
+		#	heavy_industry =  0.1
+		#}
 	}
 }
 
@@ -6495,18 +6495,18 @@ electrometallurgy = {
 		rgo_goods_throughput = {
 			iron = 0.2
 		}
-		rgo_goods_throughput = {
-			iron = 0.2
-		}
-		rgo_goods_throughput = {
-			iron = 0.2
-		}
+		#rgo_goods_throughput = {
+		#	iron = 0.2
+		#}
+		#rgo_goods_throughput = {
+		#	iron = 0.2
+		#}
 		factory_goods_throughput = {
 			heavy_industry =  0.5
 		}
-		factory_goods_throughput = {
-			heavy_industry =  0.5
-		}
+		#factory_goods_throughput = {
+		#	heavy_industry =  0.5
+		#}
 	}
 }
 
@@ -6545,18 +6545,18 @@ precision_machinery = {
 		factory_goods_output = {
 			heavy_industry =  0.05
 		}
-		factory_goods_output = {
-			light_industry = 0.05
-		}
-		factory_goods_output = {
-			heavy_industry = 0.05
-		}
-		factory_goods_output = {
-			light_industry = 0.05
-		}
-		factory_goods_output = {
-			military_industry = 0.05
-		}
+		#factory_goods_output = {
+		#	light_industry = 0.05
+		#}
+		#factory_goods_output = {
+		#	heavy_industry = 0.05
+		#}
+		#factory_goods_output = {
+		#	light_industry = 0.05
+		#}
+		#factory_goods_output = {
+		#	military_industry = 0.05
+		#}
 		factory_goods_output = {
 			military_industry = 0.05
 		}
@@ -6583,9 +6583,9 @@ modern_power_plants = {
 		factory_goods_input = {
 			coal = -0.05
 		}
-		factory_goods_input = {
-			oil = -0.05
-		}
+		#factory_goods_input = {
+		#	oil = -0.05
+		#}
 	}
 }
 
