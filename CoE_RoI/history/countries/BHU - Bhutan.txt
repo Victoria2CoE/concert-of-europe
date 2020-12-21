@@ -32,6 +32,8 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
+decision = declare_neutrality
+
 ruling_party = BHU_conservative
 upper_house = {
 	fascist = 0
