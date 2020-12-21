@@ -40,7 +40,7 @@ political_decisions = {
 			NOT = { has_country_modifier = austerity_measures }
 		}
 		effect = {
-			add_tax_relative_income = -15
+			add_tax_relative_income = -20
 			any_owned = { limit = { has_pop_type = capitalists } owner = { money = 300 } }
 			any_pop = { limit = { type = capitalists } money = -250 }
 			
