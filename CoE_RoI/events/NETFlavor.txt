@@ -507,11 +507,7 @@ country_event = {
 
 	option = {
 		name = "Propose the exchange."
-		NET = { country_event = { 
-		id = 95253 
-		#days = 10 
-		} 
-		}
+		NET = { country_event = 95253 }
 		ai_chance = {
 			factor = 95
 		}
@@ -520,10 +516,7 @@ country_event = {
 	option = {
 		name = "Demand that the Dutch withdraw."
 		badboy = 3
-		NET = { country_event = { id = 95254 
-		#days = 10 
-		} 
-		}
+		NET = { country_event = 95254 }
 		ai_chance = {
 			factor = 5
 		}
@@ -581,10 +574,7 @@ country_event = {
 			diplomatic_influence = { who = ATJ value = 200 }
 			diplomatic_influence = { who = SAK value = -200 }
 			diplomatic_influence = { who = DJA value = -200 }
-			country_event = { 
-			id = 95255 
-			#days = 10 
-			}
+			country_event = 95255 
 		}
 		TUR = {
 			diplomatic_influence = { who = ATJ value = -200 }
