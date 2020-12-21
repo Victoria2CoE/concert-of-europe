@@ -602,11 +602,7 @@ country_event = {
 		name = "We prefer the status quo."
 		relation = { who = ENG value = -50 }
 		prestige = 4
-		ENG = { country_event = { 
-		id = 95256 
-		#days = 10 
-		} 
-		}
+		ENG = { country_event = 95256 }
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -659,10 +655,7 @@ country_event = {
 			diplomatic_influence = { who = JOH value = 100 }
 			diplomatic_influence = { who = SIA value = 50 }
 			diplomatic_influence = { who = NET value = 50 }
-			country_event = { 
-			id = 95255 
-			#days = 10 
-			}
+			country_event = 95255 
 		}
 		ai_chance = {
 			factor = 75
