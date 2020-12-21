@@ -12,7 +12,7 @@ country_event = {
 	picture = "Finepeople"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1824
 	}
 	
@@ -424,7 +424,7 @@ country_event = {
 	picture = "Parade"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -601,7 +601,7 @@ country_event = {
 	picture = "Parade"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -707,7 +707,7 @@ country_event = {
 	picture = "Parade"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {

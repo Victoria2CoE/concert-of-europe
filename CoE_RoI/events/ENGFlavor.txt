@@ -3073,7 +3073,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		ENG = { money = 15000 }
 		year = 1830
 		OR = {
@@ -3187,7 +3187,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		ENG = { money = 15000 }
 		year = 1835
 		OR = {
@@ -3346,7 +3346,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		ENG = { money = 15000 }
 		year = 1825
 		OR = {
@@ -3522,7 +3522,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		ENG = { money = 15000 }
 		year = 1836
 		OR = {
@@ -3795,7 +3795,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		exists = yes
 		ENG = { money = 15000 }
 		year = 1829

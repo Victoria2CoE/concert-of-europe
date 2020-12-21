@@ -61,7 +61,7 @@
 #	desc = "Ghost Unit CleanUp Initialisation"
 #
 #	trigger = { 
-#	           has_country_flag = game_master
+#	           tag = BHU
 #	           any_country = {
 #		                      exists = no
 #		                      OR = {
@@ -208,7 +208,7 @@ country_event = {
 #	
 #	option = {
 #		name = "Game Master"
-#		#any_country = { limit = { has_country_flag = game_master } clr_country_flag = game_master }
+#		#any_country = { limit = { tag = BHU } clr_country_flag = game_master }
 #		#random_country = {
 #		#	limit = { AND = { exists = yes ai = yes } }
 #		#	set_country_flag = game_master

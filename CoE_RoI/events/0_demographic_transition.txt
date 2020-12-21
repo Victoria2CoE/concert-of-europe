@@ -6,7 +6,7 @@
 ##    #fire_only_once = yes	
 ##	
 ##    trigger = {
-##	           has_country_flag = game_master
+##	           tag = BHU
 ##			   #has_global_flag = dt_setup    
 ##	}
 ##	mean_time_to_happen = {
@@ -1103,7 +1103,7 @@
 #    #fire_only_once = yes	
 #	
 #    trigger = {
-#	           has_country_flag = game_master
+#	           tag = BHU
 #			   OR = {
 #			         AND = {
 #			                year = 1830

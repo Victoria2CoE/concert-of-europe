@@ -8,7 +8,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -149,7 +149,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -236,7 +236,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -287,7 +287,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -438,7 +438,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -492,7 +492,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -538,7 +538,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -602,7 +602,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -653,7 +653,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -688,7 +688,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -741,7 +741,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -896,7 +896,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -953,7 +953,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1012,7 +1012,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1850
 	}
 	
@@ -1138,7 +1138,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1190,7 +1190,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1312,7 +1312,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1880
 	}
 	
@@ -1432,7 +1432,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1890
 	}
 	
@@ -1478,7 +1478,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1613,7 +1613,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1648,7 +1648,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1698,7 +1698,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1900
 	}
 	
@@ -1743,7 +1743,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1830
 	}
 	
@@ -1804,7 +1804,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -1957,7 +1957,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 		year = 1830
 	}
 	
@@ -2014,7 +2014,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
@@ -2074,7 +2074,7 @@ country_event = {
 	picture = "factory"
 	
 	trigger = {
-		has_country_flag = game_master
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
