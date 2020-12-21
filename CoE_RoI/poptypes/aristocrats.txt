@@ -6,7 +6,7 @@ unemployment = yes
 #state_capital_only = yes
 
 #merge_max_size = 1
-max_size = 10
+max_size = 1000
 
 #is_slave = yes
 allowed_to_vote = yes

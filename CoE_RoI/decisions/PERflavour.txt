@@ -529,9 +529,9 @@ political_decisions = {
 			prestige = 5
 			badboy = 5
 			any_pop = {
-				#limit = {
-				#	has_pop_religion = shiite
-				#}
+				limit = {
+					has_pop_religion = shiite
+				}
 				militancy = -5
 				consciousness = -5
 			}

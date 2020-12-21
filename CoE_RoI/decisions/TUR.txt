@@ -273,7 +273,7 @@ political_decisions = {
 				all_core = { add_core = TUR }
 			}
 			any_pop = {
-				#limit = { has_pop_religion = sunni }
+				limit = { has_pop_religion = sunni }
 				ideology = {
 					value = reactionary
 					factor = 0.1
@@ -598,7 +598,7 @@ political_decisions = {
 				duration = -1
 			}
 			any_pop = {
-				#limit = { has_pop_religion = sunni }
+				limit = { has_pop_religion = sunni }
 				consciousness = -4
 				militancy = -4
 			}

@@ -3510,11 +3510,11 @@ country_event = {
 				NOT = {
 					strata = poor
 				}
-				#OR = {
-				#	has_pop_religion = shiite
-				#	has_pop_religion = sunni
-				#	has_pop_religion = ibadi
-				#}
+				OR = {
+					has_pop_religion = shiite
+					has_pop_religion = sunni
+					has_pop_religion = ibadi
+				}
 			}
 			consciousness = 1
 		}

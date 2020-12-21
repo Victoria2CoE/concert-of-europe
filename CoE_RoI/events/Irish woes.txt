@@ -1141,7 +1141,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				has_pop_culture = irish
-				#has_pop_religion = catholic
+				has_pop_religion = catholic
 				location = { is_core = IRE }
 			}
 			consciousness = 5
@@ -1154,7 +1154,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				has_pop_culture = irish
-				#has_pop_religion = catholic
+				has_pop_religion = catholic
 				location = { is_core = IRE }
 			}
 			militancy = -3
@@ -1307,7 +1307,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				has_pop_culture = irish
-				#has_pop_religion = catholic
+				has_pop_religion = catholic
 				location = { is_core = IRE }
 			}
 			militancy = -10
@@ -1444,7 +1444,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				has_pop_culture = irish
-				#has_pop_religion = catholic
+				has_pop_religion = catholic
 				location = { is_core = IRE }
 			}
 			militancy = -10

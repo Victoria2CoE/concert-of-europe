@@ -1,0 +1,2414 @@
+#############################
+# 		   Ireland			#
+#############################
+
+###Northern Ireland###
+#Belfast
+254 = {
+	capitalists = {
+		size = 1694
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 9157
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 1831
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 5036
+		culture = irish
+		religion = catholic
+	}
+	bureaucrats = {
+		size = 1030
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 457
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 228
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 80468
+		culture = british
+		religion = protestant
+	}
+	labourers = {
+		size = 23121
+		culture = irish
+		religion = catholic
+	}
+	officers = {
+		size = 228
+		culture = british
+		religion = protestant
+	}
+	soldiers = {
+		size = 3236
+		culture = british
+		religion = protestant
+	}
+	soldiers = {
+		size = 686
+		culture = irish
+		religion = catholic
+	}
+}
+
+#Londonderry
+255 = {
+	artisans = {
+		size = 1373
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 4595
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 343
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 228
+		culture = british
+		religion = protestant
+	}
+	labourers = {
+		size = 42694
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 68869
+		culture = british
+		religion = protestant
+	}
+}
+
+#Armagh
+256 = {
+	artisans = {
+		size = 2289
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 457
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 228
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 228
+		culture = irish
+		religion = catholic
+	}
+	craftsmen = {
+		size = 3
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 39375
+		culture = british
+		religion = protestant
+	}
+	labourers = {
+		size = 18772
+		culture = irish
+		religion = catholic
+	}
+}
+
+###Rest of Ireland###
+257 = {
+	artisans = {
+		size = 3433
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 2060
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 228
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 45
+		culture = british
+		religion = protestant
+	}
+	labourers = {
+		size = 94547
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 15177
+		culture = british
+		religion = protestant
+	}
+}
+258 = {
+	capitalists = {
+		size = 1694
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 6409
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 1144
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 116066
+		culture = irish
+		religion = catholic
+	}
+	soldiers = {
+		size = 4120
+		culture = irish
+		religion = catholic
+	}
+	soldiers = {
+		size = 114
+		culture = british
+		religion = protestant
+	}
+}
+259 = {
+	artisans = {
+		size = 8699
+		culture = irish
+		religion = catholic
+	}
+	bureaucrats = {
+		size = 457
+		culture = british
+		religion = protestant
+	}
+	bureaucrats = {
+		size = 228
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 1831
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 161393
+		culture = irish
+		religion = catholic
+	}
+}
+260 = {
+	capitalists = {
+		size = 2016
+		culture = irish
+		religion = catholic
+	}
+	capitalists = {
+		size = 824
+		culture = british
+		religion = protestant
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 1831
+		culture = irish
+		religion = catholic
+	}
+	bureaucrats = {
+		size = 1831
+		culture = irish
+		religion = catholic
+	}
+	bureaucrats = {
+		size = 686
+		culture = british
+		religion = protestant
+	}
+	clergymen = {
+		size = 1373
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 172474
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 4807
+		culture = british
+		religion = protestant
+	}
+	officers = {
+		size = 457
+		culture = irish
+		religion = catholic
+	}
+	officers = {
+		size = 228
+		culture = british
+		religion = protestant
+	}
+	soldiers = {
+		size = 3754
+		culture = irish
+		religion = catholic
+	}
+	soldiers = {
+		size = 457
+		culture = british
+		religion = protestant
+	}
+}
+261 = {
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 3668
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 1373
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 170779
+		culture = irish
+		religion = catholic
+	}
+}
+262 = {
+	artisans = {
+		size = 6409
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 686
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 114234
+		culture = irish
+		religion = catholic
+	}
+}
+263 = {
+	capitalists = {
+		size = 1281
+		culture = british
+		religion = protestant
+	}
+	capitalists = {
+		size = 549
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 9157
+		culture = irish
+		religion = catholic
+	}
+	artisans = {
+		size = 1831
+		culture = irish
+		religion = catholic
+	}
+	bureaucrats = {
+		size = 572
+		culture = british
+		religion = protestant
+	}
+	bureaucrats = {
+		size = 1833
+		culture = irish
+		religion = catholic
+	}
+	clergymen = {
+		size = 2060
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 141362
+		culture = irish
+		religion = catholic
+	}
+	officers = {
+		size = 457
+		culture = irish
+		religion = catholic
+	}
+	soldiers = {
+		size = 4673
+		culture = irish
+		religion = catholic
+	}
+}
+264 = {
+	artisans = {
+		size = 5952
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 114005
+		culture = irish
+		religion = catholic
+	}
+}
+265 = {
+	artisans = {
+		size = 5036
+		culture = irish
+		religion = catholic
+	}
+	labourers = {
+		size = 95233
+		culture = irish
+		religion = catholic
+	}
+}
+
+#####################
+#	Great Britain	#
+#####################
+
+###Scotland###
+266 = {
+
+	capitalists = {
+
+		size = 640
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 7691
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1831
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 28387
+		culture = british
+		religion = protestant
+
+	}
+	officers = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 4670
+		culture = british
+		religion = protestant
+
+	}
+
+}
+267 = {
+
+	artisans = {
+
+		size = 3662
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 69181
+		culture = british
+		religion = protestant
+
+	}
+
+}
+268 = {
+
+	artisans = {
+
+		size = 7325
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1007
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 71608
+		culture = british
+		religion = protestant
+
+	}
+
+}
+269 = {
+
+	artisans = {
+
+		size = 5494
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 4822
+		culture = british
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = irish
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 1922
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1259
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = british
+		religion = catholic
+
+	}
+	clerks = {
+
+		size = 122
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 2442
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 458
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 51744
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 25089
+		culture = british
+		religion = catholic
+
+	}
+
+}
+270 = {
+
+	artisans = {
+
+		size = 5952
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 183
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 72432
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 3662
+		culture = british
+		religion = catholic
+
+	}
+
+}
+271 = {
+
+	capitalists = {
+
+		size = 2349
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 8454
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 168
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1373
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = british
+		religion = catholic
+
+	}
+	clerks = {
+
+		size = 3312
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 16788
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 3020
+		culture = irish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 82246
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 10525
+		culture = british
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 1097
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 6051
+		culture = british
+		religion = protestant
+
+	}
+
+}
+272 = {
+
+	artisans = {
+
+		size = 3662
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 91
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 30951
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 4578
+		culture = british
+		religion = catholic
+
+	}
+
+}
+
+###Wales###
+273 = {
+
+	capitalists = {
+
+		size = 1204
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 3234
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 938
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 31
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 15
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 336
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 81253
+		culture = british
+		religion = protestant
+
+	}
+	officers = {
+
+		size = 320
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 3159
+		culture = british
+		religion = protestant
+
+	}
+
+}
+274 = {
+
+	artisans = {
+
+		size = 1831
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 35369
+		culture = british
+		religion = protestant
+
+	}
+
+}
+275 = {
+
+	artisans = {
+
+		size = 2060
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 38688
+		culture = british
+		religion = protestant
+
+	}
+
+}
+276 = {
+
+	artisans = {
+
+		size = 2818
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 139
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 2747
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 48083
+		culture = british
+		religion = protestant
+
+	}
+
+}
+
+###England###
+277 = {
+
+	capitalists = {
+
+		size = 4151
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 3357
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1373
+		culture = british
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 9843
+		culture = irish
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 1419
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 381
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1053
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = irish
+		religion = catholic
+
+	}
+	clerks = {
+
+		size = 534
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 336
+		culture = british
+		religion = catholic
+
+	}
+	craftsmen = {
+
+		size = 687
+		culture = irish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 145460
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 6577
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 8584
+		culture = irish
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 7966
+		culture = british
+		religion = protestant
+
+	}
+
+}
+278 = {
+
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1159
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1831
+		culture = irish
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 1991
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 351
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 25182
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 110206
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 8120
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 1900
+		culture = irish
+		religion = catholic
+
+	}
+
+}
+279 = {
+
+	artisans = {
+
+		size = 3662
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 228
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 42122
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1831
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 1144
+		culture = irish
+		religion = catholic
+
+	}
+
+}
+280 = {
+
+	capitalists = {
+
+		size = 4578
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 5402
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 105169
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 3662
+		culture = irish
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 2151
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 4900
+		culture = british
+		religion = protestant
+
+	}
+
+}
+281 = {
+
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1190
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 96103
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 4578
+		culture = british
+		religion = catholic
+
+	}
+
+}
+282 = {
+
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 572
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 84817
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 2748
+		culture = british
+		religion = catholic
+
+	}
+
+}
+283 = {
+
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1968
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 801
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 7631
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 109418
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 3662
+		culture = british
+		religion = catholic
+
+	}
+
+}
+284 = {
+
+	capitalists = {
+
+		size = 4125
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 2502
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 2312
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 138
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1488
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 336
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 4884
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 118644
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 2747
+		culture = irish
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 1465
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 7783
+		culture = british
+		religion = protestant
+
+	}
+
+}
+285 = {
+
+	artisans = {
+
+		size = 4578
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1006
+		culture = irish
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 572
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 75660
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = british
+		religion = catholic
+
+	}
+
+}
+286 = {
+
+	artisans = {
+
+		size = 3891
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 63069
+		culture = british
+		religion = protestant
+
+	}
+
+}
+287 = {
+
+	artisans = {
+
+		size = 2747
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 1007
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 3204
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 86992
+		culture = british
+		religion = protestant
+
+	}
+
+}
+288 = {
+
+	artisans = {
+
+		size = 2747
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 183
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 4578
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 91296
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 4578
+		culture = british
+		religion = catholic
+
+	}
+
+}
+289 = {
+
+	artisans = {
+
+		size = 5494
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 82757
+		culture = british
+		religion = protestant
+
+	}
+
+}
+290 = {
+
+	artisans = {
+
+		size = 5955
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 1
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 69136
+		culture = british
+		religion = protestant
+
+	}
+
+}
+291 = {
+
+	capitalists = {
+
+		size = 2976
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 5036
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1602
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 62748
+		culture = british
+		religion = protestant
+
+	}
+	officers = {
+
+		size = 228
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 4761
+		culture = british
+		religion = protestant
+
+	}
+
+}
+292 = {
+
+	artisans = {
+
+		size = 7783
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1007
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 143308
+		culture = british
+		religion = protestant
+
+	}
+
+}
+293 = {
+
+	artisans = {
+
+		size = 6867
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 52309
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1831
+		culture = british
+		religion = catholic
+
+	}
+
+}
+294 = {
+
+	artisans = {
+
+		size = 5494
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 984
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1373
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 61009
+		culture = british
+		religion = protestant
+
+	}
+
+}
+295 = {
+
+	artisans = {
+
+		size = 3662
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1373
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 65702
+		culture = british
+		religion = protestant
+
+	}
+
+}
+296 = {
+
+	capitalists = {
+
+		size = 4682
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 8607
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 1419
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 76
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1488
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 183
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 3671
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 65284
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1831
+		culture = british
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 4626
+		culture = british
+		religion = protestant
+
+	}
+
+}
+297 = {
+
+	artisans = {
+
+		size = 4578
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 572
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 10988
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 75431
+		culture = british
+		religion = protestant
+
+	}
+
+}
+298 = {
+
+	artisans = {
+
+		size = 4578
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1488
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 10988
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 64672
+		culture = british
+		religion = protestant
+
+	}
+
+}
+299 = {
+
+	artisans = {
+
+		size = 5036
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 1144
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 170551
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1007
+		culture = british
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 1005
+		culture = irish
+		religion = catholic
+
+	}
+
+}
+300 = {
+
+	capitalists = {
+
+		size = 9309
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 6867
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 7325
+		culture = british
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 4088
+		culture = british
+		religion = jewish
+
+	}
+	artisans = {
+
+		size = 9157
+		culture = irish
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 1831
+		culture = irish
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 16482
+		culture = british
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 763
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 16711
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 3663
+		culture = british
+		religion = protestant
+
+	}
+	clerks = {
+
+		size = 31
+		culture = british
+		religion = jewish
+
+	}
+	craftsmen = {
+
+		size = 35407
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 458
+		culture = british
+		religion = jewish
+
+	}
+	craftsmen = {
+
+		size = 1222
+		culture = irish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 188254
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 18007
+		culture = british
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 3525
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 15398
+		culture = british
+		religion = protestant
+
+	}
+
+}
+301 = {
+
+	artisans = {
+
+		size = 3683
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1007
+		culture = irish
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 572
+		culture = british
+		religion = protestant
+
+	}
+	craftsmen = {
+
+		size = 14
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 83056
+		culture = british
+		religion = protestant
+
+	}
+
+}
+302 = {
+
+	artisans = {
+
+		size = 9157
+		culture = british
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1144
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 80124
+		culture = british
+		religion = protestant
+
+	}
+
+}
+303 = {
+
+	artisans = {
+
+		size = 5494
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 686
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 457
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 66846
+		culture = british
+		religion = protestant
+
+	}
+
+}
+304 = {
+
+	artisans = {
+
+		size = 2976
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 22
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 6959
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 274
+		culture = british
+		religion = catholic
+
+	}
+
+}
+
+
+###Channel Islands###
+419 = {
+
+	artisans = {
+
+		size = 3113
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 45
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 9888
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 3000
+		culture = french
+		religion = catholic
+
+	}
+
+}
