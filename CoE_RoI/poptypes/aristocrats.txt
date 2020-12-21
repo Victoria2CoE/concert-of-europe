@@ -2,7 +2,7 @@ sprite = 1
 color = { 11 40 93 }
 strata = poor #Lumpen
 unemployment = yes
-can_work_factory = yes
+#can_work_factory = yes
 #state_capital_only = yes
 
 #merge_max_size = 1000000

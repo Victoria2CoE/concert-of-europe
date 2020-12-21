@@ -3,7 +3,7 @@ color = { 189 57 36 }
 #is_artisan = yes
 strata = poor #Seasonal Workers
 unemployment = yes
-can_work_factory = yes
+#can_work_factory = yes
 #equivalent = labourers
 
 #merge_max_size = 1000000
