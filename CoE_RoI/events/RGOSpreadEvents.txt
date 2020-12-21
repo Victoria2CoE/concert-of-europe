@@ -543,7 +543,7 @@ province_event = {
 			factor = 0.2
 			is_capital = yes
 		}
-        modifier = {
+        #modifier = {
 		#factor = 4
 		#owner = { land_property = serfdom }
 	    #}
@@ -730,7 +730,7 @@ province_event = {
 			factor = 0.2
 			is_capital = yes
 		}
-        modifier = {
+        #modifier = {
 		#factor = 4
 		#owner = { land_property = serfdom }
 	    #}
@@ -935,7 +935,7 @@ province_event = {
 				owner = { mechanized_mining = 1 }
 			}
 		}
-        modifier = {
+        #modifier = {
 		#factor = 4
 		#owner = { land_property = serfdom }
 	    #}
@@ -1092,7 +1092,7 @@ province_event = {
 				}
 			}
 		}
-        modifier = {
+        #modifier = {
 		#factor = 4
 		#owner = { land_property = serfdom }
 	    #}
@@ -1250,7 +1250,7 @@ province_event = {
 				}
 			}
 		}
-        modifier = {
+        #modifier = {
 		#factor = 4
 		#owner = { land_property = serfdom }
 	    #}
@@ -1355,8 +1355,8 @@ province_event = {
 			is_overseas = yes
 		}
 		modifier = {
-					factor = 0.5
-					any_neighbor_province = {
+			factor = 0.5
+			any_neighbor_province = {
 					has_province_modifier = strip_mine
 			}
 		}
