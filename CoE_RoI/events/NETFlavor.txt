@@ -478,3 +478,277 @@ country_event = {
 		}
 	}
 }
+
+#Tensions in Malacca
+country_event = {
+	id = 95252
+	title = "EVTNAME95252"
+	desc = "EVTDESC95252"
+	picture = "treaty"
+	
+	trigger = {
+		tag = ENG
+		exists = yes
+		owns = 1384 #Singapore
+		owns = 1410 #Bencoolen
+		NET = { owns = 1386 } #Malacca
+		NOT = { has_country_flag = malacca_treaty }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			year = 1825
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "Propose the exchange."
+		NET = { country_event = { 
+		id = 95253 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "Demand that the Dutch withdraw."
+		badboy = 3
+		NET = { country_event = { id = 95254 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Malacca Exchange Proposed
+country_event = {
+	id = 95253
+	title = "EVTNAME95253" 
+	desc = "EVTDESC95253"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We accept the exchange."
+		relation = { who = ENG value = 50 }
+		prestige = 2
+		any_owned = {
+			limit = {
+				OR = {
+					region = ENG_1384 #Southern Malaya
+					region = ENG_1391 #Northern Malaya
+					is_core = HND
+				}
+				NOT = { province_id = 2576 } #Natuna
+			}
+			secede_province = ENG
+		}
+		diplomatic_influence = { who = JOH value = -200 }
+		diplomatic_influence = { who = SIA value = -100 }
+		diplomatic_influence = { who = ATJ value = -100 }
+		diplomatic_influence = { who = SAK value = 100 }
+		diplomatic_influence = { who = DJA value = 100 }
+		ENG = {
+			prestige = 2
+			any_owned = {
+				limit = {
+					OR = {
+						region = NET_1398 #South Sumatra - Bencoolen
+						region = NET_1401 #Siak
+						region = PAG_1408 #East Sumatra
+						region = PAG_1408 #West Sumatra
+						region = NET_1413 #West Java
+						region = NET_1415 #Central Java
+						region = NET_1416 #Princely States
+						region = NET_1418 #East Java
+					}
+				}
+				secede_province = NET
+			}
+			diplomatic_influence = { who = JOH value = 50 }
+			diplomatic_influence = { who = SIA value = 25 }
+			diplomatic_influence = { who = ATJ value = 200 }
+			diplomatic_influence = { who = SAK value = -200 }
+			diplomatic_influence = { who = DJA value = -200 }
+			country_event = { 
+			id = 95255 
+			#days = 10 
+			}
+		}
+		TUR = {
+			diplomatic_influence = { who = ATJ value = -200 }
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 5
+				alliance_with = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = "We prefer the status quo."
+		relation = { who = ENG value = -50 }
+		prestige = 4
+		ENG = { country_event = { 
+		id = 95256 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 2
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 0
+				vassal_of = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95254
+	title = "EVTNAME95254" #Malacca Concession Demanded
+	desc = "EVTDESC95254"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We bow to their demands."
+		relation = { who = ENG value = 50 }
+		prestige = -10
+		any_owned = {
+			limit = {
+				OR = {
+					region = ENG_1384 #Southern Malaya
+					region = ENG_1391 #Northern Malaya
+				}
+				NOT = { province_id = 2576 } #Natuna
+			}
+			secede_province = ENG
+		}
+		diplomatic_influence = { who = JOH value = -200 }
+		diplomatic_influence = { who = SIA value = -100 }
+		ENG = {
+			prestige = 10
+			diplomatic_influence = { who = JOH value = 100 }
+			diplomatic_influence = { who = SIA value = 50 }
+			diplomatic_influence = { who = NET value = 50 }
+			country_event = { 
+			id = 95255 
+			#days = 10 
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "We invite them to come and take it."
+		relation = { who = ENG value = -150 }
+		prestige = 5
+		leave_alliance = FROM
+		casus_belli = {
+			target = ENG
+			type = place_in_the_sun
+			months = 60
+		}
+		ENG = {
+			casus_belli = {
+				target = NET
+				type = place_in_the_sun
+				months = 60
+			}
+			country_event = 95256
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 2
+				FROM = { war = yes }
+			}
+			modifier = {
+				factor = 2
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 2
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0.1
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 0
+				vassal_of = FROM
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95255
+	title = "EVTNAME95255" #Malacca Treaty Signed
+	desc = "EVTDESC95255"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Splendid."
+	}
+}
+
+country_event = {
+	id = 95256
+	title = "EVTNAME95256" #Malacca Proposal Rebuffed
+	desc = "EVTDESC95256"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Dutch do not know what is best for them."
+		casus_belli = {
+			target = NET
+			type = place_in_the_sun
+			months = 60
+		}
+	}
+}
