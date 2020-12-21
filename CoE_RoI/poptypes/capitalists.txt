@@ -6,7 +6,7 @@ strata = rich
 research_points = 2
 research_optimum = 0.05
 
-#merge_max_size = 1000000
+merge_max_size = 1
 #max_size = 1000
 
 rebel =
