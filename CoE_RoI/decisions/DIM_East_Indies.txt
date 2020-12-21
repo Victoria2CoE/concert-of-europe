@@ -28,7 +28,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = DIM_flores_offer
 			1444 = {
-					province_event = { id = 211300 }
+					province_event = 211300
 			}
 		}
 		ai_will_do = {
