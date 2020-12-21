@@ -206,7 +206,7 @@ country_event = {
 	option = {
 		name = "For the glory of Allah!"
 		any_pop = {
-			limit = { has_pop_religion = sunni }
+			#limit = { has_pop_religion = sunni }
 			militancy = -3
 			dominant_issue = {
 				factor = 0.05
