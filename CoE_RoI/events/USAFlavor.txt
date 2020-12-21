@@ -992,9 +992,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA44119" 
 		any_pop = { 
-			#limit = {
-			#	has_pop_religion = catholic
-			#}
+			limit = {
+				has_pop_religion = catholic
+			}
 			consciousness = 1
 		}		
 	}
@@ -1039,9 +1039,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA44120" 
 		any_pop = { 
-			#limit = {
-			#	has_pop_religion = protestant
-			#}
+			limit = {
+				has_pop_religion = protestant
+			}
 			consciousness = 1
 			dominant_issue = {
 				factor = 0.02
@@ -1407,14 +1407,12 @@ country_event = {
 	option = {
 		name = "Just as well."
 		any_pop = {
-			limit = { has_pop_culture = texan }
+			limit = { has_pop_religion = mormon }
 			dominant_issue = {
 				value = moralism
-				factor = 0.1
-				#factor = 0.5
+				factor = 0.5
 			}
-			#consciousness = 5
-			consciousness = 1
+			consciousness = 5
 			move_pop = 97
 		}
 		97 = {
