@@ -655,6 +655,9 @@ tank_experiments = {
 	effect = {
 		activate_unit = tank
 		#activate_building = barrel_factory
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}
 	}	
 }
 tank_exploits = {

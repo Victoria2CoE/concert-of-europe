@@ -952,6 +952,15 @@ stables = {
 	}
 	effect = {
 		#activate_building = stables 
+		factory_goods_throughput = {
+			heavy_industry = 0.01	
+		}		
+		factory_goods_throughput = {
+			military_industry = 0.01	
+		}	
+		factory_goods_throughput = {
+			luxury_industry = 0.01	
+		}		
 	}
 }
 
@@ -1225,6 +1234,9 @@ tinned_fruit = {
 	}
 	effect = {
 		#activate_building = fruit_cannery 
+		factory_goods_throughput = {
+			food_industry = 0.05	
+		}					
 	}
 }
 
@@ -1240,6 +1252,9 @@ luxury_industry =  {
 	}
 	effect = {
 		#activate_building = pharmaceutical_plant 
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}			
 	}
 }
 
@@ -1268,6 +1283,9 @@ iron_artillery_production = {
 	}
 	effect = {
 		#activate_building = iron_artillery_factory
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}		
 	}
 }
 
@@ -1298,6 +1316,9 @@ iron_small_arms_production = {
 	}
 	effect = {
 		#activate_building = small_arms_factory 
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}				
 	}
 }
 
@@ -1313,6 +1334,9 @@ steel_small_arms_production = {
 	}
 	effect = {
 		#activate_building = late_small_arms_factory 
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}				
 	}
 }
 
@@ -1328,6 +1352,9 @@ advanced_machining_techniques = {
 	}
 	effect = {
 		#activate_building = advanced_machine_parts_factory 
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}				
 	}
 }
 
@@ -1344,6 +1371,9 @@ seafood_packing = {
 	}
 	effect = {
 		#activate_building = fish_cannery
+		factory_goods_throughput = {
+			food_industry = 0.05	
+		}			
 	}
 }
 
@@ -1763,7 +1793,16 @@ synthetic_rubber = {
 		}
 	}
 	effect = {
-		#activate_building = synthetic_rubber_factory 
+		#activate_building = synthetic_rubber_factory
+		factory_goods_throughput = {
+			heavy_industry = 0.025	
+		}	
+		factory_goods_throughput = {
+			light_industry = 0.025	
+		}
+		factory_goods_throughput = {
+			luxury_industry = 0.01	
+		}		
 	}
 }
 
@@ -2889,6 +2928,9 @@ wool_cloth_factories = {
 	}
 	effect = {
 		#activate_building =  wool_mill
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}			
 	}
 }
 
@@ -2904,6 +2946,9 @@ luxury_clothes_factories = {
 	}
 	effect = {
 		#activate_building = luxury_clothes_factory  
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}				
 	}
 }
 
@@ -2919,6 +2964,9 @@ wineries = {
 	}
 	effect = {
 		#activate_building = winery  
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}				
 	}
 }
 
@@ -2934,6 +2982,9 @@ industrial_bakeries = {
 	}
 	effect = {
 		#activate_building = bakery
+		factory_goods_throughput = {
+			food_industry = 0.05	
+		}			
 	}
 }
 
@@ -2949,6 +3000,9 @@ shoe_factories = {
 	}
 	effect = {
 		#activate_building = shoe_factory
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}			
 	}
 }
 
@@ -2968,6 +3022,12 @@ boot_factories = {
 	}
 	effect = {
 		#activate_building = boot_factory 
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}		
+		factory_goods_throughput = {
+			luxury_industry = 0.025	
+		}	
 	}
 }
 
@@ -2983,6 +3043,9 @@ cement_factories  = {
 	}
 	effect = {
 		#activate_building = cement_factory
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}				
 	}
 }
 
@@ -3018,6 +3081,9 @@ stock_exchanges  = {
 	}
 	effect = {
 		#activate_building = stock_exchange
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}				
 	}
 }
 
@@ -3053,6 +3119,9 @@ merchant_banking  = {
 	}
 	effect = {
 		#activate_building = bank
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}				
 	}
 }
 
@@ -3068,6 +3137,9 @@ sugar_refineries  = {
 	}
 	effect = {
 	#activate_building = sugar_beet_refinery
+		factory_goods_throughput = {
+			food_industry = 0.05	
+		}			
 	}
 }
 
@@ -3083,6 +3155,12 @@ lumber_mills  = {
 	}
 	effect = {
 		#activate_building = lumber_mill
+		factory_goods_throughput = {
+			heavy_industry = 0.025	
+		}		
+		factory_goods_throughput = {
+			light_industry = 0.025	
+		}				
 	}
 }
 
@@ -3105,6 +3183,9 @@ tropical_lumber_mills = {
 	}
 	effect = {
 		#activate_building = tropical_lumber_mill
+		factory_goods_throughput = {
+			luxury_industry = 0.025	
+		}					
 	}
 }
 
@@ -3123,6 +3204,12 @@ rubber_boot_factories  = {
 	}
 	effect = {
 		#activate_building = rubber_boot_factory
+		factory_goods_throughput = {
+			luxury_industry = 0.025	
+		}
+		factory_goods_throughput = {
+			light_industry = 0.025	
+		}		
 	}
 }
 
@@ -3141,6 +3228,9 @@ fashion_houses  = {
 	}
 	effect = {
 		#activate_building = advanced_luxury_clothes_factory
+		factory_goods_throughput = {
+			luxury_industry = 0.05
+		}
 	}
 }
 
@@ -3156,6 +3246,9 @@ beef_canneries  = {
 	}
 	effect = {
 		#activate_building = canned_food_factory 
+		factory_goods_throughput = {
+			food_industry = 0.025	
+		}	
 	}
 }
 
@@ -3173,6 +3266,12 @@ cigarette_making_machines  = {
 	}
 	effect = {
 		#activate_building = Cigarette_factory 
+		factory_goods_throughput = {
+			ligth_industry = 0.05	
+		}
+		factory_goods_throughput = {
+			luxury_industry = 0.025	
+		}					
 	}
 }
 
@@ -3190,6 +3289,12 @@ cigar_factories  = {
 	}
 	effect = {
 		#activate_building = Cigar_factory
+		factory_goods_throughput = {
+			ligth_industry = 0.025	
+		}
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}	
 	}
 }
 
@@ -3208,6 +3313,9 @@ modernist_furnishing  = {
 	}
 	effect = {
 		#activate_building = advanced_luxury_furniture_factory
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}			
 	}
 }
 
@@ -3275,6 +3383,9 @@ fertilizer_plants  = {
 	}
 	effect = {
 		#activate_building = fertilizer_factory 
+		factory_goods_throughput = {
+			food_industry = 0.05	
+		}		
 	}
 }
 
@@ -3290,6 +3401,12 @@ clipper_shipyards = {
 	}
 	effect = {
 		#activate_building = clipper_shipyard 
+		factory_goods_throughput = {
+			heavy_industry = 0.025	
+		}	
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}				
 	}
 }
 
@@ -3312,6 +3429,12 @@ steamer_shipyards = {
 	}
 	effect = {
 		#activate_building = steamer_shipyard 
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}	
+		factory_goods_throughput = {
+			military_industry = 0.025	
+		}			
 	}
 }
 
@@ -3347,6 +3470,12 @@ newspapers = {
 	}
 	effect = {
 		#activate_building = newspaper
+		factory_goods_throughput = {
+			light_industry = 0.025	
+		}	
+		factory_goods_throughput = {
+			luxury_industry = 0.01
+		}			
 	}
 }
 
@@ -6238,6 +6367,9 @@ synthetic_oil = {
 	}
 	effect = {
 		#activate_building = synthetic_oil_factory 
+		factory_goods_throughput = {
+			heavy_industry = 0.05
+		}			
 	}
 }
 
@@ -6580,9 +6712,9 @@ modern_power_plants = {
 		factory_goods_output = {
 			heavy_industry = 0.05
 		}
-		factory_goods_input = {
-			coal = -0.05
-		}
+		#factory_goods_input = {
+		#	coal = -0.05
+		#}
 		#factory_goods_input = {
 		#	oil = -0.05
 		#}

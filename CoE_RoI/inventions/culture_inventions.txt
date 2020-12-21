@@ -2391,6 +2391,9 @@ national_radio_networks = {
 	}
 	effect = { 
 		#activate_building = radio_factory 
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}			
 	}
 	core_pop_consciousness_modifier = 0.02
 }

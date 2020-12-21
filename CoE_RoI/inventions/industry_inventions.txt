@@ -72,8 +72,11 @@ daimlers_automobile = {
 	effect = {
 		#activate_building = automobile_factory 
 		factory_goods_output = {
-		heavy_industry =  0.02
+		heavy_industry =  0.05
 		}
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}			
 	}
 }
 
@@ -114,6 +117,9 @@ wright_n_langleys_aeroplanes = {
 		factory_goods_output = {
 			heavy_industry =  0.02 
 		}
+		factory_goods_throughput = {
+			light_industry = 0.01	
+		}			
 	}
 }
 
@@ -559,6 +565,9 @@ electric_machinery = {
 	effect = {
 		#activate_building = steel_machine_parts_factory
 		factory_throughput = 0.05
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}			
 	}
 	
 	
@@ -730,6 +739,9 @@ ammunition_production = {
 	}
 	effect = {
 		#activate_building = ammunition_factory 
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}	
 	}
 	
 	
@@ -747,6 +759,9 @@ small_arms_production = {
 	}
 	effect = {
 		#activate_building = early_small_arms_factory
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}		
 	}
 	
 	
@@ -764,6 +779,9 @@ explosives_production = {
 	}
 	effect = {
 		#activate_building = explosives_factory 
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}		
 	}
 	
 	
@@ -781,6 +799,9 @@ bronze_artillery_production = {
 	}
 	effect = {
 		#activate_building = bronze_artillery_factory 
+		factory_goods_throughput = {
+			military_industry = 0.05	
+		}		
 	}
 	
 	
@@ -1246,6 +1267,9 @@ synthetic_dye = {
 	}
 	effect = {
 		#activate_building = dye_factory 
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}		
 	}
 	
 	
@@ -1294,6 +1318,9 @@ cracking = {
 	}
 	effect = {
 		#activate_building = fuel_refinery 
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}
 	}
 	
 	
@@ -1333,6 +1360,12 @@ edison_light_bulb = {
 	}
 	effect = {
 		#activate_building = electric_gear_factory 
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}	
+		factory_goods_throughput = {
+			light_industry = 0.025	
+		}		
 	}
 	
 	
@@ -1372,6 +1405,9 @@ Power_transformer = {
 	}
 	effect = {
 		#activate_building = Coal-fired_powerplant 
+		factory_goods_throughput = {
+			heavy_industry = 0.05	
+		}		
 	}
 }
 
@@ -1405,6 +1441,9 @@ bell_n_greys_telephones = {
 	}
 	effect = {
 		#activate_building = telephone_factory 
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}				
 	}
 }
 
@@ -1421,6 +1460,9 @@ rayon = {
 	}
 	effect = {
 		#activate_building = synthetic_fabric_factory
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}				
 	}
 }
 
@@ -1436,6 +1478,9 @@ nylon = {
 	}
 	effect = {
 		#activate_building = synthetic_silk_factory
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}	
 	}
 }
 

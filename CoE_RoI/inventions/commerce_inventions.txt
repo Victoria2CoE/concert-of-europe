@@ -625,6 +625,9 @@ john_ramsay_mcculloch = {
 	}
 	effect = {
 		#activate_building = furniture_factory
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}		
 	}
 	
 	
@@ -649,7 +652,10 @@ nassau_william_sr = {
 		}
 	}
 	effect = {
-		#activate_building = paper_mill 
+		#activate_building = paper_mill
+		factory_goods_throughput = {
+			light_industry = 0.05	
+		}		
 	}
 	
 	
@@ -686,6 +692,9 @@ james_mill = {
 	}
 	effect = {
 		#activate_building = luxury_furniture_factory 
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}			
 	}
 	
 	
@@ -723,8 +732,8 @@ john_elliot_cairnes = {
 	}
 	effect = {
 		permanent_prestige = 2
-	rgo_goods_throughput = {
-		precious_metal = 0.1
+		rgo_goods_throughput = {
+			precious_metal = 0.1
 		}
 	}
 	
@@ -750,8 +759,8 @@ robert_torrens = {
 	}
 	effect = {
 		permanent_prestige = 2
-	factory_goods_throughput = {
-		light_industry = 0.02
+			factory_goods_throughput = {
+			light_industry = 0.02
 		}
 	}
 	
@@ -1655,8 +1664,8 @@ john_maynard_keynes = {
 	}
 	effect = {
 		permanent_prestige = 10 
-	factory_goods_throughput = {
-		light_industry = 0.02
+			factory_goods_throughput = {
+			light_industry = 0.02
 		}
 	}
 	
@@ -1893,8 +1902,9 @@ joint_stock_company = {
 		}
 	}
 	effect = {
-	factory_goods_throughput = {
-		luxury_industry = 0.1	}
+		factory_goods_throughput = {
+			luxury_industry = 0.1	
+		}
 	}
 	
 	
@@ -2308,6 +2318,9 @@ import_substitution_industrialization_2 = {
 	}
 	effect = {
 		#activate_building = synthetic_tropical_factory
+		factory_goods_throughput = {
+			luxury_industry = 0.05	
+		}			
 	}
 }
 	
