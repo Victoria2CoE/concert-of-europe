@@ -63,31 +63,31 @@
 1454 = {
 	capitalists = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 300
 	}
 
 	clergymen = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 275
 	}
 
 	artisans = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 1400
 	}
 
 	soldiers = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 475
 	}
 
 	labourers = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 27725
 	}
 }
@@ -95,32 +95,32 @@
 1560 = {
 	capitalists = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 750
 	}
 
 	clergymen = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 550
 	}
 
 	artisans = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 2350
 	}
 
 	soldiers = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size= 300
 
 	}
 
 	labourers = {
 		culture = melanesian
-		religion = animist
+		religion = melanesian #religion = animist
 		size = 51975
 	}
 

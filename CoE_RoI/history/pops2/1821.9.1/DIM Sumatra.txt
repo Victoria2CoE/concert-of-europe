@@ -1,0 +1,1166 @@
+#################################
+#DIM Sumatra			#
+#(1556600/389150 POPS)		#
+#################################
+
+
+#####Plantation Belt (255000/63750 POPS)######
+#Medan (126000/31500 POPS)
+1406 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 325
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 1930
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 1280
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 16170
+	}
+
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 350
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 600
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 13900
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 965
+	}
+}
+
+
+#Langkat (30000/9500 POPS)
+1779 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 160
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 60
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 560
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size= 225
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 6530
+	}
+
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 90
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 40
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 220
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 2310
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 455
+	}
+}
+
+#Asahan (99000/24750 POPS)
+1782 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 170
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 1420
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size= 725
+
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 19150
+	}
+
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 120
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 510
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 6100
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 480
+	}
+}
+
+####Minangkabau Region (202500/47300 POPS)########
+#Padang (55000/13500 POPS)
+1408 = {
+	capitalists = {
+		culture = dutch
+		religion = protestant
+		size = 25
+	}
+	
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 405
+	}
+	
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 510
+	}
+
+	clergymen = {
+		culture = minangkabau
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 1930
+	}
+
+	soldiers = {
+		culture = minangkabau
+		religion = sunni
+		size = 600
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 19435
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 40
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 1175
+	}
+
+
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 30
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 1075
+	}
+}
+
+#Sibolga (45000/11500 POPS)
+1409 = {
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 645
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 600
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 1850
+	}
+
+	soldiers = {
+		culture = batak
+		religion = animist
+		size= 600
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 14700
+	}
+
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 315
+	}
+
+	clergymen = {
+		culture = minangkabau
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 2000
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 4770
+	}
+}
+
+#Sitioeng (48000/12000 POPS)
+1720 = {
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 490
+	}
+
+	clergymen = {
+		culture = minangkabau
+		religion = sunni
+		size = 190
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 2200
+	}
+
+	soldiers = {
+		culture = minangkabau
+		religion = sunni
+		size = 1100
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 18300
+	}
+}
+
+#Bonjol (50600/12650 POPS)
+1740 = {
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 185
+	}
+
+	clergymen = {
+		culture = minangkabau
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 1450
+	}
+
+	soldiers = {
+		culture = minangkabau
+		religion = sunni
+		size = 3000
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 15940
+	}
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 70
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 1300
+	}
+}
+
+
+
+#####Aceh Region (400000/100000 POPS) ###########
+
+#Banda Aceh (178000/44500 POPS)
+1405 = {
+	capitalists = {
+		culture = acehnese
+		religion = sunni
+		size = 660
+	}
+
+	bureaucrats = {
+		culture = acehnese
+		religion = sunni
+		size = 480
+	}
+
+	officers = {
+		culture = acehnese
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = acehnese
+		religion = sunni
+		size = 540
+	}
+
+	artisans = {
+		culture = acehnese
+		religion = sunni
+		size = 11575
+	}
+
+	soldiers = {
+		culture = acehnese
+		religion = sunni
+		size = 5550
+
+	}
+
+	labourers = {
+		culture = acehnese
+		religion = sunni
+		size = 32825
+	}
+	
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 130
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 106
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 570
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 5175
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 745
+	}
+}
+
+#Tapaktuan (69000/15750 POPS)
+1407 = {
+	capitalists = {
+		culture = acehnese
+		religion = sunni
+		size = 425
+	}
+
+	clergymen = {
+		culture = acehnese
+		religion = sunni
+		size = 315
+	}
+
+	artisans = {
+		culture = acehnese
+		religion = sunni
+		size = 1800
+	}
+
+	labourers = {
+		culture = acehnese
+		religion = sunni
+		size = 21430
+	}
+
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 130
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 120
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 360
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 4600
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 150
+	}
+}
+
+#####Batak Tribes (117200/29300 POPS)#############
+#Gajo-Alas (16200/4050 POPS)
+1722 = {
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 350
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 200
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 1600
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 12875
+	}
+}
+
+#Pematang Siantar (80400/17600 POPS)
+1718 = {
+	capitalists = {
+		culture = batak
+		religion = animist
+		size = 445
+	}
+
+	clergymen = {
+		culture = batak
+		religion = animist
+		size = 265
+	}
+
+	artisans = {
+		culture = batak
+		religion = animist
+		size = 2115
+	}
+
+	labourers = {
+		culture = batak
+		religion = animist
+		size = 22175
+	}
+}
+
+#####Siak (230000/54500 POPS) ########
+
+#Siak (192000/52000 POPS)
+1401 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 830
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 230
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 875
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 5975
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 3600
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 46325
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 400
+	}
+}
+
+
+
+#Bangkinang (10000/2500 POPS)
+1774 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 145
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 170
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 1600
+	}
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 45
+	}
+
+	clergymen = {
+		culture = minangkabau
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = minangkabau
+		religion = sunni
+		size = 175
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 820
+	}
+}
+
+
+#####Indragiri and Jambi (100000/25000 POPS)#########
+#Jambi (64000/16000 POPS)
+1398 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 45
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 50
+	}
+	
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 2500
+	}
+}
+
+#Bangko (7120/1730)
+1812 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 285
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 1350
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 450
+
+	}
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 80
+	}
+
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 1200
+	}
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 17890
+	}
+	
+}
+
+#Inderagiri (30000/7500 POPS)
+1400 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 230
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 280
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 1280
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 350
+
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 7900
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 30
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 325
+	}	
+	capitalists = {
+		culture = minangkabau
+		religion = sunni
+		size = 25
+	}
+	labourers = {
+		culture = minangkabau
+		religion = sunni
+		size = 325
+	}
+}
+
+
+
+
+#####Palembang Region (145200/41300 POPS)#######
+#Palembang (60000/15000 POPS)
+1399 = {
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 750
+	}
+
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 275
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 2700
+	}
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 3000
+
+	}
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 13000
+	}
+}
+
+#Ogan (105200/26300 POPS)
+1807 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 275
+	}
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 325
+	}
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 2300
+	}
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 28200
+	}
+}
+#Pangkalpinang (70000/17500 POPS)
+1404 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 150
+	}
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 750
+	}
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 5350
+	}
+	labourers = {
+		culture = yue
+		religion = mahayana
+		size = 500
+	}
+	capitalists = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 125
+	}
+	labourers = {
+		culture = asian_minor
+		religion = animist
+		size = 1275
+	}
+}
+
+#Billiton (20000/5000 POPS)
+1719 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 150
+	}
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 750
+	}
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 4000
+	}
+	labourers = {
+		culture = yue
+		religion = mahayana
+		size = 500
+	}
+	capitalists = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+	labourers = {
+		culture = asian_minor
+		religion = animist
+		size = 1000
+	}
+}
+
+
+####Region Bencoolen (120000/30000 POPS)######
+#Bencoolen (100000/25000 POPS)
+1410 = {
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 750
+	}
+
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 105
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 2445
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 150
+
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 26200
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = protestant
+		size = 20
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = protestant
+		size= 50
+
+	}
+}
+
+#Lampung (137000/34250 POPS)
+1403 = {
+	capitalists = {
+		culture = malay
+		religion = sunni
+		size = 300
+	}
+
+	capitalists = {
+		culture = javan
+		religion = sunni
+		size = 100
+	}
+
+	capitalists = {
+		culture = bantenese
+		religion = sunni
+		size = 225
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = bantenese
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 1200
+	}
+
+	artisans = {
+		culture = bantenese
+		religion = sunni
+		size = 550
+	}
+
+	artisans = {
+		culture = javan
+		religion = sunni
+		size = 525
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 1600
+
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 20750
+	}
+
+	labourers = {
+		culture = bantenese
+		religion = sunni
+		size = 4500
+	}
+
+	labourers = {
+		culture = javan
+		religion = sunni
+		size = 9400
+	}
+	
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 400
+	}
+}
+

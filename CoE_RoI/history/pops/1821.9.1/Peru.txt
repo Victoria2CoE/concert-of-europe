@@ -4,100 +4,100 @@
 2286 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 5
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 5
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 2665
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 850
 	}
 
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 175
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 100
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 500
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 100
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 9125
 	}
 }
@@ -106,32 +106,32 @@
 2287 = {
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 150
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 25
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 2700
 	}
 }
@@ -139,32 +139,32 @@
 2288 = {
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 150
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 25
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 2700
 	}
 }
@@ -172,32 +172,32 @@
 2289 = {
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 150
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 25
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 2700
 	}
 }
@@ -207,69 +207,69 @@
 2290 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 800
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 250
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 600
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 112
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 14050
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 125
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 1300
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 250
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 19325
 	}
 }
@@ -277,88 +277,88 @@
 2291 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 325
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 2375
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 500
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 100
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 10000
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 1100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 750
 	}
 }
@@ -366,88 +366,88 @@
 2292 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 375
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 125
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 300
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 75
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 5075
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 450
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 100
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 8375
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 1100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 750
 	}
 }
@@ -455,88 +455,88 @@
 2294 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 50
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 1750
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 50
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 10
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 915
 	}
 
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 150
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 25
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 2700
 	}
 }
@@ -546,57 +546,57 @@
 2293 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 200
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 1625
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 350
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 75
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 6500
 	}
 }
@@ -604,57 +604,57 @@
 2296 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 325
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 1475
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 650
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 125
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 12175
 	}
 }
@@ -662,69 +662,69 @@
 2299 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 575
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 50
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 175
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 200
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 2875
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 1150
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 225
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 21525
 	}
 }
@@ -734,111 +734,111 @@
 2295 = {
 	capitalists = {
 		culture = spanish
-		religion = catholic
+		religion = spanish #religion = catholic
 		size = 675
 	}
 
 	capitalists = {
 		culture = peruvian
-		religion = catholic
+		religion = peruvian #religion = catholic
 		size = 1000
 	}
 	
 	bureaucrats = {
 		culture = peruvian
-		religion = catholic
+		religion = peruvian #religion = catholic
 		size = 200
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 700
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 10000
 	}
 	
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 2200
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 2000
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 41075
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 800
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 175
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 14950
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 1400
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 1500
 	}
 }
@@ -846,88 +846,88 @@
 2297 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 325
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 200
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 3350
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 500
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 100
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 10050
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 50
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 500
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 400
 	}
 }
@@ -935,88 +935,88 @@
 2298 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 525
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 300
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 75
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 4950
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 850
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 175
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 15900
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size= 25
 
 	}
 
 	labourers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 1100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = afro_caribeno #religion = catholic
 		size = 750
 	}
 }
@@ -1026,69 +1026,69 @@
 2300 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 14
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 1
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 50
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 10
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 900
 	}
 
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 200
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 50
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 36225
 	}
 }
@@ -1096,32 +1096,32 @@
 2301 = {
 	capitalists = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 75
 	}
 
 	artisans = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 150
 	}
 
 	soldiers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size= 25
 
 	}
 
 	labourers = {
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 		size = 2700
 	}
 }
@@ -1131,62 +1131,62 @@
 2302 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 1150
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 125
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 375
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 750
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 1100
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 11625
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 200
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 2100
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 39275
 	}
 }
@@ -1194,57 +1194,57 @@
 2303 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 575
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 2075
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 1150
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 250
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 21500
 	}
 }
@@ -1252,57 +1252,57 @@
 2304 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 375
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 125
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 200
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 1050
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 3250
 	}
 
 	clergymen = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 700
 	}
 
 	soldiers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size= 150
 
 	}
 
 	labourers = {
 		culture = quechua
-		religion = catholic
+		religion = quechua #religion = catholic
 		size = 13100
 	}
 }
@@ -1312,69 +1312,69 @@
 2578 = {
 	capitalists = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 550
 	}
 
 	bureaucrats = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 25
 	}
 
 	officers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 50
 	}
 
 	clergymen = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 150
 	}
 
 	artisans = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size= 50
 
 	}
 
 	labourers = {
 		culture = south_andean
-		religion = catholic
+		religion = south_andean #religion = catholic
 		size = 3925
 	}
 
 	clergymen = {
 		culture = aimara
-		religion = catholic
+		religion = aimara #religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = aimara
-		religion = catholic
+		religion = aimara #religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
 		culture = aimara
-		religion = catholic
+		religion = aimara #religion = catholic
 		size= 200
 
 	}
 
 	labourers = {
 		culture = aimara
-		religion = catholic
+		religion = aimara #religion = catholic
 		size = 18700
 	}
 

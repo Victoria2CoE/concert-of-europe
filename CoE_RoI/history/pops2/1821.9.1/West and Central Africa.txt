@@ -1,0 +1,5798 @@
+#################################
+#								#
+#								#
+#			Mauritania			#
+#								#
+#								#
+#################################
+#Rosso
+1776 = {
+	artisans = {
+		size = 890
+		culture = maures
+		religion = sunni
+	}
+	clergymen = {
+		size = 173
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 11280
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 4947
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Aleg
+1777 = {
+	artisans = {
+		size = 841
+		culture = maures
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 9
+		culture = maures
+		religion = sunni
+	}
+	clergymen = {
+		size = 197
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 13185
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 5937
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Maghadam
+1778 = {
+	artisans = {
+		size = 272
+		culture = maures
+		religion = sunni
+	}
+	clergymen = {
+		size = 74
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 3438
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 2968
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Tichit
+1780 = {
+	capitalists = {
+		size = 232
+		culture = maures
+		religion = sunni
+	}
+	artisans = {
+		size = 197
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 148
+		culture = maures
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 74
+		culture = maures
+		religion = sunni
+	}
+	labourers = {
+		size = 3636
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 2671
+		culture = maures
+		religion = sunni
+	}
+	soldiers = {
+		size = 350
+		culture = bambara
+		religion = animist
+	}
+	soldiers = {
+		size = 148
+		culture = maures
+		religion = sunni
+	}
+}
+
+
+
+
+1783 = {
+
+	capitalists = {
+
+		size = 123
+		culture = wolof
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 98
+		culture = wolof
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = wolof
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = wolof
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 74
+		culture = wolof
+		religion = sunni
+
+	}
+
+}
+1784 = {
+
+	artisans = {
+
+		size = 148
+		culture = wolof
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 148
+		culture = maures
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = wolof
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = maures
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 2671
+		culture = wolof
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1682
+		culture = maures
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 1088
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+
+#Banjul
+1785 = {
+	capitalists = {
+		size = 346
+		culture = mande
+		religion = animist
+	}
+	capitalists = {
+		size = 148
+		culture = wolof
+		religion = sunni
+	}
+	artisans = {
+		size = 940
+		culture = mande
+		religion = animist
+	}
+	artisans = {
+		size = 395
+		culture = wolof
+		religion = sunni
+	}
+	clergymen = {
+		size = 197
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 74
+		culture = wolof
+		religion = sunni
+	}
+	labourers = {
+		size = 7118
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 3198
+		culture = wolof
+		religion = sunni
+	}
+	soldiers = {
+		size = 197
+		culture = mande
+		religion = animist
+	}
+	soldiers = {
+		size = 74
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 10000
+		culture = mande
+		religion = animist
+	}
+	slaves = {
+		size = 4000
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Linguere
+1786 = {
+	capitalists = {
+		size = 2127
+		culture = wolof
+		religion = sunni
+	}
+	artisans = {
+		size = 2127
+		culture = wolof
+		religion = sunni
+	}
+	clergymen = {
+		size = 544
+		culture = wolof
+		religion = sunni
+	}
+	labourers = {
+		size = 40569
+		culture = wolof
+		religion = sunni
+	}
+	officers = {
+		size = 98
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 7916
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 2919
+		culture = wolof
+		religion = sunni
+	}
+}
+
+#Diourbel
+1787 = {
+	artisans = {
+		size = 1490
+		culture = serer
+		religion = animist
+	}
+	clergymen = {
+		size = 197
+		culture = serer
+		religion = animist
+	}
+	labourers = {
+		size = 26079
+		culture = serer
+		religion = animist
+	}
+	slaves = {
+		size = 6958
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Kaolack
+1788 = {
+	capitalists = {
+		size = 494
+		culture = mande
+		religion = animist
+	}
+	capitalists = {
+		size = 247
+		culture = wolof
+		religion = sunni
+	}
+	artisans = {
+		size = 1335
+		culture = mande
+		religion = animist
+	}
+	artisans = {
+		size = 643
+		culture = wolof
+		religion = sunni
+	}
+	clergymen = {
+		size = 296
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = wolof
+		religion = sunni
+	}
+	labourers = {
+		size = 18157
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 9303
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 7916
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 989
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 96
+		culture = wolof
+		religion = sunni
+	}
+}
+
+#Podor
+1789 = {
+	capitalists = {
+		size = 2593
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 3487
+		culture = fulbe
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 76
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 890
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 63328
+		culture = fulbe
+		religion = sunni
+	}
+	officers = {
+		size = 148
+		culture = fulbe
+		religion = sunni
+	}
+	slaves = {
+		size = 14842
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 2993
+		culture = fulbe
+		religion = sunni
+	}
+}
+
+#Matam
+1790 = {
+	artisans = {
+		size = 2152
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 519
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 33643
+		culture = fulbe
+		religion = sunni
+	}
+	slaves = {
+		size = 14842
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Bakel
+1791 = {
+	capitalists = {
+		size = 568
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 1162
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 296
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 296
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 49
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 15422
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 11516
+		culture = mande
+		religion = animist
+	}
+	slaves = {
+		size = 4947
+		culture = mande
+		religion = animist
+	}
+	soldiers = {
+		size = 296
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 74
+		culture = mande
+		religion = animist
+	}
+}
+
+#Ziguinchor
+1792 = {
+	capitalists = {
+		size = 1632
+		culture = mande
+		religion = animist
+	}
+	artisans = {
+		size = 1574
+		culture = mande
+		religion = animist
+	}
+	artisans = {
+		size = 874
+		culture = wolof
+		religion = sunni
+	}
+	clergymen = {
+		size = 393
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 293
+		culture = wolof
+		religion = sunni
+	}
+	labourers = {
+		size = 22322
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 18322
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 13853
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 1360
+		culture = mande
+		religion = animist
+	}
+}
+
+#Velingara
+1793 = {
+	artisans = {
+		size = 1040
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 245
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 12115
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 8315
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 3958
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Mboul
+2573 = {
+	artisans = {
+		size = 1434
+		culture = wolof
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 49
+		culture = wolof
+		religion = sunni
+	}
+	clergymen = {
+		size = 346
+		culture = wolof
+		religion = sunni
+	}
+	labourers = {
+		size = 17811
+		culture = wolof
+		religion = sunni
+	}
+	slaves = {
+		size = 13853
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#########################################
+#										#
+#										#
+#				  Mali					#
+#										#
+#										#
+#########################################
+
+#Bamako
+1794 = {
+	capitalists = {
+		size = 1929
+		culture = bambara
+		religion = animist
+	}
+	capitalists = {
+		size = 1880
+		culture = fulbe
+		religion = sunni
+	}
+	capitalists = {
+		size = 247
+		culture = african_minor
+		religion = animist
+	}
+	artisans = {
+		size = 1880
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 692
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 692
+		culture = african_minor
+		religion = animist
+	}
+	bureaucrats = {
+		size = 197
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 445
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 146
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 148
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 29981
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 12616
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 12616
+		culture = african_minor
+		religion = animist
+	}
+	officers = {
+		size = 1
+		culture = bambara
+		religion = animist
+	}
+	slaves = {
+		size = 11874
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 2919
+		culture = bambara
+		religion = animist
+	}
+	soldiers = {
+		size = 2325
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 148
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Kayes
+1795 = {
+	artisans = {
+		size = 1731 
+		culture = mande
+		religion = animist
+	}
+	artisans = {
+		size = 243
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 248
+		culture = mande
+		religion = animist
+	}
+	clergymen = {
+		size = 147
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 44137
+		culture = mande
+		religion = animist
+	}
+	labourers = {
+		size = 12137
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 3418
+		culture = fulbe
+		religion = sunni
+	}
+	slaves = {
+		size = 7916
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Nioro
+1796 = {
+	capitalists = {
+		size = 1036
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 1038
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 593
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 147
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 248
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 8757
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 15832
+		culture = bambara
+		religion = animist
+	}
+	slaves = {
+		size = 11874
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Kita
+1797 = {
+	artisans = {
+		size = 890
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 494
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 197
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 13110
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 7965
+		culture = fulbe
+		religion = sunni
+	}
+	slaves = {
+		size = 11874
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Bougouni
+1798 = {
+	capitalists = {
+		size = 1435
+		culture = bambara
+		religion = animist
+	}
+	capitalists = {
+		size = 791
+		culture = fulbe
+		religion = sunni
+	}
+	capitalists = {
+		size = 98
+		culture = african_minor
+		religion = animist
+	}
+	artisans = {
+		size = 2077
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 296
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 494
+		culture = african_minor
+		religion = animist
+	}
+	clergymen = {
+		size = 494
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 148
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 148
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 45410
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 5343
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 9053
+		culture = african_minor
+		religion = animist
+	}
+	officers = {
+		size = 197
+		culture = bambara
+		religion = animist
+	}
+	slaves = {
+		size = 5937
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 1533
+		culture = bambara
+		religion = animist
+	}
+	soldiers = {
+		size = 445
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 98
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Sikasso
+1799 = {
+	capitalists = {
+		size = 1176
+		culture = bambara
+		religion = animist
+	}
+	capitalists = {
+		size = 593
+		culture = fulbe
+		religion = sunni
+	}
+	capitalists = {
+		size = 841
+		culture = senufo
+		religion = animist
+	}
+	artisans = {
+		size = 1434
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 197
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 1830
+		culture = senufo
+		religion = animist
+	}
+	clergymen = {
+		size = 346
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 445
+		culture = senufo
+		religion = animist
+	}
+	labourers = {
+		size = 37040
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 4446
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 18185
+		culture = senufo
+		religion = animist
+	}
+	slaves = {
+		size = 22706
+		culture = senufo
+		religion = animist
+	}
+}
+
+#Segou
+1800 = {
+	artisans = {
+		size = 4353
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 892
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 890
+		culture = african_minor
+		religion = animist
+	}
+	bureaucrats = {
+		size = 346
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 940
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 148
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 148
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 69088
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 15616
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 18277
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 23269
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Mourdiah - El Hodh
+1801 = {
+	artisans = {
+		size = 193
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 395
+		culture = african_minor
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 1046
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 1835
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 3173
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 1437
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Djenne
+1802 = {
+	artisans = {
+		size = 1376
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 2238
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 1088
+		culture = african_minor
+		religion = animist
+	}
+	clergymen = {
+		size = 445
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 247
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 197
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 41629
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 15874
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 21107
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 14874
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Timbuktu
+1803 = {
+	capitalists = {
+		size = 2350
+		culture = songhai
+		religion = sunni
+	}
+	capitalists = {
+		size = 544
+		culture = fulbe
+		religion = sunni
+	}
+	capitalists = {
+		size = 19
+		culture = tuareg
+		religion = sunni
+	}
+	artisans = {
+		size = 2473
+		culture = songhai
+		religion = sunni
+	}
+	artisans = {
+		size = 1137
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 98
+		culture = tuareg
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 197
+		culture = songhai
+		religion = animist
+	}
+	clergymen = {
+		size = 593
+		culture = songhai
+		religion = sunni
+	}
+	clergymen = {
+		size = 296
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 49
+		culture = tuareg
+		religion = sunni
+	}
+	labourers = {
+		size = 42598
+		culture = songhai
+		religion = sunni
+	}
+	labourers = {
+		size = 17514
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 1781
+		culture = tuareg
+		religion = sunni
+	}
+	slaves = {
+		size = 21769
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 3116
+		culture = songhai
+		religion = sunni
+	}
+	soldiers = {
+		size = 296
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 29
+		culture = tuareg
+		religion = sunni
+	}
+}
+
+#Hamdallahi
+1804 = {
+	artisans = {
+		size = 1137
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 1682
+		culture = african_minor
+		religion = animist
+	}
+	artisans = {
+		size = 2176
+		culture = bambara
+		religion = animist
+	}
+	artisans = {
+		size = 791
+		culture = senufo
+		religion = animist
+	}
+	bureaucrats = {
+		size = 395
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 692
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 346
+		culture = african_minor
+		religion = animist
+	}
+	clergymen = {
+		size = 346
+		culture = bambara
+		religion = animist
+	}
+	clergymen = {
+		size = 148
+		culture = senufo
+		religion = animist
+	}
+	labourers = {
+		size = 15386
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 30625
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 36265
+		culture = bambara
+		religion = animist
+	}
+	labourers = {
+		size = 14446
+		culture = senufo
+		religion = animist
+	}
+	soldiers = {
+		size = 1236
+		culture = bambara
+		religion = animist
+	}
+	soldiers = {
+		size = 7668
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 445
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 9895
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Gao
+1805 = {
+
+	artisans = {
+
+		size = 742
+		culture = tuareg
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1880
+		culture = songhai
+		religion = sunni
+
+	}
+	bureaucrats = {
+
+		size = 197
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 197
+		culture = tuareg
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = songhai
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 6233
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 33643
+		culture = songhai
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 11874
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+
+
+#Dosso/Niamey
+1808 = {
+	capitalists = {
+		size = 1263
+		culture = zarma
+		religion = sunni
+	}
+	capitalists = {
+		size = 148
+		culture = dyula
+		religion = sunni
+	}
+	capitalists = {
+		size = 145
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 791
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 494
+		culture = dyula
+		religion = sunni
+	}
+	artisans = {
+		size = 1038
+		culture = zarma
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 445
+		culture = zarma
+		religion = sunni
+	}
+	clergymen = {
+		size = 197
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = dyula
+		religion = sunni
+	}
+	clergymen = {
+		size = 296
+		culture = zarma
+		religion = sunni
+	}
+	labourers = {
+		size = 29277
+		culture = zarma
+		religion = sunni
+	}
+	labourers = {
+		size = 10053
+		culture = dyula
+		religion = sunni
+	}
+	labourers = {
+		size = 5790
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 1781
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 5937
+		culture = african_minor
+		religion = animist
+	}
+	soldiers = {
+		size = 3303
+		culture = fulbe
+		religion = sunni
+	}
+	soldiers = {
+		size = 6226
+		culture = zarma
+		religion = sunni
+	}
+}
+
+#Lulama - to be changed, formerly Say
+1809 = {
+	artisans = {
+		size = 294
+		culture = fulbe
+		religion = sunni
+	}
+	artisans = {
+		size = 197
+		culture = dyula
+		religion = sunni
+	}
+	artisans = {
+		size = 793
+		culture = songhai
+		religion = sunni
+	}
+	artisans = {
+		size = 395
+		culture = african_minor
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = dyula
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = songhai
+		religion = sunni
+	}
+	clergymen = {
+		size = 98
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 3074
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 3062
+		culture = dyula
+		religion = sunni
+	}
+	labourers = {
+		size = 15416
+		culture = songhai
+		religion = sunni
+	}
+	labourers = {
+		size = 4173
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 3958
+		culture = african_minor
+		religion = animist
+	}
+}
+
+#Say - to be changed
+1810 = {
+	artisans = {
+		size = 1176
+		culture = mossi
+		religion = animist
+	}
+	artisans = {
+		size = 797
+		culture = african_minor
+		religion = animist
+	}
+	artisans = {
+		size = 148
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 148
+		culture = fulbe
+		religion = sunni
+	}
+	clergymen = {
+		size = 395
+		culture = mossi
+		religion = animist
+	}
+	clergymen = {
+		size = 98
+		culture = african_minor
+		religion = animist
+	}
+	labourers = {
+		size = 2244
+		culture = fulbe
+		religion = sunni
+	}
+	labourers = {
+		size = 71565
+		culture = mossi
+		religion = animist
+	}
+	labourers = {
+		size = 3562
+		culture = african_minor
+		religion = animist
+	}
+	slaves = {
+		size = 5739
+		culture = african_minor
+		religion = animist
+	}
+}
+
+1811 = {
+
+	artisans = {
+
+		size = 98
+		culture = fulbe
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 2473
+		culture = hausa
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 791
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 98
+		culture = tuareg
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 494
+		culture = hausa
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = fulbe
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 36611
+		culture = hausa
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 14446
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 7916
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+
+1815 = {
+
+	artisans = {
+
+		size = 3958
+		culture = hausa
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1781
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 494
+		culture = tuareg
+		religion = sunni
+
+	}
+	bureaucrats = {
+
+		size = 593
+		culture = hausa
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 791
+		culture = hausa
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 62239
+		culture = hausa
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 20631
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7074
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 11874
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1816 = {
+
+	artisans = {
+
+		size = 3661
+		culture = kanuri
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 197
+		culture = tuareg
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 890
+		culture = kanuri
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 56005
+		culture = kanuri
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 3562
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 27706
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+###1817 - Pulicat --> India.txt
+1818 = {
+
+	capitalists = {
+
+		size = 2053
+		culture = baguirmi
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 717
+		culture = sara
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1781
+		culture = baguirmi
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1187
+		culture = sara
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1088
+		culture = african_minor
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 39
+		culture = baguirmi
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = baguirmi
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 197
+		culture = sara
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 197
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 24539
+		culture = baguirmi
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 21769
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 18107
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7916
+		culture = sara
+		religion = animist
+
+	}
+	officers = {
+
+		size = 59
+		culture = baguirmi
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 1880
+		culture = baguirmi
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 420
+		culture = sara
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 197
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1819 = {
+
+	artisans = {
+
+		size = 247
+		culture = baguirmi
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 346
+		culture = sara
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = baguirmi
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 568
+		culture = baguirmi
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 6308
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1979
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1979
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1820 = {
+
+	artisans = {
+
+		size = 98
+		culture = sara
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 346
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = sara
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 6308
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1821 = {
+
+	clergymen = {
+
+		size = 14
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1880
+		culture = tuareg
+		religion = sunni
+
+	}
+
+}
+1822 = {
+
+	artisans = {
+
+		size = 1187
+		culture = fur
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 346
+		culture = bedouin
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 296
+		culture = fur
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = bedouin
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 21422
+		culture = fur
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 7223
+		culture = bedouin
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 9895
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1823 = {
+
+	artisans = {
+
+		size = 1434
+		culture = fur
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 296
+		culture = bedouin
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 197
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = fur
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = bedouin
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 26221
+		culture = fur
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 5343
+		culture = bedouin
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 3562
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 5937
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1824 = {
+
+	artisans = {
+
+		size = 5244
+		culture = bedouin
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 395
+		culture = teda
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 2374
+		culture = kanuri
+		religion = sunni
+
+	}
+	bureaucrats = {
+
+		size = 98
+		culture = kanuri
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 1286
+		culture = bedouin
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 197
+		culture = teda
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 494
+		culture = kanuri
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 92419
+		culture = bedouin
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 7124
+		culture = teda
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 23154
+		culture = kanuri
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 47496
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1825 = {
+
+	artisans = {
+
+		size = 791
+		culture = teda
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 98
+		culture = tuareg
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = teda
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 14421
+		culture = teda
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = tuareg
+		religion = sunni
+
+	}
+
+}
+
+
+1877 = {
+
+	capitalists = {
+
+		size = 9
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 22
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 371
+		culture = african_minor
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 4
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 59
+		culture = portuguese
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 5442
+		culture = african_minor
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 1979
+		culture = african_minor
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 86
+		culture = portuguese
+		religion = catholic
+
+	}
+
+}
+1878 = {
+
+	capitalists = {
+
+		size = 1286
+		culture = mande
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1979
+		culture = mande
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 148
+		culture = mande
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = mande
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 27706
+		culture = mande
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 5937
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 1880
+		culture = mande
+		religion = animist
+
+	}
+
+}
+1879 = {
+
+	artisans = {
+
+		size = 1880
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 494
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 37601
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 5937
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1880 = {
+
+	capitalists = {
+
+		size = 1731
+		culture = fulbe
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 1779
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1558
+		culture = fulbe
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 4749
+		culture = african_minor
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 371
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 371
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 964
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 28695
+		culture = fulbe
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 86482
+		culture = african_minor
+		religion = animist
+
+	}
+	officers = {
+
+		size = 74
+		culture = fulbe
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 5937
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 1137
+		culture = fulbe
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 1014
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1881 = {
+
+	artisans = {
+
+		size = 1152
+		culture = fulbe
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1484
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 445
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 371
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 296
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 22659
+		culture = fulbe
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 23970
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 8163
+		culture = dyula
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 5937
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1882 = {
+
+	artisans = {
+
+		size = 593
+		culture = fulbe
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1855
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 445
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 188
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 371
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 9350
+		culture = fulbe
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 30763
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 8128
+		culture = dyula
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 4452
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1883 = {
+
+	capitalists = {
+
+		size = 3349
+		culture = mande
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 98
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1632
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 247
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 32381
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 4502
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 4947
+		culture = african_minor
+		religion = animist
+
+	}
+	officers = {
+
+		size = 113
+		culture = mande
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 3072
+		culture = mande
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 49
+		culture = dyula
+		religion = sunni
+
+	}
+
+}
+1884 = {
+
+	capitalists = {
+
+		size = 3265
+		culture = mande
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 865
+		culture = african_minor
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 1162
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 228
+		culture = afro_caribbean
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 1632
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 2275
+		culture = african_minor
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 692
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 445
+		culture = african_minor
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 11639
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 16583
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 4616
+		culture = african_minor
+		religion = animist
+
+	}
+	officers = {
+
+		size = 1
+		culture = mande
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 45
+		culture = afro_caribbean
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 1704
+		culture = mande
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 445
+		culture = african_minor
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 667
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 4303
+		culture = afro_caribbean
+		religion = protestant
+
+	}
+	slaves = {
+
+		size = 20000
+		culture = mande
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 25000
+		culture = african_minor
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 8000
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1885 = {
+
+	artisans = {
+
+		size = 1880
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1632
+		culture = african_minor
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 395
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 470
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = african_minor
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 35844
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 31391
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 7223
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 12863
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1886 = {
+
+	artisans = {
+
+		size = 1855
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1979
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 470
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 35894
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 36982
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 6926
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1887 = {
+
+	capitalists = {
+
+		size = 1442
+		culture = afro_american
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 2152
+		culture = kru
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 816
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 274
+		culture = afro_american
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 2325
+		culture = kru
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 445
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 197
+		culture = african_minor
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 183
+		culture = afro_american
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 183
+		culture = afro_american
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 445
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 741
+		culture = afro_american
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 2745
+		culture = kru
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 40445
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 8138
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 3586
+		culture = african_minor
+		religion = animist
+
+	}
+	officers = {
+
+		size = 9
+		culture = afro_american
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 1053
+		culture = afro_american
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 1682
+		culture = kru
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 470
+		culture = mande
+		religion = sunni
+
+	}
+
+}
+1888 = {
+
+	artisans = {
+
+		size = 1880
+		culture = kru
+		religion = protestant
+
+	}
+	artisans = {
+
+		size = 643
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 343
+		culture = afro_american
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 123
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 34236
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 11725
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1889 = {
+
+	artisans = {
+
+		size = 1236
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 247
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 22535
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 5417
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1890 = {
+
+	artisans = {
+
+		size = 544
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1088
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 9919
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 19814
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1891 = {
+
+	artisans = {
+
+		size = 1922
+		culture = afro_american
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 412
+		culture = afro_american
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 20754
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 17118
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1892 = {
+
+	capitalists = {
+
+		size = 2226
+		culture = akan
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 1187
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1063
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 272
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 19666
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 4947
+		culture = akan
+		religion = animist
+
+	}
+	officers = {
+
+		size = 74
+		culture = dyula
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 1261
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 2528
+		culture = dyula
+		religion = sunni
+
+	}
+
+}
+1893 = {
+
+	capitalists = {
+
+		size = 1014
+		culture = akan
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 717
+		culture = kru
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 1307
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 494
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1484
+		culture = kru
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 123
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 371
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7940
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 21793
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 2968
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 9895
+		culture = kru
+		religion = animist
+
+	}
+	officers = {
+
+		size = 1
+		culture = dyula
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 470
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 371
+		culture = kru
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 1508
+		culture = mande
+		religion = sunni
+
+	}
+
+}
+1894 = {
+
+	artisans = {
+
+		size = 1082
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 15861
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 3958
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1895 = {
+
+	artisans = {
+
+		size = 593
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 148
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 123
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 8831
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 2671
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1979
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1896 = {
+
+	artisans = {
+
+		size = 395
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1088
+		culture = kru
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7223
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 14867
+		culture = kru
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 4947
+		culture = kru
+		religion = animist
+
+	}
+
+}
+1897 = {
+
+	artisans = {
+
+		size = 940
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 17959
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 2968
+		culture = akan
+		religion = animist
+
+	}
+
+}
+
+#Kong
+1898 = {
+	artisans = {
+		size = 1781
+		culture = dyula
+		religion = sunni
+	}
+	artisans = {
+		size = 1484
+		culture = senufo
+		religion = animist
+	}
+	bureaucrats = {
+		size = 341
+		culture = dyula
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 123
+		culture = senufo
+		religion = animist
+	}
+	clergymen = {
+		size = 371
+		culture = dyula
+		religion = sunni
+	}
+	clergymen = {
+		size = 296
+		culture = senufo
+		religion = animist
+	}
+	labourers = {
+		size = 19790
+		culture = dyula
+		religion = sunni
+	}
+	labourers = {
+		size = 27087
+		culture = senufo
+		religion = animist
+	}
+	slaves = {
+		size = 11874
+		culture = senufo
+		religion = animist
+	}
+}
+
+1899 = {
+
+	artisans = {
+
+		size = 1632
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1038
+		culture = senufo
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 296
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = senufo
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 19790
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 18924
+		culture = senufo
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 8905
+		culture = senufo
+		religion = animist
+
+	}
+
+}
+1900 = {
+
+	artisans = {
+
+		size = 1929
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 742
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 445
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 445
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 222
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 34137
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 13580
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 8014
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 8905
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1901 = {
+
+	capitalists = {
+
+		size = 5417
+		culture = mossi
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 1038
+		culture = fulbe
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 5442
+		culture = mossi
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 395
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 1113
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 66123
+		culture = mossi
+		religion = animist
+
+	}
+	officers = {
+
+		size = 247
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 31664
+		culture = mossi
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 5838
+		culture = mossi
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 568
+		culture = fulbe
+		religion = sunni
+
+	}
+
+}
+1902 = {
+
+	artisans = {
+
+		size = 2473
+		culture = mossi
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1632
+		culture = african_minor
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 1
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 519
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 321
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 26242
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 29734
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 9895
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 7916
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1903 = {
+
+	artisans = {
+
+		size = 1335
+		culture = mossi
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1682
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 15139
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 30625
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 2968
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 11874
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1904 = {
+
+	artisans = {
+
+		size = 692
+		culture = mossi
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1137
+		culture = fulbe
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 296
+		culture = fulbe
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 12616
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 19493
+		culture = fulbe
+		religion = sunni
+
+	}
+	slaves = {
+
+		size = 6926
+		culture = mossi
+		religion = animist
+
+	}
+
+}
+1905 = {
+
+	artisans = {
+
+		size = 123
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1088
+		culture = mande
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 346
+		culture = mossi
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 24
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 247
+		culture = mande
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1632
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 19344
+		culture = mande
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 6308
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 4947
+		culture = mossi
+		religion = animist
+
+	}
+
+}
+1906 = {
+
+	capitalists = {
+
+		size = 148
+		culture = dyula
+		religion = sunni
+
+	}
+	capitalists = {
+
+		size = 444
+		culture = mande
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 847
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 346
+		culture = dyula
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1688
+		culture = mande
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1992
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = dyula
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 396
+		culture = mande
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 442
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 3265
+		culture = dyula
+		religion = sunni
+
+	}
+	labourers = {
+	
+		size = 36067
+		culture = mande
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 28116
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 11874
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 2077
+		culture = dyula
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 296
+		culture = mande
+		religion = animist
+
+	}
+
+	soldiers = {
+
+		size = 448
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1907 = {
+
+	capitalists = {
+
+		size = 643
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1311
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 321
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 20136
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 5937
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 4304
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1908 = {
+
+	capitalists = {
+
+		size = 222
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 593
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 123
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 4810
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 123
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 6000
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1909 = {
+
+	capitalists = {
+
+		size = 45
+		culture = dutch
+		religion = protestant
+
+	}
+	capitalists = {
+
+		size = 420
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1088
+		culture = akan
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 18
+		culture = dutch
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 98
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 220
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 15858
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 3958
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 222
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1910 = {
+
+	capitalists = {
+
+		size = 11166
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 9895
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 930
+		culture = akan
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 262
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 2686
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 212520
+		culture = akan
+		religion = animist
+
+	}
+	officers = {
+
+		size = 549
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 38095
+		culture = akan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 9885
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1911 = {
+
+	artisans = {
+
+		size = 5194
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 1296
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 93408
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 24242
+		culture = akan
+		religion = animist
+
+	}
+
+}
+1912 = {
+
+	artisans = {
+
+		size = 2077
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 2943
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1038
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 519
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 608
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 262
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 43933
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 53591
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 18800
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 10389
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1913 = {
+
+	artisans = {
+
+		size = 1038
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1301
+		culture = mossi
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 173
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 346
+		culture = mossi
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 18958
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 18182
+		culture = mossi
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 10389
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1914 = {
+
+	capitalists = {
+
+		size = 3789
+		culture = ewe
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 272
+		culture = african_minor
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 24
+		culture = african_minor
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1558
+		culture = ewe
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 593
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 395
+		culture = ewe
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 30526
+		culture = ewe
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 11700
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 6926
+		culture = african_minor
+		religion = animist
+
+	}
+	officers = {
+
+		size = 1
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 2750
+		culture = ewe
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 24
+		culture = african_minor
+		religion = sunni
+
+	}
+
+}
+1915 = {
+
+	artisans = {
+
+		size = 1731
+		culture = akan
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 2513
+		culture = ewe
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 435
+		culture = akan
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 608
+		culture = ewe
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 31268
+		culture = akan
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 40000
+		culture = ewe
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 6926
+		culture = akan
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 17316
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1916 = {
+
+	artisans = {
+
+		size = 1299
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 262
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 21907
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 6926
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1917 = {
+
+	artisans = {
+
+		size = 692
+		culture = ewe
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 346
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 445
+		culture = fon
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = ewe
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = fon
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 12616
+		culture = ewe
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 6308
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 8039
+		culture = fon
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1979
+		culture = fon
+		religion = animist
+
+	}
+
+}
+1918 = {
+
+	artisans = {
+
+		size = 197
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 98
+		culture = african_minor
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 3611
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = african_minor
+		religion = sunni
+
+	}
+
+}
+1919 = {
+
+	capitalists = {
+
+		size = 4378
+		culture = fon
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 544
+		culture = african_minor
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 197
+		culture = african_minor
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 4056
+		culture = fon
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 1484
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 197
+		culture = yoruba
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 1088
+		culture = fon
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = yoruba
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 59320
+		culture = fon
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 27062
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 3562
+		culture = yoruba
+		religion = animist
+
+	}
+	officers = {
+
+		size = 197
+		culture = fon
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 3958
+		culture = fon
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 25727
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 3958
+		culture = yoruba
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 4329
+		culture = fon
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 123
+		culture = african_minor
+		religion = sunni
+
+	}
+
+}
+1920 = {
+
+	artisans = {
+
+		size = 4205
+		culture = fon
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 395
+		culture = yoruba
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	bureaucrats = {
+
+		size = 98
+		culture = fon
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 1088
+		culture = fon
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = yoruba
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 82376
+		culture = fon
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7223
+		culture = yoruba
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 5343
+		culture = african_minor
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 7916
+		culture = fon
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 1979
+		culture = yoruba
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 1979
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1921 = {
+
+	artisans = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 371
+		culture = african_minor
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 2671
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 7173
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 1088
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1922 = {
+
+	artisans = {
+
+		size = 247
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 98
+		culture = african_minor
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 4526
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 1781
+		culture = african_minor
+		religion = sunni
+
+	}
+
+}
+
+
+1965 = {
+
+	capitalists = {
+
+		size = 816
+		culture = african_minor
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 9
+		culture = baguirmi
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 1286
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 247
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 23426
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 568
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 14
+		culture = baguirmi
+		religion = sunni
+
+	}
+
+}
+1966 = {
+
+	artisans = {
+
+		size = 494
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 9029
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1967 = {
+
+	artisans = {
+
+		size = 346
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 6308
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1968 = {
+
+	artisans = {
+
+		size = 494
+		culture = african_minor
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 49
+		culture = baguirmi
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 148
+		culture = sara
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 98
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 24
+		culture = baguirmi
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 74
+		culture = sara
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 9029
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 890
+		culture = baguirmi
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 2671
+		culture = sara
+		religion = animist
+
+	}
+
+}
+1969 = {
+
+	artisans = {
+
+		size = 296
+		culture = azande
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 247
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = azande
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 5417
+		culture = azande
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 4526
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
+1970 = {
+
+	capitalists = {
+
+		size = 282
+		culture = azande
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 222
+		culture = african_minor
+		religion = animist
+
+	}
+	capitalists = {
+
+		size = 9
+		culture = fur
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 49
+		culture = azande
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 643
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 24
+		culture = azande
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 890
+		culture = azande
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 11750
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 212
+		culture = azande
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 148
+		culture = african_minor
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 14
+		culture = fur
+		religion = sunni
+
+	}
+
+}
+1971 = {
+
+	artisans = {
+
+		size = 49
+		culture = fur
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 296
+		culture = african_minor
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 24
+		culture = fur
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = african_minor
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 890
+		culture = fur
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 5417
+		culture = african_minor
+		religion = animist
+
+	}
+
+}
