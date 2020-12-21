@@ -1,0 +1,38 @@
+artillery = { 
+	icon = 3
+	
+	type = land
+	sprite = Artillery
+	active = no
+	unit_type = support
+	primary_culture = yes
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 20
+	max_strength = 5
+	default_organisation = 10
+	maximum_speed = 4
+	weighted_value = 25.0
+
+	#Building Costs
+	build_time = 40
+	build_cost = {
+		military_industry = 5
+	}
+	
+	supply_consumption = 1
+	supply_cost = {
+		military_industry = 0.5
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0.05
+	attack = 1
+	defence = 3
+	discipline = 1
+	support = 1.5
+	maneuver = 1
+	siege = 1.5
+}

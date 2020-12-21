@@ -1,0 +1,12 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+trade_goods = grain
+life_rating = 30
+terrain = floodplain_farmland
+state_building = {
+level = 2
+building = heavy_factory_building
+upgrade = yes
+}
+1861.1.1 = { railroad = 2 }

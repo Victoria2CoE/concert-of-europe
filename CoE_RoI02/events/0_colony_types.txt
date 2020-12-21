@@ -1,0 +1,405 @@
+province_event = {
+	id = 999890
+	title = "Colony of $STATENAME$"
+	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
+	
+	trigger = {
+	    owner = { ai = no }
+	    state_scope = { is_colonial = yes }
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }	
+	}
+	
+	allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Settlement Colony!"
+		state_scope = {
+			any_owned = {
+			    remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+				add_province_modifier = {
+					name = settlement_colony
+					duration = -1
+				}
+			}
+			#any_owned = {
+			#   limit = { NOT = { life_rating = 35 } }
+			#   life_rating = 5
+			#}
+		}		
+	}
+
+	option = {
+		name = "Exploitation Colony!"
+		state_scope = {
+			any_owned = {
+			    remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+				add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+province_event = {
+	id = 999889
+	title = "Colony of $STATENAME$"
+	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
+	
+	trigger = {
+	    owner = { ai = yes }
+	    state_scope = { is_colonial = yes }
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+        OR = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+					}
+		    }
+		}		
+	}
+	
+	allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Settlement Colony!"
+		state_scope = {
+			any_owned = {
+			    remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+				add_province_modifier = {
+					name = settlement_colony
+					duration = -1
+				}
+			}
+			any_owned = {
+			    limit = { NOT = { life_rating = 35 } }
+				life_rating = 5
+			}
+		}		
+	}
+
+	#option = {
+	#	name = "Exploitation Colony!"
+	#	state_scope = {
+	#		any_owned = {
+	#		    remove_province_modifier = exploitation_colony
+	#			remove_province_modifier = settlement_colony
+	#			add_province_modifier = {
+	#				name = exploitation_colony
+	#				duration = -1
+	#			}
+	#		}
+	#	}		
+	#}
+}
+
+province_event = {
+	id = 999888
+	title = "Colony of $STATENAME$"
+	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
+	
+	trigger = {
+	    owner = { ai = yes }
+	    state_scope = { is_colonial = yes }
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+		NOT = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+						  is_core = SAF
+					}
+		    }
+        }		
+	}
+	
+	allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#option = {
+	#	name = "Settlement Colony!"
+	#	state_scope = {
+	#		any_owned = {
+	#		    remove_province_modifier = exploitation_colony
+	#			remove_province_modifier = settlement_colony
+	#			add_province_modifier = {
+	#				name = settlement_colony
+	#				duration = -1
+	#			}
+	#		}
+	#	}		
+	#}
+
+	option = {
+		name = "Exploitation Colony!"
+		state_scope = {
+			any_owned = {
+			    remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+				add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = 999887
+	title = "Colonial SetUp"
+	desc = "Colonial SetUp"		
+    is_triggered_only = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Colonial SetUp"  
+		any_owned = { 
+		             limit = {
+	    is_colonial = yes
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+        OR = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+						  is_core = SAF
+					}
+		    }
+		}
+					 }
+         		add_province_modifier = {
+					name = settlement_colony
+					duration = -1
+				}
+				#life_rating = 5
+		}
+
+		any_owned = { 
+		             limit = {
+	    is_colonial = yes
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+		NOT = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+						  is_core = SAF
+					}
+		    }
+        }
+					 }
+         		add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}
+		}
+
+	any_country = {	
+		any_owned = { 
+		             limit = {
+	    is_colonial = yes
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+        OR = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+						  is_core = SAF
+					}
+		    }
+		}
+					 }
+         		add_province_modifier = {
+					name = settlement_colony
+					duration = -1
+				}
+				#life_rating = 5
+		}
+
+		any_owned = { 
+		             limit = {
+	    is_colonial = yes
+		NOT = { has_province_modifier = settlement_colony }
+		NOT = { has_province_modifier = exploitation_colony }
+		NOT = {
+		      continent = europe
+			  continent = north_america
+			  continent = south_america
+			  continent = oceania
+			  is_core = THIS
+			  AND = { 
+			         continent = asia 
+                     OR = {	
+                           AND = {					 
+					              owner = { tag = JAP }
+                                  is_core = KOR							   
+                           }		   
+						   is_core = RUS
+					}
+			}
+			AND = { 
+			        continent = africa 
+                    OR = {	
+                          AND = {					 
+					             owner = { tag = FRA }
+                                 is_core = ALD							   
+                          }
+						  is_core = SAF
+					}
+		    }
+        }
+					 }
+         		add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}
+		}
+	}
+	}
+}
+
+province_event = {
+	id = 999886
+	title = "Colony No More"
+	desc = "With integration of this province into our metropolitan administration the local policies have to change."
+	
+	trigger = {
+	    state_scope = { is_colonial = no }
+		OR = {
+		      has_province_modifier = settlement_colony
+		      has_province_modifier = exploitation_colony
+		}
+	}
+	
+	allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "And they shall change indeed!"
+		state_scope = {
+			any_owned = {
+			    remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+			}
+		}		
+	}
+}

@@ -1,0 +1,99 @@
+SHW = {
+	value = 35
+}
+
+TIG = {
+	value = 35
+}
+
+EGY = {
+	value = 75
+}
+
+GEL = {
+	value = 10
+}
+
+MAJ = {
+	value = 10
+}
+
+leader = {
+   name = "Tewoderos Kasa"
+   type = land
+   date = 1836.1.1
+   background = school_of_offense
+   personality = bold 
+}
+
+army = {
+	name = "Army of the Negus of Begemder"
+	location = 1852
+	regiment = {
+		name = "1st Royal Guard"
+		type = hussar
+		home = 1852
+	}
+	regiment = {
+		name = "2nd Royal Guard"
+		type = hussar
+		home = 1852
+	}
+	regiment = {
+		name= "1st Galla Division"
+		type = infantry
+		home = 1852
+	}
+	regiment = {
+		name= "2nd Galla Division"
+		type = infantry
+		home = 1852
+	}
+	regiment = {
+		name= "3rd Galla Division"
+		type = infantry
+		home = 1852
+	}
+	regiment = {
+		name= "4th Galla Division"
+		type = infantry
+		home = 1852
+	}
+	regiment = {
+		name= "5th Galla Division"
+		type = infantry
+		home = 1852
+	}
+	regiment = {
+		name= "6th Galla Division"
+		type = infantry
+		home = 1852
+	}
+
+}
+
+army = {
+	name = "Army of the Ras of Jimma"
+	location = 1863
+	regiment = {
+		name = "1st Royal Guard"
+		type = hussar
+		home = 1862
+	}
+	regiment = {
+		name= "1st Wolla Division"
+		type = infantry
+		home = 1862
+	}
+	regiment = {
+		name= "2nd Wolla Division"
+		type = infantry
+		home = 1862
+	}
+	regiment = {
+		name= "3rd Wolla Division"
+		type = infantry
+		home = 1862
+	}
+
+}

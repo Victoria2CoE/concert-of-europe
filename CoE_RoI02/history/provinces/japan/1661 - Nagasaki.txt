@@ -1,0 +1,10 @@
+owner = SAT
+controller = SAT
+add_core = SAT
+add_core = TKG
+trade_goods = coal
+life_rating = 30
+terrain = mountain_farmland
+1821.1.1 = {
+	naval_base = 1
+}

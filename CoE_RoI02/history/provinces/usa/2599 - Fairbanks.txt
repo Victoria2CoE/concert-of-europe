@@ -1,0 +1,11 @@
+owner = D23
+controller = D23
+add_core = D23
+trade_goods = fruit
+life_rating = 25
+terrain = jungle_farmland
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 1
+}

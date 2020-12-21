@@ -1,0 +1,10 @@
+add_core = ETH
+add_core = GEL
+add_core = MAJ
+trade_goods = grain
+life_rating = 15
+terrain = semi_desert_hills
+1861.1.1 = {
+	owner = ETH
+	controller = ETH
+}

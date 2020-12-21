@@ -1,0 +1,10 @@
+owner = GCO
+controller = GCO
+add_core = CLM
+trade_goods = copper
+life_rating = 30
+terrain = mountain_farmland
+1836.1.1 = {
+	owner = CLM
+	controller = CLM
+}

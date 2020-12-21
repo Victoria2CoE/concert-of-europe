@@ -1,0 +1,15 @@
+add_core = AOT
+trade_goods = cattle
+life_rating = 25
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	owner = AOT
+	controller = AOT
+	life_rating = 30
+}
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = NZL
+	colonial = 1
+}

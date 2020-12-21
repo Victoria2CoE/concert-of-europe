@@ -1,0 +1,33 @@
+TUR = {
+	value = 125
+}
+MOL = {
+	value = 200
+}
+RUS = {
+	value = 125
+}
+
+army = {
+	name = "Army of the Principality of Wallachia"
+	location = 669
+	regiment = {
+		name= "1st Wallachia regular"
+		type = regular
+		home = 665
+	}
+
+	regiment = {
+		name= "2nd Wallachia regular"
+		type = regular
+		home = 665
+	}
+
+	regiment = {
+		name= "3rd Wallachia regular"
+		type = regular
+		home = 665
+	}
+
+}
+

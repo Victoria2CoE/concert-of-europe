@@ -1,0 +1,29 @@
+AUS = {
+	value = 125
+}
+PRU = {
+	value = 50
+}
+
+army = {
+	name = "Königlich Sächsische Armee"
+	location = 558
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = regular
+		home = 558
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = regular
+		home = 558
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = regular
+		home = 558
+	}
+
+}

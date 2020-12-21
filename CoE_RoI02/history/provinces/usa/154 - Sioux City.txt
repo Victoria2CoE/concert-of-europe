@@ -1,0 +1,10 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = grain
+life_rating = 30
+terrain = rich_farmland
+colonial = 1
+1861.1.1 = {
+	colonial = 0
+}

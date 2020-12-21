@@ -1,0 +1,9 @@
+add_core = AST
+add_core = ENG
+trade_goods = wool
+life_rating = 15
+terrain = semi_desert_hills
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+}

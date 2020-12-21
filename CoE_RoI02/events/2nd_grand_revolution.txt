@@ -1,0 +1,983 @@
+country_event = {
+	id = 99924
+	title = "'New' German Nation - Eastern Provinces Secede"
+	desc = "After the proclamation of the recently formed National Assembly of Germany various reactionary and nationalistic elements have triggered a secession of some former Prussian provinces and the Grand Duchy of Poznan."													
+	picture = "prussian_secession"
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "We will deal with them later..."
+		any_owned = {
+				limit = { 
+				        is_core = PRU  
+				        NOT = { is_core = GER }  
+				        NOT = { is_core = PZN } 
+				}
+				secede_province = PRU
+		}
+		any_owned = {
+				limit = { 
+				        is_core = PZN   
+				}
+				secede_province = PZN
+		}
+	   PRU_701 = { add_core = GER }
+	   PRU_695 = { add_core = GER }
+	   PRU_690 = { add_core = GER }
+    }
+}
+
+country_event = {
+	id = 99923
+	title = "'New' German Nation - Destiny of the Revolution"
+	desc = "Many of the German citizens keep asking the same question, 'What is our destiny?' Is it simply the unification of the German states or...shall we pick up the torch of the 'German' Revolution for all provinces where Germans live?"
+	picture = "berlin_1848"
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "It is only the unification of the German states that concerns us."
+	    ai_chance = {
+			factor = 70
+	   }
+	}
+	
+	option = {
+		name = "Freiheit, Gleichheit, Bruederlichkeit! For all Germans!! Everywhere!!!"
+		add_country_modifier = {
+			name = rev_birth_place
+			duration = -1
+		}
+		any_pop = {
+			limit = {
+				NOT = { type = capitalists }
+			}
+			consciousness = 1
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = 2
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.20
+				value = jingoism
+			}
+		}
+	    FRA_412 = { add_core = GER }
+        FRA_411	= { add_core = GER }
+		SCH_370 = { add_core = GER }
+		362 = { add_core = GER }
+	    707 = { add_core = GER }
+	    709 = { add_core = GER }
+	    708 = { add_core = GER }
+	    710 = { add_core = GER }
+	    712 = { add_core = GER }
+	    717	= { add_core = GER }
+		397	= { add_core = GER }
+		398	= { add_core = GER }
+		396	= { add_core = GER }
+		381	= { add_core = GER }
+		badboy = 30
+		set_global_flag = 2nd_grand_rev
+		set_global_flag = 2nd_grand_rev_happened
+		ai_chance = {
+			factor = 30
+	   }
+	}
+}
+
+country_event = {
+	id = 99922
+	title = "'New' German Nation - Full Scale Intervention" #for France
+	desc = "The French government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = FRA
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is...very necessary!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = cut_down_to_size
+				}
+	   }
+       set_global_flag = 1848_full_fra
+	   	ai_chance = {
+			factor = 100
+		}
+    }
+	
+	option = {
+		name = "Why should we care about a powerful Germany?"
+		set_global_flag = 1848_full_fra_rejected
+		ai_chance = {
+			factor = 0
+		}
+    }
+}
+
+country_event = {
+	id = 99921
+	title = "'New' German Nation - Intervention Successful"
+	desc = "The recent war against 'those people' has meant utter defeat for Germany. Now that the German Confederation with its ill advised leaders has fallen that nation shall be wiped from the face of the Earth!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 OR = {
+	 tag = FRA
+	 tag = RUS
+	 has_country_flag = 1848_full_generic
+	 }
+	 exists = yes
+	 NOT = { war_with = GER }
+	 GER = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Good!"  
+        clr_global_flag = 1848_full_fra
+	    clr_global_flag = 1848_full_rus
+		clr_country_flag = 1848_full_generic
+		any_country = { clr_country_flag = 1848_full_generic }
+        GER = { country_event = 99920 }
+	}
+}
+
+country_event = {
+	id = 99920
+	title = "'New' German Nation - Dissolution"
+	desc = "The recent war has meant utter defeat for Germany. Now all the people of the 'German Nation' disintegrate into various states...again."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "'Alles zum Teufel!' - German radical"
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+		      }
+    }
+}
+
+country_event = {
+	id = 99919
+	title = "'New' German Nation - Drastic Measures"
+	desc = "Our enemy has finally shown its true face, trying to break our finally unified nation. It is indeed a powerful and demanding enemy, therefor Germany has to take demanding measures! With our new government we shall prevail! Sieg!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+     OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "...oder Tod!"
+		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+    }
+}
+
+country_event = {
+	id = 99918
+	title = "'New' German Nation - The War of Nations"
+	desc = "With the the old 'feudal' German states finally under a united rulership the old treaties of the Congress of Vienna too are no longer valid. Germany mustn't bind herself to one power alone but shall reach out to other great nations as well."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+	 OR = {
+     has_global_flag = 1848_full_fra
+	 has_global_flag = 1848_full_rus
+	 }
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "The guns of many will overcome the world's oppression by few!"
+		great_wars_enabled = yes
+		set_global_flag = great_wars_enabled
+    }
+}
+
+country_event = {
+	id = 99917
+	title = "EVTNAME96085" #Democracy
+	desc = "EVTDESC96085"
+	news = yes
+	news_title = "EVTNAME96085_NEWS_TITLE"
+	news_desc_long = "EVTDESC96085_NEWS_LONG"
+	news_desc_medium = "EVTDESC96085_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC96085_NEWS_SHORT"
+	picture = "unite"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA96085" #We welcome the new regime.
+		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		random_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				NOT = { has_country_flag = friendly_revolutionary }
+			}
+			diplomatic_influence = { who = THIS value = -100 }
+		}
+		random_country = {
+			limit = {
+				has_country_flag = friendly_revolutionary
+				truce_with = THIS
+			}
+			relation = { who = THIS value = 400 }
+			diplomatic_influence = { who = THIS value = 100 }
+			create_alliance = THIS
+			clr_country_flag = friendly_revolutionary
+		}
+		capital_scope = {
+			any_pop = {
+				limit = { literacy = 0.2 }
+				ideology = { factor = 0.1 value = anarcho_liberal }
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = communist
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = 6
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 99916
+	title = "'New' German Nation - Intervention By Many" #Generic
+	desc = "Another government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     capital_scope = { continent = europe }
+	 NOT = { alliance_with = GER }
+	 NOT = { 
+	        tag = RUS
+			tag = FRA
+			tag = PRU
+			tag = PZN
+	        tag = SAR
+            tag = ITA
+            tag = TUR
+            tag = GRE
+			tag = HUN
+	 }
+     is_vassal = no
+     OR = {				
+		   OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		   OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		   OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+     }
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is...very necessary!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = install_revolution
+				}
+	   }
+
+	   	ai_chance = {
+			factor = 60
+		}
+        set_country_flag = 1848_full_generic
+    }
+	
+	option = {
+		name = "War...against Germany? Uhm...no."
+		ai_chance = {
+			factor = 40
+		}
+    }
+}
+
+country_event = {
+	id = 99915
+	title = "'New' German Nation - Victory Over Russia"
+	desc = "The recent war has meant utter defeat for 'Mother Russia'. What Napoleon and his armies once began Germany shall now finish. Let our revolution of the people spread to all of Eastern Europe as well!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER
+	 exists = yes
+	 NOT = { war_with = RUS }
+	 RUS = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_full_rus
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"  
+        RUS = { country_event = 99914 }
+		set_global_flag = 1848_ger_victory_rus
+	}
+}
+
+country_event = {
+	id = 99914
+	title = "'Mother Russia' - Dissolution"
+	desc = "The recent war has meant utter defeat for Russia. Leaving Germany as the true protector of Eastern Europe the oppressed people under Russian rule shall now create their own nations and states. Spread the Revolution!"													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "For the glory of Ger...the people of Europe!"
+        362 = { add_core = GER }
+	    707 = { add_core = GER }
+	    709 = { add_core = GER }
+	    708 = { add_core = GER }
+	    710 = { add_core = GER }
+	    712 = { add_core = GER }
+	    717	= { add_core = GER }
+		719	= { add_core = GER }
+		   any_owned = {
+				limit = { 
+				         OR = { 
+						       AND = {
+						              is_core = LIT
+						              #NOT = { province_id = 938 }
+									  #NOT = { province_id = 936 }
+									  NOT = { province_id = 707 }
+									  NOT = { province_id = 362 }
+						        }
+						        is_core = LAT 
+						        is_core = EST  
+						 } 
+				}
+				add_core = UBD
+				secede_province = UBD
+				UBD = { country_event = 99910 }
+		   }
+		   any_owned = {
+				limit = { 
+				         OR = { 
+						       province_id = 362
+							   province_id = 707
+							   province_id = 709
+							   province_id = 708
+							   province_id = 710
+							   province_id = 712
+							   province_id = 717
+							   province_id = 719
+						 } 
+				}
+				secede_province = GER
+		   }
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+				country_event = 99913
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+				country_event = 99913
+		      }
+		country_event = 99913
+		set_global_flag = baltic_states_formed
+    }
+}
+
+country_event = {
+	id = 99913
+	title = "People of Eastern Europe - Revolution Spreads"
+	desc = "With the latest dismantlement of Russia the freed people are now finally able to voice their opinion about the 'true' revolution of the people, and of course about its shining roots as well."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Viva la revolucion! Viva Germany! Viva..."
+ 		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		any_pop = {
+			limit = {
+				NOT = { type = capitalists }
+			}
+			consciousness = 3
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
+		}
+        relation = { who = GER value = 200 }
+		random_country = {
+			limit = {
+				tag = GER
+			}
+			diplomatic_influence = { who = THIS value = 400 }
+			#create_vassal = THIS
+		}		
+    }
+}
+
+country_event = {
+	id = 99912
+	title = "'New' German Nation - Victory Over France"
+	desc = "The recent war has meant utter defeat for France. What Robespierre and Napoleon once began Germany shall now finish. Let our revolution of the people spread to all of Western Europe as well!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER
+	 exists = yes
+	 NOT = { war_with = FRA }
+	 FRA = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_full_fra
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"
+        FRA_412 = { add_core = GER }
+        FRA_411	= { add_core = GER }	
+        FRA = { country_event = 99911 }
+		set_global_flag = 1848_ger_victory_fra
+	}
+}
+
+country_event = {
+	id = 99911
+	title = "France - Dissolution"
+	desc = "The recent war has meant utter defeat for France. Leaving Germany as the true protector of Western Europe the oppressed people under French rule shall now create their own nations and states. Spread the Revolution!"													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "For the glory of Ger...the people of Europe!"
+		   any_owned = {
+				limit = { is_core = GER } 
+				secede_province = GER
+			}
+		      any_country = {
+		      	limit = { vassal_of = THIS }
+		      	leave_alliance = THIS
+		      	country_event = 31523
+				country_event = 99913
+		      }
+		      any_country = {
+		      	limit = {
+		      		neighbour = THIS
+		      		exists = yes
+		      		any_core = { owned_by = THIS }
+		      	}
+		      	country_event = 31522
+		      }
+		      any_country = {
+		      	limit = {
+		      		any_core = { owned_by = THIS }
+		      		exists = no
+		      		is_cultural_union = no
+		      	}
+		      	country_event = 31526
+				country_event = 99913
+		      }
+		country_event = 99913
+    }
+}
+
+country_event = {
+	id = 99910
+	title = "People of Western Europe - Revolution Spreads"
+	desc = "With the latest dismantlement of France the freed people are now finally able to voice their opinion about the 'true' revolution of the people, and of course about its shining roots as well."													
+	major = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Viva la revolucion! Viva Germany! Viva..."
+ 		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = harassment
+		clr_country_flag = tory_election_win
+		clr_country_flag = socialist_election_win
+		set_country_flag = liberal_election_win
+		clr_country_flag = communist_election_win
+		clr_country_flag = fascist_election_win
+		clr_country_flag = reactionary_election_win
+		clr_country_flag = anarcho_liberal_election_win
+		clr_country_flag = social_liberal_election_win
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = otto_von_bismarck
+		remove_country_modifier = louis_napoleon_iii
+		any_pop = {
+			limit = {
+				NOT = { type = capitalists }
+			}
+			consciousness = 3
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.5
+			}
+		}
+        relation = { who = GER value = 200 }
+		random_country = {
+			limit = {
+				tag = GER
+			}
+			diplomatic_influence = { who = THIS value = 400 }
+			create_vassal = THIS
+		}		
+    }
+}
+
+country_event = {
+	id = 99909
+	title = "'New' German Nation - Intervention By 'Traitors'" #Generic
+	desc = "The government of a state which has recently seceded from Germany is now - some may call it 'traitorously' - siding with the enemies of the 'true' revolution of the people, seeking an armed conflict with its German brothers."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 OR = {
+	 tag = PRU
+	 tag = PZN
+	 }
+     is_vassal = no
+     OR = {				
+		   OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		   OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		   OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+     }
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is...very necessary!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+	   }
+       set_country_flag = 1848_full_generic
+    }
+}
+
+country_event = {
+	id = 99908
+	title = "People of Europe - Triumph Of The Revolution"
+	desc = "The recent war has meant utter defeat for all enemies of the 'true' revolution of the people. Leaving Germany as the sole protector she shall henceforth write the history of all Europe. Spread the Revolution to the World!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER 
+	 war = no
+     has_global_flag = 2nd_grand_rev
+	 has_global_flag = 1848_ger_victory_fra
+	 has_global_flag = 1848_ger_victory_rus
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "'Und es mag am deutschen Wesen...die Welt genesen.' - German poet"
+        prestige = 500
+		badboy= -50
+	    clr_global_flag = 1848_full_fra
+	    clr_global_flag = 1848_full_rus
+		clr_country_flag = 1848_full_generic
+		clr_global_flag = 2nd_grand_rev
+		set_global_flag = 2nd_grand_rev_won
+		any_country = { clr_country_flag = 1848_full_generic }
+        remove_country_modifier = rev_birth_place
+		add_country_modifier = {
+			name = rev_birth_place2
+			duration = -1
+		}
+    }
+}
+
+country_event = {
+	id = 99907
+	title = "'New' German Nation - Full Scale Intervention" #for Russia
+	desc = "The Russian government is of the opinion that the revolutionary pan-german unification has created a powerful and indeed very dangerous enemy. Therefor the German expansion must be contained before it is too late."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = RUS
+	 exists = yes
+     has_global_flag = 2nd_grand_rev
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "This war is...very necessary!"
+		war = {
+				target = GER
+				attacker_goal = {
+					casus_belli = cut_down_to_size
+				}
+				defender_goal = {
+					casus_belli = cut_down_to_size
+				}
+	   }
+       set_global_flag = 1848_full_rus
+	   	ai_chance = {
+			factor = 100
+		}
+    }
+	
+	option = {
+		name = "Why should we care about a powerful Germany?"
+		set_global_flag = 1848_full_rus_rejected
+		ai_chance = {
+			factor = 0
+		}
+    }
+}
+
+country_event = {
+	id = 99906
+	title = "People of Europe - Stalemate Of The Revolution"
+	desc = "Despite of its initial success the 'true' revolution of the people has somewhat lost its momentum. Germany of course is still actively pursuing its role as Europe's true protector, however the means for doing so have diminished."													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+     tag = GER 
+	 war = no
+     has_global_flag = 2nd_grand_rev
+	 OR = {
+     NOT = { has_global_flag = 1848_ger_victory_fra }
+	 NOT = { has_global_flag = 1848_ger_victory_rus }
+	 }
+	 OR = { 
+	       has_global_flag = 1848_full_rus  
+		   has_global_flag = 1848_full_rus_rejected 
+     }
+	 OR = { 
+	       has_global_flag = 1848_full_fra  
+		   has_global_flag = 1848_full_fra_rejected 
+     }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Ger...the revolution will triumph...one day!"
+		badboy= -25
+	    clr_global_flag = 1848_full_fra
+	    clr_global_flag = 1848_full_rus
+		clr_country_flag = 1848_full_generic
+		clr_country_flag = 1848_aus_ger_war
+		clr_global_flag = 2nd_grand_rev
+		set_global_flag = 2nd_grand_rev_stalemate
+		any_country = { clr_country_flag = 1848_full_generic }
+        remove_country_modifier = rev_birth_place
+		add_country_modifier = {
+			name = rev_birth_place2
+			duration = -1
+		}
+    }
+}
+
+country_event = {
+	id = 99905
+	title = "'Grossdeutschland' - Iron and Blood - Unification"
+	desc = "The recent war against Austria - or what was left of its former glory - has been victorious. Now all the people of this 'Remnant Empire' disintegrate into various nations and states, a pity...Nonetheless, Austria has fallen!"													
+	major = yes
+	fire_only_once = yes
+	
+    trigger = {
+	 tag = GER
+	 exists = yes
+	 NOT = { war_with = KUK }
+	 KUK = { has_recently_lost_war = yes }
+	 has_recently_lost_war = no
+	 has_global_flag = 1848_aus_ger_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "At last we are together as one!"  
+        KUK = { country_event = 99933 }
+	}
+}

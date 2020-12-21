@@ -1,0 +1,12 @@
+owner = NAG
+controller = NAG
+add_core = NAG
+add_core = HND
+trade_goods = tobacco
+life_rating = 30
+terrain = forested_farmland
+1861.1.1 = {
+	owner = HND
+	controller = HND
+	colonial = 1
+}

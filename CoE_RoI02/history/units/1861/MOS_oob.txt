@@ -1,0 +1,40 @@
+MAS = {
+	value = -5
+}
+SOK = {
+	value = -5
+}
+SEG = {
+	value = 40
+}
+ASH = {
+	value = 20
+}
+DAH = {
+	value = 10
+}
+DND = {
+	value = 30
+}
+KNG = {
+	value = 10
+}
+
+army = {
+	name = "Army of the Mossi"
+	location = 1901	
+	regiment = {
+		name= "Mogho Naba's Cavalry"	
+		type = hussar
+	}
+	regiment = {
+		name= "1st Mossi Warriors"
+		type = infantry	
+	}
+	regiment = {
+		name= "2nd Mossi Warriors"	
+		type = infantry
+	}
+}
+
+

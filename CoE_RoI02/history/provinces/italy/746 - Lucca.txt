@@ -1,0 +1,12 @@
+owner = LUC
+controller = LUC
+add_core = LUC
+add_core = ITA
+trade_goods = grain
+life_rating = 30
+terrain = deciduous_forest_hills
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}

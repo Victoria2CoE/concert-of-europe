@@ -1,0 +1,14 @@
+add_core = PTG
+owner = CHL
+controller = CHL
+add_core = CHL
+trade_goods = grain
+life_rating = 30
+terrain = deciduous_forest_hills
+colonial = 2
+1836.1.1 = {
+	colonial = 1
+}
+1861.1.1 = {
+	colonial = 0	
+}

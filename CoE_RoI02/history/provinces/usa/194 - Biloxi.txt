@@ -1,0 +1,17 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = cotton
+life_rating = 30
+terrain = deciduous_forest
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

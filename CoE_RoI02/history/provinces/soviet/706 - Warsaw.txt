@@ -1,0 +1,33 @@
+owner = CPL
+controller = CPL
+add_core = RUS
+add_core = CPL
+add_core = POL
+trade_goods = fruit
+life_rating = 30
+terrain = marginal_farmland
+state_building = {
+	level = 1
+	building = heavy_factory_building 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+} 
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

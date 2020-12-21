@@ -1,0 +1,327 @@
+
+#North America
+MEX = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#South America
+ECU = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+PEU = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BOL = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CHL = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+PRG = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CLM = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BRZ = {
+	value = 100		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+URU = {
+	value = 75		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+#Other GP's
+ENG = {
+	value = 50
+}
+FRA = {
+	value = 75
+}
+
+#Other
+TKG = {
+	value = 0
+	level = 3
+	influence_value = 25
+}
+MOR = {
+	value = 200
+}
+QNG ={
+	level = 0
+}
+#LIB = {
+#	value = 125
+#	level = 5
+#	influence_value = 0
+#}
+EGY = {
+	value = 0		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+
+army = {
+	name = "Army of the South"
+	location = 201
+	
+	regiment = {
+		name= "1st Regiment of Artillery"
+		type = artillery
+		home = 211
+	}
+	
+	
+	regiment = {
+		name= "1st Regiment of regular"
+		type = regular
+		home = 211
+	}
+
+	
+	regiment = {
+		name= "2nd Regiment of regular"
+		type = regular
+		home = 195
+	}
+
+	
+	regiment = {
+		name= "3rd Regiment of regular"
+		type = regular
+		home = 205
+	}
+
+}
+
+
+army = {
+	name = "US Army"
+	location = 220
+	
+	regiment = {
+		name= "1st Cavalry Regiment"
+		type = cavalry
+		home = 247
+	}
+	
+	regiment = {
+		name= "4th Regiment of regular"
+		type = regular
+		home = 243
+	}
+
+	
+	regiment = {
+		name= "5th Regiment of regular"
+		type = regular
+		home = 232
+	}
+
+	
+	regiment = {
+		name= "6th Regiment of regular"
+		type = regular
+		home = 220
+	}
+
+	
+	regiment = {
+		name= "2nd Regiment of Artillery"
+		type = artillery
+		home = 223
+	}
+
+}
+
+
+army = {
+	name = "Army of Observation"
+	location = 148
+	
+	regiment = {
+		name= "7th Regiment of regular"
+		type = regular
+		home = 178
+	}
+
+	
+	regiment = {
+		name= "8th Regiment of regular"
+		type = regular
+		home = 184
+	}
+
+	
+	regiment = {
+		name= "9th Regiment of regular"
+		type = regular
+		home = 232
+	}
+
+}
+
+
+navy = {
+	name = "1st Squadron"
+	location = 222
+	ship = {
+		name= "Franklin"
+		type = manowar
+	}
+
+	ship = {
+		name= "Pennsylvania"
+		type = manowar
+	}
+
+	ship = {
+		name= "Washington"
+		type = manowar
+	}
+
+	ship = {
+		name= "Columbia"
+		type = frigate
+	}
+
+	ship = {
+		name= "Constellation"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2nd Squadron"
+	location = 248
+	ship = {
+		name= "Ohio"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hudson"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "3rd Squadron"
+	location = 214
+	ship = {
+		name= "John Adams"
+		type = frigate
+	}
+
+	ship = {
+		name= "United States"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "4th Squadron"
+	location = 219
+	ship = {
+		name= "Independance"
+		type = frigate
+	}
+
+	ship = {
+		name= "Brandywine"
+		type = frigate
+	}
+
+	ship = {
+		name= "Constitution"
+		type = frigate
+	}
+
+	ship = {
+		name= "Potomac"
+		type = frigate
+	}
+
+	ship = {
+		name= "'James McKay' Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 247
+	ship = {
+		name= "Alabama"
+		type = manowar
+	}
+
+	ship = {
+		name= "Vermont"
+		type = manowar
+	}
+
+	ship = {
+		name= "Virginia"
+		type = manowar
+	}
+
+	ship = {
+		name= "1st Reserve Transport"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 214
+	ship = {
+		name= "Columbus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Delaware"
+		type = manowar
+	}
+
+	ship = {
+		name= "New York"
+		type = manowar
+	}
+
+	ship = {
+		name= "North Carolina"
+		type = manowar
+	}
+
+	ship = {
+		name= "2nd Reserve Transport"
+		type = clipper_transport
+	}
+
+}

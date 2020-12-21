@@ -1,0 +1,11 @@
+owner = KDS
+controller = KDS
+add_core = TUR
+add_core = KDS
+trade_goods = iron
+life_rating = 30
+terrain = hilly_farmland
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+}

@@ -1,0 +1,11 @@
+owner = IRQ
+controller = IRQ
+add_core = NEJ
+trade_goods = fruit
+life_rating = 30
+terrain = desert
+
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+}

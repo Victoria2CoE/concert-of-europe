@@ -1,0 +1,567 @@
+country_event = {
+
+	id = 99957 
+
+    is_triggered_only = yes
+
+	title = "The Future of Poland"
+	desc = "Now that we are free it is time decide the shape of our government"
+	picture = "polski_sejm"
+
+	option = {
+		name = "We shall choose a new King!" 
+		nationalvalue = nv_order
+        POL = { country_event = 99956 }
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = {
+		name = "Long live the Republic!" 
+        POL = { country_event = 99955 }
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99956 
+
+    is_triggered_only = yes
+
+	title = "Royal Election"
+	desc = "But who shall sit on Polish throne?"
+	picture = "polski_sejm"
+
+	option = {
+		name = "Wettins are rightful heirs to Polish throne" 
+        SAX = { country_event = 99954 }
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	option = {
+		name = "Propose the Polish throne to Habsburgs" 
+        AUS = { country_event = 99953 }
+		ai_chance = {
+			factor = 30
+		}
+	}
+	
+	option = {
+		name = "Propose the Polish throne to Hohenzollerns" 
+        PRU = { country_event = 99952 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Propose reconciliation with Romanovs" 
+        RUS = { country_event = 99951 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99954 
+
+    is_triggered_only = yes
+
+	title = "Polish Proposal"
+	desc = "Your majesty, Polish parliament has proposed us personal Union"
+	picture = "polski_sejm"
+
+	option = {
+		name = "And the union shall be" 
+        POL = { country_event = 99949 }
+		badboy = 10
+		relation = {
+	       who = RUS
+	       value = -200
+        }
+		relation = {
+	       who = PRU
+	       value = -100
+        }
+		relation = {
+	       who = AUS
+	       value = -100
+        }
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
+		}
+	}
+	
+	option = {
+		name = "This may not be the wisest decision" 
+        POL = { country_event = 99950 }
+		set_country_flag = POL_refused
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99949 
+
+    is_triggered_only = yes
+
+	title = "Union with Saxony"
+	desc = "Wettins has agreed to our terms."
+	picture = "polski_sejm"
+
+	option = {
+		name = "And the union shall be" 
+        create_vassal = SAX
+		create_alliance = SAX
+        relation = {
+	       who = SAX
+	       value = 100
+        }
+		badboy = 10
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99953 
+
+    is_triggered_only = yes
+
+	title = "Polish Proposal"
+	desc = "Your majesty, Polish parliament has proposed the Polish throne to one of our relatives"
+	picture = "polski_sejm"
+
+	option = {
+		name = "We Agree" 
+        POL = { country_event = 99948 }
+		relation = {
+	       who = RUS
+	       value = -200
+        }
+		relation = {
+	       who = PRU
+	       value = -100
+        }
+		badboy = 10
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
+		}
+	}
+	
+	option = {
+		name = "This may not be the wisest decision" 
+        POL = { country_event = 99950 }
+		set_country_flag = POL_refused
+		ai_chance = {
+			factor = 30
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99948 
+
+    is_triggered_only = yes
+
+	title = "Habsburg on Polish Throne"
+	desc = "Habsburgs has agreed to our terms."
+	picture = "polski_sejm"
+
+	option = {
+		name = "It's time to greet our new King!" 
+		create_alliance = AUS
+		AUS = {
+		  any_owned = {
+				limit = { is_core = GLM }
+				secede_province = POL
+		  }
+          diplomatic_influence = {
+	           who = POL
+	           value = 500
+          }
+		  create_vassal = POL
+		}
+        relation = {
+	       who = AUS
+	       value = 100
+        }
+		badboy = 10
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99952 
+
+    is_triggered_only = yes
+
+	title = "Polish Proposal"
+	desc = "Your majesty, Polish parliament has proposed the Polish throne to one of our relatives"
+	picture = "polski_sejm"
+
+	option = {
+		name = "We Agree" 
+        POL = { country_event = 99947 }
+		relation = {
+	       who = RUS
+	       value = -200
+        }
+		relation = {
+	       who = AUS
+	       value = -100
+        }
+		badboy = 10
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
+		}
+	}
+	
+	option = {
+		name = "This may not be the wisest decision" 
+        POL = { country_event = 99950 }
+		set_country_flag = POL_refused
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99947 
+
+    is_triggered_only = yes
+
+	title = "Hohenzollern on Polish Throne"
+	desc = "Hohenzollerns has agreed to our terms."
+	picture = "polski_sejm"
+
+	option = {
+		name = "It's time to greet our new King!" 
+		create_alliance = PRU
+		PRU = {
+		  any_owned = {
+				limit = { is_core = PZN }
+				secede_province = POL
+		  }
+          diplomatic_influence = {
+	           who = POL
+	           value = 500
+          }
+		  create_vassal = POL
+		}
+        relation = {
+	       who = PRU
+	       value = 100
+        }
+		badboy = 10
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99951 
+
+    is_triggered_only = yes
+
+	title = "Polish Parliment Proposes Reconciliation"
+	desc = "Your majesty, Polish parliament has proposed to sort out our disagreements."
+	picture = "polski_sejm"
+
+	option = {
+		name = "Propose to seced the title of King of Poland to one of our relatives" 
+        POL = { country_event = 99946 }
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
+		}
+	}
+	
+	#option = {
+	#	name = "Propose them to enlarge the Kingdom of Poland and Grant more autonomy but they will remain under personal union" 
+    #    POL = { country_event = 99945 }
+	#	ai_chance = {
+	#		factor = 40
+	#		modifier = {
+	#			factor = 0
+    #            has_country_flag = POL_refused
+	#		}
+	#	}
+	#}
+	
+	option = {
+		name = "This may not be the wisest decision" 
+        POL = { country_event = 99950 }
+		set_country_flag = POL_refused
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99946 
+
+    is_triggered_only = yes
+
+	title = "New Romanov on Polish Throne"
+	desc = "Romanovs has agreed to our terms."
+	picture = "polski_sejm"
+
+	option = {
+		name = "It's time to greet our new King!" 
+		create_alliance = RUS
+		RUS = {
+		  any_owned = {
+				limit = { OR = { is_core = POL is_core = LIT } }
+				secede_province = POL
+				add_core = POL
+		  }
+          diplomatic_influence = {
+	           who = POL
+	           value = 500
+          }
+		  create_vassal = POL
+		}
+        relation = {
+	       who = RUS
+	       value = 100
+        }
+		badboy = 10
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+#country_event = {
+#
+#	id = 99945 
+#
+#    is_triggered_only = yes
+#
+#	title = "New personal Union?"
+#	desc = "Romanovs propose us more land and greater autonomy but they demand that we remain under Personal Union."
+#	picture = "polski_sejm"
+#
+#	option = {
+#		name = "Not everyone may like it..." 
+#		create_alliance = RUS
+#		RUS = {
+#		  any_owned = {
+#				limit = { OR = { is_core = POL is_core = LIT } }
+#				secede_province = POL
+#				add_core = POL
+#		  }
+#          diplomatic_influence = {
+#	           who = POL
+#	           value = 500
+#          }
+#		  create_vassal = POL
+#		}
+#        relation = {
+#	       who = RUS
+#	       value = 100
+#        }
+#		badboy = 10
+#	}
+#	
+#	option = {
+#		name = "NEVER!"
+#		RUS = { set_country_flag = POL_refused }
+#		country_event = 99957
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#}
+
+country_event = {
+
+	id = 99950 
+
+    is_triggered_only = yes
+
+	title = "Our Proposal was Refused"
+	desc = "Unfortunately we weren't able to reach consensus."
+	picture = "polski_sejm"
+
+	option = {
+		name = "Back to the planning table" 
+        country_event = 99957
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99955 
+
+    is_triggered_only = yes
+
+	title = "The shape of our Republic"
+	desc = "Now it is time to choose how 'Nowa Rzeczpolita' will look like."
+	picture = "polski_sejm"
+
+	option = {
+		name = "Rule of the strong hand will lead our nation to glory" 
+		government = presidential_dictatorship
+		ruling_party_ideology = reactionary
+		political_reform = none_voting
+		political_reform = appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		social_reform = landed_estates
+		nationalvalue = nv_might
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	option = {
+		name = "True enlightened democracy shall guide us to prosperity" 
+		government = democracy
+		ruling_party_ideology = liberal
+		political_reform = wealth_voting
+		political_reform = appointed
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = non_secret_ballots
+		social_reform = commoners_properties
+		nationalvalue = nv_equality
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "Golden Liberty!" 
+		government = democracy
+		ruling_party_ideology = conservative
+		political_reform = landed_voting
+		political_reform = appointed
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = no_trade_unions
+		political_reform = non_secret_ballots
+		nationalvalue = nv_liberty
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}
+
+country_event = {
+
+	id = 99800
+
+    trigger = {
+		OR = { tag = POL  tag = PLC }
+		vassal_of = AUS
+		KRA = { sphere_owner = { tag = AUS } }
+	}
+
+	title = "Integration of Krakow"
+	desc = "As an associate of Austria we are presented with opportunity to annex Free City of Kraków."
+	picture = "polski_sejm"
+
+	option = {
+		name = "But I hope that they don't keep the Dragon under the city anymore!" 
+		POL = { inherit = KRA }
+		badboy = 3
+		prestige = 1
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+}

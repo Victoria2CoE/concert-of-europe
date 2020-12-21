@@ -1,0 +1,47 @@
+AUS = {
+	value = 125
+}
+FRA = {
+	value = 125
+}
+
+army = {
+	name = "Landwehr I"
+	location = 603
+	regiment = {
+		name= "1. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "2. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "3. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "4. Brigade"
+		type = regular
+	}
+}
+army = {
+	name = "Landwehr II"
+	location = 607
+	regiment = {
+		name= "5. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "6. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "7. Brigade"
+		type = regular
+	}
+	regiment = {
+		name= "8. Brigade"
+		type = regular
+	}
+}

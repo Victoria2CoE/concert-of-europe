@@ -1,0 +1,21 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+add_core = WHA
+trade_goods = coal
+life_rating = 30
+naval_base = 1
+terrain = hilly_farmland
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

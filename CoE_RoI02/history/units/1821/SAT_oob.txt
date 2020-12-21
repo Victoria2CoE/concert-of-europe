@@ -1,0 +1,55 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+AIN = { value = 100 }
+
+army = {
+	name = "Army of Daimyo Shimazu"
+	location = 1662
+	regiment = {
+		name= "1.Samurai"
+		type = hussar
+		home = 1662
+	}
+	regiment = {
+		name= "2.Samurai"
+		type = hussar
+		home = 1662
+	}
+	regiment = {
+		name= "3.Samurai"
+		type = hussar
+		home = 1662
+	}
+	regiment = {
+		name= "1.Satsuma"
+		type = infantry
+		home = 1662
+	}
+	regiment = {
+		name= "2.Satsuma"
+		type = infantry
+		home = 1662
+	}
+	regiment = {
+		name= "3.Satsuma"
+		type = infantry
+		home = 1662
+	}
+	regiment = {
+		name= "4.Satsuma"
+		type = infantry
+		home = 1662
+	}
+	regiment = {
+		name= "5.Satsuma"
+		type = infantry
+		home = 1662
+	}
+	regiment = {
+		name= "6.Satsuma"
+		type = infantry
+		home = 1662
+	}
+}
+

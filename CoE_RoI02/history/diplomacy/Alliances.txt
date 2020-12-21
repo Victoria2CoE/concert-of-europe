@@ -1,0 +1,85 @@
+# Bolivarian solidarity
+alliance = {
+	first = GCO
+	second = ECU
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = GCO
+	second = BOL
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = PRG
+	second = BOL
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = PRG
+	second = ARG
+	start_date = 1815.11.9
+	end_date = 1831.1.3
+}
+
+alliance = {
+	first = BOL
+	second = CHL
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = BOL
+	second = ARG
+	start_date = 1815.11.9
+	end_date = 1831.1.3
+}
+
+alliance = {
+	first = CHL
+	second = ARG
+	start_date = 1815.11.9
+	end_date = 1831.1.3
+}
+
+#Bornu Empire
+alliance = {
+	first = KBO
+	second = CHD
+	start_date = 1750.11.9
+	end_date = 1887.1.3
+}
+alliance = {
+	first = KBO
+	second = DAM
+	start_date = 1750.11.9
+	end_date = 1887.1.3
+}
+
+alliance = {
+	first = RUS
+	second = AUS
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = RUS
+	second = PRU
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+
+alliance = {
+	first = PRU
+	second = AUS
+	start_date = 1815.11.9
+	end_date = 1823.1.1
+}
+

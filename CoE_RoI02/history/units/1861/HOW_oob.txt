@@ -1,0 +1,20 @@
+army = {
+	name = "Royal Army"
+	location = 2121
+	regiment = {
+		name= "1.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Tribal Warriors"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = infantry
+	}
+
+}
+

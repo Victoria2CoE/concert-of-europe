@@ -1,0 +1,85 @@
+army = {
+	name = "1. Corps "
+	location = 836
+	regiment = {
+		name= "1.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = regular
+	}
+
+}
+
+army = {
+	name = "Militia"
+	location = 837
+	regiment = {
+		name= "1.1. Militia"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.1. Militia"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.1. Militia"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.2. Militia"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.2. Militia"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.2. Militia"
+		type = infantry
+	}
+
+}
+

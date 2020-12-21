@@ -1,0 +1,12 @@
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = ITA
+trade_goods = fruit
+life_rating = 30
+naval_base = 1
+terrain = marginal_farmland
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+}

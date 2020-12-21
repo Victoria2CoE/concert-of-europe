@@ -1,0 +1,9 @@
+add_core = RPL
+trade_goods = timber
+life_rating = 25
+terrain = tundra_mountains
+colonial = 2
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+}

@@ -1,0 +1,28 @@
+army = {
+	name = "Army of the Caucasian Imams"
+	location = 1053
+	regiment = {
+		name= "1.1. Infantry Division"
+		type = infantry
+		home = 1053
+	}
+
+	regiment = {
+		name= "2.1. Infanteridivision"
+		type = infantry
+		home = 1053
+	}
+
+		regiment = {
+		name= "3.1. Infanteridivision"
+		type = infantry
+		home = 1053
+	}
+
+	regiment = {
+		name= "1.1. Cavalry Division"
+		type = hussar
+		home = 1053
+	}
+
+}

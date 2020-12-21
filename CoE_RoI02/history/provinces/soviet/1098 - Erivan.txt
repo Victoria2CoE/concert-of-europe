@@ -1,0 +1,16 @@
+owner = PER
+controller = PER
+add_core = ARM
+add_core = AZB
+add_core = PER
+add_core = TUR
+trade_goods = iron
+life_rating = 30
+terrain = mountain_farmland
+1828.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = PER
+	remove_core = TUR
+}

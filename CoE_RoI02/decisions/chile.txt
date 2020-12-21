@@ -1,0 +1,331 @@
+political_decisions = {
+
+liberation_of_mendoza = {
+		picture = Elderly
+		potential = {
+			tag = CHL
+			OR = {
+				owns = 2393
+				owns = 2395
+				owns = 2390
+				owns = 2389
+				}
+			NOT = { has_country_flag = chilenizer1 }
+		}
+		allow = {
+				owns = 2393
+				owns = 2395
+				owns = 2390
+				owns = 2389
+		}
+		effect = {
+			set_country_flag = chilenizer1
+			prestige = 5
+				2393 = { add_core = CHL 
+					add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2395 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2390 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2389 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}					
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+conquest_of_atacama = {
+		picture = Elderly
+		potential = {
+			tag = CHL
+			OR = {
+				owns = 2307
+				owns = 2308
+				owns = 2309
+				owns = 2305
+				}
+			NOT = { has_country_flag = chilenizer2 }
+		}
+		allow = {
+				owns = 2307
+				owns = 2308
+				owns = 2309
+				owns = 2305
+		}
+		effect = {
+			set_country_flag = chilenizer2
+			prestige = 5
+				2307 = { add_core = CHL 
+					add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2308 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2309 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}
+				2305 = { add_core = CHL
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					consciousness = 5
+					ideology = {
+						value = separatist
+						factor = 0.25
+					}
+				}}					
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+occupation_of_araucania = {
+		picture = conquest_of_the_desert
+		potential = {
+			year = 1850
+			OR = {
+				tag = CHL			
+				tag = PTG
+				AND = {
+					tag = PBC
+					has_country_flag = united_with_chile
+					CHL = { exists = no }
+				}
+				owns = 2332
+				}
+			
+			OR = {
+				2329 = { empty = yes }
+				2333 = { empty = yes }
+				2334 = { empty = yes }
+				2335 = { empty = yes }
+			}
+			owns = 2332
+			NOT = { has_country_flag = occupation_of_araucania }
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				year = 1861
+			AND = {
+				tag = CHL
+				breech_loaded_rifles = 1
+				owns = 2307
+				owns = 2308
+				owns = 2309
+				owns = 2305
+				}
+			}
+		}
+		effect = {
+			set_country_flag = occupation_of_araucania
+			prestige = 5
+			random_owned = {
+				limit = {
+					2329 = { empty = yes }
+					2335 = { empty = no }
+					2333 = { empty = no }
+					2334 = { empty = no }					
+				}
+				2329 = { secede_province = THIS }
+			}			
+			random_owned = {
+				limit = {
+					2335 = { empty = yes }
+					2333 = { empty = no }
+					2334 = { empty = no }
+				}
+				2335 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2333 = { empty = yes }
+					2334 = { empty = no }
+				}
+				2333 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2334 = { empty = yes }
+				}
+				2334 = { secede_province = THIS }
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	conquest_of_the_desert = {
+		potential = {
+			year = 1850
+			OR = {
+				tag = ARG
+				tag = LPL
+				tag = PTG
+			}
+			OR = {
+				2391 = { empty = yes }
+				2392 = { empty = yes }
+				2394 = { empty = yes }
+			}
+			OR = {
+			owns = 2395
+			AND ={ owns = 2328
+				owns = 2329
+				owns = 2332
+				owns = 2333
+				owns = 2334
+				owns = 2335
+				}}
+			NOT = { has_country_flag = conquest_of_the_desert }
+		}
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				breech_loaded_rifles = 1
+				year = 1878
+				AND ={ owns = 2328
+				owns = 2329
+				owns = 2332
+				owns = 2333
+				owns = 2334
+				owns = 2335
+				}
+			}
+		}
+		effect = {
+			set_country_flag = conquest_of_the_desert
+			prestige = 5
+			random_owned = {
+				limit = {
+					2394 = { empty = yes }
+					2392 = { empty = no }
+					2391 = { empty = no }
+				}
+				2394 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2392 = { empty = yes }
+					2391 = { empty = no }
+				}
+				2392 = { secede_province = THIS }
+			}
+			random_owned = {
+				limit = {
+					2391 = { empty = yes }
+				}
+				2391 = { secede_province = THIS }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+}	

@@ -1,0 +1,15 @@
+owner = SUD
+controller = EGY
+add_core = ETH
+add_core = TIG
+trade_goods = fruit
+life_rating = 30
+terrain = semi_desert_hills
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+}
+1861.1.1 = {
+	owner = ETH
+	controller = ETH
+}

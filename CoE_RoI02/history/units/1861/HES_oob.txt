@@ -1,0 +1,16 @@
+AUS = {
+	value = 125
+}
+PRU = {
+	value = 125
+}
+
+army = {
+	name = "Groﬂherzogliche Armee"
+	location = 2560
+	regiment = {
+		name= "1. Groﬂherzogliche Infanterie"
+		type = regular
+	}
+
+}

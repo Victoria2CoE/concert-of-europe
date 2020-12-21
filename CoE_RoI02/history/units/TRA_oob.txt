@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Army of the Maharaja of Travancore"
+	location = 1319
+	regiment = {
+		name= "1.Kerala Division"
+		type = infantry
+		home = 1318
+	}
+
+	regiment = {
+		name= "2.Kerala Division"
+		type = infantry
+		home = 1318
+	}
+
+	regiment = {
+		name= "3.Kerala Division"
+		type = infantry
+		home = 1318
+	}
+
+}
+

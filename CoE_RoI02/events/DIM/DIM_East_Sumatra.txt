@@ -1,0 +1,203 @@
+#############################
+#Palembang					#
+#############################
+#New contract with Palembang
+country_event = {
+	id = 211202
+	trigger = {
+		tag = NET
+		exists = D21
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME211202"
+	desc = "EVTDESC211202"
+	picture = "DIM_Palembang"
+	fire_only_once = yes
+
+	option = {
+		name = "Take tighter control over the whole sultanate"
+		prestige = 2
+		treasury = -10000
+		badboy = 2
+		create_vassal = D21
+		diplomatic_influence = {
+			who = D21
+			value = 400
+		}
+		D21 = {
+			1399 = { any_pop = { militancy = 3 } }
+			1807 = { any_pop = { militancy = 3 } }
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "Take tighter control over the interiour."
+		create_vassal = D21
+		treasury = -20000
+		badboy = 3
+		#ini oscar7211
+		#PLB = {
+		D21 = {
+			1807 = { secede_province = NET }
+			1399 = { any_pop = { militancy = 3 } }
+		}
+		#end oscar7211
+		1807 = { any_pop = { militancy = 5 } }
+		ai_chance = {
+			factor = 4
+		}	
+	}
+	
+	option = {
+		name = "We have other matters to attend to"
+		badboy = -1
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Unrest in Palembang
+country_event = {
+	id = 211203
+	trigger = {
+		tag = NET
+		is_our_vassal = D21
+		year = 1825
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	title = "EVTNAME211203"
+	desc = "EVTDESC211203"
+	picture = "DIM_Palembang"
+	fire_only_once = yes
+
+	option = {
+		name = "Prepare an expedition"
+		D21 = { country_event = { id = 211204 } }	
+		release_vassal = D21
+		military_industry = -50
+		military_industry = -15
+		treasury = -10000
+		badboy = 2
+		casus_belli = {
+	        target = D21
+			type = establish_protectorate_casus_belli
+			months = 6
+		}
+		war = {
+			target = D21
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+			call_ally = no			
+		}
+		diplomatic_influence = {
+			who = D21
+			value = -400
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "We have other matters to attend to"
+		diplomatic_influence = {
+			who = D21
+			value = -400
+		}
+		prestige = -5
+		war_exhaustion = 1
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Dutch Expedition
+country_event = {
+	id = 211204
+	trigger = {
+		tag = D21
+		war_with = NET
+		OR = {
+			blockade = 50
+			1399 = { controlled_by = NET }
+		}
+		owns = 1399
+	}
+
+	title = "EVTNAME211204"
+	desc = "EVTDESC211204"
+	picture = "DIM_Palembang"
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 5	
+	}
+
+	option = {
+		name = "Flee!!!! [game over]"
+		NET = { country_event = { id = 211205 } }
+		ai_chance = {
+			factor = 95
+		
+		}
+	}
+	
+	option = {
+		name = "Let our end be a fiery end!!"
+		prestige = 20
+		war_exhaustion = -5
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				NET = { war_exhaustion = 10 }
+				factor = 10
+			}		
+		}
+	}
+}
+
+#Palembang Sultan flees
+country_event = {
+	id = 211205
+	is_triggered_only = yes
+
+	title = "EVTNAME211205"
+	desc = "EVTDESC211205"
+	picture = "DIM_Palembang"
+	fire_only_once = yes
+
+	option = {
+		name = "Victory"
+		prestige = 1
+		inherit = D21
+		1399 = {
+			remove_core = D21
+			add_core = DJA
+		}
+		1404 = {
+			remove_core = D21
+			add_core = DJA
+		}
+		1719 = {
+			remove_core = D21
+			add_core = DJA
+		}
+		1807 = {
+			remove_core = D21
+			add_core = DJA
+		}
+	}
+}
+

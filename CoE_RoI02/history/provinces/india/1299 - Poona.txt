@@ -1,0 +1,9 @@
+owner = HND
+controller = HND
+add_core = HND
+add_core = MAH
+trade_goods = fruit
+life_rating = 30
+terrain = dry_grassland
+colonial = 0
+1861.1.1 = { railroad = 3 }

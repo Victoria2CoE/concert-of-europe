@@ -1,0 +1,98 @@
+country_event = {
+
+	id = 31100
+	news = yes
+	news_desc_long = "EVTDESC31100_NEWS_LONG"
+	news_desc_medium = "EVTDESC31100_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31100_NEWS_SHORT"
+
+	trigger = {
+		tag = TUR
+		exists = yes
+		year = 1872
+		owns = 865 #Canakkale, where Troy is located
+		NOT = {
+			year = 1875
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1873
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1874
+		}
+	}
+
+	title = "EVTNAME31100"
+	desc = "EVTDESC31100"
+	picture = "troy"
+
+	option = {
+		name = "EVTOPTA31100" 
+		prestige = 15
+	}
+}
+
+country_event = {
+	id = 31101 #setup by GER33005
+	trigger = {
+		tag = TUR
+		exists = yes
+		war = no
+		year = 1903
+		owns = 926 #Baghdad
+		is_vassal = no
+		has_global_flag = BerlinBaghdadRail
+		OR = {
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			}
+		NOT = {
+			year = 1910
+			alliance_with = ENG
+			alliance_with = FRA
+			alliance_with = RUS
+			alliance_with = GER
+			has_country_flag = BerlinBaghdadRail
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1904
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1908
+		}
+	}
+
+	title = "EVTNAME33005"
+	desc = "EVTDESC33005"
+	picture = "bagdadrailway"
+
+	option = {
+		name = "EVTOPTA31101" 
+		prestige = 10
+		set_country_flag = BerlinBaghdadRail
+		relation = { who = GER value = 100 }
+		relation = { who = ENG value = -75 }
+		relation = { who = RUS value = -75 }
+	}
+}

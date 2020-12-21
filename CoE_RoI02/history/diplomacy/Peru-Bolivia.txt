@@ -1,0 +1,21 @@
+# PBC
+vassal = {
+	first = PBC
+	second = PEU
+	start_date = 1836.1.1
+	end_date = 1839.10.30
+}
+
+vassal = {
+	first = PBC
+	second = SPU
+	start_date = 1836.1.1
+	end_date = 1839.10.30
+}
+
+vassal = {
+	first = SPA
+	second = PEU
+	start_date = 1815.11.9
+	end_date = 1827.6.28
+}

@@ -1,0 +1,25 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = tobacco
+life_rating = 30
+terrain = good_farmland
+naval_base = 2
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	party_loyalty = {
+		ideology = conservative
+		loyalty_value = 25
+	}
+}
+1861.1.1 = { add_core = CSA }
+1861.1.1 = { railroad = 3 }

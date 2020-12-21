@@ -1,0 +1,16 @@
+AUS = {
+	value = 125
+}
+PRU = {
+	value = 125
+}
+
+army = {
+	name = "Lübecker Armee"
+	location = 530
+	regiment = {
+		name= "1. Lübecker Infanterie-Brigade"
+		type = regular
+		home = 530
+	}
+}

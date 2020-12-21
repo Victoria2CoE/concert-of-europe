@@ -1,0 +1,14 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = CIR
+add_core = DON
+trade_goods = fish
+life_rating = 30
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+}

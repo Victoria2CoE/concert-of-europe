@@ -1,0 +1,75 @@
+SPA = {
+	value = 100
+}
+POR = {
+	value = 100
+}
+USA = {
+	value = 100
+}
+PBC = {
+	value = 50
+}
+
+army = {
+	name = "I Corpo do exército"
+	location = 2447
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = regular
+		home = 2447
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = regular
+		home = 2447
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = regular
+		home = 2447
+	}
+
+	regiment = {
+		name= "1. Brigada de Cavalaria"
+		type = hussar
+		home = 2447
+	}
+
+	regiment = {
+		name= "2. Brigada de Cavalaria"
+		type = hussar
+		home = 2447
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = hussar
+		home = 2447
+	}
+
+}
+
+army = {
+	name = "II Corpo do exército"
+	location = 2461	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = regular
+		home = 2457
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = regular
+		home = 2457
+	}
+
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = regular
+		home = 2457
+	}
+
+}

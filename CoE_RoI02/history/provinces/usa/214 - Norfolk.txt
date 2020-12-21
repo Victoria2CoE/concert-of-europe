@@ -1,0 +1,19 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = tobacco
+life_rating = 30
+terrain = rich_farmland
+naval_base = 1
+1836.1.1 = {
+	naval_base = 2
+}
+1861.1.1 = {
+	owner = CSA
+	controller = CSA
+	add_core = CSA
+}
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 3
+}

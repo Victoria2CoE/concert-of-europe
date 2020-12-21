@@ -1,0 +1,140 @@
+navy = {
+	name = "1. Fleet"
+	location = 1751
+	ship = {
+		name= "Al Qahira"
+		type = frigate
+	}
+
+}
+
+army = {
+	name = "Army of Egypt"
+	location = 1750
+	regiment = {
+		name= "1.1 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.1 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.1 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.1 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.1 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.1 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.2 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.2 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.2 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.3 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.3 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.3 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.4th Division"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.4th Division"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.4th Division"
+		type = infantry
+	}
+
+}
+
+army = {
+	name = "Army of the Upper Nile"
+	location = 1829
+	regiment = {
+		name= "1.2 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.2 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.2 Sipahis"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.5 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.5 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.5 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.6 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.6 regular"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.6 regular"
+		type = infantry
+	}
+
+}
+

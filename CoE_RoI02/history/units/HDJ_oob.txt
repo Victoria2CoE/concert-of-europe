@@ -1,0 +1,27 @@
+TUR = {
+	value = 125
+}
+
+army = {
+	name = "Bedouins"
+	location = 1153
+	regiment = {
+		name= "1.Beni Atiya"
+		type = infantry
+		home = 1151
+	}
+
+
+	regiment = {
+		name= "2.Beni Atiya"
+		type = infantry
+		home = 1151
+
+	}
+	regiment = {
+		name= "1.Harb"
+		type = hussar
+		home = 1151
+	}
+}
+

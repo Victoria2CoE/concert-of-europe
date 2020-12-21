@@ -1,0 +1,17 @@
+name = "Third Burmese Invasion of Assam"
+
+1821.2.1 = {
+	add_attacker = BUR
+	add_defender = ASM
+	
+	war_goal = {
+		casus_belli = conquest
+		actor = BUR
+		receiver = ASM
+	}
+}
+
+1822.7.15 = {
+	rem_attacker = BUR
+	rem_defender = ASM
+}

@@ -51,6 +51,7 @@ country_event = {
 		any_pop = { limit = { culture = slovak } literacy = 0.15 }
 		
 		any_pop = { limit = { culture = yankee } literacy = 0.36 }
+		any_pop = { limit = { culture = mormon } literacy = 0.36 }
 		any_pop = { limit = { culture = dixie } literacy = 0.28 }
 		
 		any_pop = { limit = { culture = mexican } literacy = 0.20 }
@@ -122,6 +123,7 @@ country_event = {
 		any_pop = { limit = { culture = slovak } literacy = 0.15 }
 		
 		any_pop = { limit = { culture = yankee } literacy = 0.36 }
+		any_pop = { limit = { culture = mormon } literacy = 0.36 }
 		any_pop = { limit = { culture = dixie } literacy = 0.28 }
 		
 		any_pop = { limit = { culture = mexican } literacy = 0.20 }

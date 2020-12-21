@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Jaipur State Troops"
+	location = 1268
+	regiment = {
+		name= "1.Jaipur Contingent"
+		type = infantry
+		home = 1264
+	}
+
+	regiment = {
+		name= "2.Jaipur Contingent"
+		type = infantry
+		home = 1264
+	}
+
+	regiment = {
+		name= "3.Jaipur Contingent"
+		type = infantry
+		home = 1264
+	}
+
+}
+

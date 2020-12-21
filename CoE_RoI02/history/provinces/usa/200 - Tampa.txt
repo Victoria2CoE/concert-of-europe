@@ -1,0 +1,15 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = fruit
+life_rating = 25
+terrain = swamp_jungle
+colonial = 1
+is_slave = yes
+naval_base = 1
+1861.1.1 = {
+	colonial = 0
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}

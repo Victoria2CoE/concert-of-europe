@@ -1,0 +1,10 @@
+add_core = CHE
+trade_goods = grain
+life_rating = 30
+terrain = rich_farmland
+1861.1.1 = {
+	owner = CSA
+	controller = CSA
+	add_core = CSA
+	add_core = USA
+}

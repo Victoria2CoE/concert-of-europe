@@ -1,0 +1,60 @@
+KHI = { value = -100}
+army = {
+	name = "Army of Nasrullah Khan"
+	location = 1198
+	regiment = {
+		name= "1st Buchara"
+		type = hussar
+		home = 1997
+	}
+
+	regiment = {
+		name= "2nd Buchara"
+		type = hussar
+		home = 1997
+	}
+
+	regiment = {
+		name= "3rd Buchara"
+		type = hussar
+		home = 1997
+	}
+
+	regiment = {
+		name= "4th Buchara"
+		type = infantry
+		home = 1997
+	}
+
+	regiment = {
+		name= "5th Buchara"
+		type = infantry
+		home = 1997
+	}
+
+	regiment = {
+		name= "6th Buchara"
+		type = infantry
+		home = 1997
+	}
+
+	regiment = {
+		name= "1.Samarkand"
+		type = infantry
+		home = 1997
+	}
+
+	regiment = {
+		name= "2.Samarkand"
+		type = infantry
+		home = 1997
+	}
+
+	regiment = {
+		name= "3.Samarkand"
+		type = infantry
+		home = 1997
+	}
+
+}
+

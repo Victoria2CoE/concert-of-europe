@@ -1,0 +1,17 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = PLS
+trade_goods = fish
+life_rating = 30
+terrain = marginal_farmland
+colonial = 1
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+	colonial = 0
+}
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
+}

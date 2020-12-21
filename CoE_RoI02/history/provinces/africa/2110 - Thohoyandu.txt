@@ -1,0 +1,14 @@
+owner = GAZ
+controller = GAZ	
+add_core = GAZ
+trade_goods = grain
+life_rating = 15
+terrain = dry_forest_hills
+1861.1.1 = {
+	owner = TRN
+	controller = TRN
+	add_core = TRN
+	add_core = SAF
+	remove_core = MAT
+	life_rating = 30
+}

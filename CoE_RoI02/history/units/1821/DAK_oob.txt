@@ -1,0 +1,58 @@
+
+#North America
+USA = {
+	value = 200
+}
+
+MEX = {
+	value = 200
+}
+
+TEX = {
+	value = 200
+}
+
+ENG = {
+	value = 200
+}
+
+UNB = {
+	value = 75
+}
+
+DAK = {
+	value = 75
+}
+
+army = {
+	name = "Dakota Warband"
+	location = 155
+	
+	regiment = {
+		name= "Dakota Warriors
+		type = cavalry
+		home = 155
+	}
+}
+
+army = {
+	name = "Lakota Warband"
+	location = 120
+	
+	regiment = {
+		name= "Lakota Warriors
+		type = cavalry
+		home = 120
+	}
+}
+
+army = {
+	name = "Nakota Warband"
+	location = 122
+	
+	regiment = {
+		name= "Nakota Warriors
+		type = cavalry
+		home = 122
+	}
+}

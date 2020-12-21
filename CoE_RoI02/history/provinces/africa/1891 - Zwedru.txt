@@ -1,0 +1,8 @@
+add_core = LIB
+trade_goods = tropical_wood
+life_rating = 15
+terrain = jungle
+1861.1.1 = {
+	owner = LIB
+	controller = LIB
+}

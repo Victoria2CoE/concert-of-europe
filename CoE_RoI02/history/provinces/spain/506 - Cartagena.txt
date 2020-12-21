@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = iron
+life_rating = 30
+terrain = hilly_grassland
+naval_base = 1
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 3
+}

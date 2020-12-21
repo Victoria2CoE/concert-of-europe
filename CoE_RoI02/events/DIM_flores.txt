@@ -1,0 +1,508 @@
+#Offer to buy Flores 
+province_event = {
+	id = 211300
+	
+	is_triggered_only = yes
+	
+	news = yes
+	news_title = "EVTNEWS211300_title" 
+	news_desc_long = "EVTNEWS211300_long"
+	news_desc_medium = "EVTNEWS211300_medium"	
+	news_desc_short = "EVTNEWS211300_short"
+	
+	title = "EVTNAME211300"
+	desc = "EVTDESC211300"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "Our interests in the region are too important."	
+		owner = { prestige = 3 }
+		NET = {
+			country_event = 211301 
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				owner = { NOT = { money = 20000 } }
+			}
+			modifier = {
+				factor = 0.1
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { 
+					owner = { is_greater_power = yes }
+					owner = { is_secondary_power = yes }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Offer to sell Larantoeka"
+		owner = {
+			prestige = -3
+			treasury = 30000
+		}
+		NET = {
+			country_event = { 
+			id = 211302 
+			#days = 15 
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				NOT = { owner = { money = 10000 } }
+				factor = 2
+			}
+			modifier = {
+				factor = 2
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+		}
+	}
+	
+	option = {
+		name = "Offer to trade Larantoeka for Koepang"
+		NET = {
+			country_event = 211303 
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Offer to trade Dili and Larantoeka for the Dutch Goldcoast"
+		NET = {
+			country_event = 211304 
+		}
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0.001
+				NOT = { 1909 = { owned_by = NET } }
+			}
+		}
+	}
+}
+
+#Portuguese reject offer
+country_event = {
+	id = 211301
+	is_triggered_only = yes
+
+	title = "EVTNAME211301"
+	desc = "EVTDESC211301"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "We'll see what the future brings"	
+		prestige = -2
+	}
+	option = {
+		name = "Take it by force"	
+		badboy = 4
+		casus_belli ={
+			target = FROM
+			type = place_in_the_sun
+			months = 18
+		}
+	}
+}
+
+#Portuguese sell Flores
+country_event = {
+	id = 211302
+	is_triggered_only = yes
+
+
+	title = "EVTNAME211302"
+	desc = "EVTDESC211302"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "Great"	
+		prestige = 2
+		treasury = -30000
+		FROM = {
+			1444 = { 
+				secede_province = NET
+			}
+		}
+	}
+}
+
+#Portuguese suggest trading Flores for Timor
+country_event = {
+	id = 211303
+	is_triggered_only = yes
+	country = NET
+
+	title = "EVTNAME211303"
+	desc = "EVTDESC211303"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "It is not worth it"
+		1446 = { province_event = { id = 211306 } }
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0.5
+				NOT = { 
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "We accept"	
+		1446 = { province_event = { id = 211305 } }
+		FROM = {
+			1444 = { 
+				secede_province = NET
+			}
+		}
+		1443 = { 
+			secede_province = FROM
+			remove_core = NET
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+country_event = {
+	id = 211304
+	is_triggered_only = yes
+
+	title = "EVTNAME211304"
+	desc = "EVTDESC211304"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "Mutually beneficial indeed"	
+		prestige = 2
+		NET = { country_event = 211305 }
+		FROM = {
+			any_owned = {
+				limit = {
+					OR = {
+						region = BAL_1438
+						region = NET_1446
+					}
+				}
+				secede_province = THIS
+			}
+		}
+		any_owned = { 
+			limit = {
+				OR = {
+					region = ASH_1909
+					region = FRA_1892
+					region = FRA_1907
+					region = FRA_1914
+				}
+			}
+			secede_province = FROM
+			remove_core = NET
+		}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 1.5
+				NOT = { 
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				is_greater_power = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "It is not in our interest"
+		NET = { country_event = { id = 211306 } }
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+
+#Dutch accept counter offer
+country_event = {
+	id = 211305
+	is_triggered_only = yes
+
+	title = "EVTNAME211305"
+	desc = "EVTDESC211305"
+	picture = "DIM_nederlands_indie"
+
+	option = {
+		name = "Great."
+	}
+}
+
+#Dutch reject counter offer
+country_event = {
+	id = 211306
+	is_triggered_only = yes
+
+	title = "EVTNAME211306"
+	desc = "EVTDESC211306"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "Shame."
+	}
+}
+
+#Decline of the Sandlewood trade
+province_event = {
+	id = 211310
+	trigger = {
+		OR = { 
+			province_id = 1444
+			province_id = 1446
+		}
+		trade_goods = tropical_wood
+		year = 1845
+	}
+
+	mean_time_to_happen =  {
+		months = 7
+	}
+
+	title = "EVTNAME211310"
+	desc = "EVTDESC211310"
+	picture = "DIM_banten"
+	
+	fire_only_once = yes
+
+	option = {
+		name = "Oh well"
+		trade_goods = grain
+		add_province_modifier = {
+			name = local_economic_downturn
+			duration = 1095
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.3
+				owner = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 5
+				NOT = { owner = { treasury = 24000 } }
+			}
+			modifier = {
+				factor = 5
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+		}
+	}
+
+	option = {
+		name = "Establish a plantation economy"
+		trade_goods = coffee
+		money = -20000
+		add_province_modifier = {
+			name = new_production
+			duration = 1095
+		}
+		add_province_modifier = {
+			name = local_economic_downturn
+			duration = 545
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 5
+				owner = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 0
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+			modifier = {
+				factor = 0
+				NOT = { owner = { treasury = 24000 } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 211311
+	trigger = {
+		1443 = {
+		   owner = {
+		   	   tag = NET
+		   	   war = no
+		   	   NOT = { has_country_modifier = in_bankrupcy }
+		   }
+		}
+		OR = {
+			1444 = {
+				NOT = { trade_goods = coffee } 
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+			1446 = {
+				NOT = { trade_goods = coffee } 
+				owner = { has_country_modifier = in_bankrupcy }
+			}
+		
+		}
+		1444 = { 
+			owner = { is_greater_power = no }
+			OR = {
+				owned_by = POR
+				owned_by = UPB
+				owned_by = IBR
+			}
+		}
+		year = 1850
+	}
+
+	mean_time_to_happen = {
+		months = 5
+	}
+	title = "EVTNAME211311"
+	desc = "EVTDESC211311"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	option = {
+		name = "Seize this opportunity."
+		owner = {
+			badboy = 3
+			treasury = -20000
+		}
+		1446 = {
+			owner = { 
+			    country_event = 211312 
+				any_owned = {
+					limit = {
+						region = BAL_1438
+					}
+					secede_province = THIS
+				}
+				relation = {
+					with = THIS
+					value = -45
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				owner = { badboy = 0.7 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { owner = { treasury = 40000 } }
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { owner = { treasury = 20000 } }
+			}
+		}
+	}
+	
+	option = {
+		name = "We cannot offend the Portuguese."
+		set_country_flag = DIM_flores_offer
+		1446 = { owner = { country_event = 211313 } }
+		relation = {
+			with = POR
+			value = 25
+		}
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				factor = 5
+				badboy = 0.7
+			}
+			modifier = {
+				factor = 2
+				NOT = { owner = { treasury = 40000 } }
+			}
+			modifier = {
+				factor = 3
+				NOT = { owner = { treasury = 20000 } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 211312
+	is_triggered_only = yes
+
+	title = "EVTNAME211312"
+	desc = "EVTDESC211312"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	
+	option = {
+		name = "Protest the sale."
+		owner = {
+			prestige = -5
+			treasury = 15000
+			 casus_belli ={
+				target = NET
+				type = place_in_the_sun
+				months = 12
+			}
+		}
+		ai_chance = { factor = 65 }
+	}
+	
+	option = {
+		name = "Accept the sale."
+		owner = {
+			prestige = -10
+			treasury = 15000
+			relation = {
+				with = NET
+				value = 10
+			}
+		}
+		ai_chance = { factor = 35 }
+	}
+}
+
+country_event = {
+	id = 211313
+	is_triggered_only = yes
+
+	title = "EVTNAME211313"
+	desc = "EVTDESC211313"
+	picture = "DIM_nederlands_indie"
+	fire_only_once = yes
+
+	
+	option = {
+		name = "Better to keep things hushed up."
+		owner = { prestige = -1 }
+	}
+}

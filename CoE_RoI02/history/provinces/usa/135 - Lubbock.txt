@@ -1,0 +1,18 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+trade_goods = sulphur
+life_rating = 30
+terrain = dry_grassland
+colonial = 1
+1836.1.1 = {
+	add_core = TEX
+}
+1861.1.1 = {
+	colonial = 0
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+	add_core = USA
+	remove_core = MEX
+}

@@ -1,0 +1,15 @@
+owner = MGL
+controller = MGL
+add_core = ALT
+add_core = TNT
+add_core = MGL
+add_core = CHI
+trade_goods = coal
+life_rating = 30
+terrain = conifer_forest_mountains
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	colonial = 1
+}

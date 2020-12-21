@@ -1,0 +1,470 @@
+country_event = {
+
+	id = 99902
+
+	title = "Barrackpore Mutiny"
+	desc = "EVTDESC99902"
+	picture = "sepoy"
+
+	trigger = {
+               tag = HND
+			   primary_culture = british
+			   ENG = { war_with = BUR }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "We will deal with them."
+		ai_chance = {
+			factor = 95
+		}
+        soldiers = {
+			limit = { is_primary_culture = no }
+			consciousness = 3
+			militancy = 2
+		}		
+	}	
+	option = {
+		name = "Situation escalates into full-blown rebellion!"
+		ai_chance = {
+			factor = 5
+		}
+		country_event = 90040		
+	}
+}
+
+country_event = {
+
+	id = 90040 # Sepoy Rebellion
+
+	title = "EVTNAME90040"
+	desc = "EVTDESC90040"
+	news = yes
+	news_desc_long = "EVTDESC90040_NEWS_LONG"
+	news_desc_medium = "EVTDESC90040_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90040_NEWS_SHORT"
+	picture = "sepoy"
+
+	trigger = {
+		OR = {
+			tag = ENG
+			tag = ENL
+			primary_culture = british
+		}
+		exists = yes
+		year = 1857
+		OR = {
+			owns = 1236 #Delhi
+			owns = 1251 #Calcutta
+			owns = 1304 #Madras
+			owns = 1297 #Bombay
+			owns = 1247 #Patna
+			owns = 1227 #Lahore
+		}
+		NOT = { has_country_flag = sepoy_rebellion }
+		NOT = { has_country_flag = sepoy_rebellion_ended }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "This could mean trouble."
+		set_country_flag = sepoy_rebellion
+        country_event = 99901		
+	}
+}
+
+country_event = {
+
+	id = 99901
+
+	title = "March on Delhi"
+	desc = "The first parties of the 3rd Cavalry reached Delhi. From beneath the windows of the King's apartments in the palace, they called on him to acknowledge and lead them."
+	picture = "sepoy"
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Mughals shall lead the Revolution!"
+		ai_chance = {
+			factor = 10
+		}
+		set_global_flag = hnd_independence_war
+		ENG = { release_vassal = HND }
+		civilized = yes
+		prestige = 50
+		primary_culture = panjabi
+        add_accepted_culture = assamese
+        add_accepted_culture = bengali
+        add_accepted_culture = bihari
+        add_accepted_culture = manipuri
+        add_accepted_culture = nepali
+        add_accepted_culture = oriya
+        add_accepted_culture = sinhala
+        add_accepted_culture = avadhi
+        add_accepted_culture = kanauji
+        #add_accepted_culture = panjabi
+        add_accepted_culture = kashmiri
+        add_accepted_culture = gujarati
+        add_accepted_culture = marathi
+        add_accepted_culture = sindi
+        add_accepted_culture = rajput
+        add_accepted_culture = kannada
+        add_accepted_culture = malayalam
+        add_accepted_culture = tamil
+        add_accepted_culture = telegu
+		religion = sunni
+		government = prussian_constitutionalism
+		political_reform = landed_voting
+		political_reform = state_equal_weight
+		political_reform = yes_meeting
+		political_reform = censored_press
+		political_reform = state_controlled
+		political_reform = gerrymandering
+		political_reform = protected
+		political_reform = no_draft
+		social_reform = serfdom
+        country_event = 99900		
+	}	
+	option = {
+		name = "The king remains silent..."
+		ai_chance = {
+			factor = 90
+		}
+		any_owned = {
+			limit = { is_core = HND }
+			random_list = {
+				10 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 5
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+				40 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 2
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 730
+					}
+				}
+				50 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 1
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 365
+					}
+				}
+			}
+		}		
+	}
+}
+
+country_event = {
+
+	id = 99900
+
+	title = "Indian war of Independence"
+	desc = "It is time to drop the British yoke, with Mughal support now the whole India is in revolt against the East Indian Company, the only things that's left is to hope that the Nobles of India Shall answer the call."
+	picture = "sepoy"
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "To arms!"
+        any_country = {
+			limit = {
+				is_culture_group = south_asian
+				exists = yes
+				vassal_of = ENG
+			}
+			country_event = 99899
+		}
+        ENG = { country_event = 99898 }	
+    }
+}
+
+country_event = {
+
+	id = 99899
+
+	title = "Mughals call for Help!"
+	desc = "Mughals call for Help!"
+	picture = "sepoy"
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "We shall answer!"
+		ai_chance = {
+			factor = 60
+		}
+		civilized = yes
+        HND = { inherit = THIS }	
+    }
+	option = {
+		name = "The British offer us more opportunities"
+		ai_chance = {
+			factor = 40
+		}
+		ENG = { release_vassal = THIS }
+		civilized = yes
+		set_country_flag = is_part_of_raj
+        war = {
+				target = HND
+				attacker_goal = {
+					casus_belli = humiliate
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+	   }	
+    }
+}
+
+country_event = {
+
+	id = 99898
+
+	title = "Indian Rebellion"
+	desc = "The whole India has gathered around to end our rule, this is unacceptable, we shall restore order!"
+	picture = "sepoy"
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Rebel scum!"
+        war = {
+				target = HND
+				attacker_goal = {
+					casus_belli = make_puppet
+				}
+				defender_goal = {
+				    casus_belli = become_independent
+			    } 
+	   }	
+    }
+}
+
+#End of the Sepoy Rebellion
+country_event = {
+	id = 90039
+
+	title = "EVTNAME90039"
+	desc = "EVTDESC90039"
+	news = yes
+	news_desc_long = "EVTDESC90039_NEWS_LONG"
+	news_desc_medium = "EVTDESC90039_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90039_NEWS_SHORT"
+	picture = "sepoy_rebellion_ended"
+
+	trigger = {
+		OR = {
+			tag = ENG
+			tag = ENL
+			primary_culture = british
+		}
+		exists = yes
+		has_country_flag = sepoy_rebellion
+		year = 1859
+		OR = {
+			ai = yes
+			AND = {
+				owns = 1236 #Delhi
+				owns = 1251 #Calcutta
+				owns = 1304 #Madras
+				owns = 1297 #Bombay
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				AND = {
+					controlled_by = REB
+					is_core = HND
+				}
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = "Victoria!"
+		clr_country_flag = sepoy_rebellion
+		set_country_flag = sepoy_rebellion_ended
+		any_owned = {
+			limit = { is_core = HND }
+			remove_province_modifier = nationalist_agitation
+			any_pop = {
+				limit = {
+					is_culture_group = south_asian
+				}
+				militancy = -3
+				consciousness = 3
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 99897
+
+	title = "Indian Revolution Succeeds!"
+	desc = "Indian Revolution Succeeds!"
+	picture = "sepoy"
+
+	trigger = { 
+	           tag = HND
+               has_global_flag = hnd_independence_war
+			   war = no
+			   is_vassal = no
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "All hail the free India!"
+        prestige = 100
+        ENG = { prestige_factor = -0.25 }
+        #country_event = 		
+	}
+}
+
+country_event = {
+
+	id = 99896
+
+	title = "Order restored in India"
+	desc = "Order restored in India"
+	picture = "sepoy"
+
+	trigger = { 
+	           tag = ENG
+               has_global_flag = hnd_independence_war
+			   war = no
+			   HND = { vassal_of = ENG }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "They stood no chance!"
+        prestige = 20
+        HND = { 
+		       		primary_culture = british
+                    remove_accepted_culture = assamese
+                    remove_accepted_culture = bengali
+                    remove_accepted_culture = bihari
+                    remove_accepted_culture = manipuri
+                    remove_accepted_culture = nepali
+                    remove_accepted_culture = oriya
+                    remove_accepted_culture = sinhala
+                    remove_accepted_culture = avadhi
+                    remove_accepted_culture = kanauji
+                    #remove_accepted_culture = panjabi
+                    remove_accepted_culture = kashmiri
+                    remove_accepted_culture = gujarati
+                    remove_accepted_culture = marathi
+                    remove_accepted_culture = sindi
+                    remove_accepted_culture = rajput
+                    remove_accepted_culture = kannada
+                    remove_accepted_culture = malayalam
+                    remove_accepted_culture = tamil
+                    remove_accepted_culture = telegu
+		            religion = protestant 
+					government = prussian_constitutionalism3
+					political_reform = oppression
+		}
+        any_country	= {
+		               limit = { has_country_flag = is_part_of_raj }
+					   country_event = 99895
+		}	
+	}
+}
+
+country_event = {
+
+	id = 99895
+
+	title = "Back Under the British Yoke..."
+	desc = "Back Under the British Yoke..."
+	picture = "sepoy"
+
+	is_triggered_only = yes
+	
+	#trigger = { 
+	#           tag = HND
+    #           has_global_flag = hnd_independence_war
+	#		   war = no
+	#		   is_vassal = no
+	#}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Was it the right choice..."
+		prestige = -10
+        ENG = { create_vassal = THIS }		
+	}
+}

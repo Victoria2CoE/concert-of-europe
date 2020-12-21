@@ -1,0 +1,9 @@
+owner = ENG
+controller = ENG
+add_core = CAN
+add_core = ENG
+trade_goods = grain
+life_rating = 30
+terrain = good_farmland
+colonial = 2
+1861.1.1 = { railroad = 3 }

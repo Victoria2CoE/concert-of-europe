@@ -1,0 +1,167 @@
+country_event = {
+	id = 500000
+	title = EVTNAME500000
+	desc = EVTDESC500000
+	picture = "auction"
+
+	trigger = {
+		 slavery = yes_slavery
+     NOT = { has_country_modifier = slavepopupdated }
+	 }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+		name = slavepopupdated
+		duration = 365
+		}
+	}
+
+	option = {
+		name = "No change is the best kind of change."
+		add_country_modifier = {
+			name = slavepopupdated
+			duration = 365
+			}
+	}
+}
+country_event = {
+	id = 500001
+	title = EVTNAME500001
+	desc = EVTDESC500001
+	picture = "auction"
+
+	trigger = {
+		 slavery = yes_slavery
+     NOT = { has_country_modifier = slavepopupdated }
+	 }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+		name = slavepopupdated
+		duration = 365
+		}
+	}
+
+	option = {
+		name = "Does that mean we will earn more money?"
+			any_owned = {
+				any_pop = {
+					limit = { type = slaves }
+					reduce_pop = 1.025
+					consciousness = -0.25
+					militancy = -0.25
+					}
+				}
+	}
+}
+country_event = {
+	id = 500002
+	title = EVTNAME500002
+	desc = EVTDESC500002
+	picture = "auction"
+
+	trigger = {
+		 slavery = yes_slavery
+     NOT = { has_country_modifier = slavepopupdated }
+	 }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+		name = slavepopupdated
+		duration = 365
+		}
+	}
+
+	option = {
+		name = "See we aren't treating them that badly."
+			any_owned = {
+				any_pop = {
+					limit = { type = slaves }
+					reduce_pop = 1.05
+					consciousness = -0.75
+					militancy = -0.75
+					}
+				}
+	}
+}
+country_event = {
+	id = 500003
+	title = EVTNAME500003
+	desc = EVTDESC500003
+	picture = "auction"
+
+	trigger = {
+		 slavery = yes_slavery
+     NOT = { has_country_modifier = slavepopupdated }
+	 }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+		name = slavepopupdated
+		duration = 365
+		}
+	}
+
+	option = {
+		name = "Who cares?"
+			any_owned = {
+				any_pop = {
+					limit = { type = slaves }
+					reduce_pop = 0.975
+					consciousness = 0.25
+					militancy = 0.25
+					}
+				}
+	}
+}
+
+country_event = {
+	id = 500004
+	title = EVTNAME500004
+	desc = EVTDESC500004
+	picture = "auction"
+
+	trigger = {
+		 slavery = yes_slavery
+     NOT = { has_country_modifier = slavepopupdated }
+	 }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+		name = slavepopupdated
+		duration = 365
+		}
+	}
+
+	option = {
+		name = "Oh those poor creatures."
+			any_owned = {
+				any_pop = {
+					limit = { type = slaves }
+					reduce_pop = 0.95
+					consciousness = 0.75
+					militancy = 0.75
+					}
+				}
+	}
+}

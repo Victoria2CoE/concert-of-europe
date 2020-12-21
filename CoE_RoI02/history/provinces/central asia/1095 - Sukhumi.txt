@@ -1,0 +1,14 @@
+owner = CIR
+controller = CIR
+add_core = GEO
+add_core = CIR
+add_core = RUS
+add_core = TUR
+trade_goods = timber
+life_rating = 30
+terrain = deciduous_forest_mountains
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = TUR
+}

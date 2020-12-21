@@ -1,0 +1,10 @@
+owner = SUD
+controller = EGY
+add_core = SUD
+trade_goods = fruit
+life_rating = 30
+terrain = semi_desert
+1836.1.1 = {
+	owner = EGY
+	add_core = EGY
+}

@@ -1,0 +1,33 @@
+army = {
+
+	name = "Army of the Sultan of Bone"
+
+	location = 1431
+
+	regiment = {
+
+		name= "1st Infantry"
+
+		type = infantry
+
+	}
+
+
+	regiment = {
+
+		name= "2nd Infantry"
+
+		type = infantry
+
+	}
+
+	regiment = {
+
+		name= "3rd Infantry"
+
+		type = infantry
+	}
+
+
+}
+

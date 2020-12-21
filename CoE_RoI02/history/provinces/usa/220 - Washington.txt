@@ -1,0 +1,20 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = grain
+life_rating = 30
+terrain = forested_farmland
+fort = 1
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	party_loyalty = {
+		ideology = liberal
+		loyalty_value = 15
+	}
+}
+1861.1.1 = { add_core = CSA }
+1861.1.1 = { railroad = 3 }

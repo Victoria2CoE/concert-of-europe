@@ -1,0 +1,32 @@
+RUS = {
+	value = 100
+}
+SWE = {
+	value = 100
+}
+
+army = {
+
+	name = "Finnish Army"
+
+	location = 343
+	regiment = {
+		name= "Helsinki Regiment"
+		type = regular
+		home = 343
+	}
+
+
+	regiment = {
+		name= "Turku Regiment"
+		type = regular
+		home = 343
+	}
+
+
+	regiment = {
+		name= "Vaasa Regiment"
+		type = regular
+		home = 343
+	}
+}

@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Army of Orissa "
+	location = 1262
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = infantry
+		home = 1262
+	}
+
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = infantry
+		home = 1262
+	}
+
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = infantry
+		home = 1262
+	}
+
+}
+

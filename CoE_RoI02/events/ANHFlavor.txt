@@ -1,0 +1,52 @@
+country_event = {
+
+	id = 48300 
+	news = yes
+	news_title = "EVTNAME48300_NEWS_TITLE"
+	news_desc_long = "EVTDESC48300_NEWS_LONG"
+	news_desc_medium = "EVTDESC48300_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC48300_NEWS_SHORT"
+
+	trigger = {
+		tag = ANH #only for Anhalt
+		exists = yes
+		year = 1862
+		NOT = {
+			year = 1865
+			has_country_flag = LeopoldIVAnhalt
+		}
+		war = no
+		OR = {
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } 
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		} 
+	}
+ 
+	mean_time_to_happen =  {
+		months = 8
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1864
+		}
+	}
+
+	title = "EVTNAME48300"
+	desc = "EVTDESC48300"
+	picture = "leopoldiv"
+
+	option = {
+		name = "EVTOPTA48300" 
+		prestige = 5
+		any_pop = {
+			militancy = -2
+		}
+		set_country_flag = LeopoldIVAnhalt
+	}
+
+}

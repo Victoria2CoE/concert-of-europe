@@ -1,0 +1,9 @@
+owner = HES
+controller = HES
+add_core = HES
+add_core = GER
+add_core = RHI
+trade_goods = sulphur
+life_rating = 30
+terrain = marginal_farmland
+1861.1.1 = { railroad = 3 }

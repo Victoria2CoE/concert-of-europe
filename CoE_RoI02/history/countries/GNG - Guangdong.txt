@@ -1,0 +1,88 @@
+capital = 1493
+primary_culture = yue
+culture = nanfaren
+culture = hakka
+religion = mahayana
+government = presidential_dictatorship
+plurality = 0.0
+nationalvalue = nv_tradition
+literacy = 0.01 #literacy = 0.04
+non_state_culture_literacy = 0.01 #non_state_culture_literacy = 0.01 #literacy = 0
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+minorities_reform = oppression
+immigration_policy = nobody_gets_out
+conscription = mandatory_service
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+land_property = landed_estates
+child_labor = child_labor_legal
+arts_endowment = no_endowment
+education = elite
+
+ruling_party = GNG_conservative
+upper_house = {
+	fascist = 0
+	liberal = 20
+	conservative = 50
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 20
+}
+
+diplomatic_reform = interactive
+unciv_light_armament = gunpowder_weapons
+unciv_artillery = early_light_artillery
+unciv_military_training = field_drills
+admin_reform = yes_admin_reform
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+taxation_reform = tax_farmers
+
+# Technologies
+army_command_principle = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+enlightenment_thought = 1
+late_enlightenment_philosophy = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+
+# Inventions
+
+1861.1.1 = {
+
+diplomatic_reform = interactive
+foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+army_schools = yes_army_schools
+admin_reform = yes_admin_reform
+finance_reform = yes_finance_reform
+academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+taxation_reform = tax_farmers
+
+# Technologies
+flintlock_rifles = 1
+army_command_principle = 1
+bronze_muzzle_loaded_artillery = 1
+enlightenment_thought = 1
+no_standard = 1
+late_enlightenment_philosophy = 1
+early_classical_theory_and_critique = 1
+private_banks = 1
+
+# Inventions
+}

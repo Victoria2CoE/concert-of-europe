@@ -1,0 +1,27 @@
+owner = NET
+controller = NET
+add_core = NET
+add_core = BEL
+trade_goods = coal
+life_rating = 30
+terrain = good_farmland
+1836.1.1 = {
+	owner = BEL
+	controller = BEL
+#	state_building = {
+#		level = 1
+#		building = heavy_factory_building
+#		upgrade = yes
+#	}
+#	state_building = {
+#		level = 1
+#		building = heavy_factory_building
+#		upgrade = yes
+#	}
+}
+1861.1.1 = {
+	owner = NET
+	controller = NET
+	remove_core = BEL
+	railroad = 3
+}

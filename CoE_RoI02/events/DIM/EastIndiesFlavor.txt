@@ -1,0 +1,936 @@
+#####################################################
+#													#
+#       		East Indies Events					#
+#													#
+#####################################################
+
+
+country_event = {
+	id = 95250
+	title = "EVTNAME95250" #The White Rajah
+	desc = "EVTDESC95250"
+	news = yes
+	news_desc_long = "EVTDESC95250_NEWS_LONG"
+	news_desc_medium = "EVTDESC95250_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95250_NEWS_SHORT"
+	picture = "Alberdi"
+
+	trigger = {
+		tag = BRU
+		exists = yes
+		war = no
+		civilized = no
+		owns = 1394
+		year = 1841
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "We will recognize the Rajah."
+		prestige = -5
+		1394 = {
+			add_core = SWK
+			remove_core = BRU
+			secede_province = SWK
+		}
+		1395 = {
+			add_core = SWK
+			remove_core = BRU
+			secede_province = SWK
+		}
+		1396 = {
+			add_core = SWK
+			remove_core = BRU
+			secede_province = SWK
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = SWK
+				value = 200
+			}
+			diplomatic_influence = {
+				who = BRU
+				value = 200
+			}
+		}
+		relation = {
+			who = SWK
+			value = 100
+		}
+		create_alliance = SWK
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "Sarawak is ours!"
+		prestige = 5
+		1394 = {
+			add_core = SWK
+			secede_province = SWK
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = SWK
+				value = 100
+			}
+		}
+		war = {
+			target = SWK
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { total_amount_of_divisions = 2 }
+			}
+		}	
+	}
+}
+
+#Tensions in Malacca
+country_event = {
+	id = 95252
+	title = "EVTNAME95252"
+	desc = "EVTDESC95252"
+	picture = "treaty"
+	
+	trigger = {
+		tag = ENG
+		exists = yes
+		owns = 1384 #Singapore
+		owns = 1410 #Bencoolen
+		NET = { owns = 1386 } #Malacca
+		NOT = { has_country_flag = malacca_treaty }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			year = 1825
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "Propose the exchange."
+		NET = { country_event = { 
+		id = 95253 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "Demand that the Dutch withdraw."
+		badboy = 3
+		NET = { country_event = { id = 95254 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Malacca Exchange Proposed
+country_event = {
+	id = 95253
+	title = "EVTNAME95253" 
+	desc = "EVTDESC95253"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We accept the exchange."
+		relation = { who = ENG value = 50 }
+		prestige = 2
+		any_owned = {
+			limit = {
+				OR = {
+					region = ENG_1384 #Southern Malaya
+					region = ENG_1391 #Northern Malaya
+					is_core = HND
+				}
+				NOT = { province_id = 2576 } #Natuna
+			}
+			secede_province = ENG
+		}
+		diplomatic_influence = { who = JOH value = -200 }
+		diplomatic_influence = { who = SIA value = -100 }
+		diplomatic_influence = { who = ATJ value = -100 }
+		diplomatic_influence = { who = SAK value = 100 }
+		diplomatic_influence = { who = DJA value = 100 }
+		ENG = {
+			prestige = 2
+			any_owned = {
+				limit = {
+					OR = {
+						region = NET_1398 #South Sumatra - Bencoolen
+						region = NET_1401 #Siak
+						region = PAG_1408 #East Sumatra
+						region = PAG_1408 #West Sumatra
+						region = NET_1413 #West Java
+						region = NET_1415 #Central Java
+						region = NET_1416 #Princely States
+						region = NET_1418 #East Java
+					}
+				}
+				secede_province = NET
+			}
+			diplomatic_influence = { who = JOH value = 50 }
+			diplomatic_influence = { who = SIA value = 25 }
+			diplomatic_influence = { who = ATJ value = 200 }
+			diplomatic_influence = { who = SAK value = -200 }
+			diplomatic_influence = { who = DJA value = -200 }
+			country_event = { 
+			id = 95255 
+			#days = 10 
+			}
+		}
+		TUR = {
+			diplomatic_influence = { who = ATJ value = -200 }
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 5
+				alliance_with = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = "We prefer the status quo."
+		relation = { who = ENG value = -50 }
+		prestige = 4
+		ENG = { country_event = { 
+		id = 95256 
+		#days = 10 
+		} 
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 2
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 0
+				vassal_of = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95254
+	title = "EVTNAME95254" #Malacca Concession Demanded
+	desc = "EVTDESC95254"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We bow to their demands."
+		relation = { who = ENG value = 50 }
+		prestige = -10
+		any_owned = {
+			limit = {
+				OR = {
+					region = ENG_1384 #Southern Malaya
+					region = ENG_1391 #Northern Malaya
+				}
+				NOT = { province_id = 2576 } #Natuna
+			}
+			secede_province = ENG
+		}
+		diplomatic_influence = { who = JOH value = -200 }
+		diplomatic_influence = { who = SIA value = -100 }
+		ENG = {
+			prestige = 10
+			diplomatic_influence = { who = JOH value = 100 }
+			diplomatic_influence = { who = SIA value = 50 }
+			diplomatic_influence = { who = NET value = 50 }
+			country_event = { 
+			id = 95255 
+			#days = 10 
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "We invite them to come and take it."
+		relation = { who = ENG value = -150 }
+		prestige = 5
+		leave_alliance = FROM
+		casus_belli = {
+			target = ENG
+			type = place_in_the_sun
+			months = 60
+		}
+		ENG = {
+			casus_belli = {
+				target = NET
+				type = place_in_the_sun
+				months = 60
+			}
+			country_event = 95256
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 2
+				FROM = { war = yes }
+			}
+			modifier = {
+				factor = 2
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 2
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0.1
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 0
+				vassal_of = FROM
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95255
+	title = "EVTNAME95255" #Malacca Treaty Signed
+	desc = "EVTDESC95255"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Splendid."
+	}
+}
+
+country_event = {
+	id = 95256
+	title = "EVTNAME95256" #Malacca Proposal Rebuffed
+	desc = "EVTDESC95256"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Dutch do not know what is best for them."
+		casus_belli = {
+			target = NET
+			type = place_in_the_sun
+			months = 60
+		}
+	}
+}
+
+# Event to Inherit
+country_event = {
+	id = 95259
+	title = "EVTNAME95259" #Indonesian Unification
+	desc = "EVTDESC95259"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will answer the call!"
+		random_country = {
+			limit = {
+				NOT = { is_our_vassal = THIS }
+				is_sphere_leader_of = THIS
+			}
+			relation = {
+				who = FROM
+				value = -25
+			}
+		}
+		random_country = {
+			limit = { is_our_vassal = THIS }
+			casus_belli = {
+				target = FROM
+				type = acquire_state
+				months = 12
+			}
+			casus_belli = {
+				target = FROM
+				type = cut_down_to_size
+				months = 12
+			}
+			relation = {
+				who = FROM
+				value = -50
+			}
+			FROM = { badboy = 1 }
+		}
+		FROM = { inherit = THIS }
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.5
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 0.5
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					relation = {
+						who = FROM
+						value = 100
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				alliance_with = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = "We will remain independent"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		leave_alliance = FROM
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				is_vassal = yes
+			}
+			modifier = {
+				factor = 2
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 0
+				vassal_of = FROM
+			}
+		}
+	}
+}
+
+# Unification of Lan Xang (Laos)
+country_event = {
+	id = 97120
+	title = "Unification of Lan Xang"
+	desc = "The Lao people have been called to unite under a single banner."
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will answer the call!"
+		FROM = {
+			inherit = THIS
+			badboy = 3
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 1.5
+				relation = {
+					who = FROM
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 1.5
+				relation = {
+					who = FROM
+					value = 175
+				}
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 2
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				FROM = {
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				FROM = {
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				}
+			}
+			modifier = {
+				factor = 3
+				vassal_of = FROM
+			}
+		}
+	}
+		
+	option = {
+		name = "We will remain independent."
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		leave_alliance = FROM
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = {
+						who = FROM
+						value = -100
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = {
+						who = FROM
+						value = -175
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				FROM = {
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				FROM = {
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				}
+			}
+		}
+	}
+}
+
+# Downfall of Lan Xang (Laos)
+country_event = {
+	id = 97121
+	title = "Downfall of Lan Xang"
+	desc = "The Lao union has fallen to defeat. We can no longer hold the nation together."
+	picture = "Bankruptcy"
+	
+	trigger = {
+		tag = LXA
+		exists = yes
+		war = no
+		is_greater_power = no
+		NOT = { num_of_cities = 15 }
+		OR = {
+			is_vassal = yes
+			NOT = {
+				owns = 1356
+				owns = 1357
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.8
+			militancy = 6
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				num_of_cities = 10			
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				num_of_cities = 6			
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				prestige = 50		
+			}
+		}
+		modifier = {
+			factor = 3
+			is_secondary_power = yes
+		}
+	}
+	
+	option = {
+		name = "A disaster!"
+		prestige = -30
+		clr_country_flag = laos_formed
+		all_core = { remove_core = LXA }
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = Luangprabang
+				}
+			}
+			owner = {
+				change_tag = LUA
+				clr_country_flag = Luangprabang
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = Champasak
+				}
+			}
+			owner = {
+				change_tag = CHK
+				clr_country_flag = Champasak
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = Wiangchhan
+				}
+			}
+			owner = {
+				change_tag = WIA
+				clr_country_flag = Wiangchhan
+			}
+		}
+	}
+}
+
+### Indonesian colony spread #Crash Source?
+#country_event = {
+#	id = 97130
+#	title = "EVTNAME98800"
+#	desc = "EVTDESC97130"
+#	
+#	trigger = {
+#	OR = { 
+#	      tag = INO 
+#	      owns = 1413
+#	}
+#	civilized = yes
+#	any_owned_province = {
+#		OR = {
+#			AND = { region = BAL_1438 NOT = { is_core = INO } } #Bali
+#			AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
+#			AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
+#			AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
+#			AND = { region = PAG_1408 NOT = { is_core = INO } } #East Sumatra
+#			AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
+#			AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
+#			AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
+#			AND = { region = NET_1423 NOT = { is_core = INO } } #East Borneo
+#			AND = { region = BRU_1396 NOT = { is_core = INO } } #North Borneo
+#			AND = { region = BRU_1394 NOT = { is_core = INO } } #West Borneo
+#			AND = { region = ENG_1384 NOT = { is_core = INO } } #Southern Malaya
+#			AND = { region = ENG_1391 NOT = { is_core = INO } } #Northern Malaya
+#		}
+#	}
+#		#owned_by = THIS
+#		#controlled_by = THIS
+#		#any_neighbor_province = {
+#		#	is_core = INO
+#		#}
+#		#owner = {
+#		#	civilized = yes
+#		#	#NOT = { 
+#		#	#	OR = {
+#		#	#		is_culture_group = southeast_asian
+#		#	#		is_culture_group = indonesian
+#		#	#	}
+#		#	#}
+#		#}
+#		#OR = {
+#		#	AND = {
+#		#		owner = { owns = 1413 }
+#		#		#INO = { exists = no }
+#		#	}
+#		#	INO = {
+#		#		vassal_of = THIS
+#		#		is_culture_group = THIS
+#		#	}
+#		#}		
+#		#NOT = {
+#		#	is_core = INO
+#		#}
+#	}
+#	
+#	mean_time_to_happen = {
+#		#months = 60
+#		months = 6
+#	}
+#	
+#	option = {
+#		name = "An excellent development!"
+#			any_owned = {
+#				limit = {
+#					NOT = { is_core = INO }
+#		            OR = {
+#		            	region = BAL_1438 #Bali
+#		            	region = NET_1398 #Djambi
+#		            	region = NET_1401 #Siak
+#		            	region = ATJ_1405 #Atjeh
+#		            	region = PAG_1408 #East Sumatra
+#		            	region = PAG_1408 #West Sumatra
+#		            	region = NET_1426 #South Borneo
+#		            	region = NET_1422 #Bandjar
+#		            	region = NET_1423 #East Borneo
+#		            	region = BRU_1396 #North Borneo
+#		            	region = BRU_1394 #West Borneo
+#		            	region = ENG_1384 #Southern Malaya
+#		            	region = ENG_1391 #Northern Malaya
+#		            }
+#				}
+#				add_core = INO
+#				any_pop = { militancy = -3 }
+#				add_province_modifier = {
+#					name = colonial_exploitation
+#					duration = 1095
+#				}
+#			}
+#		INO = { add_accepted_culture = malay }
+#		INO = { add_accepted_culture = moluccan }
+#	}
+#}
+#
+##province_event = {
+##	id = 97131
+##	title = "EVTNAME98800"
+##	desc = "EVTDESC97130"
+##	
+##	trigger = {
+##	OR = { 
+##	      tag = INO 
+##	      owns = 1413
+##	}
+##	civilized = yes
+##	any_owned_province = {
+##		OR = {
+##			AND = { region = NET_1446 NOT = { is_core = INO } } #Flores
+##			AND = { region = NET_1449 NOT = { is_core = INO } } #Sulawesi
+##			AND = { region = NET_1447 NOT = { is_core = INO } } #Moluccas
+##		}
+##	}
+##		#owned_by = THIS
+##		#controlled_by = THIS
+##		#any_neighbor_province = {
+##		#	is_core = INO
+##		#}
+##		#owner = {
+##		#	civilized = yes
+##		#	#NOT = { 
+##		#	#	OR ={
+##		#	#		is_culture_group = southeast_asian
+##		#	#		is_culture_group = indonesian
+##		#	#	}
+##		#	#}
+##		#}
+##		#OR = {
+##		#	AND = {
+##		#		owner = { owns = 1413 }
+##		#		#INO = { exists = no }
+##		#	}
+##		#	INO = {
+##		#		vassal_of = THIS
+##		#		is_culture_group = THIS
+##		#	}
+##		#}
+##		#NOT = {
+##		#	is_core = INO
+##		#}
+##	}
+##	
+##	mean_time_to_happen = {
+##		months = 60
+##	}
+##	
+##	option = {
+##		name = "An excellent development!"
+##			any_owned = {
+##				limit = {
+##					NOT = { is_core = INO }
+##		            OR = {
+##		            	region = BAL_1438 #Bali
+##		            	region = NET_1398 #Djambi
+##		            	region = NET_1401 #Siak
+##		            	region = ATJ_1405 #Atjeh
+##		            	region = PAG_1408 #East Sumatra
+##		            	region = PAG_1408 #West Sumatra
+##		            	region = NET_1426 #South Borneo
+##		            	region = NET_1422 #Bandjar
+##		            	region = NET_1423 #East Borneo
+##		            	region = BRU_1396 #North Borneo
+##		            	region = BRU_1394 #West Borneo
+##		            	region = ENG_1384 #Southern Malaya
+##		            	region = ENG_1391 #Northern Malaya
+##		            }					
+##				}
+##				add_core = INO
+##				any_pop = { militancy = -3 }
+##				add_province_modifier = {
+##					name = colonial_exploitation
+##					duration = 1095
+##				}
+##		}
+##		INO = { add_accepted_culture = moluccan }
+##	}
+##}
+#
+#country_event = {
+#	id = 97132
+#	title = "EVTNAME98800"
+#	desc = "EVTDESC97130"
+#	
+#	trigger = {
+#    OR = { 
+#	      tag = INO 
+#	      owns = 1413
+#	}
+#	civilized = yes
+#		OR = {
+#			region = NET_1451 #West New Guinea
+#			region = AST_2528 #Southeast New Guinea
+#			region = GER_2530 #Northeast New Guinea
+#		}
+#		owned_by = THIS
+#		controlled_by = THIS
+#		#any_neighbor_province = {
+#		#	is_core = INO
+#		#}
+#		#owner = {
+#		#	civilized = yes
+#		#	#NOT = { 
+#		#	#	OR ={
+#		#	#		is_culture_group = southeast_asian
+#		#	#		is_culture_group = indonesian
+#		#	#	}
+#		#	#}
+#		#}
+#		#OR = {
+#		#	AND = {
+#		#		owner = { owns = 1413 }
+#		#		#INO = { exists = no }
+#		#	}
+#		#	INO = {
+#		#		vassal_of = THIS
+#		#		is_culture_group = THIS
+#		#	}
+#		#}
+#		#NOT = {
+#		#	is_core = INO
+#		#}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 6
+#	}
+#	
+#	option = {
+#		name = "An excellent development!"
+#			any_owned = {
+#				limit = {
+#					NOT = { is_core = INO }
+#		            OR = {
+#		            	AND = { region = BAL_1438 NOT = { is_core = INO } } #Bali
+#		            	AND = { region = NET_1398 NOT = { is_core = INO } } #Djambi
+#		            	AND = { region = NET_1401 NOT = { is_core = INO } } #Siak
+#		            	AND = { region = ATJ_1405 NOT = { is_core = INO } } #Atjeh
+#		            	AND = { region = PAG_1408 NOT = { is_core = INO } } #East Sumatra
+#		            	AND = { region = PAG_1408 NOT = { is_core = INO } } #West Sumatra
+#		            	AND = { region = NET_1426 NOT = { is_core = INO } } #South Borneo
+#		            	AND = { region = NET_1422 NOT = { is_core = INO } } #Bandjar
+#		            	AND = { region = NET_1423 NOT = { is_core = INO } } #East Borneo
+#		            	AND = { region = BRU_1396 NOT = { is_core = INO } } #North Borneo
+#		            	AND = { region = BRU_1394 NOT = { is_core = INO } } #West Borneo
+#		            	AND = { region = ENG_1384 NOT = { is_core = INO } } #Southern Malaya
+#		            	AND = { region = ENG_1391 NOT = { is_core = INO } } #Northern Malaya
+#		            }
+#				}
+#				add_core = INO
+#				any_pop = { militancy = -3 }
+#				add_province_modifier = {
+#					name = colonial_exploitation
+#					duration = 1095
+#				}
+#		}
+#		INO = { add_accepted_culture = melanesian }
+#	}
+#}

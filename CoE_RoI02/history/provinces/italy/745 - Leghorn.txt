@@ -1,0 +1,13 @@
+owner = TUS
+controller = TUS
+add_core = TUS
+add_core = ITA
+trade_goods = fish
+life_rating = 30
+terrain = hilly_farmland
+naval_base = 1
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}

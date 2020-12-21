@@ -1,0 +1,132 @@
+country_event = {
+
+	id = 35700
+	news = yes
+	news_desc_long = "EVTDESC35700_NEWS_LONG"
+	news_desc_medium = "EVTDESC35700_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC35700_NEWS_SHORT"
+
+	trigger = {
+		tag = PAP
+		exists = yes
+		year = 1891
+		NOT = {
+			year = 1894
+			has_global_flag = RerumNovarum
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1892
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1893
+		}
+	}
+
+	title = "EVTNAME35700"
+	desc = "EVTDESC35700"
+	picture = "pope"
+
+	option = {
+		name = "EVTOPTA35700" 
+		prestige = 5
+		labourers = {
+			consciousness = 1
+		}
+		craftsmen = {
+			consciousness = 1
+		}
+		artisans = {
+			consciousness = 1
+		}
+		soldiers = {
+			consciousness = 1
+		}
+		set_global_flag = RerumNovarum		
+	}
+}
+
+country_event = {
+	id = 35705
+	title = "EVTNAME35705" #Pius IX's reforms
+	desc = "EVTDESC35705"
+	picture = "Pope"
+
+	trigger = {
+		tag = PAP
+		OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		has_global_flag = liberal_revolutions_should_now_fire
+		NOT = { has_global_flag = pius_IX_reforms }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "It is time for reforms."
+		set_global_flag = pius_IX_reforms
+		prestige = 5
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = great_reformer
+			duration = 9125
+		}
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		relation = { who = AUS value = -50 }
+		any_country = {
+			limit = {
+				is_culture_group = italian
+			}
+			relation = { who = THIS value = 50 }
+		}
+	}
+}

@@ -1,0 +1,30 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+add_core = CAT
+trade_goods = silk
+life_rating = 30
+terrain = dry_forest_hills
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = { 
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 2 }

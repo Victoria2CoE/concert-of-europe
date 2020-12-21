@@ -1,0 +1,25 @@
+owner = AUS
+controller = AUS
+add_core = VEN
+add_core = ITA
+trade_goods = fish
+life_rating = 30
+naval_base = 1
+terrain = insular
+#state_building = {
+#	level = 4
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+state_building = {
+	level = 2
+	building = heavy_factory_building
+	upgrade = yes
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}

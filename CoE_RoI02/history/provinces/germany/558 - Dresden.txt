@@ -1,0 +1,29 @@
+owner = SAX
+controller = SAX
+add_core = SAX
+add_core = GER
+trade_goods = coal
+life_rating = 30
+terrain = hilly_farmland
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+1836.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}

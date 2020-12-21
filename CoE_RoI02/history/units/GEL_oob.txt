@@ -1,0 +1,39 @@
+SHW = {
+	value = 10
+}
+
+TIG = {
+	value = 10
+}
+
+GON = {
+	value = 10
+}
+
+EGY = {
+	value = 60
+}
+
+MAJ = {
+	value = 50
+}
+
+OMA = {
+	value = 100
+}
+
+army = {
+	name = "Army of the Geledi Sultanate"
+	location = 1868
+	regiment = {
+		name= "Sultan's Guards"
+		type = infantry
+		home = 1868
+	}
+	
+	regiment = {
+		name= "Baidoa Tribesmen"
+		type = infantry		
+		home = 1868
+		}
+}

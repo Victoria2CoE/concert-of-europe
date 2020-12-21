@@ -1,0 +1,13 @@
+owner = FRA
+controller = FRA
+add_core = WOL
+trade_goods = grain
+life_rating = 30
+terrain = dry_grassland
+colonial = 1
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 1
+	naval_base = 1
+}

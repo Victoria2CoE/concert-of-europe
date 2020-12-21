@@ -1,0 +1,19 @@
+AUS = {
+	value = 125
+}
+RUS = {
+	value = 125
+}
+PRU = {
+	value = 125
+}
+
+army = {
+	name = "Armia Krakówiej"
+	location = 703
+	
+	regiment = {
+		name = "1. Brygada"
+		type = regular
+	}
+}

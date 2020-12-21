@@ -1,0 +1,467 @@
+#########################
+#	Atlantic Islands	#
+#########################
+
+1876 = {
+
+	capitalists = {
+
+		size = 91
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 228
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 692
+		culture = african_minor
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 22
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 45
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 148
+		culture = african_minor
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 91
+		culture = portuguese
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 13358
+		culture = african_minor
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 3958
+		culture = african_minor
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 22
+		culture = portuguese
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 148
+		culture = african_minor
+		religion = catholic
+
+	}
+
+}
+
+1954 = {
+
+	capitalists = {
+
+		size = 18
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 4
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 197
+		culture = african_minor
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 4
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 50
+		culture = portuguese
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 544
+		culture = african_minor
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 3413
+		culture = african_minor
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 4
+		culture = portuguese
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 98
+		culture = african_minor
+		religion = catholic
+
+	}
+
+}
+
+1955 = {
+
+	capitalists = {
+
+		size = 2
+		culture = spanish
+		religion = catholic
+
+	}
+	capitalists = {
+
+		size = 346
+		culture = fang
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 4
+		culture = spanish
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 118
+		culture = fang
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 1
+		culture = spanish
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 4
+		culture = spanish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 1513
+		culture = fang
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 1088
+		culture = fang
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 50
+		culture = spanish
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 346
+		culture = fang
+		religion = animist
+
+	}
+
+}
+
+
+2134 = {
+
+	capitalists = {
+
+		size = 686
+		culture = portuguese
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 2748
+		culture = portuguese
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 91
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 345
+		culture = portuguese
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 42099
+		culture = portuguese
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 45
+		culture = portuguese
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 1236
+		culture = portuguese
+		religion = catholic
+
+	}
+
+}
+2135 = {
+
+	artisans = {
+
+		size = 1373
+		culture = portuguese
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 160
+		culture = portuguese
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 21816
+		culture = portuguese
+		religion = catholic
+
+	}
+
+}
+2136 = {
+
+	capitalists = {
+
+		size = 755
+		culture = spanish
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 2747
+		culture = spanish
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 68
+		culture = spanish
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 480
+		culture = spanish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 43061
+		culture = spanish
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 45
+		culture = spanish
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 457
+		culture = spanish
+		religion = catholic
+
+	}
+
+}
+
+
+2129 = {
+
+	artisans = {
+
+		size = 45
+		culture = british
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 4
+		culture = british
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 22
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 824
+		culture = british
+		religion = protestant
+
+	}
+
+}
+2130 = {
+
+	labourers = {
+
+		size = 22
+		culture = british
+		religion = protestant
+
+	}
+
+}
+2131 = {
+
+	capitalists = {
+
+		size = 29
+		culture = patagonian
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 40
+		culture = platinean
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 20
+		culture = platinean
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 192
+		culture = patagonian
+		religion = animist
+
+	}
+
+}
+2132 = {
+
+	labourers = {
+
+		size = 22
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 27
+		culture = british
+		religion = protestant
+
+	}
+
+}
+2133 = {
+
+	labourers = {
+
+		size = 12
+		culture = british
+		religion = protestant
+
+	}
+
+}

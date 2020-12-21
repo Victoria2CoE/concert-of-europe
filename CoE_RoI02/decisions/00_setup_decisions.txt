@@ -1,0 +1,16 @@
+political_decisions = {
+	development_setup_decision = {
+		potential = {	
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			country_event = 9999856
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

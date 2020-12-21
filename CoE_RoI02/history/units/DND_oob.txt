@@ -1,0 +1,32 @@
+SOK = {
+	value = 5
+}
+
+MOS = {
+	value = 30
+}
+
+MAS = {
+	value = 30
+}
+
+SEG = {
+	value = -10
+}
+
+army = {
+	name = "Army of the Dendi Kingdom"
+	location = 1808	
+	regiment = {
+		name= "Askiya's Cavalry"	
+		type = hussar
+		home = 1808
+	}
+	regiment = {
+		name= "Warriors of Gygax"
+		type = infantry
+		home = 1808
+	}
+}
+
+

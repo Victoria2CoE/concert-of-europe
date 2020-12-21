@@ -1,0 +1,8 @@
+add_core = ETH
+trade_goods = coffee
+life_rating = 15
+terrain = hilly_grassland
+1861.1.1 = {
+	owner = ETH
+	controller = ETH
+}

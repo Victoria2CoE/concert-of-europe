@@ -1,0 +1,1132 @@
+#########################################################
+#														#
+#        	London Conference of 1832 Events			#
+#														#
+#########################################################
+
+country_event = {
+	id = 31200
+	title = "EVTNAME31200" #The Greek Question (Initiates London Conference of 1832)
+	desc = "EVTDESC31200"
+	picture = "greatpowers"
+
+	trigger = {
+		is_greater_power = yes
+		capital_scope = { continent = europe }
+		NOT = {
+			tag = TUR
+			tag = RUS
+			has_global_flag = london_conference_1832_held
+			has_global_flag = london_conference_1832_in_progress
+			has_country_flag = will_not_hold_conference_1832
+			has_country_flag = hosting_london_conference_1832
+			has_country_flag = hosting_london_conference_1830
+			has_country_modifier = neutrality
+			year = 1840
+			GRE = { badboy = 0.1 }
+		}
+		GRE = {
+			exists = yes
+			is_greater_power = no
+			NOT = { war_with = TUR }
+			has_country_flag = legitimacy
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 28
+		modifier = {
+			factor = 0.5
+			tag = ENG
+		}
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+	}
+
+	option = {
+		name = "We will host the conference."
+		prestige = 5
+		set_global_flag = london_conference_1832_in_progress
+		set_country_flag = hosting_london_conference_1832
+		GRE = {
+			set_variable = {
+				which = weak_greece
+				value = 0
+			}
+			set_variable = {
+				which = medium_greece
+				value = 0
+			}
+			set_variable = {
+				which = strong_greece
+				value = 0
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					AND = {
+						is_greater_power = yes
+						capital_scope = { continent = europe }
+					}
+					tag = TUR
+					tag = GRE
+				}
+				NOT = { war_with = TUR }
+			}
+			country_event = 31201
+		}
+		THIS = { country_event = 31201 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = "This is unnecessary."
+		set_country_flag = will_not_hold_conference_1832
+		prestige = -2
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				tag = ENG
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 31201
+	title = "EVTNAME31200" #Goals for the conference
+	desc = "EVTDESC31201"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Greece must remain under Ottoman suzerainty."
+		prestige = 2
+		set_country_flag = attending_london_conference_1832
+		set_country_flag = conference_weak_greece
+		GRE = {
+			change_variable = {
+				which = weak_greece
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				OR = {
+					tag = RUS
+					tag = GRE
+				}
+			}
+			modifier = {
+				factor = 3
+				neighbour = RUS
+			}
+			modifier = {
+				factor = 0.25
+				GRE = { owns = 834 }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { relation = { who = TUR value = -50 } }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { relation = { who = TUR value = -100 } }
+			}
+			modifier = {
+				factor = 1.25
+				relation = { who = TUR value = 50 }
+			}
+			modifier = {
+				factor = 2
+				relation = { who = TUR value = 100 }
+			}
+			modifier = {
+				factor = 0.5
+				truce_with = TUR
+			}
+			modifier = {
+				factor = 5
+				alliance_with = TUR
+			}
+			modifier = {
+				factor = 0.5
+				romanticism = 1
+			}
+		}
+	}
+
+	option = {
+		name = "Greece must become independent."
+		prestige = 2
+		set_country_flag = attending_london_conference_1832
+		set_country_flag = conference_medium_greece
+		GRE = {
+			change_variable = {
+				which = medium_greece
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					tag = RUS
+					tag = GRE
+					tag = TUR
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = FRA
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Greece must be made strong."
+		prestige = 2
+		set_country_flag = attending_london_conference_1832
+		set_country_flag = conference_strong_greece
+		GRE = {
+			change_variable = {
+				which = strong_greece
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				neighbour = RUS
+			}
+			modifier = {
+				factor = 0
+				tag = TUR
+			}
+			modifier = {
+				factor = 0
+				alliance_with = TUR
+			}
+			modifier = {
+				factor = 2
+				truce_with = TUR
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 31202
+	title = "EVTNAME31202" #The London Protocol (Weak Greece)
+	desc = "EVTDESC31202"
+
+	trigger = {
+		has_country_flag = hosting_london_conference_1832
+		has_country_flag = attending_london_conference_1832
+		GRE = {
+			check_variable = {
+				which = weak_greece
+				value = 2
+			}
+		}
+		NOT = { has_global_flag = london_conference_1832_held }
+	}
+	major = yes
+
+	mean_time_to_happen = {
+		days = 60
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = weak_greece
+					value = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = weak_greece
+					value = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = weak_greece
+					value = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "This is how it must be."
+		clr_global_flag = london_conference_1832_in_progress
+		set_global_flag = london_conference_1832_held
+		prestige = 2
+		GRE = { country_event = 31205 }
+	}
+}
+
+country_event = {
+	id = 31203
+	title = "EVTNAME31202" #The London Protocol (Medium Greece)
+	desc = "EVTDESC31203"
+
+	trigger = {
+		has_country_flag = hosting_london_conference_1832
+		has_country_flag = attending_london_conference_1832
+		GRE = {
+			check_variable = {
+				which = medium_greece
+				value = 1
+			}
+		}
+		NOT = { has_global_flag = london_conference_1832_held }
+	}
+	major = yes
+
+	mean_time_to_happen = {
+		days = 60
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = medium_greece
+					value = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = medium_greece
+					value = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = medium_greece
+					value = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "This is how it must be."
+		clr_global_flag = london_conference_1832_in_progress
+		set_global_flag = london_conference_1832_held
+		prestige = 2
+		GRE = { country_event = 31206 }
+	}
+}
+
+country_event = {
+	id = 31204
+	title = "EVTNAME31202" #The London Protocol (Strong Greece)
+	desc = "EVTDESC31204"
+
+	trigger = {
+		has_country_flag = hosting_london_conference_1832
+		has_country_flag = attending_london_conference_1832
+		GRE = {
+			check_variable = {
+				which = strong_greece
+				value = 2
+			}
+		}
+		NOT = { has_global_flag = london_conference_1832_held }
+	}
+	major = yes
+
+	mean_time_to_happen = {
+		days = 60
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = strong_greece
+					value = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = strong_greece
+					value = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			GRE = {
+				check_variable = {
+					which = strong_greece
+					value = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "This is how it must be."
+		clr_global_flag = london_conference_1832_in_progress
+		set_global_flag = london_conference_1832_held
+		prestige = 2
+		TUR = { country_event = 31207 }
+	}
+}
+
+country_event = {
+	id = 31205
+	title = "EVTNAME31205" #Decision of the conference (Weak Greece)
+	desc = "EVTDESC31205"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We must accept their decision."
+		TUR = {
+			prestige = -1
+			create_vassal = GRE
+			any_owned = {
+				limit = {
+					region = GRE_826
+				}
+				secede_province = GRE
+			}
+		}
+		prestige = -1
+		any_owned = {
+			limit = {
+				NOT = {
+					region = GRE_826
+					province_id = 845
+				}
+			}
+			secede_province = TUR
+		}
+		845 = { secede_province = GRE }
+		any_owned = {
+			remove_core = TUR
+		}
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send acknowledgement to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31208
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "We refuse! Only full independence is acceptable."
+		prestige = 3
+		badboy = 6
+		TUR = {
+			prestige = -3
+			casus_belli = {
+				target = GRE
+				type = make_puppet
+				months = 120
+			}
+		}
+		GRE_826 = { remove_core = TUR }
+		845 = { remove_core = TUR }
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send refusal to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31211
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 31206
+	title = "EVTNAME31205" #Decision of the conference (Medium Greece)
+	desc = "EVTDESC31206"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We will accept their decision."
+		prestige = 2
+		TUR = {
+			prestige = -2
+			any_owned = {
+				limit = {
+					region = GRE_837
+					region = GRE_826
+					province_id = 845
+				}
+				secede_province = GRE
+			}
+			release_vassal = GRE
+		}
+		847 = { secede_province = GRE }
+		848 = { secede_province = GRE }
+		any_owned = {
+			limit = {
+				NOT = {
+					region = GRE_837
+					region = GRE_826
+					province_id = 845
+					province_id = 847
+					province_id = 848
+				}
+			}
+			secede_province = TUR
+		}
+		any_owned = {
+			remove_core = TUR
+		}
+		capital = 834
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send acknowledgement to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31209
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "We refuse! We will keep all the territory we've taken."
+		prestige = 3
+		badboy = 9
+		TUR = {
+			prestige = -5
+			release_vassal = GRE
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = GRE_837
+					region = GRE_826
+					province_id = 845
+					province_id = 847
+					province_id = 848
+				}
+			}
+			remove_core = TUR
+		}
+		capital = 834
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send refusal to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31212
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 31207
+	title = "EVTNAME31205" #Decision of the conference (Strong Greece)
+	desc = "EVTDESC31207"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We must accept their decision."
+		prestige = -5
+		any_owned = {
+			limit = {
+				OR = {
+					region = GRE_837
+					region = GRE_826
+					region = TUR_832
+					province_id = 825
+					province_id = 843
+					province_id = 845
+					province_id = 847
+					province_id = 848
+				}
+			}
+			secede_province = GRE
+		}
+		release_vassal = GRE
+		GRE = {
+			prestige = 5
+			any_owned = {
+				limit = {
+					OR = {
+						region = GRE_837
+						region = GRE_826
+						region = TUR_832
+						province_id = 825
+						province_id = 843
+						province_id = 845
+						province_id = 847
+						province_id = 848
+					}
+				}
+				remove_core = TUR
+			}
+			capital = 834
+		}
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send acknowledgement to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31210
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "They have no right! Greece is ours!"
+		prestige = 2
+		badboy = 6
+		any_owned = {
+			limit = {
+				OR = {
+					region = GRE_837
+					region = GRE_826
+					region = TUR_832
+					province_id = 825
+					province_id = 843
+					province_id = 847
+					province_id = 848
+				}
+			}
+			secede_province = GRE
+		}
+		release_vassal = GRE
+		GRE = {
+			prestige = 5
+			any_owned = {
+				limit = {
+					OR = {
+						region = GRE_837
+						region = GRE_826
+						province_id = 845
+						province_id = 847
+						province_id = 848
+					}
+				}
+				remove_core = TUR
+			}
+			capital = 834
+		}
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+
+		# Send acknowledgement to attending countries
+		any_country = {
+			limit = {
+				has_country_flag = attending_london_conference_1832
+			}
+			country_event = 31213
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 31208
+	title = "EVTNAME31205" #Greece Agrees (Weak Greece)
+	desc = "EVTDESC31205"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very well, then."
+		#All countries gain some prestige
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = attending_london_conference_1832 }
+			}
+			owner = { prestige = 2 }
+		}
+
+		#Everyone who supported weak Greece gains prestige, gains relations with Ottoman, gains influence & loses relations with Greece
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = weak_greece }
+			}
+			owner = {
+				prestige = 5
+				relation = { who = TUR value = 50 }
+				diplomatic_influence = { who = GRE value = 50 }
+				relation = { who = GRE value = -50 }
+			}
+		}
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+	}
+}
+
+country_event = {
+	id = 31209
+	title = "EVTNAME31205" #Greece Agrees (Medium Greece)
+	desc = "EVTDESC31206"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very well, then."
+		#All countries gain some prestige
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = attending_london_conference_1832 }
+			}
+			owner = { prestige = 2 }
+		}
+
+		#Everyone who supported medium Greece gains prestige, relations & influence with Greece & loses relations with Ottoman
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = medium_greece }
+			}
+			owner = {
+				prestige = 5
+				relation = { who = GRE value = 50 }
+				diplomatic_influence = { who = GRE value = 50 }
+				relation = { who = TUR value = -50 }
+			}
+		}
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+	}
+}
+
+country_event = {
+	id = 31210
+	title = "EVTNAME31205" #Ottoman Empire Agrees (Strong Greece)
+	desc = "EVTDESC31207"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very well, then."
+		#All countries gain some prestige
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = attending_london_conference_1832 }
+			}
+			owner = { prestige = 2 }
+		}
+		#Everyone who supported strong Greece gains prestige, relations & influence with Greece & loses relations with Ottoman
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = strong_greece }
+			}
+			owner = {
+				prestige = 5
+				relation = { who = GRE value = 100 }
+				diplomatic_influence = { who = GRE value = 50 }
+				relation = { who = TUR value = -100 }
+			}
+		}
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+	}
+}
+
+country_event = {
+	id = 31211
+	title = "EVTNAME31211" #Greece refuses (Weak Greece)
+	desc = "EVTDESC31211"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ridiculous! Let them defend themselves, then."
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+		prestige = -2
+		relation = { who = TUR value = 50 }
+		relation = { who = GRE value = -50 }
+		diplomatic_influence = { who = GRE value = -50 }
+		leave_alliance = GRE
+		casus_belli = {
+			target = GRE
+			type = liberate_country
+			months = 90
+		}
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				has_country_flag = strong_greece
+			}
+		}
+	}
+
+	option = {
+		name = "We are secretly pleased."
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+		prestige = -2
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = 31212
+	title = "EVTNAME31211" #Greece refuses (Medium Greece)
+	desc = "EVTDESC31212"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ridiculous! Let them defend themselves, then."
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+		prestige = -2
+		relation = { who = TUR value = 50 }
+		relation = { who = GRE value = -150 }
+		diplomatic_influence = { who = GRE value = -150 }
+		leave_alliance = GRE
+		casus_belli = {
+			target = GRE
+			type = liberate_country
+			months = 90
+		}
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				has_country_flag = strong_greece
+			}
+		}
+	}
+
+	option = {
+		name = "We are secretly pleased."
+		clr_country_flag = hosting_london_conference_1830
+		clr_country_flag = attending_london_conference_1830
+		clr_country_flag = supporting_netherlands
+		clr_country_flag = supporting_belgium
+		clr_country_flag = supporting_partition
+		prestige = -2
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = 31213
+	title = "EVTNAME31213" #Ottoman Empire refuses (Strong Greece)
+	desc = "EVTDESC31213"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ridiculous! Let them try to take it back, then."
+		clr_country_flag = greek_question
+		clr_country_flag = hosting_london_conference_1832
+		clr_country_flag = attending_london_conference_1832
+		clr_country_flag = weak_greece
+		clr_country_flag = medium_greece
+		clr_country_flag = strong_greece
+		prestige = -2
+		relation = { who = GRE value = 50 }
+		relation = { who = TUR value = -100 }
+		diplomatic_influence = { who = TUR value = -50 }
+		leave_alliance = TUR
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				has_country_flag = weak_greece
+			}
+		}
+	}
+
+	option = {
+		name = "We are secretly pleased."
+		clr_country_flag = hosting_london_conference_1830
+		clr_country_flag = attending_london_conference_1830
+		clr_country_flag = supporting_netherlands
+		clr_country_flag = supporting_belgium
+		clr_country_flag = supporting_partition
+		prestige = -2
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = 31230
+	title = "EVTNAME31230" #Greece Retreats from Anatolia
+	desc = "EVTDESC31230"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Indeed! Let a new day dawn!"
+		prestige = -10
+		badboy = -5
+		war_exhaustion = 10									#Resettle Refugees
+		any_pop = {
+			militancy = -2
+		}
+		all_core = {										#Remove TUR cores on Balkan Greece
+			limit = {
+				is_core = GRE
+				continent = europe
+				NOT = { region = TUR_823 }					#Western Thrace
+				NOT = { region = TUR_828 }					#Eastern Thrace
+				NOT = { region = EGY_843 }					#Aegean Islands
+			}
+			remove_core = TUR
+		}
+		random_owned = {									#Remove GRE cores in E. Thrace if owned by Turkey
+			limit = {
+				province_id = 828 #Edirne
+			}
+			TUR_828 = { remove_core = GRE } #E. Thrace
+		}
+		random_owned = {									#Remove GRE cores in W. Thrace if owned by Turkey
+			limit = {
+				province_id = 823 #Kavala
+			}
+			TUR_823 = { remove_core = GRE } #W. Thrace
+		}
+		relation = { who = GRE value = 200 }				#Normalize diplomatic relations
+		GRE = {
+			prestige = -25
+			badboy = -10
+			war_exhaustion = 25 							#Resettle refugees
+			any_pop = {
+				militancy = -2
+			}
+			all_core = {									#Remove GRE cores in Anatolia
+				limit = {
+					continent = asia
+					NOT = { region = TUR_855 }
+				}
+				remove_core = GRE
+			}
+			860 = { remove_core = GRE }						#Remove GRE core on Istanbul
+			random_owned = {
+			limit = {
+				province_id = 823 #Kavala					#Remove TUR cores on W. Thrace if owned by Greece
+			}
+			TUR_823 = { remove_core = TUR } #Western Thrace
+			}
+			random_owned = {
+				limit = {
+					province_id = 848 #Iraklion				#Remove TUR cores on Crete if owned by Greece
+				}
+				848 = { remove_core = TUR } #Iraklion
+				847 = { remove_core = TUR } #Chania
+			}
+			random_owned = {
+				limit = {
+					province_id = 855 #Nicosia				#Remove TUR cores on Cyprus if owned by Greece
+				}
+				TUR_855 = { remove_core = TUR } #Cyprus
+			}
+			any_owned = {									#Transfer Territories
+				limit = {
+					is_core = TUR
+					NOT = { is_core = GRE }
+					continent = asia
+				}
+				secede_province = TUR
+			}
+			set_country_flag = retreated_from_anatolia
+		}
+		any_owned = {										#Transfer Territories
+			limit = {
+				is_core = GRE
+				NOT = { is_core = TUR }
+				continent = europe
+			}
+			secede_province = GRE
+		}
+	}
+	option = {
+		name = "Never! The Balkans are ours!"
+		add_country_modifier = {
+			name = treaty_refused
+			duration = 1460
+		}
+		relation = { who = FROM value = -50 }
+		FROM = {
+			add_country_modifier = {
+				name = treaty_refused
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 31240
+	title = "EVTNAME31240" #Imperial Pretensions Challenged
+	desc = "EVTDESC31240"
+
+	trigger = {
+		tag = BYZ
+		exists = yes
+		is_greater_power = no
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+		modifier = {
+			factor = 0.25
+			is_disarmed = yes
+		}
+		modifier = {
+			factor = 0.1
+			is_secondary_power = no
+		}
+	}
+
+	option = {
+		name = "It was nice while it lasted"
+		prestige = -50
+		badboy = -15
+		TUR_806 = { remove_core = BYZ } #N. Macedonia
+		TUR_809 = { remove_core = BYZ } #E. Rumelia
+		867 = { remove_core = BYZ } #Kutahya
+		870 = { remove_core = BYZ } #Manisa
+		871 = { remove_core = BYZ } #Denizli
+		TUR_880 = { remove_core = BYZ } #Kastamonu Region
+		884 = { remove_core = BYZ } #Giresun
+		882 = { remove_core = BYZ } #Trabzon
+		capital = 834 #Athens
+		all_core = {
+			add_core = GRE
+			remove_core = THIS
+		}
+		change_tag = GRE
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.1
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+			}
+		}
+	}
+
+	option = {
+		name = "Never! We'll show them!"
+		prestige = 5
+		badboy = 5
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					war_policy = pacifism
+				}
+			}
+			modifier = {
+				factor = 2
+				war_policy = jingoism
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+capital = 65
+primary_culture = french_canadian
+culture = anglo_canadian
+religion = catholic
+government = hms_government
+plurality = 0.2
+nationalvalue = nv_equality
+literacy = 0.01 #literacy = 0.6
+civilized = yes
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+minorities_reform = limited
+immigration_policy = quota_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = twelve_hours
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions
+land_property=landed_estates
+child_labor = child_labor_restricted
+arts_endowment=no_endowment
+education = elite
+
+ruling_party = QUE_conservative
+upper_house = {
+	fascist = 0
+	liberal = 35
+	conservative = 55
+	reactionary = 5
+	anarcho_liberal = 5
+	socialist = 0
+	communist = 0
+}

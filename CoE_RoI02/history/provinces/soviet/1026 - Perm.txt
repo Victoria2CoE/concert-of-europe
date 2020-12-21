@@ -1,0 +1,14 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = URA
+trade_goods = iron
+terrain = boreal_forest_mountains
+life_rating = 30
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	} 
+}

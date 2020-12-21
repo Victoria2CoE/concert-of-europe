@@ -1,0 +1,12 @@
+owner = EGY
+controller = EGY
+add_core = NYE
+add_core = ASR
+trade_goods = grain
+life_rating = 30
+terrain = semi_desert
+colonial = 1
+1861.1.1 = {
+	owner = TUR
+	controller = TUR
+}

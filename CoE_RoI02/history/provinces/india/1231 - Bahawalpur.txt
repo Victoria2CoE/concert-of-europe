@@ -1,0 +1,12 @@
+owner = PNJ
+controller = PNJ
+add_core = PNJ
+add_core = HND
+trade_goods = tea
+life_rating = 31
+terrain = marginal_farmland
+1861.1.1 = {
+	owner = HND
+	controller = HND
+	colonial = 1
+}

@@ -1355,8 +1355,8 @@ province_event = {
 			is_overseas = yes
 		}
 		modifier = {
-					factor = 0.5
-					any_neighbor_province = {
+			factor = 0.5
+			any_neighbor_province = {
 					has_province_modifier = strip_mine
 			}
 		}

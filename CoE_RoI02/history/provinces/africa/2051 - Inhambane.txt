@@ -1,0 +1,12 @@
+owner = GAZ
+controller = GAZ
+add_core = GAZ
+trade_goods = fish
+life_rating = 30
+terrain = dry_grassland
+1836.1.1 = {
+	owner = POR
+	controller = POR
+	remoe_core = GAZ
+	colonial = 1
+}

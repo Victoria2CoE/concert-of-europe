@@ -1,0 +1,10 @@
+owner = HND
+controller = HND
+add_core = HND
+add_core = BNG
+trade_goods = tea
+life_rating = 30
+terrain = floodplain_farmland
+colonial = 0
+fort = 1
+1861.1.1 = { railroad = 3 }

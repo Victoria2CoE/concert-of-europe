@@ -1,0 +1,12 @@
+owner = DAG
+controller = DAG
+add_core = GEO
+add_core = DAG
+add_core = RUS
+trade_goods = sulphur
+life_rating = 30
+terrain = mountain_farmland
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

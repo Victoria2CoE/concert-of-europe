@@ -1,0 +1,8 @@
+owner = NAS
+controller = NAS
+add_core = NAS
+add_core = GER
+trade_goods = coal
+life_rating = 30
+terrain = deciduous_forest_hills
+1861.1.1 = { railroad = 3 }

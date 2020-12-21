@@ -1,0 +1,11 @@
+owner = TRI
+controller = TRI
+trade_goods = wool
+life_rating = 25
+terrain = desert
+
+1861.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 0
+}

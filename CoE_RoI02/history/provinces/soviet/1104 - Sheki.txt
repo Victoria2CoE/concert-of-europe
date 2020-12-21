@@ -1,0 +1,14 @@
+owner = AZB
+controller = AZB
+add_core = AZB
+add_core = DAG
+add_core = RUS
+add_core = PER
+trade_goods = silk
+life_rating = 30
+terrain = deciduous_forest
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = PER
+}

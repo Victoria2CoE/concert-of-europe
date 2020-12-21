@@ -1,0 +1,14 @@
+AUS = {
+	value = 75
+}
+
+army = {
+	name = "Esercito di Lucca"
+	location = 746
+	regiment = {
+		name= "1. Fanteria di Linea"
+		type = regular
+		home = 746
+	}
+}
+

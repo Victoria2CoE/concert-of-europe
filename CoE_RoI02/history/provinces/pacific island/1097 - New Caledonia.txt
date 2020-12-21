@@ -1,0 +1,10 @@
+trade_goods = coffee
+life_rating = 20
+terrain = seasonal_jungle_hills
+colonial = 1
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+	naval_base = 1
+	life_rating = 30
+}

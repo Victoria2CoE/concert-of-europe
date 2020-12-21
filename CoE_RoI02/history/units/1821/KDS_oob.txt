@@ -1,0 +1,33 @@
+
+army = {
+	name = "Army of the Kurdish Emirs"
+	location = 893
+
+	regiment = {
+		name = "1. Kurdish Regiment"
+			type = infantry
+			home = 893
+	}
+
+	
+	regiment = {
+		name = "2. Kurdish Regiment"
+			type = infantry
+			home = 893
+	}
+
+	
+	regiment = {
+		name = "3. Kurdish Regiment"
+			type = infantry
+			home = 890
+	}
+	
+	regiment = {
+		name = "4. Kurdish Regiment"
+			type = infantry
+			home = 890
+	}
+
+}
+

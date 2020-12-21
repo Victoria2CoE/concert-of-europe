@@ -1,0 +1,23 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = grain
+life_rating = 30
+terrain = rich_farmland
+naval_base = 1
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+1836.1.1 = {
+#	state_building = {
+#		level = 1
+#		building = heavy_factory_building
+#		upgrade = yes
+#	}
+}
+1861.1.1 = { 
+	railroad = 2 
+	naval_base = 2
+}

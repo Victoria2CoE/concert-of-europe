@@ -4,49 +4,49 @@
 
 		size = 19
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	capitalists = {
 
 		size = 122
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	artisans = {
 
 		size = 49
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	clergymen = {
 
 		size = 24
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	labourers = {
 
 		size = 890
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	soldiers = {
 
 		size = 29
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	soldiers = {
 
 		size = 225
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 
@@ -58,49 +58,49 @@
 
 		size = 286
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	artisans = {
 
 		size = 573
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	bureaucrats = {
 
 		size = 40
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	clergymen = {
 
 		size = 81
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	labourers = {
 
 		size = 81
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	labourers = {
 
 		size = 4718
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	slaves = {
 
 		size = 6000
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 
@@ -111,56 +111,56 @@
 
 		size = 81
 		culture = dutch
-		religion = protestant
+		religion = dutch #religion = protestant
 
 	}
 	artisans = {
 
 		size = 81
 		culture = dutch
-		religion = protestant
+		religion = dutch #religion = protestant
 
 	}
 	artisans = {
 
 		size = 1434
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	bureaucrats = {
 
 		size = 49
 		culture = dutch
-		religion = protestant
+		religion = dutch #religion = protestant
 
 	}
 	clergymen = {
 
 		size = 20
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	labourers = {
 
 		size = 983
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	slaves = {
 
 		size = 7378
 		culture = afro_caribbean
-		religion = animist
+		religion = afro_caribbean #religion = animist
 
 	}
 	soldiers = {
 
 		size = 102
 		culture = dutch
-		religion = protestant
+		religion = dutch #religion = protestant
 
 	}
 
@@ -171,70 +171,70 @@
 
 		size = 132
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 	artisans = {
 
 		size = 90
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 	artisans = {
 
 		size = 122
 		culture = afro_antillean
-		religion = catholic
+		religion = afro_antillean #religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 8
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 31
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 	labourers = {
 
 		size = 65
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 	labourers = {
 
 		size = 348
 		culture = afro_antillean
-		religion = catholic
+		religion = afro_antillean #religion = catholic
 
 	}
 	labourers = {
 
 		size = 227
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	slaves = {
 
 		size = 2418
 		culture = afro_antillean
-		religion = catholic
+		religion = afro_antillean #religion = catholic
 
 	}
 	soldiers = {
 
 		size = 94
 		culture = french
-		religion = catholic
+		religion = french #religion = catholic
 
 	}
 
@@ -245,21 +245,21 @@
 
 		size = 49
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	clergymen = {
 
 		size = 22
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 	labourers = {
 
 		size = 892
 		culture = amazonian
-		religion = animist
+		religion = amazonian #religion = animist
 
 	}
 
@@ -270,42 +270,42 @@
 
 		size = 81
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	artisans = {
 
 		size = 245
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	clergymen = {
 
 		size = 81
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	labourers = {
 
 		size = 40
 		culture = british
-		religion = protestant
+		religion = british #religion = protestant
 
 	}
 	labourers = {
 
 		size = 3009
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 	slaves = {
 
 		size = 4000
 		culture = afro_caribbean
-		religion = protestant
+		religion = afro_caribbean #religion = protestant
 
 	}
 

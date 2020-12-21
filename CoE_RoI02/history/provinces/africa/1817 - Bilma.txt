@@ -1,0 +1,15 @@
+owner = NET
+controller = NET
+add_core = HYD
+add_core = MYS
+add_core = KRN
+add_core = HND
+colonial = 2
+trade_goods = cotton
+life_rating = 25
+terrain = seasonal_jungle
+
+1825.3.1 = {
+	owner = ENG
+	controller = ENG
+}

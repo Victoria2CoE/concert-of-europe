@@ -1,0 +1,208 @@
+ENG = {
+	value = 0
+}
+PRU = {
+	value = 0
+}
+AUS = {
+	value = 0
+}
+USA = {
+	value = 0
+}
+SPA = {
+	value = 0
+}
+TUR = {
+	value = -50
+}
+
+FRA = {
+	value = 75
+}
+
+GON = {
+	value = 100		#relation
+}
+
+GEL = {
+	value = 60
+}
+
+MAJ = {
+	value = 60
+}
+
+SHW = {
+	value = 65
+}
+
+TIG = {
+	value = 75
+}
+
+
+
+leader = {
+	name = "Ibrahim Pasha"
+	type = land
+	date = "1821.9.1"
+	personality = genius
+	background = school_of_offense
+}
+
+
+
+
+navy = {
+	name = "Taba"
+	location = 1753
+	ship = {
+		name= "Toushka"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sharm El-Sheikh"
+		type = manowar
+	}
+
+	ship = {
+		name= "Damyat"
+		type = manowar
+	}
+
+	ship = {
+		name= "Rasheed"
+		type = manowar
+	}
+
+	ship = {
+		name= "El Suez"
+		type = frigate
+	}
+
+	ship = {
+		name= "El Aboukir"
+		type = frigate
+	}
+
+	ship = {
+		name= "Najim al Zafir"
+		type = frigate
+	}
+
+	ship = {
+		name= "Cairo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al Iskandariyah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Aswan"
+		type = frigate
+	}
+
+	ship = {
+		name= "Port Said"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Marsa Matruh"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1st transport flotilla"
+		type = clipper_transport
+	}
+
+}
+
+army = {
+	name = "Army of Egypt"
+	location = 1837
+	regiment = {
+		name= "1.1 Sipahis"
+		type = hussar
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1 Sipahis"
+		type = hussar
+		home = 1745
+	}
+
+	regiment = {
+		name= "1.1 regular"
+		type = regular
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1 regular"
+		type = regular
+		home = 1745
+	}
+
+	regiment = {
+		name= "1.2 regular"
+		type = regular
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.2 regular"
+		type = regular
+		home = 1745
+	}
+
+}
+
+army = {
+	name = "Army of Alexandria"
+	location = 1751
+	regiment = {
+		name= "1.4 Sipahis"
+		type = hussar
+		home = 1751
+	}
+
+	regiment = {
+		name= "2.4 Sipahis"
+		type = hussar
+		home = 1751
+	}
+
+	regiment = {
+		name= "1.4 regular"
+		type = regular
+		home = 1751
+	}
+
+	regiment = {
+		name= "2.4 regular"
+		type = regular
+		home = 1751
+	}
+
+	regiment = {
+		name= "1.4 regular"
+		type = regular
+		home = 1751
+	}
+
+	regiment = {
+		name= "2.4 regular"
+		type = regular
+		home = 1751
+	}
+
+}
+

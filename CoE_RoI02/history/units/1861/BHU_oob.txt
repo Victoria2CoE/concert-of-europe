@@ -1,0 +1,20 @@
+army = {
+	name = "Royal Army"
+	location = 1590
+	regiment = {
+		name= "1.Royal Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.Royal Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.Royal Army"
+		type = infantry
+	}
+
+}
+

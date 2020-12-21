@@ -1,0 +1,23 @@
+name = "Greek War of Independence"
+
+1821.3.25 = {
+	add_attacker = TUR
+	add_attacker = IRQ
+	add_attacker = TUN
+	add_attacker = KDS
+	add_defender = GRE
+	
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = TUR
+		receiver = GRE
+	}
+}
+
+1832.5.25 = {
+	rem_attacker = TUR
+	rem_attacker = IRQ
+	rem_attacker = TUN
+	rem_attacker = KDS
+	rem_defender = GRE
+}

@@ -1,0 +1,33 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+trade_goods = tobacco
+life_rating = 30
+naval_base = 1
+fort = 1
+terrain = forested_farmland
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+state_building = {
+	level = 1
+	building = heavy_factory_building
+	upgrade = yes
+}
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+		level = 2
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = {
+	naval_base = 2
+}

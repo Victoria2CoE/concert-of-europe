@@ -1,0 +1,19 @@
+JAP = { value = 100 }
+
+TKG = { value = 100 }
+SEN = { value = 100 }
+YZW = { value = 100 }
+KAG = { value = 100 }
+TOS = { value = 100 }
+CHO = { value = 100 }
+SAT = { value = 100 }
+
+army = {
+	name = "Army of the Sultan of Brunei"
+	location = 1394
+	regiment = {
+		name= "1.Sultan's regular"
+		type = infantry
+	}
+}
+

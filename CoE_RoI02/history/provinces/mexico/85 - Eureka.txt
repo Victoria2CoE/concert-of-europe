@@ -1,0 +1,16 @@
+add_core = MEX
+add_core = CAL
+trade_goods = lead
+life_rating = 30
+terrain = deciduous_forest_mountains
+colonial = 1
+1836.1.1 = {
+	owner = MEX
+	controller = MEX
+}
+1861.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA
+	remove_core = MEX
+}

@@ -1,0 +1,11 @@
+owner = UCA
+controller = UCA
+add_core = UCA
+add_core = GUA
+trade_goods = fruit
+life_rating = 30
+terrain = jungle_mountains
+1861.1.1 = {
+	owner = GUA
+	controller = GUA
+}

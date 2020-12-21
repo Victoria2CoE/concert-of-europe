@@ -1,0 +1,125 @@
+USA = {
+	value = 100
+}
+SPA = {
+	value = 75
+}
+
+leader = {
+	name = "Martin de Cos"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+army = {
+
+	name = "Ejército del Norte"
+
+	location = 2181
+	regiment = {
+
+		name= "1. Division Cos"
+
+		type = regular
+		
+		home = 2172
+
+	}
+
+
+	regiment = {
+
+		name = "2. Division Cos"
+
+		type = regular
+		
+		home = 2172
+
+	}
+	
+	regiment = {
+
+		name = "3. Division Cos"
+
+		type = regular
+		
+		home = 2172
+
+	}
+	
+	regiment = {
+
+		name= "Division Comonfort"
+
+		type = hussar
+		
+		home = 2172
+	}
+
+}
+army = {
+
+	name = "Activo Oajaca"
+
+	location = 2177
+
+	regiment = {
+
+		name = "1. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2172
+
+	}
+
+
+	regiment = {
+
+		name = "2. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2172
+
+	}
+	
+	regiment = {
+
+		name = "3. Oajaca y Tlaxcala"
+
+		type = infantry
+		
+		home = 2172
+
+	}
+
+}
+navy = {
+
+	name = "Armada de Mexico"
+
+	location = 2162
+
+	ship = {
+
+ 		name = "Vencedor del Alamo"
+
+		type = frigate
+
+	}
+
+
+	ship = {
+
+		name = "Matilda"
+
+		type = clipper_transport
+
+	}
+
+
+}
+

@@ -1,0 +1,18 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = RMG
+add_core = ITA
+trade_goods = timber
+life_rating = 30
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}

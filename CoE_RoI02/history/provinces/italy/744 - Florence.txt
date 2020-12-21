@@ -1,0 +1,17 @@
+owner = TUS
+controller = TUS
+add_core = TUS
+add_core = ITA
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}

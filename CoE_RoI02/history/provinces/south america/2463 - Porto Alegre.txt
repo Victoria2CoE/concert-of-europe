@@ -1,0 +1,15 @@
+owner = UPB
+controller = UPB
+add_core = BRZ
+trade_goods = cattle
+life_rating = 30
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	add_core = RGS
+	owner = RGS
+	controller = RGS
+}
+1861.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}

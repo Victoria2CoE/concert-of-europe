@@ -1,0 +1,13 @@
+owner = EPI
+controller = EPI
+add_core = TUR
+add_core = GRE
+add_core = EPI
+trade_goods = wool
+life_rating = 30
+terrain = dry_forest_hills
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+	remove_core = EPI
+}

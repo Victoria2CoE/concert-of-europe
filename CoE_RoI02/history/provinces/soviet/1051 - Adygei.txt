@@ -1,0 +1,12 @@
+owner = CIR
+controller = CIR
+add_core = CIR
+add_core = RUS
+add_core = DON
+trade_goods = cattle
+life_rating = 30
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

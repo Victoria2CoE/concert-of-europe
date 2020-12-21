@@ -1,0 +1,12 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = BUL
+trade_goods = timber
+life_rating = 30
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}

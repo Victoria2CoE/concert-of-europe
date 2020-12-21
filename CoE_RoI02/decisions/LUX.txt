@@ -1,0 +1,21 @@
+political_decisions = {
+	accept_wallonians_lux = {
+		potential = {
+			tag = LUX
+			owns = 398 #Arlon
+			NOT = { has_country_flag = accepting_wallonian }
+		}
+		
+		allow = {
+			state_n_government = 1
+		}
+		
+		effect = {
+			add_accepted_culture = wallonian
+			set_country_flag = accepting_wallonian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

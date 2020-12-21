@@ -1,0 +1,154 @@
+military_factory_building;Military Factory;;;;;;;;;;;;;;x,,
+military_factory_building_desc;Military Factory.;;;;;;;;;;;;;;x,
+heavy_factory_building;Heavy Industry Factory;;;;;;;;;;;;;;x,,
+heavy_factory_building_desc;Heavy Industry Factory.;;;;;;;;;;;;;;x,
+light_factory_building;Light Industry Factory;;;;;;;;;;;;;;x,,
+light_factory_building_desc;Light Industry Factory.;;;;;;;;;;;;;;x,
+food_factory_building;Food Industry Factory;;;;;;;;;;;;;;x,,
+food_factory_building_desc;Food Industry Factory.;;;;;;;;;;;;;;x,
+luxury_factory_building;Luxury Goods Factory;;;;;;;;;;;;;;x,,
+luxury_factory_building_desc;Luxury Goods Factory.;;;;;;;;;;;;;;x,
+military_factory_building2;Military Factory;;;;;;;;;;;;;;x,,
+military_factory_building2_desc;Military Factory.;;;;;;;;;;;;;;x,
+heavy_factory_building2;Heavy Industry Factory;;;;;;;;;;;;;;x,,
+heavy_factory_building2_desc;Heavy Industry Factory.;;;;;;;;;;;;;;x,
+light_factory_building2;Light Industry Factory;;;;;;;;;;;;;;x,,
+light_factory_building2_desc;Light Industry Factory.;;;;;;;;;;;;;;x,
+food_factory_building2;Food Industry Factory;;;;;;;;;;;;;;x,,
+food_factory_building2_desc;Food Industry Factory.;;;;;;;;;;;;;;x,
+luxury_factory_building2;Luxury Goods Factory;;;;;;;;;;;;;;x,,
+luxury_factory_building2_desc;Luxury Goods Factory.;;;;;;;;;;;;;;x,
+military_factory_building3;Military Factory;;;;;;;;;;;;;;x,,
+military_factory_building3_desc;Military Factory.;;;;;;;;;;;;;;x,
+heavy_factory_building3;Heavy Industry Factory;;;;;;;;;;;;;;x,,
+heavy_factory_building3_desc;Heavy Industry Factory.;;;;;;;;;;;;;;x,
+light_factory_building3;Light Industry Factory;;;;;;;;;;;;;;x,,
+light_factory_building3_desc;Light Industry Factory.;;;;;;;;;;;;;;x,
+food_factory_building3;Food Industry Factory;;;;;;;;;;;;;;x,,
+food_factory_building3_desc;Food Industry Factory.;;;;;;;;;;;;;;x,
+luxury_factory_building3;Luxury Goods Factory;;;;;;;;;;;;;;x,,
+luxury_factory_building3_desc;Luxury Goods Factory.;;;;;;;;;;;;;;x,
+military_industry;Military Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+heavy_industry;Heavy Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+food_industry;Food Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+light_industry;Light Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+luxury_industry;Luxuries Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+military_industry_focus;Military Focus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+heavy_industry_focus;Heavy Focus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+food_industry_focus;Food Focus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+light_industry_focus;Light Focus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+luxury_industry_focus;Luxuries Focus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
+rich_development_1;Low living conditions - Upper Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_2;Low living conditions - Upper Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_3;Good living conditions - Upper Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_4;Good living conditions - Upper Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_5;Good living conditions - Upper Class III;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_6;Good living conditions - Upper Class IV;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_7;Good living conditions - Upper Class V;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_8;Good living conditions - Upper Class VI;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_9;Good living conditions - Upper Class VII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+rich_development_10;Good living conditions - Upper Class VIII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_1;Low living conditions - Middle Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_2;Low living conditions - Middle Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_3;Good living conditions - Middle Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_4;Good living conditions - Middle Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_5;Good living conditions - Middle Class III;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_6;Good living conditions - Middle Class IV;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_7;Good living conditions - Middle Class V;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_8;Good living conditions - Middle Class VI;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_9;Good living conditions - Middle Class VII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+middle_development_10;Good living conditions - Middle Class VIII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_1;Low living conditions - Lower Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_2;Low living conditions - Lower Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_3;Good living conditions - Lower Class I;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_4;Good living conditions - Lower Class II;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_5;Good living conditions - Lower Class III;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_6;Good living conditions - Lower Class IV;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_7;Good living conditions - Lower Class V;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_8;Good living conditions - Lower Class VI;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_9;Good living conditions - Lower Class VII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+poor_development_10;Good living conditions - Lower Class VIII;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+overbuying_stuff_rich;Upper Class Overconsumption;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+overbuying_stuff_middle;Middle Class Overconsumption;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+overbuying_stuff_poor;Lower Class Overconsumption;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+sustainable_education_1;Susatainable Education - I;Education funding - 1;Education funding - 1;;Education funding - 1;;;;;;;;;
+sustainable_education_2;Susatainable Education - II;Education funding - 2;Education funding - 2;;Education funding - 2;;;;;;;;;
+sustainable_education_3;Susatainable Education - III;Education funding - 3;Education funding - 3;;Education funding - 3;;;;;;;;;
+sustainable_education_4;Susatainable Education - IV;Education funding - 4;Education funding - 4;;Education funding - 4;;;;;;;;;
+sustainable_education_5;Susatainable Education - V;Education funding - 5;Education funding - 5;;Education funding - 5;;;;;;;;;
+sustainable_education_6;Susatainable Education - VI;Education funding - 6;Education funding - 6;;Education funding - 6;;;;;;;;;
+sustainable_education_7;Susatainable Education - VII;Education funding - 7;Education funding - 7;;Education funding - 7;;;;;;;;;
+sustainable_education_8;Susatainable Education - VIII;Education funding - 8;Education funding - 8;;Education funding - 8;;;;;;;;;
+sustainable_education_9;Susatainable Education - IX;Education funding - 9;Education funding - 9;;Education funding - 9;;;;;;;;;
+sustainable_education_10;Susatainable Education - X;Education funding - 10;Education funding - 10;;Education funding - 10;;;;;;;;;
+increase_state_investments_title;State Investments Scheme;;;;;;;;;;;;;x;
+increase_state_investments_desc;We can try using our money to invest in the key economic sectors of our country, it will surely bring us prosperity!;;;;;;;;;;;;;x;
+cooperate_with_rich_title;Upper Class Economic Cooperation;;;;;;;;;;;;;x;
+cooperate_with_rich_desc;Upper class is a backbone of our country but this backbone also has responsibilities, we should try cooperating with them for the mutual profit of the state the bourgeoisie and citizens!;;;;;;;;;;;;;x;
+ennact_economic_austerity_title;Ennact Austerity in State budget;;;;;;;;;;;;;x;
+ennact_economic_austerity_desc;The freer the market the freer the people! Or so they say... regardles of our opinions of it is undeniable that there are more than one paths to prosperity, and so we can try forging it on free capital and minimal government intervention.;;;;;;;;;;;;;x;
+state_investments;State Economic Stimuly;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+cooperation_with_rich;Upper Class Investments;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+austerity_measures;Austerity Budget;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+land_reform_in_process;Land Reform in Process;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+collectivization_in_process;Collectivization in Process;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+demographic_collapse;Economic and Demographic Stagnation;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+demographic_collapse_prov;Demographic Collapse;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+catching_up_economically;Catching up Economically;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+catching_up_economically_prov;Demographic Recovery;Efficacit・ de l'・ducation;Bildungseffizienz;;;;;;;;;;;
+end_demographic_stagnation_title;End Economic Stagnation;;;;;;;;;;;;;x;
+end_demographic_stagnation_desc;Our reforms have proven to be quit successful, people start to that it is okay to have big families and so the economy starts growing!;;;;;;;;;;;;;x;
+civilize_your_nation_title;Enter the World Stage;;;;;;;;;;;;;x;
+civilize_your_nation_desc;The time has come, we have done countless reforms, and even more are being carried on, it is time for europeans to acknowledge us!;;;;;;;;;;;;;x;
+civilize_your_nation_china_title;Enter the World Stage;;;;;;;;;;;;;x;
+civilize_your_nation_china_desc;The time has come, we have done countless reforms, and even more are being carried on, it is time for europeans to acknowledge us!;;;;;;;;;;;;;x;
+modern_army_doctrine_1930;Postmodern Army Doctrine;;;;;;;;;;;;x,,
+modern_army_doctrine_1930_decs;;;;;;;;;;;;;x,,
+modern_divisional_structure_1930;Mass Motorization;;;;;;;;;;;;x,,
+modern_divisional_structure_1930_desc;;;;;;;;;;;;;x,,
+modern_artillery_1930;Postmodern Artilery;;;;;;;;;;;;x,,
+modern_artillery_1930_desc;;;;;;;;;;;;;x,,
+modern_military_science_1930;Postmodern Military Science;;;;;;;;;;;;x,,
+modern_military_science_1930_desc;;;;;;;;;;;;;x,,
+modern_army_leadership_1930;Postmodern Army Leadership;;;;;;;;;;;;x,,
+modern_army_leadership_1930_desc;;;;;;;;;;;;;x,,
+modern_financial_institutions_1930;Postmodern Financial Institutions;;;;;;;;;;;;x,,
+modern_financial_institutions_1930_decs;;;;;;;;;;;;;x,,
+modern_monetary_system_1930;Postmodern Monetary System;;;;;;;;;;;;x,,
+modern_monetary_system_1930_desc;;;;;;;;;;;;;x,,
+neoliberal_theory_1930;Postmodern Economic Thoguht;;;;;;;;;;;;x,,
+neoliberal_theory_1930_desc;;;;;;;;;;;;;x,,
+globalized_markets_1930;Economic Planning;;;;;;;;;;;;x,,
+globalized_markets_1930_desc;;;;;;;;;;;;;x,,
+modern_business_management_1930;Postmodern Bussiness Management;;;;;;;;;;;;x,,
+modern_business_management_1930_desc;;;;;;;;;;;;;x,,
+modern_aesthetics_1930;Postmodern Aesthetics;;;;;;;;;;;;x,,
+modern_aesthetics_1930_decs;;;;;;;;;;;;;x,,
+mathematical_sociology_1930;Postmodern Philosophy;;;;;;;;;;;;x,,
+mathematical_sociology_1930_desc;;;;;;;;;;;;;x,,
+critical_theory_1930;Postmodern Social Thought;;;;;;;;;;;;x,,
+critical_theory_1930_desc;;;;;;;;;;;;;x,,
+post_colonialism_1930;Postmodern Political Thought;;;;;;;;;;;;x,,
+post_colonialism_1930_desc;;;;;;;;;;;;;x,,
+humanistic_psychology_1930;Postmodern Psychology;;;;;;;;;;;;x,,
+humanistic_psychology_1930_desc;;;;;;;;;;;;;x,,
+modern_power_generation_1930;Postmodern Power Generation;;;;;;;;;;;;x,,
+modern_power_generation_1930_decs;;;;;;;;;;;;;x,,
+mechanized_manufacture_1930;Postmodern Mechanization;;;;;;;;;;;;x,,
+mechanized_manufacture_1930_desc;;;;;;;;;;;;;x,,
+modern_metallurgy_1930;Postmodern Metalurgy;;;;;;;;;;;;x,,
+modern_metallurgy_1930_desc;;;;;;;;;;;;;x,,
+modern_infrastructure_1930;Postmodern Infrastructure;;;;;;;;;;;;x,,
+modern_infrastructure_1930_desc;;;;;;;;;;;;;x,,
+modern_chemistry_1930;Postmodern Chemistry;;;;;;;;;;;;x,,
+modern_chemistry_1930_desc;;;;;;;;;;;;;x,,
+modern_naval_doctrine_1930;Postmodern Naval Doctrine;;;;;;;;;;;;x,,
+modern_naval_doctrine_1930_decs;;;;;;;;;;;;;x,,
+modern_ship_construction_1930;Postmodern Ship Construction;;;;;;;;;;;;x,,
+modern_ship_construction_1930_desc;;;;;;;;;;;;;x,,
+modern_naval_design_1930;Postmodern Naval Engineering;;;;;;;;;;;;x,,
+modern_naval_design_1930_desc;;;;;;;;;;;;;x,,
+modern_naval_science_1930;Postmodern Naval Science;;;;;;;;;;;;x,,
+modern_naval_science_1930_desc;;;;;;;;;;;;;x,,
+modern_naval_training_1930;Postmodern Naval Training;;;;;;;;;;;;x,,
+modern_naval_training_1930_desc;;;;;;;;;;;;;x,,

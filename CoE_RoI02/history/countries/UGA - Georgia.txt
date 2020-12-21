@@ -1,0 +1,44 @@
+capital = 201
+primary_culture = dixie
+religion = protestant
+government = democracy
+plurality = 0.1
+nationalvalue = nv_liberty
+literacy = 0.01 #literacy = 0.50
+civilized = yes
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+minorities_reform = limited
+immigration_policy = open_immigration
+conscription=two_year_draft
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+land_property=landed_estates
+child_labor = child_labor_restricted
+arts_endowment=no_endowment
+education = elite
+
+ruling_party = UGA_conservative
+upper_house = {
+	fascist = 0
+	liberal = 18
+	conservative = 78
+	reactionary = 4
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}

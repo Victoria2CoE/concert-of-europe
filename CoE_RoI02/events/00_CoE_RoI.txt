@@ -1,0 +1,631 @@
+
+#country_event = {
+#	id = 6016821 #HPM-inspired ghost unit cleanup 1/2
+#	title = "Ghost Unit CleanUp 1/2"
+#	desc = "Ghost Unit CleanUp 1/2"
+#
+#	is_triggered_only = yes	
+#
+#	option = {
+#		name = "Ghost Unit CleanUp 1/2"
+#		random_country { limit = { owns = 2132 NOT = { has_country_flag = ghost_country } } set_country_flag = ghost_country_host }
+#		set_country_flag = ghost_country
+#		2128 = { secede_province = THIS }
+#		#political_reform = closed_borders
+#		add_country_modifier = { name = ghost_country_haunting  duration = 60 }
+#		treasury = 1000
+#		neutrality = yes
+#		any_country = {
+#			limit = { war_with = THIS }
+#			end_war = THIS
+#		}
+#	}
+#}
+#
+#country_event = {
+#	id = 6016820 #HPM-inspired ghost unit cleanup 2/2
+#	title = "Ghost Unit CleanUp 2/2"
+#	desc = "Ghost Unit CleanUp 2/2"
+#
+#	trigger = {
+#		       #exists = yes
+#			   owns = 2128
+#		       is_mobilised = no
+#			   has_country_flag = ghost_country
+#			   NOT = { has_country_modifier = ghost_country_haunting } 
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}		
+#	
+#	option = {
+#		name = "Ghost Unit CleanUp 2/2"
+#		clr_country_flag = ghost_country
+#		neutrality = yes
+#		random_country = {
+#			limit = { has_country_flag = ghost_country_host }
+#			clr_country_flag = ghost_country_host
+#			inherit = THIS
+#		}
+#		any_country = {
+#			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+#			country_event = 6016821
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = 6016819 #HPM-inspired ghost unit cleanup - Initialisation
+#	title = "Ghost Unit CleanUp Initialisation"
+#	desc = "Ghost Unit CleanUp Initialisation"
+#
+#	trigger = { 
+#	           tag = BHU
+#	           any_country = {
+#		                      exists = no
+#		                      OR = {
+#		                            is_mobilised = yes
+#		                            total_amount_of_ships = 1
+#		                      }
+#			                  NOT = { has_country_flag = ghost_country }
+#			   }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}		
+#	
+#	option = {
+#		name = "Ghost Unit CleanUp Initialisation"
+#		clr_country_flag = ghost_country
+#		neutrality = yes
+#		random_country = {
+#			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } NOT = { has_country_flag = ghost_country } }
+#			country_event = 6016821
+#		}
+#	}
+#}
+
+country_event = {
+	id = 6016821 #HPM-inspired ghost unit cleanup 1/2
+	title = "Ghost Unit CleanUp 1/2"
+	desc = "Ghost Unit CleanUp 1/2"
+
+	is_triggered_only = yes	
+	
+	trigger = {
+		exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 }
+		NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+	}
+
+	option = {
+		name = "Ghost Unit CleanUp 1/2"
+		random_country = { limit = { owns = 2127 NOT = { has_country_flag = ghost_country } } set_country_flag = ghost_country_host }
+		set_country_flag = ghost_country
+		set_global_flag = ghost_units_cleanup
+		2128 = { secede_province = THIS }
+		#political_reform = closed_borders
+		add_country_modifier = { name = ghost_country_haunting  duration = 60 }
+		treasury = 1000
+		neutrality = yes
+		any_country = {
+			limit = { war_with = THIS }
+			end_war = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 6016820 #HPM-inspired ghost unit cleanup 2/2
+	title = "Ghost Unit CleanUp 2/2"
+	desc = "Ghost Unit CleanUp 2/2"
+
+	trigger = {
+		       #exists = yes
+			   owns = 2128
+		       is_mobilised = no
+			   has_country_flag = ghost_country
+			   NOT = { has_country_modifier = ghost_country_haunting } 
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "Ghost Unit CleanUp 2/2"
+		clr_country_flag = ghost_country
+		any_country = { clr_country_flag = ghost_country }
+		clr_global_flag = ghost_units_cleanup
+		neutrality = yes
+		random_country = {
+			limit = {
+				has_country_flag = ghost_country_host
+				THIS = { num_of_cities = 2 }  # due to a delay between two cleanup events, it may actually annex a recently released country
+			}
+			clr_country_flag = ghost_country_host
+			country_event = 6016819
+		}
+		random_country = {
+			limit = { 
+				has_country_flag = ghost_country_host 
+				NOT = { THIS = { num_of_cities = 2 } }
+			}
+			clr_country_flag = ghost_country_host
+			inherit = THIS
+		}
+		random_country = {
+			limit = { 
+				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+				exists = no 
+				OR = { 
+					is_mobilised = yes 
+					total_amount_of_ships = 1 
+				} 
+			}
+			country_event = 6016821
+		}
+	}
+}
+
+country_event = {
+	id = 6016819 #HPM-inspired ghost unit cleanup 2/2 +1
+	title = "Exiled on the shores"
+	desc = "It seems like some soldiers from far away country refused to yield when their nation has fallen, and they ended up in one of our colonies, but now that their country is safe again they return and..."
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "...have brought us some gifts as thanks for hosting them!"
+		money = 100
+		2127 = { secede_province = THIS }
+	}
+}
+
+#country_event = {
+#	id = 6016818 #Game Master Maintenance 
+#	title = "Game Master"
+#	desc = "Game Master"
+#
+#	is_triggered_only = yes
+#
+#	trigger = { 
+#	           tag = BHU
+#	           #ai = yes
+#			   #month = 0
+#			   #NOT = { month = 1 }
+#			   #NOT = { has_country_modifier = gm_timer }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}		
+#	
+#	option = {
+#		name = "Game Master"
+#		#any_country = { limit = { tag = BHU } clr_country_flag = game_master }
+#		#random_country = {
+#		#	limit = { AND = { exists = yes ai = yes } }
+#		#	set_country_flag = game_master
+#		#}
+#		#any_pop = { 
+#		#	limit = { 
+#		#		type = aristocrats 
+#		#		OR = { 
+#		#			is_primary_culture = yes
+#		#			is_accepted_culture = yes
+#		#		} 
+#		#	}
+#		#	pop_type = farmers
+#		#}	
+#		#any_pop = { 
+#		#	limit = { 
+#		#		type = farmers 
+#		#		is_primary_culture = no
+#		#		is_accepted_culture = no
+#		#	}
+#		#	pop_type = aristocrats
+#		#}	
+#		#any_pop = { 
+#		#	limit = { 
+#		#		type = craftsmen 
+#		#		is_primary_culture = no
+#		#		is_accepted_culture = no
+#		#	}
+#		#	pop_type = aristocrats
+#		#}
+#		#any_pop = { 
+#		#	limit = { 
+#		#		type = clerks 
+#		#		is_primary_culture = no
+#		#		is_accepted_culture = no
+#		#	}
+#		#	pop_type = aristocrats
+#		#}
+#		#any_country = {
+#		#	any_pop = { 
+#		#		limit = { 
+#		#			type = aristocrats 
+#		#			OR = { 
+#		#				is_primary_culture = yes
+#		#				is_accepted_culture = yes
+#		#			} 
+#		#		}
+#		#		pop_type = farmers
+#		#	}
+#		#	any_pop = { 
+#		#		limit = { 
+#		#			type = farmers 
+#		#			is_primary_culture = no
+#		#			is_accepted_culture = no
+#		#		}
+#		#		pop_type = aristocrats
+#		#	}	
+#		#	any_pop = { 
+#		#		limit = { 
+#		#			type = craftsmen 
+#		#			is_primary_culture = no
+#		#			is_accepted_culture = no
+#		#		}
+#		#		pop_type = aristocrats
+#		#	}	
+#		#	any_pop = { 
+#		#		limit = { 
+#		#			type = clerks 
+#		#			is_primary_culture = no
+#		#			is_accepted_culture = no
+#		#		}
+#		#		pop_type = aristocrats
+#		#	}				
+#		#}
+#		
+#		#any_country = {
+#		#	#limit = { ai = yes }
+#		#	add_country_modifier = { name = gm_timer  duration = 60 }
+#		#}
+#		#add_country_modifier = { name = gm_timer  duration = 60 }
+#		
+#		any_country = {
+#			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } NOT = { 2128 = { owner = { has_country_flag = ghost_country } } } }
+#			country_event = 6016821
+#		}
+#	}
+#}
+
+country_event = {
+	id = 99999
+	title = "Deregulation of Land Property Structure"
+	desc = "Up to now land property in our country was dominated by small land owners, however with time market changes and accumulates land at the hands of a few."
+
+	trigger = {
+		land_property = commoners_properties
+		NOT = { 
+			NOT = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		}
+		economic_policy = planned_economy
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.9
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 0.8
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 0.9
+			trade_policy = free_trade
+		}
+	}
+
+	option = {
+		name = "We should perhaps think of land reform..."
+		social_reform = land_purchase
+	}
+}
+
+country_event = {
+	id = 99998
+	title = "Remove ai_economic_flavour_cooldown early"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		has_country_modifier = ai_economic_flavour_cooldown
+	}
+	
+	mean_time_to_happen = {
+		months = 320
+	}
+
+	option = {
+		name = "poggers"
+		remove_country_modifier = ai_economic_flavour_cooldown
+	}
+}
+
+country_event = {
+	id = 99992
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		#set_country_flag = random_migration1
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}		
+		random_country = { 
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			#set_country_flag = random_migration1
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
+		}
+	}
+}
+
+country_event = {
+	id = 99996
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}		
+		random_country = { 
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
+		}
+	}
+}
+
+country_event = {
+	id = 99995
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
+		total_pops = 250000
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		set_country_flag = random_migration2
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}			
+		random_country = { 
+			limit = { ai = no  NOT = { has_country_modifier = random_migration_cooldown } total_pops = 1000000 }
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+			set_country_flag = random_migration2
+			
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}		
+		}	
+	}
+}
+
+country_event = {
+	id = 99994
+	title = "Random Migration"
+	desc = "You shouldn't see it..."
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_modifier = random_migration_cooldown }
+		total_pops = 500000		
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "poggers"
+		clr_country_flag = random_migration1
+		clr_country_flag = random_migration2
+		clr_country_flag = random_migration3
+		set_country_flag = random_migration1
+		set_country_flag = random_migration2
+		set_country_flag = random_migration3
+		
+		add_country_modifier = {
+			name = random_migration_cooldown
+			duration = 240
+		}			
+		random_country = { 
+			limit = { ai = no  total_pops = 2500000	}
+			clr_country_flag = random_migration1
+			clr_country_flag = random_migration2
+			clr_country_flag = random_migration3
+			set_country_flag = random_migration1
+			set_country_flag = random_migration2
+			set_country_flag = random_migration3
+			add_country_modifier = {
+				name = random_migration_cooldown
+				duration = 240
+			}				
+		}	
+	}
+}
+
+country_event = {
+	id = 99997
+	title = "POPs Maintenance"
+	desc = "POPs Maintenance"
+
+    is_triggered_only = yes
+
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Why the hell are you playing as Bhutan?"
+		any_country = { limit = { war_with = BHU } end_war = BHU }
+		#any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } }
+		#any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
+		random_country = {
+			limit = { 
+				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+				exists = no 
+				OR = { 
+					is_mobilised = yes 
+					total_amount_of_ships = 1 
+				} 
+			}
+			country_event = 6016821
+		}		
+		
+		any_pop = { 
+			limit = { 
+				type = aristocrats 
+			}
+			pop_type = farmers
+		}
+		any_pop = { 
+			limit = { 
+				type = 00_urban_poor 
+			}
+			pop_type = craftsmen
+		}
+		any_pop = { 
+			limit = { 
+				type = clerks 
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+			pop_type = craftsmen
+		}
+		any_country = {
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				}
+				pop_type = farmers
+			}
+			any_pop = { 
+				limit = { 
+					type = 00_urban_poor 
+				}
+				pop_type = craftsmen
+			}
+			any_pop = { 
+				limit = { 
+					type = clerks 
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				pop_type = craftsmen
+			}				
+		}
+	}
+}
+
+country_event = {
+	id = 99993
+	title = "Test!"
+	desc = "Test!"
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	option = {
+		name = "Poggers"
+		any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 }
+		any_country = { any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 } }
+		any_country = {
+			any_pop = {
+				limit = { type = farmers NOT = { literacy = 0.50 } }
+				pop_type = labourers 
+			}
+			any_pop = {
+				limit = { type = aristocrats NOT = { literacy = 0.50 } }
+				pop_type = labourers 
+			}
+			any_pop = {
+				limit = { type = craftsmen NOT = { literacy = 0.50 } }
+				pop_type = farmers 
+			}
+			any_pop = {
+				limit = { type = clerks NOT = { literacy = 0.50 } }
+				pop_type = craftsmen 
+			}
+		}
+	}
+}
+

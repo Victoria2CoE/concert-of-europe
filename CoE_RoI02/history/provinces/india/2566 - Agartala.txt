@@ -1,0 +1,13 @@
+owner = ASM
+controller = ASM
+add_core = HND
+add_core = ASM
+add_core = BNG
+trade_goods = tea
+life_rating = 30
+terrain = seasonal_jungle_mountains
+1836.1.1 = {
+	owner = HND
+	controller = HND
+	colonial = 1
+}

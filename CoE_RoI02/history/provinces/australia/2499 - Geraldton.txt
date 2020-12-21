@@ -1,0 +1,9 @@
+add_core = AST
+add_core = ENG
+trade_goods = copper
+life_rating = 22
+terrain = dry_grassland
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+}

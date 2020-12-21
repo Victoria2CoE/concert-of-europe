@@ -1,0 +1,27 @@
+TUR = {
+	value = 125
+}
+MOL = {
+	value = 200
+}
+RUS = {
+	value = -150
+}
+
+army = {
+	name = "Armata Principatul Wallachei"
+	location = 669
+	regiment = {
+		name= "1. Infanterie Wallachei"
+		type = regular
+		home = 665
+	}
+
+	regiment = {
+		name= "2. Infanterie Wallachei"
+		type = regular
+		home = 665
+	}
+
+}
+

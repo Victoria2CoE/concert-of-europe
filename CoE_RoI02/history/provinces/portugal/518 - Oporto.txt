@@ -1,0 +1,25 @@
+owner = UPB
+controller = UPB
+add_core = UPB
+add_core = POR
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+naval_base = 1
+1836.1.1 = {
+	owner = POR
+	controller = POR
+	remove_core = UPB
+	#state_building = {
+		#level = 1
+		#building = heavy_factory_building
+		#upgrade = yes
+	#}
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}

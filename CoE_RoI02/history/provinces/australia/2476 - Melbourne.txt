@@ -1,0 +1,14 @@
+add_core = AST
+add_core = ENG
+trade_goods = wool
+life_rating = 25
+terrain = forested_farmland
+1861.1.1 = {
+	colonial = 1
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 1 }

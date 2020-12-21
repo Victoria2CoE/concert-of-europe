@@ -1,0 +1,10 @@
+add_core = TUR
+add_core = IRQ
+trade_goods = sulphur
+life_rating = 5
+terrain = desert
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 1
+}

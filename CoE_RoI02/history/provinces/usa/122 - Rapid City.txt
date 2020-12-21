@@ -1,0 +1,12 @@
+add_core = USA
+trade_goods = grain
+life_rating = 30
+terrain = deciduous_forest
+colonial = 1
+1836.1.1 = {
+	owner = USA
+	controller = USA
+}
+1861.1.1 = {
+	colonial = 0
+}

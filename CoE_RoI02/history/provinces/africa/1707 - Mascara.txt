@@ -1,0 +1,11 @@
+owner = ALD
+controller = ALD
+add_core = ALD
+trade_goods = lead
+life_rating = 30
+terrain = hilly_grassland
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 1
+}

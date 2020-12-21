@@ -1,0 +1,1102 @@
+country_event = {
+	id = 37800
+	title = "EVTNAME37800" #El Libertador
+	desc = "EVTDESC37800"
+	picture = "greatpowers"
+	
+	trigger = {
+		tag = GCO
+		exists = yes
+		NOT = { year = 1836 }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Bolivar will lead us all to freedom!"
+		add_country_modifier = {
+			name = simon_bolivar
+			duration = 5475
+		}
+	}
+}
+
+country_event = {
+	id = 37801
+	title = "EVTNAME37801" #Dominican/Ecuadorian Annexation
+	desc = "EVTDESC37801"
+	picture = "greatpowers"
+	
+	trigger = {
+		OR = {
+			tag = DOM
+			tag = ECU
+			tag = PRI
+			tag = CUB
+		}
+		exists = yes
+		GCO = { exists = yes }
+		war = no
+		OR = {
+			part_of_sphere = no
+			GCO = { is_sphere_leader_of = THIS }
+		}
+		has_country_flag = colombian_assistance
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Let us join Colombia!"
+		clr_country_flag = colombian_assistance
+		any_pop = { militancy = -6 }
+		GCO = { country_event = 37803 }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "No; we will make our own way."
+		clr_country_flag = colombian_assistance
+		prestige = 1
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 37802
+	title = "EVTNAME37802" #Panamanian Annexation
+	desc = "EVTDESC37802"
+	picture = "greatpowers"
+	
+	trigger = {
+		tag = PNM
+		exists = yes
+		OR = {
+			exists = GCO
+			exists = UCA
+		}
+		war = no
+		NOT = {
+			year = 1830
+			has_country_flag = federation
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = "Let us join Colombia!"
+		set_country_flag = federation
+		clr_country_flag = liberal_constitution
+		any_pop = { militancy = -6 }
+		all_core = { add_core = CLM }
+		GCO = { country_event = 37803 }
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = { exists = GCO }
+			}
+		}
+	}
+	
+	option = {
+		name = "Let us join Central America!"
+		set_country_flag = federation
+		clr_country_flag = liberal_constitution
+		any_pop = { militancy = -6 }
+		UCA = { country_event = 37803 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOT = { exists = UCA }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 37803
+	title = "EVTNAME37803" #Petition for Annexation to GCO/UCA
+	desc = "EVTDESC37803"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We welcome $FROMCOUNTRY$ to the Federation!"
+		any_country = {
+			limit = {
+				neighbour = FROM
+			}
+			leave_alliance = THIS
+			relation = { who = THIS value = -100 }
+		}
+		inherit = FROM
+		prestige = 1
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = DOM
+					is_core = PRI
+					is_core = CUB
+				}
+			}
+			THIS = {
+				add_accepted_culture = caribeno
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "No-- let $FROMCOUNTRY$ fend for itself."
+		relation = { who = FROM value = -100 }
+		leave_alliance = FROM
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+province_event = {
+	id = 37805
+	title = "EVTNAME37805" #Liberal Unrest
+	desc = "EVTDESC37805"
+	picture = "election"
+	
+	trigger = {
+		owner = {
+			tag = GCO
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = {
+				has_country_flag = conservative_constitution
+				has_country_flag = liberal_constitution
+			}
+			NOT = {
+				has_country_flag = colombia_in_crisis
+				has_country_flag = the_federation_is_legitime
+				state_n_government = 1
+			}
+		}
+		NOT = {
+			is_core = CLM
+			region = PEU_2289
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.85
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { prestige = 10 } }
+		}
+		modifier = {
+			factor = 4
+			owner = { is_secondary_power = yes }
+		}
+		modifier = {
+			factor = 10
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "The government knows what is best."
+		owner = {
+			any_owned = {
+				limit = {
+					NOT = { is_core = CLM }
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							culture = north_andean
+							culture = caribeno
+						}
+					}
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+					ideology = {
+						value = anarcho_liberal
+						factor = 0.05
+					}
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						culture = north_andean
+						culture = caribeno
+					}
+				}
+				scaled_militancy = {
+					factor = 2
+					ideology = liberal
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = anarcho_liberal
+				}
+			}
+			add_country_modifier = {
+				name = fight_the_power
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.25
+				owner = { ideology = liberal }
+			}
+		}
+	}
+	
+	option = {
+		name = "Perhaps we should make some concessions..."
+		owner = {
+			prestige = -2
+			random_owned = {
+				limit = {
+					owner = { political_parties = underground_parties }
+				}
+				owner = { political_reform = gerrymandering }
+			}
+			random_owned = {
+				limit = {
+					owner = { vote_franschise = landed_voting }
+				}
+				owner = { political_reform = wealth_weighted_voting }
+			}
+			random_owned = {
+				limit = {
+					owner = { vote_franschise = wealth_weighted_voting }
+				}
+				owner = { political_reform = wealth_voting }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						upper_house_composition = appointed
+						NOT = { political_parties = underground_parties }
+					}
+				}
+				owner = {
+					political_reform = state_equal_weight
+					government = democracy
+					clr_country_flag = conservative_constitution
+					set_country_flag = liberal_constitution
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { is_core = CLM }
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							culture = north_andean
+							culture = caribeno
+						}
+					}
+					militancy = -2
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = CLM
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						culture = north_andean
+						culture = caribeno
+					}
+					OR = {
+						type = officers
+						type = soldiers
+						type = capitalists
+					}
+				}
+				ideology = {
+					value = conservative
+					factor = 0.4
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.1
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						culture = north_andean
+						culture = caribeno
+					}
+				}
+				scaled_militancy = {
+					factor = 2
+					ideology = conservative
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = reactionary
+				}
+			}
+			add_country_modifier = {
+				name = coup_risk
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				owner = { ideology = reactionary }
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 37806
+	title = "EVTNAME37806" #Reactionary Unrest
+	desc = "EVTDESC37806"
+	picture = "fascist"
+	
+	trigger = {
+		owner = {
+			tag = GCO
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = {
+				has_country_flag = conservative_constitution
+				has_country_flag = liberal_constitution
+			}
+			NOT = {
+				has_country_flag = colombia_in_crisis
+				has_country_flag = the_federation_is_legitime
+				state_n_government = 1
+			}
+		}
+		is_core = CLM
+		NOT = {
+			region = CLM_1723
+			region = CLM_2262
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.85
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.85
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { prestige = 10 } }
+		}
+		modifier = {
+			factor = 4
+			owner = { is_secondary_power = yes }
+		}
+		modifier = {
+			factor = 10
+			owner = { is_greater_power = yes }
+		}
+	}
+	
+	option = {
+		name = "The government knows what is best."
+		owner = {
+			any_owned = {
+				limit = {
+					is_core = CLM
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							culture = north_andean
+							culture = caribeno
+						}
+						OR = {
+							type = officers
+							type = soldiers
+							type = capitalists
+						}
+					}
+					ideology = {
+						value = conservative
+						factor = 0.4
+					}
+					ideology = {
+						value = reactionary
+						factor = 0.1
+					}
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						culture = north_andean
+						culture = caribeno
+					}
+				}
+				scaled_militancy = {
+					factor = 2
+					ideology = conservative
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = reactionary
+				}
+			}
+			add_country_modifier = {
+				name = coup_risk
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.25
+				owner = { ideology = conservative }
+			}
+			modifier = {
+				factor = 0.05
+				owner = { ideology = reactionary }
+			}
+		}
+	}
+	
+	option = {
+		name = "Perhaps we should make some concessions..."
+		owner = {
+			prestige = -2
+			random_owned = {
+				limit = {
+					owner = { upper_house_composition = state_equal_weight }
+				}
+				owner = { political_reform = appointed }
+			}
+			random_owned = {
+				limit = {
+					owner = { vote_franschise = wealth_weighted_voting }
+				}
+				owner = { political_reform = landed_voting }
+			}
+			random_owned = {
+				limit = {
+					owner = { vote_franschise = wealth_voting }
+				}
+				owner = { political_reform = wealth_weighted_voting }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { political_parties = underground_parties }
+						NOT = { upper_house_composition = state_equal_weight }
+					}
+				}
+				owner = {
+					political_reform = underground_parties
+					government = presidential_dictatorship
+					clr_country_flag = liberal_constitution
+					set_country_flag = conservative_constitution
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = CLM
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							culture = north_andean
+							culture = caribeno
+						}
+					}
+					militancy = -2
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { is_core = CLM }
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							culture = north_andean
+							culture = caribeno
+						}
+					}
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+					ideology = {
+						value = anarcho_liberal
+						factor = 0.05
+					}
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 1095
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						culture = north_andean
+						culture = caribeno
+					}
+				}
+				scaled_militancy = {
+					factor = 2
+					ideology = liberal
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = anarcho_liberal
+				}
+			}
+			add_country_modifier = {
+				name = fight_the_power
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 37807
+	title = "EVTNAME37807" #Secession Crisis
+	desc = "EVTDESC37807"
+	major = yes
+	
+	trigger = {
+		tag = GCO
+		exists = yes
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		OR = {
+			has_country_flag = conservative_constitution
+			has_country_flag = liberal_constitution
+		}
+		NOT = {
+			has_country_flag = colombia_in_crisis
+			has_country_flag = the_federation_is_legitime
+			state_n_government = 1
+		}
+		any_owned_province = {
+			NOT = { is_core = CLM }
+			any_pop = {
+				OR = {
+					type = capitalists
+					type = bureaucrats
+				}
+				OR = {
+					culture = north_andean
+					culture = caribeno
+				}
+				militancy = 6
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_greater_power = yes
+		}
+	}
+	
+	option = {
+		name = "Secession is not an option!"
+		set_country_flag = colombia_in_crisis
+		badboy = 10
+		release = VNZ
+		relation = { who = VNZ value = -400 }
+		VNZ = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+		}
+		war = {
+			target = VNZ
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2279 }
+			GCO = {
+				release = ECU
+				relation = { who = ECU value = -400 }
+				war = {
+					target = ECU
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = humiliate
+					}
+				}
+			}
+			ECU = {
+				any_pop = { militancy = -6 }
+				leadership = 40
+			}
+		}
+		any_owned = {
+			limit = { NOT = { is_core = CLM } }
+			any_pop = { militancy = 6 }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 3650
+			}
+		}
+		# Military Pleased
+		soldiers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		officers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 1095
+		}
+		add_country_modifier = {
+			name = fight_the_power
+			duration = 3650
+		}
+		remove_accepted_culture = caribeno
+		change_tag = CLM
+		any_country = {
+			limit = { has_country_flag = colombian_assistance }
+			clr_country_flag = colombian_assistance
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "We're better off without them."
+		set_country_flag = colombia_in_crisis
+		badboy = -2
+		prestige = -5
+		release = VNZ
+		diplomatic_influence = { who = VNZ value = 50 }
+		VNZ = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+			relation = { who = THIS value = 100 }
+		}
+		random_owned = {
+			limit = { province_id = 2279 }
+			GCO = {
+				release = ECU
+				diplomatic_influence = { who = ECU value = 50 }
+				relation = { who = ECU value = 100 }
+				ECU = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2214 }
+			GCO = {
+				release = DOM
+				diplomatic_influence = { who = DOM value = 50 }
+				relation = { who = DOM value = 100 }
+				DOM = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2222 }
+			GCO = {
+				release = PRI
+				diplomatic_influence = { who = PRI value = 50 }
+				relation = { who = PRI value = 100 }
+				PRI = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2209 }
+			GCO = {
+				release = CUB
+				diplomatic_influence = { who = CUB value = 50 }
+				relation = { who = CUB value = 100 }
+				CUB = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		# Military Upset
+		soldiers = {
+			limit = { is_primary_culture = yes }
+			ideology = {
+				value = reactionary
+				factor = 0.20
+			}
+			militancy = 5
+		}
+		officers = {
+			limit = { is_primary_culture = yes }
+			ideology = {
+				value = reactionary
+				factor = 0.40
+			}
+			militancy = 5
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 1095
+		}
+		remove_accepted_culture = caribeno
+		change_tag = CLM
+		any_country = {
+			limit = { has_country_flag = colombian_assistance }
+			clr_country_flag = colombian_assistance
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+country_event = {
+	id = 37808
+	title = "EVTNAME37808" #Presidential Crisis
+	desc = "EVTDESC37808"
+	major = yes
+	
+	trigger = {
+		tag = GCO
+		exists = yes
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		OR = {
+			has_country_flag = conservative_constitution
+			has_country_flag = liberal_constitution
+		}
+		NOT = {
+			has_country_flag = colombia_in_crisis
+			has_country_flag = the_federation_is_legitime
+			state_n_government = 1
+		}
+		any_owned_province = {
+			is_core = CLM
+			any_pop = {
+				OR = {
+					type = capitalists
+					type = officers
+				}
+				culture = north_andean
+				militancy = 6
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_greater_power = yes
+		}
+	}
+	
+	option = {
+		name = "Secession is not an option!"
+		set_country_flag = colombia_in_crisis
+		badboy = 15
+		political_reform = appointed
+		political_reform = none_voting
+		political_reform = underground_parties
+		government = presidential_dictatorship
+		release = VNZ
+		relation = { who = VNZ value = -400 }
+		VNZ = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+		}
+		war = {
+			target = VNZ
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = humiliate
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2279 }
+			GCO = {
+				release = ECU
+				relation = { who = ECU value = -400 }
+				war = {
+					target = ECU
+					attacker_goal = {
+						casus_belli = conquest_any
+					}
+					defender_goal = {
+						casus_belli = humiliate
+					}
+				}
+			}
+			ECU = {
+				any_pop = { militancy = -6 }
+				leadership = 40
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2214 }
+			GCO = {
+				release = DOM
+				DOM = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+					relation = { who = THIS value = -100 }
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2222 }
+			GCO = {
+				release = PRI
+				PRI = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+					relation = { who = THIS value = -100 }
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2209 }
+			GCO = {
+				release = CUB
+				CUB = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+					relation = { who = THIS value = -100 }
+				}
+			}
+		}
+		# Military Pleased
+		soldiers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		officers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 1095
+		}
+		add_country_modifier = {
+			name = fight_the_power
+			duration = 3650
+		}
+		remove_accepted_culture = caribeno
+		change_tag = CLM
+		any_country = {
+			limit = { has_country_flag = colombian_assistance }
+			clr_country_flag = colombian_assistance
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "We're better off without them."
+		set_country_flag = colombia_in_crisis
+		badboy = -2
+		prestige = -5
+		political_reform = appointed
+		political_reform = none_voting
+		political_reform = underground_parties
+		government = presidential_dictatorship
+		release = VNZ
+		diplomatic_influence = { who = VNZ value = 50 }
+		VNZ = {
+			any_pop = { militancy = -6 }
+			leadership = 40
+			relation = { who = THIS value = 100 }
+		}
+		random_owned = {
+			limit = { province_id = 2279 }
+			GCO = {
+				release = ECU
+				diplomatic_influence = { who = ECU value = 50 }
+				relation = { who = ECU value = 100 }
+				ECU = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2214 }
+			GCO = {
+				release = DOM
+				diplomatic_influence = { who = DOM value = 50 }
+				relation = { who = DOM value = 100 }
+				DOM = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2222 }
+			GCO = {
+				release = PRI
+				diplomatic_influence = { who = PRI value = 50 }
+				relation = { who = PRI value = 100 }
+				PRI = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		random_owned = {
+			limit = { province_id = 2209 }
+			GCO = {
+				release = CUB
+				diplomatic_influence = { who = CUB value = 50 }
+				relation = { who = CUB value = 100 }
+				CUB = {
+					any_pop = { militancy = -6 }
+					leadership = 40
+				}
+			}
+		}
+		# Military Upset
+		soldiers = {
+			limit = { is_primary_culture = yes }
+			ideology = {
+				value = reactionary
+				factor = 0.20
+			}
+			militancy = 5
+		}
+		officers = {
+			limit = { is_primary_culture = yes }
+			ideology = {
+				value = reactionary
+				factor = 0.40
+			}
+			militancy = 5
+		}
+		add_country_modifier = {
+			name = national_confusion
+			duration = 1095
+		}
+		remove_accepted_culture = caribeno
+		change_tag = CLM
+		any_country = {
+			limit = { has_country_flag = colombian_assistance }
+			clr_country_flag = colombian_assistance
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+}

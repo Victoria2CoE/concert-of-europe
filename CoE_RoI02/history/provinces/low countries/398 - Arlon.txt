@@ -1,0 +1,18 @@
+owner = NET
+controller = NET
+add_core = BEL
+add_core = NET
+add_core = WLL
+add_core = LUX
+trade_goods = timber
+life_rating = 30
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	owner = BEL
+	controller = BEL
+}
+1861.1.1 = { railroad = 3 }
+1861.1.1 = {
+	remove_core = NET
+	remove_core = LUX
+}

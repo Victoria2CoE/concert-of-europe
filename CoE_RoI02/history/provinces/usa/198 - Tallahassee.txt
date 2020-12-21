@@ -1,0 +1,15 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = cotton
+life_rating = 30
+terrain = deciduous_forest
+colonial = 1
+is_slave = yes
+1861.1.1 = {
+	colonial = 0
+	}1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}

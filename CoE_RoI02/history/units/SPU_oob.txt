@@ -1,0 +1,19 @@
+army = {
+	name = "Ejército de South Peru"
+	location = 2304 #Arequipa
+	regiment = {
+		name= "1. Brigada de Cavaleria"
+		type = hussar
+		home = 2297
+	}
+	regiment = {
+		name= "1. Brigada de Infanteria"
+		type = regular
+		home = 2303
+	}
+	regiment = {
+		name= "2. Brigada de Infanteria"
+		type = regular
+		home = 2297
+	}
+}

@@ -1,0 +1,10 @@
+add_core = TKM
+add_core = KHI
+trade_goods = opium
+life_rating = 5
+terrain = desert
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 1
+}

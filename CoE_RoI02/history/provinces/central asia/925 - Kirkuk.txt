@@ -1,0 +1,14 @@
+owner = KDS
+controller = KDS
+add_core = TUR
+add_core = IRQ
+add_core = KDS
+add_core = PER
+trade_goods = copper
+life_rating = 30
+terrain = hilly_grassland
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 1
+}

@@ -1,0 +1,144 @@
+political_decisions = {
+	declare_heavenly_china = {
+		picture = heavenly_china
+		potential = {
+			tag = TPG
+			owns = 1616
+			owns = 2221
+			NOT = {
+				OR = {
+					has_country_modifier = heavenly_china
+					has_country_modifier = chinese_christianity
+				}
+			}
+		}
+		
+		allow = {
+			war = no
+			religious_policy = moralism
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = heavenly_china
+				duration = -1
+			}
+			prestige = 10
+			any_pop = {
+				consciousness = 3
+				dominant_issue = {
+					factor = 0.2
+					value = moralism
+				}
+			}
+		}
+	}
+	
+	invite_christian_missionaries = {
+		picture = missionaries_china
+		potential = {
+			tag = TPG
+			owns = 2221
+			has_country_modifier = heavenly_china
+			NOT = { has_country_flag = christians_invited }
+		}
+		
+		allow = {
+			war = no
+			291 = { owner = { war = no } }
+			invention = sunday_schools
+		}
+		
+		effect = {
+			set_country_flag = christians_invited
+			prestige = 2
+			2221 = {
+				any_pop = {
+					consciousness = 8
+					literacy = 0.2
+				}
+			}
+			291 = {
+				country = { country_event = 160028 }
+				clergymen = {
+					limit = {
+						has_pop_religion = protestant
+					}
+					move_pop = 2221
+				}
+			}
+			years_of_research = 0.5
+			2221 = {
+				any_pop = {
+					consciousness = 8
+					literacy = 0.2
+				}
+				clergymen = {
+					assimilate = yes
+				}
+			}
+		}
+	}
+	
+	christianity_with_chinese_characteristics = {
+		picture = christianity
+		potential = {
+			has_country_modifier = heavenly_china
+			has_country_flag = christians_invited
+			NOT = { OR = { government = theocracy government = theocracy2 government = theocracy3 } }
+			civilized = yes
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_country_flag = chinese_theocracy_done
+			prestige = 15
+			#government = theocracy government #oscar7211
+			government = theocracy #oscar7211
+			any_pop = {
+				consciousness = 3
+			}
+			remove_country_modifier = heavenly_china
+			add_country_modifier = {
+				name = chinese_christianity
+				duration = -1
+			}
+		}
+	}
+	
+	claim_mandate_of_heaven = {
+		picture = form_china
+		potential = {
+			tag = TPG
+			has_country_modifier = chinese_christianity
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			has_country_flag = chinese_theocracy_done
+			NOT = { has_country_flag = christian_mandate_heaven }
+			owns = 2221
+			owns = 1616
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+			is_greater_power = yes
+			prestige = 500
+		}
+		
+		effect = {
+			set_country_flag = christian_mandate_heaven
+			prestige = 30
+			any_pop = {
+				militancy = -2
+				consciousness = -3
+			}
+			remove_country_modifier = heavenly_china
+			CHI = { all_core = { add_core = TPG } }
+		}
+	}
+}

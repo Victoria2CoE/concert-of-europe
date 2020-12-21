@@ -1,0 +1,15 @@
+owner = KAS
+controller = KAS
+add_core = PNJ
+add_core = HND
+trade_goods = coal
+life_rating = 30
+terrain = conifer_forest_mountains
+1836.1.1 = {
+	owner = PNJ
+	controller = PNJ
+}
+1861.1.1 = {
+	owner = KAS
+	controller = KAS
+}

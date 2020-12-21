@@ -1,0 +1,559 @@
+From;To;Type;Through;Data;Comment
+#
+# American Straits
+#
+13;14;sea;3011;0;Vancouver Crossing
+14;78;sea;3011;0;Vancouver Crossing
+62;75;sea;2946;0;Straits of Belle Isle
+68;70;sea;2944;0;Cabot Strait
+2237;2269;sea;2975;0;Strait of Trinidad
+2345;2360;sea;2989;0;Rio de la Plata
+2334;2335;sea;2992;0;Strait of Magellan
+2399;2400;sea;2992;0;Strait of Magellan
+77;74;sea;2944;0;Cabot Strait
+2237;2238;sea;2975;0;Trinidad-Tobago Strait
+2233;2409;sea;2975;0;Grenada-St. Vincent Strait
+2229;2409;sea;2975;0;Barbados-St. Vincent Strait
+2231;2409;sea;2975;0;St. Lucia-St. Vincent Strait
+2231;2228;sea;2976;0;St. Lucia-Martinique Strait
+2232;2228;sea;2976;0;Dominica-Martinique Strait
+2232;2230;sea;2976;0;Dominica-Guadeloupe Strait
+2224;2585;sea;2976;0;Antigua-St. Barthelemy
+2225;2230;sea;2976;0;Montserrat-Guadeloupe Strait
+2225;2224;sea;2976;0;Montserrat-Antigua Strait
+2225;2227;sea;2976;0;Montserrat-St. Kitts Strait
+2227;2585;sea;2976;0;St. Kitts-St. Barthelemy
+2236;2227;sea;2976;0;St. Martin-St. Kitts Strait
+2236;2585;sea;2976;0;St. Martin-St. Barthelemy
+2223;2226;sea;2976;0;St. Thomas-Tortola Strait
+2226;2222;sea;2976;0;Puerto Rico-Tortola Strait
+2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
+2204;2206;sea;3001;0;Panama strait
+
+#
+# African Straits
+#
+2036;2048;sea;2901;0;Zanzibar Strait
+2123;2124;sea;2902;0;Comoros-Mayotte
+1772;1756;sea;2781;0;Suez strait
+1757;1154;sea;2781;0;Straits of Tiran
+
+#
+# European Straits
+#
+254;271;sea;2737;0;Irish Strait
+324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
+334;372;sea;2711;0;Öresund
+335;374;sea;2710;0;Bornholmsfärjan
+348;345;sea;2706;0;Aland Strait #Aland to Turku 
+353;349;sea;2709;0;Öselsund
+353;358;sea;2709;0;Strait of Riga
+372;373;sea;2711;0;Fyn-Sjaelland
+371;373;sea;2711;0;Fyn-Jylland
+2557;373;sea;2711;0;Fyn-Esbjerg
+375;385;sea;2722;0;Bay of Holland
+418;419;sea;2725;0;Channel Islands Strait
+473;766;sea;2751;0;Sassari Strait
+826;824;sea;2764;0;Corfu Strait
+826;853;sea;2764;0;Corfu Strait
+838;845;sea;2772;0;Cyclades Strait
+843;869;sea;2772;0;Izmir Strait
+859;865;sea;2773;0;Dardanelles Strait
+860;861;land;2773;0;Golden Horn
+759;763;sea;2760;0;Strait of Messina
+759;763;sea;2757;0;Strait of Messina
+837;827;sea;2765;0;Ionian Islands Strait
+966;1048;sea;2776;0;Strait of Azov
+1687;517;sea;2746;0;Strait of Gibraltar
+512;1687;sea;2746;0;Strait of Gibraltar
+331;332;sea;2710;0;Gotland Strait
+374;335;sea;2710;0;Bornholm Strait
+846;872;sea;2771;0;Dodecanese Strait
+844;865;sea;2772;0;Myteline Strait
+271;304;sea;2737;0;Irish Strait
+254;304;sea;2737;0;Irish Strait
+
+#
+# Indonesian Straits
+#
+
+1384;1385;sea;2801;0;Straits of Johore Singapore-Johor
+1384;1402;sea;2801;0;Straits of Johore Singapore-Riouw Archipelago
+1385;1402;sea;2801;0;Straits of Johore Johor-Riouw Archipelago
+1386;1402;sea;2801;0;Straits of Malaca Malaca-Siak
+1399;1404;sea;2810;0;Palak Panang Strait Palembang-Palak Pinang
+1400;1402;sea;2801;0;Straits of Malaca Indragiri-Riouw
+1401;1402;sea;2801;0;Straits of Malaca Siak-Riouw
+1403;1724;sea;2805;0;Sunda Strait Lampongs-Bantam
+1404;1719;sea;2801;0;Billiton Strait Palak Pinang-Billiton
+1411;1408;sea;2804;0;Gunungsitoli Strait
+1418;1421;sea;2856;0;Strait of Madura
+1434;2629;sea;2812;0;Straits of Makassar Luwuk-Goenoegs Taboer
+1434;2629;sea;2812;0;Straits of Makassar Luwuk-Koetai Berat
+1434;1447;sea;2852;0;Sea of Celebes Luwuk-Batjan
+1441;1443;sea;2810;0;Soemba-Koepang Strait
+1444;1451;sea;2810;0;Banda Sea Alor/Flores-Aroe
+1444;1446;sea;2810;0;Alor-Dili Strait
+1447;1448;sea;2852;0;Moluccas Batjan-Tidore
+1447;1449;sea;2852;0;Moluccas Batjan-Ambon
+1447;1450;sea;2852;0;Moluccas Batjan-Ternate
+1448;1449;sea;2852;0;Moluccas Tidore-Ambon
+1448;1560;sea;2852;0;Moluccas Tidore-Coast of Papua
+1449;1451;sea;3077;0;Moluccas Ambon-Aroe
+1451;1453;sea;2810;0;Banda Sea Aroe-Timor
+1453;1451;sea;2810;0;Dili-Aroe Strait
+
+1420;1438;sea;2808;0;Bali Strait
+1438;1442;sea;2808;0;Lombok Strait
+1442;1440;sea;2808;0;Sumbawa Strait
+
+2609;1439;sea;2810;0;Sumbawa-Flores Strait
+2609;1441;sea;2808;0;Sumbawa-Sumba Strait
+
+
+#
+# Asian Straits
+#
+1083;1086;sea;2832;0;Tatar Straits
+1084;1086;sea;2832;0;Tatar Straits
+1087;1643;sea;2831;0;La Perouse Strait
+1087;1643;sea;2839;0;La Perouse Strait
+1162;1165;sea;2788;0;Bahrain Strait
+1169;1142;sea;2787;0;Straits of Hormuz
+1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
+1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
+
+1412;1851;sea;2782;0;Aden Strait
+1412;1875;sea;2782;0;Aden Strait
+
+1495;1499;sea;2823;0;Hainan Strait
+1457;1461;sea;2849;0;Tacloban Strait
+1640;1660;land;2843;0;Fukuoka Strait
+1642;1672;sea;2841;0;Hakodate Strait
+1643;1087;sea;2831;0;Sakhalin Strait
+1664;1666;land;2843;0;Matsuyama Strait
+1667;1659;land;2843;0;Setto Strait
+1320;3252;sea;2799;0;Ten Degree Channel
+
+
+1458;1455;land;2848;0;Mindoro Strait
+1458;1459;sea;2848;0;Mindoro Strait
+1458;1460;land;2850;0;Mindoro Strait
+2565;1461;land;2850;0;Cebu Strait
+2565;1460;land;2850;0;Cebu Strait
+1461;1463;land;2850;0;Davao Strait
+1462;1460;land;2850;0;Iloilo Strait
+1462;1464;sea;2851;0;Sulu Strait
+1644;1089;sea;2839;0;Nemuru-Etorofu Strait
+1089;1088;sea;2839;0;Etorofu-Shumshu Strait
+1088;1074;sea;2838;0;Shumshu-Petropavlovsk Strait
+1679;1678;sea;2845;0;Amari-Okinawa Strait
+1637;1635;sea;2829;0;Cheju-Kwangju Strait
+1637;1661;sea;2829;0;Cheju-Nagasaki Strait
+
+#
+# Oceanian Straits
+#
+2512;2516;sea;2876;0;Cook Strait #NZ
+2512;2516;sea;2881;0;Cook Strait #NZ
+2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
+
+#
+# Impassables
+#
+
+#Himalayas
+
+1326;1589;impassable;0;0;scary mountain
+1326;1592;impassable;0;0;scary mountain
+1329;1589;impassable;0;0;scary mountain
+1329;1590;impassable;0;0;scary mountain
+1329;1590;impassable;0;0;scary mountain
+1329;1593;impassable;0;0;scary mountain
+1258;1593;impassable;0;0;scary mountain
+1260;1593;impassable;0;0;scary mountain
+1259;1593;impassable;0;0;scary mountain
+1210;1223;impassable;0;0;scary mountain
+1210;1225;impassable;0;0;scary mountain
+1216;1223;impassable;0;0;scary mountain
+1238;1592;impassable;0;0;scary mountain
+1244;1592;impassable;0;0;scary mountain
+1235;1592;impassable;0;0;scary mountain
+1226;1592;impassable;0;0;scary mountain
+1327;1592;impassable;0;0;scary mountain
+1225;1594;impassable;0;0;scary mountain
+1226;1594;impassable;0;0;scary mountain
+1208;1594;impassable;0;0;scary mountain
+1190;1597;impassable;0;0;scary mountain
+1186;1597;impassable;0;0;scary mountain
+1188;1595;impassable;0;0;scary mountain
+1068;1596;impassable;0;0;scary mountain
+1068;2679;impassable;0;0;scary mountain
+1068;2608;impassable;0;0;scary mountain
+1068;1469;impassable;0;0;scary mountain
+
+#Alps
+
+727;735;impassable;0;0;Bergamo-Bozen
+727;734;impassable;0;0;Bergamo-Trent
+732;735;impassable;0;0;Treviso-Bozen
+732;615;impassable;0;0;Treviso-Linz
+732;618;impassable;0;0;Treviso-Klagenfurth
+733;618;impassable;0;0;Udine-Klagenfurt
+727;611;impassable;0;0;Bergamo-Chur
+727;2568;impassable;0;0;Bergamo-Lugano
+722;605;impassable;0;0;Novara-Bern
+2568;722;impassable;0;0;Lugano-Novara
+609;722;impassable;0;0;Sitten-Novara
+606;722;impassable;0;0;Lucerne-Novara
+469;466;impassable;0;0;Digne-Chambery
+469;720;impassable;0;0;Digne-Turin
+
+#Pyrenees
+
+460;493;impassable;0;0;Pau-Pamplona
+457;496;impassable;0;0;Tarbes-Huesca
+455;496;impassable;0;0;Toulouse-Huesca
+455;500;impassable;0;0;Toulouse-Lerida
+455;499;impassable;0;0;Toulouse-Gerona
+
+#Carpathians
+
+704;637;impassable;0;0;Nowy Sacz-Kassa
+705;637;impassable;0;0;Przemysl-Kassa
+951;950;impassable;0;0;Stryj-Uzhgorod
+
+#Greater Caucasus
+
+1049;1095;impassable;0;0;Novorossiysk-Sukhum
+1049;1095;sea;2777;0;Novorossiysk-Sukhum #Coastal movement 
+1051;1092;impassable;0;0;Adygei-Kutais
+1051;1095;impassable;0;0;Adygei-Sukhumi
+1052;1091;impassable;0;0;Derbent-Pasanauri
+1052;1104;impassable;0;0;Derbent-Sheki
+1053;1091;impassable;0;0;Gunib-Pasanauri
+1055;1091;impassable;0;0;Grozny-Pasanauri
+1056;1092;impassable;0;0;Pyatigorsk-Kutaisi
+1103;1104;impassable;0;0;Siyazen-Sheki
+
+#Lesser Caucasus
+
+1092;1093;impassable;0;0;Kutaisi-Akhaltsikhe
+1092;1096;impassable;0;0;Kutaisi-Batum
+1099;1105;impassable;0;0;Gyumri-Ganja
+1098;1105;impassable;0;0;Erivan-Ganja
+1098;1106;impassable;0;0;Erivan-Agdam
+1100;1101;impassable;0;0;Kapan-Nakhichevan
+1100;1109;impassable;0;0;Kapan-Khovoy
+1100;1112;impassable;0;0;Kapan-Ardabil
+
+#Greenland
+
+251;2632;impassable;0;0;Inner Greenland
+
+#Alaskan Panhandle/Coast Mountains
+
+2;6;impassable;0;0;
+1;15;impassable;0;0;
+1;16;impassable;0;0;
+1;17;impassable;0;0;
+15;16;impassable;0;0;
+13;16;impassable;0;0;
+6;2630;impassable;0;0;
+
+#Rockies
+
+19;24;impassable;0;0;New Caledonia-Jasper
+19;25;impassable;0;0;New Caledonia-Banff
+78;79;impassable;0;0;Seattle-Spokane
+88;94;impassable;0;0;Mariposa-Carson City
+92;93;impassable;0;0;Coeur d'Alene-Pocatello
+111;107;impassable;0;0;Cody-Grand Junction
+110;107;impassable;0;0;Cheyenne-Grand Junction
+
+#Appalachians
+
+201;2556;impassable;0;0;Georgia north extension
+217;215;impassable;0;0;Wheeling-Staunton
+185;216;impassable;0;0;Lexington-Roanoke
+218;216;impassable;0;0;Huntington-Roanoke
+190;2556;impassable;0;0;Knoxville-Asheville
+
+#Sierra Madre
+
+2141;2145;impassable;0;0;Guaymas-Parral
+2157;2145;impassable;0;0;Culiacan-Parral
+2157;2154;impassable;0;0;Culiacan-Santa Maria del Oro
+2161;2153;impassable;0;0;Tepic-Durango
+2161;2158;impassable;0;0;Tepic-Zacatecas
+136;2147;impassable;0;0;El Paso-Morelos
+
+#Yucatan jungle
+
+2184;2189;impassable;0;0;Campeche-Sayaxche
+2185;2189;impassable;0;0;Bacalar-Sayaxche
+
+#Andes
+
+2251;2270;impassable;0;0;Cucuta-Maracaibo
+2290;2300;impassable;0;0;Cajamarca-Pucallpa
+2296;2300;impassable;0;0;Huancavelica-Pucallpa
+2302;2300;impassable;0;0;Cusco-Pucallpa
+2308;2312;impassable;0;0;Arica-Oruro
+2307;2314;impassable;0;0;Iquique-Potosi
+2305;2314;impassable;0;0;Antofagasta-Potosi
+2305;2370;impassable;0;0;Antofagasta-Cochinoca
+2305;2368;impassable;0;0;Antofagasta-Salta
+2305;2375;impassable;0;0;Antofagasta-Vinchina
+2322;2375;impassable;0;0;Copiapo-Vinchina
+2322;2385;impassable;0;0;Copiapo-La Rioja
+2322;2388;impassable;0;0;Copiapo-Calingasta
+2323;2388;impassable;0;0;La Serena-Calingasta
+2326;2388;impassable;0;0;Vina del Mar-Calingasta
+2324;2388;impassable;0;0;Santiago-Calingasta
+2324;2390;impassable;0;0;Santiago-San Rafael
+2327;2390;impassable;0;0;Talca-San Rafael
+2327;2391;impassable;0;0;Talca-Neuquen
+2331;2391;impassable;0;0;Chillan-Neuquen
+2328;2391;impassable;0;0;Valdivia-Neuquen
+2332;2391;impassable;0;0;Osorno-Neuquen
+2332;2394;impassable;0;0;Osorno-Bariloche
+2332;2397;impassable;0;0;Osorno-Esquel
+2333;2399;impassable;0;0;Puerto Aisen-Rio Gallegos
+
+#Guyana
+1979;2245;impassable;0;0;Biloka-Apetina
+1979;2408;impassable;0;0;Biloka-Oriximina
+2239;2240;impassable;0;0;Georgetown-Paramaribo
+2239;2245;impassable;0;0;Georgetown-Apetina
+2240;2241;impassable;0;0;Paramaribo-Cayena
+2241;2414;impassable;0;0;Cayena-Amapa
+2241;2245;impassable;0;0;Cayena-Apetina
+2242;2408;impassable;0;0;Mahdia-Oriximina
+2242;2275;impassable;0;0;Mahdia-Angostura
+2243;2275;impassable;0;0;Essequibo-Angostura
+2243;2276;impassable;0;0;Essequibo-Curiapo
+2245;2408;impassable;0;0;Apetina-Oriximina
+2246;2414;impassable;0;0;Maripasoula-Amapa
+2246;2408;impassable;0;0;Maripasoula-Oriximina
+2246;2245;impassable;0;0;Maripasoula-Apetina
+
+#Guyana Cross border movement - removed as it doesn't actually do much.
+2243;2276;sea;2980;0;Coast of Guyana
+2239;2240;sea;2980;0;Coast of Guyana
+2240;2241;sea;2980;0;Coast of Guyana
+2241;2414;sea;2981;0;Coast of Amapa
+
+#Northern Amazon
+2261;2278;impassable;0;0;Obando-San Fernando
+2261;2401;impassable;0;0;Obando-Marabitanas
+2263;2284;impassable;0;0;El Encanto-Tena
+2263;2286;impassable;0;0;El Encanto-Iquitos
+2263;2289;impassable;0;0;El Encanto-Puca Urco
+2263;2401;impassable;0;0;El Encanto-Marabitanas
+2275;2277;impassable;0;0;Angostura-El Jobal
+2277;2532;impassable;0;0;El Jobal-Forte Sao Joaquim
+2278;2401;impassable;0;0;San Fernando-Marabitanas
+2278;2403;impassable;0;0;San Fernando-Cachoeira
+2278;2532;impassable;0;0;San Fernando-Forte Sao Joaquim
+
+#Australian Deserts
+2475;2489;impassable;0;0;NSW-Queensland
+2475;2496;impassable;0;0;NSW-South Australia
+2481;2496;impassable;0;0;Victoria-South Australia
+2489;2496;impassable;0;0;Queensland-South Australia
+2489;2507;impassable;0;0;Queensland-Northern Territory
+2496;2500;impassable;0;0;South Australia-West Australia
+2496;2507;impassable;0;0;South Australia-Northern Territory
+2500;2601;impassable;0;0;Northern West Australia-Southern West Australia
+2507;2601;impassable;0;0;Northern Territory-West Australia
+
+#Alborz Mountains
+1107;1112;impassable;0;0;Lankaran-Ardabil
+1112;1113;impassable;0;0;Ardabil-Rasht
+1113;1123;impassable;0;0;Rasht-Zanjan
+1113;1124;impassable;0;0;Noshehr-Qazvin
+1115;1126;impassable;0;0;Sari-Semnan
+
+#Iran Western border
+890;1109;impassable;0;0;Van-Khvoy
+890;1110;impassable;0;0;Van-Urumia
+925;1110;impassable;0;0;Kirkuk-Urumia
+925;1117;impassable;0;0;Kirkuk-Kermanshah
+928;1119;impassable;0;0;Mendeli-Ilam
+
+#Central Asian Deserts
+
+1126;1129;impassable;0;0;Dasht-e Kavir
+1126;1149;impassable;0;0;Dasht-e Kavir
+1129;1148;impassable;0;0;Dasht-e Kavir
+1129;1149;impassable;0;0;Dasht-e Kavir
+1130;1148;impassable;0;0;Dasht-e Lut
+1140;1148;impassable;0;0;Dasht-e Lut
+1141;1142;impassable;0;0;Bandar Abbas-Hajjiabad
+1142;1143;impassable;0;0;Bandar Abbas-Bam
+1145;1215;impassable;0;0;Registan Desert
+1145;1220;impassable;0;0;Registan Desert
+1145;1221;impassable;0;0;Registan Desert
+1147;1204;impassable;0;0;Mashhad-Karakum
+1148;1149;impassable;0;0;Dasht-e Kavir
+
+1191;1204;impassable;0;0;Khiva-Karakum
+1194;1204;impassable;0;0;Aqtau-Karakum
+1204;2673;impassable;0;0;Karakum-Kyzylkum
+1204;1212;impassable;0;0;Karakum-Herat
+1214;1220;impassable;0;0;Registan Desert
+1215;1220;impassable;0;0;Registan Desert
+1220;2668;impassable;0;0;Registan Desert
+
+#Arabian Deserts
+
+901;931;impassable;0;0;Syrian Desert
+906;910;impassable;0;0;Syrian Desert
+907;910;impassable;0;0;Syrian Desert
+907;931;impassable;0;0;Syrian Desert
+910;931;impassable;0;0;Syrian Desert
+911;1158;impassable;0;0;Al-Nefud
+927;931;impassable;0;0;Syrian Desert
+931;1158;impassable;0;0;Al-Nefud
+933;1158;impassable;0;0;Al-Nefud
+934;1158;impassable;0;0;Al-Nefud
+935;1158;impassable;0;0;Al-Nefud
+1156;1158;impassable;0;0;Al-Nefud
+1157;1158;impassable;0;0;Al-Nefud
+1158;1160;impassable;0;0;Al-Nefud
+1158;1163;impassable;0;0;Al-Nefud
+
+1155;2586;impassable;0;0;Rub'al Khali
+1164;2586;impassable;0;0;Rub'al Khali
+1165;2586;impassable;0;0;Rub'al Khali
+1167;2586;impassable;0;0;Rub'al Khali
+1169;2586;impassable;0;0;Rub'al Khali
+1170;2586;impassable;0;0;Rub'al Khali
+1172;2586;impassable;0;0;Rub'al Khali
+1175;2586;impassable;0;0;Rub'al Khali
+1167;1169;impassable;0;0;Rub'al Khali
+1170;1172;impassable;0;0;Rub'al Khali
+1172;1175;impassable;0;0;Rub'al Khali
+
+#Libya
+1729;1744;impassable;0;0;Libya-Tunisia Border
+1732;1743;impassable;0;0;West Libya Desert
+1734;1739;impassable;0;0;Sirte-Libya Desert
+1735;1739;impassable;0;0;East Libya Desert
+1739;1741;impassable;0;0;East Libya Desert
+1739;1742;impassable;0;0;East Libya Desert
+1739;1826;impassable;0;0;Libya-Chad Border
+1739;2564;impassable;0;0;Libya-Sudan Border
+1742;1743;impassable;0;0;West Libya Desert
+1743;1744;impassable;0;0;West Libya Desert
+
+#Egypt Deserts
+1738;1754;impassable;0;0;Libya-Egypt Border
+1739;1754;impassable;0;0;Libya-Egypt Border
+1739;1758;impassable;0;0;Libya-Egypt Border
+1747;1759;impassable;0;0;Sahara
+1750;1759;impassable;0;0;Sahara
+1751;1759;impassable;0;0;Sahara
+1752;1754;impassable;0;0;Sahara
+1752;1759;impassable;0;0;Sahara
+1754;1758;impassable;0;0;Sahara
+1749;1772;impassable;0;0;Sahara
+1755;1772;impassable;0;0;Sahara
+1758;1759;impassable;0;0;Sahara
+1758;1761;impassable;0;0;Sahara
+1758;2564;impassable;0;0;Sahara
+1759;1760;impassable;0;0;Sahara
+1760;1767;impassable;0;0;Sahara
+1761;1767;impassable;0;0;Sahara
+1761;1835;impassable;0;0;Sahara
+1766;1834;impassable;0;0;Sahara
+1768;1770;impassable;0;0;Sahara
+1770;1772;impassable;0;0;Sahara
+1771;1834;impassable;0;0;Sahara
+
+
+#Egypt-Sudan Border
+1758;2564;impassable;0;0;South Western Libyan Desert
+1766;1836;impassable;0;0;Sahara
+
+#Sudan
+
+1827;1835;impassable;0;0;South Western Libyan Desert
+1835;1838;impassable;0;0;South Western Libyan Desert
+1838;2564;impassable;0;0;South Western Libyan Desert
+1839;2564;impassable;0;0;South Western Libyan Desert
+1841;2564;impassable;0;0;South Western Libyan Desert
+1842;2564;impassable;0;0;South Western Libyan Desert
+
+#Chad
+1814;1826;impassable;0;0;Chad-Niger Border
+1821;1826;impassable;0;0;Desert
+1825;1826;impassable;0;0;Desert
+1826;2564;impassable;0;0;Sudan-Chad Border
+1826;1842;impassable;0;0;Sudan-Chad Border
+
+#Algeria
+1696;1712;impassable;0;0;Tarfaya-Chenachene Morocco-Algeria Border
+1698;1712;impassable;0;0;Rachidia-Chenachene Morocco-Algeria Border
+1699;1712;impassable;0;0;Warzatzat-Chenachene Morocco-Algeria Border
+1710;1727;impassable;0;0;Algeria-Tunisia Border
+1712;1714;impassable;0;0;Chenachene-Tamanrasset West-East Sahara
+1712;1773;impassable;0;0;Chenachene-Aaiun Algeria-Western Sahara Border
+1712;1781;impassable;0;0;Chenachene-Bir Murghayn Algeria-Mauritania Border
+1713;1729;impassable;0;0;Illizi-Tozeur Algeria-Tunisia Border
+1713;1743;impassable;0;0;Algeria-Libya Border
+1714;1743;impassable;0;0;Algeria-Libya Border
+1714;1814;impassable;0;0;Tamanrasset-Madama Algeria-Niger Border
+
+#Sahara
+1743;1814;impassable;0;0;Ghat-Madama Libya-Niger Border
+1781;1806;impassable;0;0;Walata-Taoudenni Mauritania-Mali Border
+1781;1803;impassable;0;0;Walata-Timbuktu Mauritania-Mali Border
+1806;1814;impassable;0;0;Tessalit-Agades Mali-Niger Border
+
+
+#
+##African rainforests - test to see if this will result in better colonisation
+#
+
+#Cameroon Eastern Border - subject to change
+1959;1973;impassable;0;0;Yaounde-Bata
+1959;1976;impassable;0;0;Yaounde-Makokou
+1959;1981;impassable;0;0;Yaounde-Impfondo
+1962;1966;impassable;0;0;Bertoua-Nola
+1963;1966;impassable;0;0;Ngaoundere-Nola
+1963;1967;impassable;0;0;Ngaoundere-Bouar
+
+
+#Gabon
+1973;1976;impassable;0;0;Bata-Makokou
+1974;1978;impassable;0;0;Mayumbe-Madingou
+1975;1978;impassable;0;0;Moanda-Madingou
+1975;1980;impassable;0;0;Moanda-Djambala
+1976;1980;impassable;0;0;Makokou-Djambala
+1976;1981;impassable;0;0;Makokou-Impfondo
+
+#The Congo
+1965;1995;impassable;0;0;Bangui-Gemena
+1970;1995;impassable;0;0;Bangui-Bangassou
+1980;1993;impassable;0;0;Djambala-Irebu
+1981;1993;impassable;0;0;Impfondo-Irebu
+1981;1995;impassable;0;0;Impfondo-Gemena
+1982;2001;impassable;0;0;Kinshasa-Mbanza
+1985;2001;impassable;0;0;Kumbana-Mbanza
+1985;2009;impassable;0;0;Kumbana-Malanje
+
+#Bhutanese Isolation
+1329;1252;impassable;0;0;Butanese-Isolation
+1329;1258;impassable;0;0;Butanese-Isolation
+1329;1328;impassable;0;0;Butanese-Isolation
+
+#
+# The canals
+#
+2711;2721;canal;369;1;Kiel Canal
+2781;2769;canal;1755;2;Suez Canal
+2968;3001;canal;1723;3;Panama Canal
+2773;2774;canal;860;4;Bosphorus
+-1;-1;;-1;-1

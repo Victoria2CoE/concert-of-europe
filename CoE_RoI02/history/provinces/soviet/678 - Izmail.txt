@@ -1,0 +1,18 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = MOL
+add_core = ROM
+trade_goods = fruit
+life_rating = 30
+terrain = rich_farmland
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+}
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}

@@ -1,0 +1,14 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+trade_goods = wool
+life_rating = 30
+terrain = dry_forest_hills
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+}
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
+}

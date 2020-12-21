@@ -1,0 +1,387 @@
+#If changing remember to change both the data at the top event and the event below it - \Mitusonator\
+
+country_event = {
+	title = "Education Setup I"
+	desc = "Education Setup I"
+	picture = "Education"
+
+	id = 9999856
+	
+	is_triggered_only = yes
+
+	#trigger = {
+	#	NOT = { has_global_flag = education_setup }
+	#	#ai = no
+	#	tag = BHU
+	#}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "OK"
+		
+		any_pop = { limit = { culture = swedish } literacy = 0.25 }
+		any_pop = { limit = { culture = danish } literacy = 0.28 }
+		any_pop = { limit = { culture = norwegian } literacy = 0.11 }
+		any_pop = { limit = { culture = icelandic } literacy = 0.11 }
+		any_pop = { limit = { culture = faroese } literacy = 0.11 }
+		any_pop = { limit = { culture = finnish } literacy = 0.10 }
+		any_pop = { limit = { culture = sami } literacy = 0.10 }
+		
+		any_pop = { limit = { culture = british } literacy = 0.60 }
+		any_pop = { limit = { culture = irish } literacy = 0.40 }
+		
+		any_pop = { limit = { culture = north_italian } literacy = 0.28 }
+		any_pop = { limit = { culture = south_italian } literacy = 0.14 }
+		any_pop = { limit = { culture = maltese } literacy = 0.14 }
+		any_pop = { limit = { culture = romansh } literacy = 0.14 }
+
+		any_pop = { limit = { culture = basque } literacy = 0.15 }
+		any_pop = { limit = { culture = spanish } literacy = 0.15 }
+		any_pop = { limit = { culture = catalan } literacy = 0.20 }
+		any_pop = { limit = { culture = portuguese } literacy = 0.15 }
+		
+		any_pop = { limit = { culture = french } literacy = 0.23 }
+		any_pop = { limit = { culture = breton } literacy = 0.18 }
+		any_pop = { limit = { culture = occitan } literacy = 0.21 }
+		any_pop = { limit = { culture = picard } literacy = 0.25 }
+		any_pop = { limit = { culture = wallonian } literacy = 0.24 }
+		
+		any_pop = { limit = { culture = czech } literacy = 0.20 }
+		any_pop = { limit = { culture = slovak } literacy = 0.15 }
+		
+		any_pop = { limit = { culture = yankee } literacy = 0.36 }
+		any_pop = { limit = { culture = dixie } literacy = 0.28 }
+		
+		any_pop = { limit = { culture = mexican } literacy = 0.20 }
+		
+		any_pop = { limit = { culture = north_german } literacy = 0.15 }
+
+
+		any_pop = { limit = { is_culture_group = germanic } literacy = 0.25 }
+		any_pop = { limit = { is_culture_group = germanic NOT = { culture = north_german } literacy = 0.25 } }
+		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.30 }
+		any_pop = { limit = { is_culture_group = beneluxian } literacy = 0.57 }
+		any_pop = { limit = { is_culture_group = pan_swiss } literacy = 0.20 }
+		any_pop = { limit = { is_culture_group = south_slavic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = pan_albanian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = pan_romanian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = hungarian_culture_group } literacy = 0.11 }
+		any_pop = { limit = { is_culture_group = polish_culture_group } literacy = 0.10 }
+		any_pop = { limit = { is_culture_group = east_slavic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = levantine } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = turko_semitic } literacy = 0.07 }
+		any_pop = { limit = { is_culture_group = arabic } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = iranian_turanian } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = central_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = south_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = southeast_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = indonesian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = east_asian } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = far_east_asian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = oceanic } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = native_american } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = neo_european_cultures } literacy = 0.25 }
+		any_pop = { limit = { is_culture_group = latin_american_cultures } NOT = { culture = mexican } literacy = 0.07 }
+		any_pop = { limit = { is_culture_group = african_diaspora_cultures } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = west_african } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = central_african } literacy = 0.02 }
+		any_pop = { limit = { is_culture_group = east_african } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = southern_african } literacy = 0.03 }
+
+	any_country = {
+		any_pop = { limit = { culture = swedish } literacy = 0.25 }
+		any_pop = { limit = { culture = danish } literacy = 0.28 }
+		any_pop = { limit = { culture = norwegian } literacy = 0.11 }
+		any_pop = { limit = { culture = icelandic } literacy = 0.11 }
+		any_pop = { limit = { culture = faroese } literacy = 0.11 }
+		any_pop = { limit = { culture = finnish } literacy = 0.10 }
+		any_pop = { limit = { culture = sami } literacy = 0.10 }
+		
+		any_pop = { limit = { culture = british } literacy = 0.60 }
+		any_pop = { limit = { culture = irish } literacy = 0.40 }
+		
+		any_pop = { limit = { culture = north_italian } literacy = 0.28 }
+		any_pop = { limit = { culture = south_italian } literacy = 0.14 }
+		any_pop = { limit = { culture = maltese } literacy = 0.14 }
+		any_pop = { limit = { culture = romansh } literacy = 0.14 }
+
+		any_pop = { limit = { culture = basque } literacy = 0.15 }
+		any_pop = { limit = { culture = spanish } literacy = 0.15 }
+		any_pop = { limit = { culture = catalan } literacy = 0.20 }
+		any_pop = { limit = { culture = portuguese } literacy = 0.15 }
+		
+		any_pop = { limit = { culture = french } literacy = 0.23 }
+		any_pop = { limit = { culture = breton } literacy = 0.18 }
+		any_pop = { limit = { culture = occitan } literacy = 0.21 }
+		any_pop = { limit = { culture = picard } literacy = 0.25 }
+		any_pop = { limit = { culture = wallonian } literacy = 0.24 }
+		
+		any_pop = { limit = { culture = czech } literacy = 0.20 }
+		any_pop = { limit = { culture = slovak } literacy = 0.15 }
+		
+		any_pop = { limit = { culture = yankee } literacy = 0.36 }
+		any_pop = { limit = { culture = dixie } literacy = 0.28 }
+		
+		any_pop = { limit = { culture = mexican } literacy = 0.20 }
+
+
+		any_pop = { limit = { is_culture_group = germanic } literacy = 0.20 }
+		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.30 }
+		any_pop = { limit = { is_culture_group = beneluxian } literacy = 0.57 }
+		any_pop = { limit = { is_culture_group = pan_swiss } literacy = 0.20 }
+		any_pop = { limit = { is_culture_group = south_slavic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = pan_albanian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = pan_romanian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = hungarian_culture_group } literacy = 0.11 }
+		any_pop = { limit = { is_culture_group = polish_culture_group } literacy = 0.10 }
+		any_pop = { limit = { is_culture_group = east_slavic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = baltic } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = levantine } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = turko_semitic } literacy = 0.07 }
+		any_pop = { limit = { is_culture_group = arabic } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = iranian_turanian } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = central_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = south_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = southeast_asian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = indonesian } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = east_asian } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = far_east_asian } literacy = 0.08 }
+		any_pop = { limit = { is_culture_group = oceanic } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = native_american } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = neo_european_cultures } literacy = 0.25 }
+		any_pop = { limit = { is_culture_group = latin_american_cultures } NOT = { culture = mexican } literacy = 0.070 }
+		any_pop = { limit = { is_culture_group = african_diaspora_cultures } literacy = 0.06 }
+		any_pop = { limit = { is_culture_group = west_african } literacy = 0.04 }
+		any_pop = { limit = { is_culture_group = central_african } literacy = 0.02 }
+		any_pop = { limit = { is_culture_group = east_african } literacy = 0.05 }
+		any_pop = { limit = { is_culture_group = southern_african } literacy = 0.03 }
+	}
+	
+		#set_global_flag = education_setup
+		#set_global_flag = education_setup_b
+		#country_event = 999958
+		#any_country = { limit = { NOT = { tag = THIS } } country_event = 9999855 }
+		#country_event = 9999886
+		set_country_flag = game_master
+	}
+}
+
+##country_event = {
+##	title = "Education Setup Ib"
+##	desc = "Education Setup Ib"
+##	picture = "Education"
+##
+##	id = 9999855
+##
+##	is_triggered_only = yes
+##	
+##	#trigger = {
+##	#	NOT = { has_global_flag = education_setup_b }
+##	#	ai = no
+##	#}
+##	mean_time_to_happen = {
+##		days = 1
+##	}
+##	option = {
+##		name = "OK"
+##		any_pop = { limit = { culture = north_german } literacy = 0.58 }
+##		any_pop = { limit = { culture = south_german } literacy = 0.55 }
+##		any_pop = { limit = { culture = volga_german } literacy = 0.50 }
+##		any_pop = { limit = { culture = siebenburger } literacy = 0.68 }
+##		
+##		any_pop = { limit = { culture = ashkenazi } literacy = 0.95 }
+##		any_pop = { limit = { culture = sephardic } literacy = 0.90 }
+##		
+##		any_pop = { limit = { culture = dutch } literacy = 0.90 }
+##		any_pop = { limit = { culture = flemish } literacy = 0.85 }
+##		any_pop = { limit = { culture = wallonian } literacy = 0.46 }
+##		any_pop = { limit = { culture = frisian } literacy = 0.75 }
+##		
+##		any_pop = { limit = { culture = swiss_french } literacy = 0.44 }
+##		any_pop = { limit = { culture = swiss_german } literacy = 0.56 }
+##		any_pop = { limit = { culture = swiss_italian } literacy = 0.75 }
+##		any_pop = { limit = { culture = romansh } literacy = 0.75 }
+##		
+##		any_pop = { limit = { culture = swedish } literacy = 0.44 }
+##		any_pop = { limit = { culture = danish } literacy = 0.47 }
+##		any_pop = { limit = { culture = norwegian } literacy = 0.36 }
+##		any_pop = { limit = { culture = icelandic } literacy = 0.32 }
+##		any_pop = { limit = { culture = faroese } literacy = 0.35 }
+##		any_pop = { limit = { culture = finnish } literacy = 0.34 }
+##		any_pop = { limit = { culture = sami } literacy = 0.34 }
+##		
+##		any_pop = { limit = { culture = british } literacy = 0.65 }
+##		any_pop = { limit = { culture = irish } literacy = 0.37 }
+##		any_pop = { limit = { culture = scottish } literacy = 0.67 }
+##		any_pop = { limit = { culture = welsh } literacy = 0.40 }
+##		any_pop = { limit = { culture = highlander } literacy = 0.35 }
+##		
+##		
+##		any_pop = { limit = { culture = north_italian } literacy = 0.80 }
+##		any_pop = { limit = { culture = south_italian } literacy = 0.60 }
+##		any_pop = { limit = { culture = maltese } literacy = 0.60 }
+##		
+##		any_pop = { limit = { culture = basque } literacy = 0.38 }
+##		any_pop = { limit = { culture = spanish } literacy = 0.35 }
+##		any_pop = { limit = { culture = galician } literacy = 0.36 }
+##		any_pop = { limit = { culture = catalan } literacy = 0.39 }
+##		any_pop = { limit = { culture = portuguese } literacy = 0.39 }
+##		
+##		any_pop = { limit = { culture = french } literacy = 0.44 }
+##		any_pop = { limit = { culture = breton } literacy = 0.42 }
+##		any_pop = { limit = { culture = occitan } literacy = 0.40 }
+##		any_pop = { limit = { culture = picard } literacy = 0.47 }
+##		any_pop = { limit = { culture = rhinelander } literacy = 0.44 }
+##		any_pop = { limit = { culture = arpitan } literacy = 0.45 }
+##		
+##		any_pop = { limit = { culture = croat } literacy = 0.27 }
+##		any_pop = { limit = { culture = serb } literacy = 0.25 }
+##		any_pop = { limit = { culture = bulgarian } literacy = 0.25 }
+##		any_pop = { limit = { culture = montenegrin } literacy = 0.27 }
+##		any_pop = { limit = { culture = slovene } literacy = 0.30 }
+##		any_pop = { limit = { culture = bosniak } literacy = 0.25 }
+##		
+##		any_pop = { limit = { culture = albanian } literacy = 0.25 }
+##		
+##		any_pop = { limit = { culture = vlach } literacy = 0.29 }
+##		
+##		any_pop = { limit = { culture = hungarian } literacy = 0.28 }
+##		
+##		any_pop = { limit = { culture = polish } literacy = 0.28 }
+##		any_pop = { limit = { culture = western_slavic } literacy = 0.43 }
+##		
+##		any_pop = { limit = { culture = czech } literacy = 0.44 }
+##		any_pop = { limit = { culture = slovak } literacy = 0.35 }
+##		
+##		any_pop = { limit = { culture = russian } literacy = 0.28 }
+##		any_pop = { limit = { culture = byelorussian } literacy = 0.28 }
+##		any_pop = { limit = { culture = ukrainian } literacy = 0.28 }
+##		any_pop = { limit = { culture = ugrian } literacy = 0.28 }
+##		
+##		any_pop = { limit = { culture = lithuanian } literacy = 0.30 }			   
+##		any_pop = { limit = { culture = latvian } literacy = 0.30 }				   
+##		any_pop = { limit = { culture = estonian } literacy = 0.30 }
+##		
+##		any_pop = { limit = { culture = greek } literacy = 0.28 }
+##        any_pop = { limit = { culture = georgian } literacy = 0.28 }
+##        any_pop = { limit = { culture = armenian } literacy = 0.28 }
+##		any_pop = { limit = { culture = assyrian } literacy = 0.28 }
+##
+##        any_pop = { limit = { culture = turkish } literacy = 0.28 }
+##        any_pop = { limit = { culture = azerbaijani } literacy = 0.28 } 
+##        any_pop = { limit = { culture = kurdish } literacy = 0.25 }
+##		
+##        any_pop = { limit = { culture = chechen } literacy = 0.20 }
+##        any_pop = { limit = { culture = circassian } literacy = 0.25 } 
+##
+##		any_pop = { limit = { culture = maghrebi } literacy = 0.25 }
+##        any_pop = { limit = { culture = misri } literacy = 0.28 }
+##        any_pop = { limit = { culture = mashriqi } literacy = 0.28 }
+##		any_pop = { limit = { culture = bedouin } literacy = 0.18 }		
+##		any_pop = { limit = { culture = berber } literacy = 0.18 }	
+##        any_pop = { limit = { culture = mashriqi } literacy = 0.18 }
+##		any_pop = { limit = { culture = maures } literacy = 0.18 }		
+##		any_pop = { limit = { culture = sudanese } literacy = 0.18 }	
+##
+##		any_pop = { limit = { culture = persian } literacy = 0.28 }
+##        any_pop = { limit = { culture = uzbek } literacy = 0.20 }
+##        any_pop = { limit = { culture = kazak } literacy = 0.20 }
+##		any_pop = { limit = { culture = kirgiz } literacy = 0.20 }		
+##		any_pop = { limit = { culture = tajik } literacy = 0.20 }	
+##        any_pop = { limit = { culture = uighur } literacy = 0.20 }
+##		any_pop = { limit = { culture = pashtun } literacy = 0.23 }		
+##		any_pop = { limit = { culture = baluchi } literacy = 0.22 }	
+##        any_pop = { limit = { culture = hazara } literacy = 0.28 }
+##        any_pop = { limit = { culture = turkmen } literacy = 0.20 }
+##        any_pop = { limit = { culture = tatar } literacy = 0.25 }
+##        any_pop = { limit = { culture = gypsy } literacy = 0.05 }
+##
+##		any_pop = { limit = { culture = mongol } literacy = 0.20 }
+##        any_pop = { limit = { culture = siberian } literacy = 0.15 }
+##        any_pop = { limit = { culture = yakut } literacy = 0.15 }
+##		any_pop = { limit = { culture = tibetan } literacy = 0.20 }		
+##		any_pop = { limit = { culture = nepali } literacy = 0.20 }
+##
+##		any_pop = { limit = { culture = assamese } literacy = 0.18 }
+##        any_pop = { limit = { culture = bihari } literacy = 0.15 }
+##        any_pop = { limit = { culture = manipuri } literacy = 0.15 }
+##		any_pop = { limit = { culture = oriya } literacy = 0.15 }		
+##		any_pop = { limit = { culture = sinhala } literacy = 0.15 }	
+##        any_pop = { limit = { culture = avadhi } literacy = 0.15 }
+##		any_pop = { limit = { culture = kanauji } literacy = 0.15 }		
+##		any_pop = { limit = { culture = kashmiri } literacy = 0.15 }	
+##        any_pop = { limit = { culture = gujarati } literacy = 0.18 }
+##        any_pop = { limit = { culture = marathi } literacy = 0.15 }
+##        any_pop = { limit = { culture = rajput } literacy = 0.15 }
+##        any_pop = { limit = { culture = kannada } literacy = 0.15 }
+##		any_pop = { limit = { culture = malayalam } literacy = 0.18 }
+##        any_pop = { limit = { culture = tamil } literacy = 0.15 }
+##        any_pop = { limit = { culture = telegu } literacy = 0.15 }
+##		any_pop = { limit = { culture = anglo_indian } literacy = 0.25 }	
+##
+##		any_pop = { limit = { culture = bengali } literacy = 0.18 }
+##        any_pop = { limit = { culture = panjabi } literacy = 0.15 }
+##        any_pop = { limit = { culture = sindi } literacy = 0.15 }
+##		
+##		any_pop = { limit = { culture = vietnamese } literacy = 0.15 }		
+##		any_pop = { limit = { culture = khmer } literacy = 0.15 }	
+##        any_pop = { limit = { culture = malay } literacy = 0.15 }
+##		any_pop = { limit = { culture = filipino } literacy = 0.15 }		
+##		any_pop = { limit = { culture = javan } literacy = 0.15 }	
+##        any_pop = { limit = { culture = moluccan } literacy = 0.18 }
+##        any_pop = { limit = { culture = thai } literacy = 0.15 }
+##        any_pop = { limit = { culture = lao } literacy = 0.15 }
+##        any_pop = { limit = { culture = shan } literacy = 0.15 }
+##		any_pop = { limit = { culture = mon } literacy = 0.18 }
+##		any_pop = { limit = { culture = burmese } literacy = 0.18 }
+##        any_pop = { limit = { culture = asian_minor } literacy = 0.15 }
+##        any_pop = { limit = { culture = kachin } literacy = 0.15 }
+##		any_pop = { limit = { culture = karen } literacy = 0.15 }
+##		
+##		any_pop = { limit = { culture = japanese } literacy = 0.12 }
+##		any_pop = { limit = { culture = ryukyuan } literacy = 0.20 }
+##		any_pop = { limit = { culture = manchu } literacy = 0.05 }
+##		any_pop = { limit = { culture = beifaren } literacy = 0.10 }
+##		any_pop = { limit = { culture = nanfaren } literacy = 0.10 }
+##		any_pop = { limit = { culture = hanhui } literacy = 0.10 }
+##		any_pop = { limit = { culture = hakka } literacy = 0.10 }
+##		any_pop = { limit = { culture = miao } literacy = 0.10 }
+##		any_pop = { limit = { culture = min } literacy = 0.13 }
+##		any_pop = { limit = { culture = zhuang } literacy = 0.10 }
+##		any_pop = { limit = { culture = yi } literacy = 0.10 }
+##		any_pop = { limit = { culture = yue } literacy = 0.10 }
+##		any_pop = { limit = { culture = korean } literacy = 0.07 }
+##		any_pop = { limit = { culture = ainu } literacy = 0.03 }
+##		
+##		any_pop = { limit = { is_culture_group = oceanic } literacy = 0.15 }
+##		
+##		any_pop = { limit = { is_culture_group = native_american } literacy = 0.15 }					
+##		
+##        any_pop = { limit = { culture = yankee } literacy = 0.50 }
+##        any_pop = { limit = { culture = dixie } literacy = 0.50 }
+##		any_pop = { limit = { culture = texan } literacy = 0.50 }					 
+##		
+##        any_pop = { limit = { culture = boer } literacy = 1.00 }
+##		any_pop = { limit = { culture = australian } literacy = 0.25 }
+##		any_pop = { limit = { culture = anglo_canadian } literacy = 0.35 }
+##		any_pop = { limit = { culture = french_canadian } literacy = 0.35 }
+##		any_pop = { limit = { culture = alaskan } literacy = 0.25 }			   
+##        any_pop = { limit = { culture = louisianan } literacy = 0.35 }
+##		any_pop = { limit = { culture = cajun } literacy = 0.35 }
+##		any_pop = { limit = { culture = french_australian } literacy = 0.35 }
+##		
+##        any_pop = { limit = { is_culture_group = american_cultures } literacy = 0.25 }
+##		
+##		any_pop = { limit = { is_culture_group = latin_american_cultures } literacy = 0.20 }
+##		
+##		any_pop = { limit = { is_culture_group = west_african } literacy = 0.10 }
+##		any_pop = { limit = { is_culture_group = western_nigritic } literacy = 0.10 }
+##		any_pop = { limit = { is_culture_group = central_african } literacy = 0.10 }
+##		any_pop = { limit = { is_culture_group = east_african } literacy = 0.10 }
+##		any_pop = { limit = { is_culture_group = southern_african } literacy = 0.10 }
+##					   
+##		country_event = 999958
+##	}
+##}

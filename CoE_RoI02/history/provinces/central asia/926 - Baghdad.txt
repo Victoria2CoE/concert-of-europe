@@ -1,0 +1,12 @@
+owner = IRQ
+controller = IRQ
+add_core = TUR
+add_core = IRQ
+trade_goods = opium
+life_rating = 30
+terrain = floodplain_farmland
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 1
+}

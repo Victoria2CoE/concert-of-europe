@@ -1,0 +1,2119 @@
+# --- Coal ---
+
+# triggers Mining Accident
+country_event = {
+	id = 12000
+	title = "EVTNAME12000"
+	desc = "EVTDESC12000"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.6
+			year = 1835
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "Target Acceptable Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = acceptable_safety
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12001 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { year = 1890 }
+			}
+		}
+	}
+	option = {
+		name = "Target Low Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = low_safety
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12001 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = { year = 1890 }
+			}
+		}
+	}
+	option = {
+		name = "Target trinket Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = trinket_safety
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12001 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target No-Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = no_safety
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12001 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
+# triggers The Girl in the Coal Mine
+country_event = {
+	id = 12020
+	title = "EVTNAME12020"
+	desc = "EVTDESC12020"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.6
+			year = 1835
+		}
+		modifier = {
+			factor = 0.85
+			year = 1860
+		}
+		modifier = {
+			factor = 0.85
+			year = 1880
+		}
+		modifier = {
+			factor = 0.85
+			year = 1900
+		}
+		modifier = {
+			factor = 0.85
+			year = 1920
+		}
+	}
+	
+	option = {
+		name = "Target Child Labour Legal"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				NOT = { child_labor = child_labor_illegal }
+				NOT = {	has_country_modifier = national_tragedy }			
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12021 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+	option = {
+		name = "Target Child Labour Resticted"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				NOT = { child_labor = child_labor_illegal }
+				NOT = {	has_country_modifier = national_tragedy }			
+				any_owned_province = {
+					trade_goods = coal
+				}
+			}
+			random_owned = {
+				limit = { trade_goods = coal }
+				province_event = { id = 12021 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+}
+
+# triggers Production Shortfalls
+country_event = {
+	id = 12030
+	title = "EVTNAME12030"
+	desc = "EVTDESC12030"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12030"
+		random_country = {
+			limit = {
+				civilized = yes
+				#any_state = { #has_building = military_industry_factory }
+				NOT = {	economic_policy = laissez_faire	}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						#has_building = military_industry_factory
+					}
+				}
+				province_event = { id = 12031 }
+			}
+		}
+	}
+}
+
+# triggers Factory Stinks!
+country_event = {
+	id = 12040
+	title = "EVTNAME12040"
+	desc = "EVTDESC12040"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1900
+		}
+	}
+	
+	option = {
+		name = "Target No Pollution Controls"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = food_industry_factory }
+				#pollution = no_controls
+				NOT = {	#added -crownsteler
+					#pollution = acceptable_envir
+					#pollution = good_envir
+				}
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = food_industry_factory } }
+				province_event = { id = 12041 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "Target Consciousness"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_state = { 
+					#has_building = food_industry_factory 
+					average_consciousness = 3
+				}
+				NOT = {	#added -crownsteler
+					#pollution = acceptable_envir
+					#pollution = good_envir
+				}
+			}
+			random_owned = {
+				limit = { 
+					#state_scope = { #has_building = food_industry_factory } 
+					average_consciousness = 3
+				}
+				province_event = { id = 12041 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target High Consciousness"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_state = { 
+					#has_building = food_industry_factory 
+					average_consciousness = 5
+				}
+				NOT = {	#added -crownsteler
+					#pollution = acceptable_envir
+					#pollution = good_envir
+				}
+			}
+			random_owned = {
+				limit = { 
+					#state_scope = { #has_building = food_industry_factory } 
+					average_consciousness = 5
+				}
+				province_event = { id = 12041 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target Wealthy"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_state = { 
+					#has_building = food_industry_factory 
+				}
+				poor_strata_everyday_needs = 0.7
+				NOT = {	#added -crownsteler
+					#pollution = acceptable_envir
+					#pollution = good_envir
+				}
+			}
+			random_owned = {
+				limit = { 
+					#state_scope = { #has_building = food_industry_factory } 
+				}
+				province_event = { id = 12041 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+# triggers Tea Weighing Station Robbed
+country_event = {
+	id = 12050
+	title = "EVTNAME12050"
+	desc = "EVTDESC12050"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.95
+			year = 1850
+		}
+		modifier = {
+			factor = 0.95
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 1.25
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				any_owned_province = {
+					trade_goods = tea
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = tea
+					OR = {
+						has_crime = mafia
+						average_militancy = 3
+						NOT = { poor_strata_life_needs = 0.85 }
+					}
+				}
+				province_event = { id = 12051 }
+			}
+		}
+	}
+}
+
+# triggers Feed the Hungry Soldiers
+country_event = {
+	id = 12060
+	title = "EVTNAME12060"
+	desc = "EVTDESC12060"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				war = yes
+				war_exhaustion = 5
+				OR = {
+					#any_state = { #has_building = food_industry_factory }
+					#any_state = { #has_building = fish_cannery }
+					#any_state = { #has_building = bakery }
+					#any_state = { #has_building = fruit_cannery }
+				}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							#has_building = food_industry_factory
+							#has_building = fish_cannery
+							#has_building = bakery
+							#has_building = fruit_cannery
+						}
+					}
+				}
+				province_event = { id = 12061 }
+			}
+		}
+	}
+}
+
+# triggers Old Canned Food
+country_event = {
+	id = 12070
+	title = "EVTNAME12070"
+	desc = "EVTDESC12070"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1860
+		}
+		modifier = {
+			factor = 0.85
+			year = 1880
+		}
+		modifier = {
+			factor = 0.85
+			year = 1900
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				OR = {
+					#any_state = { #has_building = food_industry_factory }
+					#any_state = { #has_building = fish_cannery }
+					#any_state = { #has_building = bakery }
+					#any_state = { #has_building = fruit_cannery }
+				}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							#has_building = food_industry_factory
+							#has_building = fish_cannery
+							#has_building = bakery
+							#has_building = fruit_cannery
+						}
+					}
+					OR = {
+						NOT = { poor_strata_life_needs = 0.85 }
+						average_militancy = 2
+					}
+				}
+				province_event = { id = 12071 }
+			}
+		}
+	}
+}
+
+# triggers Bovine Fever
+country_event = {
+	id = 12080
+	title = "EVTNAME12080"
+	desc = "EVTDESC12080"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.1
+			year = 1840
+			NOT = { year = 1850 }
+		}
+		modifier = {
+			factor = 0.8
+			year = 1830
+		}
+		modifier = {
+			factor = 1.1
+			year = 1890
+		}
+		modifier = {
+			factor = 1.1
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				any_owned_province = {
+					trade_goods = cattle
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = cattle
+				}
+				province_event = { id = 12081 }
+			}
+		}
+	}
+}
+
+# triggers Death in the Silk Field
+country_event = {
+	id = 12090
+	title = "EVTNAME12090"
+	desc = "EVTDESC12090"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				any_owned_province = {
+					trade_goods = silk
+					NOT = { has_province_modifier = silk_famine }
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = silk
+					NOT = { has_province_modifier = silk_famine }
+				}
+				province_event = { id = 12091 }
+			}
+		}
+	}
+}
+
+# triggers In Them Old Cotton Fields
+country_event = {
+	id = 12110
+	title = "EVTNAME12110"
+	desc = "EVTDESC12110"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.6
+			year = 1830
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1900
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				any_owned_province = {
+					trade_goods = cotton
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = cotton
+					NOT = {
+						average_militancy = 3
+					}
+				}
+				province_event = { id = 12111 }
+			}
+		}
+	}
+}
+
+# triggers Blood and Iron Mine
+country_event = {
+	id = 12120
+	title = "EVTNAME12120"
+	desc = "EVTDESC12120"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 80
+		modifier = {
+			factor = 0.6
+			year = 1830
+		}
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1860
+		}
+		modifier = {
+			factor = 0.85
+			year = 1880
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "Target No safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_owned_province = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				safety_regulations = no_safety
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				province_event = { id = 12121 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target Neutral"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_owned_province = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				NOT = { #added -crownsteler
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				province_event = { id = 12121 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target Great Power"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				any_owned_province = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				is_greater_power = yes
+				NOT = { #added -crownsteler
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				province_event = { id = 12121 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target Unciv"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = no
+				any_owned_province = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+					NOT = { has_province_modifier = blood_and_iron_mine }
+				}
+				province_event = { id = 12121 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+# triggers Quality Problems
+country_event = {
+	id = 12130
+	title = "EVTNAME12130"
+	desc = "EVTDESC12130"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.6
+			year = 1835
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				any_owned_province = {
+					trade_goods = wool
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = wool
+					NOT = {
+						average_militancy = 2
+					}
+				}
+				province_event = { id = 12131 }
+			}
+		}
+	}
+}
+
+# triggers Clippings
+country_event = {
+	id = 12140
+	title = "EVTNAME12140"
+	desc = "EVTDESC12140"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.6
+			year = 1835
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				#any_state = { #has_building = clipper_shipyard }
+				any_owned_province = {
+					port = yes
+					NOT = { has_province_modifier = naval_school }
+					NOT = { average_militancy = 4 }
+				}
+			}
+			random_owned = {
+				limit = {
+					#state_scope = { #has_building = clipper_shipyard }
+					NOT = { has_province_modifier = naval_school }
+					is_coastal = yes
+					NOT = { average_militancy = 4 }
+				}
+				province_event = { id = 12141 }
+			}
+		}
+	}
+}
+
+# triggers Boiler Explodes!
+country_event = {
+	id = 12150
+	title = "EVTNAME12050"
+	desc = "EVTDESC12050"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1850
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+
+	option = {
+		name = "Target Acceptable Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = acceptable_safety
+				#any_state = { #has_building = steamer_shipyard }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
+				province_event = { id = 12151 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Target Good Safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				safety_regulations = good_safety
+				#any_state = { #has_building = steamer_shipyard }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
+				province_event = { id = 12151 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Target militancy"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				average_militancy = 2
+				#any_state = { #has_building = steamer_shipyard }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
+				province_event = { id = 12151 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target neutral"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				average_militancy = 2
+				NOT = { 
+					safety_regulations = good_safety 
+					safety_regulations = acceptable_safety
+				}
+				#any_state = { #has_building = steamer_shipyard }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = steamer_shipyard } }
+				province_event = { id = 12151 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
+# triggers Standard $PROVINCENAME$ heavy_industry
+country_event = {
+	id = 12160
+	title = "EVTNAME12160"
+	desc = "EVTDESC12160"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+		modifier = {
+			factor = 0.4
+			year = 1835
+		}
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1860
+		}
+		modifier = {
+			factor = 0.85
+			year = 1880
+		}
+		modifier = {
+			factor = 0.85
+			year = 1900
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				#any_state = { #has_building = heavy_factory_building }
+			}
+			random_owned = {
+				limit = {
+					#state_scope = { #has_building = heavy_factory_building }
+				}
+				province_event = { id = 12161 }
+			}
+		}
+	}
+}
+
+# triggers Dye Works Accident
+country_event = {
+	id = 12170
+	title = "EVTNAME12070"
+	desc = "EVTDESC12070"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "Target neutral"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = dye_factory }
+				NOT = { safety_regulations = good_safety }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = dye_factory } }
+				province_event = { id = 12171 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+	option = {
+		name = "Target no safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = dye_factory }
+				safety_regulations = no_safety
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = dye_factory } }
+				province_event = { id = 12171 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = "Target trinket safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = dye_factory }
+				safety_regulations = trinket_safety
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = dye_factory } }
+				province_event = { id = 12171 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Target militancy"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = good_safety }
+				#any_state = { #has_building = dye_factory }
+				militancy = 2
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = dye_factory } }
+				province_event = { id = 12171 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+# triggers Cistern Explodes
+country_event = {
+	id = 12180
+	title = "EVTNAME12080"
+	desc = "EVTDESC12080"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1880
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+		modifier = {
+			factor = 0.85
+			year = 1920
+		}
+	}
+	
+	option = {
+		name = "Target low/trinket safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = heavy_industry_refinery }
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = heavy_industry_refinery } }
+				province_event = { id = 12181 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = {
+		name = "Target low/trinket safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = heavy_industry_refinery }
+				NOT = { 
+					safety_regulations = acceptable_safety
+					safety_regulations = good_safety
+				}
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = heavy_industry_refinery } }
+				province_event = { id = 12181 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = {
+		name = "Target acceptable safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = heavy_industry_refinery }
+				safety_regulations = acceptable_safety
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = heavy_industry_refinery } }
+				province_event = { id = 12181 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Target acceptable safety"
+		random_country = {
+			limit = {
+				exists = yes
+				civilized = yes
+				#any_state = { #has_building = heavy_industry_refinery }
+				safety_regulations = good_safety
+			}
+			random_owned = {
+				#limit = { #state_scope = { #has_building = heavy_industry_refinery } }
+				province_event = { id = 12181 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+# triggers Overproduction at the Refinery
+country_event = {
+	id = 12190
+	title = "EVTNAME12190"
+	desc = "EVTDESC12190"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1890
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.75
+			year = 1910
+		}
+		modifier = {
+			factor = 0.5
+			year = 1920
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				civilized = yes
+				#any_state = { #has_building = heavy_industry_refinery }
+				OR = {
+					safety_regulations = no_safety
+					safety_regulations = trinket_safety
+				}
+			}
+			random_owned = {
+				limit = {
+					#state_scope = { #has_building = heavy_industry_refinery }
+					NOT = { average_consciousness = 6 }
+				}
+				province_event = { id = 12191 }
+			}
+		}
+	}
+}
+
+# triggers Tragedy At The Mine
+country_event = {
+	id = 12200
+	title = "EVTNAME12200"
+	desc = "EVTDESC12200"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = good_safety }
+				any_owned_province = {
+					trade_goods = iron
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+				}
+				province_event = { id = 12201 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30		
+		}
+	}
+	option = {
+		name = "Target no safety"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				safety_regulations = no_safety
+				any_owned_province = {
+					trade_goods = iron
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+				}
+				province_event = { id = 12201 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40		
+		}
+	}
+	option = {
+		name = "Target planned economy"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = good_safety }
+				economic_policy = planned_economy
+				any_owned_province = {
+					trade_goods = iron
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+				}
+				province_event = { id = 12201 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20		
+		}
+	}
+	option = {
+		name = "Target not laissez_faire"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = good_safety }
+				NOT = { economic_policy = laissez_faire }
+				any_owned_province = {
+					trade_goods = iron
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+				}
+				province_event = { id = 12201 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10		
+		}
+	}
+}
+
+# triggers The Old Man and The Sea
+country_event = {
+	id = 12210
+	title = "EVTNAME12210"
+	desc = "EVTDESC12210"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				any_owned_province = {
+					trade_goods = fish
+					is_coastal = yes
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = fish
+					is_coastal = yes
+				}
+				province_event = { id = 12211 }
+			}
+		}
+	}
+}
+
+# triggers A Trader from $COUNTRY$
+country_event = {
+	id = 12220
+	title = "EVTNAME12221"
+	desc = "EVTDESC12221"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				civilized = yes
+				any_owned_province = {
+					trade_goods = tea
+				}
+			}
+			random_owned = {
+				limit = {
+					trade_goods = tea
+				}
+				province_event = { id = 12221 }
+			}
+		}
+	}
+}
+
+# triggers light_industry $PROVINCENAME$
+country_event = {
+	id = 12230
+	title = "EVTNAME12230"
+	desc = "EVTDESC12230"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1900
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.75
+			year = 1910
+		}
+		modifier = {
+			factor = 0.75
+			year = 1920
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				civilized = yes
+				war = yes
+				#any_state = { #has_building = light_industry_factory }
+			}
+			NOT = { economic_policy = laissez_faire }
+			random_owned = {
+				limit = {
+					state_scope = {
+						#has_building = light_industry_factory
+					}
+				}
+				province_event = { id = 12231 }
+			}
+		}
+	}
+}
+
+# triggers The drunk fool
+country_event = {
+	id = 12240
+	title = "EVTNAME12240"
+	desc = "EVTDESC12240"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1830
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				NOT = { religious_policy = moralism }
+				NOT = { has_country_modifier = liquor_prohibition }
+				OR = {
+					#any_state = { #has_building = luxury_industryry }
+					#any_state = { #has_building = light_industry_distillery }
+					#any_state = { #has_building = rum_distillery }
+				}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							#has_building = luxury_industryry
+							#has_building = light_industry_distillery
+							#has_building = rum_distillery
+						}
+					}
+				}
+				province_event = { id = 12241 }
+			}
+		}
+	}
+}
+
+# triggers Tragedy At The Mine
+country_event = {
+	id = 12250
+	title = "EVTNAME12250"
+	desc = "EVTDESC12250"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1840
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+	}
+	option = {
+		name = "Target neutral"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = acceptable_safety }
+				OR = {
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					OR = {
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
+					}
+				}
+				province_event = { id = 12251 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20	
+		}
+	}
+	option = {
+		name = "Target low safety"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				OR = { 
+					safety_regulations = no_safety
+					safety_regulations = trinket_safety
+				}
+				OR = {
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					OR = {
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
+					}
+				}
+				province_event = { id = 12251 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40	
+		}
+	}
+	option = {
+		name = "Target militancy"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = acceptable_safety }
+				average_militancy = 2
+				OR = {
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					OR = {
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
+					}
+				}
+				province_event = { id = 12251 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20	
+		}
+	}
+	option = {
+		name = "Target wealthy"
+		random_country = {
+			limit = { 
+				exists = yes
+				civilized = yes
+				NOT = { safety_regulations = acceptable_safety }
+				middle_strata_everyday_needs = 0.8
+				OR = {
+					#any_state = { #has_building = explosives_factory }
+					#any_state = { #has_building = military_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					OR = {
+						#state_scope = { #has_building = explosives_factory }
+						#state_scope = { #has_building = military_industry_factory }
+					}
+				}
+				province_event = { id = 12251 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20	
+		}
+	}
+}
+
+# triggers Elegant furniture
+country_event = {
+	id = 12260
+	title = "EVTNAME12260"
+	desc = "EVTDESC12260"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+		year = 1830
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = {
+				civilized = yes
+				OR = {
+					#any_state = { #has_building = luxury_industry_factory }
+					#any_state = { #has_building = advanced_luxury_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							#has_building = luxury_industry_factory 
+							#has_building = advanced_luxury_industry_factory
+						}						
+					}
+				}
+				province_event = { id = 12261 }
+			}
+		}
+	}
+}
+
+# triggers Fashion Fails
+country_event = {
+	id = 12270
+	title = "EVTNAME12270"
+	desc = "EVTDESC12270"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.6
+			year = 1830
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				civilized = yes
+				OR = {
+					#any_state = { #has_building = luxury_industry_factory }
+					#any_state = { #has_building = advanced_luxury_industry_factory }
+				}
+			}
+			random_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							#has_building = luxury_industry_factory
+							#has_building = advanced_luxury_industry_factory
+						}						
+					}
+				}
+				province_event = { id = 12271 }
+			}
+		}
+	}
+}
+
+# triggers Fashion Plates
+country_event = {
+	id = 12280
+	title = "EVTNAME12280"
+	desc = "EVTDESC12280"
+	picture = "factory"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.6
+			year = 1830
+		}
+		modifier = {
+			factor = 0.85
+			year = 1850
+		}
+		modifier = {
+			factor = 0.85
+			year = 1870
+		}
+		modifier = {
+			factor = 0.85
+			year = 1890
+		}
+		modifier = {
+			factor = 0.85
+			year = 1910
+		}
+	}
+	
+	option = {
+		name = "That sounds terrible..."
+		random_country = {
+			limit = { 
+				civilized = yes
+				#any_state = { #has_building = light_industry_factory }
+			}
+			random_owned = {
+				limit = {
+					#state_scope = { #has_building = light_industry_factory }
+				}
+				province_event = { id = 12281 }
+			}
+		}
+	}
+}

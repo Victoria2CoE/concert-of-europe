@@ -1,0 +1,8 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+add_core = GER
+trade_goods = grain
+life_rating = 30
+terrain = deciduous_forest_hills
+1861.1.1 = { railroad = 3 }

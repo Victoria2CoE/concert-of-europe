@@ -1,0 +1,21 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+add_core = IRE
+trade_goods = cotton
+life_rating = 30
+naval_base = 1
+terrain = good_farmland
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

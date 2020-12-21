@@ -1,0 +1,39 @@
+political_decisions = {
+
+	DIM_flores_offer = {
+		picture = DIM_timor
+		potential = {
+			tag = NET
+			NOT = { has_country_flag = DIM_flores_offer }
+			owns = 1413
+			owns = 1443
+			OR = {
+				POR = { owns = 1444 }
+				UPB = {	owns = 1444	}
+				IBR = { owns = 1444 }
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+			war = no
+			money = 50000
+			owns = 1443
+			OR = {
+				UPB = {	owns = 1444	}
+				POR = { owns = 1444 }
+				IBR = { owns = 1444 }
+			}
+		}
+		effect = {
+			set_country_flag = DIM_flores_offer
+			1444 = {
+					province_event = 211300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

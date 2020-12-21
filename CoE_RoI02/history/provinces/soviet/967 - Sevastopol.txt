@@ -1,0 +1,15 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = CRI
+trade_goods = fish
+life_rating = 30
+terrain = deciduous_forest_hills
+naval_base = 1
+fort = 1
+1836.1.1 = {
+	naval_base = 2
+}
+1861.1.1 = {
+	fort = 2
+}

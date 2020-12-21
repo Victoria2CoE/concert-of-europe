@@ -1,0 +1,12 @@
+owner = RUS
+controller = RUS
+add_core = AKH
+add_core = RUS
+trade_goods = cattle
+life_rating = 20
+terrain = dry_grassland
+colonial = 2
+
+1846.1.1 = {
+	remove_core = AKH	
+}

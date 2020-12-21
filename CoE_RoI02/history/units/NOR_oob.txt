@@ -1,0 +1,30 @@
+DEN = {
+	value = 150
+}
+SWE = {
+	value = 100
+}
+RUS = {
+	value = 125
+}
+army = {
+	name = "Norsk Armén"
+	location = 310
+	regiment = {
+		name= "Svea Livgarde"
+		type = regular
+		home = 313
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = regular
+		home = 313
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = regular
+		home = 313
+	}
+}

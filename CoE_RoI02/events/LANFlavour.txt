@@ -1,0 +1,110 @@
+# Setup event for Lanfang
+country_event = {
+	id = 190130
+	title = "The Republic of Lanfang"
+	desc = "EVTDESC190130"
+	picture = "asian_administration"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = LAN
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "How excellent!"
+		add_country_modifier = {
+			name = "lanfang_republic_modifier"
+			duration = -1
+		}
+	}
+}
+
+# "Tribute" event for Lanfang to give money to Qing Empire in exchange for some Hakka settlers
+country_event = {
+	id = 190131
+	title = "Tribute to the Empire"
+	desc = "EVTDESC190131"
+	picture = "qing_emperor"
+	
+	trigger = {
+		has_country_modifier = lanfang_republic_modifier
+		QNG = {
+			exists = yes
+			OR = {
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "We pay what is due."
+		money = -5000
+		relation = {
+			who = QNG
+			value = 25
+		}
+		QNG = { country_event = 190132 }
+	}
+}
+
+# Reaction event for Qing, sends in more settlers/takes the money
+country_event = {
+	id = 190132
+	title = "Tribute from Lanfang"
+	desc = "EVTDESC190132"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We hope they prosper."
+		money = 5000
+		relation = {
+			who = LAN
+			value = 25
+		}
+		LAN = {
+			any_pop = {
+				limit = { culture = hakka }
+				reduce_pop = 1.02
+			}
+		}
+	}
+}
+
+# Event that fires when LAN is civilised, removes special country modifier
+country_event = {
+	id = 190133
+	title = "A Modern State"
+	desc = "EVTDESC190133"
+	picture = "asian_administration"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = lanfang_republic_modifier
+		civilized = yes
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "We are a modern country now."
+		remove_country_modifier = lanfang_republic_modifier
+	}
+}

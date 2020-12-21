@@ -1,0 +1,32 @@
+ENG = {
+	value = 150
+}
+
+army = {
+	name = "Royal Nepalese Army"
+	location = 1326
+	regiment = {
+		name= "1. Gurkha"
+		type = infantry
+		home = 1326
+	}
+
+	regiment = {
+		name= "2. Gurkha"
+		type = infantry
+		home = 1326
+	}
+
+	regiment = {
+		name= "3. Gurkha"
+		type = infantry
+		home = 1326
+	}
+
+	regiment = {
+		name= "4. Gurkha"
+		type = infantry
+		home = 1326
+	}
+}
+

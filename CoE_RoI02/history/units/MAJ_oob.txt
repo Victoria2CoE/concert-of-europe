@@ -1,0 +1,38 @@
+GEL = {
+	value = 50
+}
+
+EGY = {
+	value = 60
+}
+
+GON = {
+	value = 10
+}
+
+SHW = {
+	value = 10
+}
+
+TIG = {
+	value = 10
+}
+
+army = {
+	name = "Army of the Majeerteen Sultanate"
+	location = 1872	
+regiment = {
+		name= "Shaykh's Guards"	
+		type = infantry		
+		home = 1872
+	}
+
+
+regiment = {
+	name= "Berbera Warriors"	
+	type = infantry
+	home = 1872
+	}
+}
+
+

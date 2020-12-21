@@ -1,0 +1,247 @@
+# Prusso-Austrian Alliance
+alliance = {
+	first = PRU
+	second = AUS
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+
+# German Confederation for Prussians
+alliance = {
+	first = PRU
+	second = MEC
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = LUB
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = HAM
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = BRA
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = LIP
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = ANH
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = BRE
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = OLD
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = NAS
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = BAV
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = HES
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = HEK
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = FRM
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = BAD
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = WUR
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = COB
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = MEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = SAX
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = WEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+
+# German Confederation for Austrians
+alliance = {
+	first = AUS
+	second = MEC
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = LUB
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = PRU
+	second = HAM
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = BRA
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = LIP
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = ANH
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = BRE
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = OLD
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = NAS
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = BAV
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = HES
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = HEK
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = FRM
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = BAD
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = WUR
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = COB
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = MEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = SAX
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+alliance = {
+	first = AUS
+	second = WEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
+
+#Collapsed in 1848, technically all german states should also be allied to eachother, however besides from making revolutions in these countries close to impossible this has no actual function.
+#   I'm an indentation bunny #
+#                  I prevent #
+#   ()()          changes to #
+#   ('.')         this code. #
+#   (()()                    #
+#  *(_()()                   #

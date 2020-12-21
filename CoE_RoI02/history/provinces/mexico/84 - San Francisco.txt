@@ -1,0 +1,18 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+add_core = CAL
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+colonial = 1
+1861.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA
+	remove_core = MEX
+}
+1861.1.1 = {
+	naval_base = 1
+	fort = 1
+}

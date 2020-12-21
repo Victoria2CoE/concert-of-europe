@@ -1,0 +1,12 @@
+owner = CPL
+controller = CPL
+add_core = RUS
+add_core = LIT
+add_core = CPL
+trade_goods = grain
+life_rating = 30
+terrain = marginal_farmland
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+add_core = GEO
+add_core = RUS
+add_core = TUR
+trade_goods = fruit
+life_rating = 30
+terrain = mountain_farmland
+1836.1.1 = {
+	remove_core = TUR
+}

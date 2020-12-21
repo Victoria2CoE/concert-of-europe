@@ -1,0 +1,12 @@
+owner = DAG
+controller = DAG
+add_core = DAG
+add_core = AZB
+add_core = RUS
+trade_goods = fruit
+life_rating = 30
+terrain = conifer_forest_mountains
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

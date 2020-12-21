@@ -1,0 +1,10 @@
+add_core = MTC
+trade_goods = grain
+life_rating = 25
+terrain = boreal_forest
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = RPL
+	colonial = 1
+}

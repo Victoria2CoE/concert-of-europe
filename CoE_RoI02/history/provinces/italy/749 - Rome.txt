@@ -1,0 +1,8 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = ITA
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+1861.1.1 = { railroad = 2 }

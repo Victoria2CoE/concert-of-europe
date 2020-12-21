@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = FLA
+trade_goods = wool
+life_rating = 30
+terrain = good_farmland
+fort = 1
+1836.1.1 = {
+	fort = 2
+}
+1861.1.1 = { railroad = 3 }

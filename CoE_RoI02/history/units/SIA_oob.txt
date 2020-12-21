@@ -1,0 +1,70 @@
+BUR = {
+	value = 50
+}
+ENG = {
+	value = 150
+}
+DAI = {
+	value = -50
+	truce_until = 1840.1.1
+}
+
+army = {
+	name = "Royal Siamese Army"
+	location = 1346
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "4. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "6. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "7. Brigade"
+		type = infantry
+		home = 1392
+	}
+
+	regiment = {
+		name= "8. Brigade"
+		type = infantry
+		home = 1349
+	}
+
+	regiment = {
+		name= "9. Brigade"
+		type = infantry
+		home = 1349
+	}
+
+}
+

@@ -5,84 +5,84 @@
 
 		size = 746
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 513
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 418
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 186
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 13550
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 9305
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 7906
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 3475
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 
@@ -93,126 +93,126 @@
 
 		size = 139
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 419
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 606
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 1679
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 513
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 326
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 10541
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 30762
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3475
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 9655
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	soldiers = {
 
 		size = 163
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 396
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -223,112 +223,112 @@
 
 		size = 1399
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 9328
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 1026
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 466
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 5115
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 1822
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
 		size = 256
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 536
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	labourers = {
 
 		size = 42166
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1352
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 13363
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	officers = {
 
 		size = 214
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 1323
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 
@@ -339,63 +339,63 @@
 
 		size = 792
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 46
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 14483
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1725
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 909
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -406,63 +406,63 @@
 
 		size = 746
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 419
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 13503
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 7906
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -473,42 +473,42 @@
 
 		size = 1026
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 373
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 186
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 68
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 17001
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 7020
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -519,42 +519,42 @@
 
 		size = 886
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 186
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 16232
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3475
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -565,49 +565,49 @@
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 326
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 13
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1651
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 7906
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -618,77 +618,77 @@
 
 		size = 209
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 163
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 1
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 816
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3428
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 233
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 23
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -699,42 +699,42 @@
 
 		size = 139
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 32
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 13
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2532
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 848
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -745,21 +745,21 @@
 
 		size = 116
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2542
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -770,42 +770,42 @@
 
 		size = 139
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 139
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2565
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3428
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -816,63 +816,63 @@
 
 		size = 468
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 279
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 46
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 91
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 8442
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5084
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 862
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -883,161 +883,161 @@
 
 		size = 443
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 163
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	capitalists = {
 
 		size = 93
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 653
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 233
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 419
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	artisans = {
 
 		size = 93
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 454
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 9
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	labourers = {
 
 		size = 11241
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 4361
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 7789
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = armenian
-		religion = orthodox
+		religion = armenian #religion = orthodox
 
 	}
 	officers = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 583
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 
@@ -1048,42 +1048,42 @@
 
 		size = 466
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 8559
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -1094,105 +1094,105 @@
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 46
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 233
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	artisans = {
 
 		size = 186
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	artisans = {
 
 		size = 419
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 1865
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 862
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 4711
 		culture = mashriqi
-		religion = catholic
+		religion = mashriqi #religion = catholic
 
 	}
 	labourers = {
 
 		size = 3475
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	labourers = {
 
 		size = 7789
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -1203,84 +1203,84 @@
 
 		size = 233
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 186
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 4267
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 3498
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	labourers = {
 
 		size = 1725
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -1291,91 +1291,91 @@
 
 		size = 699
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 2145
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 769
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 816
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	labourers = {
 
 		size = 7556
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2891
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 1096
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	officers = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 676
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 
@@ -1386,63 +1386,63 @@
 
 		size = 956
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 116
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 93
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 	labourers = {
 
 		size = 7113
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 792
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 816
 		culture = mashriqi
-		religion = animist
+		religion = mashriqi #religion = animist
 
 	}
 
@@ -1453,70 +1453,70 @@
 
 		size = 1026
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 91
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 279
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
 		size = 1
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	labourers = {
 
 		size = 7043
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 816
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 1562
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 
@@ -1527,42 +1527,42 @@
 
 		size = 1166
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 233
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 6903
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1609
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 
@@ -1573,42 +1573,42 @@
 
 		size = 326
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5993
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1725
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -1619,49 +1619,49 @@
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 139
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 1
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 21
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 839
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3521
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -1672,154 +1672,154 @@
 
 		size = 1515
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 141
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 139
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 606
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 559
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 559
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 1026
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	bureaucrats = {
 
 		size = 23
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 69
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 93
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 11194
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 9305
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 9468
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 16348
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	officers = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	officers = {
 
 		size = 69
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 3614
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 1026
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 1026
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 
@@ -1830,84 +1830,84 @@
 
 		size = 233
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 278
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 606
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 150
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 90
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 4267
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2308
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 10565
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 6547
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 
@@ -1918,77 +1918,77 @@
 
 		size = 279
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 466
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 1026
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 186
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5667
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 7696
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 18074
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1749
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 
@@ -1999,175 +1999,175 @@
 
 		size = 1702
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 139
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 629
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	capitalists = {
 
 		size = 93
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 9328
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 1585
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 2099
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 139
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	artisans = {
 
 		size = 1865
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	artisans = {
 
 		size = 1399
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	artisans = {
 
 		size = 3661
 		culture = sephardic
-		religion = jewish
+		religion = sephardic #religion = jewish
 
 	}
 	artisans = {
 
 		size = 373
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 326
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	bureaucrats = {
 
 		size = 233
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 371
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 326
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 20012
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2868
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2565
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 3684
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 2262
 		culture = mashriqi
-		religion = orthodox
+		religion = mashriqi #religion = orthodox
 
 	}
 	labourers = {
 
 		size = 6856
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 1469
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 163
 		culture = turkish
-		religion = sunni
+		religion = turkish #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 93
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -2178,42 +2178,42 @@
 
 		size = 792
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 233
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 14436
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5154
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -2224,84 +2224,84 @@
 
 		size = 559
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 186
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	artisans = {
 
 		size = 186
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 46
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 23
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 	labourers = {
 
 		size = 10238
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3358
 		culture = kurdish
-		religion = sunni
+		religion = kurdish #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3358
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 862
 		culture = assyrian
-		religion = catholic
+		religion = assyrian #religion = catholic
 
 	}
 
@@ -2312,63 +2312,63 @@
 
 		size = 373
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 188
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 606
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 68
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 139
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 6810
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 3381
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 11054
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -2379,63 +2379,63 @@
 
 		size = 186
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 93
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	artisans = {
 
 		size = 886
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 163
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 3358
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1679
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	labourers = {
 
 		size = 16348
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -2446,21 +2446,21 @@
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1702
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 
@@ -2471,91 +2471,91 @@
 
 		size = 141
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	artisans = {
 
 		size = 326
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 233
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	artisans = {
 
 		size = 979
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	bureaucrats = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 186
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 2775
 		culture = mashriqi
-		religion = sunni
+		religion = mashriqi #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5993
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 4244
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	labourers = {
 
 		size = 18074
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -2566,63 +2566,63 @@
 
 		size = 186
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 279
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	artisans = {
 
 		size = 1306
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 256
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 3358
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 5130
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	labourers = {
 
 		size = 24091
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -2633,63 +2633,63 @@
 
 		size = 278
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	artisans = {
 
 		size = 233
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	artisans = {
 
 		size = 606
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 69
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	clergymen = {
 
 		size = 116
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 	labourers = {
 
 		size = 5132
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 4244
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	labourers = {
 
 		size = 11218
 		culture = mashriqi
-		religion = shiite
+		religion = mashriqi #religion = shiite
 
 	}
 
@@ -2700,49 +2700,49 @@
 
 		size = 279
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	capitalists = {
 
 		size = 1329
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 	artisans = {
 
 		size = 139
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	clergymen = {
 
 		size = 46
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	labourers = {
 
 		size = 2542
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 233
 		culture = bedouin
-		religion = sunni
+		religion = bedouin #religion = sunni
 
 	}
 	soldiers = {
 
 		size = 116
 		culture = bedouin
-		religion = shiite
+		religion = bedouin #religion = shiite
 
 	}
 

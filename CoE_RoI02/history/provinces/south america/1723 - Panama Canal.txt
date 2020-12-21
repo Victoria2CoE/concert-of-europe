@@ -1,0 +1,19 @@
+owner = SPA
+controller = REB
+add_core = PNM
+trade_goods = opium
+life_rating = 30
+terrain = jungle_hills
+colonial = 1
+revolt = {
+	type = nationalist_rebels
+	country = PNM
+	controller = yes
+}
+1836.1.1 = {
+	owner = CLM
+	controller = CLM
+	add_core = CLM
+	colonial = 0
+}
+1861.1.1 = { railroad = 2 }

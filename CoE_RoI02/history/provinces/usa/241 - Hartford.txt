@@ -1,0 +1,13 @@
+owner = USA
+controller = USA
+add_core = USA
+add_core = NEN
+trade_goods = fish
+life_rating = 30
+terrain = marginal_farmland
+1861.1.1 = {
+	party_loyalty = {
+		ideology = liberal
+		loyalty_value = 25
+	}}
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,10 @@
+owner = UCA
+controller = UCA
+add_core = COS
+trade_goods = fish
+life_rating = 30
+terrain = jungle_hills
+1861.1.1 = {
+	owner = COS
+	controller = COS
+}

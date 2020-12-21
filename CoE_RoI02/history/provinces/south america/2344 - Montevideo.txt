@@ -1,0 +1,10 @@
+owner = UPB
+controller = UPB
+add_core = URU
+trade_goods = cattle
+life_rating = 30
+terrain = rich_farmland
+1836.1.1 = {
+	owner = URU
+	controller = URU
+}

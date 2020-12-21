@@ -1,0 +1,13 @@
+owner = HND
+controller = HND
+add_core = HYD
+add_core = MYS
+add_core = KRN
+add_core = HND
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+colonial = 0
+1861.1.1 = { 
+	naval_base = 2 
+}

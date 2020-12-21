@@ -1,0 +1,27 @@
+ENG = {
+	value = 125
+}
+
+army = {
+	name = "Army of Gwalior"
+	location = 1270
+	regiment = {
+		name= "1.Gwailor Contingent"
+		type = infantry
+		home = 1270
+	}
+
+	regiment = {
+		name= "2.Gwailor Contingent"
+		type = infantry
+		home = 1270
+	}
+
+	regiment = {
+		name= "3.Gwailor Contingent"
+		type = infantry
+		home = 1270
+	}
+
+}
+

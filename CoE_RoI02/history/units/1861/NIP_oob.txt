@@ -1,0 +1,434 @@
+army = {
+	name = "North Army"
+	location = 1672
+	regiment = {
+		name= "1.1/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.1/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.1/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.2/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.2/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.2/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.3/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.3/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.3/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.4/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.4/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.4/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.5/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.5/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.5/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.6/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.6/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.6/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.7/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.7/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.7/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.8/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.8/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.8/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.9/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.9/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.9/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.10/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.10/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.10/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.11/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.11/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.11/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.12/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.12/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.12/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.13/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.13/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.13/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.14/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.14/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.14/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.15/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.15/Imperial Army"
+		type = infantry	}
+
+	regiment = {
+		name= "3.15/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.16/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.16/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.16/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.17/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.17/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.17/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.18/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.18/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.18/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.19/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.19/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.19/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.20/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.20/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.20/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.21/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.21/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.21/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.22/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.22/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.22/Imperial Army"
+		type = infantry
+	}
+
+}
+
+army = {
+	name = "Shikoku Army"
+	location = 1666
+	regiment = {
+		name= "1.23/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.23/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.23/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.24/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.24/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.24/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.25/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.25/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.25/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.26/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.26/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.26/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1.27/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2.27/Imperial Army"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3.27/Imperial Army"
+		type = infantry
+	}
+
+}
+
+navy = {
+	name = "JaPNJese Fleet"
+	location = 1650
+	ship = {
+		name= "Choyo Maru"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Kanko Maru"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Kanrin Maru"
+		type = commerce_raider
+	}
+
+}
+

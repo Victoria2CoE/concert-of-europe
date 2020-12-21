@@ -1,0 +1,39 @@
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = ITA
+trade_goods = fruit
+life_rating = 30
+terrain = good_farmland
+naval_base = 1
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 2 
+	naval_base = 2
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = heavy_factory_building
+		upgrade = yes
+	}
+}

@@ -1168,7 +1168,7 @@ political_decisions = {
 			relation = { who = TUR value = -100 }
 			TUR = {
 				any_pop = { 
-					limit = { has_pop_religion = orthodox }
+					limit = { is_culture_group  = south_slavic }
 					militancy = 8
 					ideology = {
 						value = separatist

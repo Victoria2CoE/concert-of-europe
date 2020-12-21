@@ -1,0 +1,703 @@
+
+#########################################
+#										#
+#		  Second Legation Crisis		#
+#										#
+#########################################
+
+
+#Blundering in $PROVINCENAME$
+province_event = {
+	id = 301110
+	title = "EVTNAME301110"
+	desc = "EVTDESC301110"
+	picture = "persia_dark"
+	
+	news = yes
+	news_title = "EVTNEWS301110_title"
+	news_desc_long = "EVTNEWS301110_long"
+	news_desc_medium = "EVTNEWS301110_medium"
+	news_desc_short = "EVTNEWS301110_short"
+	
+	fire_only_once = yes
+	
+	trigger = {
+        owned_by = PER
+		controlled_by = PER
+		OR = {
+			province_id = 1098 #Erivan
+			province_id = 1108 #Tabriz
+			province_id = 1127 #Isfahan
+			province_id = 1135 #Shiraz
+		}
+		average_militancy = 4
+		year = 1840
+		NOT = {
+			PER = { 
+				diplomatic_reform = isolationism
+				disciplinary_reform = rehabilitation
+				war = no
+			}
+		}
+		PER = {
+			has_country_modifier = western_influences
+		}	
+    }
+	
+	mean_time_to_happen = {
+		months = 16
+		modifier = {
+			factor = 8
+			PER = { diplomatic_reform = balanced_diplomacy }
+		}
+		modifier = {
+			factor = 8
+			PER = { admin_reform = advanced_admin_reform }
+		}
+		modifier = {
+			factor = 0.5
+			PER = { admin_reform = no_admin_reform }
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.5
+			PER = { in_sphere = RUS }
+		}
+		modifier = {
+			factor = 0.75
+			has_province_modifier = western_presence
+		}
+		modifier = {
+			factor = 0.75
+			has_province_modifier = legation_quarter
+		}
+	}
+	
+	option = {
+		name = "Let the cavalry deal with this rabble."
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian	
+			}
+			reduce_pop = 0.95
+			money = -10
+			consciousness = -3
+			militancy = 1
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = shiite	
+			}
+			reduce_pop = 0.98
+			money = 2
+			consciousness = 2
+			militancy = -3
+		}
+		
+		ai_chance = {
+			factor = 70
+			modifier = {
+				PER = { has_country_modifier = efficient_sociopath }
+				factor = 1.25
+			}
+			modifier = {
+				PER = { has_country_modifier = efficient_sociopath }
+				factor = 1.5
+			}
+		}
+	}
+	option = {
+		name = "Demand the Russians give up this Armenian."
+		RUS = {
+			country_event = 301111
+			relation = {
+				who = PER
+				value = -25
+			}
+			diplomatic_influence = {
+				who = PER
+				value = -15
+			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian	
+			}
+			reduce_pop = 0.95
+			money = -10
+			consciousness = 4
+			militancy = 2
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = shiite	
+			}
+			money = 2
+			consciousness = -2
+			militancy = -2
+		}
+		#owner = {
+			any_pop = {
+				limit = {
+					OR = {
+						NOT = {
+							has_pop_religion = shiite
+							has_pop_religion = sunni
+							has_pop_religion = ibadi
+						}					
+					}			
+				}
+				consciousness = 1
+			}
+			change_variable = {
+				which = persian_ulama
+				value = 1
+			}
+		#}
+		add_province_modifier = {
+			name = futile
+			duration = 30
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				RUS = { war = yes }
+				factor = 3
+			}
+			modifier = {
+				RUS = { ai = no }
+				factor = 3
+			}
+			modifier = {
+				PER = { average_militancy = 5 }
+				factor = 2
+			}
+		}
+	}
+	option = {
+		name = "Take out the Ulama instigators."
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian	
+			}
+			money = -10
+			reduce_pop = 0.95
+			consciousness = -1
+			militancy = -2
+		}
+		clergymen = {
+			reduce_pop = 0.75
+			militancy = 7
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_religion = shiite
+					has_pop_religion = sunni
+					has_pop_religion = ibadi
+				}
+			}
+			money = 2
+			ideology = {
+				factor = -0.1
+				value = reactionary
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_militancy = {
+				factor = 5
+				ideology = reactionary
+			}
+		}
+		owner = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_religion = shiite
+						has_pop_religion = sunni
+						has_pop_religion = ibadi
+					}
+				}
+				ideology = {
+					factor = -0.01
+					value = reactionary
+				}
+				scaled_consciousness = {
+					factor = 1
+					ideology = conservative
+				}
+				scaled_consciousness = {
+					factor = 2
+					ideology = reactionary
+				}
+			}
+			change_variable = {
+				which = persian_ulama
+				value = -1
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				PER = { has_country_modifier = great_reformer }
+				factor = 3
+			}
+			modifier = {
+				PER = { has_country_modifier = visionary_thinker }
+				factor = 3
+			}
+			modifier = {
+				PER = { average_militancy = 5 }
+				factor = 0.5
+			}
+		}
+	}
+}
+
+#Russian Reaction
+country_event = {
+	id = 301111
+	title = "EVTNAME301111"
+	desc = "EVTDESC301111"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nuts!"
+		PER = {
+			limit = {
+				random_owned = {
+					has_province_modifier = futile
+				}
+			}
+			country_event = 301113
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+			consciousness = -1
+		}	
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "Such a small sacrifice to make..."
+		prestige = -10
+		PER = {
+			limit = {
+				random_owned = {
+					has_province_modifier = futile
+				}
+			}
+		    country_event = 301112
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+			consciousness = 1
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				war = yes
+			}
+		}
+	}
+}
+
+#Russia returned the Armenian
+country_event = {
+	id = 301112
+	title = "EVTNAME301112"
+	desc = "EVTDESC301112"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the interest of justice, no doubt..."
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_religion = shiite
+					has_pop_religion = sunni
+					has_pop_religion = ibadi
+				}
+			}
+			ideology = {
+				factor = -0.01
+				value = reactionary
+			}
+			militancy = -2
+			consciousness = -2
+		}
+		owner = {
+			prestige = 5
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_religion = shiite
+						has_pop_religion = sunni
+						has_pop_religion = ibadi
+					}
+				}
+				consciousness = -1
+			}
+			change_variable = {
+				which = persian_ulama
+				value = 3
+			}
+		}
+	}
+}
+
+#Russia did not return the Armenian
+country_event = {
+	id = 301113
+	title = "EVTNAME301113"
+	desc = "EVTDESC301113"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sent in the cavalry to deal with the rioters!"
+		RUS = {
+			country_event = 301114
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = shiite	
+			}
+			reduce_pop = 0.95
+			consciousness = 3
+			militancy = -2
+		}
+		owner = {
+			change_variable = {
+				which = persian_ulama
+				value = -1
+			}
+		}
+		ai_chance = {
+			factor = 35
+			modifier = {
+				PER = { has_country_modifier = efficient_sociopath }
+				factor = 1.1
+			}
+			modifier = {
+				PER = { has_country_modifier = efficient_sociopath }
+				factor = 1.25
+			}
+		}
+	}
+	option = {
+		name = "Take the Armenian by force..."
+		badboy = 8
+		RUS = {
+			country_event = 301115
+			diplomatic_influence = {
+				who = PER
+				value = -50
+			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_religion = shiite	
+			}
+			consciousness = -2
+			militancy = -2
+		}
+		any_country = {
+			limit = {
+				rank = 16
+				NOT = {
+					tag = TUR
+				}
+			}
+			relation = {
+				who = PER
+				value = -50
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				RUS = { war = yes }
+				factor = 3
+			}
+			modifier = {
+				PER = { average_militancy = 5 }
+				factor = 1.5
+			}
+			modifier = {
+				factor = 0.1
+				badboy = 0.4
+			}
+		}
+	}
+	option = {
+		name = "Take out the Ulama instigators."
+		RUS = {
+			country_event = 301114
+		}
+		clergymen = {
+			reduce_pop = 0.6
+			militancy = 9
+			consciousness = 9
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_religion = shiite
+					has_pop_religion = sunni
+					has_pop_religion = ibadi
+				}
+			}
+			ideology = {
+				factor = -0.025
+				value = reactionary
+			}
+			scaled_militancy = {
+				factor = 3
+				ideology = conservative
+			}
+			scaled_militancy = {
+				factor = 6
+				ideology = reactionary
+			}
+		}
+		owner = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_religion = shiite
+						has_pop_religion = sunni
+						has_pop_religion = ibadi
+					}
+				}
+				scaled_militancy = {
+					factor = 2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = 1
+					ideology = reactionary
+				}
+			}
+			change_variable = {
+				which = persian_ulama
+				value = -2
+			}
+		}
+		
+		ai_chance = {
+			factor = 20
+			modifier = {
+				PER = { has_country_modifier = great_reformer }
+				factor = 3
+			}
+			modifier = {
+				PER = { has_country_modifier = visionary_thinker }
+				factor = 3
+			}
+			modifier = {
+				PER = { average_militancy = 5 }
+				factor = 0.5
+			}
+		}
+	}
+}
+
+#Persia quelled the riots
+country_event = {
+	id = 301114
+	title = "EVTNAME301114"
+	desc = "EVTDESC301114"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Give that man a medal!"
+		money = -50
+		PER = {
+			random_owned = {
+				limit = {
+					has_province_modifier = futile
+				}
+				officers = {
+					money = 50
+					consciousness = 2
+				}
+			}
+			remove_province_modifier = futile
+		}
+		relation = {
+			who = PER
+			value = 20
+		}
+		diplomatic_influence = {
+			who = PER
+			value = 20
+		}
+	}
+}
+
+#Persia stormed the legation
+country_event = {
+	id = 301115
+	title = "EVTNAME301115"
+	desc = "EVTDESC301115"
+	picture = "alexander_griboyedov"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "This offence will not stand!"
+		PER = {
+			random_owned = {
+				limit = {
+					has_province_modifier = futile
+				}
+				country_event = 301116
+			}
+		
+		}
+		any_country = {
+			limit = {
+				OR = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+				NOT = { tag = TUR }
+			}
+			leave_alliance = PER
+		}
+		casus_belli = {
+			target = PER
+			type = humiliate
+			months = 24
+		}
+		casus_belli = {
+			target = PER
+			type = demand_concession_casus_belli
+			months = 24
+		}
+		add_casus_belli = {
+			target = PER
+			type = humiliate
+			months = 24		
+		}
+		war = {
+			target = PER
+			attacker_goal = { casus_belli = humiliate }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.5
+				any_greater_power = {
+					war_with = THIS
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Another war? I think not..."
+		prestige = -20
+		PER = {
+			random_owned = {
+				limit = {
+					has_province_modifier = futile
+				}
+				country_event = 301117
+			}
+		
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				issue = jingoism
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 3
+				war = yes
+			}
+		}
+	}
+}
+
+#Another Russo-Persian War
+country_event = {
+	id = 301116
+	title = "EVTNAME301116"
+	desc = "EVTDESC301116"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What could we possibly have done differently?"
+		owner = {
+			prestige = -10
+			change_variable = {
+				which = persian_ulama
+				value = -5
+			}
+		}
+	}
+}
+
+#Another Russo-Persian War
+country_event = {
+	id = 301117
+	title = "EVTNAME301117"
+	desc = "EVTDESC301117"
+	picture = "persia_tehran"
+	
+	is_triggered_only = yes
+	
+	news = yes
+	news_title = "EVTNEWS301117_title"
+	news_desc_long = "EVTNEWS301117_long"
+	news_desc_medium = "EVTNEWS301117_medium"
+	news_desc_short = "EVTNEWS301117_short"
+	
+	option = {
+		name = "Perhaps the $FROMCOUNTRY_ADJ$s aren't as fearsome as we thought?"
+		owner = {
+			any_pop = {
+				consciousness = -1
+			}
+			change_variable = {
+				which = persian_ulama
+				value = 1
+			}
+		}
+	}
+}

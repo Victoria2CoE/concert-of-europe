@@ -1,0 +1,1351 @@
+#########################################
+#										#
+#				Kazakhstan				#
+#										#
+#########################################
+
+#Guryev
+1182 = {
+	capitalists = {
+		size = 275
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 320
+		culture = russian
+		religion = orthodox
+	}
+	artisans = {
+		size = 1830
+		culture = kazak
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 18
+		culture = russian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 82
+		culture = russian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 250
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 608
+		culture = russian
+		religion = orthodox
+	}
+	labourers = {
+		size = 37190
+		culture = kazak
+		religion = sunni
+	}
+	soldiers = {
+		size = 4029
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Oral
+2610 = {
+	artisans = {
+		size = 41
+		culture = russian
+		religion = orthodox
+	}
+	artisans = {
+		size = 91
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 50
+		culture = russian
+		religion = orthodox
+	}
+	labourers = {
+		size = 1053
+		culture = russian
+		religion = orthodox
+	}
+	labourers = {
+		size = 1671
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Aqtobe
+1183 = {
+	artisans = {
+		size = 466
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 92
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 8467
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Aqtau
+1194 = {
+	artisans = {
+		size = 626
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 140
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 13656
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Aralsk
+2702 = {
+	artisans = {
+		size = 656
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 92
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 12993
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Zambyl
+2606 = {
+	artisans = {
+		size = 1786
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 326
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 32162
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Turgay
+2611 = {
+	artisans = {
+		size = 466
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 92
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 8467
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Aktash
+2612 = {
+	artisans = {
+		size = 1584
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 326
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 28836
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Oskemen
+2664 = {
+	artisans = {
+		size = 180
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 80
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 4540
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Qaraganda
+1181 = {
+	capitalists = {
+		size = 2445
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 1206
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 232
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 24010
+		culture = kazak
+		religion = sunni
+	}
+	soldiers = {
+		size = 1584
+		culture = kazak
+		religion = sunni
+	}
+	soldiers = {
+		size = 60
+		culture = russian
+		religion = orthodox
+	}
+}
+
+#Kokshetau
+1184 = {
+	artisans = {
+		size = 139
+		culture = russian
+		religion = orthodox
+	}
+	artisans = {
+		size = 2026
+		culture = kazak
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 46
+		culture = russian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 69
+		culture = russian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 372
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 2518
+		culture = russian
+		religion = orthodox
+	}
+	labourers = {
+		size = 35542
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Semipalatinsk
+1187 = {
+	artisans = {
+		size = 2026
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 372
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 34050
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#
+##
+##
+##
+#
+
+#Shu
+1185 = {
+	capitalists = {
+		size = 2419
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 2026
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 420
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 34050
+		culture = kazak
+		religion = sunni
+	}
+	soldiers = {
+		size = 2072
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Alma Ata
+1186 = {
+	artisans = {
+		size = 579
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 1446
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 90
+		culture = kirgiz
+		religion = sunni
+	}
+	clergymen = {
+		size = 280
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 10107
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 27596
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Qaratal
+1188 = {
+	artisans = {
+		size = 1446
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 1013
+		culture = uighur
+		religion = sunni
+	}
+	clergymen = {
+		size = 269
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 150
+		culture = uighur
+		religion = sunni
+	}
+	labourers = {
+		size = 26596
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 18352
+		culture = uighur
+		religion = sunni
+	}
+}
+
+#Ak-Mechet
+1193 = {
+	artisans = {
+		size = 653
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 1059
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 116
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 216
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 11917
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 22101
+		culture = kazak
+		religion = sunni
+	}
+}
+
+
+#Turkestan
+1197 = {
+	capitalists = {
+		size = 7603
+		culture = uzbek
+		religion = sunni
+	}
+	capitalists = {
+		size = 1013
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 1301
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 2808
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 116
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 437
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 12803
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 35834
+		culture = kazak
+		religion = sunni
+	}
+	officers = {
+		size = 443
+		culture = uzbek
+		religion = sunni
+	}
+	soldiers = {
+		size = 22506
+		culture = uzbek
+		religion = sunni
+	}
+	soldiers = {
+		size = 233
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#########################################
+#										#
+#				Kyrgyzstan				#
+#										#
+#########################################
+
+#Bishkek
+1189 = {
+	capitalists = {
+		size = 3638
+		culture = kirgiz
+		religion = sunni
+	}
+	capitalists = {
+		size = 93
+		culture = kazak
+		religion = sunni
+	}
+	capitalists = {
+		size = 116
+		culture = uighur
+		religion = sunni
+	}
+	capitalists = {
+		size = 93
+		culture = kirgiz
+		religion = animist
+	}
+	artisans = {
+		size = 1865
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 279
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 324
+		culture = uighur
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 1
+		culture = uighur
+		religion = sunni
+	}
+	clergymen = {
+		size = 536
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 31508
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 6017
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 6880
+		culture = uighur
+		religion = sunni
+	}
+	officers = {
+		size = 209
+		culture = uzbek
+		religion = sunni
+	}
+	soldiers = {
+		size = 12780
+		culture = kirgiz
+		religion = sunni
+	}
+}
+
+
+#Naryn
+1190 = {
+	artisans = {
+		size = 93
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 233
+		culture = kirgiz
+		religion = animist
+	}
+	artisans = {
+		size = 186
+		culture = kazak
+		religion = sunni
+	}
+	clergymen = {
+		size = 139
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 2588
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 4267
+		culture = kirgiz
+		religion = animist
+	}
+	labourers = {
+		size = 4291
+		culture = kazak
+		religion = sunni
+	}
+}
+
+#Osh
+1203 = {
+	artisans = {
+		size = 419
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 839
+		culture = kirgiz
+		religion = sunni
+	}
+	clergymen = {
+		size = 69
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 163
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 7649
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 12640
+		culture = kirgiz
+		religion = sunni
+	}
+}
+
+#########################################
+#										#
+#				Uzbekistan				#
+#										#
+#########################################
+
+#Khiva
+1191 = {
+	capitalists = {
+		size = 886
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 2145
+		culture = uzbek
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 116
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 419
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 35496
+		culture = uzbek
+		religion = sunni
+	}
+	officers = {
+		size = 116
+		culture = uzbek
+		religion = sunni
+	}
+	slaves = {
+		size = 1865
+		culture = persian
+		religion = shiite
+	}
+	slaves = {
+		size = 1865
+		culture = russian
+		religion = orthodox
+	}
+	soldiers = {
+		size = 3731
+		culture = uzbek
+		religion = sunni
+	}
+}
+
+#Nukus
+1192 = {
+	artisans = {
+		size = 1072
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 653
+		culture = kazak
+		religion = sunni
+	}
+	artisans = {
+		size = 163
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 279
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+
+		size = 116
+		culture = kazak
+		religion = sunni
+
+	}
+	labourers = {
+		size = 16162
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 12967
+		culture = kazak
+		religion = sunni
+	}
+	labourers = {
+		size = 3405
+		culture = turkmen
+		religion = sunni
+	}
+	slaves = {
+		size = 1865
+		culture = persian
+		religion = shiite
+	}
+	slaves = {
+		size = 1026
+		culture = russian
+		religion = orthodox
+	}
+}
+
+
+#Tashkent
+1195 = {
+	capitalists = {
+		size = 839
+		culture = uzbek
+		religion = sunni
+	}
+	capitalists = {
+		size = 46
+		culture = kirgiz
+		religion = sunni
+	}
+	capitalists = {
+		size = 116
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 2145
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 116
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 303
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 419
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 69
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 36242
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 2588
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 6017
+		culture = tajik
+		religion = sunni
+	}
+	soldiers = {
+		size = 3731
+		culture = uzbek
+		religion = sunni
+	}
+	soldiers = {
+		size = 69
+		culture = kirgiz
+		religion = sunni
+	}
+}
+
+#Bukhoro
+1198 = {
+	artisans = {
+		size = 4011
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 653
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 1399
+		culture = mashriqi
+		religion = sunni
+	}
+	artisans = {
+		size = 1819
+		culture = sephardic
+		religion = jewish
+	}
+	bureaucrats = {
+		size = 489
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 1959
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 116
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 157617
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 11917
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 3148
+		culture = mashriqi
+		religion = sunni
+	}
+}
+
+#Samarkand
+1199 = {
+	artisans = {
+		size = 4384
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 279
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 1399
+		culture = mashriqi
+		religion = sunni
+	}
+	clergymen = {
+		size = 1259
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 103364
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 5224
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 2168
+		culture = mashriqi
+		religion = sunni
+	}
+}
+
+#Qarshi
+1200 = {
+	artisans = {
+		size = 2378
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 466
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 279
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 513
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 93
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 43309
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 10365
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 5977
+		culture = turkmen
+		religion = sunni
+	}
+}
+
+#Kokand
+1202 = {
+	artisans = {
+		size = 6576
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 746
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 139
+		culture = tajik
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 186
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 513
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 186
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 43239
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 13620
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 2448
+		culture = tajik
+		religion = sunni
+	}
+}
+
+#########################################
+#										#
+#				Tajikistan				#
+#										#
+#########################################
+
+#Khojand
+1201 = {
+	artisans = {
+		size = 1865
+		culture = uzbek
+		religion = sunni
+	}
+	artisans = {
+		size = 466
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 373
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 69
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 33980
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 8535
+		culture = tajik
+		religion = sunni
+	}
+}
+
+#Kulob
+1207 = {
+	capitalists = {
+		size = 536
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 1349
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 256
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 25647
+		culture = tajik
+		religion = sunni
+	}
+	officers = {
+		size = 1
+		culture = tajik
+		religion = sunni
+	}
+	soldiers = {
+		size = 233
+		culture = tajik
+		religion = sunni
+	}
+}
+
+#Khorug
+1208 = {
+	capitalists = {
+		size = 326
+		culture = tajik
+		religion = sunni
+	}
+	capitalists = {
+		size = 69
+		culture = kirgiz
+		religion = sunni
+	}
+	artisans = {
+		size = 792
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 163
+		culture = kirgiz
+		religion = sunni
+	}
+	clergymen = {
+		size = 163
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 69
+		culture = kirgiz
+		religion = sunni
+	}
+	labourers = {
+		size = 16278
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 3405
+		culture = kirgiz
+		religion = sunni
+	}
+	soldiers = {
+		size = 163
+		culture = tajik
+		religion = sunni
+	}
+	soldiers = {
+		size = 23
+		culture = kirgiz
+		religion = sunni
+	}
+}
+
+#Kyzylkum
+2673 = {
+	artisans = {
+		size = 9
+		culture = uzbek
+		religion = sunni
+	}
+	bureaucrats = {
+		size = 1
+		culture = russian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 4
+		culture = uzbek
+		religion = sunni
+	}
+	clergymen = {
+		size = 1
+		culture = russian
+		religion = orthodox
+	}
+	labourers = {
+		size = 217
+		culture = uzbek
+		religion = sunni
+	}
+	labourers = {
+		size = 6
+		culture = russian
+		religion = orthodox
+	}
+}
+
+
+#########################################
+#										#
+#				Turkmenistan			#
+#										#
+#########################################
+
+#Dashhowuz
+1196 = {
+	capitalists = {
+		size = 1376
+		culture = turkmen
+		religion = sunni
+	}
+	capitalists = {
+		size = 46
+		culture = persian
+		religion = shiite
+	}
+	artisans = {
+		size = 419
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 69
+		culture = turkmen
+		religion = sunni
+	}
+	labourers = {
+		size = 8582
+		culture = turkmen
+		religion = sunni
+	}
+	soldiers = {
+		size = 816
+		culture = turkmen
+		religion = sunni
+	}
+	soldiers = {
+		size = 116
+		culture = persian
+		religion = shiite
+	}
+}
+
+#Karakum
+1204 = {
+	artisans = {
+		size = 1166
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 186
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 256
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 23
+		culture = persian
+		religion = shiite
+	}
+	labourers = {
+		size = 23951
+		culture = turkmen
+		religion = sunni
+	}
+	labourers = {
+		size = 3498
+		culture = persian
+		religion = shiite
+	}
+}
+
+#Esq-abad
+1205 = {
+	artisans = {
+		size = 792
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 139
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 163
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 23
+		culture = persian
+		religion = shiite
+	}
+	labourers = {
+		size = 16232
+		culture = turkmen
+		religion = sunni
+	}
+	labourers = {
+		size = 2612
+		culture = persian
+		religion = shiite
+	}
+}
+
+#Merv
+1206 = {
+	artisans = {
+		size = 93
+		culture = tajik
+		religion = sunni
+	}
+	artisans = {
+		size = 1026
+		culture = turkmen
+		religion = sunni
+	}
+	artisans = {
+		size = 373
+		culture = persian
+		religion = shiite
+	}
+	clergymen = {
+		size = 23
+		culture = tajik
+		religion = sunni
+	}
+	clergymen = {
+		size = 209
+		culture = turkmen
+		religion = sunni
+	}
+	clergymen = {
+		size = 46
+		culture = persian
+		religion = shiite
+	}
+	labourers = {
+		size = 1702
+		culture = tajik
+		religion = sunni
+	}
+	labourers = {
+		size = 19614
+		culture = turkmen
+		religion = sunni
+	}
+	labourers = {
+		size = 6926
+		culture = persian
+		religion = shiite
+	}
+}

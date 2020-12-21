@@ -1,0 +1,12 @@
+owner = UPB
+controller = UPB
+add_core = UPB
+add_core = POR
+trade_goods = fish
+life_rating = 30
+terrain = forested_farmland
+1836.1.1 = {
+	owner = POR
+	controller = POR
+	remove_core = UPB
+}

@@ -1,0 +1,749 @@
+political_decisions = {
+
+	eject_sucre = {
+		picture = peru_bolivia
+		potential = {
+			tag = PEU
+			war_with = BOL
+			has_country_flag = ejecting_sucre
+			NOT = { has_global_flag = peru_bolivia_confederated }
+		}
+	
+		allow = {
+			war_with = BOL
+			BOL = {
+				war_exhaustion = 25
+				national_provinces_occupied = 0.1
+				OR = {
+					national_provinces_occupied = 0.2
+					2313 = { controlled_by = THIS } #Chuquisaca
+				}
+			}
+		}
+	
+		effect = {
+			clr_country_flag = ejecting_sucre
+			prestige = 5
+			end_war = BOL
+			relation = { who = BOL value = 400 }
+			create_alliance = BOL
+			BOL = { set_country_flag = wants_to_unify }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_PBC_BOL = {
+		picture = peru_bolivia
+		potential = {
+			tag = BOL
+			war_with = PEU
+			has_country_flag = wants_to_unify
+			NOT = {
+				has_global_flag = peru_bolivia_confederated
+				revolution_n_counterrevolution = 1
+			}
+		}
+	
+		allow = {
+			war_with = PEU
+			PEU = {
+				war_exhaustion = 40
+				national_provinces_occupied = 0.25
+				OR = {
+					national_provinces_occupied = 0.5
+					AND = {
+						2304 = { controlled_by = THIS } #Arequipa
+						2295 = { controlled_by = THIS }	#Lima
+					}
+				}
+			}
+		}
+	
+		effect = {
+			clr_country_flag = wants_to_unify
+			set_global_flag = peru_bolivia_confederated
+			prestige = 5
+			any_country = {
+				end_war = THIS
+			}
+			inherit = PEU
+			capital = 2310 #La Paz
+			PEU_2297 = { add_core = SPU	}
+			PEU_2303 = { add_core = SPU	}
+			2307 = { add_core = SPU }
+			2308 = { add_core = SPU	}
+			release_vassal = SPU
+			release_vassal = PEU
+			add_country_modifier = {
+				name = national_instability
+				duration = 1460
+			}
+			BOL_2309 = { add_core = CHL }
+			ARG_2368 = { add_core = ARG }
+			leave_alliance = CHL
+			leave_alliance = ARG
+			leave_alliance = PRG
+			relation = { who = BRZ value = -50 }
+			relation = { who = CLM value = -100 }
+			relation = { who = CHL value = -150 }
+			relation = { who = ARG value = -150 }
+			relation = { who = PRG value = -150 }
+			change_tag = PBC
+			all_core = { remove_core = PBC }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_PBC_PEU = {
+		picture = peru_bolivia
+		potential = {
+			tag = PEU
+			war_with = BOL
+			BOL = { has_country_flag = wants_to_unify }
+			NOT = {
+				has_global_flag = peru_bolivia_confederated
+				revolution_n_counterrevolution = 1
+			}
+		}
+	
+		allow = {
+			war_with = BOL
+			BOL = {
+				war_exhaustion = 40
+				national_provinces_occupied = 0.25
+				OR = {
+					national_provinces_occupied = 0.5
+					AND = {
+						2313 = { controlled_by = THIS } #Chuquisaca
+						2310 = { controlled_by = THIS } #La Paz
+					}
+				}
+			}
+		}
+	
+		effect = {
+			set_global_flag = peru_bolivia_confederated
+			set_country_flag = three_republics
+			BOL = {
+				clr_country_flag = wants_to_unify
+			}
+			prestige = 5
+			any_country = {
+				end_war = THIS
+			}
+			inherit = BOL
+			capital = 2304
+			PEU_2297 = { add_core = SPU }
+			PEU_2303 = { add_core = SPU }
+			2307 = { add_core = SPU }
+			2308 = { add_core = SPU }
+			PEU_2289 = { add_core = NPU }
+			PEU_2291 = { add_core = NPU }
+			PEU_2300 = { add_core = NPU }
+			add_country_modifier = {
+				name = national_instability
+				duration = 1460
+			}
+			BOL_2309 = { add_core = CHL }
+			ARG_2368 = { add_core = ARG }
+			leave_alliance = CHL
+			leave_alliance = ARG
+			leave_alliance = PRG
+			relation = { who = BRZ value = -50 }
+			relation = { who = CLM value = -100 }
+			relation = { who = CHL value = -150 }
+			relation = { who = ARG value = -150 }
+			relation = { who = PRG value = -150 }
+			change_tag = PBC
+			all_core = { remove_core = PBC }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pbc_in_chaos = {
+		picture = peru_bolivia
+		potential = {
+			OR = {
+				tag = PEU
+				tag = NPU
+			}
+			exists = PBC
+			vassal_of = PBC
+			OR = {
+				SPU = { vassal_of = PBC }
+				BOL = { vassal_of = PBC }
+			}
+			NOT = { has_country_flag = fought_the_confederation }
+		}
+	
+		allow = {
+			PBC = {
+				OR = {
+					war_with = CHL
+					national_provinces_occupied = 0.01
+				}
+			}
+		}
+	
+		effect = {
+			set_country_flag = fought_the_confederation
+			leave_alliance = PBC
+			relation = { who = PBC value = -200 }
+			PBC = { release_vassal = THIS }
+			any_country = {
+				limit = { war_with = PBC }
+				end_war = THIS
+				relation = { who = THIS value = 100 }			
+			}
+			any_pop = {
+				dominant_issue = {
+					factor = 0.02
+					value = jingoism
+				}
+			}
+			random_country = {
+				limit = {
+					tag = SPU
+					exists = yes
+				}
+				THIS = {
+					war = {
+						target = PBC
+						attacker_goal = {
+							casus_belli = release_puppet
+							country = SPU
+						}
+						defender_goal = {
+							casus_belli = conquest_any
+						}
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					tag = BOL
+					exists = yes
+				}
+				THIS = {
+					war = {
+						target = PBC
+						attacker_goal = {
+							casus_belli = release_puppet
+							country = BOL
+						}
+						defender_goal = {
+							casus_belli = conquest_any
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	end_of_confederation_SPU = {
+		picture = peru_bolivia
+		potential = {
+			tag = PBC
+			owns = 2304
+			NOT = {
+				owns = 2295
+				owns = 2313
+				has_global_flag = first_pbc_fell
+				has_country_flag = three_republics
+			}
+		}
+	
+		allow = {
+			war = no
+			NOT = { exists = SPU }
+			BOL = {
+				NOT = { vassal_of = PBC }
+			}
+			NPU = {
+				NOT = { vassal_of = PBC }
+			}
+		}
+	
+		effect = {
+			set_global_flag = first_pbc_fell
+			capital = 2304
+			PBC = {
+				all_core = { remove_core = PBC }
+			}
+			any_owned = {
+				limit = {
+					is_core = BOL
+					BOL = { exists = yes }
+				}
+				secede_province = BOL
+			}
+			random_owned = {
+				limit = { exists = SPU }
+				owner = {
+					change_tag_no_core_switch = SPU
+					any_owned = { secede_province = SPU }
+				}
+			}
+			random_owned = {
+				limit = { NOT = { exists = SPU } }
+				owner = {
+					change_tag = SPU
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = CHL
+						tag = ARG
+						tag = BOL
+					}
+				}
+				relation = { who = SPU value = 300 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	end_of_confederation_BOL = {
+		picture = peru_bolivia
+		potential = {
+			tag = PBC
+			owns = 2313
+			NOT = {
+				owns = 2295
+				owns = 2304
+				has_global_flag = first_pbc_fell
+				has_country_flag = three_republics
+			}
+		}
+	
+		allow = {
+			war = no
+			SPU = {
+				NOT = { vassal_of = PBC }
+			}
+			PEU = {
+				NOT = { vassal_of = PBC }
+			}
+		}
+	
+		effect = {
+			set_global_flag = first_pbc_fell
+			capital = 2313
+			PBC = {
+				all_core = { remove_core = PBC }
+			}
+			random_owned = {
+				limit = { exists = BOL }
+				owner = {
+					change_tag_no_core_switch = BOL
+					any_owned = { secede_province = BOL }
+				}
+			}
+			random_owned = {
+				limit = { NOT = { exists = BOL } }
+				owner = {
+					change_tag = BOL
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = CHL
+						tag = ARG
+						tag = PEU
+						tag = SPU
+					}
+				}
+				relation = { who = BOL value = 300 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	treaty_of_la_paz = {
+		picture = peru_bolivia
+		potential = {
+			tag = PBC
+			NOT = {
+				has_country_flag = the_confederation_is_legitime
+				has_country_flag = 1836_pbc
+			}
+		}
+	
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_instability }
+		}
+	
+		effect = {
+			set_country_flag = the_confederation_is_legitime
+			prestige = 5
+			random_owned = {
+				limit = {
+					province_id = 2313
+				}
+				BOL = {
+					all_core = { add_core = PBC }
+				}
+			}
+			random_owned = {
+				limit = {
+					province_id = 2304
+				}
+				SPU = {
+					all_core = { add_core = PBC }
+				}
+				2310 = { add_core = PBC }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { has_country_flag = end_of_the_confederation }
+					}
+				}
+				PEU = {
+					all_core = { add_core = PBC }
+				}
+				BOL = {
+					all_core = { add_core = PBC }
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	centralizer_act_huayna_capac = {
+		picture = treaty_signing
+		potential = {
+			tag = PBC
+			has_country_flag = the_confederation_is_legitime
+			NOT = { has_country_flag = pbc_united }
+			OR = {
+				any_neighbor_country = {
+					primary_culture = south_andean
+					NOT = { tag = CHL }
+					OR = {
+						in_sphere = PBC
+						vassal_of = PBC
+					}
+				}
+				PEU = {
+					any_core = {
+						owned_by = THIS
+						NOT = { is_core = THIS }
+					}
+				}
+				BOL = {
+					any_core = {
+						owned_by = THIS
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+	
+		allow = {
+			prestige = 20
+			war = no
+			OR = {
+				nationalism_n_imperialism = 1
+				is_greater_power = yes
+			}
+		}
+	
+		effect = {
+			set_country_flag = pbc_united
+			prestige = 5
+			random_owned = {
+				limit = {
+					is_core = PEU
+					NOT = { is_core = THIS }
+				}
+				PEU = {
+					all_core = { add_core = PBC }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = BOL
+					NOT = { is_core = THIS }
+				}
+				BOL = {
+					all_core = { add_core = PBC }
+				}
+			}
+			any_country = {
+				limit = {
+					primary_culture = south_andean
+					NOT = { tag = CHL }
+					OR = {
+						in_sphere = PBC
+						vassal_of = PBC
+					}
+				}
+				all_core = { add_core = PBC }
+				annex_to = PBC
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_new_pbc = {
+		picture = peru_bolivia
+		potential = {
+			OR = {
+				tag = PEU
+				tag = SPU
+				tag = BOL
+			}
+			NOT = { exists = PBC }
+			has_global_flag = first_pbc_fell
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				is_sphere_leader_of = PEU
+				tag = PEU
+				owns = 2295
+			}
+			OR = {
+				is_sphere_leader_of = SPU
+				tag = SPU
+				owns = 2304
+			}
+			OR = {
+				is_sphere_leader_of = BOL
+				tag = BOL
+				owns = 2313
+			}
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 5
+			any_country = {
+				limit = {
+					primary_culture = south_andean
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = { tag = THIS }
+				}
+				all_core = { add_core = PBC }
+				annex_to = THIS
+			}
+			all_core = { add_core = PBC }
+			change_tag = PBC
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_with_chile = {
+		picture = peru_bolivia
+		potential = {
+			tag = PBC
+			exists = CHL
+			state_n_government = 1
+			NOT = { has_country_flag = united_with_chile }
+		}
+		
+		allow = {
+			war = no
+			CHL = { war = no }
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+			is_sphere_leader_of = CHL
+		}
+		
+		effect = {
+			set_country_flag = united_with_chile
+			prestige = 5
+			random_country = {
+				limit = {
+					tag = CHL
+					has_country_flag = occupation_of_araucania
+				}
+				PBC = { set_country_flag = occupation_of_araucania }
+			}
+			random_country = {
+				limit = {
+					tag = CHL
+					has_country_flag = valparaisoharbor_built
+				}
+				PBC = { set_country_flag = valparaisoharbor_built }
+			}
+			CHL = {
+				all_core = { add_core = PBC }
+			}
+			inherit = CHL
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reunite_peru = {
+		potential = {
+			OR = {
+				tag = PEU
+				tag = NPU
+			}
+			SPU = {
+				exists = yes
+				NOT = {
+					any_owned_province = {
+						NOT = { is_core = SPU }
+					}
+				}
+			}
+			has_global_flag = first_pbc_fell
+			NOT = { has_country_flag = peru_reunited }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			SPU = {
+				war = no
+				is_vassal = no
+				neighbour = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = peru_reunited
+			prestige = 5
+			relation = { who = CHL value = -50 }
+			NPU = { all_core = { remove_core = NPU } }
+			random_country = {
+				limit = {
+					tag = SPU
+					ai = yes
+				}
+				all_core = { remove_core = SPU }
+				THIS = {
+					inherit = SPU
+					change_tag = PEU
+				}
+			}
+			random_country = {
+				limit = {
+					tag = SPU
+					ai = no
+				}
+				set_country_flag = peru_reunited
+				prestige = 5
+				all_core = { remove_core = SPU }
+				inherit = THIS
+				random_owned = {
+					limit = { province_id = 2295 }
+					owner = { capital = 2295 }
+				}
+				change_tag = PEU
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	claim_antofagasta = {
+		potential = {
+			tag = CHL
+			nationalism_n_imperialism = 1
+			NOT = {
+				has_global_flag = peru_bolivia_confederated
+				has_country_flag = claimed_antofagasta
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			set_country_flag = claimed_antofagasta
+			prestige = 2
+			badboy = 2
+			BOL_2309 = { add_core = CHL }
+			relation = { who = PEU value = -100 }
+			relation = { who = BOL value = -100 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	claim_cochinoca = {
+		potential = {
+			OR = {
+				tag = ARG
+				tag = LPL
+			}
+			nationalism_n_imperialism = 1
+			NOT = {
+				has_global_flag = peru_bolivia_confederated
+				has_country_flag = claimed_cochinoca
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			set_country_flag = claimed_cochinoca
+			prestige = 1
+			badboy = 1
+			ARG_2368 = { add_core = ARG }
+			random_country = {
+				limit = {
+					tag = LPL
+					exists = yes
+				}
+				ARG_2368 = { add_core = LPL }
+			}
+			relation = { who = BOL value = -100 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

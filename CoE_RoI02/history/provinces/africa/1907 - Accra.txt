@@ -1,0 +1,12 @@
+owner = DEN
+controller = DEN
+add_core = ASH
+trade_goods = cattle
+life_rating = 30
+terrain = jungle_farmland
+colonial = 1
+fort = 1
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+}

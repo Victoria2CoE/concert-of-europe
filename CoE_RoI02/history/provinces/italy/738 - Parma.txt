@@ -1,0 +1,12 @@
+owner = PAR
+controller = PAR
+add_core = PAR
+add_core = ITA
+trade_goods = iron
+life_rating = 30
+terrain = hilly_farmland
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}

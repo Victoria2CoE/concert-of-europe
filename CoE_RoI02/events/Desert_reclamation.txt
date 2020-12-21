@@ -1,0 +1,1579 @@
+#################################
+#		African Map Events		#
+#################################
+#Ethiopa Mission to Cairo decision changed to event.
+country_event = {
+	id = 300956
+	trigger = {
+		tag = ETH
+		EGY = {
+			ai = yes
+			exists = yes
+			neighbour = ETH
+			NOT = {
+				any_owned_province = { is_core = ETH }
+				casus_belli = ETH
+			}
+		}
+		NOT = {
+			war_with = EGY
+			any_owned_province = { is_core = EGY }
+			any_owned_province = { is_core = SUD }
+			casus_belli = EGY
+			truce_with = EGY
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME300956"
+	desc = "EVTDESC300956"
+	picture = "timbuctu"
+
+	option = {
+		name = "Prosperity for us all!"
+		years_of_research = 0.25
+		relation = { who = EGY value = 300 }
+	}
+}
+
+#Sahara Cleanup
+country_event = {
+	id = 300961
+	trigger = {
+		owns = 1713
+		civilized = yes
+		1712 = {
+			empty = yes
+		}
+		1714 = {
+			empty = yes
+		}
+		has_global_flag = berlin_conference
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 4
+			war = yes
+		}
+	}
+
+	title = "EVTNAME300956"
+	desc = "EVTDESC300956"
+	picture = "timbuctu"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		prestige = 1
+		money = -5000
+		1712 = {
+			secede_province = THIS
+			any_pop = {
+				militancy = 4
+			}
+		}
+		1714 = {
+			secede_province = THIS
+			any_pop = {
+				militancy = 4
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1741
+				1743 = { empty = yes }
+			}
+			country_event = {
+				id = 300975
+				days = 45
+			}
+		}
+	}
+}
+#The Oasis of Taout
+country_event = {
+	id = 300957
+	trigger = {
+		owns = 1710
+		owns = 1715
+		civilized = yes
+		1713 = {
+			empty = yes
+		}
+		state_n_government = 1
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			year = 1870
+		}
+		modifier = {
+			factor = 0.25
+			year = 1880
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+	}
+
+	title = "EVTNAME300957"
+	desc = "EVTDESC300957"
+	picture = "timbuctu"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		prestige = 1
+		money = -5000
+		1713 = {
+			secede_province = THIS
+			any_pop = {
+				militancy = 4
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1730
+				1729 = { empty = yes }
+			}
+			country_event = {
+				id = 300976
+				days = 45
+			}
+		}
+	}
+}
+
+#The L'Eliza - Founding of Libreville
+country_event = {
+	id = 300958
+	trigger = {
+		tag = FRA
+		1972 = {
+			empty = yes
+		}
+		BRZ_2428 = { is_slave = yes }
+		year = 1840
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.5
+			year = 1846
+		}
+		modifier = {
+			factor = 0.25
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME300958"
+	desc = "EVTDESC300958"
+	picture = "slaves_freed"
+
+	option = {
+		name = "What an enlightend idea!"
+		prestige = 5
+		treasury = -15000
+		1972 = {
+			change_province_name = "Libreville"
+		}
+		1972 = {
+			secede_province = FRA
+			random_pop = {
+				limit = {
+					has_pop_culture = african_minor
+					type = labourers
+				}
+				reduce_pop = 1.05
+			}
+			slaves = {
+				pop_type = labourers
+			}
+		}
+
+
+		ai_chance = {
+			factor = 65
+			modifier = {
+				factor = 0.33
+				NOT = { money = 20000 }
+			}
+		}
+	}
+	option = {
+		name = "We intercepted a slave ship? Are you sure?"
+		random_country = {
+			limit = {
+				owns = 2431
+			}
+			BRZ_2428 = {
+				slaves = {
+					reduce_pop = 1.05
+				}
+			}
+			relation = {
+				who = FRA
+				value = 25
+			}
+		}
+		relation = {
+			who = ENG
+			value = -25
+		}
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 2
+				NOT = { money = 20000 }
+			}
+		}
+	}
+	option = {
+		name = "You know, our colonies could use some more men..."
+		badboy = 2
+		relation = {
+			who = ENG
+			value = -50
+		}
+		random_state = {
+			limit = {
+				owner = {
+					slavery = yes_slavery
+				}
+				is_slave = yes
+			}
+			random_pop = {
+				limit = {
+					type = slaves
+				}
+				reduce_pop = 1.05
+			}
+		}
+		random_state = {
+			limit = {
+				owner = {
+					slavery = no_slavery
+				}
+				any_pop = {
+					has_pop_culture = afro_antillean
+				}
+			}
+			random_pop = {
+				limit = {
+					has_pop_culture = afro_antillean
+				}
+				reduce_pop = 1.05
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Cleanup should Libreville not be colonized
+country_event = {
+	id = 300959
+	trigger = {
+		OR = {
+			owns = 1974
+			owns = 1973
+		}
+		civilized = yes
+		has_global_flag = berlin_conference
+		1972 = {
+			empty = yes
+		}
+		1974 = {
+			empty = no
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 20
+	}
+
+	title = "EVTNAME300959"
+	desc = "EVTDESC300959"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		treasury = -4000
+		prestige = 1
+		1972 = {
+			secede_province = THIS
+		}
+	}
+}
+
+#Lake Chad Outlet for Cameroon
+country_event = {
+	id = 300960
+	trigger = {
+		exists = yes
+		owns = 1963 #Ngaoundere - Cameroon
+		civilized = yes
+		has_global_flag = berlin_conference
+		1964 = {
+			owner = {
+				civilized = no
+				ai = yes
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME300960"
+	desc = "EVTDESC300960"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		prestige = 1
+		money = -4000
+		1964 = {
+			secede_province = THIS
+			any_pop = {
+				militancy = 4
+			}
+		}
+	}
+}
+
+
+#Moundou cleanup
+country_event = {
+	id = 300964
+	trigger = {
+		exists = yes
+		OR = {
+			owns = 1820 #Bongor - Chad
+			owns = 1963 #Ngaoundere - Cameroon
+		}
+		civilized = yes
+		has_global_flag = berlin_conference
+		1819 = { #Moundou
+			empty = yes
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME300964"
+	desc = "EVTDESC300964"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		prestige = 1
+		money = -4000
+		1819 = {
+			secede_province = THIS
+			any_pop = {
+				militancy = 4
+			}
+		}
+	}
+}
+
+#Colonising Greenland
+country_event = {
+	id = 300966
+	trigger = {
+		exists = yes
+		owns = 251
+		has_global_flag = berlin_conference
+		2591 = {
+			empty = yes
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME300966"
+	desc = "EVTDESC300966"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		prestige = 3
+		money = -5000
+		2591 = {
+			life_rating = 5
+			change_variable = { which = dt_rating  value = 5 }
+			secede_province = THIS
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				tag = DEN
+				factor = 1.5
+			}
+		}
+	}
+
+	option = {
+		name = "Yet more ice for the $COUNTRY_ADJ$ Empire?"
+		prestige = -3
+		2591 = { life_rating = 5  change_variable = { which = dt_rating  value = 5 } }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				tag = DEN
+				factor = 0.25
+			}
+		}
+	}
+}
+
+#The Coromandel Coast
+province_event = {
+	id = 300967
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	title = "EVTNAME300967"
+	desc = "EVTDESC300967"
+	picture = "deliberation"
+
+	option = {
+		name = "Who needs such specks of Empire anyway?"
+		ENG = {
+			country_event = {
+				id = 300968
+				days = 5
+			}
+		}
+		owner = {
+			money = 15000
+			prestige = -2
+			relation = {
+				who = ENG
+				value = 15
+			}
+		}
+		secede_province = FROM
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.25
+				NOT = { owner = { money = 15000 } }
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { owner = {  money = 50000 } }
+			}
+			modifier = {
+				factor = 0.1
+				owner = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 2
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
+			}
+			modifier = {
+				factor = 0.5
+				owner = { tag = FRA }
+			}
+			modifier = {
+				factor = 1.25
+				owner = { tag = DEN }
+			}
+		}
+	}
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		ENG = {
+			country_event = {
+				id = 300969
+				days = 5
+			}
+		}
+		owner = {
+			prestige = 1
+			relation = {
+				who = ENG
+				value = -15
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.25
+				owner = { money = 50000 }
+			}
+			modifier = {
+				factor = 2
+				owner = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 0.25
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
+			}
+			modifier = {
+				factor = 1.25
+				owner = { tag = FRA }
+			}
+			modifier = {
+				factor = 0.75
+				owner = { tag = DEN }
+			}
+		}
+	}
+}
+
+#The Coromandel Coast
+country_event = {
+	id = 300968
+	is_triggered_only = yes
+
+	allow_multiple_instances = yes
+
+	title = "EVTNAME300967"
+	desc = "EVTDESC300968"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		money = -15000
+		prestige = 3
+	}
+}
+
+#The Coromandel Coast
+country_event = {
+	id = 300969
+	is_triggered_only = yes
+
+	allow_multiple_instances = yes
+
+	title = "EVTNAME300967"
+	desc = "EVTDESC300969"
+	picture = "deliberation"
+
+	option = {
+		name = "Shame"
+		prestige = -1
+	}
+}
+
+
+#Selling Swedish West Indies
+country_event = {
+	id = 300970
+	is_triggered_only = yes
+
+	title = "EVTNAME300970"
+	desc = "EVTDESC300970"
+	picture = "deliberation"
+
+	option = {
+		name = "You bet we are!"
+		SWE = {
+			country_event = 300971
+			2585 = { secede_province = FRA }
+			money = 25000
+		}
+		money = -25000
+		prestige = 5
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "More colonies? Who needs those?"
+		SWE = {
+			country_event = 300972
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Selling Swedish West Indies - Positive
+country_event = {
+	id = 300971
+	is_triggered_only = yes
+
+	title = "EVTNAME300970"
+	desc = "EVTDESC300971"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+	}
+}
+
+#Selling Swedish West Indies - Negative
+country_event = {
+	id = 300972
+	is_triggered_only = yes
+
+	title = "EVTNAME300970"
+	desc = "EVTDESC300972"
+	picture = "deliberation"
+
+	option = {
+		name = "Shame"
+		prestige = 3
+		relation = {
+			who = FRA
+			value = -30
+		}
+	}
+}
+
+#####################################################
+#													#
+#				Libyan Desert Events				#
+#													#
+#####################################################
+#Begin
+country_event = {
+	id = 300979
+
+	trigger = {
+		exists = yes
+		is_greater_power = yes
+		colonial_nation = yes
+		invention = the_dark_continent
+		war = no
+		has_global_flag = berlin_conference
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	mean_time_to_happen = {
+		months = 10
+		modifier = {
+			factor = 0.25 #oscar7211
+			any_owned_province = {
+				continent = africa
+				#factor = 0.25 #oscar7211
+			}
+		}
+	}
+
+
+	option = {
+		name = "Lets get to work!"
+		prestige = 5
+		money = -5000
+		random_country = {
+			limit = {
+				owns = 1760
+				1758 = { empty = yes }
+			}
+			country_event = {
+				id = 300973
+			}
+		}
+		random_country = {
+			limit = {
+				OR = {
+					owns = 1738
+					AND = {
+						owns = 1735
+						1738 = {
+							empty = yes
+						}
+					}
+
+				}
+				1739 = { empty = yes }
+			}
+			country_event = {
+				id = 300974
+				days = 20
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1741
+				1743 = { empty = yes }
+			}
+			country_event = {
+				id = 300975
+				days = 45
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1730
+				1829 = { empty = yes }
+			}
+			country_event = {
+				id = 300976
+				days = 70
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1835
+				2564 = { empty = yes }
+			}
+			country_event = {
+				id = 300977
+				days = 105
+			}
+		}
+		random_country = {
+			limit = {
+				owns = 1824
+				NOT = { owns = 1826 }
+			}
+			country_event = {
+				id = 300978
+				days = 140
+			}
+		}
+	}
+}
+
+
+#Eastern Libyan Desert
+country_event = {
+	id = 300973
+	is_triggered_only = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		1758 = {
+			secede_province = THIS
+			add_core = EGY
+		}
+	}
+}
+
+#Western Libyan Desert
+country_event = {
+	id = 300974
+	is_triggered_only = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		1739 = {
+			secede_province = THIS
+			add_core = CYR
+		}
+		random_owned = {
+			limit = {
+				1738 = {
+					empty = yes
+				}
+			}
+			1738 = {
+				secede_province = THIS
+			}
+		}
+	}
+}
+
+#Ghat
+country_event = {
+	id = 300975
+	is_triggered_only = yes
+
+	title = "EVTNAME300975"
+	desc = "EVTDESC300975"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		1743 = {
+			secede_province = THIS
+			add_core = TRI
+		}
+	}
+}
+
+#Tozeur
+country_event = {
+	id = 300976
+	is_triggered_only = yes
+
+	title = "EVTNAME300975"
+	desc = "EVTDESC300975"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		1729 = {
+			secede_province = THIS
+			add_core = TUN
+		}
+	}
+}
+
+#Southern Libyan Desert
+country_event = {
+	id = 300977
+	is_triggered_only = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		2564 = {
+			secede_province = THIS
+			add_core = SUD
+		}
+	}
+}
+
+#Faya
+country_event = {
+	id = 300978
+	is_triggered_only = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	option = {
+		name = "Great"
+		prestige = 1
+		1826 = {
+			secede_province = THIS
+		}
+	}
+}
+
+
+
+
+################################################
+
+
+#The Goldsmith Arbitration
+country_event = {
+	id = 300998
+	is_triggered_only = yes
+
+	title = "EVTNAME300998"
+	desc = "EVTDESC300998"
+	picture = "deliberation"
+
+	option = {
+		name = "We should rush to establish ourselves"
+	}
+}
+
+#Dominance asserted of Lengeh
+country_event = {
+	id = 301001
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301001"
+	desc = "EVTDESC301001"
+	picture = "persia_tehran"
+
+	option = {
+		name = "It was worthless anyway!"
+		prestige = -1
+		1138 = {
+			secede_province = PER
+		}
+	}
+}
+
+#Dominance asserted of Bushire
+country_event = {
+	id = 301002
+	is_triggered_only = yes
+
+	title = "EVTNAME301002"
+	desc = "EVTDESC301002"
+	picture = "persia_bushehr"
+
+	option = {
+		name = "It was worthless anyway!"
+		prestige = -1
+		1136 = {
+			secede_province = PER
+		}
+	}
+}
+
+#The Bandar Abbas Lease
+country_event = {
+	id = 301003
+	is_triggered_only = yes
+
+	title = "EVTNAME301003"
+	desc = "EVTDESC301003"
+	picture = "persia_bushehr"
+
+	option = {
+		name = "Do we have a choice?"
+		prestige = -1
+		PER = {
+			country_event = { id = 301004 days = 5 }
+			set_country_flag = abbas_lease_renegotiated_success
+		}
+		relation = {
+			who = PER
+			value = 15
+		}
+		relation = {
+			who = ENG
+			value = 15
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = OMA
+				value = 15
+			}
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "What are they going to achieve?"
+		prestige = 1
+		badboy = 1
+		PER = {
+			country_event = { id = 301005 days = 5 }
+			1142 = { add_core = PER }
+		}
+		relation = {
+			who = PER
+			value = -60
+		}
+		leave_alliance = ENG
+		relation = {
+			who = ENG
+			value = -30
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = OMA
+				value = -200
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#The Bandar Abbas Lease - positive reply
+country_event = {
+	id = 301004
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301003"
+	desc = "EVTDESC301004"
+	picture = "persia_tehran"
+
+	option = {
+		name = "Wonderful!"
+		prestige = 1
+	}
+}
+
+#The Bandar Abbas Lease - negative reply
+country_event = {
+	id = 301005
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301003"
+	desc = "EVTDESC301005"
+	picture = "persia_tehran"
+
+	option = {
+		name = "When diplomacy fails..."
+		prestige = -1
+	}
+}
+
+#Dominance asserted over Abbas
+country_event = {
+	id = 301006
+
+	news = yes
+	news_desc_long = "NEWS_reclaim_abbas_long"
+	news_desc_medium = "NEWS_reclaim_abbas_medium"
+	news_desc_short = "NEWS_reclaim_abbas_short"
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301003"
+	desc = "EVTDESC301006"
+	picture = "persia_bushehr"
+
+	option = {
+		name = "It was worthless anyway!"
+		prestige = -3
+		1142 = {
+			secede_province = PER
+		}
+	}
+}
+
+#Treaty of Akhal
+country_event = {
+	id = 301007
+	is_triggered_only = yes
+
+	title = "EVTNAME301007"
+	desc = "EVTDESC301007"
+	picture = "turkmenchay_treaty"
+
+	option = {
+		name = "We'd rather not upset the Russians"
+		set_country_flag = persian_asia
+		RUS = {
+			country_event = { id = 301008 days = 5 }
+		}
+		prestige = -10
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 1204
+					province_id = 1205
+					province_id = 1206
+					province_id = 2654
+				}
+			}
+			secede_province = TKM
+		}
+		1204 = { remove_core = PER }
+		1205 = { remove_core = PER }
+		1206 = { remove_core = PER }
+		2654 = { remove_core = PER }
+		any_pop = {
+			consciousness = 2
+			militancy = 2
+		}
+		relation = {
+			who = RUS
+			value = 125
+		}
+		RUS = {
+			diplomatic_influence = {
+				who = PER
+				value = 45
+			}
+		}
+		relation = {
+			who = ENG
+			value = -15
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = PER
+				value = -15
+			}
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				alliance_with = ENG
+			}
+			modifier = {
+				factor = 0.75
+				average_militancy = 4
+			}
+			modifier = {
+				factor = 0.25
+				average_militancy = 6
+			}
+			modifier = {
+				factor = 0.25
+				any_greater_power = { war_with = RUS }
+			}
+			modifier = {
+				factor = 0
+				stronger_army_than = RUS
+			}
+		}
+	}
+	option = {
+		name = "Comply under protest"
+		RUS = {
+			country_event = 301009
+		}
+		prestige = -5
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 1204
+					province_id = 1205
+					province_id = 1206
+					province_id = 2654
+				}
+			}
+			secede_province = TKM
+		}
+		any_pop = {
+			consciousness = 2
+			militancy = 1
+		}
+		relation = {
+			who = RUS
+			value = -15
+		}
+		RUS = {
+			diplomatic_influence = {
+				who = PER
+				value = 15
+			}
+		}
+		relation = {
+			who = ENG
+			value = 5
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = PER
+				value = -5
+			}
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0.5
+				in_sphere = RUS
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = ENG
+			}
+			modifier = {
+				factor = 1.5
+				average_militancy = 4
+			}
+			modifier = {
+				factor = 0.1
+				average_militancy = 8
+			}
+			modifier = {
+				factor = 1.5
+				stronger_army_than = RUS
+			}
+			modifier = {
+				factor = 0.5
+				any_greater_power = { war_with = RUS }
+			}
+		}
+	}
+	option = {
+		name = "Let them come and get it"
+		RUS = {
+			country_event = 301010
+		}
+		prestige = 4
+		1204 = {
+			add_core = PER
+			add_core = RUS
+		}
+		1205 = {
+			add_core = PER
+			add_core = RUS
+		}
+		1206 = {
+			add_core = PER
+			add_core = RUS
+		}
+		2654 = {
+			add_core = PER
+			add_core = RUS
+		}
+		any_pop = {
+			consciousness = -3
+			militancy = -3
+		}
+		relation = {
+			who = RUS
+			value = -100
+		}
+		RUS = {
+			diplomatic_influence = {
+				who = PER
+				value = -100
+			}
+		}
+		relation = {
+			who = ENG
+			value = 50
+		}
+		ENG = {
+			diplomatic_influence = {
+				who = PER
+				value = 50
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.1
+				in_sphere = RUS
+			}
+			modifier = {
+				factor = 5
+				alliance_with = ENG
+			}
+			modifier = {
+				factor = 15
+				average_militancy = 8
+			}
+			modifier = {
+				factor = 4
+				stronger_army_than = RUS
+			}
+			modifier = {
+				factor = 2
+				any_greater_power = { war_with = RUS }
+			}
+		}
+	}
+}
+
+#Treaty of Akhal - Accepted
+country_event = {
+	id = 301008
+
+	news = yes
+	news_title = NEWS_EVTNAME301008_title
+	news_desc_long = "NEWS_EVTDESC301008_long"
+	news_desc_medium = "NEWS_EVTDESC301008_medium"
+	news_desc_short = "NEWS_EVTDESC301008_short"
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301007"
+	desc = "EVTDESC301008"
+	picture = "turkmenchay_treaty"
+
+	option = {
+		name = "For the glory of Russia!"
+		prestige = 3
+		any_pop = {
+			limit = {
+				is_culture_group = iranian_turanian
+			}
+			consciousness = -1
+			militancy = -1
+		}
+		casus_belli = {
+			target = TKM
+			type = conquest
+			months = 360
+		}
+		casus_belli ={
+			target = TKM
+			type = establish_protectorate_casus_belli
+			months = 360
+		}
+	}
+}
+
+#Treaty of Akhal - Agreed upon
+country_event = {
+	id = 301009
+
+	news = yes
+	news_title = "NEWS_EVTNAME301010_title"
+	news_desc_long = "NEWS_EVTDESC301009_long"
+	news_desc_medium = "NEWS_EVTDESC301009_medium"
+	news_desc_short = "NEWS_EVTDESC301009_short"
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301007"
+	desc = "EVTDESC301009"
+	picture = "turkmenchay_treaty"
+
+	option = {
+		name = "For the glory of Russia!"
+		prestige = 1
+		any_pop = {
+			limit = {
+				is_culture_group = iranian_turanian
+			}
+			consciousness = -0.5
+			militancy = -0.5
+		}
+		casus_belli = {
+			target = TKM
+			type = conquest
+			months = 360
+		}
+		casus_belli ={
+			target = TKM
+			type = establish_protectorate_casus_belli
+			months = 360
+		}
+	}
+}
+
+#Treaty of Akhal - Rejected
+country_event = {
+	id = 301010
+
+	news = yes
+	news_title = "NEWS_EVTNAME301010_title"
+	news_desc_long = "NEWS_EVTDESC301010_long"
+	news_desc_medium = "NEWS_EVTDESC301010_medium"
+	news_desc_short = "NEWS_EVTDESC301010_short"
+
+	is_triggered_only = yes
+
+	title = "EVTNAME301007"
+	desc = "EVTDESC301010"
+	picture = "turkmenchay_treaty"
+
+	option = {
+		name = "This can receive but one responds!"
+		prestige = -5
+		any_pop = {
+			limit = {
+				is_culture_group = iranian_turanian
+			}
+			consciousness = 1
+			militancy = 1
+		}
+		casus_belli = {
+			target = PER
+			type = humiliate
+			months = 36
+		}
+		relation = {
+			who = ENG
+			value = -100
+		}
+		leave_alliance = ENG
+	}
+}
+
+#Russian-Afghan Border Treaty
+country_event = {
+	id = 300981
+
+	trigger = {
+		owns = 1204
+		invention = indigenous_garrisoning
+		1211 = { empty = yes }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			year = 1880
+		}
+		modifier = {
+			factor = 0.5
+			year = 1890
+		}
+		modifier = {
+			factor = 0.25
+			year = 1895
+		}
+	}
+
+	title = "EVTNAME300981"
+	desc = "EVTDESC300981"
+	picture = "deliberation"
+
+	option = {
+		name = "Demarcate the borders"
+		relation = {
+			who = ENG
+			value = 25
+		}
+		2619 = {
+			owner = {
+				country_event = 300982
+				relation = {
+					who = THIS
+					value = 25
+				}
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "No need"
+		badboy = 3
+		relation = {
+			who = ENG
+			value = -125
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				badboy = 0.6
+			}
+		}
+	}
+}
+
+#Russian-Afghan Border Treaty
+country_event = {
+	id = 300982
+	is_triggered_only = yes
+
+	title = "EVTNAME300982"
+	desc = "EVTDESC300982"
+
+	option = {
+		name = "Demarcate the borders"
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 20
+			}
+		}
+		1211 = {
+			secede_province = THIS
+		}
+	}
+}
+
+#Border Treaty
+country_event = {
+	id = 400990
+	is_triggered_only = yes
+
+	title = "EVTNAME300990"
+	desc = "EVTDESC300990"
+
+	option = {
+		name = "Okey"
+		931 = {
+			secede_province = THIS
+		}
+		relation = {
+			who = FROM
+			value = 15
+		}
+	}
+}
+
+#Border Treaty
+country_event = {
+	id = 300991
+	is_triggered_only = yes
+
+	title = "EVTNAME300990"
+	desc = "EVTDESC300990"
+
+	option = {
+		name = "Okey"
+		910 = {
+			secede_province = THIS
+		}
+		relation = {
+			who = FROM
+			value = 15
+		}
+	}
+}
+
+#Border Treaty
+country_event = {
+	id = 300996
+	is_triggered_only = yes
+
+	title = "EVTNAME300996"
+	desc = "EVTDESC300996"
+
+	option = {
+		name = "Okey"
+		1172 = {
+			secede_province = THIS
+		}
+		relation = {
+			who = FROM
+			value = 15
+		}
+	}
+}
+
+#Border Treaty
+country_event = {
+	id = 300997
+	is_triggered_only = yes
+
+	title = "EVTNAME300996"
+	desc = "EVTDESC300996"
+
+	option = {
+		name = "Okey"
+		1175 = {
+			secede_province = THIS
+		}
+		relation = {
+			who = FROM
+			value = 15
+		}
+	}
+}

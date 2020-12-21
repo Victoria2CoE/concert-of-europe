@@ -1,0 +1,16 @@
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = ITA
+trade_goods = sulphur
+life_rating = 30
+terrain = dry_forest_mountains
+#state_building = {
+#	level = 1
+#	building = heavy_factory_building
+#	upgrade = yes
+#}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+}

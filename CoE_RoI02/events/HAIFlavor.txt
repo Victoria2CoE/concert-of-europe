@@ -1,0 +1,126 @@
+#Concordat With The Vatican
+country_event = {
+
+	id = 45100
+
+	trigger = {
+		tag = HAI
+		exists = yes
+		year = 1860
+		exists = PAP
+		NOT = {
+			year = 1863
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1861
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1862
+		}
+	}
+
+	title = "EVTNAME45100"
+	desc = "EVTDESC45100"
+	picture = "pope"
+
+	option = {
+		name = "EVTOPTA45100" 
+		prestige = 5
+		relation = { who = PAP value = 50 }
+		clergymen = {
+			militancy = -3
+		}
+	}
+}
+
+# Emperor Faustan Soulique
+country_event = {
+
+	id = 45101
+
+	title = "EVTNAME45101"
+	desc = "EVTDESC45101"
+	picture = "monarchy"
+
+	trigger = {
+		tag = HAI
+		exists = yes
+		year = 1847
+		OR = { government = democracy government = democracy2 government = democracy3 }
+		NOT = { year = 1859 }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVTOPTA45101"
+		government = absolute_monarchy
+		ruling_party_ideology = reactionary
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+		prestige = -5
+		country_event = 800050
+	}
+}
+
+# La Trinitaria
+country_event = {
+
+	id = 45102
+
+	title = "EVTNAME45102"
+	desc = "EVTDESC45102"
+	picture = "revolution"
+
+	trigger = {
+		tag = HAI
+		exists = yes
+		year = 1838
+		owns = 2214
+		owns = 2216
+		NOT = { exists = DOM }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}				
+			
+	option = {
+		name = "This will not do."
+		any_pop = {
+			limit = {
+				location = { is_core = DOM }
+				has_pop_culture = caribeno
+			}
+			militancy = 9
+			consciousness = 5
+		}
+		any_owned = {
+			limit = { is_core = DOM }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1825
+			}
+		}
+	}
+}

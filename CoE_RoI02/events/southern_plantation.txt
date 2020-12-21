@@ -1,0 +1,42 @@
+province_event = {
+	id = 999970
+	title = "Plantations in $STATENAME$"
+	desc = "The mild subtropical climate, plentiful rainfall, and fertile soils of the American Southeast allowed large plantations to flourish; where large numbers of workers, usually Africans held captive for slave labor, were required for agricultural production."
+	
+	trigger = {
+		NOT = { has_province_modifier = southern_plantations }
+        OR = {
+		region = USA_219	
+        region = USA_211	
+        region = USA_2556	
+        region = USA_205	
+        region = USA_201	
+        region = USA_188	
+        region = USA_196	
+        region = USA_194	
+        region = USA_139	
+        region = USA_132	
+        }		
+	}
+	
+	allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "All hail the dixieland !"
+		state_scope = {
+			any_owned = {
+				limit = {
+		            NOT = { has_province_modifier = southern_plantations }	
+				}
+				add_province_modifier = {
+					name = southern_plantations
+					duration = -1
+				}
+			}
+		}		
+	}
+}

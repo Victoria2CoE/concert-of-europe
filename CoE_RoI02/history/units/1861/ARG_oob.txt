@@ -1,0 +1,35 @@
+army = {
+	name = "Ejército nacional"
+	location = 2360
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = regular
+	}
+
+	regiment = {
+		name= "1.1ra división de caballería"
+		type = hussar
+	}
+
+	regiment = {
+		name= "2.1ra división de caballería"
+		type = hussar
+	}
+
+	regiment = {
+		name= "3.1ra división de caballería"
+		type = hussar
+	}
+
+}
+

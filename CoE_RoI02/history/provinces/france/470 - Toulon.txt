@@ -1,0 +1,15 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = OCC
+trade_goods = silk
+life_rating = 30
+terrain = deciduous_forest_hills
+naval_base = 1
+1836.1.1 = {
+	naval_base = 2
+}
+1861.1.1 = { 
+	railroad = 3
+	naval_base = 3
+}

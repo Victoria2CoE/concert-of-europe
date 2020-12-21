@@ -1,0 +1,21 @@
+owner = TUR
+controller = REB
+add_core = TUR
+add_core = CRE
+add_core = GRE
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_grassland
+revolt = {
+	type = separatist_rebels
+	country = GRE
+	controller = yes
+}
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+}
+1861.1.1 = {
+	owner = TUR
+	controller = TUR 
+}

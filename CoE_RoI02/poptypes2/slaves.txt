@@ -1,0 +1,123 @@
+sprite = 10
+strata = poor
+allowed_to_vote = no
+is_slave = yes
+color = { 17 17 17 }
+unemployment = yes
+
+#merge_max_size = 1000000
+#max_size = 1000
+
+rebel =
+{
+	cavalry = 0.0
+	artillery = 0.0
+	cuirassier = 0.0
+	dragoon = 0.0
+	guard = 0.0
+	hussar = 0.0
+	infantry = 0.3
+	irregular = 0.7
+}
+
+life_needs = {
+	#food_industry = 1
+}
+everyday_needs = {
+	light_industry = 0.1
+}
+luxury_needs = {
+	luxury_industry = 0.05
+	food_industry = 0.05
+	light_industry = 0.05
+	heavy_industry = 0.01
+}
+
+#ife_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
+
+ideologies = {
+	subordinate = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.05 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.10 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.15 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.20 }
+		}		
+	}
+	insubordinate = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			political_reform_want = 0.05
+		}
+		modifier = {
+			factor = 1.5
+			political_reform_want = 0.10
+		}
+		modifier = {
+			factor = 1.5
+			political_reform_want = 0.15
+		}
+		modifier = {
+			factor = 1.5
+			political_reform_want = 0.20
+		}
+	}
+}
+issues = {
+	full_citizenship =  {
+		factor = 2
+	}
+	no_slavery = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 8
+		}
+	}
+	yes_slavery = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { consciousness = 6 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { consciousness = 1 }
+		}
+	}
+} 

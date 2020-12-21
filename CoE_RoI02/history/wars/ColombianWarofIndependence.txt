@@ -1,0 +1,26 @@
+name = "Colombian War of Independence"
+
+1820.10.9 = {
+	add_attacker = GCO
+	add_defender = SPA
+	add_defender = PEU
+	
+	war_goal = {
+		casus_belli = establish_protectorate_casus_belli
+		actor = SPA
+		receiver = GCO
+	}
+	
+	war_goal = {
+		casus_belli = liberate_country
+		actor = GCO
+		receiver = SPA
+		country = ECU
+	}
+}
+
+1822.5.24 = {
+	rem_attacker = GCO
+	rem_defender = SPA
+	rem_defender = PEU
+}

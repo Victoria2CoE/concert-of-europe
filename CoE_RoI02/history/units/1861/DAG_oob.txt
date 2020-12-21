@@ -1,0 +1,96 @@
+leader = {
+	name = "Imam Shamil"
+	type = land
+	date="1836.1.1"
+	personality = charismatic
+	background = school_of_defense
+}
+army = {
+	name = "Sheikh Shamil's Own"
+	location = 1052
+	
+regiment = {
+		name= "1.Kavkaz Eagles"
+			type = regular
+	}
+
+
+regiment = {
+		name= "2.Kavkaz Eagles"
+			type = regular
+	}
+
+
+
+regiment = {
+		name= "3.Kavkaz Eagles"
+			type = infantry	
+	}
+
+regiment = {
+		name= "4.Kavkaz Eagles"
+			type = infantry	
+	}
+
+regiment = {
+		name= "5.Mounted Ghazis"
+		type = hussar
+	}
+regiment = {
+		name= "6.Mounted Ghazis
+"		type = hussar
+	}
+regiment = {
+		name= "7.Mounted Ghazis"
+		type = hussar
+	}
+}
+
+
+army = {
+	name = "Hadji Murad's Own"
+	location = 1053
+	
+regiment = {
+		name= "1.Kavkaz Falcons"
+		type = regular
+	}
+
+
+regiment = {
+		name= "2.Kavkaz Falcons"
+		type = infantry	
+	}
+
+
+regiment = {
+		name= "3.Kavkaz Falcons"
+		type = infantry	
+	}
+}
+
+
+
+
+army = {
+	name = "Kavkaz Highlanders"
+	location = 1055
+	
+regiment = {
+		name= "1.Kavkaz Highlanders"
+		type = infantry	
+	}
+
+
+regiment = {
+		name= "2.Kavkaz Highlanders"
+		type = infantry	
+	}
+
+
+regiment = {
+		name= "3.Kavkaz Highlanders"
+		type = infantry	
+	}
+}
+

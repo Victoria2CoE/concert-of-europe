@@ -1,0 +1,17 @@
+rebels_casualties = {
+	limit = {
+		revolution_n_counterrevolution = 1
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = -50
+			NOT = { tag = REB }
+		}
+	}
+	effect = {
+	soldier_to_pop_loss = 0.85
+	}
+		
+}

@@ -1,0 +1,11 @@
+add_core = PTG
+trade_goods = fish
+life_rating = 15
+terrain = tundra_mountains
+colonial = 2
+1861.1.1 = {
+	owner = CHL
+	controller = CHL
+	add_core = CHL
+	colonial = 1
+}
