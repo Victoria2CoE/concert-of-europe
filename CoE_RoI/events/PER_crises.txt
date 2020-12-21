@@ -278,8 +278,8 @@ country_event = {
 	option = {
 		name = "Nuts!"
 		PER = {
-			random_owned = {
-				limit = {
+			limit = {
+				random_owned = {
 					has_province_modifier = futile
 				}
 			}
@@ -300,8 +300,8 @@ country_event = {
 		name = "Such a small sacrifice to make..."
 		prestige = -10
 		PER = {
-			random_owned = {
-				limit = {
+			limit = {
+				random_owned = {
 					has_province_modifier = futile
 				}
 			}
