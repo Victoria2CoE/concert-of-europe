@@ -883,72 +883,9 @@ promote_to = {
 		factor = 0.01
  		modifier = {
 			factor = 50
+			location = { is_colonial = no }
 			NOT = { state_scope = { capitalists  = 0.030 } }
 		}
- 		#modifier = {
-		#	factor = 20
-		#	literacy = 0.1
-		#	NOT = { state_scope = { capitalists  = 0.03 } }
-		#}
- 		#modifier = {
-		#	factor = 20
-		#	literacy = 0.1
-		#	NOT = { literacy = 0.2 }
-		#	NOT = { state_scope = { capitalists  = 0.032 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.2
-		#	NOT = { literacy = 0.3 }
-		#	NOT = { state_scope = { capitalists  = 0.034 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.3
-		#	NOT = { literacy = 0.4 }
-		#	NOT = { state_scope = { capitalists  = 0.036 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.4
-		#	NOT = { literacy = 0.5 }
-		#	NOT = { state_scope = { capitalists  = 0.038 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.5
-		#	NOT = { literacy = 0.6 }
-		#	NOT = { state_scope = { capitalists  = 0.040 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.6
-		#	NOT = { literacy = 0.7 }
-		#	NOT = { state_scope = { capitalists  = 0.042 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.7
-		#	NOT = { literacy = 0.8 }
-		#	NOT = { state_scope = { capitalists  = 0.044 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.8
-		#	NOT = { literacy = 0.9 }
-		#	NOT = { state_scope = { capitalists  = 0.046 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.9
-		#	NOT = { literacy = 0.99 }
-		#	NOT = { state_scope = { capitalists  = 0.048 } }
-		#}
-		#modifier = {
-		#	factor = 20
-		#	literacy = 0.99
-		#	NOT = { state_scope = { capitalists  = 0.05 } }
-		#} 
 		modifier = {
 			factor = -50 #-500
 			state_scope = { capitalists  = 0.051 }

@@ -617,7 +617,7 @@ migration_target =
 promote_to =
 {
 
-	clerks = 
+	artisans = 
 	{
 		factor = 0.01
  		modifier = {
@@ -682,6 +682,11 @@ promote_to =
 			factor = 20
 			literacy = 0.99
 			state_scope = { capitalists  = 0.051 }
+		} 
+		modifier = {
+			factor = 60
+			location = { is_colonial = yes }
+			state_scope = { capitalists  = 0.01 }
 		}  
 	}
 	officers = {
