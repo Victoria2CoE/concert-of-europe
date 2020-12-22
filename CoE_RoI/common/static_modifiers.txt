@@ -152,6 +152,7 @@ base_values = {
 	#factory_maintenance = 25.0
 	min_military_spending = 0.10
 	tax_efficiency = 0.20
+	rich_luxury_needs = 25.0
 }
 
 war = {
@@ -250,8 +251,8 @@ average_literacy = {
 	leadership = 1
 	org_regain = 1
 	unit_start_experience = 25
-	tax_efficiency = -0.40
-	pension_level = 25.0
+	tax_efficiency = -0.50
+	pension_level = 100.0
 	mobilisation_size = 0.05
 	education_efficiency_modifier = -2.00
 	global_immigrant_attract = 0.05

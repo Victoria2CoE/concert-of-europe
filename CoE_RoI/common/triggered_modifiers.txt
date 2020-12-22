@@ -905,36 +905,36 @@ occupied_capital = {
 #	icon = 19
 #}
 
-###Demand+
-overbuying_stuff_rich = { #experimental
-	trigger = {
-		rich_strata_luxury_needs = 0.90
-	}
-	rich_life_needs = 2.5
-	rich_everyday_needs = 5.0
-	rich_luxury_needs = 10.0
-	icon = 19
-}
-
-overbuying_stuff_middle = { #experimental
-	trigger = {
-		middle_strata_luxury_needs = 0.90
-	}
-	middle_life_needs = 0.25
-	middle_everyday_needs = 0.5
-	middle_luxury_needs = 1.0
-	icon = 19
-}
-
-overbuying_stuff_poor = { #experimental
-	trigger = {
-		poor_strata_luxury_needs = 0.90
-	}
-	poor_life_needs = 0.25
-	poor_everyday_needs = 0.5
-	poor_luxury_needs = 1.0
-	icon = 19
-}
+####Demand+
+#overbuying_stuff_rich = { #experimental
+#	trigger = {
+#		rich_strata_luxury_needs = 0.90
+#	}
+#	rich_life_needs = 2.5
+#	rich_everyday_needs = 5.0
+#	rich_luxury_needs = 10.0
+#	icon = 19
+#}
+#
+#overbuying_stuff_middle = { #experimental
+#	trigger = {
+#		middle_strata_luxury_needs = 0.90
+#	}
+#	middle_life_needs = 0.25
+#	middle_everyday_needs = 0.5
+#	middle_luxury_needs = 1.0
+#	icon = 19
+#}
+#
+#overbuying_stuff_poor = { #experimental
+#	trigger = {
+#		poor_strata_luxury_needs = 0.90
+#	}
+#	poor_life_needs = 0.25
+#	poor_everyday_needs = 0.5
+#	poor_luxury_needs = 1.0
+#	icon = 19
+#}
 
 
 ###Dev
