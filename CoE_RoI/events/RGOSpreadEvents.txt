@@ -1544,13 +1544,13 @@ province_event = {
 province_event = {
 	id = 29906
 	title = "Phosphates in $STATENAME$"
-	desc = "Phosphate food_industrys have been adopted throughout $STATENAME$."
+	desc = "Phosphate fertilizers have been adopted throughout $STATENAME$."
 	
 	trigger = {
 		has_province_modifier = crop_rotation
 		NOT = { has_province_modifier = phosphates }
 		NOT = { has_province_modifier = nitrates }	
-		owner = { invention = artificial_food_industrys }
+		owner = { invention = artificial_fertilizers }
 		is_colonial = no
 	}
 	
@@ -1560,7 +1560,7 @@ province_event = {
 			factor = 3
 			NOT = {
 				owner = {
-					invention = artificial_food_industrys
+					invention = artificial_fertilizers
 				}
 			}
 		}
@@ -1703,7 +1703,7 @@ province_event = {
 province_event = {
 	id = 29905
 	title = "Nitrates in $STATENAME$"
-	desc = "Nitrate food_industrys have been adopted throughout $STATENAME$."
+	desc = "Nitrate fertilizers have been adopted throughout $STATENAME$."
 	
 	trigger = {
 		has_province_modifier = phosphates

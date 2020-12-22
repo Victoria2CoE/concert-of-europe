@@ -821,7 +821,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = establish_protectorate_casus_belli
 				months = 24
 			}
 		}
