@@ -62,7 +62,7 @@ political_decisions = {
 				relation = { who = THIS value = -100 }
 				add_casus_belli = {
 					target = THIS
-					type = demand_concession_BC_casus_belli
+					type = demand_concession_casus_belli
 					months = 60
 				}
 			}
