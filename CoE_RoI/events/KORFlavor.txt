@@ -952,7 +952,7 @@ country_event = {
 			owner = {
 				add_casus_belli = {
 					target = FROM
-					type = demand_concession_BC_casus_belli
+					type = demand_concession_casus_belli
 					months = 12
 				}
 				war = {
@@ -961,7 +961,7 @@ country_event = {
 						casus_belli = humiliate
 					}
 					defender_goal = {
-						casus_belli = demand_concession_BC_casus_belli
+						casus_belli = demand_concession_casus_belli
 						state_province_id = 1485
 					}
 				}
@@ -982,7 +982,7 @@ country_event = {
 			owner = {
 				add_casus_belli = {
 					target = FROM
-					type = demand_concession_NI_casus_belli
+					type = demand_concession_casus_belli
 					months = 12
 				}
 				war = {
@@ -991,7 +991,7 @@ country_event = {
 						casus_belli = humiliate
 					}
 					defender_goal = {
-						casus_belli = demand_concession_NI_casus_belli
+						casus_belli = demand_concession_casus_belli
 						state_province_id = 1485
 					}
 				}

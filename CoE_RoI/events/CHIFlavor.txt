@@ -2404,13 +2404,13 @@ country_event = {
 			owner = {
 				casus_belli = {
 					target = QNG
-					type = demand_concession_NI_casus_belli
+					type = demand_concession_casus_belli
 					months = 12
 				}
 				war = {
 					target = QNG
 					attacker_goal = { 
-						casus_belli = demand_concession_NI_casus_belli
+						casus_belli = demand_concession_casus_belli
 						state_province_id = 1496 
 					}
 					defender_goal = {

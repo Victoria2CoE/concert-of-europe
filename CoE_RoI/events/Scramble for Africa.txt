@@ -608,7 +608,7 @@ country_event = {
 		FROM = {
 			casus_belli = {
 				target = THIS
-				type = demand_concession_BC_casus_belli
+				type = demand_concession_casus_belli
 				months = 60
 			}
 		}
