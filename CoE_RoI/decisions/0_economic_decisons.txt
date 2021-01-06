@@ -73,7 +73,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					has_pop_culture = boer
-					type = calpitalists
+					type = capitalists
 				}
 				money = 250
 			}
@@ -174,7 +174,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					has_pop_culture = boer
-					type = calpitalists
+					type = capitalists
 				}
 				money = 250
 			}
