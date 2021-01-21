@@ -19,6 +19,11 @@ country_event = {
 	option = {
 		name = "OK"
 		
+		add_country_modifier = {
+			name = bhu_paradise
+			duration = -1
+		}
+		
 		#random_country = {
 		#	limit = { rank = 1 }
 		#	prestige = 250

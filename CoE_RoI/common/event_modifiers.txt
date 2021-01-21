@@ -3426,3 +3426,13 @@ random_migration_cooldown = {
 	icon = 47
 }
 
+bhu_paradise = {
+	rgo_output = 1000
+	goods_demand = 10000
+	mine_RGO_eff = 1000
+	research_points_modifier = -1000
+	prestige = -1000
+	education_efficiency_modifier = -1000
+	icon = 47
+}
+

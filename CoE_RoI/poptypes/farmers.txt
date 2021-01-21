@@ -2021,7 +2021,7 @@ promote_to = {
 		}		
 	}
 	labourers = {
-		factor = 0.10
+		factor = 0.01
 		#modifier = {
 		#	factor = -500
 		#	is_primary_culture = no
