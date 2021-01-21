@@ -48,7 +48,7 @@ populationsize_50k = {
 	global_population_growth = 0.003
 	mobilisation_size = 0.06
 	global_immigrant_attract = -0.030
-	tax_efficiency = 0.50
+	tax_efficiency = 0.10
 	education_efficiency_modifier = 0.60
 	icon = 11
 }
@@ -65,7 +65,7 @@ populationsize_100k = {
 	mobilisation_size = 0.03
 	leadership_modifier = 0.1
 	global_immigrant_attract = -0.040
-	tax_efficiency = 0.475
+	tax_efficiency = 0.09
 	education_efficiency_modifier = 0.55
 	icon = 5
 }
@@ -82,7 +82,7 @@ populationsize_250k = {
 	mobilisation_size = 0.01
 	leadership_modifier = 0.2
 	global_immigrant_attract = -0.020
-	tax_efficiency = 0.45
+	tax_efficiency = 0.08
 	education_efficiency_modifier = 0.50	
 	icon = 5
 }
@@ -99,7 +99,7 @@ populationsize_500k = {
 	mobilisation_size = 0.01
 	leadership_modifier = 0.3
 	#global_immigrant_attract = -0.010
-	tax_efficiency = 0.375
+	tax_efficiency = 0.07
 	education_efficiency_modifier = 0.45	
 	icon = 5
 }
@@ -116,7 +116,7 @@ populationsize_1M = {
 	mobilisation_size = 0.005
 	leadership_modifier = 0.4
 	global_immigrant_attract = 0.020
-	tax_efficiency = 0.35
+	tax_efficiency = 0.06
 	education_efficiency_modifier = 0.40	
 	icon = 5
 }
@@ -132,7 +132,7 @@ populationsize_2_5M = {
 	global_population_growth = 0.001
 	leadership_modifier = 0.5
 	global_immigrant_attract = 0.040
-	tax_efficiency = 0.325
+	tax_efficiency = 0.05
 	education_efficiency_modifier = 0.35
 	icon = 5
 }
@@ -147,7 +147,7 @@ populationsize_5M = {
 	research_points = 0.20
 	leadership_modifier = 0.6
 	global_immigrant_attract = 0.060
-	tax_efficiency = 0.30
+	tax_efficiency = 0.04
 	education_efficiency_modifier = 0.30	
 	icon = 5
 }
@@ -162,7 +162,7 @@ populationsize_10M = {
 	research_points = 0.40
 	leadership_modifier = 0.7
 	global_immigrant_attract = 0.080
-	tax_efficiency = 0.25
+	tax_efficiency = 0.03
 	education_efficiency_modifier = 0.25
 	icon = 5
 }
@@ -177,7 +177,7 @@ populationsize_25M = {
 	research_points = 0.60
 	leadership_modifier = 0.8
 	global_immigrant_attract = 0.100
-	tax_efficiency = 0.20
+	tax_efficiency = 0.02
 	education_efficiency_modifier = 0.20	
 	icon = 5
 }
@@ -192,7 +192,7 @@ populationsize_50M = {
 	research_points = 0.80
 	leadership_modifier = 0.9
 	global_immigrant_attract = 0.130
-	tax_efficiency = 0.15
+	tax_efficiency = 0.01
 	education_efficiency_modifier = 0.15	
 	icon = 5
 }
@@ -207,7 +207,7 @@ populationsize_100M = {
 	research_points = 1.20
 	leadership_modifier = 1.0
 	global_immigrant_attract = 0.160
-	tax_efficiency = 0.10
+	#tax_efficiency = 0.0
 	education_efficiency_modifier = 0.10	
 	icon = 5
 }
@@ -222,7 +222,7 @@ populationsize_200M = {
 	research_points = 1.60
 	leadership_modifier = 1.1
 	global_immigrant_attract = 0.180
-	tax_efficiency = 0.05
+	tax_efficiency = -0.01
 	education_efficiency_modifier = 0.05	
 	icon = 5
 }
@@ -234,7 +234,7 @@ populationsize_300M = {
 	research_points = 2
 	leadership_modifier = 1.2
 	global_immigrant_attract = 0.20
-	#tax_efficiency = 0.00
+	#tax_efficiency = -0.02
 	#education_efficiency_modifier = 0.60	
 	icon = 5
 }
