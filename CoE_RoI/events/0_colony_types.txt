@@ -4,6 +4,7 @@ province_event = {
 	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
 	
 	trigger = {
+		owner = { has_global_flag = colonial_setup_done }
 	    owner = { ai = no }
 	    state_scope = { is_colonial = yes }
 		NOT = { has_province_modifier = settlement_colony }
@@ -55,6 +56,7 @@ province_event = {
 	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
 	
 	trigger = {
+		owner = { has_global_flag = colonial_setup_done }
 	    owner = { ai = yes }
 	    state_scope = { is_colonial = yes }
 		NOT = { has_province_modifier = settlement_colony }
@@ -132,6 +134,7 @@ province_event = {
 	desc = "We should decide whether our newly obtained colony will serve as ground for our setlers or will it sipmply be exploited for resources."
 	
 	trigger = {
+		owner = { has_global_flag = colonial_setup_done }
 	    owner = { ai = yes }
 	    state_scope = { is_colonial = yes }
 		NOT = { has_province_modifier = settlement_colony }
@@ -371,6 +374,7 @@ country_event = {
 				}
 		}
 	}
+	country_event = 999885
 	}
 }
 
@@ -401,5 +405,42 @@ province_event = {
 				remove_province_modifier = settlement_colony
 			}
 		}		
+	}
+}
+
+country_event = {
+	id = 999885
+	title = "Colonial SetUp2"
+	desc = "Colonial SetUp2."
+	
+	is_triggered_only = yes
+	
+	#allow_multiple_instances = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Colonial SetUp2!"
+		any_country = {
+			any_owned = {
+				limit = { 
+					is_colonial = yes
+					OR = { 
+						owner = { tag = FRA }
+						owner = { tag = NET }
+						owner = { tag = DEN }
+					}
+				}
+				remove_province_modifier = exploitation_colony
+				remove_province_modifier = settlement_colony
+				add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}			
+			}
+		}
+		set_global_flag = colonial_setup_done
 	}
 }
