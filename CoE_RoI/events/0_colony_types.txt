@@ -219,8 +219,20 @@ country_event = {
 		NOT = { has_province_modifier = exploitation_colony }
         OR = {
 		      continent = europe
-			  continent = north_america
-			  continent = south_america
+			  AND = { 
+				continent = north_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
+			  AND = { 
+				continent = south_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
@@ -259,8 +271,20 @@ country_event = {
 		NOT = { has_province_modifier = exploitation_colony }
 		NOT = {
 		      continent = europe
-			  continent = north_america
-			  continent = south_america
+			  AND = { 
+				continent = north_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
+			  AND = { 
+				continent = south_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
@@ -299,8 +323,20 @@ country_event = {
 		NOT = { has_province_modifier = exploitation_colony }
         OR = {
 		      continent = europe
-			  continent = north_america
-			  continent = south_america
+			  AND = { 
+				continent = north_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
+			  AND = { 
+				continent = south_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
@@ -339,8 +375,20 @@ country_event = {
 		NOT = { has_province_modifier = exploitation_colony }
 		NOT = {
 		      continent = europe
-			  continent = north_america
-			  continent = south_america
+			  AND = { 
+				continent = north_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
+			  AND = { 
+				continent = south_america 
+				OR = {
+					NOT = { tag = FRA }
+					NOT = { tag = NET }
+				}
+			  }
 			  continent = oceania
 			  is_core = THIS
 			  AND = { 
