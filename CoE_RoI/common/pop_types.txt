@@ -1420,6 +1420,10 @@ colonialmigration_chance = {
 		always = yes
 	}	
 	modifier = {
+		factor = -10
+		NOT = { any_owned_province = { has_province_modifier = settlement_colony } }
+	}	
+	modifier = {
 		factor = 0.2
 		country = { num_of_cities = 100 }
 	}	
