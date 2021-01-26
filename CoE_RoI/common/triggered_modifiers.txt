@@ -40,6 +40,19 @@
 #	icon = 19
 #}
 
+
+no_ai_bankruptcy = {
+	trigger = {
+		ai = yes
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+	}
+	max_loan_modifier = -10.0
+	icon = 11
+}
+
 populationsize_50k = {
 	trigger = {
 		NOT = { total_pops = 25000 }
