@@ -2355,6 +2355,16 @@ country_event = {
 	
 	option = {
 		name = "They can't keep fighting forever!"
+		release_vassal = GRE
+		any_owned = {
+			limit = {
+				OR = {
+					region = GRE_826 #Peloponnese
+					province_id = 845 #Cyclades
+				}
+			}
+			secede_province = GRE
+		}
 		random_country = {
 			limit = {
 				tag = GRE
@@ -2368,16 +2378,7 @@ country_event = {
 					secede_province = GRE
 				}
 			}
-		}
-		any_owned = {
-			limit = {
-				OR = {
-					region = GRE_826 #Peloponnese
-					province_id = 845 #Cyclades
-				}
-			}
-			secede_province = GRE
-		}
+		}		
 		any_pop = {
 			limit = {
 				culture = greek
@@ -2424,6 +2425,7 @@ country_event = {
 		GRE = {
 			set_country_flag = legitimacy
 			capital = 834
+			civilized = yes
 			add_country_modifier = {
 				name = csa_draft
 				duration = 1825

@@ -23,7 +23,6 @@ country_event = {
 			has_country_flag = hosting_london_conference_1830
 			has_country_modifier = neutrality
 			year = 1840
-			GRE = { badboy = 0.1 }
 		}
 		GRE = {
 			exists = yes
@@ -434,6 +433,7 @@ country_event = {
 			secede_province = TUR
 		}
 		845 = { secede_province = GRE }
+		GRE = { civilized = yes } #		
 		any_owned = {
 			remove_core = TUR
 		}
@@ -493,12 +493,12 @@ country_event = {
 	picture = "administration"
 
 	is_triggered_only = yes
-
 	option = {
 		name = "We will accept their decision."
 		prestige = 2
 		TUR = {
 			prestige = -2
+
 			any_owned = {
 				limit = {
 					region = GRE_837
@@ -527,6 +527,7 @@ country_event = {
 			remove_core = TUR
 		}
 		capital = 834
+		GRE = { civilized = yes } #			
 		clr_country_flag = attending_london_conference_1832
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
@@ -594,6 +595,7 @@ country_event = {
 	option = {
 		name = "We must accept their decision."
 		prestige = -5
+
 		any_owned = {
 			limit = {
 				OR = {
@@ -629,6 +631,7 @@ country_event = {
 			}
 			capital = 834
 		}
+		GRE = { civilized = yes } #			
 		clr_country_flag = attending_london_conference_1832
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
