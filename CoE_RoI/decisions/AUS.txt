@@ -716,7 +716,7 @@ political_decisions = {
 			AUS_734 = { add_core = AUS }
 			capital = 641
 			any_pop = {
-				limit = { has_pop_culture = north_german }
+				limit = { has_pop_culture = german }
 				militancy = 4
 			}
 			any_pop = {
@@ -724,7 +724,7 @@ political_decisions = {
 				militancy = -4
 			}
 			primary_culture = hungarian
-			add_accepted_culture = north_german
+			add_accepted_culture = german
 			clr_country_flag = dual_monarchy
 			change_tag = HUN
 		}
@@ -1417,7 +1417,7 @@ political_decisions = {
 
 		effect = {
 			prestige = -20
-			primary_culture = north_german
+			primary_culture = german
 			remove_accepted_culture = hungarian
 			remove_accepted_culture = slovak
 			remove_accepted_culture = slovene
