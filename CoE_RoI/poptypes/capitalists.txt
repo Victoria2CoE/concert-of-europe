@@ -23,7 +23,7 @@ rebel =
 	regular = 0.3
 }
 
-ife_needs_income = {
+life_needs_income = {
 	type = education
 	weight = 1.0
 }
