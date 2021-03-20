@@ -4128,7 +4128,7 @@ acquire_state = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 50000 }
+		NOT = { total_pops = 100000 }
 		#AI treats colonial states with only civilized cores as regular states
 		OR = {
 			is_colonial = no
@@ -4245,7 +4245,7 @@ acquire_state = {
 	}
 
 	allowed_states_in_crisis = {
-		NOT = { total_pops = 50000 }
+		NOT = { total_pops = 100000 }
 		any_owned_province = {
 			any_neighbor_province = {
 				owner = { tag = THIS }
