@@ -3369,7 +3369,7 @@ state_investments = {
 	goods_demand = 0.1
 	loan_interest = -0.10
 	global_population_growth = 0.002
-	education_efficiency_modifier = 0.6
+	education_efficiency_modifier = 1.0
 	pension_level = 5.0
 	icon = 47
 }
@@ -3380,7 +3380,7 @@ cooperation_with_rich = {
 	#goods_demand = -0.05
 	loan_interest = -0.20
 	global_population_growth = 0.001
-	education_efficiency_modifier = 0.8
+	education_efficiency_modifier = 1.0
 	icon = 47
 }
 
