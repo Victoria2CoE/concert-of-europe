@@ -3267,7 +3267,7 @@ cigarette_making_machines  = {
 	effect = {
 		#activate_building = Cigarette_factory 
 		factory_goods_throughput = {
-			ligth_industry = 0.05	
+			light_industry = 0.05	
 		}
 		factory_goods_throughput = {
 			luxury_industry = 0.025	
@@ -3290,7 +3290,7 @@ cigar_factories  = {
 	effect = {
 		#activate_building = Cigar_factory
 		factory_goods_throughput = {
-			ligth_industry = 0.025	
+			light_industry = 0.025	
 		}
 		factory_goods_throughput = {
 			luxury_industry = 0.05	
@@ -4532,9 +4532,9 @@ revanchism = {
 			}
 		}
 	}
-	pop_militancy_modifier = 0.01
 	effect = { 
 		war_exhaustion = -0.05
+		pop_militancy_modifier = 0.01
 		rebel_org_gain = {
 			faction = fascist_rebels
 			value = 0.50
