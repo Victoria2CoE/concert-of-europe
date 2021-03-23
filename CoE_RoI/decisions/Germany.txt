@@ -442,85 +442,85 @@ political_decisions = {
 		}
 	}
 	
-	the_saxon_boom = {
-		potential = {
-			OR = {
-				tag = PRU
-				tag = GER
-				tag = NGF
-			}
-			owns = 558 #Dresden
-			NOT = {
-				has_global_flag = saxon_boom_has_happened
-			}
-		}
-		
-		allow = {
-			market_structure = 1
-			organized_factories = 1
-			early_railroad = 1
-		}
-		
-		effect = {
-			any_owned = {
-				limit = {
-					OR = {
-                        region = SAX_558 #Saxony
-						province_id = 687 #Gorlitz
-					}
-				}
-				add_province_modifier = {
-					name = ruhr_boom
-					duration = 3650
-				}
-			}
-			set_global_flag = saxon_boom_has_happened
-		}
-	}
-	
-	league_of_three_emperors = {
-		potential = {
-			tag = GER
-			OR = {
-				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-				OR = { government = hms_government government = hms_government2 government = hms_government3 }
-			}
-			AUS = {
-				exists = yes
-				NOT = { any_core = { owned_by = GER } }
-				OR = {
-					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-					OR = { government = hms_government government = hms_government2 government = hms_government3 }
-				}
-			}
-			RUS = {
-				exists = yes
-				NOT = { any_core = { owned_by = GER } }
-				OR = {
-					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-					OR = { government = hms_government government = hms_government2 government = hms_government3 }
-				}
-			}
-			NOT = { has_country_flag = league_of_three_emperors }
-		}
-		
-		allow = {
-			war = no
-			NOT = { truce_with = AUS }
-			NOT = { war_with = AUS }
-			NOT = { truce_with = RUS }
-			NOT = { war_with = RUS }
-		}
-		
-		effect = {
-			set_country_flag = league_of_three_emperors
-			AUS = { country_event = 33020 }
-			RUS = { country_event = 33020 }
-		}
-	}
+	#the_saxon_boom = {
+	#	potential = {
+	#		OR = {
+	#			tag = PRU
+	#			tag = GER
+	#			tag = NGF
+	#		}
+	#		owns = 558 #Dresden
+	#		NOT = {
+	#			has_global_flag = saxon_boom_has_happened
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#		market_structure = 1
+	#		organized_factories = 1
+	#		early_railroad = 1
+	#	}
+	#	
+	#	effect = {
+	#		any_owned = {
+	#			limit = {
+	#				OR = {
+    #                    region = SAX_558 #Saxony
+	#					province_id = 687 #Gorlitz
+	#				}
+	#			}
+	#			add_province_modifier = {
+	#				name = ruhr_boom
+	#				duration = 3650
+	#			}
+	#		}
+	#		set_global_flag = saxon_boom_has_happened
+	#	}
+	#}
+	#
+	#league_of_three_emperors = {
+	#	potential = {
+	#		tag = GER
+	#		OR = {
+	#			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+	#			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+	#			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+	#		}
+	#		AUS = {
+	#			exists = yes
+	#			NOT = { any_core = { owned_by = GER } }
+	#			OR = {
+	#				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+	#				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+	#				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+	#			}
+	#		}
+	#		RUS = {
+	#			exists = yes
+	#			NOT = { any_core = { owned_by = GER } }
+	#			OR = {
+	#				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+	#				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+	#				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+	#			}
+	#		}
+	#		NOT = { has_country_flag = league_of_three_emperors }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		NOT = { truce_with = AUS }
+	#		NOT = { war_with = AUS }
+	#		NOT = { truce_with = RUS }
+	#		NOT = { war_with = RUS }
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = league_of_three_emperors
+	#		AUS = { country_event = 33020 }
+	#		RUS = { country_event = 33020 }
+	#	}
+	#}
 	
 	league_of_three_emperors2 = {
 		picture = league_of_three_emperors
