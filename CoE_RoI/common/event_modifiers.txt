@@ -63,14 +63,14 @@ anti_jacobin_tract = {
 }
 
 cholera_epidemic_small = {
-	population_growth = -0.002
+	population_growth = -0.001
 	pop_consciousness_modifier = 0.1
 	pop_militancy_modifier = 0.05
 	icon = 86
 }
 
 cholera_epidemic_big = {
-	population_growth = -0.005
+	population_growth = -0.002
 	pop_consciousness_modifier = 0.1
 	pop_militancy_modifier = 0.05
 	icon = 86
@@ -740,7 +740,7 @@ typhoid = {
 }
 
 smallpox = {
-	population_growth = -0.005
+	population_growth = -0.004
 	icon = 86
 }
 
