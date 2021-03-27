@@ -3488,7 +3488,7 @@ place_in_the_sun = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 50000 }
+		NOT = { total_pops = 100000 }
 		any_owned_province = { is_colonial = yes }
 		OR = {
 			NOT = {
@@ -5628,7 +5628,7 @@ demand_concession_casus_belli = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 50000 }
+		NOT = { total_pops = 100000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
