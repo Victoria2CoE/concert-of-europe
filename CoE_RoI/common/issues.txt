@@ -15,7 +15,7 @@ party_issues = {
 			max_tariff = 0.20
 			min_tariff = 0.10
 			
-			min_social_spending = 0.05
+			min_social_spending = 0.20
 			tax_efficiency = 0.01
 		}
 		free_trade = {
@@ -28,7 +28,7 @@ party_issues = {
 			poor_luxury_needs = 0.05
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
-			max_tariff = 0.10
+			max_tariff = 0.50
 			min_tariff = 0.05
 		}
 	}
