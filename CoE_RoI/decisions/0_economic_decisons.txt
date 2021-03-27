@@ -222,7 +222,7 @@ political_decisions = {
 				limit = { is_core = FRA }
 				add_province_modifier = {				
 					name = catching_up_economically_prov
-					duration = 18450
+					duration = 10800
 				}
 			}				
 		}
