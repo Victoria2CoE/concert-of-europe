@@ -1077,7 +1077,7 @@ country_event = {
 		any_state = {
 			any_owned_province = {
 				is_core = LOM
-				culture = north_italian
+				culture = italian
 				is_primary_culture = no
 			}
 			average_militancy = 4
