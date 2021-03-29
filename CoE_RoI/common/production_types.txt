@@ -26,7 +26,7 @@ military_factory_template = {
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.00
+			effect_multiplier = 2.50
 			amount = 1.0 #amount = 0.25
 		}
 		#{
@@ -38,18 +38,18 @@ military_factory_template = {
 		{
 			poptype = 00_urban_poor
 			effect = throughput
-			effect_multiplier = 1.00
-			amount = 0.2 #amount = 0.30
+			effect_multiplier = 0.50
+			amount = 1.0 #amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
-			effect_multiplier = 10.00
-			amount = 2.0 #amount = 0.15
+			effect_multiplier = 5.00
+			amount = 1.0 #amount = 0.15
 		}
 	}
 	type = factory
-	workforce = 20000
+	workforce = 10000
 }
 
 heavy_factory_template = {
@@ -77,7 +77,7 @@ heavy_factory_template = {
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.00
+			effect_multiplier = 2.50
 			amount = 1.0 #amount = 0.25
 		}
 		#{
@@ -89,18 +89,18 @@ heavy_factory_template = {
 		{
 			poptype = 00_urban_poor
 			effect = throughput
-			effect_multiplier = 1.00
-			amount = 0.2 #amount = 0.30
+			effect_multiplier = 0.50
+			amount = 1.0 #amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
-			effect_multiplier = 10.00
-			amount = 2.0 #amount = 0.15
+			effect_multiplier = 5.00
+			amount = 1.0 #amount = 0.15
 		}
 	}
 	type = factory
-	workforce = 20000
+	workforce = 10000
 }
 
 food_factory_template = {
@@ -129,7 +129,7 @@ food_factory_template = {
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.00
+			effect_multiplier = 2.50
 			amount = 1.0 #amount = 0.25
 		}
 		#{
@@ -141,18 +141,18 @@ food_factory_template = {
 		{
 			poptype = 00_urban_poor
 			effect = throughput
-			effect_multiplier = 1.00
-			amount = 0.2 #amount = 0.30
+			effect_multiplier = 0.50
+			amount = 1.0 #amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
-			effect_multiplier = 10.00
-			amount = 2.0 #amount = 0.15
+			effect_multiplier = 5.00
+			amount = 1.0 #amount = 0.15
 		}
 	}
 	type = factory
-	workforce = 20000
+	workforce = 10000
 }
 
 light_factory_template = {
@@ -183,7 +183,7 @@ light_factory_template = {
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.00
+			effect_multiplier = 2.50
 			amount = 1.0 #amount = 0.25
 		}
 		#{
@@ -195,18 +195,18 @@ light_factory_template = {
 		{
 			poptype = 00_urban_poor
 			effect = throughput
-			effect_multiplier = 1.00
-			amount = 0.2 #amount = 0.30
+			effect_multiplier = 0.50
+			amount = 1.0 #amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
-			effect_multiplier = 10.00
-			amount = 2.0 #amount = 0.15
+			effect_multiplier = 5.00
+			amount = 1.0 #amount = 0.15
 		}
 	}
 	type = factory
-	workforce = 20000
+	workforce = 10000
 }
 
 luxury_factory_template = {
@@ -256,7 +256,7 @@ luxury_factory_template = {
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.00
+			effect_multiplier = 2.50
 			amount = 1.0 #amount = 0.25
 		}
 		#{
@@ -268,18 +268,18 @@ luxury_factory_template = {
 		{
 			poptype = 00_urban_poor
 			effect = throughput
-			effect_multiplier = 1.00
+			effect_multiplier = 0.50
 			amount = 0.2 #amount = 0.30
 		}
 		{
 			poptype = clerks
 			effect = throughput
-			effect_multiplier = 10.00
+			effect_multiplier = 5.00
 			amount = 2.0 #amount = 0.15
 		}
 	}
 	type = factory
-	workforce = 20000
+	workforce = 10000
 }
 
 ############# Factories
