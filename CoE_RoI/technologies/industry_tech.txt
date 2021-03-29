@@ -1605,7 +1605,7 @@ mechanized_mining = {
 	cost = 4500
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 0.1
+		coal = 0.2
 	}
 	rgo_goods_throughput = {
 		copper = 0.1
@@ -1697,10 +1697,10 @@ clean_coal = {
 	cost = 7600
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 0.4
+		coal = 0.8
 	}
 	rgo_goods_throughput = {
-		iron = 0.05
+		iron = 0.10
 	}
 	rgo_goods_throughput = {
 		sulphur = 0.05
@@ -1801,13 +1801,13 @@ cheap_iron = {
 		precious_metal = 0.025
 	}
 	rgo_goods_throughput = {
-		iron = 0.2
+		iron = 0.4
 	}
 	rgo_goods_throughput = {
 		sulphur = 0.05
 	}
 	rgo_goods_throughput = {
-		coal = 0.2
+		coal = 0.4
 	}
 	factory_goods_throughput = {
 		heavy_industry =  0.05 
@@ -1913,10 +1913,10 @@ cheap_steel =  {
 		sulphur = 0.2
 	}
 	rgo_goods_throughput = {
-		coal = 0.2
+		coal = 0.4
 	}
 	rgo_goods_throughput = {
-		iron = 0.2
+		iron = 0.4
 	}
 	rgo_goods_throughput = {
 		copper = 0.2
@@ -2032,7 +2032,7 @@ advanced_metallurgy = {
 		oil = 1
 	}
 	rgo_goods_throughput = {
-		iron = 0.4
+		iron = 0.8
 	}
 	rgo_goods_throughput = {
 		sulphur = 0.4
@@ -2047,7 +2047,7 @@ advanced_metallurgy = {
 		lead = 0.4
 	}
 	rgo_goods_throughput = {
-		coal = 0.4
+		coal = 0.8
 	}
 	ai_chance = {
 		factor = 1.5
@@ -2135,14 +2135,14 @@ electric_furnace = {
 	cost = 30000
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 0.4
+		coal = 0.8
 	}
 	rgo_goods_throughput = {
-		iron = 0.4
+		iron = 0.8
 	}
-	factory_goods_output = {
-		heavy_industry =  0.1 
-	}
+	#factory_goods_output = {
+	#	heavy_industry =  0.1 
+	#}
 	factory_goods_output = {
 		heavy_industry =  0.1 
 	}
@@ -2240,10 +2240,10 @@ modern_metallurgy = {
 	cost = 40000
 	education_efficiency = 0.05
 	rgo_goods_throughput = {
-		coal = 0.4
+		coal = 0.8
 	}
 	rgo_goods_throughput = {
-		iron = 0.4
+		iron = 0.8
 	}
 	factory_goods_output = {
 		heavy_industry =  0.1 
@@ -2352,10 +2352,10 @@ modern_metallurgy_1930 = {
 		heavy_industry =  0.25 
 	}
 	rgo_goods_throughput = {
-		coal = 0.2
+		coal = 1.0
 	}
 	rgo_goods_throughput = {
-		iron = 0.2
+		iron = 1.0
 	}			
 	ai_chance = {
 		factor = 2

@@ -816,7 +816,7 @@ pit_coal = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 0.1
+			coal = 0.2
 		}
 	}
 	
@@ -835,7 +835,7 @@ coke = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			coal = 0.05
+			coal = 0.10
 		}
 	}
 	

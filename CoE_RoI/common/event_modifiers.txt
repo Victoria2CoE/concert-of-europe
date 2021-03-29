@@ -713,7 +713,7 @@ new_production = {
 }
 
 exhausted_land = {
-	farm_RGO_eff = -0.80
+	farm_RGO_eff = -0.60
 	icon = 66
 }
 
