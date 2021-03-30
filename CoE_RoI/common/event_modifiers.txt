@@ -838,6 +838,7 @@ economic_boom = {
 	rich_luxury_needs = 0.15
 	global_population_growth = 0.002
 	education_efficiency_modifier = 0.50
+	ruling_party_support = 0.10
 	icon = 50
 }
 
@@ -851,6 +852,7 @@ recession = {
 	middle_luxury_needs = -0.05
 	rich_luxury_needs = -0.05
 	loan_interest = 0.02
+	ruling_party_support = -0.25
 	#education_efficiency_modifier = -0.25
 	icon = 48
 }
