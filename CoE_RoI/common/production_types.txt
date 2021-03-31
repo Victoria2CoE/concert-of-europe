@@ -157,18 +157,18 @@ food_factory_template = {
 
 light_factory_template = {
 	efficiency = {
-		coal = 30 #1.38$
- 		timber = 40 #1.44$
-		dye = 15 #0.8$
-		wool = 24.0 #0.8$
-		cotton = 30.0 #2$
-		rubber = 25.0 #0.4$
-		oil = 50 #0.4$
+		coal = 60 #1.38$
+ 		timber = 80 #1.44$
+		dye = 30 #0.8$
+		wool = 48.0 #0.8$
+		cotton = 60.0 #2$
+		rubber = 50.0 #0.4$
+		oil = 100 #0.4$
 		#copper = 1.00 #0.208$
 		#lead = 0.50 #0.092$
 		#iron = 1.50 #0.396$
-		cattle = 37.5 #0.4$
-		grain = 45.0
+		cattle = 75.0 #0.4$
+		grain = 90.0
 		#7.916$
 	}
 
