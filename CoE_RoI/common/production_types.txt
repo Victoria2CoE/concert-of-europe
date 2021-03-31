@@ -4,14 +4,14 @@
 military_factory_template = {
 	efficiency = {
 		coal = 15.0 #3.45$
-		horses = 0.625 #0.4$
-		lead = 2.5 #0.92$
-		copper = 2.5 #1.4$
-		sulphur = 1.25 #0.7$
-		timber = 1.25 #0.36$
-		cattle = 0.25 #0.04$
-		cotton = 0.25 #0.04$
-		wool = 0.75 #0.02$
+		horses = 6.25 #0.4$
+		lead = 25.0 #0.92$
+		copper = 25.0 #1.4$
+		sulphur = 12.5 #0.7$
+		timber = 12.5 #0.36$
+		cattle = 2.5 #0.04$
+		cotton = 2.5 #0.04$
+		wool = 7.5 #0.02$
 		#4.387$
 	}
 
@@ -54,15 +54,15 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 52.5 #2.3$
-		horses = 0.54 #0.08$
- 		timber = 6.3 #0.36$
-        sulphur = 1.88 #0.175$
-        copper = 15.0 #0.52$
-		lead = 15.0 #0.46$
-		oil = 10.0 #0.8$
-		rubber = 6.0 #0.8$
-		iron = 80.0
+		coal = 80.0 #2.3$
+		horses = 5.4 #0.08$
+ 		timber = 60.0 #0.36$
+        sulphur = 18.8 #0.175$
+        copper = 120.0 #0.52$
+		lead = 120.0 #0.46$
+		oil = 100.0 #0.8$
+		rubber = 60.0 #0.8$
+		iron = 120.0
 		#6.215$
 	}
 
@@ -160,10 +160,10 @@ light_factory_template = {
 		coal = 30 #1.38$
  		timber = 40 #1.44$
 		dye = 15 #0.8$
-		wool = 2.4 #0.8$
-		cotton = 3.0 #2$
+		wool = 24.0 #0.8$
+		cotton = 30.0 #2$
 		rubber = 25.0 #0.4$
-		oil = 5 #0.4$
+		oil = 50 #0.4$
 		#copper = 1.00 #0.208$
 		#lead = 0.50 #0.092$
 		#iron = 1.50 #0.396$
@@ -211,28 +211,28 @@ light_factory_template = {
 
 luxury_factory_template = {
 	efficiency = {
-		silk = 7.5 #1.5$ 
-		spices = 5 #1.6$
-		opium = 5 #1.6$
-		coffee = 5 #0.9$
-		tea = 5 #0.5$
+		silk = 75.0 #1.5$ 
+		spices = 50 #1.6$
+		opium = 50 #1.6$
+		coffee = 50 #0.9$
+		tea = 50 #0.5$
 		#cattle = 3.0 #0.6$
-		fruit = 2.6 #0.52$
+		fruit = 26.0 #0.52$
 		#grain = 0.5 #0.15$	
 		#coal = 2 #0.92$
  		#timber = 2 #0.72$
-		tropical_wood = 5 #1$
+		tropical_wood = 50 #1$
 		#timber = 3 #0.72$
-		dye = 20 #1.6$
-		#wool = 3.2 #0.64$
-		cotton = 45 #2.4$
+		dye = 200 #1.6$
+		wool = 300 #0.64$
+		cotton = 450 #2.4$
 		#rubber = 2 #0.8$
 		#copper = 0.60 #0.312$
 		#oil = 1 #0.4$
 		#lead = 0.25 #0.115$
 		#iron = 0.80 #0.528$
 		#silk = 1.5 #1.5$ 
-		horses = 0.25 #0.08$
+		horses = 2.5 #0.08$
 		#sugar = 0.40 #0.12$
 		#spices = 1 #1.6$
 		#opium = 1 #1.6$
@@ -390,31 +390,31 @@ RGO_template_labourers = {
 			poptype = labourers
 			effect = throughput
 			effect_multiplier = 1.0
-			amount = 0.25 #amount = 0.27
+			amount = 1.0 #amount = 0.27
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
 			effect_multiplier = 0.5
-			amount = 0.25 #amount = 0.24
+			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = farmers
 			effect = throughput
 			effect_multiplier = 2.5
-			amount = 0.20 #amount = 0.24
+			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = craftsmen
 			effect = throughput
 			effect_multiplier = 10.0
-			amount = 0.10 #amount = 0.24
+			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = slaves
 			effect = output
 			effect_multiplier = 2.0
-			amount = 0.30 #amount = 0.25
+			amount = 1.0 #amount = 0.25
 		}		
 	}
 
@@ -426,7 +426,7 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_labourers
 	output_goods = cattle
-	value = 5
+	value = 2.5
 	farm = yes
 }
 
@@ -440,7 +440,7 @@ coal_mine = {
 coffee_plantation = {
 	template = RGO_template_labourers
 	output_goods = coffee
-	value = 3
+	value = 1.5
 	farm = yes
 }
 
@@ -454,28 +454,28 @@ copper_mine = {
 cotton_plantation = {
 	template = RGO_template_labourers
 	output_goods = cotton
-	value = 6
+	value = 3
 	farm = yes
 }
 
 dye_plantation = {
 	template = RGO_template_labourers
 	output_goods = dye
-	value = 4
+	value = 2
 	farm = yes
 }
 
 fishing_wharf = {
 	template = RGO_template_labourers
 	output_goods = fish
-	value = 4.5
+	value = 2.25
 	farm = yes
 }
 
 grain_farm = {
 	template = RGO_template_labourers
 	output_goods = grain
-	value = 5
+	value = 2.5
 	farm = yes
 }
 
@@ -503,14 +503,14 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_labourers
 	output_goods = opium
-	value = 2.5
+	value = 1.25
 	farm = yes
 }
 
 orchard = {
 	template = RGO_template_labourers
 	output_goods = fruit
-	value = 5
+	value = 2.5
 	farm = yes
 }
 
@@ -531,42 +531,42 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_labourers
 	output_goods = wool
-	value = 5
+	value = 2.5
 	farm = yes
 }
 
 silkworm_ranch = {
 	template = RGO_template_labourers
 	output_goods = silk
-	value = 1.5
+	value = 0.75
 	farm = yes
 }
 
 spice_plantation = {
 	template = RGO_template_labourers
 	output_goods = spices
-	value = 1.5
+	value = 0.75
 	farm = yes
 }
 
 sugar_plantation = {
 	template = RGO_template_labourers
 	output_goods = sugar
-	value = 6
+	value = 3
 	farm = yes
 }
 
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur
-	value = 3
+	value = 1.5
 	mine = yes
 }
 
 tea_plantation = {
 	template = RGO_template_labourers
 	output_goods = tea
-	value = 2.0
+	value = 1.0
 	farm = yes
 }
 
@@ -580,7 +580,7 @@ timber_lodge = {
 tobacco_plantation = {
 	template = RGO_template_labourers
 	output_goods = tobacco
-	value = 3
+	value = 1.5
 	farm = yes
 }
 
