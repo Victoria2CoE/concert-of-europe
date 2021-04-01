@@ -40,7 +40,7 @@ party_issues = {
 			factory_input = -0.02
 			education_efficiency_modifier = 0.20
 			
-			#min_social_spending = 0.00
+			min_social_spending = 0.05
 			
 			rules = {
 				build_factory = no
@@ -101,7 +101,7 @@ party_issues = {
 			factory_owner_cost = 1.5
 			factory_throughput = 0.10
 			
-		    min_social_spending = 0.20
+		    min_social_spending = 0.15
 			tax_efficiency = 0.02
 			
 			education_efficiency_modifier = 0.10
@@ -131,7 +131,7 @@ party_issues = {
 			rgo_throughput = 0.10
 			factory_owner_cost = -1	#negative costs, can't build.
 			
-			min_social_spending = 0.30
+			min_social_spending = 0.25
 			tax_efficiency = 0.05
 			
 			rules = {
@@ -159,7 +159,7 @@ party_issues = {
 			rgo_throughput = 0.05
 			factory_owner_cost = 5	#negative costs, can't build.
 			
-			min_social_spending = 0.25
+			min_social_spending = 0.20
 			tax_efficiency = 0.03
 			
 			education_efficiency_modifier = 0.05
@@ -875,7 +875,7 @@ social_reforms = {
 			poor_luxury_needs = -0.2
 			min_social_spending = -0.05
 			education_efficiency_modifier = -0.50
-			pension_level = 0.25
+			pension_level = -0.50
 			global_population_growth = 0.002
 			 allow = {
 				always = no
@@ -893,7 +893,7 @@ social_reforms = {
 			poor_luxury_needs = -0.1
             #min_social_spending = -0.05	
 			education_efficiency_modifier = -0.25
-			pension_level = 0.50
+			pension_level = -0.25
 			global_population_growth = 0.001
 			 allow = {
 				always = no
@@ -907,7 +907,7 @@ social_reforms = {
 			poor_life_needs = 0.1
 			poor_everyday_needs = 0.1
 			poor_luxury_needs = 0.1	
-			pension_level = 1.00
+			#pension_level = 0.50
 			min_social_spending = 0.05
 			max_tax = 0.01
 			#global_population_growth = 0.001
@@ -920,7 +920,7 @@ social_reforms = {
 			education_efficiency_modifier = 0.50
 			political_reform_desire = -0.05
 			social_reform_desire = -0.05
-			pension_level = 2.00
+			pension_level = 0.25
 			min_social_spending = 0.10
 			max_tax = 0.02
 			global_population_growth = 0.001
@@ -939,7 +939,7 @@ social_reforms = {
 			poor_life_needs = 0.30
 			poor_everyday_needs = 0.30
 			poor_luxury_needs = 0.30
-			pension_level = 3.00
+			pension_level = 0.50
 			min_social_spending = 0.15
 			max_tax = 0.03
 			global_population_growth = -0.001
