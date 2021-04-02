@@ -3394,8 +3394,8 @@ austerity_measures = {
 	global_population_growth = -0.001
 	education_efficiency_modifier = 0.60
 	tax_efficiency = -0.10
-	min_social_spending = -0.05
-	pension_level = -5.0
+	min_social_spending = -0.10
+	pension_level = -0.5
 	icon = 47
 }
 
@@ -3426,8 +3426,8 @@ random_migration_cooldown = {
 }
 
 bhu_paradise = {
-	rgo_output = 1.0
-	#goods_demand = 10000
+	rgo_output = 100.0
+	goods_demand = 50.0
 	#mine_RGO_eff = 1000
 	research_points_modifier = -1000
 	prestige = -1000
