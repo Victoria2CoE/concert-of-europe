@@ -29,17 +29,17 @@ strata = middle
 #}
 
 life_needs = {
-	food_industry = 3.0
+	food_industry = 6.0
 }
 everyday_needs = {
-	light_industry = 15.0
-	food_industry = 40
+	light_industry = 20.0
+	food_industry = 80
 }
 luxury_needs = {
-	luxury_industry = 4
-	food_industry = 40
-	light_industry = 6.0
-	heavy_industry = 3.0
+	luxury_industry = 8
+	food_industry = 80
+	light_industry = 10.0
+	heavy_industry = 6.0
 }
 
 country_migration_target =

@@ -38,17 +38,17 @@ strata = poor
 can_build = yes
 
 life_needs = {
-	food_industry = 10.0
+	food_industry = 16.0
 }
 everyday_needs = {
-	light_industry = 60
+	light_industry = 64
 	food_industry = 240
 }
 luxury_needs = {
-	luxury_industry = 12
+	luxury_industry = 18
 	food_industry = 240
-	light_industry = 20.0
-	heavy_industry = 9.0
+	light_industry = 24.0
+	heavy_industry = 18.0
 }
 
 
