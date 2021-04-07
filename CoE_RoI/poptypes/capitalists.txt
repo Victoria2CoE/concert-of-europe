@@ -24,15 +24,15 @@ rebel =
 	regular = 0.3
 }
 
-life_needs_income = {
-	type = education
-	weight = 1.0
-}
-
-everyday_needs_income = {
-	type = education
-	weight = 1.0
-}
+#life_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
+#
+#everyday_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
 
 luxury_needs_income = {
 	type = education

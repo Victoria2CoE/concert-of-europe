@@ -38,16 +38,16 @@ luxury_needs_income = {
 }
 
 life_needs = {
-	food_industry = 10.0
+	food_industry = 12.0
 }
 everyday_needs = {
 	light_industry = 40.0
-	food_industry = 120
+	food_industry = 160
 }
 luxury_needs = {
 	luxury_industry = 12
-	food_industry = 120
-	light_industry = 25.00
+	food_industry = 160
+	light_industry = 24.00
 	heavy_industry = 4.5
 }
 

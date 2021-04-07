@@ -297,10 +297,10 @@ heavy_factory = {
 military_factory = {
 	template = military_factory_template #98
 	input_goods = {
-		heavy_industry = 8
+		heavy_industry = 3.0
 	}
 	output_goods = military_industry
-	value = 8.0
+	value = 3.0
 }
 
 food_factory = {
