@@ -23,17 +23,18 @@ rebel =
 strata = middle
 
 
-#ife_needs_income = {
+#life_needs_income = {
 #	type = education
 #	weight = 1.0
 #}
 
 life_needs = {
-	food_industry = 6.0
+	food_industry = 26.0
+	light_industry = 5
 }
 everyday_needs = {
-	light_industry = 20.0
-	food_industry = 80
+	light_industry = 15.0
+	food_industry = 60
 }
 luxury_needs = {
 	luxury_industry = 8

@@ -37,18 +37,19 @@ life_needs_income = {
 	weight = 1.0
 }
 
-luxury_needs_income =
-{
-	type = administration
-	weight = 1.0
-}
+#luxury_needs_income =
+#{
+#	type = administration
+#	weight = 1.0
+#}
 
 life_needs = {
-	food_industry = 12.0
+	food_industry = 42.0
+	light_industry = 10.0
 }
 everyday_needs = {
-	light_industry = 40.0
-	food_industry = 160
+	light_industry = 30.0
+	food_industry = 120
 }
 luxury_needs = {
 	luxury_industry = 12

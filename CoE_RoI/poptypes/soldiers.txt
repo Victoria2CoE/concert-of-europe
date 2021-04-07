@@ -32,20 +32,21 @@ everyday_needs_income = {
 	weight = 1.0
 }
 
-luxury_needs_income =
-{
-	type = military
-	weight = 1
-
-}
+#luxury_needs_income =
+#{
+#	type = military
+#	weight = 1
+#
+#}
 
 life_needs = {
-	food_industry = 16.0
+	food_industry = 76.0
+	light_industry = 6
 }
 everyday_needs = {
-	light_industry = 24
+	light_industry = 18
 	military_industry = 4.0
-	food_industry = 240
+	food_industry = 180
 }
 luxury_needs = {
 	luxury_industry = 10

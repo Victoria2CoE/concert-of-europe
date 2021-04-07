@@ -25,28 +25,29 @@ rebel =
 
 life_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1.0
 }
 
 everyday_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1.0
 }
 
-luxury_needs_income =
-{
-	type = military
-	weight = 1.5
-
-}
+#luxury_needs_income =
+#{
+#	type = military
+#	weight = 1.0
+#
+#}
 
 life_needs = {
-	food_industry = 24.0
+	food_industry = 76.0
+	light_industry = 8
 }
 everyday_needs = {
-	light_industry = 32.0
+	light_industry = 24.0
 	military_industry = 3.0
-	food_industry = 240
+	food_industry = 160
 }
 luxury_needs = {
 	luxury_industry = 20

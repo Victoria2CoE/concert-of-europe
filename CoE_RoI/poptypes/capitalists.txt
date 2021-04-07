@@ -28,25 +28,26 @@ rebel =
 #	type = education
 #	weight = 1.0
 #}
-#
-#everyday_needs_income = {
-#	type = education
-#	weight = 1.0
-#}
 
-luxury_needs_income = {
+everyday_needs_income = {
 	type = education
 	weight = 1.0
 }
 
+#luxury_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
+
 can_build = yes
 
 life_needs = {
-	food_industry = 24.0
+	food_industry = 84.0
+	light_industry = 24.0
 }
 everyday_needs = {
-	light_industry = 96.0
-	food_industry = 240
+	light_industry = 72.0
+	food_industry = 180
 }
 luxury_needs = {
 	luxury_industry = 64.0

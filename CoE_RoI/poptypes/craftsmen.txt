@@ -28,7 +28,7 @@ rebel =
 	regular = 0.2
 }
 
-everyday_needs_income = {
+life_needs_income = {
 	type = education
 	weight = 1.0
 }
@@ -38,11 +38,12 @@ strata = poor
 can_build = yes
 
 life_needs = {
-	food_industry = 16.0
+	food_industry = 76.0
+	light_industry = 16
 }
 everyday_needs = {
-	light_industry = 64
-	food_industry = 240
+	light_industry = 48
+	food_industry = 180
 }
 luxury_needs = {
 	luxury_industry = 18

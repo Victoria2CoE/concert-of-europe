@@ -21,7 +21,7 @@ rebel =
 	regular = 0.3
 }
 
-everyday_needs_income = {
+life_needs_income = {
 	type = education
 	weight = 1.0
 }
@@ -32,11 +32,12 @@ can_work_factory = yes
 color = { 234 227 40 }
 
 life_needs = {
-	food_industry = 24.0
+	food_industry = 84.0
+	light_industry = 20
 }
 everyday_needs = {
-	light_industry = 80
-	food_industry = 240
+	light_industry = 60
+	food_industry = 180
 }
 luxury_needs = {
 	luxury_industry = 36
