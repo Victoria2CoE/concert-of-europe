@@ -372,7 +372,7 @@ local_economic_downturn = {
 southern_plantations = {
 	farm_RGO_eff = 5.0
 	pop_consciousness_modifier = -0.01
-	immigrant_attract = -0.25
+	immigrant_attract = -0.50
 	icon = 4
 }
 free_staters = {
