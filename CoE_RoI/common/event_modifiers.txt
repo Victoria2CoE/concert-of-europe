@@ -3372,7 +3372,7 @@ state_investments = {
 	loan_interest = -0.10
 	global_population_growth = 0.002
 	education_efficiency_modifier = 1.0
-	pension_level = 5.0
+	pension_level = 1.0
 	icon = 47
 }
 
@@ -3395,7 +3395,7 @@ austerity_measures = {
 	education_efficiency_modifier = 0.60
 	tax_efficiency = -0.10
 	min_social_spending = -0.10
-	pension_level = -0.5
+	pension_level = -0.25
 	icon = 47
 }
 
@@ -3408,15 +3408,15 @@ land_reform_in_process = {
 	RGO_throughput = -0.10
 	global_population_growth = 0.001
 	education_efficiency_modifier = 0.25
-	pension_level = 1.0
+	pension_level = 0.25
 	icon = 47
 }
 
 collectivization_in_process = {
 	farm_RGO_eff = -0.30
 	global_population_growth = -0.003
-	education_efficiency_modifier = 2.00
-	pension_level = 5.0
+	education_efficiency_modifier = 2.50
+	pension_level = 1.0
 	icon = 47
 }
 
