@@ -768,8 +768,10 @@ money_hoarder_1 = {
 			}
 		}
 	}
-	tax_efficiency = -0.05
-	tariff_efficiency_modifier = -0.25
+	#tax_efficiency = -0.05
+	#tariff_efficiency_modifier = -0.25
+	pensions = 10.0
+	min_social_spending = 0.50
 	icon = 1
 }
 
@@ -790,8 +792,10 @@ money_hoarder_2 = {
 			}
 		}
 	}
-	tax_efficiency = -0.20
-	tariff_efficiency_modifier = -0.50
+	#tax_efficiency = -0.20
+	#tariff_efficiency_modifier = -0.50
+	pensions = 25.0
+	min_social_spending = 0.50	
 	icon = 1
 }
 
@@ -808,8 +812,10 @@ money_hoarder_3 = {
 			}
 		}
 	}
-	tax_efficiency = -0.30
-	tariff_efficiency_modifier = -0.75
+	#tax_efficiency = -0.30
+	#tariff_efficiency_modifier = -0.75
+	pensions = 50.0
+	min_social_spending = 0.50	
 	icon = 1
 }
 
@@ -817,8 +823,10 @@ money_hoarder_4 = {
 	trigger = {
 			  money = 1000000000
 	}
-	tax_efficiency = -10.00
-	tariff_efficiency_modifier = -10.00
+	#tax_efficiency = -10.00
+	#tariff_efficiency_modifier = -10.00
+	pensions = 100.0
+	min_social_spending = 0.50	
 	icon = 1
 }
 
