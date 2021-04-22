@@ -1899,7 +1899,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1.0
+		factor = 0.5
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -2345,7 +2345,7 @@ ideologies = {
 	}
 
 	liberal = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 1.2
 			country = { 
