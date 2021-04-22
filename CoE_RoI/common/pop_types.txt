@@ -2664,7 +2664,7 @@ assimilation_chance =
 		country = { religious_policy = secularized }
 	}
 	modifier = {
-    	factor = -10
+    	factor = -20
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
@@ -2673,7 +2673,7 @@ assimilation_chance =
 		NOT = { type farmers }
 	}
 	modifier = {
-		factor = -7.5
+		factor = -15.0
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
@@ -2682,7 +2682,7 @@ assimilation_chance =
 		type = farmers
 	}
 	modifier = {
-    	factor = -7.5
+    	factor = -5.0
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
@@ -2693,15 +2693,15 @@ assimilation_chance =
 		location = {
        		any_core = { is_primary_culture = THIS }
     	}
-		strata = middle
+		strata = poor
 	}
-	modifier = {
-    	factor = -5.0
-		location = {
-       		any_core = { is_primary_culture = THIS }
-    	}
-		type = aristocrats
-	}
+	#modifier = {
+    #	factor = -5.0
+	#	location = {
+    #   		any_core = { is_primary_culture = THIS }
+    #	}
+	#	type = capitalists
+	#}
 	modifier = {
 		factor = 20
 		is_accepted_culture = no
