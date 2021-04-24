@@ -271,17 +271,17 @@ HAN_534 = { 534 535 536 537 } #Hannover
 
 HAN_540 = { 539 540 543 542 538 541 } #East Friesland
 
-PRU_544 = { 544 545 } #Mecklenburg
+PRU_544 = { 544 545 547 548 } #Mecklenburg
 
-PRU_546 = { 546 547 548 679 680 } #Pomerania
+PRU_546 = { 546 679 680 681 } #Pomerania
 
-PRU_549 = { 549 550 551 552 681 } #Brandenburg
+PRU_549 = { 549 550 551 552 } #Brandenburg
 
 PRU_553 = { 553 555 556 557 } #Magdeburg
 
 PRU_554 = { 554 561 562 563 } #Thuringia
 
-SAX_558 = { 558 559 560 } #Saxony
+SAX_558 = { 558 559 560 687 } #Saxony
 
 HES_2560 = { 564 565 566 567 568 2560 } #Hessen
 
@@ -307,7 +307,7 @@ SWI_607 = { 607 608 609 } #French Switzerland
 
 SWI_2568 = { 2568 611 } #Italian Switzerland
 
-PRU_682 = { 682 683 687 3255 3256 } #Lower Silesia
+PRU_682 = { 682 683 3255 3256 } #Lower Silesia
 
 PRU_684 = { 684 685 689 2584 } #Upper Silesia
 
@@ -328,11 +328,11 @@ AUS_619 = { 619 620 621 622 624 } #Österreich
 
 AUS_623 = { 623 639 640 642 643 644 } #Transdanubia
 
-AUS_625 = { 625 626 629 630 3254 } #Bohemia
+AUS_625 = { 625 626 629 3254 } #Bohemia
 
 AUS_626 = { 631 632 } #Moravia
 
-AUS_628 = { 628 627 688 } #Sudetenland
+AUS_628 = { 628 627 688 630 } #Sudetenland
 
 AUS_633 = { 633 634 635 636 637 638 657 950 } #Slovakia
 
@@ -539,11 +539,11 @@ RUS_339 = { 339 984 995 988 } #Karelia
 
 RUS_706 = { 706 708 709 710 717 712 } #Masovia
 
-RUS_715 = { 715 711 713 716 } #Central Poland
+RUS_715 = { 715 711 713 716 961 } #Central Poland
 
 RUS_936 = { 936 719 937 2614 } #Grodno/Brêst
 
-RUS_718 = { 718 940 939 941 942 } #Minsk
+RUS_718 = { 718 941 942 } #Minsk
 
 RUS_943 = { 943 999 1007 1014 } #Smolensk
 
@@ -551,7 +551,7 @@ RUS_947 = { 944 945 946 948 949 } #Mogilev/Orsha/Vitebsk
 
 RUS_955 = { 955 954 } #Podillia
 
-RUS_956 = { 956 957 961 } #Volhynia
+RUS_956 = { 956 957 940 939 } #Volhynia
 
 RUS_958 = { 958 959 960 } #Kiev
 
@@ -829,7 +829,7 @@ CHI_1524 = { 1524 1525 1528 1529 } #West Hunan
 
 CHI_1526 = { 1526 1527 1530 } #East Hunan
 
-CHI_1532 = { 1532 1533 1534 1535 } #Inner Mongolia
+CHI_1532 = { 1532 1534 1535 } #Inner Mongolia
 
 CHI_2221 = { 2221 1538 1537 1539 1544 } #South Jiangsu
 
@@ -839,7 +839,7 @@ CHI_1545 = { 1545 1546 1549 1551 } #North Jiangxi
 
 CHI_1547 = { 1547 1548 1550 } #South Jiangxi
 
-CHI_1552 = { 1552 1002 1553 } #Heilongjiang
+CHI_1552 = { 1552 1002 1553 1533 } #Heilongjiang
 
 CHI_1557 = { 1557 1558 1556 } #Kokonor/Qinghai
 
@@ -927,25 +927,25 @@ ALD_1718 = { 1712 1713 1714 1729 } #Sahara
 
 TUN_1726 = { 1725 1726 1727 1728 1730 } #Tunisia
 
-TRI_1731 = { 1731 1733 1734 1732 1744 } #Tripolitania
+TRI_1731 = { 1731 1733 1732 1744 1741 1742 1743 } #Tripolitania
 
-TRI_1735 = { 1735 1736 1737 1738 1739 } #Cyrenaica
+TRI_1735 = { 1735 1736 1737 1738 1739 1734 } #Cyrenaica
 
-TRI_1740 = { 1741 1742 1743 } #Fezzan
+#TRI_1740 = { 1741 1742 1743 } #Fezzan
 
 EGY_1745 = { 1745 1750 1748 1749 } #Cairo
 
 EGY_1751 = { 1751 1746 1747 } #Alexandria
 
-EGY_1753 = { 1753 1754 1752 1759 } #Qattara
+EGY_1753 = { 1753 1754 1752 1759 1758 1761 1760 } #Qattara
 
 EGY_1755 = { 1755 1756 1757 } #Sinai
 
-EGY_1758 = { 1758 1761 1760 1766 } #Egyptian Desert
+#EGY_1758 = { 1758 1761 1760 1766 } #Egyptian Desert
 
 EGY_1762 = { 1762 2559 1764 1772 1765 1763 } #Middle Egypt
 
-EGY_1771 = { 1771 1768 1770 1769 1767 } #Upper Egypt
+EGY_1771 = { 1767 1771 1768 1770 1769 1766 } #Upper Egypt
 
 FRA_1808 = { 1808 1809 1810 1811 1815 1816 } #Outer Hausaland
 
