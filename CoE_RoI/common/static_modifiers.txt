@@ -154,6 +154,7 @@ base_values = {
 	#tax_efficiency = 0.25
 	#rich_luxury_needs = 25.0
 	#tariff_efficiency_modifier = -0.5
+	cb_generation_speed_modifier = 1.0
 }
 
 war = {
@@ -179,7 +180,7 @@ war_exhaustion = {
 	org_regain = -0.01
 	factory_throughput = -0.01
 	tax_efficiency = -0.002
-	cb_generation_speed_modifier = -0.05
+	cb_generation_speed_modifier = -0.01
 	RGO_throughput = -0.01
 	prestige = -0.01
 	education_efficiency_modifier = -0.02
