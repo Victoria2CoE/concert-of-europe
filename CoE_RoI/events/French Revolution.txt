@@ -20,26 +20,29 @@ country_event = {
 	trigger = {
 		tag = FRA
 		exists = yes
+		NOT = { has_country_flag = fra_ancien_regime_holding }
 		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		OR = {
 			has_country_modifier = springtime_of_nations
 			has_country_flag = liberal_revolution_in_progress
 		}
-		OR = {
-			AND = {
-				average_militancy = 2
-				has_country_modifier = springtime_of_nations
-			}
-			AND = {
-				average_militancy = 3
-				NOT = { has_country_modifier = springtime_of_nations }
-			}
-			any_owned_province = {
-				is_capital = yes
-				controlled_by = REB
-			}
-			revolt_percentage = 0.50
-		}		
+		#OR = {
+		#	AND = {
+		#		average_militancy = 2
+		#		has_country_modifier = springtime_of_nations
+		#	}
+		#	AND = {
+		#		average_militancy = 3
+		#		NOT = { has_country_modifier = springtime_of_nations }
+		#	}
+		#	any_owned_province = {
+		#		is_capital = yes
+		#		controlled_by = REB
+		#	}
+		#	revolt_percentage = 0.50
+		#}		
 	}
 	
 	mean_time_to_happen =  {
@@ -223,6 +226,37 @@ country_event = {
 			relation = { who = THIS value = -100 }
 			leave_alliance = THIS
 		}
+		ai_chance = {
+			factor = 75
+		}		
+	}
+	option = {
+		name = "Ancien Regime shall prevail!"
+		set_country_flag = fra_ancien_regime_holding
+		any_pop = {
+			limit = {
+				location = { is_core = FRA }
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 10
+			}
+			scaled_militancy = {
+				ideology = socialist
+				factor = 15
+			}		
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2.0
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			}
+			modifier = {
+				factor = 2.0
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			}
+		}		
 	}
 }
 
@@ -295,7 +329,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 90
+			factor = 70
 		}
 	}
 	
@@ -332,7 +366,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 10
+			factor = 30
 		}
 	}
 }
