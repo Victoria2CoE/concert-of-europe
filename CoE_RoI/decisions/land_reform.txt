@@ -1754,8 +1754,7 @@ collectivization_of_agriculture  = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
-}
+	}
 
 reverse_collectivization  = {
 	picture = collectivization_of_agriculture
@@ -1805,3 +1804,4 @@ reverse_collectivization  = {
 			factor = 1
 		}
 	}
+}
