@@ -1543,7 +1543,7 @@ country_event = {
 			duration = 3650
 		}
 		any_pop = {
-			limit = { is_primary_culture = misri }
+			limit = { has_pop_culture = misri }
 			ideology = {
 				value = reactionary
 				factor = 0.20
@@ -1560,7 +1560,7 @@ country_event = {
 		clr_country_flag = surrendered_to_OE
 		prestige = 5
 		any_pop = {
-			limit = { is_primary_culture = misri }
+			limit = { has_pop_culture = misri }
 			ideology = {
 				value = reactionary
 				factor = 0.20
@@ -1864,7 +1864,7 @@ country_event = {
 		war_exhaustion = 20
 		prestige = -25
 		any_pop = {
-			limit = { is_primary_culture = misri }
+			limit = { has_pop_culture = misri }
 			ideology = {
 				value = reactionary
 				factor = 0.10
