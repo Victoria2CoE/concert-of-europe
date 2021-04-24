@@ -2,8 +2,8 @@
 
 country_event = {
 	id = 100040001
-	title = "First Minister Appointed"
-	desc = "Our new first minister is an expert diplomat."
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is an expert diplomat."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -36,11 +36,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -80,8 +80,8 @@ country_event = {
 
 country_event = {
 	id = 100040002
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a successful industrialist"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a successful industrialist"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -165,8 +165,8 @@ country_event = {
 }
 country_event = {
 	id = 100040003
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a gifted academic "
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a gifted academic "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -200,11 +200,11 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -243,8 +243,8 @@ country_event = {
 }
 country_event = {
 	id = 100040004
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a popular figure"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a popular figure"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -278,11 +278,11 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -321,8 +321,8 @@ country_event = {
 }
 country_event = {
 	id = 100040005
-	title = "First Minister Appointed"
-	desc = "Our new first minister is an old guard aristocrat "
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is an old guard aristocrat "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -355,11 +355,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -398,8 +398,8 @@ country_event = {
 }
 country_event = {
 	id = 100040006
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a retired general"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a retired general"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -432,11 +432,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -484,8 +484,8 @@ country_event = {
 }
 country_event = {
 	id = 100040007
-	title = "First Minister Appointed"
-	desc = "Our new first minister is an old admiral"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is an old admiral"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -519,11 +519,11 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		num_of_ports = 1
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -569,8 +569,8 @@ country_event = {
 }
 country_event = {
 	id = 100040008
-	title = "First Minister Appointed"
-	desc = "Our new first minister is, erm, highly unorthodox..."
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is, erm, highly unorthodox..."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -603,11 +603,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -646,8 +646,8 @@ country_event = {
 }
 country_event = {
 	id = 100040009
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a firm traditionalist"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a firm traditionalist"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -680,11 +680,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -731,8 +731,8 @@ country_event = {
 }
 country_event = {
 	id = 100040010
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a marvellous statesman"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a marvellous statesman"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -765,11 +765,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -808,8 +808,8 @@ country_event = {
 }
 country_event = {
 	id = 100040011
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a quiet genius"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a quiet genius"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -842,11 +842,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -885,8 +885,8 @@ country_event = {
 }
 country_event = {
 	id = 100040012
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a great believer in reform"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a great believer in reform"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -920,11 +920,11 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -972,8 +972,8 @@ country_event = {
 }
 country_event = {
 	id = 100040013
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a member of the royal family"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a member of the royal family"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1006,11 +1006,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1049,8 +1049,8 @@ country_event = {
 }
 country_event = {
 	id = 100040014
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a brilliant administrator"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a brilliant administrator"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1083,11 +1083,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1133,8 +1133,8 @@ country_event = {
 }
 country_event = {
 	id = 100040015
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a true visionary"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a true visionary"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1167,11 +1167,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1214,8 +1214,8 @@ country_event = {
 }
 country_event = {
 	id = 100040016
-	title = "First Minister Appointed"
-	desc = "Our new first minister is nothing special, I'm afraid"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is nothing special, I'm afraid"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1248,11 +1248,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1291,8 +1291,8 @@ country_event = {
 }
 country_event = {
 	id = 100040017
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a true aristocrat"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a true aristocrat"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1325,11 +1325,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1368,8 +1368,8 @@ country_event = {
 }
 country_event = {
 	id = 100040018
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a firm disciplinarian. Very firm."
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a firm disciplinarian. Very firm."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1402,11 +1402,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1452,8 +1452,8 @@ country_event = {
 }
 country_event = {
 	id = 100040019
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a marvel of efficiency"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a marvel of efficiency"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1486,11 +1486,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1537,8 +1537,8 @@ country_event = {
 }
 country_event = {
 	id = 100040020
-	title = "First Minister Appointed"
-	desc = "Our new first minister is a true patriot"
+	title = "Head of Government Appointed"
+	desc = "Our new head of government is a true patriot"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1571,11 +1571,11 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -1622,8 +1622,8 @@ country_event = {
 
 country_event = {
 	id = 100040120
-	title = "First Minister Assassinated!"
-	desc = "Our first minister has been murdered!"
+	title = "Head of Government Assassinated!"
+	desc = "Our head of government has been murdered!"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -1657,11 +1657,11 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		average_militancy = 5
-		OR = { 
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		}
+		#OR = { 
+		#	OR = { government = theocracy government = theocracy2 government = theocracy3 }
+		#	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#}
 	}
 	
 	mean_time_to_happen = {
@@ -3284,8 +3284,8 @@ country_event = {
 
 country_event = {
 	id = 100060001
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an expert diplomat. "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an expert diplomat. "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3366,8 +3366,8 @@ country_event = {
 
 country_event = {
 	id = 100060002
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a successful industrialist"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a successful industrialist"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3453,8 +3453,8 @@ country_event = {
 }
 country_event = {
 	id = 100060003
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a gifted academic "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a gifted academic "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3533,8 +3533,8 @@ country_event = {
 }
 country_event = {
 	id = 100060004
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a popular figure"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a popular figure"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3614,8 +3614,8 @@ country_event = {
 
 country_event = {
 	id = 100060006
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a retired general"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a retired general"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3702,8 +3702,8 @@ country_event = {
 }
 country_event = {
 	id = 100060007
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an old admiral"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an old admiral"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3790,8 +3790,8 @@ country_event = {
 }
 country_event = {
 	id = 100060008
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is, erm, highly unorthodox..."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is, erm, highly unorthodox..."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3871,8 +3871,8 @@ country_event = {
 
 country_event = {
 	id = 100060010
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a marvellous statesman"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a marvellous statesman"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -3951,8 +3951,8 @@ country_event = {
 }
 country_event = {
 	id = 100060011
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a quiet genius"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a quiet genius"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4031,8 +4031,8 @@ country_event = {
 }
 country_event = {
 	id = 100060012
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a great believer in reform"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a great believer in reform"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4120,8 +4120,8 @@ country_event = {
 }
 country_event = {
 	id = 100060013
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an inbred halfwit."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an inbred halfwit."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4200,8 +4200,8 @@ country_event = {
 }
 country_event = {
 	id = 100060014
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a brilliant administrator"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a brilliant administrator"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4287,8 +4287,8 @@ country_event = {
 }
 country_event = {
 	id = 100060015
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true visionary"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true visionary"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4367,8 +4367,8 @@ country_event = {
 }
 country_event = {
 	id = 100060016
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is nothing special, I'm afraid"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is nothing special, I'm afraid"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4451,8 +4451,8 @@ country_event = {
 
 country_event = {
 	id = 100070001
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an expert diplomat. "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an expert diplomat. "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4533,8 +4533,8 @@ country_event = {
 
 country_event = {
 	id = 100070003
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a gifted academic "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a gifted academic "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4614,8 +4614,8 @@ country_event = {
 }
 country_event = {
 	id = 100070005
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an old guard aristocrat "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an old guard aristocrat "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4695,8 +4695,8 @@ country_event = {
 }
 country_event = {
 	id = 100070006
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a retired general"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a retired general"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4785,8 +4785,8 @@ country_event = {
 }
 country_event = {
 	id = 100070007
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an old admiral"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an old admiral"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4874,8 +4874,8 @@ country_event = {
 }
 country_event = {
 	id = 100070008
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is, erm, highly unorthodox..."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is, erm, highly unorthodox..."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -4955,8 +4955,8 @@ country_event = {
 }
 country_event = {
 	id = 100070009
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a firm traditionalist"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a firm traditionalist"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5044,8 +5044,8 @@ country_event = {
 }
 country_event = {
 	id = 100070010
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a marvellous statesman"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a marvellous statesman"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5125,8 +5125,8 @@ country_event = {
 }
 country_event = {
 	id = 100070011
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a quiet genius"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a quiet genius"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5206,8 +5206,8 @@ country_event = {
 }
 country_event = {
 	id = 100070013
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an inbred halfwit."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an inbred halfwit."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5287,8 +5287,8 @@ country_event = {
 }
 country_event = {
 	id = 100070014
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a brilliant administrator"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a brilliant administrator"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5375,8 +5375,8 @@ country_event = {
 }
 country_event = {
 	id = 100070015
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true visionary"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true visionary"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5456,8 +5456,8 @@ country_event = {
 }
 country_event = {
 	id = 100070016
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is nothing special, I'm afraid"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is nothing special, I'm afraid"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5537,8 +5537,8 @@ country_event = {
 }
 country_event = {
 	id = 100070017
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true aristocrat"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true aristocrat"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5619,8 +5619,8 @@ country_event = {
 
 country_event = {
 	id = 100070022
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a grumpy economist."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a grumpy economist."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5707,8 +5707,8 @@ country_event = {
 }
 country_event = {
 	id = 100070020
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true patriot"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true patriot"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5800,8 +5800,8 @@ country_event = {
 
 country_event = {
 	id = 100080001
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is an expert diplomat. "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is an expert diplomat. "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5882,8 +5882,8 @@ country_event = {
 
 country_event = {
 	id = 100080003
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a gifted academic "
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a gifted academic "
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -5963,8 +5963,8 @@ country_event = {
 }
 country_event = {
 	id = 100080004
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a popular figure"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a popular figure"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6045,8 +6045,8 @@ country_event = {
 
 country_event = {
 	id = 100080008
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is, erm, highly unorthodox..."
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is, erm, highly unorthodox..."
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6126,8 +6126,8 @@ country_event = {
 }
 country_event = {
 	id = 100080009
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a firm traditionalist"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a firm traditionalist"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6215,8 +6215,8 @@ country_event = {
 }
 country_event = {
 	id = 100080010
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a marvellous statesman"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a marvellous statesman"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6296,8 +6296,8 @@ country_event = {
 }
 country_event = {
 	id = 100080011
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a quiet genius"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a quiet genius"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6377,8 +6377,8 @@ country_event = {
 }
 country_event = {
 	id = 100080012
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a great believer in reform"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a great believer in reform"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6468,8 +6468,8 @@ country_event = {
 
 country_event = {
 	id = 100080014
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a brilliant administrator"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a brilliant administrator"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6556,8 +6556,8 @@ country_event = {
 }
 country_event = {
 	id = 100080015
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true visionary"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true visionary"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6637,8 +6637,8 @@ country_event = {
 }
 country_event = {
 	id = 100080016
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is nothing special, I'm afraid"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is nothing special, I'm afraid"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6718,8 +6718,8 @@ country_event = {
 }
 country_event = {
 	id = 100080021
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a union man"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a union man"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6809,8 +6809,8 @@ country_event = {
 
 country_event = {
 	id = 100080019
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a marvel of efficiency"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a marvel of efficiency"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6898,8 +6898,8 @@ country_event = {
 }
 country_event = {
 	id = 100080020
-	title = "First Minister Appointed"
-	desc = "Our new First Minister is a true patriot"
+	title = "Head of Government Appointed"
+	desc = "Our new Head of Government is a true patriot"
 	picture = "danishgovernment"
 	trigger = {
 		exists = yes
@@ -6987,7 +6987,7 @@ country_event = {
 
 country_event = {
 	id = 100080123
-	title = "First Minister Dies in Office!"
+	title = "Head of Government Dies in Office!"
 	desc = "Our hardworking First minister was found dead at his desk this morning."
 	picture = "danishgovernment"
 	trigger = {
@@ -7063,7 +7063,7 @@ country_event = {
 
 country_event = {
 	id = 100080124
-	title = "First Minister Committed!"
+	title = "Head of Government Committed!"
 	desc = "After he declared Thursdays to be Compulsory Pie-wearing day, our First minister has been 'retired'..."
 	picture = "danishgovernment"
 	trigger = {
