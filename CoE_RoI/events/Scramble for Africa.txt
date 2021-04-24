@@ -249,7 +249,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
-		capital_scope = { continent = africa }
+		#capital_scope = { continent = africa }
 		exists = yes
 		has_global_flag = berlin_conference
 		NOT = { is_culture_group = east_asian }
