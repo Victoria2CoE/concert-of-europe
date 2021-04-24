@@ -256,7 +256,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 20
 		modifier = {
 			factor = 1.5
 			ai = no
@@ -684,7 +684,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 20
 		modifier = {
 			factor = 1.5
 			ai = no
@@ -955,7 +955,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 50
+		months = 25
 		modifier = {
 			factor = 0.8
 			civilization_progress = 0.5
@@ -1212,7 +1212,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 40
 		modifier = {
 			factor = 2
 			NOT = { average_militancy = 1 }
@@ -1245,14 +1245,14 @@ country_event = {
 			factor = 0.5
 			revolt_percentage = .25
 		}
-		modifier = {
-			factor = 0.1
-			NOT = {
-				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-				OR = { government = hms_government government = hms_government2 government = hms_government3 }
-			}
-		}
+		#modifier = {
+		#	factor = 0.1
+		#	NOT = {
+		#		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		#		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		#		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		#	}
+		#}
 	}
 	
 	option = {
