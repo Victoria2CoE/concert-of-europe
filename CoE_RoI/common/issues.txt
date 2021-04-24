@@ -186,15 +186,19 @@ party_issues = {
 	religious_policy = {
 		pro_atheism = {
 			global_pop_consciousness_modifier = 0.02
+			education_efficiency_modifier = 0.05
 		}
 		secularized = {
 			global_pop_consciousness_modifier = 0.01
+			education_efficiency_modifier = 0.025
 		}
 		pluralism = {
 			#no effect
+			#education_efficiency_modifier = 0.025
 		}
 		moralism = {
 			global_pop_consciousness_modifier = -0.01
+			education_efficiency_modifier = -0.025
 		}
 	}
 	citizenship_policy = {
