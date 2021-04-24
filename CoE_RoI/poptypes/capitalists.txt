@@ -2820,7 +2820,7 @@ ideologies = {
 }
 issues = {
 	protectionism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.5
 			NOT = {
@@ -2839,7 +2839,7 @@ issues = {
 		}
 	}
 	free_trade = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.5
 			NOT = {
@@ -2858,7 +2858,7 @@ issues = {
 		}
 	}
 	laissez_faire = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 0.9
 			social_reform_want = 0.05
@@ -2914,7 +2914,7 @@ issues = {
 		}
 	} 
 	interventionism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -2942,7 +2942,7 @@ issues = {
 		}
 	} 
 	state_capitalism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.2
 			OR = {
@@ -2982,7 +2982,7 @@ issues = {
 		}
 	} 
 	anti_industrial = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -3010,7 +3010,7 @@ issues = {
 		}
 	} 
 	planned_economy = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 0
 			NOT = {
@@ -3038,7 +3038,7 @@ issues = {
 		}
 	} 
 	jingoism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.1
 			OR = {
@@ -3113,7 +3113,7 @@ issues = {
 		}
 	}
 	pro_military = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.1
 			war = yes
@@ -3180,7 +3180,7 @@ issues = {
 		}
 	}
 	anti_military = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.5
 			war = yes
@@ -3237,7 +3237,7 @@ issues = {
 		}
 	}
 	pacifism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.1
 			OR = {
@@ -3301,7 +3301,7 @@ issues = {
 		}
 	}
 	pro_atheism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -3330,7 +3330,7 @@ issues = {
 		} 
 	}
 	pluralism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.25
 			OR = {
@@ -3353,7 +3353,7 @@ issues = {
 		} 
 	}
 	moralism = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.05
 			nationalvalue = nv_order
@@ -3395,7 +3395,7 @@ issues = {
 		}
 	}
 	forced_assimilation = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.5
 			OR = {
@@ -3461,7 +3461,7 @@ issues = {
 		}
 	}
 	full_citizenship = {
-		factor = 0.5
+		factor = 1.0
 		modifier = {
 			factor = 1.1
 			OR = {
