@@ -105,7 +105,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 36
 		modifier = {
 			factor = 0.025
 			capital_scope = { controlled_by_rebels = yes }
@@ -2632,7 +2632,7 @@ country_event = {
 			}
 			AND = {
 				civilized = no
-				civilization_progress = 0.8
+				civilization_progress = 0.20
 				OR = {
 					#Ini oscar7211
 					#foreign_weapons = gunpowder_weapons
