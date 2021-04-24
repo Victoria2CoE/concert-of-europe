@@ -12,8 +12,12 @@ promotion_chance =
 	#}	
 	modifier = {
 		factor = -1.50
-		AND = { strata = middle  NOT = { type = artisans } } 
+		strata = middle 
 	}	
+	#modifier = {
+	#	factor = 1.50
+	#	type = artisans
+	#}	
 	#modifier = {
 	#	factor = -10
 	#	strata = rich
@@ -524,8 +528,12 @@ demotion_chance =
 	#}	
 	modifier = {
 		factor = -2.50
-		AND = { strata = middle  NOT = { type = artisans } } 
+		strata = middle 
 	}	
+	#modifier = {
+	#	factor = 2.50
+	#	type = artisans 
+	#}	
 	#modifier = {
 	#	factor = -10
 	#	strata = rich
@@ -551,7 +559,7 @@ demotion_chance =
 	modifier = {
 		factor = 0.1
 		state_scope = { is_colonial = yes }
-		AND = { strata = middle  NOT = { type = artisans } } 
+		strata = middle 
 		is_primary_culture = no
 		is_accepted_culture = no
 	}
@@ -646,44 +654,44 @@ demotion_chance =
 		modifier = {
 			factor = 0.1
 			NOT = { life_needs = 0.5 }
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = 0.1
 			NOT = { life_needs = 0.4 }
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = 0.1
 			NOT = { life_needs = 0.3 }
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = 0.1
 			NOT = { life_needs = 0.2 }
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = 0.2
 			NOT = { life_needs = 0.1 }
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 	}
 	group = {
 		modifier = {
 			factor = -0.1
 			everyday_needs = 0.9
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = -0.1
 			everyday_needs = 0.8 
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 		modifier = {
 			factor = -0.1
 			everyday_needs = 0.7 
-			AND = { strata = middle  NOT = { type = artisans } } 
+			strata = middle 
 		}
 	}
 	group = {
@@ -2541,7 +2549,7 @@ assimilation_chance =
 	}
 	modifier = {
     	factor = 5.0
-		AND = { strata = middle  NOT = { type = artisans } } 
+		strata = middle 
 	}
 	modifier = {
     	factor = 2.5
@@ -2630,7 +2638,7 @@ assimilation_chance =
 	#	factor = 4
 	#	OR = { 
 	#		strata = rich
-	#		AND = { strata = middle  NOT = { type = artisans } } 
+	#		strata = middle 
 	#	}
 	#}
 	modifier = {
@@ -2832,7 +2840,7 @@ conversion_chance = {
 	#	factor = 2.5
 	#	OR = { 
 	#		strata = rich
-	#		AND = { strata = middle  NOT = { type = artisans } } 
+	#		strata = middle 
 	#	}
 	#}
 	#group = {
