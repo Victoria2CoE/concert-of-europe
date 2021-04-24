@@ -5147,7 +5147,7 @@ country_event = {
 			economic_policy = laissez_faire
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
-		has_pop_type = capitalists
+		#any_owned_province = { has_pop_type = capitalists }
 		average_consciousness = 2
 	}
 	

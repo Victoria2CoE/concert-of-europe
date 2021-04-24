@@ -202,7 +202,8 @@ country_event = {
 				}
 				reduce_pop = 1.05
 			}
-			slaves = {
+			any_pop = {
+				limit = { type = slaves }
 				pop_type = labourers
 			}
 		}
@@ -223,8 +224,9 @@ country_event = {
 				owns = 2431
 			}
 			BRZ_2428 = {
-				slaves = {
-					reduce_pop = 1.05
+				any_pop = {
+					limit = { type = slaves }
+					pop_type = labourers
 				}
 			}
 			relation = {
