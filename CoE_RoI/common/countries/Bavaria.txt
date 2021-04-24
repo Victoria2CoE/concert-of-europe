@@ -92,7 +92,7 @@ party = {
 
 	ideology = socialist
 
-	economic_policy = planned_economy
+	economic_policy = anti_industrial
 	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
@@ -106,7 +106,7 @@ party = {
 
 	ideology = socialist
 
-	economic_policy = planned_economy
+	economic_policy = anti_industrial
 	trade_policy = free_trade
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
@@ -120,7 +120,7 @@ party = {
 
 	ideology = socialist
 
-	economic_policy = planned_economy
+	economic_policy = anti_industrial
 	trade_policy = free_trade
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
