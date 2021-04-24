@@ -226,7 +226,7 @@ country_event = {
 			BRZ_2428 = {
 				any_pop = {
 					limit = { type = slaves }
-					pop_type = labourers
+					reduce_pop = 1.05
 				}
 			}
 			relation = {
