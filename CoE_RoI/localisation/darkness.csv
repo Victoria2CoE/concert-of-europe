@@ -97,6 +97,10 @@ liberate_country_desc;Liberate an §Yentire country§W from its oppressors;;Befrei
 liberate_country;Liberate Country;;Befreit das Land;;;;;;;;x;;;;
 liberate_country_short;$THIRD$ acquires $STATE$;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;$THIRD$ adquiere $STATE$;;;;;;;;;x;
 liberate_country_setup;Return $STATE$ to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Gebt $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;Arrebatar el estado de $STATE$ de manos de $RECIPIENT$ y devolvérselo a $THIRD$;;;;;;;;;x;
+liberate_country_and_vassalize_desc;Liberate an §Yentire country§W from its oppressors and put it under new management;;Befreit ein §Yganzes Land§W von seinen Unterdrückern;;;;;;;;x;;;;
+liberate_country_and_vassalize;Liberate Country and put it Under New Management;;Befreit das Land;;;;;;;;x;;;;
+liberate_country_and_vassalize_short;$THIRD$ acquires $STATE$ and is subjugated;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;$THIRD$ adquiere $STATE$;;;;;;;;;x;
+liberate_country_and_vassalize_setup;Return $STATE$ to $THIRD$ from $RECIPIENT$ and subjugate it;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Gebt $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;Arrebatar el estado de $STATE$ de manos de $RECIPIENT$ y devolvérselo a $THIRD$;;;;;;;;;x;
 FIRE_RANGE;Firing Range;;Schussreichweite;;;;;;;;x;;;;
 EVASION;Evasion;;Ausweichen;;;;;;;;x;;;;
 SORT_BY;Sort by:;;Sortieren nach:;;;;;;;;x;;;;
