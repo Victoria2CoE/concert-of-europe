@@ -1,5 +1,5 @@
-owner = BOL
-controller = BOL
+owner = SPA
+controller = SPA
 add_core = BOL
 trade_goods = copper
 life_rating = 30
@@ -10,8 +10,8 @@ colonial = 1
 	controller = PBC
 }
 1861.1.1 = {
-	owner = BOL
-	controller = BOL
+	owner = SPA
+	controller = SPA
 #	add_core = CHL
 	colonial = 0	
 	remove_core = SPU

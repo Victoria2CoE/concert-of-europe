@@ -1,5 +1,5 @@
-owner = BOL
-controller = BOL
+owner = SPA
+controller = SPA
 add_core = BOL
 trade_goods = fruit
 life_rating = 30
@@ -9,6 +9,6 @@ terrain = seasonal_jungle_mountains
 	controller = PBC
 }
 1861.1.1 = {
-	owner = BOL
-	controller = BOL
+	owner = SPA
+	controller = SPA
 }

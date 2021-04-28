@@ -1,4 +1,4 @@
-owner = BOL
+owner = SPA
 controller = PEU
 add_core = BOL
 trade_goods = tropical_wood
@@ -9,6 +9,6 @@ terrain = swamp_jungle
 	controller = PBC
 }
 1861.1.1 = {
-	owner = BOL
-	controller = BOL
+	owner = SPA
+	controller = SPA
 }

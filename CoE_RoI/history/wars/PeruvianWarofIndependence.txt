@@ -6,18 +6,18 @@ name = "Expedición Libertadora del Perú"
 	add_defender = ARG
 	add_defender = CHL	
 	
-	#war_goal = {
-	#	casus_belli = liberate_country
-	#	actor = ARG
-	#	receiver = PEU
-	#	country = BOL
-	#}	
 	war_goal = {
-		casus_belli = release_puppet
-		actor = CHL
+		casus_belli = liberate_country
+		actor = ARG
 		receiver = SPA
 		country = BOL
 	}	
+	#war_goal = {
+	#	casus_belli = release_puppet
+	#	actor = CHL
+	#	receiver = SPA
+	#	country = BOL
+	#}	
 	war_goal = {
 		casus_belli = make_puppet
 		actor = SPA
