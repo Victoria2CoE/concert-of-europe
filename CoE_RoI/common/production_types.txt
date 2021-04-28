@@ -389,31 +389,31 @@ RGO_template_labourers = {
 		{
 			poptype = labourers
 			effect = throughput
-			effect_multiplier = 0.5
+			effect_multiplier = 0.1
 			amount = 1.0 #amount = 0.27
 		}
 		{
 			poptype = aristocrats
 			effect = throughput
-			effect_multiplier = 0.25
+			effect_multiplier = 0.05
 			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = farmers
 			effect = throughput
-			effect_multiplier = 1.25
+			effect_multiplier = 0.25
 			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = craftsmen
 			effect = throughput
-			effect_multiplier = 5.0
+			effect_multiplier = 1.0
 			amount = 1.0 #amount = 0.24
 		}
 		{
 			poptype = slaves
 			effect = output
-			effect_multiplier = 1.0
+			effect_multiplier = 0.2
 			amount = 1.0 #amount = 0.25
 		}		
 	}
