@@ -211,28 +211,28 @@ light_factory_template = {
 
 luxury_factory_template = {
 	efficiency = {
-		silk = 7.50 #1.5$ 
-		spices = 5.0 #1.6$
-		opium = 5.0 #1.6$
-		coffee = 5.0 #0.9$
-		tea = 5.0 #0.5$
+		silk = 3.75 #1.5$ 
+		spices = 2.5 #1.6$
+		opium = 2.5 #1.6$
+		coffee = 2.5 #0.9$
+		tea = 2.5 #0.5$
 		#cattle = 3.0 #0.6$
 		fruit = 2.60 #0.52$
 		#grain = 0.5 #0.15$	
 		#coal = 2 #0.92$
  		#timber = 2 #0.72$
-		tropical_wood = 5.0 #1$
+		tropical_wood = 2.5 #1$
 		#timber = 3 #0.72$
-		dye = 20.0 #1.6$
-		wool = 30.0 #0.64$
-		cotton = 45.0 #2.4$
+		dye = 10.0 #1.6$
+		wool = 15.0 #0.64$
+		cotton = 22.5 #2.4$
 		#rubber = 2 #0.8$
 		#copper = 0.60 #0.312$
 		#oil = 1 #0.4$
 		#lead = 0.25 #0.115$
 		#iron = 0.80 #0.528$
 		#silk = 1.5 #1.5$ 
-		horses = 2.5 #0.08$
+		horses = 1.25 #0.08$
 		#sugar = 0.40 #0.12$
 		#spices = 1 #1.6$
 		#opium = 1 #1.6$
@@ -300,7 +300,7 @@ military_factory = {
 		heavy_industry = 3.0
 	}
 	output_goods = military_industry
-	value = 3.0
+	value = 5.0
 }
 
 food_factory = {
@@ -324,7 +324,7 @@ light_factory = {
 luxury_factory = {
 	template = luxury_factory_template #98
 	input_goods = {
-		light_industry = 10
+		light_industry = 6
 	}
 	output_goods = luxury_industry
 	value = 10
