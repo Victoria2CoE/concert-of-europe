@@ -1,19 +1,18 @@
 owner = PEU
-controller = SPA
+controller = CHL
 add_core = PEU
-trade_goods = fish
+trade_goods = wool
 life_rating = 30
-terrain = cold_desert_hills
+terrain = desert_hills
 colonial = 1
 1836.1.1 = {
+	add_core = SPU
 	owner = SPU
 	controller = SPU
-	add_core = SPU
+	colonial = 0
 }
 1861.1.1 = {
 	owner = PEU
 	controller = PEU
-#	add_core = CHL
-	colonial = 0	
 	remove_core = SPU
 }

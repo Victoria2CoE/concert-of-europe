@@ -3,7 +3,7 @@ name = "Colombian War of Independence"
 1820.10.9 = {
 	add_attacker = GCO
 	add_defender = SPA
-	add_defender = PEU
+	#add_attacker = PEU
 	
 	war_goal = {
 		casus_belli = establish_protectorate_casus_belli
@@ -22,5 +22,5 @@ name = "Colombian War of Independence"
 1822.5.24 = {
 	rem_attacker = GCO
 	rem_defender = SPA
-	rem_defender = PEU
+	#rem_defender = PEU
 }

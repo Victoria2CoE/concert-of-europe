@@ -2,21 +2,21 @@
 
 	artisans = {
 
-		size = 6860
+		size = 3430
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1370
+		size = 685
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 117430
+		size = 58715
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
@@ -256,42 +256,42 @@
 
 	artisans = {
 
-		size = 7780
+		size = 3890
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1600
+		size = 800
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 82410
+		size = 41205
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	artisans = {
 
-		size = 2280
+		size = 1180
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 450
+		size = 225
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 16365
+		size = 8183
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
@@ -302,28 +302,28 @@
 
 	artisans = {
 
-		size = 8740
+		size = 4370
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	bureaucrats = {
 
-		size = 910
+		size = 455
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 1820
+		size = 910
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 150600
+		size = 75300
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
@@ -334,21 +334,21 @@
 
 	artisans = {
 
-		size = 16020
+		size = 8010
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	artisans = {
 
-		size = 220
+		size = 110
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
 	}
 	clergymen = {
 
-		size = 3200
+		size = 1600
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
@@ -362,14 +362,14 @@
 	}
 	labourers = {
 
-		size = 221600
+		size = 110800
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 6080
+		size = 3040
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
@@ -380,55 +380,55 @@
 
 	artisans = {
 
-		size = 10560
+		size = 5280
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	artisans = {
 
-		size = 5560
+		size = 2780
 		culture = ukrainian
 		religion = ukrainian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 2200
+		size = 1100
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1200
+		size = 600
 		culture = ukrainian
 		religion = ukrainian #religion = orthodox
 	}
 	labourers = {
 
-		size = 106090
+		size = 53045
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 66090
+		size = 33045
 		culture = ukrainian
 		religion = ukrainian #religion = orthodox
 
 	}
 	soldiers = {
 
-		size = 60000
+		size = 30000
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	soldiers = {
 
-		size = 20000
+		size = 10000
 		culture = ukrainian
 		religion = ukrainian #religion = orthodox
 
@@ -486,154 +486,154 @@
 
 	capitalists = {
 
-		size = 2632
+		size = 3948
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	capitalists = {
 
-		size = 22
+		size = 33
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	capitalists = {
 
-		size = 45
+		size = 68
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	capitalists = {
 
-		size = 132
+		size = 198
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	capitalists = {
 
-		size = 132
+		size = 198
 		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	artisans = {
 
-		size = 24
+		size = 36
 		culture = russian
 		religion = russian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 6158
+		size = 9237
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 137
+		size = 206
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 412
+		size = 618
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 137
+		size = 206
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	artisans = {
 
-		size = 448
+		size = 672
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
-		size = 133
+		size = 200
 		culture = russian
 		religion = russian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 146
+		size = 219
 		culture = russian
 		religion = russian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 434
+		size = 651
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 36285
+		size = 54428
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 2541
+		size = 3812
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 2197
+		size = 3296
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 2518
+		size = 3777
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 1118
+		size = 1677
 		culture = german  #culture = south_german
 		religion = south_german #religion = catholic
 
 	}
 	officers = {
 
-		size = 160
+		size = 240
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	soldiers = {
 
-		size = 1315
+		size = 1923
 		culture = russian
 		religion = russian #religion = orthodox
 
 	}
 	soldiers = {
 
-		size = 1007
+		size = 1511
 		culture = georgian
 		religion = georgian #religion = orthodox
 
@@ -644,63 +644,63 @@
 
 	artisans = {
 
-		size = 457
+		size = 686
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 274
+		size = 411
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	artisans = {
+
+		size = 206
+		culture = armenian
+		religion = armenian #religion = orthodox
+
+	}
+	clergymen = {
 
 		size = 137
-		culture = armenian
-		religion = armenian #religion = orthodox
-
-	}
-	clergymen = {
-
-		size = 91
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 68
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 68
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 8332
+		size = 12498
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 5036
+		size = 7554
 		culture = north_caucasian
 		religion = north_caucasian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 2472
+		size = 3708
 		culture = armenian
 		religion = armenian #religion = orthodox
 
@@ -711,35 +711,35 @@
 
 	artisans = {
 
-		size = 1190
+		size = 1785
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 224
+		size = 336
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
 	}
 	clergymen = {
 
-		size = 274
+		size = 411
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 4
+		size = 6
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
 	}
 	labourers = {
 
-		size = 24998
+		size = 37497
 		culture = georgian
 		religion = georgian #religion = orthodox
 
@@ -750,56 +750,56 @@
 
 	artisans = {
 
-		size = 183
+		size = 275
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 228
+		size = 342
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 102
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 68
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 18
+		size = 27
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 3319
+		size = 4979
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 4166
+		size = 6249
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 824
+		size = 1236
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
@@ -810,21 +810,21 @@
 
 	artisans = {
 
-		size = 1190
+		size = 1785
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 228
+		size = 342
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 21679
+		size = 32519
 		culture = georgian
 		religion = georgian #religion = orthodox
 
@@ -835,49 +835,49 @@
 
 	artisans = {
 
-		size = 183
+		size = 275
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 640
+		size = 427
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 102
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 113
+		size = 169
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 3296
+		size = 4944
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 7696
+		size = 11544
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	soldiers = {
 
-		size = 4000
+		size = 6000
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
@@ -888,56 +888,56 @@
 
 	artisans = {
 
-		size = 137
+		size = 206
 		culture = turkish
 		religion = turkish #religion = sunni
 
 	}
 	artisans = {
 
-		size = 183
+		size = 275
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 549
+		size = 824
 		culture = georgian
 		religion = georgian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 114
+		size = 171
 		culture = turkish
 		religion = turkish #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 114
+		size = 171
 		culture = georgian
 		religion = georgian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 2495
+		size = 3743
 		culture = turkish
 		religion = turkish #religion = sunni
 
 	}
 	labourers = {
 
-		size = 3411
+		size = 5117
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 10301
+		size = 15452
 		culture = georgian
 		religion = georgian #religion = sunni
 
@@ -1182,98 +1182,98 @@
 
 	capitalists = {
 
-		size = 439
+		size = 878
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	capitalists = {
 
-		size = 686
+		size = 1372
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	capitalists = {
 
-		size = 178
+		size = 356
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 286
+		size = 572
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	artisans = {
 
-		size = 549
+		size = 1098
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	artisans = {
 
-		size = 677
+		size = 1354
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 224
+		size = 448
 		culture = sephardic
 		religion = sephardic #religion = jewish
 
 	}
 	bureaucrats = {
 
-		size = 54
+		size = 108
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 64
+		size = 128
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 100
+		size = 200
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	labourers = {
 
-		size = 3899
+		size = 7798
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 8059
+		size = 16118
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	soldiers = {
 
-		size = 3467
+		size = 6934
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	soldiers = {
 
-		size = 412
+		size = 824
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
@@ -1284,63 +1284,63 @@
 
 	artisans = {
 
-		size = 137
+		size = 274
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	artisans = {
 
-		size = 320
+		size = 640
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	artisans = {
 
-		size = 183
+		size = 366
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 90
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 136
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 136
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	labourers = {
 
-		size = 2495
+		size = 4990
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 5860
+		size = 11720
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	labourers = {
 
-		size = 3296
+		size = 6592
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
@@ -1351,63 +1351,63 @@
 
 	artisans = {
 
-		size = 91
+		size = 182
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	artisans = {
 
-		size = 45
+		size = 90
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	artisans = {
 
-		size = 137
+		size = 274
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 41
+		size = 82
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 18
+		size = 36
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 90
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
+
+	}
+	labourers = {
+
+		size = 3296
+		culture = azerbaijani
+		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
 		size = 1648
-		culture = azerbaijani
-		religion = azerbaijani #religion = sunni
-
-	}
-	labourers = {
-
-		size = 824
 		culture = georgian
 		religion = georgian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 2380
+		size = 4760
 		culture = north_caucasian
 		religion = north_caucasian #religion = sunni
 
@@ -1418,42 +1418,42 @@
 
 	artisans = {
 
-		size = 457
+		size = 914
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	artisans = {
 
-		size = 320
+		size = 640
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 136
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 136
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 8332
+		size = 16664
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	labourers = {
 
-		size = 5883
+		size = 11766
 		culture = armenian
 		religion = armenian #religion = orthodox
 
@@ -1464,42 +1464,42 @@
 
 	artisans = {
 
-		size = 412
+		size = 824
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	artisans = {
 
-		size = 274
+		size = 548
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 136
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 90
 		culture = armenian
 		religion = armenian #religion = orthodox
 
 	}
 	labourers = {
 
-		size = 7531
+		size = 15062
 		culture = azerbaijani
 		religion = azerbaijani #religion = sunni
 
 	}
 	labourers = {
 
-		size = 5019
+		size = 1038
 		culture = armenian
 		religion = armenian #religion = orthodox
 
@@ -1510,21 +1510,21 @@
 
 	artisans = {
 
-		size = 640
+		size = 1280
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	clergymen = {
 
-		size = 114
+		size = 228
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 
 	}
 	labourers = {
 
-		size = 11721
+		size = 23442
 		culture = azerbaijani
 		religion = azerbaijani #religion = shiite
 

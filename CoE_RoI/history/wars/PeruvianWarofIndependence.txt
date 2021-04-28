@@ -1,27 +1,32 @@
 name = "Expedición Libertadora del Perú"
 
 1821.7.28 = {
-	add_defender = SPA
+	add_attacker = SPA
 	add_defender = PEU
-	add_attacker = ARG
-	add_attacker = CHL	
+	add_defender = ARG
+	add_defender = CHL	
 	
-	war_goal = {
-		casus_belli = liberate_country
-		actor = ARG
-		receiver = PEU
-		country = BOL
-	}	
+	#war_goal = {
+	#	casus_belli = liberate_country
+	#	actor = ARG
+	#	receiver = PEU
+	#	country = BOL
+	#}	
 	war_goal = {
 		casus_belli = release_puppet
 		actor = CHL
 		receiver = SPA
-		country = PEU
+		country = BOL
 	}	
 	war_goal = {
 		casus_belli = make_puppet
 		actor = SPA
 		receiver = CHL
+	}	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SPA
+		receiver = PEU
 	}	
 	war_goal = {
 		casus_belli = make_puppet
