@@ -54,15 +54,15 @@ military_factory_template = {
 
 heavy_factory_template = {
 	efficiency = {
-		coal = 80.0 #2.3$
+		coal = 8.00 #2.3$
 		horses = 5.4 #0.08$
- 		timber = 60.0 #0.36$
-        sulphur = 18.8 #0.175$
-        copper = 120.0 #0.52$
-		lead = 120.0 #0.46$
-		oil = 100.0 #0.8$
-		rubber = 60.0 #0.8$
-		iron = 120.0
+ 		timber = 6.00 #0.36$
+        sulphur = 9.0 #0.175$
+        copper = 12.00 #0.52$
+		lead = 12.00 #0.46$
+		oil = 10.00 #0.8$
+		rubber = 6.00 #0.8$
+		iron = 12.00
 		#6.215$
 	}
 
@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 400
-		coal = 25 #0.46$
-		horses = 125 #0.24$
- 		timber = 125 #0.27$
-		lead = 20 #0.046$
-		cattle = 600 #1.2$
-		fish = 600 #1.2$
-		fruit = 400 #0.845$
+		grain = 40.0
+		coal = 2.5 #0.46$
+		horses = 12.5 #0.24$
+ 		timber = 12.5 #0.27$
+		lead = 2.0 #0.046$
+		cattle = 60.0 #1.2$
+		fish = 60.0 #1.2$
+		fruit = 40.0 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 104 #0.07$
+		sulphur = 10.4 #0.07$
 		#4.436$
 	}
 
@@ -157,18 +157,18 @@ food_factory_template = {
 
 light_factory_template = {
 	efficiency = {
-		coal = 60 #1.38$
- 		timber = 80 #1.44$
-		dye = 30 #0.8$
-		wool = 48.0 #0.8$
-		cotton = 60.0 #2$
-		rubber = 50.0 #0.4$
-		oil = 100 #0.4$
+		coal = 12.0 #1.38$
+ 		timber = 16.0 #1.44$
+		dye = 6.0 #0.8$
+		wool = 10.0 #0.8$
+		cotton = 12.00 #2$
+		rubber = 10.00 #0.4$
+		oil = 20.0 #0.4$
 		#copper = 1.00 #0.208$
 		#lead = 0.50 #0.092$
 		#iron = 1.50 #0.396$
-		cattle = 75.0 #0.4$
-		grain = 90.0
+		cattle = 15.0 #0.4$
+		grain = 18.00
 		#7.916$
 	}
 
@@ -211,21 +211,21 @@ light_factory_template = {
 
 luxury_factory_template = {
 	efficiency = {
-		silk = 75.0 #1.5$ 
-		spices = 50 #1.6$
-		opium = 50 #1.6$
-		coffee = 50 #0.9$
-		tea = 50 #0.5$
+		silk = 7.50 #1.5$ 
+		spices = 5.0 #1.6$
+		opium = 5.0 #1.6$
+		coffee = 5.0 #0.9$
+		tea = 5.0 #0.5$
 		#cattle = 3.0 #0.6$
-		fruit = 26.0 #0.52$
+		fruit = 2.60 #0.52$
 		#grain = 0.5 #0.15$	
 		#coal = 2 #0.92$
  		#timber = 2 #0.72$
-		tropical_wood = 50 #1$
+		tropical_wood = 5.0 #1$
 		#timber = 3 #0.72$
-		dye = 200 #1.6$
-		wool = 300 #0.64$
-		cotton = 450 #2.4$
+		dye = 20.0 #1.6$
+		wool = 30.0 #0.64$
+		cotton = 45.0 #2.4$
 		#rubber = 2 #0.8$
 		#copper = 0.60 #0.312$
 		#oil = 1 #0.4$
@@ -322,7 +322,7 @@ light_factory = {
 }
 
 luxury_factory = {
-	template = light_factory_template #98
+	template = luxury_factory_template #98
 	input_goods = {
 		light_industry = 10
 	}
