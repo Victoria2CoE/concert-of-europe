@@ -176,6 +176,10 @@ release_puppet_and_vassalize;Release Puppet and Subjugate it;Libérer un État fan
 release_puppet_and_vassalize_short;$THIRD$ is released and subjugated;$THIRD$ est libéré;$THIRD$ wurde entlassen;;$THIRD$ ha quedado desvinculada;;;;;;;;;x;;
 release_puppet_and_vassalize_setup;Release $THIRD$ from $RECIPIENT$ and subjugate it;Libérer $THIRD$ de $RECIPIENT$.;Entlassen Sie $THIRD$ aus $RECIPIENT$;;Desvincular $THIRD$ de $RECIPIENT$;;;;;;;;;x;;
 release_puppet_and_vassalize_desc;Release a §Ycountry§W from its sovereign nation and subjugate it;Libérer un §Ypays§W de sa nation souveraine;Entlassen Sie ein §YLand§W von seinem Herrenland.;;Desvincula a un §Ypaís§W de su nación soberana;;;;;;;;;x;;
+release_puppet_india;Shatter the 'Crown Jewel';Libérer un État fantoche;Marionettenstaat entlassen;;Desvincular títere;;;;;;;;;x;;
+release_puppet_india_short;India is released and falls into chaos;$THIRD$ est libéré;$THIRD$ wurde entlassen;;$THIRD$ ha quedado desvinculada;;;;;;;;;x;;
+release_puppet_india_setup;Release India from $RECIPIENT$;Libérer $THIRD$ de $RECIPIENT$.;Entlassen Sie $THIRD$ aus $RECIPIENT$;;Desvincular $THIRD$ de $RECIPIENT$;;;;;;;;;x;;
+release_puppet_india_desc;Release a India from its sovereign nation;Libérer un §Ypays§W de sa nation souveraine;Entlassen Sie ein §YLand§W von seinem Herrenland.;;Desvincula a un §Ypaís§W de su nación soberana;;;;;;;;;x;;
 IS_NOT_OUR_VASSAL; is NOT our Puppet; n'est PAS notre État fantoche;ist NICHT unser Marionettenstaat;; NO es títere nuestro;;;;;;;;;x;;
 IS_OUR_VASSAL; is our Puppet; est notre État fantoche;ist unser Marionettenstaat;; es nuestro títere;;;;;;;;;x;;
 COUNTRYALERT_HaveOrganizingRebels;Rebel Factions are organizing in our country!;Les factions rebelles s'organisent dans notre pays !;In unserem Land organisieren sich Rebellenfraktionen!;;¡Se están organizando facciones rebeldes en nuestro país!;;;;;;;;;x;;

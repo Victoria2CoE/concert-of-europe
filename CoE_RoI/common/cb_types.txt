@@ -71,6 +71,7 @@ install_communism
 unification_humiliate_cb
 take_from_sphere
 liberate_country
+liberate_country_and_vassalize
 free_peoples
 free_allied_cores
 free_balkans
@@ -78,6 +79,8 @@ monroe_doctrine
 oriental_crisis
 unification_release_puppet_cb
 release_puppet
+release_puppet_and_vassalize
+release_puppet_india
 #release_puppet_AI
 great_game_cb
 make_puppet
@@ -1628,6 +1631,7 @@ unification_release_puppet_cb = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
+		NOT = { tag = HND }
 		is_our_vassal = FROM
 		FROM = { is_culture_group = THIS is_substate = no }
 	}
@@ -3119,6 +3123,7 @@ release_puppet = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
+		NOT = { tag = HND }
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
 	}
@@ -3178,6 +3183,7 @@ release_puppet_and_vassalize = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
+		NOT = { tag = HND }
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
 	}
@@ -3185,6 +3191,66 @@ release_puppet_and_vassalize = {
 	po_release_puppet = yes
 	po_add_to_sphere = yes
 	po_make_puppet = yes
+
+	war_name = WAR_NAME
+
+	on_add = {
+		#badboy = 10
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+release_puppet_india = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12 #months = 12
+
+	construction_speed = 0.25 #construction_speed = 0.25 0.5
+
+	badboy_factor = 15.0
+	prestige_factor = 1
+	peace_cost_factor = 10
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12 #months = 0
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		num_of_vassals_no_substates = 1
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			NOT = { has_country_flag = dismantle_declared }
+			THIS = { NOT = { has_country_flag = in_great_war } }
+			THIS = { ai = no }
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		tag = HND
+		is_our_vassal = FROM
+		FROM = { is_substate = no }
+	}
+
+	po_release_puppet = yes
+	po_add_to_sphere = yes
 
 	war_name = WAR_NAME
 
