@@ -330,7 +330,7 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 0.01
-		OR = { culture = ashkenazi  culture = sephardic }
+		THIS = { OR = { culture = ashkenazi  culture = sephardic } }
 		ISR = { exists = yes }
 		NOT = { tag = ISR }
 	}
