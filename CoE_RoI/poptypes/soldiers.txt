@@ -333,6 +333,17 @@ country_migration_target =
 		NOT = { tag = ISR }
 	}
 	modifier = {
+		factor = 5
+		THIS = { culture = afro_american }
+		LIB = { exists = yes }
+		tag = LIB
+	}
+	modifier = {
+		factor = 5
+		THIS = { OR = { culture = ashkenazi  culture = sephardic } }
+		ISR = { exists = yes }
+	}
+	modifier = {
 		factor = 0.9
 		average_militancy = 1
 	}

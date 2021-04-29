@@ -2325,7 +2325,7 @@ emigration_chance =
 		}
 	}
 	modifier = {
-		factor = 60
+		factor = 75
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -2336,7 +2336,7 @@ emigration_chance =
 		NOT = { location = { owner = { tag = LIB } } }
 	}
 	modifier = {
-		factor = 10
+		factor = 25
 		NOT = { 
 			continent = north_america
 			continent = south_america
@@ -2352,7 +2352,7 @@ emigration_chance =
 		location = { owner = { tag = LIB } }
 	}
 	modifier = {
-		factor = 60
+		factor = 75
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -2363,7 +2363,7 @@ emigration_chance =
 		NOT = { location = { owner = { tag = ISR } } }
 	}
 	modifier = {
-		factor = 10
+		factor = 25
 		NOT = { 
 			continent = north_america
 			continent = south_america
