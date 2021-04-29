@@ -2344,12 +2344,12 @@ emigration_chance =
 		}
 		culture = afro_american
 		LIB = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { LIB } } }
+		NOT = { location = { owner = { tag = LIB } } }
 	}
 	modifier = {
 		factor = -100
 		culture = afro_american
-		location = { owner = { LIB } }
+		location = { owner = { tag = LIB } }
 	}
 	modifier = {
 		factor = 60
