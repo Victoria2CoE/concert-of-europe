@@ -2333,7 +2333,7 @@ emigration_chance =
 		}
 		culture = afro_american
 		LIB = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { tag = LIB } } }
+		NOT = { country = { tag = LIB } }
 	}
 	modifier = {
 		factor = 25
@@ -2344,12 +2344,12 @@ emigration_chance =
 		}
 		culture = afro_american
 		LIB = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { tag = LIB } } }
+		NOT = { country = { tag = LIB } }
 	}
 	modifier = {
 		factor = -100
 		culture = afro_american
-		location = { owner = { tag = LIB } }
+		country = { tag = LIB }
 	}
 	modifier = {
 		factor = 75
@@ -2360,7 +2360,7 @@ emigration_chance =
 		}
 		OR = { culture = ashkenazi  culture = sephardic }
 		ISR = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { tag = ISR } } }
+		NOT = { country = { tag = ISR } }
 	}
 	modifier = {
 		factor = 25
@@ -2371,12 +2371,12 @@ emigration_chance =
 		}
 		OR = { culture = ashkenazi  culture = sephardic }
 		ISR = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { tag = ISR } } }
+		NOT = { country = { tag = ISR } }
 	}
 	modifier = {
 		factor = -100
 		OR = { culture = ashkenazi  culture = sephardic }
-		location = { owner = { tag = ISR } }
+		country = { tag = ISR } 
 	}
 	group = {
 		modifier = {
@@ -2797,6 +2797,7 @@ assimilation_chance =
 		is_accepted_culture = no
 		is_primary_culture = no
 		country = { civilized = yes }
+		country = { has_country_flag = immigration_contender }
 		NOT = { is_culture_group = west_african } 
 		NOT = { is_culture_group = central_african }
 		NOT = { is_culture_group = east_african }
