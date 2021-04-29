@@ -315,13 +315,11 @@ country_migration_target =
 	#}
 	modifier = {
 		factor = 0.05
-		NOT = { 
-			OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-				has_country_flag = immigration_contender
-			} 
+		NOT = {  
+			continent = north_america
+			continent = south_america
+			continent = oceania
+			has_country_flag = immigration_contender
 		}
 	}
 	modifier = {
