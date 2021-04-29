@@ -22,9 +22,9 @@ country_event = {
 	option = {
 		name = "Proclaim independence."
 		USA = { country_event = 95027 }
-		1889 = { secede_province = LIB }
-		1890 = { secede_province = LIB }
-		1891 = { secede_province = LIB }
+		#1889 = { secede_province = LIB }
+		#1890 = { secede_province = LIB }
+		#1891 = { secede_province = LIB }
 		ai_chance = {
 			factor = 95
 		}
@@ -60,6 +60,7 @@ country_event = {
 		name = "Grant them independence."
 		badboy = -2
 		release_vassal = LIB
+		LIB = { set_country_flag = liberia_liberated }
 		relation = {
 			who = LIB
 			value = 50
@@ -135,13 +136,16 @@ country_event = {
 		name = "We wish them well."
 		set_country_flag = liberia_established
 		1887 = {
-			life_rating = 5
-			change_variable = { which = dt_rating  value = 5 }
+			#life_rating = 5
+			#change_variable = { which = dt_rating  value = 5 }
 			secede_province = THIS
 		}
 		1888 = {
 			secede_province = THIS
 		}
+		1889 = { secede_province = LIB }
+		1890 = { secede_province = LIB }
+		1891 = { secede_province = LIB }		
 		release_vassal = LIB
 		diplomatic_influence = { who = LIB value = 200 }
 	}

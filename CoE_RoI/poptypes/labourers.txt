@@ -287,15 +287,38 @@ country_migration_target =
 	factor = 1.5
 		minorities_reform = protected
 	}
+	#modifier = {
+	#	factor = 0.05
+	#	NOT = { OR = { 
+	#		continent = north_america
+	#		continent = south_america
+	#		continent = oceania
+	#		primary_culture = boer
+	#		primary_culture = anglo_african
+	#	} }
+	#}
 	modifier = {
 		factor = 0.05
-		NOT = { OR = { 
-			continent = north_america
-			continent = south_america
-			continent = oceania
-			primary_culture = boer
-			primary_culture = anglo_african
-		} }
+		NOT = { 
+			OR = { 
+				continent = north_america
+				continent = south_america
+				continent = oceania
+				has_country_flag = immigration_contender
+			} 
+		}
+	}
+	modifier = {
+		factor = 0.01
+		THIS = { culture = afro_american }
+		LIB = { exists = yes }
+		NOT = { tag = LIB }
+	}
+	modifier = {
+		factor = 0.01
+		OR = { culture = ashkenazi  culture = sephardic }
+		ISR = { exists = yes }
+		NOT = { tag = ISR }
 	}
 	modifier = {
 		factor = 0.9

@@ -1,31 +1,31 @@
 political_decisions = {
 	liberate_liberia = {
-   		 potential = {
+   		potential = {
 		 	tag = LIB
 		 	civilized = no
 		 	NOT = {
 				has_country_flag = liberia_liberated
-				}
-    		}
+			}
+    	}
 
-    		allow = { 
-				war = no
-				vassal_of = USA 
-				USA = {
-					state_n_government = 1
-					money = 5000
-				}
-    		}
+    	allow = { 
+			war = no
+			vassal_of = USA 
+			USA = {
+				state_n_government = 1
+				money = 5000
+			}
+    	}
 
-    		effect = {
-        		USA = {
-		    		diplomatic_influence = { 
+    	effect = {
+        	USA = {
+				diplomatic_influence = { 
 					who = LIB 
 					value = 300   # So Liberia can be liberated but still fall under US protection/exploitation
 				}
-			release_vassal = LIB
-			prestige = 10
-			money = -5000
+				release_vassal = LIB
+				prestige = 10
+				money = -5000
 			}
 			#add_country_modifier = {
 			#	name = liberian_research_boost
@@ -46,7 +46,7 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-    	}
+    }
 
 	liberian_constitution = {
 		potential = {
@@ -81,4 +81,35 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	liberian_manifest_destiny = {
+		picture = liberia
+		potential = {
+			tag = LIB
+			exists = yes
+			ai = no
+			has_country_flag = liberia_liberated
+			NOT = {
+				has_country_flag = liberian_manifest_destiny_flag
+			}
+		}
+
+		allow = {
+			prestige = 25
+			literacy = 0.25
+		}
+
+		effect = {
+			set_country_flag = liberian_manifest_destiny_flag
+			set_country_flag = immigration_contender
+			prestige = 20
+			FRA_1884 = { add_core = LIB }
+			FRA_1883 = { add_core = LIB }
+			FRA_1893 = { add_core = LIB }
+			FRA_1892 = { add_core = LIB }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}	
 }

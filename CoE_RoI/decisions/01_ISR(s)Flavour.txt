@@ -1,0 +1,42 @@
+political_decisions = {
+	create_judeo_madagascar = {
+		picture = judeo_madagascar
+		potential = {
+			MAD = { all_core = { owned_by = THIS } }
+			nationalism_n_imperialism = 1
+			ISR = { exists = no }
+		}
+		allow = {
+			NOT = { 917 = { owned_by = THIS } }
+			OR = {
+				citizenship_policy = residency
+				citizenship_policy = forced_assimilation
+			}
+			minorities_reform = oppression
+		}
+		effect = {
+			prestige = 10
+			badboy = -1
+			release = ISR
+			create_vassal = ISR
+			ISR = { set_country_flag = immigration_contender }
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = -5
+				}
+				scaled_militancy = {
+					ideology = fascist
+					factor = -5
+				}
+			}
+			any_pop = {
+				limit = { OR = { culture = ashkenazi  culture = sephardic } }
+				militancy = -3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

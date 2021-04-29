@@ -342,90 +342,90 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	assert_khorasan = {
-		picture = decision_mashhad
-		potential = {
-			tag = PER
-			is_our_vassal = KHR
-			KHR = {
-				civilized = no
-			}
-		}
-
-		allow = {
-			war = no
-			NOT = { num_of_revolts = 1 }
-			OR = {
-				civilized = yes
-				AND = {
-					admin_reform = advanced_admin_reform
-					civilization_progress = 0.75
-				}
-			}
-			OR = {
-				ai = yes
-				AND = {
-					relation = {
-						who = RUS
-						value = 100
-					}
-					relation = {
-						who = TUR
-						value = 100
-					}
-				}
-				in_sphere = yes
-			}
-		}
-
-		effect = {
-			badboy = 1
-			KHR = {
-				any_owned = {
-					add_core = PER
-				}
-			}
-			inherit = KHR
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.6
-			}
-		}
-	}
-	assert_khuzestan = {
-		picture = decision_khuzestan
-		potential = {
-			tag = PER
-			owns = 1135
-			is_our_vassal = KHZ
-		}
-
-		allow = {
-			war = no
-			NOT = { num_of_revolts = 1 }
-			is_secondary_power = yes
-		}
-
-		effect = {
-			badboy = 1
-			KHZ = {
-				any_owned = {
-					add_core = PER
-				}
-			}
-			inherit = KHZ
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.6
-			}
-		}
-	}
+	#assert_khorasan = {
+	#	picture = decision_mashhad
+	#	potential = {
+	#		tag = PER
+	#		is_our_vassal = KHR
+	#		KHR = {
+	#			civilized = no
+	#		}
+	#	}
+	#
+	#	allow = {
+	#		war = no
+	#		NOT = { num_of_revolts = 1 }
+	#		OR = {
+	#			civilized = yes
+	#			AND = {
+	#				admin_reform = advanced_admin_reform
+	#				civilization_progress = 0.75
+	#			}
+	#		}
+	#		OR = {
+	#			ai = yes
+	#			AND = {
+	#				relation = {
+	#					who = RUS
+	#					value = 100
+	#				}
+	#				relation = {
+	#					who = TUR
+	#					value = 100
+	#				}
+	#			}
+	#			in_sphere = yes
+	#		}
+	#	}
+	#
+	#	effect = {
+	#		badboy = 1
+	#		KHR = {
+	#			any_owned = {
+	#				add_core = PER
+	#			}
+	#		}
+	#		inherit = KHR
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			factor = 0
+	#			badboy = 0.6
+	#		}
+	#	}
+	#}
+	#assert_khuzestan = {
+	#	picture = decision_khuzestan
+	#	potential = {
+	#		tag = PER
+	#		owns = 1135
+	#		is_our_vassal = KHZ
+	#	}
+	#
+	#	allow = {
+	#		war = no
+	#		NOT = { num_of_revolts = 1 }
+	#		is_secondary_power = yes
+	#	}
+	#
+	#	effect = {
+	#		badboy = 1
+	#		KHZ = {
+	#			any_owned = {
+	#				add_core = PER
+	#			}
+	#		}
+	#		inherit = KHZ
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			factor = 0
+	#			badboy = 0.6
+	#		}
+	#	}
+	#}
 
 	assert_afghanistan_1 = {
 		picture = decision_khorasan

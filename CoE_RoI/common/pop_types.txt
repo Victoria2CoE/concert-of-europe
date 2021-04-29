@@ -1412,14 +1412,14 @@ factor = 0.25
 		factor = -10
 		state_scope = { is_colonial = yes }
 	}
-	modifier = {
-		factor = 3
-		THIS = { has_pop_religion = jewish }
-		location = {
-			owner = { has_global_flag = israel_has_her_cores }
-			NOT = { is_core = ISR }
-		}
-	}
+	#modifier = {
+	#	factor = 3
+	#	THIS = { has_pop_religion = jewish }
+	#	location = {
+	#		owner = { has_global_flag = israel_has_her_cores }
+	#		NOT = { is_core = ISR }
+	#	}
+	#}
 	#modifier = {
 	#	factor = -0.3
 	#	strata = poor
@@ -2149,14 +2149,14 @@ emigration_chance =
 		is_accepted_culture = no
 		country = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 	}
-	modifier = {
-		factor = 15
-		THIS = { has_pop_religion = jewish }
-		location = {
-			owner = { has_global_flag = israel_has_her_cores }
-			NOT = { is_core = ISR }
-		}
-	}
+	#modifier = {
+	#	factor = 15
+	#	THIS = { has_pop_religion = jewish }
+	#	location = {
+	#		owner = { has_global_flag = israel_has_her_cores }
+	#		NOT = { is_core = ISR }
+	#	}
+	#}
 	modifier = {
 		factor = -500
 		NOT = { 
@@ -2323,6 +2323,60 @@ emigration_chance =
 			continent = south_america
 			continent = africa
 		}
+	}
+	modifier = {
+		factor = 60
+		OR = { 
+			continent = north_america
+			continent = south_america
+			continent = africa
+		}
+		culture = afro_american
+		LIB = { has_country_flag = immigration_contender }
+		NOT = { location = { owner = { LIB } } }
+	}
+	modifier = {
+		factor = 10
+		NOT = { 
+			continent = north_america
+			continent = south_america
+			continent = africa
+		}
+		culture = afro_american
+		LIB = { has_country_flag = immigration_contender }
+		NOT = { location = { owner = { LIB } } }
+	}
+	modifier = {
+		factor = -100
+		culture = afro_american
+		location = { owner = { LIB } }
+	}
+	modifier = {
+		factor = 60
+		OR = { 
+			continent = north_america
+			continent = south_america
+			continent = africa
+		}
+		OR = { culture = ashkenazi  culture = sephardic }
+		ISR = { has_country_flag = immigration_contender }
+		NOT = { location = { owner = { ISR } } }
+	}
+	modifier = {
+		factor = 10
+		NOT = { 
+			continent = north_america
+			continent = south_america
+			continent = africa
+		}
+		OR = { culture = ashkenazi  culture = sephardic }
+		ISR = { has_country_flag = immigration_contender }
+		NOT = { location = { owner = { ISR } } }
+	}
+	modifier = {
+		factor = -100
+		OR = { culture = ashkenazi  culture = sephardic }
+		location = { owner = { ISR } }
 	}
 	group = {
 		modifier = {
