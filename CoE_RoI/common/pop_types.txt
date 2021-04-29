@@ -2333,7 +2333,7 @@ emigration_chance =
 		}
 		culture = afro_american
 		LIB = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { LIB } } }
+		NOT = { location = { owner = { tag = LIB } } }
 	}
 	modifier = {
 		factor = 10
@@ -2360,7 +2360,7 @@ emigration_chance =
 		}
 		OR = { culture = ashkenazi  culture = sephardic }
 		ISR = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { ISR } } }
+		NOT = { location = { owner = { tag = ISR } } }
 	}
 	modifier = {
 		factor = 10
@@ -2371,12 +2371,12 @@ emigration_chance =
 		}
 		OR = { culture = ashkenazi  culture = sephardic }
 		ISR = { has_country_flag = immigration_contender }
-		NOT = { location = { owner = { ISR } } }
+		NOT = { location = { owner = { tag = ISR } } }
 	}
 	modifier = {
 		factor = -100
 		OR = { culture = ashkenazi  culture = sephardic }
-		location = { owner = { ISR } }
+		location = { owner = { tag = ISR } }
 	}
 	group = {
 		modifier = {
