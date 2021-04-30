@@ -105,16 +105,16 @@ heavy_factory_template = {
 
 food_factory_template = {
 	efficiency = {
-		grain = 10.0
-		coal = 1.25 #0.46$
-		horses = 6.25 #0.24$
- 		timber = 6.25 #0.27$
-		lead = 1.0 #0.046$
-		cattle = 15.0 #1.2$
-		fish = 15.0 #1.2$
-		fruit = 10.0 #0.845$
+		grain = 40.0
+		coal = 2.5 #0.46$
+		horses = 12.5 #0.24$
+ 		timber = 12.5 #0.27$
+		lead = 2.0 #0.046$
+		cattle = 60.0 #1.2$
+		fish = 60.0 #1.2$
+		fruit = 40.0 #0.845$
 		#sugar = 0.15 #0.045$
-		sulphur = 5.2 #0.07$
+		sulphur = 10.4 #0.07$
 		#4.436$
 	}
 
@@ -307,10 +307,10 @@ military_factory = {
 food_factory = {
 	template = food_factory_template #98
 	input_goods = {
-		grain = 15
+		grain = 60
 	}
 	output_goods = food_industry
-	value = 100.0
+	value = 400.0
 }
 
 light_factory = {
@@ -609,7 +609,7 @@ artisan_steel_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_bronze_maker = {
@@ -628,7 +628,7 @@ artisan_bronze_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_cloths_maker = {
@@ -647,7 +647,7 @@ artisan_cloths_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_furniture_maker = {
@@ -665,7 +665,7 @@ artisan_furniture_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_luxury_maker = {
@@ -684,7 +684,7 @@ artisan_luxury_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_imports_maker = {
@@ -703,7 +703,7 @@ artisan_imports_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_stimulants_maker = {
@@ -721,7 +721,7 @@ artisan_stimulants_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_military_maker = {
@@ -729,7 +729,7 @@ artisan_military_maker = {
 		sulphur = 12.5 #70
 		heavy_industry = 3.0 #15
 	}
-	output_goods = luxury_industry
+	output_goods = military_industry
 
 	value = 6.38
 	owner = {
@@ -739,7 +739,7 @@ artisan_military_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_electricity_maker = {
@@ -747,7 +747,7 @@ artisan_electricity_maker = {
 		oil = 15 #64
 		rubber = 15 #64
 	}
-	output_goods = luxury_industry
+	output_goods = heavy_industry
 
 	value = 28.8
 	owner = {
@@ -757,19 +757,19 @@ artisan_electricity_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 artisan_food_maker = {
 	input_goods = {
-		grain = 20.0 #48
-		cattle = 10.0 #32
-		fish = 10.0 #32
-		fruit = 10.0 #32
+		grain = 60.0 #144
+		cattle = 30.0 #128
+		fish = 30.0 #128
+		fruit = 30.0 #128
 	}
-	output_goods = luxury_industry
+	output_goods = food_industry
 
-	value = 72.0
+	value = 220.0
 	owner = {
 		poptype = artisan
 		effect = output
@@ -777,7 +777,7 @@ artisan_food_maker = {
 
 	type = artisan
 
-	workforce = 10000
+	workforce = 20000 #artisan
 }
 
 #artisan_moderngear_maker = {
