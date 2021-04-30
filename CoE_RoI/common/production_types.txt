@@ -609,7 +609,7 @@ artisan_steel_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_bronze_maker = {
@@ -628,7 +628,7 @@ artisan_bronze_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_cloths_maker = {
@@ -647,7 +647,7 @@ artisan_cloths_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_furniture_maker = {
@@ -665,7 +665,7 @@ artisan_furniture_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_luxury_maker = {
@@ -684,7 +684,7 @@ artisan_luxury_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_imports_maker = {
@@ -703,7 +703,7 @@ artisan_imports_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_stimulants_maker = {
@@ -721,7 +721,7 @@ artisan_stimulants_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_military_maker = {
@@ -739,7 +739,7 @@ artisan_military_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_electricity_maker = {
@@ -757,7 +757,7 @@ artisan_electricity_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 artisan_food_maker = {
@@ -777,7 +777,7 @@ artisan_food_maker = {
 
 	type = artisan
 
-	workforce = 20000 #artisan
+	workforce = 25000 #artisan
 }
 
 #artisan_moderngear_maker = {
