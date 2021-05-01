@@ -54,6 +54,30 @@ luxury_needs = {
 	food_industry = 240
 	light_industry = 48.0
 	heavy_industry = 24.00
+	
+	#+ a bit of everything
+	cotton = 25
+	dye = 25 
+	wool = 25
+	silk = 25
+	coal = 25
+	sulphur = 25
+	iron = 25
+	timber = 25
+	tropical_wood = 25
+	rubber = 25
+	oil = 25
+	copper = 25
+	lead = 25
+	cattle = 25
+	fish = 25
+	fruit = 25
+	grain = 25 
+	tobacco = 25
+	tea = 25 
+	coffee = 25
+	opium = 25
+	spices = 25
 }
 
 country_migration_target =

@@ -54,6 +54,30 @@ luxury_needs = {
 	light_industry = 12.0
 	heavy_industry = 8.0
 	military_industry = 8.0
+	
+	#+ a bit of everything
+	cotton = 7.5
+	dye = 7.5
+	wool = 7.5
+	silk = 7.5
+	coal = 7.5
+	sulphur = 7.5
+	iron = 7.5
+	timber = 7.5
+	tropical_wood = 7.5
+	rubber = 7.5
+	oil = 7.5
+	copper = 7.5
+	lead = 7.5
+	cattle = 7.5
+	fish = 7.5
+	fruit = 7.5
+	grain = 7.5 
+	tobacco = 7.5
+	tea = 7.5
+	coffee = 7.5
+	opium = 7.5
+	spices = 7.5	
 }
 
 
