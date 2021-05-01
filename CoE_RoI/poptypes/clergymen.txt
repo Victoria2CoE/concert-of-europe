@@ -2106,7 +2106,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.5
+		factor = 1.25
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -2138,9 +2138,9 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			country = { 
-				not = { has_country_flag = vanguard_party_formed }
+				has_country_flag = vanguard_party_formed
 			}
 		}
 		#modifier = {
@@ -2226,7 +2226,7 @@ ideologies = {
 			not = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			any_neighbor_country = {
 				is_greater_power = yes
 				ruling_party_ideology = communist
@@ -2280,33 +2280,39 @@ ideologies = {
 			factor = 1.75
 			social_reform_want = 0.99
 		}	
+		#modifier = {
+		#	factor = 0.75
+		#	life_needs = 1.0
+		#}
 		modifier = {
-			factor = 0.75
-			life_needs = 1.0
+			factor = 2
+			OR = { strata = poor  type = clerks }
+			militancy = 2
 		}
 		modifier = {
 			factor = 2
-			not = { life_needs = 0.5 }
+			OR = { strata = poor  type = clerks }
+			militancy = 4
 		}
 		modifier = {
 			factor = 2
-			not = { life_needs = 0.25 }
+			OR = { strata = poor  type = clerks }
+			militancy = 6
 		}
 		modifier = {
 			factor = 2
-			not = { life_needs = 0.1 }
+			OR = { strata = poor  type = clerks }
+			militancy = 7
 		}
 		modifier = {
-			factor = 1.5
-			not = { everyday_needs = 0.5 }
+			factor = 2
+			OR = { strata = poor  type = clerks }
+			militancy = 8
 		}
 		modifier = {
-			factor = 1.5
-			not = { everyday_needs = 0.25 }
-		}
-		modifier = {
-			factor = 1.5
-			not = { everyday_needs = 0.1 }
+			factor = 2
+			OR = { strata = poor  type = clerks }
+			militancy = 9
 		}
 		modifier = {
 			factor = 1.5
@@ -2337,7 +2343,7 @@ ideologies = {
 			OR = { type = soldiers  type = officers }
 		}
 		modifier = {
-			factor = 2.0
+			factor = 2.5
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			type = clerks
 		}
