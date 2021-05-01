@@ -726,12 +726,12 @@ artisan_stimulants_maker = {
 
 artisan_military_maker = {
 	input_goods = {
-		sulphur = 12.5 #70
-		heavy_industry = 3.0 #15
+		sulphur = 20.0 #112
+		heavy_industry = 45.0 #225
 	}
 	output_goods = military_industry
 
-	value = 6.38
+	value = 20.0
 	owner = {
 		poptype = artisan
 		effect = output
