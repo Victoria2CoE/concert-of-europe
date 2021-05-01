@@ -1072,8 +1072,8 @@ country_event = {
 		exists = yes
 		OR = { government = democracy government = democracy2 government = democracy3 }
 		civilized = yes
-		#NOT = { vote_franschise = non_secret_ballots }
-		#NOT = { vote_franschise = secret_ballots }
+		NOT = {	political_parties = secret_ballots }
+		NOT = {	political_parties = non_secret_ballots }
 		NOT = { vote_franschise = none_voting }
 		#vote_franschise = universal_voting
 		ruling_party_ideology = communist
