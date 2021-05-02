@@ -71,6 +71,10 @@ country_migration_target =
 {
 	factor = 1.0
 	modifier = {
+		factor = 0.1
+		has_country_modifier = in_bankrupcy
+	}	
+	modifier = {
 		factor = 1.1
 		always = yes
 	}	
