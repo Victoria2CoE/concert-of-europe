@@ -537,18 +537,19 @@ province_event = {
 				}
 				owner = { political_reform = appointed }
 			}
-			random_owned = {
-				limit = {
-					owner = { vote_franschise = wealth_weighted_voting }
-				}
-				owner = { political_reform = landed_voting }
-			}
-			random_owned = {
-				limit = {
-					owner = { vote_franschise = wealth_voting }
-				}
-				owner = { political_reform = wealth_weighted_voting }
-			}
+			vote_franschise = none_voting
+			#random_owned = {
+			#	limit = {
+			#		owner = { vote_franschise = wealth_weighted_voting }
+			#	}
+			#	owner = { political_reform = landed_voting }
+			#}
+			#random_owned = {
+			#	limit = {
+			#		owner = { vote_franschise = wealth_voting }
+			#	}
+			#	owner = { political_reform = wealth_weighted_voting }
+			#}
 			random_owned = {
 				limit = {
 					owner = {
@@ -743,7 +744,8 @@ country_event = {
 			duration = 3650
 		}
 		remove_accepted_culture = caribeno
-		change_tag = CLM
+		#change_tag = CLM
+		CLM = { all_core = { add_core = GCO } }
 		any_country = {
 			limit = { has_country_flag = colombian_assistance }
 			clr_country_flag = colombian_assistance
@@ -990,7 +992,8 @@ country_event = {
 			duration = 3650
 		}
 		remove_accepted_culture = caribeno
-		change_tag = CLM
+		#change_tag = CLM
+		CLM = { all_core = { add_core = GCO } }
 		any_country = {
 			limit = { has_country_flag = colombian_assistance }
 			clr_country_flag = colombian_assistance
