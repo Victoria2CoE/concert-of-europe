@@ -148,5 +148,25 @@ country_event = {
 		1891 = { secede_province = LIB }		
 		release_vassal = LIB
 		diplomatic_influence = { who = LIB value = 200 }
+		LIB = { treasury = 25000 }
+	}
+	option = {
+		name = "Take me to this Land of Liberty!"
+		set_country_flag = liberia_established
+		1887 = {
+			#life_rating = 5
+			#change_variable = { which = dt_rating  value = 5 }
+			secede_province = THIS
+		}
+		1888 = {
+			secede_province = THIS
+		}
+		1889 = { secede_province = LIB }
+		1890 = { secede_province = LIB }
+		1891 = { secede_province = LIB }		
+		release_vassal = LIB
+		diplomatic_influence = { who = LIB value = 200 }
+		LIB = { treasury = 25000 }
+		change_tag_no_core_switch = LIB
 	}
 }
