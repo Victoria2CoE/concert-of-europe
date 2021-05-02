@@ -143,9 +143,14 @@ country_event = {
 		1888 = {
 			secede_province = THIS
 		}
-		1889 = { secede_province = LIB }
-		1890 = { secede_province = LIB }
-		1891 = { secede_province = LIB }		
+		1889 = { secede_province = THIS }
+		1890 = { secede_province = THIS }
+		1891 = { secede_province = THIS }
+		1887 = { life_rating = 15 }
+		1888 = { life_rating = 15 }
+		1889 = { life_rating = 15 }
+		1890 = { life_rating = 15 }
+		1891 = { life_rating = 15 }		
 		release_vassal = LIB
 		diplomatic_influence = { who = LIB value = 200 }
 		LIB = { treasury = 25000 }
@@ -161,9 +166,14 @@ country_event = {
 		1888 = {
 			secede_province = THIS
 		}
-		1889 = { secede_province = LIB }
-		1890 = { secede_province = LIB }
-		1891 = { secede_province = LIB }		
+		1889 = { secede_province = THIS }
+		1890 = { secede_province = THIS }
+		1891 = { secede_province = THIS }	
+		1887 = { life_rating = 15 }
+		1888 = { life_rating = 15 }
+		1889 = { life_rating = 15 }
+		1890 = { life_rating = 15 }
+		1891 = { life_rating = 15 }	
 		release_vassal = LIB
 		diplomatic_influence = { who = LIB value = 200 }
 		LIB = { treasury = 25000 }
