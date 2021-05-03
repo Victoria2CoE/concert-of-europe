@@ -2957,9 +2957,9 @@ RGO_education_0 = {
 	#farm_RGO_size = -0.0
 	#mine_RGO_size = -0.0
 	
-    poor_income_modifier = 0
-    middle_income_modifier = 0
-    rich_income_modifier = 0
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0
 	icon = 3
 }
@@ -2978,9 +2978,9 @@ RGO_education_1 = {
 	#middle_luxury_needs = -0.45
 	#rich_luxury_needs = -0.45
 	
-    poor_income_modifier = 0.1
-    middle_income_modifier = 0.1
-    rich_income_modifier = 0.1
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.1
 	
 	farm_RGO_size = -0.10
@@ -3010,9 +3010,9 @@ RGO_education_2 = {
 	farm_RGO_size = -0.20
 	mine_RGO_size = -0.20	
 	
-    poor_income_modifier = 0.2
-    middle_income_modifier = 0.2
-    rich_income_modifier = 0.2
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.2
 	
 	life_rating = 0.20
@@ -3036,9 +3036,9 @@ RGO_education_3 = {
 	farm_RGO_size = -0.25
 	mine_RGO_size = -0.25
 	
-    poor_income_modifier = 0.3
-    middle_income_modifier = 0.3
-    rich_income_modifier = 0.3
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.30
 	
 	life_rating = 0.30
@@ -3063,9 +3063,9 @@ RGO_education_4 = {
 	mine_RGO_size = -0.30
 
 	
-    poor_income_modifier = 0.4
-    middle_income_modifier = 0.4
-    rich_income_modifier = 0.4
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.4
 	
 	life_rating = 0.28
@@ -3089,9 +3089,9 @@ RGO_education_5 = {
 	farm_RGO_size = -0.35
 	mine_RGO_size = -0.35
 	
-    poor_income_modifier = 0.5
-    middle_income_modifier = 0.5
-    rich_income_modifier = 0.5
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.5
 	
 	life_rating = 0.26
@@ -3115,9 +3115,9 @@ RGO_education_6 = {
 	farm_RGO_size = -0.40
 	mine_RGO_size = -0.40
 	
-    poor_income_modifier = 0.6
-    middle_income_modifier = 0.6
-    rich_income_modifier = 0.6
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.6
 	
 	life_rating = 0.24
@@ -3141,9 +3141,9 @@ RGO_education_7 = {
 	farm_RGO_size = -0.45
 	mine_RGO_size = -0.45
 	
-    poor_income_modifier = 0.35
-    middle_income_modifier = 0.35
-    rich_income_modifier = 0.35
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.35
 	
 	life_rating = 0.22
@@ -3167,9 +3167,9 @@ RGO_education_8 = {
 	farm_RGO_size = -0.50
 	mine_RGO_size = -0.50
 	
-    poor_income_modifier = 0.8
-    middle_income_modifier = 0.8
-    rich_income_modifier = 0.8
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.8
 	
 	life_rating = 0.20
@@ -3193,9 +3193,9 @@ RGO_education_9 = {
 	farm_RGO_size = -0.55
 	mine_RGO_size = -0.55
 	
-    poor_income_modifier = 0.9
-    middle_income_modifier = 0.9
-    rich_income_modifier = 0.9
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
 	immigrant_push = 0.9
 	
 	life_rating = 0.18

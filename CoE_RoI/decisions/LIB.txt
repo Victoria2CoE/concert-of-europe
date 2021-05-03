@@ -2,7 +2,7 @@ political_decisions = {
 	liberate_liberia = {
    		potential = {
 		 	tag = LIB
-		 	civilized = no
+		 	#civilized = no
 		 	NOT = {
 				has_country_flag = liberia_liberated
 			}
@@ -11,10 +11,10 @@ political_decisions = {
     	allow = { 
 			war = no
 			vassal_of = USA 
-			USA = {
+			#USA = {
 				state_n_government = 1
-				money = 5000
-			}
+				#money = 5000
+			#}
     	}
 
     	effect = {
@@ -48,39 +48,39 @@ political_decisions = {
 		}
     }
 
-	liberian_constitution = {
-		potential = {
-			tag = LIB
-			has_country_flag = liberia_liberated
-			NOT = {
-				has_country_flag = liberian_constitution_enacted
-			}
-		}
-
-		allow = {
-			civilized = yes
-		}
-
-		effect = {
-			set_country_flag = liberian_constitution_enacted
-			political_reform = no_slavery
-			political_reform = state_equal_weight
-			political_reform = universal_weighted_voting
-			political_reform = yes_meeting
-			political_reform = free_press
-			political_reform = all_trade_unions
-			political_reform = first_past_the_post
-			political_reform = gerrymandering
-			prestige = 5
-			any_pop = {
-				consciousness = 2
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#liberian_constitution = {
+	#	potential = {
+	#		tag = LIB
+	#		has_country_flag = liberia_liberated
+	#		NOT = {
+	#			has_country_flag = liberian_constitution_enacted
+	#		}
+	#	}
+	#
+	#	allow = {
+	#		civilized = yes
+	#	}
+	#
+	#	effect = {
+	#		set_country_flag = liberian_constitution_enacted
+	#		political_reform = no_slavery
+	#		political_reform = state_equal_weight
+	#		political_reform = universal_weighted_voting
+	#		political_reform = yes_meeting
+	#		political_reform = free_press
+	#		political_reform = all_trade_unions
+	#		political_reform = first_past_the_post
+	#		political_reform = gerrymandering
+	#		prestige = 5
+	#		any_pop = {
+	#			consciousness = 2
+	#		}
+	#	}
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	liberian_manifest_destiny = {
 		picture = liberia
 		potential = {
@@ -106,6 +106,10 @@ political_decisions = {
 			FRA_1883 = { add_core = LIB }
 			FRA_1893 = { add_core = LIB }
 			FRA_1892 = { add_core = LIB }
+			FRA_1884 = { life_rating = 15 }
+			FRA_1883 = { life_rating = 15 }
+			FRA_1893 = { life_rating = 15 }
+			FRA_1892 = { life_rating = 15 }
 		}
 
 		ai_will_do = {
