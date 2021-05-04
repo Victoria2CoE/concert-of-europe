@@ -12,14 +12,14 @@ party_issues = {
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			rich_luxury_needs = -0.05
-			max_tariff = 1.0
+			max_tariff = 0.75
 			min_tariff = 0.20
 			
 			min_social_spending = 0.05
 			tax_efficiency = 0.01
 		}
 		free_trade = {
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.20
 			factory_throughput = 0.1
 			rgo_throughput = -0.1
 			poor_everyday_needs = 0.05
@@ -29,7 +29,7 @@ party_issues = {
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
 			max_tariff = 0.50
-			min_tariff = 0.05
+			min_tariff = 0.10
 		}
 	}
 	economic_policy = {
@@ -964,11 +964,15 @@ social_reforms = {
 		administrative = yes
 		child_labor_legal = {
 			factory_throughput = 0.05
+			farm_RGO_eff = 0.10
+			mine_rgo_eff = 0.20
 			education_efficiency_modifier = -0.20
 		}
 		child_labor_restricted = {
 			global_population_growth = 0.0005
-			factory_throughput = -0.025
+			factory_throughput = 0.025
+			farm_RGO_eff = 0.05
+			mine_rgo_eff = 0.1
 			social_reform_desire = -0.01
 			political_reform_desire = -0.025
 			pension_level = 0.05
@@ -977,8 +981,8 @@ social_reforms = {
 		}
 		child_labor_illegal = {
 			global_population_growth = 0.001
-			factory_throughput = -0.05
-			social_reform_desire = -0.02
+			#factory_throughput = -0.05
+			social_reform_desire = -0.025
 			political_reform_desire = -0.05
 			education_efficiency_modifier = 0.20
 			pension_level = 0.10
