@@ -3,15 +3,15 @@
 
 military_factory_template = {
 	efficiency = {
-		coal = 30.0 #3.45$
-		horses = 13.0 #0.4$
-		lead = 50.0 #0.92$
-		copper = 50.0 #1.4$
-		sulphur = 25.0 #0.7$
-		timber = 25.0 #0.36$
-		cattle = 5.0 #0.04$
-		cotton = 5.0 #0.04$
-		wool = 15.0 #0.02$
+		coal = 15.0 #3.45$
+		horses = 7.5 #0.4$
+		lead = 25.0 #0.92$
+		copper = 25.0 #1.4$
+		sulphur = 12.5 #0.7$
+		timber = 12.5 #0.36$
+		cattle = 2.5 #0.04$
+		cotton = 2.5 #0.04$
+		wool = 7.5 #0.02$
 		#4.387$
 	}
 
@@ -298,10 +298,10 @@ heavy_factory = {
 military_factory = {
 	template = military_factory_template #98
 	input_goods = {
-		heavy_industry = 90.0
+		heavy_industry = 10.0
 	}
 	output_goods = military_industry
-	value = 25.0
+	value = 30.0
 }
 
 food_factory = {
