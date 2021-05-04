@@ -381,7 +381,7 @@ country_event = {
 province_event = {
 	id = 999886
 	title = "Settlement Cappacity Reached"
-	desc = "With this province becoming more and more settled the cappacity to hold our setlers is rapidly deteriorating, immigration has to halt for now."
+	desc = "With this province becoming more and more densely populated the cappacity to hold our setlers is rapidly deteriorating, immigration has to halt for now."
 	
 	trigger = {
 	    state_scope = { is_colonial = yes }
