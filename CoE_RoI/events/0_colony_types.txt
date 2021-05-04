@@ -380,14 +380,114 @@ country_event = {
 
 province_event = {
 	id = 999886
-	title = "Colony No More"
-	desc = "With integration of this province into our metropolitan administration the local policies have to change."
+	title = "Settlement Cappacity Reached"
+	desc = "With this province becoming more and more settled the cappacity to hold our setlers is rapidly deteriorating, immigration has to halt for now."
 	
 	trigger = {
-	    state_scope = { is_colonial = no }
+	    state_scope = { is_colonial = yes }
+		has_province_modifier = settlement_colony
 		OR = {
-		      has_province_modifier = settlement_colony
-		      has_province_modifier = exploitation_colony
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 100000 }
+				NOT = { owner = { total_pops = 1000000 } }
+			}
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 125000 }
+				owner = { total_pops = 1000000 }
+				NOT = { owner = { total_pops = 2000000 } }
+			}
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 150000 }
+				owner = { total_pops = 2000000 }
+				NOT = { owner = { total_pops = 3000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 175000 }
+				owner = { total_pops = 3000000 }
+				NOT = { owner = { total_pops = 4000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 200000 }
+				owner = { total_pops = 4000000 }
+				NOT = { owner = { total_pops = 5000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 225000 }
+				owner = { total_pops = 5000000 }
+				NOT = { owner = { total_pops = 6000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 250000 }
+				owner = { total_pops = 6000000 }
+				NOT = { owner = { total_pops = 7000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 275000 }
+				owner = { total_pops = 7000000 }
+				NOT = { owner = { total_pops = 8000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 300000 }
+				owner = { total_pops = 8000000 }
+				NOT = { owner = { total_pops = 9000000 } }
+			}		
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 325000 }
+				owner = { total_pops = 9000000 }
+				NOT = { owner = { total_pops = 10000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 350000 }
+				owner = { total_pops = 10000000 }
+				NOT = { owner = { total_pops = 11000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 375000 }
+				owner = { total_pops = 11000000 }
+				NOT = { owner = { total_pops = 12000000 } }
+			}		
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 400000 }
+				owner = { total_pops = 12000000 }
+				NOT = { owner = { total_pops = 13000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 425000 }
+				owner = { total_pops = 13000000 }
+				NOT = { owner = { total_pops = 14000000 } }
+			}	
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 450000 }
+				owner = { total_pops = 14000000 }
+				NOT = { owner = { total_pops = 15000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 475000 }
+				owner = { total_pops = 15000000 }
+				NOT = { owner = { total_pops = 16000000 } }
+			}			
+			AND = {
+				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes } }
+				state_scope = { total_pops = 500000 }
+				owner = { total_pops = 16000000 }
+				#NOT = { owner = { total_pops = 17000000 } }
+			}			
 		}
 	}
 	
@@ -398,15 +498,49 @@ province_event = {
 	}
 	
 	option = {
-		name = "And they shall change indeed!"
+		name = "They shall be incorporated into Metropolitan Area soon..."
 		state_scope = {
 			any_owned = {
 			    remove_province_modifier = exploitation_colony
 				remove_province_modifier = settlement_colony
+         		add_province_modifier = {
+					name = exploitation_colony
+					duration = -1
+				}				
 			}
 		}		
 	}
 }
+
+#province_event = {
+#	id = 999886
+#	title = "Colony No More"
+#	desc = "With integration of this province into our metropolitan administration the local policies have to change."
+#	
+#	trigger = {
+#	    state_scope = { is_colonial = no }
+#		OR = {
+#		      has_province_modifier = settlement_colony
+#		      has_province_modifier = exploitation_colony
+#		}
+#	}
+#	
+#	allow_multiple_instances = yes	
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = "And they shall change indeed!"
+#		state_scope = {
+#			any_owned = {
+#			    remove_province_modifier = exploitation_colony
+#				remove_province_modifier = settlement_colony
+#			}
+#		}		
+#	}
+#}
 
 country_event = {
 	id = 999885
