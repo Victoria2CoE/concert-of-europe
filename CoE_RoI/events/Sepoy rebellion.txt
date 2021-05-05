@@ -105,7 +105,7 @@ country_event = {
 		}
 		set_global_flag = hnd_independence_war
 		ENG = { release_vassal = HND }
-		civilized = yes
+		#civilized = yes
 		prestige = 50
 		primary_culture = panjabi
         add_accepted_culture = assamese
@@ -378,6 +378,7 @@ country_event = {
 	option = {
 		name = "All hail the free India!"
         prestige = 100
+		years_of_research = 5
         ENG = { prestige_factor = -0.25 }
         #country_event = 		
 	}
