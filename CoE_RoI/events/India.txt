@@ -427,7 +427,13 @@ country_event = {
 	trigger = {
 		tag = PNJ
 		exists = yes
-		neighbour = ENG
+		OR = {
+			neighbour = ENG
+			AND = { 
+				neighbour = HND
+				HND = { vassal_of ENG }
+			}
+		}
 		has_country_flag = singh
 		NOT = { has_leader = "Ranjit Singh" }
 		NOT = { truce_with = ENG }
