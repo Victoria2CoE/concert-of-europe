@@ -330,14 +330,15 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			nationalism_n_imperialism
 			all_core = {
-				OR = {
+				#OR = {
 					owned_by = THIS
-					region = RUS_1098 #Armenia
-					region = RUS_1102 #Azerbaijan
-					region = RUS_1090 #Georgia
-					region = RUS_1052 #North Caucasia
-				}
+				#	region = RUS_1098 #Armenia
+				#	region = RUS_1102 #Azerbaijan
+				#	region = RUS_1090 #Georgia
+				#	region = RUS_1052 #North Caucasia
+				#}
 			}
 			OR = {
 				is_greater_power = yes
@@ -394,11 +395,11 @@ political_decisions = {
 		allow = {
 			war = no
 			all_core = {
-				OR = {
+				#OR = {
 					owned_by = THIS
-					region = RUS_1196 #Turkmenia
-					region = PER_1148 #Khorasan
-				}
+				#	region = RUS_1196 #Turkmenia
+				#	region = PER_1148 #Khorasan
+				#}
 			}
 			is_greater_power = yes
 		}

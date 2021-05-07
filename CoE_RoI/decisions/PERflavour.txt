@@ -1,92 +1,92 @@
 political_decisions = {
-	establish_the_dar_al_funun = {
-		potential = {
-			tag = PER
-			NOT = { has_country_flag = dar_al_funun_built }
-		}
-		
-		allow = {
-			OR = {
-				literacy = 0.12
-				AND = {
-					has_country_modifier = great_reformer
-					literacy = 0.08
-				}
-				AND = {
-					has_country_modifier = visionary_thinker
-					literacy = 0.05
-				}
-				AND = {
-					has_country_modifier = visionary_thinker
-					ai = yes
-				}
-			}
-			war = no
-		}
-		
-		effect = {
-			set_country_flag = dar_al_funun_built
-			random_owned = {
-				limit = {
-					owner = {
-						civilized = no
-						NOT = { academic_institutions = universities }
-					}
-				}
-				owner = {
-					economic_reform = universities
-					any_pop = {
-						ideology = {
-							value = liberal
-							factor = 0.03
-						}
-						consciousness = 0.5
-						scaled_militancy = {
-							ideology = liberal
-							factor = -10
-						}
-						scaled_militancy = {
-							ideology = reactionary
-							factor = 3
-						}
-					}
-				}
-			}
-			capital_scope = {
-				add_province_modifier = {
-					name = dar_al_funun
-					duration = -1
-				}
-				any_pop = {
-					literacy = 0.05
-				}
-			}
-			any_greater_power = {
-				limit = {
-					capital_scope = {
-						continent = europe
-					}
-					NOT = {
-						tag = ENG
-						tag = RUS
-						tag = TUR						
-					}
-					relation = {
-						who = PER
-						value = -20
-					}
-				}
-				relation = {
-					who = PER
-					value = 25
-				}
-				random_owned = {
-					limit = { is_capital = yes }
-					province_event = { id = 190370 }
-				}
-			}
-		}
-	}
+	#establish_the_dar_al_funun = {
+	#	potential = {
+	#		tag = PER
+	#		NOT = { has_country_flag = dar_al_funun_built }
+	#	}
+	#	
+	#	allow = {
+	#		OR = {
+	#			literacy = 0.12
+	#			AND = {
+	#				has_country_modifier = great_reformer
+	#				literacy = 0.08
+	#			}
+	#			AND = {
+	#				has_country_modifier = visionary_thinker
+	#				literacy = 0.05
+	#			}
+	#			AND = {
+	#				has_country_modifier = visionary_thinker
+	#				ai = yes
+	#			}
+	#		}
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = dar_al_funun_built
+	#		random_owned = {
+	#			limit = {
+	#				owner = {
+	#					civilized = no
+	#					NOT = { academic_institutions = universities }
+	#				}
+	#			}
+	#			owner = {
+	#				economic_reform = universities
+	#				any_pop = {
+	#					ideology = {
+	#						value = liberal
+	#						factor = 0.03
+	#					}
+	#					consciousness = 0.5
+	#					scaled_militancy = {
+	#						ideology = liberal
+	#						factor = -10
+	#					}
+	#					scaled_militancy = {
+	#						ideology = reactionary
+	#						factor = 3
+	#					}
+	#				}
+	#			}
+	#		}
+	#		capital_scope = {
+	#			add_province_modifier = {
+	#				name = dar_al_funun
+	#				duration = -1
+	#			}
+	#			any_pop = {
+	#				literacy = 0.05
+	#			}
+	#		}
+	#		any_greater_power = {
+	#			limit = {
+	#				capital_scope = {
+	#					continent = europe
+	#				}
+	#				NOT = {
+	#					tag = ENG
+	#					tag = RUS
+	#					tag = TUR						
+	#				}
+	#				relation = {
+	#					who = PER
+	#					value = -20
+	#				}
+	#			}
+	#			relation = {
+	#				who = PER
+	#				value = 25
+	#			}
+	#			random_owned = {
+	#				limit = { is_capital = yes }
+	#				province_event = { id = 190370 }
+	#			}
+	#		}
+	#	}
+	#}
 	# Decision - Naser al-Din's expedition to Europe, 1870s, increases prestige + adds research
 	per_expedition_to_europe = {
 		picture = "decision_eurotrip"
@@ -108,7 +108,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			years_of_research = 0.05
+			years_of_research = 0.5
 			money = -25000
 			random_country = {
 				limit = { 
@@ -393,7 +393,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = reuter_concession
 			money = 30000
-			years_of_research = 0.1
+			years_of_research = 1.0
 			ENG = {
 				diplomatic_influence = {
 					who = PER
@@ -409,102 +409,102 @@ political_decisions = {
 			}
 		}
 	}
-	the_treaty_of_paris_persia = {
-		picture = decision_paris_treaty
-		potential = {
-			tag = PER
-			has_country_flag = anglo_persian_war
-		}
-		
-		allow = {
-			war_exhaustion = 10
-			war = yes
-		}
-		
-		effect = {
-			clr_country_flag = anglo_persian_war
-			prestige = -15
-			war_exhaustion = 5
-			release = HRT
-			any_owned = {
-				limit = {
-					is_core = HRT
-				}
-				secede_province = HRT
-			}
-			HRT = {
-				end_war = PER
-				country_event = 190357
-				any_owned = {
-					remove_core = PER
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = KDH
-					NOT = {
-						is_core = HRT
-					}
-				}
-				secede_province = KDH
-			}
-			any_owned = {
-				limit = {
-					OR = {
-						is_core = TAJ
-						is_core = KNZ
-						is_core = HZJ
-						is_core = AFG
-					}
-					NOT = {
-						OR = {
-							is_core = HRT
-							is_core = KDH
-						}					
-					}
-				}
-				secede_province = AFG
-			}
-			any_country = {
-				limit = {
-					war_with = PER
-					has_country_flag = intervened_herat
-				}
-				country_event = 190357
-				relation = {
-					who = PER
-					value = 100
-				}
-				influence = {
-					who = PER
-					value = 50
-				}
-			}
-			AFG = {
-				any_owned = {
-					remove_core = PER
-				}
-			}
-			KDH = {
-				any_owned = {
-					remove_core = PER
-				}
-			}
-			HZJ = {
-				any_owned = {
-					remove_core = PER
-				}
-			}
-			KNZ = {
-				any_owned = {
-					remove_core = PER
-				}
-			}		
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#the_treaty_of_paris_persia = {
+	#	picture = decision_paris_treaty
+	#	potential = {
+	#		tag = PER
+	#		has_country_flag = anglo_persian_war
+	#	}
+	#	
+	#	allow = {
+	#		war_exhaustion = 10
+	#		war = yes
+	#	}
+	#	
+	#	effect = {
+	#		clr_country_flag = anglo_persian_war
+	#		prestige = -15
+	#		war_exhaustion = 5
+	#		release = HRT
+	#		any_owned = {
+	#			limit = {
+	#				is_core = HRT
+	#			}
+	#			secede_province = HRT
+	#		}
+	#		HRT = {
+	#			end_war = PER
+	#			country_event = 190357
+	#			any_owned = {
+	#				remove_core = PER
+	#			}
+	#		}
+	#		any_owned = {
+	#			limit = {
+	#				is_core = KDH
+	#				NOT = {
+	#					is_core = HRT
+	#				}
+	#			}
+	#			secede_province = KDH
+	#		}
+	#		any_owned = {
+	#			limit = {
+	#				OR = {
+	#					is_core = TAJ
+	#					is_core = KNZ
+	#					is_core = HZJ
+	#					is_core = AFG
+	#				}
+	#				NOT = {
+	#					OR = {
+	#						is_core = HRT
+	#						is_core = KDH
+	#					}					
+	#				}
+	#			}
+	#			secede_province = AFG
+	#		}
+	#		any_country = {
+	#			limit = {
+	#				war_with = PER
+	#				has_country_flag = intervened_herat
+	#			}
+	#			country_event = 190357
+	#			relation = {
+	#				who = PER
+	#				value = 100
+	#			}
+	#			influence = {
+	#				who = PER
+	#				value = 50
+	#			}
+	#		}
+	#		AFG = {
+	#			any_owned = {
+	#				remove_core = PER
+	#			}
+	#		}
+	#		KDH = {
+	#			any_owned = {
+	#				remove_core = PER
+	#			}
+	#		}
+	#		HZJ = {
+	#			any_owned = {
+	#				remove_core = PER
+	#			}
+	#		}
+	#		KNZ = {
+	#			any_owned = {
+	#				remove_core = PER
+	#			}
+	#		}		
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	the_sublime_threshold = {
 		picture = decision_sublime_threshold
 		potential = {

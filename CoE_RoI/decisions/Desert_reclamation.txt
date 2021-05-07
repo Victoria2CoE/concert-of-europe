@@ -103,8 +103,9 @@ political_decisions = {
 				part_of_sphere = yes
 			}
 			OR = {
-				civilized = yes
-				NOT = { unciv_military_doctrines = traditional_military_doctrines }
+				#civilized = yes
+				#NOT = { unciv_military_doctrines = traditional_military_doctrines }
+				nationalism_n_imperialism
 				has_country_flag = turkmenchay_treaty
 			}
 		}
@@ -149,8 +150,7 @@ political_decisions = {
 				part_of_sphere = yes
 			}
 			OR = {
-				civilized = yes
-				admin_reform = advanced_admin_reform
+				nationalism_n_imperialism
 				1138 = { average_militancy = 4 }
 			}
 		}
@@ -211,8 +211,9 @@ political_decisions = {
 				part_of_sphere = yes
 			}
 			OR = {
-				civilized = yes
-				NOT = { admin_reform = no_admin_reform }
+				#civilized = yes
+				#NOT = { admin_reform = no_admin_reform }
+				nationalism_n_imperialism
 				1136 = { average_militancy = 3 }
 			}
 		}
@@ -264,8 +265,12 @@ political_decisions = {
 			}
 			allow = {
 				war = no
-				NOT = { admin_reform = no_admin_reform }
-				OMA = { NOT = { owns = 2048 } } #Oman weakend
+				#NOT = { admin_reform = no_admin_reform }
+				nationalism_n_imperialism
+				OR = {
+					OMA = { NOT = { owns = 2048 } } #Oman weakend
+					stronger_army_than = OMA
+				}
 				NOT = { num_of_revolts = 1 }
 			}
 
@@ -314,13 +319,13 @@ political_decisions = {
 						is_secondary_power = yes
 						is_greater_power = yes
 					}
-					OMA = { is_secondary_power = no }
-					OMA = { is_greater_power = no }
+					#OMA = { is_secondary_power = no }
+					#OMA = { is_greater_power = no }
 				}
-				AND = {
-					civilized = yes
-					OMA = { civilized = no }
-				}
+				#AND = {
+				#	civilized = yes
+				#	OMA = { civilized = no }
+				#}
 			}
 		}
 

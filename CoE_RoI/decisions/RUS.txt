@@ -77,7 +77,7 @@ political_decisions = {
 				has_country_flag = transcaucasia_claimed
 			}
 			PER = {
-				civilized = no
+				#civilized = no
 				war_with = THIS
 				owns = 1098	#Erivan
 			}
