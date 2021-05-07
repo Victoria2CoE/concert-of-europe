@@ -227,7 +227,7 @@ country_event = {
 			leave_alliance = THIS
 		}
 		ai_chance = {
-			factor = 75
+			factor = 80
 		}		
 	}
 	option = {
@@ -242,12 +242,20 @@ country_event = {
 				factor = 10
 			}
 			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 20
+			}
+			scaled_militancy = {
 				ideology = socialist
 				factor = 15
-			}		
+			}	
+			scaled_militancy = {
+				ideology = communist
+				factor = 20
+			}				
 		}
 		ai_chance = {
-			factor = 25
+			factor = 20
 			modifier = {
 				factor = 2.0
 				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
