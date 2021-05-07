@@ -21,9 +21,11 @@ country_event = {
 		tag = FRA
 		exists = yes
 		NOT = { has_country_flag = fra_ancien_regime_holding }
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
-		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		OR = {
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		}
 		OR = {
 			has_country_modifier = springtime_of_nations
 			has_country_flag = liberal_revolution_in_progress
