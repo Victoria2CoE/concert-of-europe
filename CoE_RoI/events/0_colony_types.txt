@@ -565,6 +565,7 @@ country_event = {
 						owner = { tag = FRA }
 						owner = { tag = NET }
 						owner = { tag = DEN }
+						owner = { tag = SWE }
 					}
 				}
 				remove_province_modifier = exploitation_colony
