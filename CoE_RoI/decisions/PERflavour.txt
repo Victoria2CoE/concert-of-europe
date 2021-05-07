@@ -576,4 +576,38 @@ political_decisions = {
 			}
 		}
 	}
+	international_recognition_as_iran = {
+		picture = iran_flag_pic
+		potential = {
+			tag = PER
+			exists = yes
+			OR = { government = absolute_monarchy3 government = prussian_constitutionalism3 government = hms_government3 }
+		}
+		
+		allow = {
+			OR = {
+				is_greater_power = yes
+				post_colonialism = 1
+			}
+		}
+		
+		effect = {
+			random_owned = {
+				limit = { owner = { government = absolute_monarchy3 } }
+				government = absolute_monarchy
+			}
+			random_owned = {
+				limit = { owner = { government = prussian_constitutionalism3 } }
+				government = prussian_constitutionalism
+			}	
+			random_owned = {
+				limit = { owner = { government = hms_government3 } }
+				government = hms_government
+			}			
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
