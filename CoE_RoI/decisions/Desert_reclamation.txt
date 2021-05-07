@@ -105,7 +105,7 @@ political_decisions = {
 			OR = {
 				#civilized = yes
 				#NOT = { unciv_military_doctrines = traditional_military_doctrines }
-				nationalism_n_imperialism
+				nationalism_n_imperialism = 1
 				has_country_flag = turkmenchay_treaty
 			}
 		}
@@ -150,7 +150,7 @@ political_decisions = {
 				part_of_sphere = yes
 			}
 			OR = {
-				nationalism_n_imperialism
+				nationalism_n_imperialism = 1
 				1138 = { average_militancy = 4 }
 			}
 		}
@@ -213,7 +213,7 @@ political_decisions = {
 			OR = {
 				#civilized = yes
 				#NOT = { admin_reform = no_admin_reform }
-				nationalism_n_imperialism
+				nationalism_n_imperialism = 1
 				1136 = { average_militancy = 3 }
 			}
 		}
@@ -266,7 +266,7 @@ political_decisions = {
 			allow = {
 				war = no
 				#NOT = { admin_reform = no_admin_reform }
-				nationalism_n_imperialism
+				nationalism_n_imperialism = 1
 				OR = {
 					OMA = { NOT = { owns = 2048 } } #Oman weakend
 					stronger_army_than = OMA
