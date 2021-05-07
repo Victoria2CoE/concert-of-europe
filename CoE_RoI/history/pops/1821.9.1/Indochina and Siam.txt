@@ -1337,23 +1337,252 @@
 
 	artisans = {
 
-		size = 5130
+		size = 15390
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	artisans = {
 
-		size = 1166
+		size = 3498
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	bureaucrats = {
 
-		size = 139
+		size = 417
 		culture = khmer
 		religion = khmer #religion = theravada
+
+	}
+	clergymen = {
+
+		size = 3357
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 274125
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 7485
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	slaves = {
+
+		size = 5526
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+
+}
+1365 = {
+
+	artisans = {
+
+		size = 627
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	artisans = {
+
+		size = 1398
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	artisans = {
+
+		size = 2097
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	clergymen = {
+
+		size = 279
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	clergymen = {
+
+		size = 279
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 12873
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	labourers = {
+
+		size = 25605
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 6015
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+
+}
+1366 = {
+
+	capitalists = {
+
+		size = 699
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	capitalists = {
+
+		size = 2097
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	artisans = {
+
+		size = 138
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	artisans = {
+
+		size = 5595
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	artisans = {
+
+		size = 2097
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	bureaucrats = {
+
+		size = 138
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	clergymen = {
+
+		size = 207
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	clergymen = {
+
+		size = 1113
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 2028
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	labourers = {
+
+		size = 110337
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	labourers = {
+
+		size = 6015
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	officers = {
+
+		size = 207
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	slaves = {
+
+		size = 3078
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	soldiers = {
+
+		size = 558
+		culture = thai
+		religion = thai #religion = theravada
+
+	}
+	soldiers = {
+
+		size = 1188
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	soldiers = {
+
+		size = 279
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+
+}
+1367 = {
+
+	capitalists = {
+
+		size = 8604
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	artisans = {
+
+		size = 4896
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	artisans = {
+
+		size = 1398
+		culture = yue
+		religion = yue #religion = mahayana
 
 	}
 	clergymen = {
@@ -1365,264 +1594,35 @@
 	}
 	labourers = {
 
-		size = 91375
+		size = 95625
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	labourers = {
 
-		size = 2495
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	slaves = {
-
-		size = 1842
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-
-}
-1365 = {
-
-	artisans = {
-
-		size = 209
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	artisans = {
-
-		size = 466
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	artisans = {
-
-		size = 699
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 93
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	clergymen = {
-
-		size = 93
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 4291
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	labourers = {
-
-		size = 8535
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 2005
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-
-}
-1366 = {
-
-	capitalists = {
-
-		size = 233
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	capitalists = {
-
-		size = 699
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	artisans = {
-
-		size = 46
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	artisans = {
-
-		size = 1865
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	artisans = {
-
-		size = 699
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	bureaucrats = {
-
-		size = 46
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	clergymen = {
-
-		size = 69
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	clergymen = {
-
-		size = 371
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 676
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	labourers = {
-
-		size = 36779
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 2005
+		size = 4128
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	officers = {
 
+		size = 558
+		culture = khmer
+		religion = khmer #religion = theravada
+
+	}
+	slaves = {
+
 		size = 69
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	slaves = {
-
-		size = 1026
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	soldiers = {
 
-		size = 186
-		culture = thai
-		religion = thai #religion = theravada
-
-	}
-	soldiers = {
-
-		size = 396
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	soldiers = {
-
-		size = 93
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-
-}
-1367 = {
-
-	capitalists = {
-
-		size = 2868
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	artisans = {
-
-		size = 1632
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	artisans = {
-
-		size = 466
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 373
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 31875
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	labourers = {
-
-		size = 1376
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	officers = {
-
-		size = 186
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	slaves = {
-
-		size = 23
-		culture = khmer
-		religion = khmer #religion = theravada
-
-	}
-	soldiers = {
-
-		size = 4954
+		size = 14862
 		culture = khmer
 		religion = khmer #religion = theravada
 
@@ -1633,35 +1633,35 @@
 
 	artisans = {
 
-		size = 839
+		size = 2517
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	artisans = {
 
-		size = 116
+		size = 348
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	clergymen = {
 
-		size = 209
+		size = 627
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	labourers = {
 
-		size = 15388
+		size = 46164
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	labourers = {
 
-		size = 2565
+		size = 7695
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
@@ -1678,133 +1678,133 @@
 
 	capitalists = {
 
-		size = 11357
+		size = 17035
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	capitalists = {
 
-		size = 443
+		size = 664
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	artisans = {
 
-		size = 9328
+		size = 13992
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 9328
+		size = 13992
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 4198
+		size = 6297
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1166
+		size = 1749
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1166
+		size = 1749
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 3265
+		size = 4897
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 1026
+		size = 1539
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 1609
+		size = 2413
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 161
+		size = 241
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	labourers = {
 
-		size = 123958
+		size = 185937
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 653
+		size = 979
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 653
+		size = 979
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 18961
+		size = 28441
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	officers = {
 
-		size = 583
+		size = 874
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	slaves = {
 
-		size = 7463
+		size = 11194
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	soldiers = {
 
-		size = 6903
+		size = 10354
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	soldiers = {
 
-		size = 233
+		size = 349
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
@@ -1815,70 +1815,70 @@
 
 	artisans = {
 
-		size = 6110
+		size = 9165
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1166
+		size = 1749
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1166
+		size = 1749
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 653
+		size = 979
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	clergymen = {
 
-		size = 1329
+		size = 1993
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 93
+		size = 139
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	labourers = {
 
-		size = 111060
+		size = 166590
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 653
+		size = 979
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 653
+		size = 979
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 12314
+		size = 18471
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
@@ -1889,63 +1889,63 @@
 
 	artisans = {
 
-		size = 2425
+		size = 3637
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 279
+		size = 418
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	artisans = {
 
-		size = 466
+		size = 699
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	clergymen = {
 
-		size = 536
+		size = 804
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 93
+		size = 139
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	labourers = {
 
-		size = 43659
+		size = 65488
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 5247
+		size = 7870
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	labourers = {
 
-		size = 8489
+		size = 12733
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	slaves = {
 
-		size = 1865
+		size = 2797
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
@@ -1956,7 +1956,328 @@
 
 	artisans = {
 
-		size = 2518
+		size = 3777
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	artisans = {
+
+		size = 418
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	artisans = {
+
+		size = 979
+		culture = asian_minor
+		religion = asian_minor #religion = animist
+
+	}
+	clergymen = {
+
+		size = 874
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	clergymen = {
+
+		size = 174
+		culture = asian_minor
+		religion = asian_minor #religion = animist
+
+	}
+	labourers = {
+
+		size = 68077
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 7870
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	labourers = {
+
+		size = 17841
+		culture = asian_minor
+		religion = asian_minor #religion = animist
+
+	}
+	slaves = {
+
+		size = 1539
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+
+}
+1373 = {
+
+	artisans = {
+
+		size = 4827
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	artisans = {
+
+		size = 489
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	artisans = {
+
+		size = 2308
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	clergymen = {
+
+		size = 1153
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 87325
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 9235
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	labourers = {
+
+		size = 1783
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	slaves = {
+
+		size = 2797
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+
+}
+1374 = {
+
+	artisans = {
+
+		size = 7695
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	artisans = {
+
+		size = 769
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 1644
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 153961
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 14553
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	slaves = {
+
+		size = 4197
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+
+}
+1375 = {
+
+	capitalists = {
+
+		size = 12453
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	capitalists = {
+
+		size = 1329
+		culture = asian_minor
+		religion = asian_minor #religion = animist
+
+	}
+	artisans = {
+
+		size = 10459
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	artisans = {
+
+		size = 1434
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	artisans = {
+
+		size = 5596
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	bureaucrats = {
+
+		size = 1188
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	clergymen = {
+
+		size = 3252
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	clergymen = {
+
+		size = 313
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	labourers = {
+
+		size = 286723
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 41629
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	labourers = {
+
+		size = 4092
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
+	officers = {
+
+		size = 733
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	slaves = {
+
+		size = 12594
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	soldiers = {
+
+		size = 7030
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	soldiers = {
+
+		size = 664
+		culture = asian_minor
+		religion = asian_minor #religion = animist
+
+	}
+
+}
+1376 = {
+
+	artisans = {
+
+		size = 8605
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	artisans = {
+
+		size = 559
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+	clergymen = {
+
+		size = 1783
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 156550
+		culture = vietnamese
+		religion = vietnamese #religion = mahayana
+
+	}
+	labourers = {
+
+		size = 10564
+		culture = vietnamese
+		religion = vietnamese #religion = catholic
+
+	}
+
+}
+1377 = {
+
+	artisans = {
+
+		size = 2797
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
@@ -1970,28 +2291,35 @@
 	}
 	artisans = {
 
-		size = 653
+		size = 1539
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
+	artisans = {
+
+		size = 769
+		culture = yue
+		religion = yue #religion = mahayana
+
+	}
 	clergymen = {
 
-		size = 583
+		size = 664
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 116
+		size = 313
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	labourers = {
 
-		size = 45385
+		size = 50095
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
@@ -2005,349 +2333,21 @@
 	}
 	labourers = {
 
-		size = 11894
+		size = 27951
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
-	slaves = {
-
-		size = 1026
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-
-}
-1373 = {
-
-	artisans = {
-
-		size = 3218
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	artisans = {
-
-		size = 326
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	artisans = {
-
-		size = 1539
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 769
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
 	labourers = {
 
-		size = 58217
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 6157
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	labourers = {
-
-		size = 1189
+		size = 594
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	slaves = {
 
-		size = 1865
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-
-}
-1374 = {
-
-	artisans = {
-
-		size = 5130
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	artisans = {
-
-		size = 513
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	clergymen = {
-
-		size = 1096
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 102641
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 9702
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	slaves = {
-
-		size = 2798
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-
-}
-1375 = {
-
-	capitalists = {
-
-		size = 8302
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	capitalists = {
-
-		size = 886
-		culture = asian_minor
-		religion = asian_minor #religion = animist
-
-	}
-	artisans = {
-
-		size = 6973
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	artisans = {
-
-		size = 956
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	artisans = {
-
-		size = 3731
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	bureaucrats = {
-
-		size = 792
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 2168
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 209
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	labourers = {
-
-		size = 191149
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 27753
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	labourers = {
-
-		size = 2728
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	officers = {
-
-		size = 489
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	slaves = {
-
-		size = 8396
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	soldiers = {
-
-		size = 4687
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	soldiers = {
-
-		size = 443
-		culture = asian_minor
-		religion = asian_minor #religion = animist
-
-	}
-
-}
-1376 = {
-
-	artisans = {
-
-		size = 5737
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	artisans = {
-
-		size = 373
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	clergymen = {
-
-		size = 1189
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 104367
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 7043
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-
-}
-1377 = {
-
-	artisans = {
-
-		size = 1865
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	artisans = {
-
-		size = 186
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	artisans = {
-
-		size = 1026
-		culture = asian_minor
-		religion = asian_minor #religion = animist
-
-	}
-	artisans = {
-
-		size = 513
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 443
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	clergymen = {
-
-		size = 209
-		culture = asian_minor
-		religion = asian_minor #religion = animist
-
-	}
-	labourers = {
-
-		size = 33397
-		culture = vietnamese
-		religion = vietnamese #religion = mahayana
-
-	}
-	labourers = {
-
-		size = 3498
-		culture = vietnamese
-		religion = vietnamese #religion = catholic
-
-	}
-	labourers = {
-
-		size = 18634
-		culture = asian_minor
-		religion = asian_minor #religion = animist
-
-	}
-	labourers = {
-
-		size = 396
-		culture = yue
-		religion = yue #religion = mahayana
-
-	}
-	slaves = {
-
-		size = 1865
+		size = 2797
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
@@ -2358,42 +2358,42 @@
 
 	artisans = {
 
-		size = 1585
+		size = 2377
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 186
+		size = 279
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	clergymen = {
 
-		size = 349
+		size = 523
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 28849
+		size = 43273
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 3498
+		size = 5247
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	slaves = {
 
-		size = 1865
+		size = 2797
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
@@ -2404,42 +2404,42 @@
 
 	artisans = {
 
-		size = 279
+		size = 418
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1119
+		size = 1678
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	clergymen = {
 
-		size = 46
+		size = 69
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 209
+		size = 313
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	labourers = {
 
-		size = 5060
+		size = 7590
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 20360
+		size = 30540
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
@@ -2450,119 +2450,119 @@
 
 	capitalists = {
 
-		size = 4755
+		size = 7132
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	capitalists = {
 
-		size = 163
+		size = 244
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	artisans = {
 
-		size = 6996
+		size = 10494
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1959
+		size = 2938
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1492
+		size = 2238
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1026
+		size = 1539
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 303
+		size = 454
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 1772
+		size = 2658
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 116
+		size = 174
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	labourers = {
 
-		size = 150871
+		size = 226306
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 1702
+		size = 2553
 		culture = yue
 		religion = yue #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 1259
+		size = 1888
 		culture = min
 		religion = min #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 17608
+		size = 26412
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	officers = {
 
-		size = 279
+		size = 418
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	slaves = {
 
-		size = 7463
+		size = 11194
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	soldiers = {
 
-		size = 3335
+		size = 5002
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	soldiers = {
 
-		size = 373
+		size = 559
 		culture = khmer
 		religion = khmer #religion = theravada
 
@@ -2573,49 +2573,49 @@
 
 	artisans = {
 
-		size = 2238
+		size = 3357
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 233
+		size = 349
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	artisans = {
 
-		size = 373
+		size = 559
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
 	}
 	clergymen = {
 
-		size = 559
+		size = 838
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 40814
+		size = 61221
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 4384
+		size = 6576
 		culture = vietnamese
 		religion = vietnamese #religion = catholic
 
 	}
 	labourers = {
 
-		size = 6786
+		size = 10179
 		culture = asian_minor
 		religion = asian_minor #religion = animist
 
@@ -2626,14 +2626,14 @@
 
 	artisans = {
 
-		size = 653
+		size = 979
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 1352
+		size = 2028
 		culture = khmer
 		religion = khmer #religion = theravada
 
@@ -2647,28 +2647,28 @@
 	}
 	clergymen = {
 
-		size = 112
+		size = 168
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 279
+		size = 418
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	labourers = {
 
-		size = 11871
+		size = 17806
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 25188
+		size = 37782
 		culture = khmer
 		religion = khmer #religion = theravada
 
@@ -2679,42 +2679,42 @@
 
 	artisans = {
 
-		size = 653
+		size = 979
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	artisans = {
 
-		size = 746
+		size = 1119
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	clergymen = {
 
-		size = 116
+		size = 174
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	clergymen = {
 
-		size = 139
+		size = 208
 		culture = khmer
 		religion = khmer #religion = theravada
 
 	}
 	labourers = {
 
-		size = 11078
+		size = 16617
 		culture = vietnamese
 		religion = vietnamese #religion = mahayana
 
 	}
 	labourers = {
 
-		size = 13900
+		size = 20850
 		culture = khmer
 		religion = khmer #religion = theravada
 
