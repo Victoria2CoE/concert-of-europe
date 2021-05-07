@@ -224,6 +224,7 @@ party_issues = {
 			cb_generation_speed_modifier = 0.3
 			is_jingoism = yes
 			org_regain = 0.2
+			global_pop_militancy_modifier = 0.01
 			leadership_modifier = 0.2
 		}
 		pro_military = {
@@ -238,7 +239,7 @@ party_issues = {
 			max_military_spending = 0.75
 			cb_generation_speed_modifier = -0.1
 			mobilization_impact = 0
-			org_regain = -0.1
+			#org_regain = -0.1
 			global_pop_militancy_modifier = -0.01
 			leadership_modifier = -0.1
 		}
@@ -246,7 +247,7 @@ party_issues = {
 			max_military_spending = 0.5
 			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 0
-			org_regain = -0.2
+			org_regain = -0.1
 			global_pop_militancy_modifier = -0.03
 			leadership_modifier = -0.2
 		}
