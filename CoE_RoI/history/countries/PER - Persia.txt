@@ -9,8 +9,9 @@ culture = tajik
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_enlightenment
+nationalvalue = nv_might #nationalvalue = nv_enlightenment
 literacy = 0.01 #literacy = 0.022
+civilized = yes
 
 # Political reforms
 slavery = yes_slavery
@@ -50,14 +51,14 @@ upper_house = {
 
 set_country_flag = existing_country
 
-unciv_light_armament = gunpowder_weapons
-unciv_artillery = early_light_artillery
-unciv_military_training = field_drills
-unciv_military_doctrines = the_lessons_of_war
-unciv_officer_corps = foreign_officers_commanding
-academic_institutions = madrasahs  late_enlightenment_philosophy = 1
-taxation_reform = tax_farmers
-diplomatic_reform = interactive
+#unciv_light_armament = gunpowder_weapons
+#unciv_artillery = early_light_artillery
+#unciv_military_training = field_drills
+#unciv_military_doctrines = the_lessons_of_war
+#unciv_officer_corps = foreign_officers_commanding
+#academic_institutions = madrasahs  late_enlightenment_philosophy = 1
+#taxation_reform = tax_farmers
+#diplomatic_reform = interactive
 
 # Technologies
 army_command_principle = 1
