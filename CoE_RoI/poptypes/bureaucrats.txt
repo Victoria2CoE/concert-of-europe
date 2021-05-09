@@ -342,7 +342,7 @@ country_migration_target =
 	#	} }
 	#}
 	modifier = {
-		factor = 0.05
+		factor = 0.01
 		NOT = {  
 			continent = north_america
 			continent = south_america
@@ -361,17 +361,6 @@ country_migration_target =
 		THIS = { OR = { culture = ashkenazi  culture = sephardic } }
 		ISR = { exists = yes }
 		NOT = { tag = ISR }
-	}
-	modifier = {
-		factor = 5
-		THIS = { culture = afro_american }
-		LIB = { exists = yes }
-		tag = LIB
-	}
-	modifier = {
-		factor = 5
-		THIS = { OR = { culture = ashkenazi  culture = sephardic } }
-		ISR = { exists = yes }
 	}
 	modifier = {
 		factor = 5

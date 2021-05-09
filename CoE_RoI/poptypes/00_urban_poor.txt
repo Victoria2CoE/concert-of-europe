@@ -295,7 +295,7 @@ country_migration_target =
 	factor = 1.5
 		
 		education_spending = 0.99
-	}
+	}	
 	
 	modifier = {
 	factor = 0.5
@@ -336,7 +336,7 @@ country_migration_target =
 	#	} }
 	#}
 	modifier = {
-		factor = 0.05
+		factor = 0.01
 		NOT = {  
 			continent = north_america
 			continent = south_america

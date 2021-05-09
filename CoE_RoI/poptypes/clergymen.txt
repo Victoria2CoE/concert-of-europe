@@ -98,7 +98,7 @@ country_migration_target =
 	modifier = {
 	factor = 3.0
 		has_country_flag = random_migration3
-	}		
+	}	
 	modifier = {
 	factor = 0.8
 		THIS = { strata = poor }
@@ -335,7 +335,7 @@ country_migration_target =
 	#	} }
 	#}
 	modifier = {
-		factor = 0.05
+		factor = 0.01
 		NOT = {  
 			continent = north_america
 			continent = south_america
