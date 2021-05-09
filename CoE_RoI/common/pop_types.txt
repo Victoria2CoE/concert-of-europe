@@ -5,6 +5,219 @@ promotion_chance =
 		factor = 3.50
 		always = yes
 	}	
+	
+	##Promotion from Spendings
+	#Soldiers
+	modifier = {
+		factor = 0.20
+		country = { military_spending = 0.1 }
+		country = { NOT = { military_spending = 0.2 } }
+		NOT = { state_scope = { soldiers = 0.025 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.40
+		country = { military_spending = 0.2 }
+		country = { NOT = { military_spending = 0.3 } }
+		NOT = { state_scope = { soldiers = 0.030 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.60
+		country = { military_spending = 0.3 }
+		country = { NOT = { military_spending = 0.4 } }
+		NOT = { state_scope = { soldiers = 0.0325 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.80
+		country = { military_spending = 0.4 }
+		country = { NOT = { military_spending = 0.5 } }
+		NOT = { state_scope = { soldiers = 0.035 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.00
+		country = { military_spending = 0.5 }
+		country = { NOT = { military_spending = 0.6 } }
+		NOT = { state_scope = { soldiers = 0.0375 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.20
+		country = { military_spending = 0.6 }
+		country = { NOT = { military_spending = 0.7 } }
+		NOT = { state_scope = { soldiers = 0.040 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.40
+		country = { military_spending = 0.7 }
+		country = { NOT = { military_spending = 0.8 } }
+		NOT = { state_scope = { soldiers = 0.0425 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.60
+		country = { military_spending = 0.8 }
+		country = { NOT = { military_spending = 0.9 } }
+		NOT = { state_scope = { soldiers = 0.045 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.80
+		country = { military_spending = 0.9 }
+		country = { NOT = { military_spending = 0.99 } }
+		NOT = { state_scope = { soldiers = 0.0475 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 2.00
+		country = { military_spending = 0.99 }
+		NOT = { state_scope = { soldiers = 0.050 } }
+		strate = poor
+	} 	
+	#Bureaucrats
+	modifier = {
+		factor = 0.10
+		country = { administration_spending = 0.1 }
+		country = { NOT = { administration_spending = 0.2 } }
+		NOT = { state_scope = { bureaucrats = 0.005 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.20
+		country = { administration_spending = 0.2 }
+		country = { NOT = { administration_spending = 0.3 } }
+		NOT = { state_scope = { bureaucrats = 0.007 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.30
+		country = { administration_spending = 0.3 }
+		country = { NOT = { administration_spending = 0.4 } }
+		NOT = { state_scope = { bureaucrats = 0.01 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.40
+		country = { administration_spending = 0.4 }
+		country = { NOT = { administration_spending = 0.5 } }
+		NOT = { state_scope = { bureaucrats = 0.013 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.50
+		country = { administration_spending = 0.5 }
+		country = { NOT = { administration_spending = 0.6 } }
+		NOT = { state_scope = { bureaucrats = 0.016 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.60
+		country = { administration_spending = 0.6 }
+		country = { NOT = { administration_spending = 0.7 } }
+		NOT = { state_scope = { bureaucrats = 0.018 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.70
+		country = { administration_spending = 0.7 }
+		country = { NOT = { administration_spending = 0.8 } }
+		NOT = { state_scope = { bureaucrats = 0.021 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.80
+		country = { administration_spending = 0.8 }
+		country = { NOT = { administration_spending = 0.9 } }
+		NOT = { state_scope = { bureaucrats = 0.024 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.90
+		country = { administration_spending = 0.9 }
+		country = { NOT = { administration_spending = 0.99 } }
+		NOT = { state_scope = { bureaucrats = 0.027 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.00
+		country = { administration_spending = 0.99  } }
+		NOT = { state_scope = { bureaucrats = 0.030 } }
+		strate = poor
+	}
+	#Teachers
+	modifier = {
+		factor = 0.10
+		country = { administration_spending = 0.1  }
+		country = { NOT = { administration_spending = 0.2 } }
+		NOT = { state_scope = { clergymen = 0.004 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.20
+		country = { administration_spending = 0.2  }
+		country = { NOT = { administration_spending = 0.3 } }
+		NOT = { state_scope = { clergymen = 0.008 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.30
+		country = { administration_spending = 0.3  }
+		country = { NOT = { administration_spending = 0.4 } }
+		NOT = { state_scope = { clergymen = 0.012 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.40
+		country = { administration_spending = 0.4  }
+		country = { NOT = { administration_spending = 0.5 } }
+		NOT = { state_scope = { clergymen = 0.016 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.50
+		country = { administration_spending = 0.5  }
+		country = { NOT = { administration_spending = 0.6 } }
+		NOT = { state_scope = { clergymen = 0.020 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.60
+		country = { administration_spending = 0.6  }
+		country = { NOT = { administration_spending = 0.7 } }
+		NOT = { state_scope = { clergymen = 0.024 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.70
+		country = { administration_spending = 0.7 }
+		country = { NOT = { administration_spending = 0.8 } }
+		NOT = { state_scope = { clergymen = 0.028 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.80
+		country = { administration_spending = 0.8 } }
+		country = { NOT = { administration_spending = 0.9 } }
+		NOT = { state_scope = { clergymen = 0.032 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 0.90
+		country = { administration_spending = 0.9 }
+		country = { NOT = { administration_spending = 0.99 } }
+		NOT = { state_scope = { clergymen = 0.036 } }
+		strate = poor
+	}
+	modifier = {
+		factor = 1.0
+		country = { administration_spending = 0.99 }
+		NOT = { state_scope = { clergymen = 0.040 } }
+		strate = poor
+	}		
+	
 	#modifier = {
 	#	factor = -1.00
 	#	location = { is_primary_culture = no }
