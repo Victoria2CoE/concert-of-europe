@@ -260,22 +260,22 @@ WOL = {
 
 #Other GP's
 FRA = {
-	value = -75
+	value = 25
 }
 USA = {
 	value = 50
 }
 AUS = {
-	value = -25
+	value = 25
 }
 SPA = {
-	value = -25
+	value = 25
 }
 PRU = {
 	value = 25
 }
 RUS = {
-	value = -25
+	value = 50
 }
 TUR = {
 	value = 25
