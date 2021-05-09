@@ -1487,7 +1487,8 @@ modern_divisional_structure_1930 = {
 
 	#combat_width = -1
 	army_base = {
-		reconnaissance = 0.5
+		reconnaissance = 1.0
+		siege = 1.0
 		maximum_speed = 3.0
 		supply_consumption = 1.0
 	}
