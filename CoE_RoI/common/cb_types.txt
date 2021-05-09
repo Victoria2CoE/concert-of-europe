@@ -1631,7 +1631,7 @@ unification_release_puppet_cb = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		NOT = { tag = HND }
+		FROM = { NOT = { tag = HND } }
 		is_our_vassal = FROM
 		FROM = { is_culture_group = THIS is_substate = no }
 	}
@@ -3123,7 +3123,7 @@ release_puppet = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		NOT = { tag = HND }
+		FROM = { NOT = { tag = HND } }
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
 	}
@@ -3183,7 +3183,7 @@ release_puppet = {
 #	# FROM - country scope is possible match?
 #	# war target country of goal is scope
 #	allowed_countries = {
-#		NOT = { tag = HND }
+#		FROM = { NOT = { tag = HND } }
 #		is_our_vassal = FROM
 #		FROM = { is_substate = no }
 #	}
@@ -3244,7 +3244,7 @@ release_puppet_india = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		tag = HND
+		FROM = { tag = HND }
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
 	}
