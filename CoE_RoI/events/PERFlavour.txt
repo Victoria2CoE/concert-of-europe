@@ -2626,52 +2626,52 @@ country_event = {
 			consciousness = 4
 			militancy = 4
 		}
-		random_country = {
-			limit = {
-				vassal_of = PER
-				NOT = {
-					tag = KHR
-					tag = KHZ
-				}
-			}
-			country_event = 301072
-		}
-		random_list = {
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-			}
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-			}
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-
-			}
-			10 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-
-			}
-		}
+		#random_country = {
+		#	limit = {
+		#		vassal_of = PER
+		#		NOT = {
+		#			tag = KHR
+		#			tag = KHZ
+		#		}
+		#	}
+		#	country_event = 301072
+		#}
+		#random_list = {
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#	}
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#	}
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#
+		#	}
+		#	10 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#
+		#	}
+		#}
 	}
 }
 
@@ -3192,52 +3192,52 @@ country_event = {
 				militancy = 0.5
 			}
 		}
-		random_country = {
-			limit = {
-				vassal_of = PER
-				NOT = {
-					tag = KHR
-					tag = KHZ
-				}
-			}
-			country_event = 301072
-		}
-		random_list = {
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-			}
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-			}
-			30 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-
-			}
-			10 = {
-				KHR = {
-					country_event = 301072
-				}
-				KHZ = {
-					country_event = 301072
-				}
-
-			}
-		}
+		#random_country = {
+		#	limit = {
+		#		vassal_of = PER
+		#		NOT = {
+		#			tag = KHR
+		#			tag = KHZ
+		#		}
+		#	}
+		#	country_event = 301072
+		#}
+		#random_list = {
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#	}
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#	}
+		#	30 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#
+		#	}
+		#	10 = {
+		#		KHR = {
+		#			country_event = 301072
+		#		}
+		#		KHZ = {
+		#			country_event = 301072
+		#		}
+		#
+		#	}
+		#}
 	}
 }
 
@@ -3425,69 +3425,69 @@ country_event = {
 	}
 }
 
-#Korosan rebellion as a result of the Russo-Persian war
-country_event = {
-	id = 301072
-	is_triggered_only = yes #For now
-
-	title = "EVTNAME301072"
-	desc = "EVTDESC301072"
-	picture = "persia_royal_procession"
-
-	option = {
-		name = "Independence!"
-		prestige = 5
-		relation = {
-			who = PER
-			value = -300
-		}
-		PER = {
-			release_vassal = THIS
-			country_event = 301073
-		}
-		any_country = {
-			end_war = THIS
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				PER = {
-					NOT = { has_country_flag = khanates_contested }
-				}
-				factor = 1.5
-			}
-			modifier = {
-				tag = KHR
-				factor = 1.25
-			}
-			modifier = {
-				tag = KHZ
-				factor = 0.75
-			}
-		}
-	}
-	option = {
-		name = "We are loyal subjects!"
-		prestige = -2
-		ai_chance = {
-			factor = 50
-			modifier = {
-				PER = {
-					NOT = { has_country_flag = khanates_contested }
-				}
-				factor = 0.9
-			}
-			modifier = {
-				tag = KHR
-				factor = 0.75
-			}
-			modifier = {
-				tag = KHZ
-				factor = 1.25
-			}
-		}
-	}
-}
+##Korosan rebellion as a result of the Russo-Persian war
+#country_event = {
+#	id = 301072
+#	is_triggered_only = yes #For now
+#
+#	title = "EVTNAME301072"
+#	desc = "EVTDESC301072"
+#	picture = "persia_royal_procession"
+#
+#	option = {
+#		name = "Independence!"
+#		prestige = 5
+#		relation = {
+#			who = PER
+#			value = -300
+#		}
+#		PER = {
+#			release_vassal = THIS
+#			country_event = 301073
+#		}
+#		any_country = {
+#			end_war = THIS
+#		}
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				PER = {
+#					NOT = { has_country_flag = khanates_contested }
+#				}
+#				factor = 1.5
+#			}
+#			modifier = {
+#				tag = KHR
+#				factor = 1.25
+#			}
+#			modifier = {
+#				tag = KHZ
+#				factor = 0.75
+#			}
+#		}
+#	}
+#	option = {
+#		name = "We are loyal subjects!"
+#		prestige = -2
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				PER = {
+#					NOT = { has_country_flag = khanates_contested }
+#				}
+#				factor = 0.9
+#			}
+#			modifier = {
+#				tag = KHR
+#				factor = 0.75
+#			}
+#			modifier = {
+#				tag = KHZ
+#				factor = 1.25
+#			}
+#		}
+#	}
+#}
 
 #Reaction to the vassal Rebellion
 country_event = {
