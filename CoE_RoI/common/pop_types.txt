@@ -143,7 +143,7 @@ promotion_chance =
 	}
 	modifier = {
 		factor = 0.50
-		country = { administration_spending = 0.99  } }
+		country = { administration_spending = 0.99  }
 		NOT = { state_scope = { bureaucrats = 0.030 } }
 		strate = poor
 	}
@@ -199,7 +199,7 @@ promotion_chance =
 	}
 	modifier = {
 		factor = 0.40
-		country = { administration_spending = 0.8 } }
+		country = { administration_spending = 0.8 }
 		country = { NOT = { administration_spending = 0.9 } }
 		NOT = { state_scope = { clergymen = 0.032 } }
 		strate = poor
@@ -575,7 +575,7 @@ promotion_chance =
 		#OR = {
 		#	location = { is_primary_culture = yes }
 		#	location = { is_accepted_culture = yes }
-		}
+		#}
 	}
 	
 	#modifier = {
