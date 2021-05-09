@@ -230,4 +230,69 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	reinstitute_slavery = { 
+		picture = slave_trade
+		potential = {	
+			slavery = yes_slavery
+			NOT = { is_culture_group = african_diaspora_cultures }
+			NOT = { is_culture_group = west_african }
+			NOT = { is_culture_group = central_african }
+			NOT = { is_culture_group = east_african }
+			NOT = { is_culture_group = southern_african }	
+			#any_owned_province = {
+				#any_pop = { 
+				#	OR = {
+				#		is_culture_group = african_diaspora_cultures
+				#		is_culture_group = west_african
+				#		is_culture_group = central_african
+				#		is_culture_group = east_african
+				#		is_culture_group = southern_african
+				#	}
+				#}
+			#}	
+		}
+		allow = { 
+			slavery = yes_slavery
+			any_owned_province = {
+				any_pop = { 
+					OR = {
+						is_culture_group = african_diaspora_cultures
+						is_culture_group = west_african
+						is_culture_group = central_african
+						is_culture_group = east_african
+						is_culture_group = southern_african
+					}
+				}
+			}
+		}        
+		effect = {
+			add_tax_relative_income = 25.0
+			prestige = -5
+			prestige_factor = -0.01
+			badboy = 5
+			add_country_modifier = {
+				name = slavery_reinstituted
+				duration = 1825
+			}
+			any_country = { limit = { slavery = no_slavery } relation = { who = THIS value = -10 } }
+			any_owned = {
+				any_pop = {
+					limit = {  
+						OR = {
+							is_culture_group = african_diaspora_cultures
+							is_culture_group = west_african
+							is_culture_group = central_african
+							is_culture_group = east_african
+							is_culture_group = southern_african
+						}
+					}
+					pop_type = slaves
+					militancy = 10
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }
