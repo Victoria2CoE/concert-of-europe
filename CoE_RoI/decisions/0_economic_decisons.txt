@@ -253,6 +253,7 @@ political_decisions = {
 		}
 		allow = { 
 			slavery = yes_slavery
+			NOT = { has_country_modifier = slavery_reinstituted }
 			any_owned_province = {
 				any_pop = { 
 					OR = {
