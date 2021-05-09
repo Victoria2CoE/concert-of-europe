@@ -877,7 +877,7 @@ social_reforms = {
 	land_property = {
 		next_step_only = yes
 		serfdom = {
-			mobilisation_size = -0.04
+			mobilisation_size = -0.02
 			land_unit_start_experience = -10
 			farm_RGO_eff = 0.50
 			#education_efficiency_modifier = -0.10
@@ -894,7 +894,7 @@ social_reforms = {
 			 }		
 		}
 		landed_estates = {
-			mobilisation_size = -0.02
+			mobilisation_size = -0.01
 			land_unit_start_experience = -5
 			unit_start_experience = -2.5
 			farm_RGO_eff = 0.3
