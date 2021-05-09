@@ -4794,6 +4794,13 @@ guerrilla_warfare_doctrine = {
 			support = 0.3
 			supply_consumption = -0.10	
 		}
+		hussar = {
+			attack = 1
+			defence = 1
+			reconnaissance = 0.5
+			support = 0.2
+			supply_consumption = -0.05	
+		}
 	}
 }
 
