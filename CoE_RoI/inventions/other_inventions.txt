@@ -4791,7 +4791,7 @@ guerrilla_warfare_doctrine = {
 			attack = 3
 			defence = 3
 			reconnaissance = 1
-			support = 0.15
+			support = 0.3
 			supply_consumption = -0.10	
 		}
 	}

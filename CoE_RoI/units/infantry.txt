@@ -32,7 +32,7 @@ infantry = {
 	attack = 2
 	defence = 3
 	discipline = 1
-	support = 0.0
+	support = 0.15
 	maneuver = 1
 	siege = 0
 
