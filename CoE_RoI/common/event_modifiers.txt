@@ -3435,3 +3435,10 @@ bhu_paradise = {
 	icon = 47
 }
 
+slavery_reinstituted = {
+	badboy = 0.01
+	prestige = -0.010
+	education_efficiency_modifier = -0.10
+	icon = 4
+}
+

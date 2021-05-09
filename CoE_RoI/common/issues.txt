@@ -265,6 +265,7 @@ political_reforms = {
 				always = no
 			}
 			#political_reform_desire = 0.05
+			education_efficiency_modifier = -0.05
 		}
 		no_slavery = {
 			rules = { slavery_allowed = no }
