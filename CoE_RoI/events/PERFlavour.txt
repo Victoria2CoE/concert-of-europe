@@ -2147,17 +2147,17 @@ country_event = {
 			factor = 95
 		}
 	}
-	option = {
-		name = "We fight on."
-		PER = {
-			country_event = 300985
-		}
-		prestige = 3
-		war_exhaustion = 10
-		ai_chance = {
-			factor = 5
-		}
-	}
+	#option = {
+	#	name = "We fight on."
+	#	PER = {
+	#		country_event = 300985
+	#	}
+	#	prestige = 3
+	#	war_exhaustion = 10
+	#	ai_chance = {
+	#		factor = 5
+	#	}
+	#}
 }
 
 #Second Treaty of Erzurum - alternative

@@ -301,24 +301,30 @@ political_decisions = {
 		
 		allow = {
 			war_with = TUR
-	#		876 = { controlled_by = THIS }	#Ankara - disabled
+			876 = { controlled_by = THIS }	#Ankara
 			887 = { controlled_by = THIS }	#Erzurum
-	#		902 = { controlled_by = THIS }	#Damascus - disabled
+			902 = { controlled_by = THIS }	#Damascus
 			926 = { controlled_by = THIS }	#Baghdad
 			934 = { controlled_by = THIS }	#Najaf
 			TUR = {
-				war_exhaustion = 15
-				national_provinces_occupied = 0.15
+				OR = {
+					AND = {
+						war_exhaustion = 15
+						national_provinces_occupied = 0.15
+					}
+					national_provinces_occupied = 0.75
+					war_exhaustion = 75
+				}
 			}
 			NOT = {
-				national_provinces_occupied = 0.01
+				PER = { national_provinces_occupied = 0.05 }
 			}
 		}
 		
 		effect = {
 			clr_country_flag = persian_ottoman_war
 			TUR = {
-				country_event = { id = 300986 days = 5 }
+				country_event = 300986
 			}
 		}
 		ai_will_do = {
