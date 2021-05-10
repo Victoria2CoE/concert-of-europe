@@ -1974,10 +1974,11 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				culture = north_italian
-				culture = south_italian
-			}
+			is_culture_group = italian
+			#OR = {
+			#	culture = north_italian
+			#	culture = south_italian
+			#}
 			ITA = { exists = no }
 			NOT = {
 				country = { has_global_flag = italian_call_to_union }
@@ -3020,10 +3021,11 @@ red_shirts = {
 		modifier = {
 			factor = 0
 			NOT = {
-				OR = {
-					culture = south_italian
-					culture = north_italian
-				}
+				is_culture_group = italian
+				#OR = {
+				#	culture = south_italian
+				#	culture = north_italian
+				#}
 			}
 		}
 		modifier = {
