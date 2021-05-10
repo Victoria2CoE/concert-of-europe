@@ -329,11 +329,11 @@ country_migration_target =
 	#	} }
 	#}
 	modifier = {
-		factor = 0.01
+		factor = 0.05
 		NOT = {  
-			continent = north_america
-			continent = south_america
-			continent = oceania
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = oceania }
 			has_country_flag = immigration_contender
 		}
 	}

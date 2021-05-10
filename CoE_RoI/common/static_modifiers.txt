@@ -146,7 +146,7 @@ base_values = {
 	education_efficiency_modifier = 1.00
 	land_unit_start_experience = 40
 	pension_level = 0.5
-	mobilisation_size = 0.075	
+	mobilisation_size = 0.05	
 	global_population_growth = 0.010
 	loan_interest = 1.0
 	#factory_maintenance = 25.0
@@ -244,7 +244,7 @@ unciv_nation = {
 	global_pop_militancy_modifier = -0.10
 	education_efficiency_modifier = -0.50
 	cb_generation_speed_modifier = 1
-	mobilisation_size = -0.05	
+	mobilisation_size = -0.025	
 }
 
 

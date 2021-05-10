@@ -535,7 +535,7 @@ political_reforms = {
 		next_step_only = yes
 		mandatory_service = {
 			#mobilization_impact = 0
-			mobilisation_size = 0.025
+			mobilisation_size = 0.05
 			#mobilisation_economy_impact = 1
 			global_immigrant_attract = -0.01
 			non_accepted_pop_militancy_modifier = 0.01
@@ -548,7 +548,7 @@ political_reforms = {
 		}
 		four_year_draft = {
 			#mobilization_impact = 0
-			mobilisation_size = 0.015
+			mobilisation_size = 0.03
 			#mobilisation_economy_impact = 0.75
 			global_immigrant_attract = -0.005
 			global_pop_consciousness_modifier = -0.01
@@ -560,7 +560,7 @@ political_reforms = {
 		}
 		two_year_draft = {
 			#mobilization_impact = 0
-			mobilisation_size = 0.01
+			mobilisation_size = 0.02
 			#mobilisation_economy_impact = 0.5
 			land_unit_start_experience = 5
 			rgo_throughput = -0.10
@@ -569,7 +569,7 @@ political_reforms = {
 		}
 		one_year_draft = {
 			#mobilization_impact = 0
-			mobilisation_size = 0.005
+			mobilisation_size = 0.01
 			#mobilisation_economy_impact = 0.25
 			global_immigrant_attract = 0.005
 			global_pop_consciousness_modifier = 0.01
