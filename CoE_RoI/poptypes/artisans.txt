@@ -2009,25 +2009,45 @@ ideologies = {
 			NOT = { ruling_party_ideology = reactionary }
 			NOT = { ruling_party_ideology = fascist }
 		}
+		#modifier = {
+		#	factor = 0.9
+		#	country = { average_militancy = 1 }
+		#}
+		#modifier = {
+		#	factor = 0.9
+		#	country = { average_militancy = 2 }
+		#}
+		#modifier = {
+		#	factor = 0.9
+		#	country = { average_militancy = 3 }
+		#}
+		#modifier = {
+		#	factor = 0.9
+		#	country = { average_militancy = 4 }
+		#}
 		modifier = {
-			factor = 0.9
-			country = { average_militancy = 1 }
+			factor = 1.1
+			NOT = { militancy = 1 }
+		}		
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 2 }
+		}		
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { militancy = 4 }
 		}
 		modifier = {
 			factor = 0.9
-			country = { average_militancy = 2 }
+			militancy = 5
 		}
 		modifier = {
 			factor = 0.9
-			country = { average_militancy = 3 }
-		}
-		modifier = {
-			factor = 0.9
-			country = { average_militancy = 4 }
-		}
-		modifier = {
-			factor = 0.75
-			militancy = 4
+			militancy = 6
 		}
 		modifier = {
 			factor = 0
@@ -2040,16 +2060,33 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			not = { social_reform_want = 0.05 }
-			not = { political_reform_want = 0.05 }
 		}
 		modifier = {
 			factor = 1.5	
 			not = { social_reform_want = 0.15 }
-			not = { political_reform_want = 0.15 }
+		}
+		modifier = {
+			factor = 1.5	
+			not = { social_reform_want = 0.20 }
 		}
 		modifier = {
 			factor = 1.5	
 			not = { social_reform_want = 0.25 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.05 }
+		}
+		modifier = {
+			factor = 1.5	
+			not = { political_reform_want = 0.15 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { political_reform_want = 0.20 }
+		}
+		modifier = {
+			factor = 1.5
 			not = { political_reform_want = 0.25 }
 		}
 		modifier = {
