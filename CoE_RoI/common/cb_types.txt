@@ -107,6 +107,7 @@ acquire_any_state
 #demand_concession_BC_casus_belli
 #demand_concession_NI_casus_belli
 demand_concession_casus_belli
+demand_concession_casus_belli1
 demand_concession_casus_belli2
 demand_concession_casus_belli3
 demand_concession_casus_belli4
@@ -6427,7 +6428,7 @@ demand_concession_casus_belli1 = {
 	}
 
 	allowed_states = {
-		NOT = { total_pops = 100000 }
+		NOT = { total_pops = 50000 }
 		any_owned_province = { is_colonial = no }
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
@@ -6634,7 +6635,6 @@ demand_concession_casus_belli3 = {
 	always = no #always = yes
 
 	can_use = {
-		badboy = 5.0
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
