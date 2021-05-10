@@ -1482,9 +1482,9 @@ home_of_the_mormons = {
 }
 
 land_of_opportunity = {
-	global_population_growth = 0.002
+	global_population_growth = 0.005
 	global_immigrant_attract = 0.025
-	education_efficiency_modifier = 1.00
+	education_efficiency_modifier = 0.50
 	icon = 13
 }
 
