@@ -140,14 +140,14 @@ infrastructure = {
 ##########################################################################
 
 base_values = {
-	global_pop_militancy_modifier = -0.05
+	global_pop_militancy_modifier = -0.10
 	global_pop_consciousness_modifier = -0.05
 	#min_social_spending = 0.10
 	education_efficiency_modifier = 1.00
 	land_unit_start_experience = 40
 	pension_level = 0.5
 	mobilisation_size = 0.05	
-	global_population_growth = 0.010
+	global_population_growth = 0.015
 	loan_interest = 1.0
 	#factory_maintenance = 25.0
 	min_military_spending = 0.10
@@ -253,7 +253,7 @@ average_literacy = {
 	leadership = 1
 	org_regain = 1
 	unit_start_experience = 25
-	tax_efficiency = -0.25
+	tax_efficiency = -0.20
 	pension_level = 1.0
 	mobilisation_size = 0.05
 	education_efficiency_modifier = -1.0
@@ -263,7 +263,7 @@ average_literacy = {
 	#ich_everyday_needs = 50.0
 	#rich_luxury_needs = 100.0
 	#goods_demand = 60.0
-	#tariff_efficiency_modifier = -0.5
+	tariff_efficiency_modifier = -1.0
 }
 
 plurality = {
