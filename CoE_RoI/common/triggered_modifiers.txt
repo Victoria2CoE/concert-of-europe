@@ -825,7 +825,7 @@ money_hoarder_4 = {
 	}
 	#tax_efficiency = -10.00
 	#tariff_efficiency_modifier = -10.00
-	pensions = 100.0
+	pensions = 500.0
 	min_social_spending = 0.50	
 	icon = 1
 }
