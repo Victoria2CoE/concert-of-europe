@@ -1400,4 +1400,175 @@ country_event = {
 			}
 		}
 	}
-}			
+}	
+
+country_event = {
+	
+	id = 96162
+	title = "The Banner for Our King!"
+	desc = "With recent unification some people are starting to wander what will the royal standard of our flag be. We have several options to choose..."
+	picture = "treaty"
+	
+	trigger = {
+		tag = ITA
+		exists = yes
+		has_country_flag = sar_ita_flag_cosmetic
+        OR = {				
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+        }	
+		NOT = { has_country_flag = ita_cosmetic_picked }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Napoleonic coat of arms shall bring us legitimacy!"
+		set_country_flag = ita_cosmetic_picked
+		prestige = 1
+			random_owned = {
+				limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+				government = absolute_monarchy
+			}
+			random_owned = {
+				limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+				government = prussian_constitutionalism
+			}	
+			random_owned = {
+				limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+				government = hms_government
+			}	
+		ai_chance = {
+			factor = 0
+		}
+	}
+	#option = {
+	#	name = "Those Napoleonic usurpers!? Clearly house of Bourbon is superior!"
+	#	set_country_flag = ita_cosmetic_picked
+	#	prestige = 1
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+	#			government = absolute_monarchy3
+	#		}
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+	#			government = prussian_constitutionalism3
+	#		}	
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+	#			government = hms_government3
+	#		}	
+	#	ai_chance = {
+	#		factor = 1
+	#	}	
+	#}
+	option = {
+		name = "House of Savoy has much more ancient dignity than that!"
+		set_country_flag = ita_cosmetic_picked
+		prestige = 1
+			random_owned = {
+				limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+				government = absolute_monarchy3
+			}
+			random_owned = {
+				limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+				government = prussian_constitutionalism3
+			}	
+			random_owned = {
+				limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+				government = hms_government3
+			}	
+		ai_chance = {
+			factor = 1
+		}			
+	}
+}
+
+country_event = {
+	
+	id = 96163
+	title = "The Banner for Our King!"
+	desc = "With recent unification some people are starting to wander what will the royal standard of our flag be. We have several options to choose..."
+	picture = "treaty"
+	
+	trigger = {
+		tag = ITA
+		exists = yes
+		has_country_flag = sic_ita_flag_cosmetic
+        OR = {				
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+        }	
+		NOT = { has_country_flag = ita_cosmetic_picked }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Napoleonic coat of arms shall bring us legitimacy!"
+		set_country_flag = ita_cosmetic_picked
+		prestige = 1
+			random_owned = {
+				limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+				government = absolute_monarchy
+			}
+			random_owned = {
+				limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+				government = prussian_constitutionalism
+			}	
+			random_owned = {
+				limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+				government = hms_government
+			}	
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "Those Napoleonic usurpers!? Clearly house of Bourbon is superior!"
+		set_country_flag = ita_cosmetic_picked
+		prestige = 1
+			random_owned = {
+				limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+				government = absolute_monarchy3
+			}
+			random_owned = {
+				limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+				government = prussian_constitutionalism3
+			}	
+			random_owned = {
+				limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+				government = hms_government3
+			}	
+		ai_chance = {
+			factor = 1
+		}	
+	}
+	#option = {
+	#	name = "House of Savoy has much more ancient dignity than that!"
+	#	set_country_flag = ita_cosmetic_picked
+	#	prestige = 1
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
+	#			government = absolute_monarchy3
+	#		}
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
+	#			government = prussian_constitutionalism3
+	#		}	
+	#		random_owned = {
+	#			limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
+	#			government = hms_government3
+	#		}	
+	#	ai_chance = {
+	#		factor = 1
+	#	}			
+	#}
+}
+		

@@ -33,6 +33,11 @@ child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
 
+govt_flag = {
+	government = hms_government
+	flag = theocracy3
+}
+
 ruling_party = SIC_reactionary
 upper_house = {
 	fascist = 0
@@ -45,6 +50,7 @@ upper_house = {
 }
 
 set_country_flag = existing_country
+set_country_flag = sic_ita_flag_cosmetic
 
 # Technologies
 post_napoleonic_thought = 1
