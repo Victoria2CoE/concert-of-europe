@@ -3307,7 +3307,7 @@ rev_birth_place2 = {
 }
 
 demographic_collapse = {
-	global_population_growth = -0.001
+	global_population_growth = -0.005
 	culture_tech_research_bonus = 0.1
 	prestige = 0.050
 	education_efficiency_modifier = -0.50
