@@ -1315,9 +1315,42 @@ country_event = {
 		exists = yes
 		OR = {
 			government = absolute_monarchy
-			government = theocracy
+			#government = theocracy
 		}
 		NOT = { vote_franschise = none_voting }		
+		civilized = yes	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTNAME60060"
+		government = prussian_constitutionalism
+	}
+}
+
+country_event = {
+	id = 60061
+	title = "EVTNAME60060"
+	desc = "EVTDESC60060"
+	news = yes
+	news_title = "EVTNAME60060_NEWS_TITLE"
+	news_desc_long = "EVTDESC60060_NEWS_LONG"
+	news_desc_medium = "EVTDESC60060_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60060_NEWS_SHORT"
+	picture = "Monarchy"
+	
+	trigger = {
+		exists = yes
+		OR = {
+			government = theocracy
+		}
+		NOT = { vote_franschise = none_voting }	
+		NOT = { political_parties = underground_parties }
+		NOT = { upper_house_composition = party_appointed }
+		NOT = { upper_house_composition = appointed }
 		civilized = yes	
 	}
 	
