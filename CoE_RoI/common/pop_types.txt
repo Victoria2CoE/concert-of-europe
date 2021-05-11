@@ -3036,7 +3036,7 @@ assimilation_chance =
 		continent = africa
 	}
 	modifier = {
-		factor = -30
+		factor = -100
 		is_culture_group = african_diaspora_cultures
 		OR = {
 			continent = north_america
