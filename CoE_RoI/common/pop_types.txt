@@ -1400,7 +1400,7 @@ demotion_chance =
 migration_chance = {
 factor = 0.25
 	modifier = {
-		factor = 0.10
+		factor = 0.40
 		always = yes
 	}	
 	modifier = {
@@ -1408,17 +1408,21 @@ factor = 0.25
 		location = { has_province_modifier = southern_plantations }
 		is_primary_culture = no
 		is_accepted_culture = no
-		country = { primary_culture = yankee }
+		country = { has_country_flag = yankee_rel }
 		NOT = { country = { tag = TEX } }	
 	}	
 	modifier = {
-		factor = 0.40
-		type = craftsmen
+		factor = 0.60
+		strata = poor
 	}	
 	modifier = {
-		factor = 0.80
-		AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
-	}	
+		factor = 0.20
+		strata = middle
+	}
+	#modifier = {
+	#	factor = 0.80
+	#	AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
+	#}	
 	modifier = {
 		factor = -1.00
 		type = aristocrats
