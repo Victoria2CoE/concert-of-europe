@@ -149,6 +149,7 @@ north_america = {
 		9 10 12 28 27 33 2631
 	}
 	assimilation_rate = 0.5
+	population_growth = 0.001	
 	#farm_rgo_size = 1000.0
 	#mine_rgo_size = 1000.0
 }
@@ -168,6 +169,7 @@ south_america = {
 		2532 2549 2550 2554 2578 2600 
 	}
 	assimilation_rate = 0.5
+	population_growth = -0.001	
 	#farm_rgo_size = 1000.0
 	#mine_rgo_size = 1000.0
 }
@@ -183,6 +185,7 @@ oceania = {
 		2490 2495 2603 2605
 	}
 	assimilation_rate = 0.5
+	population_growth = 0.001	
 	#farm_rgo_size = 1000.0
 	#mine_rgo_size = 1000.0
 }
