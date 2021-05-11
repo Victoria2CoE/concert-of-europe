@@ -1400,8 +1400,14 @@ demotion_chance =
 migration_chance = {
 factor = 0.25
 	modifier = {
-		factor = 0.40
+		factor = 0.50
 		always = yes
+	}	
+	modifier = {
+		factor = -0.40
+		is_primary_culture = no
+		is_accepted_culture = no
+		has_culture_core = yes
 	}	
 	modifier = {
 		factor = 5.0
@@ -1412,11 +1418,11 @@ factor = 0.25
 		NOT = { country = { tag = TEX } }	
 	}	
 	modifier = {
-		factor = 0.60
+		factor = 0.50
 		strata = poor
 	}	
 	modifier = {
-		factor = 0.20
+		factor = 0.10
 		strata = middle
 	}
 	#modifier = {
