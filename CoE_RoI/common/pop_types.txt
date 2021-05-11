@@ -2810,8 +2810,16 @@ assimilation_chance =
 {
 	factor = 0.02
 	modifier = {
-    	factor = -10.0
+    	factor = 5.0
+		always = yes
+	}
+	modifier = {
+    	factor = -50.0
 		type = aristocrats
+	}
+	modifier = {
+    	factor = -50.0
+		type = 00_urban_poor
 	}
 	modifier = {
     	factor = 5.0
@@ -2908,50 +2916,54 @@ assimilation_chance =
 	#	}
 	#}
 	modifier = {
-		factor = -6
+		factor = -2
 		country = { citizenship_policy = residency }
 	}
-	modifier = {
-		factor = -1
-		country = { citizenship_policy = limited_citizenship }
-		is_accepted_culture = no
-		is_primary_culture = no
-	}
+	#modifier = {
+	#	factor = -1
+	#	country = { citizenship_policy = limited_citizenship }
+	#	is_accepted_culture = no
+	#	is_primary_culture = no
+	#}
+	#modifier = {
+	#	factor = 2
+	#	country = { citizenship_policy = limited_citizenship }
+	#	is_accepted_culture = yes
+	#}
 	modifier = {
 		factor = 2
-		country = { citizenship_policy = limited_citizenship }
-		is_accepted_culture = yes
-	}
-	modifier = {
-		factor = 5
 		country = { citizenship_policy = full_citizenship }
 	}
 	modifier = {
-		factor = -5
-		country = { religious_policy = moralism }
-		NOT = { religion = THIS }
-	}
-	modifier = {
-		factor = 4
-		country = { religious_policy = moralism }
-		religion = THIS 
-	}
-	modifier = {
-		factor = 3
-		country = { religious_policy = pluralism }
-		religion = THIS
-	}
-	modifier = {
 		factor = 1
-		country = { religious_policy = pluralism }
-		NOT = { religion = THIS }
+		country = { citizenship_policy = forced_assimilation }
 	}
 	modifier = {
-		factor = 3
+		factor = -1
+		country = { religious_policy = moralism }
+		#NOT = { religion = THIS }
+	}
+	#modifier = {
+	#	factor = 4
+	#	#country = { religious_policy = moralism }
+	#	religion = THIS 
+	#}
+	#modifier = {
+	#	factor = 3
+	#	country = { religious_policy = pluralism }
+	#	#religion = THIS
+	#}
+	#modifier = {
+	#	factor = 1
+	#	country = { religious_policy = pluralism }
+	#	NOT = { religion = THIS }
+	#}
+	modifier = {
+		factor = 2
 		country = { religious_policy = pro_atheism }
 	}
 	modifier = {
-		factor = 2
+		factor = 1
 		country = { religious_policy = secularized }
 	}
 	modifier = {
@@ -2961,7 +2973,7 @@ assimilation_chance =
     	}
 		NOT = { country = { citizenship_policy = forced_assimilation } }
 		strata = poor
-		NOT = { type farmers }
+		#NOT = { type farmers }
 	}
 	modifier = {
 		factor = -15.0
@@ -2970,7 +2982,7 @@ assimilation_chance =
     	}
 		country = { citizenship_policy = forced_assimilation }
 		strata = poor
-		type = farmers
+		#type = farmers
 	}
 	modifier = {
     	factor = -5.0
@@ -3019,7 +3031,7 @@ assimilation_chance =
 		continent = africa
 	}
 	modifier = {
-		factor = -20
+		factor = -30
 		is_culture_group = african_diaspora_cultures
 		OR = {
 			continent = north_america
