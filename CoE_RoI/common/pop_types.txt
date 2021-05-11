@@ -2808,11 +2808,16 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 0.02
+	factor = 0.05
 	modifier = {
     	factor = 5.0
 		always = yes
 	}
+	modifier = {
+    	factor = 15
+		has_culture_core = no
+		#NOT = { type farmers }
+	}	
 	modifier = {
     	factor = -50.0
 		type = aristocrats
