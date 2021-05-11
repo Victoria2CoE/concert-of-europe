@@ -1214,7 +1214,7 @@ ideologies = {
 			literacy = 0.9
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_liberty
 				nationalvalue = nv_prosperity
@@ -1222,7 +1222,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.4
+			factor = 4.0
 			nationalvalue = nv_freedom
 		}
 		modifier = {
@@ -1545,7 +1545,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_glory
@@ -1559,12 +1559,12 @@ ideologies = {
 			not = { militancy = 4 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_productivity
 			ruling_party_ideology = fascist
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_glory
@@ -1573,7 +1573,7 @@ ideologies = {
 			is_primary_culture = yes
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_glory
@@ -1582,18 +1582,18 @@ ideologies = {
             is_accepted_culture = yes
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_supremacy
 			is_primary_culture = yes
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_supremacy
             is_accepted_culture = yes
 		}			
 			
 		modifier = {
-			factor = 1.5
+			factor = 5.0
 			ruling_party_ideology = fascist
 		}
 
@@ -1802,7 +1802,7 @@ ideologies = {
 			not = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.0
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_glory
@@ -1811,7 +1811,7 @@ ideologies = {
 			pop_majority_ideology = conservative
 		}
 		modifier = {
-			factor = 1.5
+			factor = 5.0
 			state_scope = {
 				is_slave = yes
 			}
@@ -1864,12 +1864,12 @@ ideologies = {
 		}
 		
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_supremacy
 			pop_majority_ideology = conservative
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.0
 			OR = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_dominion
@@ -1878,12 +1878,12 @@ ideologies = {
 			ruling_party_ideology = reactionary
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_productivity
 			ruling_party_ideology = reactionary
 		}
 		modifier = {
-			factor = 1.3
+			factor = 3.0
 			nationalvalue = nv_productivity
 		}
 
@@ -1892,7 +1892,7 @@ ideologies = {
 			country = { civilized = no }
 		}	
 		modifier = {
-			factor = 1.05
+			factor = 1.25
 			nationalvalue = nv_order
 		}
 		modifier = {
@@ -1986,7 +1986,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_order
 			country = {
 				NOT = { vote_franschise = none_voting }
@@ -1999,7 +1999,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.5
 			OR = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_dominion
@@ -2008,7 +2008,7 @@ ideologies = {
 			NOT = { ruling_party_ideology = fascist }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_productivity
 			NOT = { ruling_party_ideology = reactionary }
 			NOT = { ruling_party_ideology = fascist }
@@ -2058,7 +2058,7 @@ ideologies = {
 			militancy = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.5
 			nationalvalue = nv_order
 		}
 		modifier = {
@@ -2154,20 +2154,20 @@ ideologies = {
 				has_country_flag = charismatic_leader_socialist
 			}
 		}
+		#modifier = {
+		#	factor = 0.8
+		#	nationalvalue = nv_freedom
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	nationalvalue = nv_liberty
+		#}
+		#modifier = {
+		#	factor = 0.9
+		#	nationalvalue = nv_glory
+		#}
 		modifier = {
-			factor = 0.8
-			nationalvalue = nv_freedom
-		}
-		modifier = {
-			factor = 0.8
-			nationalvalue = nv_liberty
-		}
-		modifier = {
-			factor = 0.9
-			nationalvalue = nv_glory
-		}
-		modifier = {
-			factor = 1.2
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
@@ -2176,7 +2176,7 @@ ideologies = {
 			NOT = { ruling_party_ideology = communist }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 4.0
 			nationalvalue = nv_fraternity
 			NOT = { ruling_party_ideology = communist }
 		}
@@ -2371,16 +2371,16 @@ ideologies = {
 		#		has_global_flag = the_great_experiment_communist
 		#	}
 		#}
+		#modifier = {
+		#	factor = 0.8
+		#	nationalvalue = nv_freedom
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	nationalvalue = nv_liberty
+		#}
 		modifier = {
-			factor = 0.8
-			nationalvalue = nv_freedom
-		}
-		modifier = {
-			factor = 0.8
-			nationalvalue = nv_liberty
-		}
-		modifier = {
-			factor = 1.2
+			factor = 2.0
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_glory
@@ -2389,7 +2389,7 @@ ideologies = {
 			pop_majority_ideology = socialist
 		}
 		modifier = {
-			factor = 1.5
+			factor = 5.0
 			nationalvalue = nv_supremacy
 			pop_majority_ideology = socialist
 		}
@@ -2404,7 +2404,7 @@ ideologies = {
 			not = { militancy = 4 }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.0
 			OR = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
@@ -2412,12 +2412,12 @@ ideologies = {
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.3
+			factor = 3.0
 			nationalvalue = nv_fraternity
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.1
+			factor = 4.0
 			nationalvalue = nv_equality
 			ruling_party_ideology = communist 
 		}
@@ -2602,21 +2602,21 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2.0
 			nationalvalue = nv_equality
 			NOT = { is_ideology_enabled = socialist }
 		}
 		modifier = {
-			factor = 1.3
+			factor = 3.0
 			OR = {
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_glory
 				nationalvalue = nv_liberty
 			}
-			NOT = { ruling_party_ideology = anarcho_liberal }
+			#NOT = { ruling_party_ideology = anarcho_liberal }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 5.0
 			nationalvalue = nv_freedom
 			NOT = { ruling_party_ideology = anarcho_liberal }
 		}
@@ -2843,7 +2843,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.3
+			factor = 3.0
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_glory
@@ -2852,7 +2852,7 @@ ideologies = {
 			pop_majority_ideology = liberal
 		}
 		modifier = {
-			factor = 1.5
+			factor = 5.0
 			nationalvalue = nv_supremacy
 			pop_majority_ideology = liberal
 		}
@@ -2870,13 +2870,13 @@ ideologies = {
 			ruling_party_ideology = anarcho_liberal
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4.0
 			nationalvalue = nv_freedom
 			ruling_party_ideology = anarcho_liberal
 		}
 
 		modifier = {
-			factor = 1.1
+			factor = 1.5
 			nationalvalue = nv_liberty
 			ruling_party_ideology = anarcho_liberal
 		}
@@ -3056,7 +3056,7 @@ ideologies = {
 				land_property = collectivization
 			}
 		modifier = {
-			factor = 1.5
+			factor = 2.5
 			strata = poor
 			NOT = { type = labourers }
 			NOT = { is_ideology_enabled = socialist }
