@@ -886,7 +886,7 @@ political_decisions = {
 				exists = ITA
 				has_global_flag = italian_call_to_union
 				has_global_flag = garibaldi_redshirts
-				OR = { government = theocracy government = theocracy2 government = theocracy3 }
+				#OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 		}
 		
