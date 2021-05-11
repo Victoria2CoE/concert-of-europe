@@ -1344,9 +1344,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		OR = {
-			government = theocracy
-		}
+		OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		NOT = { vote_franschise = none_voting }	
 		NOT = { political_parties = underground_parties }
 		NOT = { upper_house_composition = party_appointed }
@@ -1379,7 +1377,7 @@ country_event = {
 		exists = yes
 		OR = {
 			government = absolute_monarchy2
-			government = theocracy2
+			#government = theocracy2
 		}
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
@@ -1410,7 +1408,7 @@ country_event = {
 		exists = yes
 		OR = {
 			government = absolute_monarchy3
-			government = theocracy3
+			#government = theocracy3
 		}
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
