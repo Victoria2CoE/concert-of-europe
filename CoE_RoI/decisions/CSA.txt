@@ -129,7 +129,7 @@ political_decisions = {
 			set_global_flag = declaration2
 			any_pop = {
 				limit = {
-					culture = dixie
+					religion = dixie
 				}
 				militancy = -8
 			}
@@ -215,7 +215,7 @@ political_decisions = {
 			set_global_flag = declaration3
 			any_pop = {
 				limit = {
-					culture = yankee
+					religion = yankee
 				}
 				militancy = -10
 			}

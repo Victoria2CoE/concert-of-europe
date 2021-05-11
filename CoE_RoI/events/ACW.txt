@@ -373,7 +373,7 @@ country_event = {
 		set_country_flag = john_browns_raid
 		any_pop = {
 			limit = {
-				has_pop_culture = dixie
+				has_pop_religion = dixie
 			}
 			militancy = -2
 			consciousness = 3
@@ -389,7 +389,7 @@ country_event = {
 		set_country_flag = john_browns_raid
 		any_pop = {
 			limit = {
-				has_pop_culture = yankee
+				has_pop_religion = yankee
 			}
 			militancy = 3
 			consciousness = -4
@@ -459,7 +459,7 @@ country_event = {
 		set_country_flag = dred_scott_decision
 		any_pop = {
 			limit = {
-				has_pop_culture = yankee
+				has_pop_religion = yankee
 			}
 			militancy = 1
 			consciousness = 2
@@ -474,7 +474,7 @@ country_event = {
 		set_country_flag = dred_scott_decision
 		any_pop = {
 			limit = {
-				has_pop_culture = dixie
+				has_pop_religion = dixie
 			}
 			militancy = 1
 			consciousness = 2
@@ -2272,7 +2272,7 @@ country_event = {
 		name = "EVTOPTA16300"
 		any_pop = {
 			limit = {
-				has_pop_culture = yankee
+				has_pop_religion = yankee
 			}
 			consciousness = 2
 			dominant_issue = {
@@ -2286,7 +2286,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = dixie
+				has_pop_religion = dixie
 			}
 			consciousness = 2
 			dominant_issue = {
@@ -2856,7 +2856,7 @@ country_event = {
 		set_country_flag = kkk
 		any_pop = {
 			limit = {
-				has_pop_culture = dixie
+				has_pop_religion = dixie
 			}
 			militancy = 3
 			consciousness = 1
@@ -3107,7 +3107,7 @@ country_event = {
 		military_industry = 100
 		money = 1000
 		any_pop = {
-			limit = { has_pop_culture = dixie }
+			limit = { has_pop_religion = dixie }
 			dominant_issue = {
 				value = yes_slavery
 				factor = 0.25

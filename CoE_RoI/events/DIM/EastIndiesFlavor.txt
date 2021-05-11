@@ -128,11 +128,7 @@ country_event = {
 
 	option = {
 		name = "Propose the exchange."
-		NET = { country_event = { 
-		id = 95253 
-		#days = 10 
-		} 
-		}
+		NET = { country_event = 95253 }
 		ai_chance = {
 			factor = 95
 		}

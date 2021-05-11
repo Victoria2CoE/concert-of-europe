@@ -46,7 +46,7 @@ country_event = {
 				duration = -1
 			}
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				ideology = {
 					value = conservative
 					factor = 0.40
@@ -91,7 +91,7 @@ country_event = {
 			state_scope = {
 				any_pop = {
 					limit = {
-						not = { has_pop_culture = dixie }
+						not = { has_pop_religion = dixie }
 					}
 					militancy = 2
 					consciousness = 2

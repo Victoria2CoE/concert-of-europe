@@ -153,6 +153,8 @@ political_decisions = {
 			OR = {
 				OR = { government = democracy government = democracy2 government = democracy3 }
 				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_distatorship government = proletarian_distatorship2 government = proletarian_distatorship3 }				
 			}
 			GUA = {
 				OR = {
@@ -231,6 +233,8 @@ political_decisions = {
 			OR = {
 				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_distatorship government = proletarian_distatorship2 government = proletarian_distatorship3 }
 			}
 			slavery = no_slavery
 			NOT = {
@@ -270,7 +274,7 @@ political_decisions = {
 		}
 
 		effect = {
-			add_accepted_culture = dixie
+			add_accepted_culture = yankee
 			set_country_flag = integrated_texans
 			any_pop = {
 				limit = {
@@ -295,6 +299,8 @@ political_decisions = {
 			OR = {
 				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_distatorship government = proletarian_distatorship2 government = proletarian_distatorship3 }				
 			}
 			slavery = no_slavery
 		}
@@ -344,6 +350,8 @@ political_decisions = {
 			OR = {
 				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+				OR = { government = proletarian_distatorship government = proletarian_distatorship2 government = proletarian_distatorship3 }				
 			}
 			slavery = no_slavery
 		}

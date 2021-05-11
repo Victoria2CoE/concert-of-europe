@@ -1,6 +1,6 @@
 capital = 84 # Sonoma
-primary_culture = yankee
-culture = dixie
+primary_culture = yankee  set_country_flag = yankee_rel
+##culture = dixie
 culture = mexican
 culture = californian_people		#California is diversity heaven after all... But in all reality this will hopefully prevent the assimilation of the natives in California by Mexico
 culture = great_basin_peoples

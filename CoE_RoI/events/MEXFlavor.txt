@@ -493,7 +493,7 @@ country_event = {
 		war_exhaustion = -30
 		prestige = 5
 		any_pop = {
-			limit = { has_pop_culture = dixie }
+			limit = { has_pop_religion = dixie }
 			militancy = 10
 			consciousness = 4
 			dominant_issue = {
@@ -2032,77 +2032,77 @@ country_event = {
 		}
 		USA_129 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_126 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_124 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_106 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_111 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_158 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 132
 			}
 		}
 		USA_129 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 134
 			}
 		}
 		USA_121 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 134
 			}
 		}
 		USA_116 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 134
 			}
 		}
 		USA_118 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 134
 			}
 		}
 		USA_162 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 134
 			}
@@ -2238,42 +2238,42 @@ country_event = {
 		}
 		USA_129 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}
 		}
 		USA_126 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}
 		}
 		USA_124 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}
 		}
 		USA_106 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}
 		}
 		USA_111 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}
 		}
 		USA_158 = {
 			any_pop = {
-				limit = { has_pop_culture = dixie }
+				limit = { has_pop_religion = dixie }
 				money = 50
 				move_pop = 135
 			}

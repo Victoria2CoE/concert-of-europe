@@ -474,8 +474,8 @@ country_event = {
 		name = "We support the Free Americans!"
 		set_global_flag = american_civil_war_has_happened
 		set_global_flag = alt_american_civil_war_has_happened
-		primary_culture = dixie
-		add_accepted_culture = yankee
+		primary_culture = yankee
+		#add_accepted_culture = yankee
 		remove_country_modifier = the_slavery_debate
 		add_country_modifier = {
 			name = csa_draft
@@ -515,7 +515,7 @@ country_event = {
 						}
 						any_owned_province = {
 							is_core = USA
-							culture = yankee
+							religion = yankee
 						}
 					}
 				}
@@ -541,8 +541,8 @@ country_event = {
 		name = "The rebels shall be dealt with swiftly and mercilessly."
 		set_global_flag = american_civil_war_has_happened
 		set_global_flag = alt_american_civil_war_has_happened
-		primary_culture = dixie
-		add_accepted_culture = yankee
+		primary_culture = yankee
+		#add_accepted_culture = yankee
 		remove_country_modifier = the_slavery_debate
 		add_country_modifier = {
 			name = csa_draft
@@ -582,7 +582,7 @@ country_event = {
 						}
 						any_owned_province = {
 							is_core = USA
-							culture = yankee
+							religion = yankee
 						}
 					}
 				}
@@ -644,7 +644,7 @@ country_event = {
 			owner = { capital = 211 }
 		}
 		any_pop = {
-			limit = { has_pop_culture = dixie }
+			limit = { has_pop_religion = dixie }
 			dominant_issue = {
 				factor = 0.10
 				value = jingoism
@@ -656,7 +656,7 @@ country_event = {
 		}
 		change_tag = CSA
 		nationalvalue = nv_might
-		remove_accepted_culture = yankee
+		#remove_accepted_culture = yankee
 		set_country_flag = the_slavery_debate
 		any_state = {
 			limit = {
@@ -664,7 +664,7 @@ country_event = {
 				NOT = {
 					any_owned_province = {
 						OR = {
-							culture = dixie
+							religion = dixie
 							is_core = TEX
 						}
 					}
@@ -678,7 +678,7 @@ country_event = {
 					NOT = {
 						any_owned_province = {
 							OR = {
-								culture = dixie
+								religion = dixie
 								is_core = TEX
 							}
 						}

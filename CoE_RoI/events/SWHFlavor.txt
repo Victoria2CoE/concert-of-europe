@@ -188,7 +188,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german_rel
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = HOL value = 100 }
@@ -228,7 +228,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german_rel
 				is_greater_power = yes
 			}
 			country_event = 90059
@@ -308,7 +308,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german_rel
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = HOL value = 100 }
@@ -344,7 +344,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german_rel
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = SWH value = 100 }
@@ -393,7 +393,7 @@ country_event = {
 			value = -100
 		}
 		any_country = {
-			limit = { primary_culture = north_german }
+			limit = { primary_culture = north_german_rel }
 			leave_alliance = THIS
 			relation = {
 				who = THIS

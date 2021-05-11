@@ -1,6 +1,6 @@
 capital = 97
-primary_culture = yankee
-culture = dixie
+primary_culture = yankee  set_country_flag = yankee_rel
+##culture = dixie
 religion = mormon
 government = presidential_dictatorship
 plurality = 0.2

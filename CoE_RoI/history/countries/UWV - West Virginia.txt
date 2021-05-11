@@ -1,6 +1,6 @@
 capital = 218
-primary_culture = dixie
-culture = yankee
+primary_culture = yankee  set_country_flag = dixie_rel
+#culture = yankee
 religion = protestant
 government = democracy
 plurality = 0.1
