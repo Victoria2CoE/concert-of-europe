@@ -1406,9 +1406,8 @@ factor = 0.25
 	modifier = {
 		factor = 5.0
 		location = { has_province_modifier = southern_plantations }
-		NOT = { religion = dixie }
-		NOT = { religion = yankee }
-		NOT = { religion = afro_american }
+		is_primary_culture = no
+		is_accepted_culture = no
 	}	
 	modifier = {
 		factor = 0.40
