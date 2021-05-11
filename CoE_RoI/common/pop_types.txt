@@ -1408,6 +1408,8 @@ factor = 0.25
 		location = { has_province_modifier = southern_plantations }
 		is_primary_culture = no
 		is_accepted_culture = no
+		country = { primary_culture = yankee }
+		NOT = { country = { tag = TEX } }	
 	}	
 	modifier = {
 		factor = 0.40
