@@ -1871,10 +1871,10 @@ ideologies = {
 			factor = 1.1
 			NOT = { militancy = 3 }
 		}
-		modifier = {
-			factor = 1.1
-			NOT = { militancy = 4 }
-		}
+		#modifier = {
+		#	factor = 1.1
+		#	NOT = { militancy = 4 }
+		#}
 		modifier = {
 			factor = 0.9
 			militancy = 5
