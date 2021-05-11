@@ -422,6 +422,11 @@ migration_target =
 	factor = 1
 	
 	modifier = {
+		factor = 0.2
+		is_colonial = no
+		NOT = { culture = THIS }
+	}
+	modifier = {
 		factor = 0.10
 		has_province_modifier = southern_plantations
 	}	modifier = {
