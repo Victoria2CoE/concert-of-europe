@@ -24,6 +24,29 @@ country_event = {
 			duration = -1
 		}
 		
+		USA = {
+			any_owned = { 
+				limit = {
+					OR = { 
+						region = USA_219	
+						region = USA_211	
+						region = USA_2556	
+						region = USA_205	
+						region = USA_201	
+						region = USA_188	
+						region = USA_196	
+						region = USA_194	
+						region = USA_139	
+						region = USA_132
+					}
+				}
+				add_province_modifier = {
+					name = southern_plantations
+					duration = -1
+				}
+			}
+		}
+		
 		#random_country = {
 		#	limit = { rank = 1 }
 		#	prestige = 250

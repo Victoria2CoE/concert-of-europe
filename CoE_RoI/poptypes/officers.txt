@@ -421,7 +421,11 @@ country_migration_target =
 migration_target =
 {
 	factor = 1
-
+	
+	modifier = {
+		factor = 0.10
+		has_province_modifier = southern_plantations
+	}
 	modifier = {
 		factor = 1.2
 		has_pop_culture = THIS
