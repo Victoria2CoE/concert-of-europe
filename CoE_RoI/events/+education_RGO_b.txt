@@ -50,9 +50,9 @@ country_event = {
 		any_pop = { limit = { culture = czech } literacy = 0.20 }
 		any_pop = { limit = { culture = slovak } literacy = 0.15 }
 		
-		any_pop = { limit = { has_pop_religion = yankee } literacy = 0.36 }
-		any_pop = { limit = { has_pop_religion = mormon } literacy = 0.36 }
-		any_pop = { limit = { has_pop_religion = dixie } literacy = 0.28 }
+		any_pop = { limit = { has_pop_religion = yankee } literacy = 0.40 }
+		any_pop = { limit = { has_pop_religion = mormon } literacy = 0.40 }
+		any_pop = { limit = { has_pop_religion = dixie } literacy = 0.24 }
 		
 		any_pop = { limit = { culture = mexican } literacy = 0.20 }
 		
