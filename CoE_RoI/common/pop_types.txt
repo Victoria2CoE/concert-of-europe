@@ -1722,7 +1722,7 @@ factor = 0.05
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.05
+	factor = 0.10
 	modifier = {
 		factor = 0.5
 		always = yes
@@ -1969,7 +1969,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.02
+	factor = 0.010
 	modifier = {
 		factor = 5.0
 		always = yes
