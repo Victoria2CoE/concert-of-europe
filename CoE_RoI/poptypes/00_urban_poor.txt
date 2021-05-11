@@ -1577,7 +1577,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 0.3
+		factor = 0.4
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -1771,7 +1771,7 @@ ideologies = {
 	}
 
 	conservative = {
-		factor = 1.50
+		factor = 1.10
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -1808,7 +1808,7 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 4.0
+			factor = 2.5
 			nationalvalue = nv_order
 			country = {
 				NOT = { vote_franschise = none_voting }
@@ -1830,7 +1830,7 @@ ideologies = {
 			NOT = { ruling_party_ideology = fascist }
 		}
 		modifier = {
-			factor = 4.0
+			factor = 3.0
 			nationalvalue = nv_productivity
 			NOT = { ruling_party_ideology = reactionary }
 			NOT = { ruling_party_ideology = fascist }
@@ -2387,7 +2387,7 @@ ideologies = {
 	}
 
 	liberal = {
-		factor = 0.5
+		factor = 0.75
 		modifier = {
 			factor = 1.2
 			country = { 
