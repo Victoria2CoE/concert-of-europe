@@ -388,102 +388,102 @@ province_event = {
 		has_province_modifier = settlement_colony
 		OR = {
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 100000 } } 
 				NOT = { owner = { total_pops = 1000000 } }
 			}
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 125000 } }
 				owner = { total_pops = 1000000 }
 				NOT = { owner = { total_pops = 2000000 } }
 			}
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 150000 } }
 				owner = { total_pops = 2000000 }
 				NOT = { owner = { total_pops = 3000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 175000 } }
 				owner = { total_pops = 3000000 }
 				NOT = { owner = { total_pops = 4000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 200000 } }
 				owner = { total_pops = 4000000 }
 				NOT = { owner = { total_pops = 5000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 225000 } }
 				owner = { total_pops = 5000000 }
 				NOT = { owner = { total_pops = 6000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 250000 } }
 				owner = { total_pops = 6000000 }
 				NOT = { owner = { total_pops = 7000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 275000 } }
 				owner = { total_pops = 7000000 }
 				NOT = { owner = { total_pops = 8000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 300000 } }
 				owner = { total_pops = 8000000 }
 				NOT = { owner = { total_pops = 9000000 } }
 			}		
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 325000 } }
 				owner = { total_pops = 9000000 }
 				NOT = { owner = { total_pops = 10000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 350000 } }
 				owner = { total_pops = 10000000 }
 				NOT = { owner = { total_pops = 11000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 375000 } }
 				owner = { total_pops = 11000000 }
 				NOT = { owner = { total_pops = 12000000 } }
 			}		
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 400000 } }
 				owner = { total_pops = 12000000 }
 				NOT = { owner = { total_pops = 13000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 425000 } }
 				owner = { total_pops = 13000000 }
 				NOT = { owner = { total_pops = 14000000 } }
 			}	
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 450000 } }
 				owner = { total_pops = 14000000 }
 				NOT = { owner = { total_pops = 15000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 475000 } }
 				owner = { total_pops = 15000000 }
 				NOT = { owner = { total_pops = 16000000 } }
 			}			
 			AND = {
-				OR = { state_scope = { is_primary_culture = yes }  state_scope = { is_accepted_culture = yes }
+				OR = { 
 				state_scope = { total_pops = 500000 } }
 				owner = { total_pops = 16000000 }
 				#NOT = { owner = { total_pops = 17000000 } }
