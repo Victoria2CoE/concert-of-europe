@@ -2047,7 +2047,7 @@ emigration_chance =
 	#	NOT = { literacy = 0.40 }
 	#}	
 	modifier = {
-		factor = -1.00
+		factor = 1.00
 		literacy = 0.40
 		NOT = { literacy = 0.50 }
 	}	

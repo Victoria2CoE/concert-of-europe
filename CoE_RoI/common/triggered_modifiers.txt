@@ -661,6 +661,16 @@ the_police_state_effect = {
 	core_pop_militancy_modifier = -0.02
 }
 
+the_beginnings_trig = {
+	trigger = {
+		NOT = { year = 1825 }
+	}
+	global_population_growth = -0.010
+	global_pop_militancy_modifier = -0.1
+	#tax_efficiency = 0.10
+	icon = 1
+}
+
 the_concert_of_europe = {
 	trigger = {
 		NOT = { year = 1840 }
