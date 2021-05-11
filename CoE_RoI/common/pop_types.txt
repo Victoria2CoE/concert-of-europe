@@ -1400,11 +1400,11 @@ demotion_chance =
 migration_chance = {
 factor = 0.05
 	modifier = {
-		factor = 0.20
+		factor = 0.50
 		always = yes
 	}	
 	modifier = {
-		factor = -0.10
+		factor = -0.20
 		is_primary_culture = no
 		is_accepted_culture = no
 		has_culture_core = yes
@@ -1416,6 +1416,78 @@ factor = 0.05
 	modifier = {
 		factor = 0.10
 		strata = middle
+	}
+	group = {
+		modifier = {
+			factor = 0.1
+			literacy = 0.1
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}
+		modifier = {
+			factor = 0.1
+			literacy = 0.2
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}
+		modifier = {
+			factor = 0.1
+			literacy = 0.3
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}
+		modifier = {
+			factor = 0.1
+			literacy = 0.4
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}
+		modifier = {
+			factor = 0.1
+			literacy = 0.5
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}		
+		modifier = {
+			factor = 0.1
+			literacy = 0.6
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}	
+		modifier = {
+			factor = 0.1
+			literacy = 0.7
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}	
+		modifier = {
+			factor = 0.1
+			literacy = 0.8
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}	
+		modifier = {
+			factor = 0.1
+			literacy = 0.9
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}	
+		modifier = {
+			factor = 0.1
+			literacy = 0.95
+			is_primary_culture = no
+			is_accepted_culture = no
+			has_culture_core = yes			
+		}
 	}
 	group = {
 		modifier = {
@@ -1438,53 +1510,30 @@ factor = 0.05
 			is_primary_culture = no
 			is_accepted_culture = no
 			has_culture_core = yes			
-		}
+		}	
 		modifier = {
 			factor = 0.1
 			literacy = 0.8
 			is_primary_culture = no
 			is_accepted_culture = no
 			has_culture_core = yes			
-		}
+		}	
 		modifier = {
 			factor = 0.1
-			literacy = 0.90
-			is_primary_culture = no
-			is_accepted_culture = no
-			has_culture_core = yes			
-		}		
-	}
-	group = {
-		modifier = {
-			factor = 0.1
-			literacy = 0.3
-			is_primary_culture = no
-			is_accepted_culture = no
-			has_culture_core = yes			
-		}
-		modifier = {
-			factor = 0.1
-			literacy = 0.6
-			is_primary_culture = no
-			is_accepted_culture = no
-			has_culture_core = yes			
-		}
-		modifier = {
-			factor = 0.1
-			literacy = 0.9
+			literacy = 0.95
 			is_primary_culture = no
 			is_accepted_culture = no
 			has_culture_core = yes			
 		}	
 	}
-	modifier = {
-		factor = 5.0
-		location = { has_province_modifier = southern_plantations }
-		is_primary_culture = no
-		is_accepted_culture = no
-		country = { has_country_flag = yankee_rel }
-		NOT = { country = { tag = TEX } }	
-	}		
+	#modifier = {
+	#	factor = 5.0
+	#	location = { has_province_modifier = southern_plantations }
+	#	is_primary_culture = no
+	#	is_accepted_culture = no
+	#	country = { has_country_flag = yankee_rel }
+	#	NOT = { country = { tag = TEX } }	
+	#}		
 	#modifier = {
 	#	factor = 0.80
 	#	AND = { type = farmers  OR = { is_primary_culture = yes  is_accepted_culture = yes } }
@@ -1493,10 +1542,10 @@ factor = 0.05
 		factor = -1.00
 		type = aristocrats
 	}	
-	modifier = { 
-		factor = 0.25
-		always = yes 
-	}
+	#modifier = { 
+	#	factor = 0.25
+	#	always = yes 
+	#}
 	modifier = { 
 		factor = -0.25
 		OR = { is_primary_culture = yes  is_accepted_culture = yes }
@@ -1608,71 +1657,71 @@ factor = 0.05
 			civilized = no
 		}
 	}
-	group = {
-		modifier = {
-			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.1
-			literacy = 0.1
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.2
-			literacy = 0.2
-			location = { controlled_by = owner }
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.3
-			literacy = 0.3
-			location = { controlled_by = owner }
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.4
-			literacy = 0.4
-			location = { controlled_by = owner }
-		}		
-		modifier = {
-			factor = 0.1
-			unemployment = 0.5
-			literacy = 0.5
-			location = { controlled_by = owner }
-		}		
-		modifier = {
-			factor = 0.1
-			unemployment = 0.6
-			literacy = 0.6
-			location = { controlled_by = owner }
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.7
-			literacy = 0.7
-			location = { controlled_by = owner }
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.8
-			literacy = 0.8
-			location = { controlled_by = owner }
-		}		
-		modifier = {
-			factor = 0.1
-			unemployment = 0.9
-			literacy = 0.9
-			location = { controlled_by = owner }
-		}		
-		#modifier = {
-		#	factor = 0.2
-		#	unemployment = 0.99
-		#	literacy = 0.99
-		#	location = { controlled_by = owner }
-		#}	
-	}
+	#group = {
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.05
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.1
+	#		literacy = 0.1
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.2
+	#		literacy = 0.2
+	#		location = { controlled_by = owner }
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.3
+	#		literacy = 0.3
+	#		location = { controlled_by = owner }
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.4
+	#		literacy = 0.4
+	#		location = { controlled_by = owner }
+	#	}		
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.5
+	#		literacy = 0.5
+	#		location = { controlled_by = owner }
+	#	}		
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.6
+	#		literacy = 0.6
+	#		location = { controlled_by = owner }
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.7
+	#		literacy = 0.7
+	#		location = { controlled_by = owner }
+	#	}
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.8
+	#		literacy = 0.8
+	#		location = { controlled_by = owner }
+	#	}		
+	#	modifier = {
+	#		factor = 0.1
+	#		unemployment = 0.9
+	#		literacy = 0.9
+	#		location = { controlled_by = owner }
+	#	}		
+	#	#modifier = {
+	#	#	factor = 0.2
+	#	#	unemployment = 0.99
+	#	#	literacy = 0.99
+	#	#	location = { controlled_by = owner }
+	#	#}	
+	#}
 	#group = {
 	#	modifier = {
 	#		factor = -0.1
@@ -1969,9 +2018,9 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.007
+	factor = 0.006
 	modifier = {
-		factor = 5.0
+		factor = 7.5
 		always = yes
 	}
 	modifier = {
@@ -1988,15 +2037,15 @@ emigration_chance =
 		NOT = { literacy = 0.20 }
 	}	
 	modifier = {
-		factor = -5.00
+		factor = -2.50
 		literacy = 0.20
 		NOT = { literacy = 0.30 }
 	}	
-	modifier = {
-		factor = -2.50
-		literacy = 0.30
-		NOT = { literacy = 0.40 }
-	}	
+	#modifier = {
+	#	factor = -2.50
+	#	literacy = 0.30
+	#	NOT = { literacy = 0.40 }
+	#}	
 	modifier = {
 		factor = -1.00
 		literacy = 0.40
@@ -2028,8 +2077,8 @@ emigration_chance =
 		NOT = { literacy = 0.99 }
 	}		
 	modifier = {
-		factor = -5.50
-		literacy = 0.99
+		factor = -5.00
+		literacy = 0.95
 	}		
 	#modifier = {
 	#	factor = 2.5
@@ -2128,108 +2177,108 @@ emigration_chance =
 		#	literacy = 0.99
 		#}
 	}
-	group = {
-		modifier = {
-			factor = -1.00
-			luxury_needs = 0.9 
-		}
-		modifier = {
-			factor = -1.00
-			luxury_needs = 0.8
-		}
-		modifier = {
-			factor = -1.00
-			luxury_needs = 0.7
-		}
-		modifier = {
-			factor = -1.00
-			luxury_needs = 0.6
-		}
-	}	
-	group = {
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.10
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.20
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.30
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.40
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.60
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.70
-		}		
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.80
-		}	
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.90
-		}		
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.99
-		}		
-	}	
-	group = {
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.10
-		}
-		modifier = {
-			factor = -0.10
-			everyday_needs = 0.20
-		}
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.30
-		}
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.40
-		}
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.60
-		}
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.70
-		}		
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.80
-		}	
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.90
-		}		
-		modifier = {
-			factor = -0.10
-			luxury_needs = 0.99
-		}		
-	}	
+	#group = {
+	#	modifier = {
+	#		factor = -1.00
+	#		luxury_needs = 0.9 
+	#	}
+	#	modifier = {
+	#		factor = -1.00
+	#		luxury_needs = 0.8
+	#	}
+	#	modifier = {
+	#		factor = -1.00
+	#		luxury_needs = 0.7
+	#	}
+	#	modifier = {
+	#		factor = -1.00
+	#		luxury_needs = 0.6
+	#	}
+	#}	
+	#group = {
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.10
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.20
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.30
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.40
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.50
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.60
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.70
+	#	}		
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.80
+	#	}	
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.90
+	#	}		
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.99
+	#	}		
+	#}	
+	#group = {
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.10
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		everyday_needs = 0.20
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.30
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.40
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.50
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.60
+	#	}
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.70
+	#	}		
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.80
+	#	}	
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.90
+	#	}		
+	#	modifier = {
+	#		factor = -0.10
+	#		luxury_needs = 0.99
+	#	}		
+	#}	
 	group = {
 		modifier = {
 			factor = -1.0
@@ -2445,16 +2494,16 @@ emigration_chance =
 			location = { controlled_by = owner }
 		}
 	}
-	modifier = {
-		factor = 0.10
-		country = { religious_policy = moralism }
-		NOT = { religion = THIS }
-	}
-	modifier = {
-		factor = -0.10
-		country = { religious_policy = moralism }
-		religion = THIS 
-	}
+	#modifier = {
+	#	factor = 0.10
+	#	country = { religious_policy = moralism }
+	#	NOT = { religion = THIS }
+	#}
+	#modifier = {
+	#	factor = -0.10
+	#	country = { religious_policy = moralism }
+	#	religion = THIS 
+	#}
 	modifier = {
 		factor = 1.0
 		country = { citizenship_policy = residency }
@@ -2575,7 +2624,7 @@ emigration_chance =
 		}
 	}
 	modifier = {
-		factor = -1
+		factor = -2
 		strata = rich
 		is_primary_culture = no
 		is_accepted_culture = no
@@ -2783,19 +2832,23 @@ emigration_chance =
 	#	country = { land_property = land_purchase }
 	#}
 	modifier = {
-		factor = -7.5
+		factor = -5.0
+		country = { has_country_modifier = demographic_collapse }
+	}
+	modifier = {
+		factor = -2.5
 		country = { nationalvalue = nv_equality }
 	}
 	modifier = {
-		factor = -7.5
+		factor = -2.5
 		country = { nationalvalue = nv_fraternity }
     }
 	modifier = {
-		factor = -7.5
+		factor = -2.5
 		country = { nationalvalue = nv_prosperity }
 	}
 	modifier = {
-		factor = -7.5
+		factor = -2.5
 		country = { nationalvalue = nv_unity }
 	}
 	
