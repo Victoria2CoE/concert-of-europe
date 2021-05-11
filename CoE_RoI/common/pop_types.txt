@@ -2831,24 +2831,24 @@ emigration_chance =
 	#	strata = poor
 	#	country = { land_property = land_purchase }
 	#}
-	modifier = {
-		factor = -5.0
-		country = { has_country_modifier = demographic_collapse }
-	}
+	#modifier = {
+	#	factor = -10.0
+	#	country = { AND = { tag = FRA NOT = { has_country_flag = end_of_stagnation_fra } } }
+	#}
 	modifier = {
 		factor = -2.5
 		country = { nationalvalue = nv_equality }
 	}
 	modifier = {
-		factor = -2.5
+		factor = -10.0
 		country = { nationalvalue = nv_fraternity }
     }
 	modifier = {
-		factor = -2.5
+		factor = -7.5
 		country = { nationalvalue = nv_prosperity }
 	}
 	modifier = {
-		factor = -2.5
+		factor = -5.0
 		country = { nationalvalue = nv_unity }
 	}
 	

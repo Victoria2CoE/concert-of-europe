@@ -195,20 +195,26 @@ political_decisions = {
 		}
 		allow = { 
 			OR = {
-				economic_policy = planned_economy
+				AND = {
+					economic_policy = planned_economy
+					literacy = 0.40
+				}
 				AND = {
 					health_care = acceptable_health_care
 					pensions = acceptable_pensions
 					education = public
+					literacy = 0.50
 				}
 				AND = {
 					economic_policy = laissez_faire
 					land_property = land_purchase
 					literacy = 0.60
 				}
+				literacy = 0.90
 			}
 		}        
 		effect = {
+			set_country_flag = end_of_stagnation_fra
 			add_country_modifier = {
 				name = catching_up_economically
 				duration = 9125
