@@ -1,6 +1,7 @@
 
 country_event = {
 	id = 99990
+	picture = to_stars_com_pic
 	title = "Roead to Communism Paved!"
 	desc = "Our government is of opinion that our productive forces are sufficiently developed, and thus our economy may begin transition to Communism!"
 
@@ -30,6 +31,7 @@ country_event = {
 	id = 99989
 	title = "End of an experiment"
 	desc = "The 'Communism' in our country is no more, for some maybe sad thing, for some a moment to celebrate, but nevertheless it is time to reverse their policies!"
+	picture = fall_of_communism_pic
 
 	trigger = { 
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
@@ -46,7 +48,7 @@ country_event = {
 
 	option = {
 		name = "Something Ends, Something Begins..."
-		prestige = -10
+		prestige = -5
 		remove_country_modifier = road_to_communism_paved
 		remove_country_modifier = nep_econ
 		remove_country_modifier = 5y_econ	
