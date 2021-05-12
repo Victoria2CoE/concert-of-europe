@@ -2412,7 +2412,7 @@ ideologies = {
 	}
 	
 	social_liberal = {
-		factor = 1
+		factor = 4
 		#modifier = {
 		#	factor = 1.5
 		#	has_global_flag = post_colonial_era_fired
@@ -2604,29 +2604,29 @@ ideologies = {
 			political_reform_want = 0.99
 			}
 		}
-		modifier = {
-			factor = 5.0
-			strata = middle
-		}
-		modifier = {
-			factor = 2.0
-			strata = poor
-		}
-		modifier = {
-			factor = 2.0
-			type = labourers
-		}
-		modifier = {
-			factor = 3.0
-			type = farmers
-		}
-		modifier = {
-			factor = 1.5
-			type = craftsmen
-		}
+		#modifier = {
+		#	factor = 5.0
+		#	strata = middle
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	strata = poor
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	type = labourers
+		#}
+		#modifier = {
+		#	factor = 3.0
+		#	type = farmers
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	type = craftsmen
+		#}
 	}
 	
-		separatist = {
+	separatist = {
 		factor = 1.0
 		modifier = {
 			factor = 0.8
@@ -2770,7 +2770,7 @@ ideologies = {
 	}
 	
 	fascist = {
-		factor = 1.0
+		factor = 2.5
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -3009,26 +3009,26 @@ ideologies = {
 			pop_majority_ideology = reactionary
 			social_reform_want = 0.10
 		}
-		modifier = {
-			factor = 2.0
-			strata = poor
-		}
-		modifier = {
-			factor = 2.0
-			strata = rich
-		}
-		modifier = {
-			factor = 2.0
-			type = soldiers
-		}
-		modifier = {
-			factor = 2.0
-			type = officers
-		}
+		#modifier = {
+		#	factor = 2.0
+		#	strata = poor
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	strata = rich
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	type = soldiers
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	type = officers
+		#}
 	}
 	
 	reactionary = {
-		factor = 0.4
+		factor = 0.3
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -3198,31 +3198,31 @@ ideologies = {
 			militancy = 4
 			is_accepted_culture = no
 		}
-		modifier = {
-			factor = 1.5	
-			type = soldiers
-		}
-		modifier = {
-			factor = 6	
-			type = officers
-		}
-		modifier = {
-			factor = 3.0
-			type = capitalists
-			state_scope = { labourers = 0.60 }
-		}
-		modifier = {
-			factor = 3.0	
-			type = capitalists
-		}
-		modifier = {
-			factor = 1.5	
-			strata = middle
-		}
+		#modifier = {
+		#	factor = 1.5	
+		#	type = soldiers
+		#}
+		#modifier = {
+		#	factor = 6	
+		#	type = officers
+		#}
+		#modifier = {
+		#	factor = 3.0
+		#	type = capitalists
+		#	state_scope = { labourers = 0.60 }
+		#}
+		#modifier = {
+		#	factor = 3.0	
+		#	type = capitalists
+		#}
+		#modifier = {
+		#	factor = 1.5	
+		#	strata = middle
+		#}
 	}
 
 	conservative = {
-		factor = 1.10
+		factor = 3.0
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -3366,27 +3366,27 @@ ideologies = {
 			factor = 1.5
 			not = { political_reform_want = 0.25 }
 		}
-		modifier = {
-			factor = 2.5	
-			type = officers
-		}
-		modifier = {
-			factor = 3.0
-			type = capitalists
-			state_scope = { labourers = 0.50 }
-		}
-		modifier = {
-			factor = 3.0	
-			type = capitalists
-		}
-		modifier = {
-			factor = 2.5	
-			strata = middle
-		}
+		#modifier = {
+		#	factor = 2.5	
+		#	type = officers
+		#}
+		#modifier = {
+		#	factor = 3.0
+		#	type = capitalists
+		#	state_scope = { labourers = 0.50 }
+		#}
+		#modifier = {
+		#	factor = 3.0	
+		#	type = capitalists
+		#}
+		#modifier = {
+		#	factor = 2.5	
+		#	strata = middle
+		#}
 	}
 	
 	socialist = {
-		factor = 0.5
+		factor = 3.0
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -3575,26 +3575,26 @@ ideologies = {
 			factor = 1.5
 			political_reform_want = 0.30
 		}
-		modifier = {
-			factor = 2.5
-			strata = poor
-		}
-		modifier = {
-			factor = 2.5
-			type = farmers
-		}
-		modifier = {
-			factor = 5.0
-			type = craftsmen
-		}
-		modifier = {
-			factor = 3.5
-			type = clerks
-		}
+		#modifier = {
+		#	factor = 2.5
+		#	strata = poor
+		#}
+		#modifier = {
+		#	factor = 2.5
+		#	type = farmers
+		#}
+		#modifier = {
+		#	factor = 5.0
+		#	type = craftsmen
+		#}
+		#modifier = {
+		#	factor = 3.5
+		#	type = clerks
+		#}
 	}
 
 	communist = {
-		factor = 1.25
+		factor = 2.0
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -3774,71 +3774,71 @@ ideologies = {
 		#}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 2
 		}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 4
 		}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 6
 		}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 7
 		}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 8
 		}
 		modifier = {
 			factor = 2
-			OR = { strata = poor  type = clerks }
+			strata = poor
 			militancy = 9
 		}
-		modifier = {
-			factor = 1.5
-			strata = poor
-		}
-		modifier = {
-			factor = 1.5
-			type = farmers
-		}
-		modifier = {
-			factor = 7.5
-			type = craftsmen
-		}
-		modifier = {
-			factor = 5.0
-			type = clerks
-		}
-		modifier = {
-			factor = 5.0
-			strata = middle
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
-			NOT = { type = clerks }
-		}
-		modifier = {
-			factor = 5.0
-			strata = middle
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
-			OR = { type = soldiers  type = officers }
-		}
-		modifier = {
-			factor = 2.5
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
-			type = clerks
-		}
+		#modifier = {
+		#	factor = 1.5
+		#	strata = poor
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	type = farmers
+		#}
+		#modifier = {
+		#	factor = 7.5
+		#	type = craftsmen
+		#}
+		#modifier = {
+		#	factor = 5.0
+		#	type = clerks
+		#}
+		#modifier = {
+		#	factor = 5.0
+		#	strata = middle
+		#	OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+		#	NOT = { type = clerks }
+		#}
+		#modifier = {
+		#	factor = 5.0
+		#	strata = middle
+		#	OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+		#	OR = { type = soldiers  type = officers }
+		#}
+		#modifier = {
+		#	factor = 2.5
+		#	OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+		#	type = clerks
+		#}
 	}
 
 	liberal = {
-		factor = 0.75
+		factor = 1.5
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -4062,29 +4062,29 @@ ideologies = {
 			}
 			militancy = 6
 		}
-		modifier = {
-			factor = 5.0
-			strata = poor
-			NOT = { type = labourers }
-			NOT = { is_ideology_enabled = socialist }
-		}
-		modifier = {
-			factor = 2.0
-			type = capitalists
-			NOT = { state_scope = { labourers = 0.50 } }
-		}
-		modifier = {
-			factor = 2.0
-			type = capitalists
-			NOT = { state_scope = { labourers = 0.25 } }
-		}
-		modifier = {
-			factor = 1.5	
-			type = capitalists
-		}
+		#modifier = {
+		#	factor = 5.0
+		#	strata = poor
+		#	NOT = { type = labourers }
+		#	NOT = { is_ideology_enabled = socialist }
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	type = capitalists
+		#	NOT = { state_scope = { labourers = 0.50 } }
+		#}
+		#modifier = {
+		#	factor = 2.0
+		#	type = capitalists
+		#	NOT = { state_scope = { labourers = 0.25 } }
+		#}
+		#modifier = {
+		#	factor = 1.5	
+		#	type = capitalists
+		#}
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 0.75
 		modifier = {
 			factor = 1.2
 			country = { 
@@ -4328,22 +4328,22 @@ ideologies = {
 				everyday_needs = 0.8
 				land_property = collectivization
 			}
-		modifier = {
-			factor = 2.5
-			strata = poor
-			NOT = { type = labourers }
-			NOT = { is_ideology_enabled = socialist }
-		}
-		modifier = {
-			factor = 1.5
-			type = capitalists
-			NOT = { state_scope = { labourers = 0.50 } }
-		}
-		modifier = {
-			factor = 1.5
-			type = capitalists
-			NOT = { state_scope = { labourers = 0.25 } }
-		}		
+		#modifier = {
+		#	factor = 2.5
+		#	strata = poor
+		#	NOT = { type = labourers }
+		#	NOT = { is_ideology_enabled = socialist }
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	type = capitalists
+		#	NOT = { state_scope = { labourers = 0.50 } }
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	type = capitalists
+		#	NOT = { state_scope = { labourers = 0.25 } }
+		#}		
 	}
 }
 issues = {
