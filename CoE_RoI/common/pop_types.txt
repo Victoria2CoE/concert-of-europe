@@ -3167,6 +3167,10 @@ assimilation_chance =
 		}
 	}
 	modifier = {
+		factor = -100
+		OR = { culture = ashkenazi  culture = sephardic }
+	}	
+	modifier = {
 		factor = -10000
 		NOT = { 
 			location = { controlled_by = owner }
