@@ -3414,7 +3414,7 @@ land_reform_in_process = {
 }
 
 collectivization_in_process = {
-	farm_RGO_eff = -0.30
+	farm_RGO_eff = -0.50
 	global_population_growth = -0.003
 	education_efficiency_modifier = 2.50
 	pension_level = 1.0

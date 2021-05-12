@@ -929,7 +929,7 @@ social_reforms = {
 		}
 		commoners_properties = {
 			farm_RGO_eff = 0.20
-			education_efficiency_modifier = 0.50
+			education_efficiency_modifier = 0.25
 			political_reform_desire = -0.05
 			social_reform_desire = -0.05
 			pension_level = 0.10
@@ -942,12 +942,14 @@ social_reforms = {
 		}
 		collectivization = {
 			mobilisation_size = 0.01
-			farm_RGO_eff = -0.2
+			farm_RGO_eff = 0.1
 			mine_rgo_eff = 0.2
 			factory_output = 0.1
-			education_efficiency_modifier = 0.75
+			education_efficiency_modifier = 0.50
 			political_reform_desire = -0.05
 			social_reform_desire = -0.1
+			tax_efficiency = 0.05
+			tariff_efficiency_modifier = 0.10
 			#poor_life_needs = 0.30
 			#poor_everyday_needs = 0.30
 			#poor_luxury_needs = 0.30
