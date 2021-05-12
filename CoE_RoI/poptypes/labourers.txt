@@ -670,7 +670,7 @@ migration_target =
 
 promote_to =
 {
-	aristocrats = {
+	farmers = {
 		factor = 0.01
 		#modifier = {
 		#	factor = -500

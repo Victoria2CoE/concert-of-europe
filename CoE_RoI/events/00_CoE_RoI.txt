@@ -550,48 +550,48 @@ country_event = {
 			country_event = 6016821
 		}		
 		
-		any_pop = { 
-			limit = { 
-				type = aristocrats 
-			}
-			pop_type = farmers
-		}
-		any_pop = { 
-			limit = { 
-				type = 00_urban_poor 
-			}
-			pop_type = craftsmen
-		}
-		any_pop = { 
-			limit = { 
-				type = clerks 
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			pop_type = craftsmen
-		}
-		any_country = {
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-				}
-				pop_type = farmers
-			}
-			any_pop = { 
-				limit = { 
-					type = 00_urban_poor 
-				}
-				pop_type = craftsmen
-			}
-			any_pop = { 
-				limit = { 
-					type = clerks 
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				pop_type = craftsmen
-			}				
-		}
+		#any_pop = { 
+		#	limit = { 
+		#		type = aristocrats 
+		#	}
+		#	pop_type = farmers
+		#}
+		#any_pop = { 
+		#	limit = { 
+		#		type = 00_urban_poor 
+		#	}
+		#	pop_type = craftsmen
+		#}
+		#any_pop = { 
+		#	limit = { 
+		#		type = clerks 
+		#		is_primary_culture = no
+		#		is_accepted_culture = no
+		#	}
+		#	pop_type = craftsmen
+		#}
+		#any_country = {
+		#	any_pop = { 
+		#		limit = { 
+		#			type = aristocrats 
+		#		}
+		#		pop_type = farmers
+		#	}
+		#	any_pop = { 
+		#		limit = { 
+		#			type = 00_urban_poor 
+		#		}
+		#		pop_type = craftsmen
+		#	}
+		#	any_pop = { 
+		#		limit = { 
+		#			type = clerks 
+		#			is_primary_culture = no
+		#			is_accepted_culture = no
+		#		}
+		#		pop_type = craftsmen
+		#	}				
+		#}
 	}
 }
 
