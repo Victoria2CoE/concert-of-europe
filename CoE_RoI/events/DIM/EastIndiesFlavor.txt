@@ -198,10 +198,7 @@ country_event = {
 			diplomatic_influence = { who = ATJ value = 200 }
 			diplomatic_influence = { who = SAK value = -200 }
 			diplomatic_influence = { who = DJA value = -200 }
-			country_event = { 
-			id = 95255 
-			#days = 10 
-			}
+			country_event = 95255 
 		}
 		TUR = {
 			diplomatic_influence = { who = ATJ value = -200 }
