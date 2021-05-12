@@ -902,7 +902,7 @@ promote_to = {
 		}		
 	}
 
-	craftsmen = {
+	00_urban_poor = {
 		factor = 0.01
 		#modifier = {
 		#	factor = -500

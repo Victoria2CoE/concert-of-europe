@@ -978,7 +978,7 @@ promote_to = {
 	#		state_scope = { artisans = 0.0501 } 
 	#	}
 	#}
-	farmers = {
+	aristocrats = {
 		factor = 0.01
 		#modifier = {
 		#	factor = -500
