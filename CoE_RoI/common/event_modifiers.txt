@@ -3458,12 +3458,26 @@ nep_econ = {
 	education_efficiency_modifier = 1.0
 	farm_RGO_eff = -0.10
 	mine_RGO_eff = 0.10
+	factory_throughput = 0.10
 	tax_efficiency = 0.05
 	tariff_efficiency_modifier = 0.20
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = -0.05
 	global_population_growth = -0.002
 	pension_level = 1.0
+	icon = 50
+}
+
+road_to_communism_paved = {
+	#education_efficiency_modifier = 1.0
+	farm_RGO_eff = 0.10
+	mine_RGO_eff = 0.10
+	factory_throughput = 0.05
+	tax_efficiency = 0.10
+	tariff_efficiency_modifier = 0.25
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = 0.03
+	pension_level = 5.0
 	icon = 50
 }
 
