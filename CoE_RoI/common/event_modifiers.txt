@@ -3374,7 +3374,7 @@ state_investments = {
 	global_population_growth = 0.002
 	education_efficiency_modifier = 1.0
 	pension_level = 1.0
-	icon = 47
+	icon = 49
 }
 
 cooperation_with_rich = {
@@ -3384,7 +3384,7 @@ cooperation_with_rich = {
 	loan_interest = -0.20
 	global_population_growth = 0.001
 	education_efficiency_modifier = 0.80
-	icon = 47
+	icon = 49
 }
 
 austerity_measures = {
@@ -3402,7 +3402,7 @@ austerity_measures = {
 
 ai_economic_flavour_cooldown = {
 	education_efficiency_modifier = 0.25
-	icon = 47
+	icon = 48
 }
 
 land_reform_in_process = {
@@ -3410,7 +3410,7 @@ land_reform_in_process = {
 	global_population_growth = 0.001
 	education_efficiency_modifier = 0.25
 	pension_level = 0.25
-	icon = 47
+	icon = 50
 }
 
 collectivization_in_process = {
@@ -3418,7 +3418,7 @@ collectivization_in_process = {
 	global_population_growth = -0.003
 	education_efficiency_modifier = 2.50
 	pension_level = 1.0
-	icon = 47
+	icon = 50
 }
 
 random_migration_cooldown = {
@@ -3441,5 +3441,29 @@ slavery_reinstituted = {
 	prestige = -0.010
 	education_efficiency_modifier = -0.10
 	icon = 4
+}
+
+###Socialist Economic Policies
+nep_econ = {
+	education_efficiency_modifier = 0.25
+	farm_RGO_eff = 0.10
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = 0.01
+	global_population_growth = 0.001
+	pension_level = 0.25
+	icon = 50
+}
+
+5y_econ = {
+	education_efficiency_modifier = 1.0
+	farm_RGO_eff = -0.10
+	mine_RGO_eff = 0.10
+	tax_efficiency = 0.05
+	tariff_efficiency_modifier = 0.20
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = -0.05
+	global_population_growth = -0.002
+	pension_level = 1.0
+	icon = 50
 }
 

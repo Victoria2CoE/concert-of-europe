@@ -8,6 +8,7 @@ political_decisions = {
 				#economic_policy = interventionism
 				economic_policy = state_capitalism
 				economic_policy = planned_economy
+				economic_policy = anti_industrial
 			}
 			NOT = { has_country_modifier = state_investments }
 			NOT = { has_country_modifier = cooperation_with_rich }
@@ -302,4 +303,70 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	choose_econ_poli_NEP = {
+		picture = econ_nep_pic
+		potential = {
+			#ai = no
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		}
+		allow = {
+			OR = {
+				#economic_policy = interventionism
+				economic_policy = planned_economy
+				economic_policy = anti_industrial
+			}
+			#NOT = { has_country_modifier = state_investments }
+			#NOT = { has_country_modifier = cooperation_with_rich }
+			#NOT = { has_country_modifier = austerity_measures }
+		}
+		effect = {
+			#add_tax_relative_income = -60
+			remove_country_modifier = 5y_econ
+			remove_country_modifier = nep_econ
+			add_country_modifier = {
+				name = nep_econ
+				duration = -1
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ruling_party_ideology = socialist }
+			}
+		}
+	}	
+	choose_econ_poli_5y = {
+		picture = econ_5y_pic
+		potential = {
+			#ai = no
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+		}
+		allow = {
+			OR = {
+				#economic_policy = interventionism
+				economic_policy = planned_economy
+				economic_policy = anti_industrial
+			}
+			#NOT = { has_country_modifier = state_investments }
+			#NOT = { has_country_modifier = cooperation_with_rich }
+			#NOT = { has_country_modifier = austerity_measures }
+		}
+		effect = {
+			#add_tax_relative_income = -60
+			remove_country_modifier = 5y_econ
+			remove_country_modifier = nep_econ			
+			add_country_modifier = {
+				name = 5y_econ
+				duration = -1
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ruling_party_ideology = communist }
+			}			
+		}
+	}	
 }
