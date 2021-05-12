@@ -307,6 +307,7 @@ political_decisions = {
 		picture = econ_nep_pic
 		potential = {
 			#ai = no
+			NOT = { has_country_modifier = road_to_communism_paved }
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
 		allow = {
@@ -340,6 +341,7 @@ political_decisions = {
 		picture = econ_5y_pic
 		potential = {
 			#ai = no
+			NOT = { has_country_modifier = road_to_communism_paved }			
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 		}
 		allow = {
