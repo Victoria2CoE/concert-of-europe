@@ -184,7 +184,7 @@ country_event = {
 						region = NET_1398 #South Sumatra - Bencoolen
 						region = NET_1401 #Siak
 						region = PAG_1408 #East Sumatra
-						#region = PAG_1408 #West Sumatra
+						region = PAG_1408 #West Sumatra
 						region = NET_1413 #West Java
 						region = NET_1415 #Central Java
 						region = NET_1416 #Princely States
@@ -198,7 +198,10 @@ country_event = {
 			diplomatic_influence = { who = ATJ value = 200 }
 			diplomatic_influence = { who = SAK value = -200 }
 			diplomatic_influence = { who = DJA value = -200 }
-			country_event = 95255 
+			country_event = { 
+			id = 95255 
+			#days = 10 
+			}
 		}
 		TUR = {
 			diplomatic_influence = { who = ATJ value = -200 }
