@@ -1,9 +1,9 @@
 sprite = 11
 color = { 12 157 162 }
 is_artisan = yes
-#max_size = 500000000
+##max_size = 500000000
 #merge_max_size = 1
-max_size = 50000000
+#max_size = 50000000
 
 
 rebel =

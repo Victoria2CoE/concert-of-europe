@@ -7,7 +7,7 @@ unemployment = yes
 #equivalent = labourers
 
 #merge_max_size = 1
-max_size = 50000000
+#max_size = 50000000
 
 #is_slave = yes
 allowed_to_vote = yes
