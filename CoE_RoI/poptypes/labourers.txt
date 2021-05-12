@@ -2402,14 +2402,14 @@ ideologies = {
 			militancy = 4
 			is_accepted_culture = no
 		}
-		modifier = {
-			factor = 1.5	
-			type = soldiers
-		}
-		modifier = {
-			factor = 6	
-			type = officers
-		}
+		#modifier = {
+		#	factor = 1.5	
+		#	type = soldiers
+		#}
+		#modifier = {
+		#	factor = 6	
+		#	type = officers
+		#}
 		#modifier = {
 		#	factor = 3.0
 		#	type = capitalists
