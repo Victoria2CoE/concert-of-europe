@@ -523,12 +523,14 @@ political_reforms = {
 			education_efficiency_modifier = 0.10
 			global_pop_militancy_modifier = 0.01
 			non_accepted_pop_militancy_modifier = -0.01
+			tariff_efficiency_modifier = -0.05
 		}
 		naturalization = {
 			global_immigrant_attract = 0.050
 			education_efficiency_modifier = 0.20
 			global_pop_militancy_modifier = 0.02
 			non_accepted_pop_militancy_modifier = -0.02
+			tariff_efficiency_modifier = -0.10
 		}
 	}
 	conscription = {
