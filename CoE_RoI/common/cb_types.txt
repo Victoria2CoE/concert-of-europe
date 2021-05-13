@@ -3734,13 +3734,14 @@ humiliate = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
-		#OR = {
-		#	THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
-		#	THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
-		#	war_with = THIS
-		#	NOT = { relation = { who = THIS value = 0 } }
-		#	THIS = { ai = no }
-		#}
+		OR = {
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			badboy = 0.60
+			THIS = { ai = no }
+		}
 		OR = {
 			NOT = { has_country_flag = dismantle_declared }
 			THIS = { NOT = { has_country_flag = in_great_war } }
