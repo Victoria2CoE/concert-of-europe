@@ -1002,12 +1002,13 @@ east_indian_unification = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = no #always = yes
+	always = yes #always = yes
 
 	can_use = {
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		OR = {
+			THIS = { tag = NET }
 			THIS = { tag = INO }
 			AND = {
 				primary_culture = malay
@@ -1020,10 +1021,10 @@ east_indian_unification = {
 				war_policy = pacifism
 			}
 		}
-		OR = {
-			civilized = no
-			NOT = { is_culture_group = THIS }
-		}
+		#OR = {
+		#	civilized = no
+		#	NOT = { is_culture_group = THIS }
+		#}
 		number_of_states = 2
 		any_state = {
 			any_owned_province = {
@@ -1047,7 +1048,7 @@ east_indian_unification = {
 					region = AST_2534 #Solomon Islands
 					region = AST_1097 #New Caledonia
 				}
-				any_neighbor_province = { owned_by = THIS }
+				#any_neighbor_province = { owned_by = THIS }
 			}
 			#NOT = { any_owned_province = { is_capital = yes } }
 		}
@@ -1080,7 +1081,7 @@ east_indian_unification = {
 				region = AST_2534 #Solomon Islands
 				region = AST_1097 #New Caledonia
 			}
-			any_neighbor_province = { owned_by = THIS }
+			#any_neighbor_province = { owned_by = THIS }
 		}
 		#NOT = { any_owned_province = { is_capital = yes } }
 	}
@@ -1235,12 +1236,13 @@ east_indian_unification_annex = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	always = no #always = yes
+	always = yes #always = yes
 
 	can_use = {
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		OR = {
+			THIS = { tag = NET }
 			THIS = { tag = INO }
 			AND = {
 				primary_culture = malay
@@ -1279,7 +1281,7 @@ east_indian_unification_annex = {
 				region = AST_2534 #Solomon Islands
 				region = AST_1097 #New Caledonia
 			}
-			any_neighbor_province = { owned_by = THIS }
+			#any_neighbor_province = { owned_by = THIS }
 		}
 		OR = {
 			war_with = THIS
@@ -1451,7 +1453,7 @@ add_to_sphere = {
 # Unification Humiliate
 unification_humiliate_cb = {
 	sprite_index = 11
-	is_triggered_only = no
+	is_triggered_only = yes
 	months = 12 #months = 12
 	crisis = no
 
@@ -3691,7 +3693,7 @@ restore_british_raj = {
 # Humiliate
 humiliate = {
 	sprite_index = 11
-	is_triggered_only = yes
+	is_triggered_only = no
 	months = 12 #months = 12
 
 	construction_speed = 0.25 #construction_speed = 0.25 0.8
@@ -3732,13 +3734,13 @@ humiliate = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
-		OR = {
-			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
-			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
-			war_with = THIS
-			NOT = { relation = { who = THIS value = 0 } }
-			THIS = { ai = no }
-		}
+		#OR = {
+		#	THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+		#	THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+		#	war_with = THIS
+		#	NOT = { relation = { who = THIS value = 0 } }
+		#	THIS = { ai = no }
+		#}
 		OR = {
 			NOT = { has_country_flag = dismantle_declared }
 			THIS = { NOT = { has_country_flag = in_great_war } }
