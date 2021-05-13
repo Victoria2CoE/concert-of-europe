@@ -1331,10 +1331,7 @@ political_decisions = {
 		potential = {
 			owns = 734 #Trient
 			owns = 735 #Bozen
-			#OR = {
-				has_country_flag = north_german_rel
-				#primary_culture = south_german
-			#}
+			primary_culture = german
 			has_global_flag = italy_has_renamed_trentino
 		}
 		
