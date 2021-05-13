@@ -83,10 +83,10 @@ country_event = {
 		}
 		modifier = {
 			factor = 5
-			OR = {
-				primary_culture = anglo_canadian
+			#OR = {
+				#primary_culture = anglo_canadian
 				primary_culture = british
-			}
+			#}
 			vassal_of = ENG
 			ai = yes
 		}

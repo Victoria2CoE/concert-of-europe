@@ -3301,11 +3301,11 @@ assimilation_chance =
 			NOT = { literacy = 0.1 }
 		}
 	}
-	modifier = {
-		factor = 100
-        OR = { country = { primary_culture = anglo_canadian } country = { primary_culture = australian } country = { primary_culture = anglo_african } }
-		culture = british
-	}
+	#modifier = {
+	#	factor = 100
+    #    OR = { country = { primary_culture = anglo_canadian } country = { primary_culture = australian } country = { primary_culture = anglo_african } }
+	#	culture = british
+	#}
 }
 
 #general conversion mtth, same for all pops

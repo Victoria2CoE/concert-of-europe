@@ -733,7 +733,7 @@ country_event = {
 		plurality = 2
 		SAF = {
 			primary_culture = boer
-			add_accepted_culture = anglo_african
+			add_accepted_culture = british
 		}
 		any_pop = {
 			limit = { has_pop_culture = boer }
@@ -791,7 +791,7 @@ country_event = {
 		leave_alliance = TRN
 		leave_alliance = ORA
 		SAF = {
-			primary_culture = anglo_african
+			primary_culture = british
 			add_accepted_culture = boer
 		}
 		any_pop = {
@@ -1173,7 +1173,7 @@ country_event = {
 			diplomatic_influence = { who = THIS value = 50 }
 		}
 		any_pop = {
-			limit = { has_pop_culture = anglo_african }
+			limit = { has_pop_religion = anglo_african }
 			consciousness = 2
 		}
 		any_country = {
@@ -1214,7 +1214,7 @@ country_event = {
 			}
 		}
 		any_pop = {
-			limit = { has_pop_culture = anglo_african }
+			limit = { has_pop_religion = anglo_african }
 			militancy = 8
 			consciousness = 4
 		}

@@ -2538,9 +2538,9 @@ country_event = {
 		random_country = {
 			limit = {
 				tag = FROM
-				primary_culture = anglo_canadian
+				primary_culture = british
 			}
-			THIS = { add_accepted_culture = anglo_canadian }
+			THIS = { add_accepted_culture = british }
 		}
 		inherit = FROM
 		random_owned = {

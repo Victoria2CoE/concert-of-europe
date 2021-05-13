@@ -1323,8 +1323,8 @@ country_event = {
 		release_vassal = LSK
 		LSK = {
 			prestige = -100
-			primary_culture = anglo_canadian
-			add_accepted_culture = british
+			primary_culture = british
+			#add_accepted_culture = british
 			relation = { who = CAN value = 200 }
 		}
 		relation = {
@@ -1366,8 +1366,8 @@ country_event = {
 		release_vassal = LSK
 		LSK = {
 			prestige = -100
-			primary_culture = anglo_canadian
-			add_accepted_culture = british
+			primary_culture = british
+			#add_accepted_culture = british
 			relation = { who = CAN value = 200 }
 		}
 		relation = {

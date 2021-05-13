@@ -1,6 +1,6 @@
 capital = 14
-primary_culture = anglo_canadian
-culture = british
+primary_culture = british  set_country_flag = anglo_canadian_rel
+#culture = british
 culture = french_canadian
 religion = protestant
 government = democracy

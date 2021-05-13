@@ -8340,7 +8340,7 @@
 	artisans = {
 
 		size = 165
-		culture = anglo_canadian
+		culture = british
 		religion = anglo_canadian #religion = protestant
 
 	}
@@ -8354,7 +8354,7 @@
 	clergymen = {
 
 		size = 40
-		culture = anglo_canadian
+		culture = british
 		religion = anglo_canadian #religion = protestant
 
 	}
@@ -8368,7 +8368,7 @@
 	labourers = {
 
 		size = 3055
-		culture = anglo_canadian
+		culture = british
 		religion = anglo_canadian #religion = protestant
 
 	}
@@ -8382,7 +8382,7 @@
 	soldiers = {
 
 		size = 20
-		culture = anglo_canadian
+		culture = british
 		religion = anglo_canadian #religion = protestant
 
 	}

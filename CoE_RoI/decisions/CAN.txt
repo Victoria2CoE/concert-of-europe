@@ -221,10 +221,11 @@ political_decisions = {
 				tag = COL
 				tag = MTC
 				tag = RPL
-				primary_culture = anglo_canadian
+				#primary_culture = anglo_canadian
 				AND = {
 					primary_culture = british
-					accepted_culture = anglo_canadian
+					has_country_flag = anglo_canadian_rel
+					#accepted_culture = anglo_canadian
 					NOT = { tag = ENG }
 					NOT = { tag = ENL }
 				}

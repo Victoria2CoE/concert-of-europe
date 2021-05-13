@@ -1,7 +1,7 @@
 capital = 74
-primary_culture = anglo_canadian
+primary_culture = british  set_country_flag = anglo_canadian_rel
 culture = french_canadian
-culture = british
+#culture = british
 religion = catholic
 government = democracy
 plurality = 0.2
