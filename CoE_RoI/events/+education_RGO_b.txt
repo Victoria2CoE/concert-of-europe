@@ -61,7 +61,7 @@ country_event = {
 
 		any_pop = { limit = { is_culture_group = germanic } literacy = 0.25 }
 		any_pop = { limit = { is_culture_group = germanic literacy = 0.20 } }
-		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.30 }
+		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.52 }
 		any_pop = { limit = { is_culture_group = beneluxian } literacy = 0.57 }
 		any_pop = { limit = { is_culture_group = pan_swiss } literacy = 0.20 }
 		any_pop = { limit = { is_culture_group = south_slavic } literacy = 0.08 }
@@ -130,7 +130,7 @@ country_event = {
 
 
 		any_pop = { limit = { is_culture_group = germanic } literacy = 0.20 }
-		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.30 }
+		any_pop = { limit = { is_culture_group = jewish_cultures } literacy = 0.52 }
 		any_pop = { limit = { is_culture_group = beneluxian } literacy = 0.57 }
 		any_pop = { limit = { is_culture_group = pan_swiss } literacy = 0.20 }
 		any_pop = { limit = { is_culture_group = south_slavic } literacy = 0.08 }
