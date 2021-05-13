@@ -1451,6 +1451,7 @@ country_event = {
 		BEL_394 = { remove_core = NET }
 		391 = { add_core = NET }
 		inherit = BEL
+		inherit = LUX
 		any_owned = {
 			limit = {
 				OR = {
