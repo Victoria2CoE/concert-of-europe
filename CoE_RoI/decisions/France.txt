@@ -499,22 +499,22 @@ political_decisions = {
         potential = {
             tag = FRA
             war_with = SPA
-            OR = {
-                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
-                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
-            }
-            SPA = {
-                OR = { government = hms_government government = hms_government2 government = hms_government3 }
-            }
+            #OR = {
+            #    OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+            #    OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+            #}
+            #SPA = {
+            #    OR = { government = hms_government government = hms_government2 government = hms_government3 }
+            #}
             has_country_flag = one_hunderd_thousand_sons
         }
    
         allow = {
             SPA = {
-                war_exhaustion = 10
-                national_provinces_occupied = 0.10
+                #war_exhaustion = 10
+                #national_provinces_occupied = 0.10
                 OR = {
-                    national_provinces_occupied = 0.20
+                    national_provinces_occupied = 0.10
                     487 = { controlled_by = THIS } #Madrid
                     512 = { controlled_by = THIS } #Cadiz
                 }

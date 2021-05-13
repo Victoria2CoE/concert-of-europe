@@ -4417,6 +4417,18 @@ country_event = {
         }
         FRA = { country_event = 37762 }
     }
+    #option = {
+    #    name = "Let's Find a Compromise with the king..."
+    #    prestige = -5
+    #    any_pop = {
+    #        limit = {
+    #            location = { is_core = SPA }
+    #        }
+	#		political_reform = appointed
+	#		political_reform = harassment
+	#		government = prussian_constitutionalism
+    #    }
+    #}
 }
 
 country_event = {
@@ -4546,8 +4558,8 @@ country_event = {
    
     option = {
         name = "We fight on! For Parliament, and the Constitution!"
-        war_exhaustion = 25
-        badboy = 6
+        war_exhaustion = 10
+        badboy = 10
         ai_chance = {
             factor = 0
         }
