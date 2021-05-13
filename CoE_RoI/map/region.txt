@@ -182,7 +182,7 @@ DEN_372 = { 372 2557 373 374 } #Sjaelland
 
 NET_375 = { 375 376 377 378 } #Holland
 
-NET_379 = { 379 382 2595 380 381 } #Gelderland-North Brabant
+NET_379 = { 379 382 2595 380 } #Gelderland-North Brabant
 
 NET_385 = { 385 383 384 386 } #Friesland
 
@@ -275,19 +275,19 @@ PRU_544 = { 544 545 547 548 } #Mecklenburg
 
 PRU_546 = { 546 679 680 681 } #Pomerania
 
-PRU_549 = { 549 550 551 552 } #Brandenburg
+PRU_549 = { 549 550 551 552 687 } #Brandenburg
 
 PRU_553 = { 553 555 556 557 } #Magdeburg
 
 PRU_554 = { 554 561 562 563 } #Thuringia
 
-SAX_558 = { 558 559 560 687 } #Saxony
+SAX_558 = { 558 559 560 } #Saxony
 
 HES_2560 = { 564 565 566 567 568 2560 } #Hessen
 
-PRU_570 = { 570 573 574 571 } #Palatinate
+PRU_570 = { 570 573 574 571 572 397 } #Palatinate
 
-PRU_575 = { 575 576 577 572 397 3249 } #Rheinland
+PRU_575 = { 575 576 577 3249 381 } #Rheinland
 
 PRU_578 = { 578 579 2561 } #Eastern Rheinland
 
