@@ -1536,15 +1536,15 @@ country_event = {
 		prestige = 1
 			random_owned = {
 				limit = { owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } } }
-				government = absolute_monarchy3
+				owner = { government = absolute_monarchy3 }
 			}
 			random_owned = {
 				limit = { owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } } }
-				government = prussian_constitutionalism3
+				owner = { government = prussian_constitutionalism3 }
 			}	
 			random_owned = {
 				limit = { owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } } }
-				government = hms_government3
+				owner = { government = hms_government3 }
 			}	
 		ai_chance = {
 			factor = 1

@@ -600,15 +600,15 @@ political_decisions = {
 		effect = {
 			random_owned = {
 				limit = { owner = { government = absolute_monarchy3 } }
-				government = absolute_monarchy
+				owner = { government = absolute_monarchy }
 			}
 			random_owned = {
 				limit = { owner = { government = prussian_constitutionalism3 } }
-				government = prussian_constitutionalism
+				owner = { government = prussian_constitutionalism }
 			}	
 			random_owned = {
 				limit = { owner = { government = hms_government3 } }
-				government = hms_government
+				owner = { government = hms_government }
 			}			
 			prestige = 10
 		}
