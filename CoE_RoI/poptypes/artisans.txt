@@ -992,7 +992,7 @@ promote_to = {
 			always = yes
 		}
 		modifier = {
-			factor = 50
+			factor = -50
 			literacy = 0.01
 			NOT = { state_scope = { artisans = 0.05 } }
 		}
