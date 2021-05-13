@@ -2067,35 +2067,35 @@ ideologies = {
 			nationalvalue = nv_order
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { social_reform_want = 0.05 }
 		}
 		modifier = {
-			factor = 1.5	
+			factor = 1.25	
 			not = { social_reform_want = 0.15 }
 		}
 		modifier = {
-			factor = 1.5	
+			factor = 1.25
 			not = { social_reform_want = 0.20 }
 		}
 		modifier = {
-			factor = 1.5	
+			factor = 1.25
 			not = { social_reform_want = 0.25 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { political_reform_want = 0.05 }
 		}
 		modifier = {
-			factor = 1.5	
+			factor = 1.25
 			not = { political_reform_want = 0.15 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { political_reform_want = 0.20 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { political_reform_want = 0.25 }
 		}
 		#modifier = {
