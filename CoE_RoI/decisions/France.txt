@@ -540,13 +540,13 @@ political_decisions = {
 			year = 1821
 		}
 		effect = {
-			any_pop = {
-				limit = {
-					has_pop_culture = flemish
-				}
-				#literacy = 0.45
-			}
-		    badboy = 15.2
+			#any_pop = {
+			#	limit = {
+			#		has_pop_culture = flemish
+			#	}
+			#	#literacy = 0.45
+			#}
+		    badboy = 25.0
 			add_country_modifier = {
 				name = demographic_collapse
 				duration = -1
@@ -558,6 +558,7 @@ political_decisions = {
 					duration = -1
 				}
 			}
+			set_country_flag = fra_demography_stagnant
 		}
 	}
 	
