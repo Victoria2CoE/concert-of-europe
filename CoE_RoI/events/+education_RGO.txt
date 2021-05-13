@@ -18,7 +18,14 @@ country_event = {
 	
 	option = {
 		name = "OK"
-		
+		any_country = {
+			any_pop = {
+				ideology = {
+					value = liberal
+					factor = 0.15
+				}
+			}
+		}
 		add_country_modifier = {
 			name = bhu_paradise
 			duration = -1
