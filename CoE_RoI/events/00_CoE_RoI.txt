@@ -539,6 +539,7 @@ country_event = {
 		any_country = { limit = { money = 100000000 } treasury = -50000000 }
 		any_country = { limit = { money = 200000000 } treasury = -50000000 }
 		any_country = { limit = { money = 300000000 } treasury = -50000000 }
+		BHU = { any_pop = { money = -100000 } }
 		#any_pop = { limit = { country = { NOT = { education_spending = 0.01 } } literacy = -0.01 } }
 		#any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
 		random_country = {
