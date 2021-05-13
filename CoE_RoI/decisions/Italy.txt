@@ -1304,10 +1304,7 @@ political_decisions = {
 		potential = {
 			owns = 734 #Trient
 			owns = 735 #Bozen
-			OR = {
-				has_pop_religion = north_italian
-				has_pop_religion = south_italian
-			}
+			primary_culture = italian
 			NOT = { has_global_flag = italy_has_renamed_trentino }
 		}
 		
