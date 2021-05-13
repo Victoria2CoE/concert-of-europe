@@ -56,7 +56,7 @@ country = {
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
 	MIN_MOBILIZE_LIMIT = 10000,
-	POP_GROWTH_COUNTRY_CACHE_DAYS = 30, -- period of cached pop growth (used for player)
+	POP_GROWTH_COUNTRY_CACHE_DAYS = 365, -- period of cached pop growth (used for player)
 	NEWSPAPER_PRINTING_FREQUENCY = 350, -- days frequency when the news attempt to be printed (may not print if not enough facts collected, and retry after another X days)
 	NEWSPAPER_TIMEOUT_PERIOD = 890, -- the max period for news that may be printed. The probability is decreased with time.
 	NEWSPAPER_MAX_TENSION = 750, -- when tension of printing gets this high, the newspaper will attempt to be printed immediately.
@@ -623,7 +623,7 @@ pops = {
 	CONVERSION_SCALE = 0.02,
 	IMMIGRATION_SCALE = 0.005,
 
-	PROMOTION_SCALE = 0.0100,
+	PROMOTION_SCALE = 0.0500,
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,

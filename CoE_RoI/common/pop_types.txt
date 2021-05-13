@@ -1,6 +1,47 @@
 promotion_chance = 
 {
-	factor = 0.5	
+	factor = 0.5
+	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}
+
 	modifier = {
 		factor = 3.50
 		always = yes
@@ -517,6 +558,47 @@ promotion_chance =
 demotion_chance = 
 {
 	factor = 0.5
+	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}
+	
 	modifier = {
 		factor = 3.5
 		always = yes
