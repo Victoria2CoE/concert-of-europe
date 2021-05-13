@@ -2483,22 +2483,22 @@ ideologies = {
 			nationalvalue = nv_order
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { plurality = 5 }
 			not = { consciousness = 2 }
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			not = { plurality = 10 }
 			not = { consciousness = 4 }
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.1
 			not = { plurality = 30 }
 			not = { consciousness = 6 }
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.1
 			not = { plurality = 50 }
 			not = { consciousness = 8 }
 		}
