@@ -2005,7 +2005,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 3.0
+		factor = 1.5
 		modifier = {
 			factor = 1.2
 			country = { 

@@ -1970,7 +1970,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 0.2
+		factor = 0.1
 		modifier = {
 			factor = 1.2
 			country = { 
