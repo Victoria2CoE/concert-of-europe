@@ -13,7 +13,7 @@ cavalry = {
 
 	#Core Abilities
 	priority = 25
-	max_strength = 5
+	max_strength = 10
 	default_organisation = 5
 	maximum_speed = 5
 	weighted_value = 20.0
@@ -21,12 +21,12 @@ cavalry = {
 	#Building Costs
 	build_time = 40
 	build_cost = {
-		military_industry = 0.5
+		military_industry = 1.0
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 0.05
+		military_industry = 0.10
 	}
 	
 

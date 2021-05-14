@@ -17,7 +17,7 @@ cuirassier = {
 	
 	#Core Abilities
 	priority = 40
-	max_strength = 5
+	max_strength = 10
 	default_organisation = 10
 	maximum_speed = 5.00
 
@@ -25,12 +25,12 @@ cuirassier = {
 	#Building Costs
 	build_time = 40
 	build_cost = {
-		military_industry = 2
+		military_industry = 4
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 0.20
+		military_industry = 0.40
 	}
 	
 

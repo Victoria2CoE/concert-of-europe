@@ -9,7 +9,7 @@ guard = {
 	floating_flag = no
 	#Core Abilities
 	priority = 24
-	max_strength = 5
+	max_strength = 10
 	default_organisation = 10
 	maximum_speed = 4.00
 	weighted_value = 45.0
@@ -17,12 +17,12 @@ guard = {
 	#Building Costs
 	build_time = 60
 	build_cost = {
-		military_industry = 2
+		military_industry = 4
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 0.2
+		military_industry = 0.4
 	}
 	
 
