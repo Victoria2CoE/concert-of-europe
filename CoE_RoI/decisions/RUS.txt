@@ -587,12 +587,13 @@ the_port_of_novorossiysk = {
 	move_capital_to_moscow = {
 		potential = {
 			tag = RUS
-			capital = 994
+			#capital = 994
 		}
 
 		allow = {
 			owns = 1008 # Moscow
 			OR = {
+				NOT = { owns = 994 }
 				AND = {
 					NOT = { owns = 339 } # Viipuri
 					NOT = { is_our_vassal = FIN }
@@ -611,7 +612,63 @@ the_port_of_novorossiysk = {
 		
 		effect = {
 			capital = 1008
+			random_owned = {
+				limit = { owner = { government = absolute_monarchy3 } }
+				owner = { government = absolute_monarchy }
+			}
+			random_owned = {
+				limit = { owner = { government = prussian_constitutionalism3 } }
+				owner = { government = prussian_constitutionalism }
+			}	
+			random_owned = {
+				limit = { owner = { government = hms_government3 } }
+				owner = { government = hms_government }
+			}			
 			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	petersburg_to_petrograd = {
+		potential = {
+			tag = RUS
+			capital = 994
+			nationalism_n_imperialism = 1
+			NOT = { has_global_flag = petrograd_renamed }
+		}
+
+		allow = {
+			owns = 994 # petersburg
+			#nationalism_n_imperialism = 1
+			OR = {
+				war_with = GER
+				war_with = NGF
+				war_with = SGF
+			}
+		}
+		
+		effect = {
+			994 = {
+				change_province_name = "Petrograd"
+			}
+			random_owned = {
+				limit = { owner = { government = absolute_monarchy3 } }
+				owner = { government = absolute_monarchy }
+			}
+			random_owned = {
+				limit = { owner = { government = prussian_constitutionalism3 } }
+				owner = { government = prussian_constitutionalism }
+			}	
+			random_owned = {
+				limit = { owner = { government = hms_government3 } }
+				owner = { government = hms_government }
+			}			
+			prestige = 5
+			any_pop = { limit = { NOT = { has_pop_culture = german  has_pop_culture = russian_german } } militancy = -1  consciousness = -1 }
+			any_pop = { limit = { OR = { has_pop_culture = german  has_pop_culture = russian_german } } militancy = 1 }
+			set_global_flag = petrograd_renamed
 		}
 		ai_will_do = {
 			factor = 1
