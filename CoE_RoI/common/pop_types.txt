@@ -1480,7 +1480,7 @@ demotion_chance =
 
 #general migration chance mtth, same for all pops
 migration_chance = {
-factor = 0.05
+factor = 0.04
 	modifier = {
 		factor = 0.50
 		always = yes
@@ -1853,7 +1853,7 @@ factor = 0.05
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.10
+	factor = 0.07
 	modifier = {
 		factor = 0.5
 		always = yes
