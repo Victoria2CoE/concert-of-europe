@@ -12,14 +12,14 @@ party_issues = {
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			rich_luxury_needs = -0.05
-			max_tariff = 1.0
+			max_tariff = 0.80
 			min_tariff = 0.50
 			
 			min_social_spending = 0.05
 			tax_efficiency = 0.01
 		}
 		free_trade = {
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.20
 			factory_throughput = 0.1
 			rgo_throughput = -0.1
 			poor_everyday_needs = 0.05
@@ -28,7 +28,7 @@ party_issues = {
 			poor_luxury_needs = 0.05
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
-			max_tariff = 0.80
+			max_tariff = 0.60
 			min_tariff = 0.40
 		}
 	}
