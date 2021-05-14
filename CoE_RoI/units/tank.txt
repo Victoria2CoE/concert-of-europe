@@ -9,7 +9,7 @@ tank = {
 	floating_flag = yes	
 	#Core Abilities
 	priority = 50
-	max_strength = 10
+	max_strength = 5
 	default_organisation = 20
 	maximum_speed = 4
 	weighted_value = 50.0
@@ -17,12 +17,12 @@ tank = {
 	#Building Costs
 	build_time = 80
 	build_cost = {
-		military_industry = 20.0
+		military_industry = 10.0
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 2.0
+		military_industry = 1.0
 	}
 	
 

@@ -9,7 +9,7 @@ plane = {
 	floating_flag = no	
 	#Core Abilities
 	priority = 45
-	max_strength = 10
+	max_strength = 5
 	default_organisation = 10
 	maximum_speed = 5.00
 	weighted_value = 40.0
@@ -17,12 +17,12 @@ plane = {
 	#Building Costs
 	build_time = 80
 	build_cost = {
-		military_industry = 15.0
+		military_industry = 7.5
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
-		military_industry = 1.5
+		military_industry = 0.75
 	}
 	
 
