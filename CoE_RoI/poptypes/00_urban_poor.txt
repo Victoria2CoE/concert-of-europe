@@ -2209,18 +2209,18 @@ ideologies = {
 				not = { militancy = 3 }
 			}
 		}
-		#modifier = {
-		#	factor = 1.5
-		#	not = { everyday_needs = 0.5 }
-		#}
-		#modifier = {
-		#	factor = 1.5
-		#	not = { everyday_needs = 0.25 }
-		#}
-		#modifier = {
-		#	factor = 1.5
-		#	not = { everyday_needs = 0.1 }
-		#}
+		modifier = {
+			factor = 1.5
+			not = { everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { everyday_needs = 0.25 }
+		}
+		modifier = {
+			factor = 1.5
+			not = { everyday_needs = 0.1 }
+		}
 		#modifier = {
 		#	factor = 1.5
 		#	political_reform_want = 0.10

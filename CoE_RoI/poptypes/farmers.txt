@@ -3672,18 +3672,18 @@ ideologies = {
 			factor = 1.5
 			not = { everyday_needs = 0.1 }
 		}
-		modifier = {
-			factor = 1.5
-			political_reform_want = 0.10
-		}
-		modifier = {
-			factor = 1.5
-			political_reform_want = 0.20
-		}
-		modifier = {
-			factor = 1.5
-			political_reform_want = 0.30
-		}
+		#modifier = {
+		#	factor = 1.5
+		#	political_reform_want = 0.10
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	political_reform_want = 0.20
+		#}
+		#modifier = {
+		#	factor = 1.5
+		#	political_reform_want = 0.30
+		#}
 		#modifier = {
 		#	factor = 2.5
 		#	strata = poor
