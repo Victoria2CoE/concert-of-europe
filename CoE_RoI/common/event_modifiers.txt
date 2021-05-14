@@ -1701,6 +1701,7 @@ irish_oppression = {
 	pop_consciousness_modifier = 0.05
 	local_factory_throughput = -0.5
 	local_RGO_throughput = -0.25
+	population_growth = -0.001
 	icon = 94
 }
 
@@ -1710,6 +1711,7 @@ irish_potato_blight = {
 	pop_consciousness_modifier = 0.1
 	immigrant_push = 2.5
 	local_factory_output = -0.25
+	population_growth = -0.001
 	icon = 83
 }
 
