@@ -612,7 +612,7 @@ country_event = {
 
 	option = {
 		name = "Poggers"
-		change_tag = POL
+		political_reforms = no_slavery
 		#inherit = MAD
 		#activate_technology = nationalism_n_imperialism
 		#political_reform = oppression

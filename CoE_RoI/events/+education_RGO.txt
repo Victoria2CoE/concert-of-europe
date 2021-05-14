@@ -24,6 +24,7 @@ country_event = {
 					value = liberal
 					factor = 0.15
 				}
+				money = 100
 			}
 		}
 		add_country_modifier = {
