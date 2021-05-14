@@ -12,8 +12,8 @@ party_issues = {
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			rich_luxury_needs = -0.05
-			max_tariff = 0.50
-			min_tariff = 0.20
+			max_tariff = 0.100
+			min_tariff = 0.50
 			
 			min_social_spending = 0.05
 			tax_efficiency = 0.01
@@ -28,8 +28,8 @@ party_issues = {
 			poor_luxury_needs = 0.05
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
-			max_tariff = 0.40
-			min_tariff = 0.10
+			max_tariff = 0.80
+			min_tariff = 0.40
 		}
 	}
 	economic_policy = {
