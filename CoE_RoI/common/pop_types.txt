@@ -1482,6 +1482,47 @@ demotion_chance =
 migration_chance = {
 factor = 0.04
 	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}
+	
+	modifier = {
 		factor = 0.50
 		always = yes
 	}	
@@ -1854,6 +1895,48 @@ factor = 0.04
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
 	factor = 0.07
+	
+	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}
+	
 	modifier = {
 		factor = 0.5
 		always = yes
@@ -2101,6 +2184,48 @@ colonialmigration_chance = {
 emigration_chance = 
 {
 	factor = 0.004
+	
+	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}	
+	
 	modifier = {
 		factor = 7.5
 		always = yes
@@ -3018,6 +3143,47 @@ emigration_chance =
 assimilation_chance = 
 {
 	factor = 0.10
+	modifier = {
+		factor = -100.0
+		always = yes
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 0
+				NOT = { month = 1 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 3
+				NOT = { month = 4 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 6
+				NOT = { month = 7 }
+			}
+		}
+	}	
+	modifier = {
+		factor = 100.0
+		location = { 
+			owner = {
+				month = 9
+				NOT = { month = 10 }
+			}
+		}
+	}	
+	
 	modifier = {
     	factor = 5.0
 		always = yes
