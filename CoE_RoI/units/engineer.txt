@@ -10,7 +10,7 @@ engineer = {
 	floating_flag = no
 	#Core Abilities
 	priority = 10
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 10
 	maximum_speed = 5
 
@@ -21,7 +21,7 @@ engineer = {
 		military_industry = 4
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.4
 	}

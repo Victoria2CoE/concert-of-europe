@@ -9,7 +9,7 @@ regular = {
 	floating_flag = no	
 	#Core Abilities
 	priority = 10
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 10
 	maximum_speed = 4.00
 	weighted_value = 10.0
@@ -20,7 +20,7 @@ regular = {
 		military_industry = 1
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.1
 	}

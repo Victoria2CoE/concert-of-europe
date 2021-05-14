@@ -8,7 +8,7 @@ irregular = {
 
 	#Core Abilities
 	priority = 5
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 5
 	maximum_speed = 4.5
 	floating_flag = no
@@ -20,7 +20,7 @@ irregular = {
 		military_industry = 0.4
 	}
 
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.04
 	}

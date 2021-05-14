@@ -8,7 +8,7 @@ infantry = {
 	
 	#Core Abilities
 	priority = 5
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 5
 	maximum_speed = 4.00
 	floating_flag = no
@@ -21,7 +21,7 @@ infantry = {
 		military_industry = 0.6
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.06
 	}

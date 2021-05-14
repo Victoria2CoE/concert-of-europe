@@ -8,7 +8,7 @@ horse_artillery = {
 	floating_flag = no
 	#Core Abilities
 	priority = 20
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 5
 	maximum_speed = 6
 	weighted_value = 7.0
@@ -19,7 +19,7 @@ horse_artillery = {
 		military_industry = 3
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.15
 	}

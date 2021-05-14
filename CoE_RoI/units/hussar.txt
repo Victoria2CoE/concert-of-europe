@@ -14,7 +14,7 @@ hussar = {
 	
 	#Core Abilities
 	priority = 25
-	max_strength = 5
+	max_strength = 10 #5
 	default_organisation = 10
 	maximum_speed = 6.00
 	weighted_value = 35.0
@@ -25,7 +25,7 @@ hussar = {
 		military_industry = 1.0
 	}
 	
-	supply_consumption = 1
+	supply_consumption = 2
 	supply_cost = {
 		military_industry = 0.1
 	}

@@ -75,14 +75,14 @@ overseas = {
 }
 
 coastal = {
-	supply_limit = 5
+	supply_limit = 10
 }
 
 non_coastal = {
 }
 
 coastal_sea = {
-	supply_limit = 15
+	supply_limit = 30
 }
 
 sea_zone = {
@@ -92,7 +92,7 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 3			#Maximum Attrition is 5
-	supply_limit = 10
+	supply_limit = 20
 }
 
 
@@ -101,12 +101,12 @@ blockaded = {
 }
 
 no_adjacent_controlled = {
-	supply_limit = -3
+	supply_limit = -5
 }
 
 
 core = {
-	supply_limit = 3
+	supply_limit = 5
 }
 
 has_siege = {
