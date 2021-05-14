@@ -6,6 +6,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		GER = { exists = no }
 	           OR = { 
 	                 has_country_modifier = springtime_of_nations
 					 has_country_flag = had_liberal_revolution

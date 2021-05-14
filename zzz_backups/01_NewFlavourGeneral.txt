@@ -1,0 +1,412 @@
+
+#country_event = {
+#	id = 99988
+#	#picture = to_stars_com_pic
+#	title = "French Beast Enters Germany!"
+#	desc = "Our government is of opinion that our productive forces are sufficiently developed, and thus our economy may begin transition to Communism!"
+#
+#	trigger = { 
+#		tag = BHU
+#		GER = { exists = no }
+#		FRA = { 
+#			OR = {
+#				any_owned_provice = { is_core = GER }
+#				AND = { 
+#					any_owned_provice = { is_core = AUS }
+#					KUK = { exists = no }
+#					DNB = { exists = no }
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	option = {
+#		name = "Communists Forward!"
+#		random_country = {
+#			limit = {
+#				has_country_flag = north_german_rel
+#				is_great_power = yes
+#				GER = {
+#					any_core = {
+#						owner = {
+#							is_great_power = yes
+#						}
+#					}
+#				}
+#			}
+#			country_event = 99987
+#		}
+#		random_country = {
+#			limit = {
+#				has_country_flag = north_german_rel
+#				tag = PRU
+#				NOT = {
+#					GER = {
+#						any_core = {
+#							owner = {
+#								has_country_flag = north_german_rel
+#								is_great_power = tes
+#							}
+#						}
+#					}
+#				}
+#			}
+#			country_event = 99987
+#		}
+#		
+#		random_country = {
+#			limit = {
+#				has_country_flag = south_german_rel
+#				NOT = { tag = AUS }
+#				NOT = { tag = KUK }
+#				NOT = { tag = DNB }
+#				is_great_power = yes
+#				GER = {
+#					any_core = {
+#						owner = {
+#							has_country_flag = south_german_rel
+#							is_great_power = yes
+#						}
+#					}
+#				}
+#			}
+#			country_event = 99986
+#		}
+#		random_country = {
+#			limit = {
+#				has_country_flag = south_german_rel
+#				NOT = { tag = AUS }
+#				NOT = { tag = KUK }
+#				NOT = { tag = DNB }
+#				tag = BAV
+#				NOT = {
+#					GER = {
+#						any_core = {
+#							owner = {
+#								has_country_flag = south_german_rel
+#								is_great_power = yes
+#							}
+#						}
+#					}
+#				}
+#			}
+#			country_event = 99986
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = 99988
+#	#picture = to_stars_com_pic
+#	major = yes
+#	title = "France Enters Germany!"
+#	desc = "Due to 'our' Revolutionary, and Napoleonic exploits, many countries are afraid our ou!"
+#
+#	trigger = { 
+#		tag = FRA
+#		NOT = { has_global_flag = german_conf_in_conf }
+#		GER = { exists = no }
+#		FRA = { 
+#			OR = {
+#				any_owned_provice = { is_core = GER }
+#				AND = { 
+#					any_owned_provice = { is_core = AUS }
+#					KUK = { exists = no }
+#					DNB = { exists = no }
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	option = {
+#		name = "Let's hope for swift resolution..."
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				primary_culture = german
+#				NOT = { tag = SWI }
+#				NOT = { is_vassal = yes }
+#			}
+#			country_event = 99987
+#		}
+#		set_global_flag = german_conf_in_conf
+#	}
+#}
+
+#country_event = {
+#	id = 99987
+#	#picture = to_stars_com_pic
+#	major = yes
+#	title = "French Beast Enters Germany!"
+#	desc = "It came to everyones attention that the French State begin occupation of land belonging to German Confederation, now all German States call for a conference to decide our course action!"
+#
+#	trigger = { 
+#		exists = yes
+#		primary_culture = german
+#		NOT = { tag = SWI }
+#		NOT = { is_vassal = yes }
+#		NOT = { has_global_flag = german_conf_in_conf }
+#		GER = { exists = no }
+#		FRA = { 
+#			OR = {
+#				any_owned_provice = { is_core = GER }
+#				AND = { 
+#					any_owned_provice = { is_core = AUS }
+#					KUK = { exists = no }
+#					DNB = { exists = no }
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	option = {
+#		name = "Let's hope for swift resolution..."
+#		prestige = -1
+#		badboy = -1
+#		any_pop = { consciousness = 1 }
+#		country_event = 99986
+#		set_global_flag = german_conf_in_conf
+#	}
+#}
+#
+#country_event = {
+#	id = 99986
+#	#picture = to_stars_com_pic
+#	major = yes
+#	title = "Centralisation of German Confederation?"
+#	desc = "Even after Napoleons defeat Germany still isn't safe from the hands of the French, many argue that only close cooperation may bring our nation out of this dire situation of being overpowered, should we, however, agree on this centralisation effort?" 
+#
+#
+#	is_triggered_only = yes
+#	#trigger = {
+#	#	exists = yes
+#	#	primary_culture = german
+#	#	NOT = { is_vassal = yes }
+#	#	OR = {
+#	#		is_great_power = yes
+#	#		is_secondary_power = yes
+#	#	}
+#	#}
+#	
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+#
+#	option = {
+#		name = "Those measures are necessary to countrbalance France."
+#		prestige = 1
+#		badboy = -1
+#		any_pop = { consciousness = 1 }
+#		set_country_flag = into_ger_conf
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0.5
+#				is_greater_power = yes
+#				NOT = { tag = AUS }
+#			}
+#			modifier = {
+#				factor = 0.75
+#				is_secondary_power = yes
+#				NOT = { tag = AUS }
+#			}
+#		}
+#	}
+#	option = {
+#		name = "We shall not surrender our sovereignty, we leave the conference immediately!"
+#		prestige = -1
+#		badboy = 1
+#		any_pop = { consciousness = 1 }
+#		set_country_flag = out_of_ger_conf
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0.50
+#				tag = AUS
+#			}			
+#		}		
+#	}
+#}
+#
+#
+#country_event = {
+#	id = 99985
+#	#picture = to_stars_com_pic
+#	major = yes
+#	title = "Conclussion of the German Confederal Conference"
+#	desc = "Some delegets may have not agreed but, most importantly, Prasidialmacht, that is the ruler of Austria supported such resolution, we are only moments from German Unification!" 
+#
+#	trigger = {
+#		tag = AUS
+#		has_country_flag = into_ger_conf
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+#
+#	option = {
+#		name = "However one condition is relinquishing our non-German posessions..."
+#		prestige = 25
+#		change_tag = GER
+#		FRA = { country_event = 99984 }
+#		add_accepted_culture = german
+#		#add_accepted_religion = south_german
+#		government = prussian_constitutionalism2
+#		political_reform = landed_voting
+#		political_reform = state_equal_weight
+#		political_reform = yes_meeting
+#		political_reform = free_press
+#		political_reform = non_socialist
+#		political_reform = secret_ballots
+#		political_reform = limited
+#		social_reform = land_purchase
+#		set_country_flag = austrian_destiny
+#		set_country_flag = austrian_greater_germany
+#		#set_global_flag = 1848_anschluss
+#		any_country = {
+#				limit = {
+#					OR = {
+#						has_country_flag = into_ger_conf
+#						AND = { 
+#							primary_culture = german  
+#							overlord = { has_country_flag = into_ger_conf } 
+#						}
+#					}
+#					NOT = { tag = AUS }
+#				}
+#				country_event = 11101
+#	    }
+#		any_country = {
+#				limit = {
+#					set_country_flag = into_ger_conf
+#					NOT = { tag = AUS }
+#				}
+#				country_event = 11101
+#	    }
+#		badboy = 40
+#		all_core = {
+#			limit = {
+#				NOT = { is_core = HUN }
+#			}
+#			add_core = GER
+#		}
+#		any_pop = {
+#			limit = {
+#				is_primary_culture = no
+#				is_accepted_culture = no
+#				location = { is_core = GER }
+#			}
+#			consciousness = 5
+#			militancy = 5
+#			ideology = {
+#				value = separatist
+#				factor = 0.4
+#			}
+#		}
+#		any_country = {
+#			limit = {
+#				NOT = { is_culture_group = germanic }
+#				NOT = { tag = HUN }
+#				any_core = {
+#					owned_by = THIS
+#					NOT = { is_core = GER }
+#					is_colonial = no
+#				}
+#				exists = no
+#				is_cultural_union = no
+#			}
+#			country_event = 31511
+#		}
+#		any_country = {
+#			limit = {
+#				tag = HUN
+#				any_core = {
+#					owned_by = THIS
+#					NOT = { is_core = GER }
+#					is_colonial = no
+#				}
+#				exists = no
+#				is_cultural_union = no
+#			}
+#			country_event = 31511
+#		}
+#		any_country = {
+#			limit = {
+#				is_greater_power = yes
+#				capital_scope = { continent = europe }
+#			}
+#			relation = { who = THIS value = -50 }
+#			casus_belli = {
+#				target = THIS
+#				type = release_puppet
+#				months = 60
+#			}
+#			casus_belli = {
+#				target = SGF
+#				type = release_puppet
+#				months = 60
+#			}
+#			casus_belli = {
+#				target = GER
+#				type = release_puppet
+#				months = 60
+#			}
+#		}
+#	}
+#}
+#
+#country_event = {
+#	id = 99984
+#	#picture = to_stars_com_pic
+#	major = yes
+#	title = "The two Beasts of Europe"
+#	desc = "Apparently our recent actions on German soil had... some complication, it seems like now germany is united more than ever..." 
+#
+#
+#	is_triggered_only = yes
+#	#trigger = {
+#	#	exists = yes
+#	#	primary_culture = german
+#	#	NOT = { is_vassal = yes }
+#	#	OR = {
+#	#		is_great_power = yes
+#	#		is_secondary_power = yes
+#	#	}
+#	#}
+#	
+#	mean_time_to_happen = {
+#		days = 7
+#	}
+#
+#	option = {
+#		name = "and we know no day, nor hour, when they may strike..."
+#		prestige = -10
+#		badboy = 20
+#		any_pop = { consciousness = 1 }
+#		set_country_flag = into_ger_conf
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0.5
+#				is_greater_power = yes
+#			}
+#			modifier = {
+#				factor = 0.75
+#				is_secondary_power = yes
+#			}
+#		}
+#	}
+#}

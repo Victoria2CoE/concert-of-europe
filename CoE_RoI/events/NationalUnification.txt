@@ -220,6 +220,7 @@ country_event = {
 		name = "EVTOPTB11101"
 		clr_country_flag = wants_to_unify
 		prestige = 1
+		#all_core = { add_core = FROM }
 		leave_alliance = FROM
 		relation = {
 			who = FROM
