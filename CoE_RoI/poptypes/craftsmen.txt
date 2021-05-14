@@ -2855,7 +2855,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 5.0
+		factor = 2.5
 		modifier = {
 			factor = 1.2
 			country = { 
