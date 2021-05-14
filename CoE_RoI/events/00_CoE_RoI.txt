@@ -437,7 +437,7 @@ country_event = {
 	trigger = {
 		ai = yes
 		NOT = { has_country_modifier = random_migration_cooldown }
-		total_pops = 250000
+		total_pops = 2500000
 	}
 	
 	mean_time_to_happen = {
@@ -480,7 +480,7 @@ country_event = {
 	trigger = {
 		ai = yes
 		NOT = { has_country_modifier = random_migration_cooldown }
-		total_pops = 500000		
+		total_pops = 5000000		
 	}
 	
 	mean_time_to_happen = {

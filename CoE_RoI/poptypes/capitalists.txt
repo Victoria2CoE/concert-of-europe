@@ -29,10 +29,10 @@ life_needs_income = {
 	weight = 1.0
 }
 
-everyday_needs_income = {
-	type = education
-	weight = 1.0
-}
+#everyday_needs_income = {
+#	type = education
+#	weight = 1.0
+#}
 
 #luxury_needs_income = {
 #	type = education
