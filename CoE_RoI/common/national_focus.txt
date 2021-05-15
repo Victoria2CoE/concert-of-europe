@@ -30,8 +30,8 @@ promotion_focus = {
 	}
 	
 	promote_soldiers = {
-		soldiers = 0.15 #10% more likely to become this type
 		officers = 0.05
+		soldiers = 0.15 #10% more likely to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 		limit = { 
