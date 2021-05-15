@@ -12,8 +12,8 @@ party_issues = {
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			rich_luxury_needs = -0.05
-			max_tariff = 0.80
-			min_tariff = 0.50
+			max_tariff = 0.50
+			min_tariff = 0.20
 			
 			min_social_spending = 0.05
 			tax_efficiency = 0.01
@@ -28,8 +28,8 @@ party_issues = {
 			poor_luxury_needs = 0.05
 			middle_luxury_needs = 0.05
 			rich_luxury_needs = 0.05
-			max_tariff = 0.60
-			min_tariff = 0.40
+			max_tariff = 0.40
+			min_tariff = 0.10
 		}
 	}
 	economic_policy = {
@@ -880,7 +880,7 @@ social_reforms = {
 		next_step_only = yes
 		serfdom = {
 			mobilisation_size = -0.02
-			land_unit_start_experience = -5
+			land_unit_start_experience = -10
 			farm_RGO_eff = 0.50
 			#education_efficiency_modifier = -0.10
 			factory_output = -0.2
