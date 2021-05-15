@@ -9,7 +9,7 @@ military_goods = {
 
 industrial_goods = {
 	heavy_industry = { 
-		cost = 1.5
+		cost = 1.25
 		color = { 255 255 255 }
 	}
 }
@@ -20,7 +20,7 @@ consumer_goods = {
 		color = { 255 255 255 }
 	}
 	light_industry = { 
-		cost = 1.5
+		cost = 1.25
 		color = { 255 255 255 }
 	}
 	luxury_industry = { 
