@@ -3429,8 +3429,8 @@ random_migration_cooldown = {
 }
 
 bhu_paradise = {
-	#rgo_output = 100.0
-	#goods_demand = 50.0
+	rgo_output = 100.0
+	goods_demand = 50.0
 	##mine_RGO_eff = 1000
 	research_points_modifier = -1000
 	prestige = -1000
