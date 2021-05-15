@@ -1,7 +1,7 @@
 # goods types, organized by category
 military_goods = {
 	military_industry = { 
-		cost = 5.0
+		cost = 6.0
 		color = { 255 255 255 }
 		overseas_penalty = yes
 	}
@@ -9,22 +9,22 @@ military_goods = {
 
 industrial_goods = {
 	heavy_industry = { 
-		cost = 1.25
+		cost = 1.5
 		color = { 255 255 255 }
 	}
 }
 
 consumer_goods = {
 	food_industry = { 
-		cost = 0.75
+		cost = 0.9
 		color = { 255 255 255 }
 	}
 	light_industry = { 
-		cost = 1.25
+		cost = 1.5
 		color = { 255 255 255 }
 	}
 	luxury_industry = { 
-		cost = 3.75
+		cost = 4.5
 		color = { 255 255 255 }
 	}
 }
