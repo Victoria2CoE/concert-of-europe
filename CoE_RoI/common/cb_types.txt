@@ -3739,7 +3739,7 @@ humiliate = {
 			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
-			badboy = 0.60
+			#badboy = 0.60
 			THIS = { ai = no }
 		}
 		OR = {
