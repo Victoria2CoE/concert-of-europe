@@ -1,7 +1,7 @@
 # goods types, organized by category
 military_goods = {
 	military_industry = { 
-		cost = 10.0
+		cost = 20.0
 		color = { 255 255 255 }
 		overseas_penalty = yes
 	}
@@ -9,172 +9,172 @@ military_goods = {
 
 industrial_goods = {
 	heavy_industry = { 
-		cost = 2.5
+		cost = 5.0
 		color = { 255 255 255 }
 	}
 }
 
 consumer_goods = {
 	food_industry = { 
-		cost = 1.5
+		cost = 3.0
 		color = { 255 255 255 }
 	}
 	light_industry = { 
-		cost = 2.5
+		cost = 5.0
 		color = { 255 255 255 }
 	}
 	luxury_industry = { 
-		cost = 7.5
+		cost = 15.0
 		color = { 255 255 255 }
 	}
 }
 
 raw_material_goods = {
 	cotton = { 
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 255 255 255 }
 	}
 	dye = {	
-		cost = 3.2
+		cost = 6.4
 		tradeable = yes
 		#money = yes	
 		color = { 69 0 182 }
 	}
 	wool = {
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 234 195 158 }
 	}
 	silk = { 
-		cost = 2
+		cost = 4
 		tradeable = yes
 		#money = yes	
 		color = { 125 158 43 }
 	}
 	coal = { 
-		cost = 2.57
+		cost = 5.14
 		tradeable = yes
 		#money = yes	
 		color = { 11 29 77 }
 	}
 	sulphur = { 
-		cost = 2.8
+		cost = 5.6
 		tradeable = yes
 		#money = yes	
 		color = { 181 228 102 }
 	}
 	iron = { 
-		cost = 3.69
+		cost = 7.38
 		tradeable = yes
 		#money = yes	
 		color = { 111 111 111 }
 	}
 	timber = { 
-		cost = 1.44
+		cost = 2.88
 		tradeable = yes
 		#money = yes	
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
-		cost = 4.0
+		cost = 8.0
 		tradeable = yes
 		#money = yes	
 		color = { 213 177 118 }
 	}
 	rubber = { 
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 123 110 86 }
 	}
 	oil = { 
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 0 0 0 }
 	}
 	precious_metal = { 
-		cost = 5.0
+		cost = 10.0
 		tradeable = no
 		money = yes	
 		color = { 253 199 110 }
 	}
 	copper = {
-		cost = 2.08
+		cost = 4.16
 		tradeable = yes
 		#money = yes	
 		color = { 253 199 110 }
 	}
 	lead = {
-		cost = 1.34
+		cost = 2.68
 		tradeable = yes
 		#money = yes	
 		color = { 253 199 110 }
 	}
 	cattle = { 
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 84 227 40 }
 	}
 	fish = { 
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 128 98 73 }
 	}
 	fruit = {
-		cost = 1.6
+		cost = 3.2
 		tradeable = yes
 		#money = yes	
 		color = { 255 0 0 }
 	}
 	grain = { 
-		cost = 1.2
+		cost = 2.4
 		tradeable = yes
 		#money = yes	
 		color = { 219 157 36 }
 	}
 	tobacco = {	
-		cost = 2.8
+		cost = 5.6
 		tradeable = yes
 		#money = yes	
 		color = { 100 69 30 }
 	}
 	tea = {	
-		cost = 2.0
+		cost = 4.0
 		tradeable = yes
 		#money = yes	
 		color = { 201 135 15 }
 	}
 	coffee = { 
-		cost = 3.2
+		cost = 6.4
 		tradeable = yes
 		#money = yes	
 		color = { 27 19 7 }
 	}
 	opium = { 
-		cost = 6.4
+		cost = 12.8
 		tradeable = yes
 		#money = yes	
 		color = { 114 162 47 }
 	}
 	sugar = {
-		cost = 1.2
+		cost = 2.4
 		money = yes
 		color = { 253 199 110 }
 	}
 	spices = {
-		cost = 6.4
+		cost = 12.8
 		tradeable = yes
 		#money = yes	
 		color = { 253 199 110 }
 	}
 	horses = {
-		cost = 3.2
+		cost = 6.4
 		color = { 253 199 110 }
 	}
 }
