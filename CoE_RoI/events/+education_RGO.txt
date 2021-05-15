@@ -97,7 +97,9 @@ country_event = {
 		#}	
 
 		heavy_industry = 10000
+		military_industry = 1000
 		any_country = { heavy_industry = 10000 }
+		any_country = { military_industry = 1000 }
 		
 		add_tax_relative_income = 100
 		any_country = { add_tax_relative_income = 100 }

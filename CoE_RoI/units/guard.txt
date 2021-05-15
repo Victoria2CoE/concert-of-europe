@@ -17,12 +17,12 @@ guard = {
 	#Building Costs
 	build_time = 60
 	build_cost = {
-		military_industry = 4
+		military_industry = 2
 	}
 	
-	supply_consumption = 2
+	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.4
+		military_industry = 0.2
 	}
 	
 

@@ -18,12 +18,12 @@ engineer = {
 	#Building Costs
 	build_time = 50
 	build_cost = {
-		military_industry = 8
+		military_industry = 4
 	}
 	
-	supply_consumption = 2
+	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.8
+		military_industry = 0.4
 	}
 	
 
