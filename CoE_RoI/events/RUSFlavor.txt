@@ -873,6 +873,7 @@ country_event = {
 	option = {
 		name = "Those fools!"
 		set_country_flag = cpl_uprising
+		ruling_party_ideology = liberal
 		any_owned = {
 			limit = {
 				OR = {
