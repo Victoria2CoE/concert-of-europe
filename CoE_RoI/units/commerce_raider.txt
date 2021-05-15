@@ -24,7 +24,7 @@ commerce_raider = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		military_industry = 0.125
+		military_industry = 0.05
 	}
 	
 	#Naval Abilties

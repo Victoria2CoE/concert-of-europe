@@ -24,7 +24,7 @@ cavalry = {
 		military_industry = 0.5
 	}
 	
-	supply_consumption = 1.0
+	supply_consumption = 1
 	supply_cost = {
 		military_industry = 0.05
 	}
