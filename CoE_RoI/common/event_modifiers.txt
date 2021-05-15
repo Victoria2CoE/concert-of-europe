@@ -3375,7 +3375,7 @@ state_investments = {
 	loan_interest = -0.10
 	global_population_growth = 0.002
 	education_efficiency_modifier = 1.0
-	pension_level = 1.0
+	pension_level = 0.5
 	icon = 49
 }
 
@@ -3398,7 +3398,7 @@ austerity_measures = {
 	education_efficiency_modifier = 0.60
 	tax_efficiency = -0.10
 	min_social_spending = -0.10
-	pension_level = -0.25
+	pension_level = -0.125
 	icon = 47
 }
 
@@ -3411,7 +3411,7 @@ land_reform_in_process = {
 	RGO_throughput = -0.10
 	global_population_growth = 0.001
 	education_efficiency_modifier = 0.25
-	pension_level = 0.25
+	pension_level = 0.125
 	icon = 50
 }
 
@@ -3419,7 +3419,7 @@ collectivization_in_process = {
 	farm_RGO_eff = -0.50
 	global_population_growth = -0.003
 	education_efficiency_modifier = 2.50
-	pension_level = 1.0
+	pension_level = 0.5
 	icon = 50
 }
 
@@ -3452,7 +3452,7 @@ nep_econ = {
 	global_pop_militancy_modifier = -0.01
 	global_pop_consciousness_modifier = 0.01
 	global_population_growth = 0.001
-	pension_level = 0.25
+	pension_level = 0.125
 	icon = 50
 }
 
@@ -3466,7 +3466,7 @@ nep_econ = {
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = -0.05
 	global_population_growth = -0.002
-	pension_level = 1.0
+	pension_level = 0.5
 	icon = 50
 }
 
@@ -3479,7 +3479,7 @@ road_to_communism_paved = {
 	tariff_efficiency_modifier = 0.25
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = 0.03
-	pension_level = 5.0
+	pension_level = 2.5
 	icon = 50
 }
 
