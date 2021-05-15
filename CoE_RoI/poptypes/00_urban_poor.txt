@@ -26,8 +26,8 @@ rebel =
 }
 
 life_needs = {
-	food_industry = 72.0
-	light_industry = 8
+	#food_industry = 72.0
+	#light_industry = 8
 }
 everyday_needs = {
 	light_industry = 24

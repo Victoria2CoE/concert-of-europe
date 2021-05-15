@@ -656,7 +656,7 @@ pops = {
 	
 	NATIONAL_FOCUS_DIVIDER = 100000.0,
 	
-	POP_SAVINGS = 0.15,
+	POP_SAVINGS = 0.0,
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
