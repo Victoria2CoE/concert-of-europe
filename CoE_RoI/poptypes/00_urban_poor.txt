@@ -26,12 +26,12 @@ rebel =
 }
 
 life_needs = {
-	food_industry = 36.0
-	light_industry = 4
+	food_industry = 72.0
+	light_industry = 8
 }
 everyday_needs = {
-	light_industry = 12
-	food_industry = 60
+	light_industry = 24
+	food_industry = 120
 }
 luxury_needs = {
 	luxury_industry = 12.0

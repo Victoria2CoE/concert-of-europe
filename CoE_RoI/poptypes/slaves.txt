@@ -24,8 +24,8 @@ life_needs = {
 	#food_industry = 2
 }
 everyday_needs = {
-	light_industry = 0.5
-	food_industry = 5
+	light_industry = 1
+	food_industry = 10
 }
 luxury_needs = {
 	luxury_industry = 0.5
