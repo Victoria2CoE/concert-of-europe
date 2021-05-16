@@ -75,7 +75,7 @@ overseas = {
 }
 
 coastal = {
-	supply_limit = 5
+	supply_limit = 10
 }
 
 non_coastal = {
@@ -92,7 +92,7 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 3			#Maximum Attrition is 5
-	supply_limit = 10
+	supply_limit = 20
 }
 
 
