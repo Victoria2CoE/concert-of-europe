@@ -10,7 +10,7 @@ artillery = {
 	
 	#Core Abilities
 	priority = 20
-	max_strength = 10 #5
+	max_strength = 5 #10
 	default_organisation = 10
 	maximum_speed = 4
 	weighted_value = 25.0

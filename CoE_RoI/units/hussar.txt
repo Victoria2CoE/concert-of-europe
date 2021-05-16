@@ -14,7 +14,7 @@ hussar = {
 	
 	#Core Abilities
 	priority = 25
-	max_strength = 10 #5
+	max_strength = 5 #10
 	default_organisation = 10
 	maximum_speed = 6.00
 	weighted_value = 35.0

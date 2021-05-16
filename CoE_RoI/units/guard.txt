@@ -9,7 +9,7 @@ guard = {
 	floating_flag = no
 	#Core Abilities
 	priority = 24
-	max_strength = 10 #5
+	max_strength = 5 #10
 	default_organisation = 10
 	maximum_speed = 4.00
 	weighted_value = 45.0
