@@ -536,7 +536,7 @@ country_event = {
 		any_country = { limit = { any_owned_province = { has_province_modifier = settlement_colony } } set_country_flag = land_suitable_for_settlement }
 		any_country = { limit = { NOT = { any_owned_province = { has_province_modifier = settlement_colony } } } clr_country_flag = land_suitable_for_settlement }
 		any_country = { limit = { war_with = BHU } end_war = BHU }
-		any_country = { add_tax_relative_income = 1.0 }
+		#any_country = { add_tax_relative_income = 1.0 }
 		any_country = { limit = { money = 100000000 } treasury = -50000000 }
 		any_country = { limit = { money = 200000000 } treasury = -100000000 }
 		any_country = { limit = { money = 300000000 } treasury = -100000000 }
