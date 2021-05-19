@@ -26,10 +26,11 @@ life_needs_income = {
 	weight = 1.0
 }
 
-sprite = 5
+sprite = 11
 unemployment = yes
 can_work_factory = yes
-color = { 234 227 40 }
+color = { 220 60 105 }
+#color = { 234 227 40 }
 
 life_needs = {
 	food_industry = 84.0
