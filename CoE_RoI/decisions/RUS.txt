@@ -587,7 +587,10 @@ the_port_of_novorossiysk = {
 	move_capital_to_moscow = {
 		potential = {
 			tag = RUS
-			NOT = { capital = 1008 }
+			OR = {
+				NOT = { capital = 1008 }
+				NOT = { has_country_flag = moved_to_third_rome }
+			}
 			#capital = 994
 		}
 
@@ -626,6 +629,7 @@ the_port_of_novorossiysk = {
 				owner = { government = hms_government }
 			}			
 			prestige = 5
+			set_country_flag = moved_to_third_rome
 		}
 		ai_will_do = {
 			factor = 1
