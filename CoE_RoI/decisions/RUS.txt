@@ -587,6 +587,7 @@ the_port_of_novorossiysk = {
 	move_capital_to_moscow = {
 		potential = {
 			tag = RUS
+			NOT = { capital = 1008 }
 			#capital = 994
 		}
 
