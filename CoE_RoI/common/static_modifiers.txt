@@ -92,7 +92,7 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 3			#Maximum Attrition is 5
-	supply_limit = 20
+	supply_limit = 30
 }
 
 

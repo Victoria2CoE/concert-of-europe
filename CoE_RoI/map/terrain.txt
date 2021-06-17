@@ -17,7 +17,7 @@ categories =  {
 		farm_rgo_eff = -0.5
 		#mine_rgo_size = -0.25
 		mine_rgo_eff = -0.25
-		supply_limit = 1
+		supply_limit = 3
 		min_build_railroad = 3
 	}
 
@@ -28,7 +28,7 @@ categories =  {
 		farm_rgo_eff = 0.25
 		#mine_rgo_size = -0.0
 		mine_rgo_eff = -0.25
-		supply_limit = 5
+		supply_limit = 15
 	}
 
 	forest = {
@@ -39,7 +39,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 3
+		supply_limit = 9
 		combat_width = -0.20
 	}
 
@@ -51,7 +51,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 3
+		supply_limit = 9
 	}
 
 	steppe = {
@@ -61,7 +61,7 @@ categories =  {
 		farm_rgo_eff = 0.05
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
-		supply_limit = 4
+		supply_limit = 12
 
 	}
 
@@ -72,7 +72,7 @@ categories =  {
 		farm_rgo_eff = 0.1
 		#mine_rgo_size = -0.0
 		mine_rgo_eff = -0.1
-		supply_limit = 5
+		supply_limit = 15
 
 	}
 
@@ -84,7 +84,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2
+		supply_limit = 6
 	}
 
 	rich_farmland = {
@@ -95,7 +95,7 @@ categories =  {
 		farm_rgo_eff = 0.5
 		#mine_rgo_size = -0.2
 		mine_rgo_eff = 0.0
-		supply_limit = 6.5
+		supply_limit = 20.0
 		min_build_railroad = 0
 	}
 
@@ -108,7 +108,7 @@ categories =  {
 		farm_rgo_eff = 0.2
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
-		supply_limit = 6
+		supply_limit = 18
 		min_build_railroad = 0
 	}
 
@@ -121,7 +121,7 @@ categories =  {
 		farm_rgo_eff = 0.33
 		#mine_rgo_size = -0.25
 		mine_rgo_eff = -0.5
-		supply_limit = 6
+		supply_limit = 18
 		min_build_railroad = 0
 	}
 
@@ -134,7 +134,7 @@ categories =  {
 		farm_rgo_eff = 0.1
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.05
-		supply_limit = 5
+		supply_limit = 15
 		min_build_railroad = 0
 	}
 
@@ -147,7 +147,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		#mine_rgo_size = 0.1
 		mine_rgo_eff = 0.1
-		supply_limit = 3.5
+		supply_limit = 11
 		min_build_railroad = 0
 
 		combat_width = -0.30
@@ -162,7 +162,7 @@ categories =  {
 		farm_rgo_eff = -0.1
 		#mine_rgo_size = 0.2
 		mine_rgo_eff = 0.2
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 1
 
 		combat_width = -0.50
@@ -177,7 +177,7 @@ categories =  {
 		farm_rgo_eff = 0.05
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.05
-		supply_limit = 4.5
+		supply_limit = 14
 		min_build_railroad = 0
 		combat_width = -0.20
 	}
@@ -191,7 +191,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.2
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 2
 
 		combat_width = -0.30
@@ -206,7 +206,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 4
+		supply_limit = 8
 		min_build_railroad = 0
 	}
 
@@ -219,7 +219,7 @@ categories =  {
 		farm_rgo_eff = -0.15
 		#mine_rgo_size = 0.1
 		mine_rgo_eff = 0.1
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 0
 	}
 
@@ -232,7 +232,7 @@ categories =  {
 		farm_rgo_eff = -0.30
 		#mine_rgo_size = 0.25
 		mine_rgo_eff = 0.25
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.50
@@ -247,7 +247,7 @@ categories =  {
 		farm_rgo_eff = -0.05
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 1
 	}
 
@@ -260,7 +260,7 @@ categories =  {
 		farm_rgo_eff = -0.18
 		#mine_rgo_size = 0.15
 		mine_rgo_eff = 0.15
-		supply_limit = 2.8
+		supply_limit = 9
 		min_build_railroad = 1
 
 		combat_width = -0.30
@@ -275,7 +275,7 @@ categories =  {
 		farm_rgo_eff = -0.35
 		#mine_rgo_size = 0.25
 		mine_rgo_eff = 0.25
-		supply_limit = 1.8
+		supply_limit = 5
 		min_build_railroad = 2
 
 		combat_width = -0.50
@@ -290,7 +290,7 @@ categories =  {
 		farm_rgo_eff = -0.3
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.15
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 	}
 
@@ -303,7 +303,7 @@ categories =  {
 		farm_rgo_eff = -0.25
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2.1
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.20
@@ -318,7 +318,7 @@ categories =  {
 		farm_rgo_eff = -0.4
 		#mine_rgo_size = 0.1
 		mine_rgo_eff = 0.1
-		supply_limit = 1.6
+		supply_limit = 5
 		min_build_railroad = 3
 
 		combat_width = -0.40
@@ -333,7 +333,7 @@ categories =  {
 		farm_rgo_eff = -0.6
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.3
-		supply_limit = 1
+		supply_limit = 3
 		min_build_railroad = 3
 	}
 
@@ -346,7 +346,7 @@ categories =  {
 		farm_rgo_eff = -0.5
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.15
-		supply_limit = 1.5
+		supply_limit = 5
 		min_build_railroad = 3
 
 		combat_width = -0.20
@@ -361,7 +361,7 @@ categories =  {
 		farm_rgo_eff = -0.55
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.05
-		supply_limit = 1.25
+		supply_limit = 3
 		min_build_railroad = 4
 
 		combat_width = -0.40
@@ -376,7 +376,7 @@ categories =  {
 		farm_rgo_eff = -0.1
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 1
 
 		combat_width = -0.20
@@ -391,7 +391,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		#mine_rgo_size = 0.13
 		mine_rgo_eff = 0.13
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 1
 
 		combat_width = -0.60
@@ -406,7 +406,7 @@ categories =  {
 		farm_rgo_eff = -0.32
 		#mine_rgo_size = 0.23
 		mine_rgo_eff = 0.23
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.75
@@ -421,7 +421,7 @@ categories =  {
 		farm_rgo_eff = -0.05
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 4
+		supply_limit = 12
 		min_build_railroad = 1
 
 		combat_width = -0.20
@@ -436,7 +436,7 @@ categories =  {
 		farm_rgo_eff = -0.12
 		#mine_rgo_size = 0.15
 		mine_rgo_eff = 0.15
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 1
 
 		combat_width = -0.40
@@ -451,7 +451,7 @@ categories =  {
 		farm_rgo_eff = -0.27
 		#mine_rgo_size = 0.25
 		mine_rgo_eff = 0.25
-		supply_limit = 2.4
+		supply_limit = 8
 		min_build_railroad = 2
 
 		combat_width = -0.70
@@ -466,7 +466,7 @@ categories =  {
 		farm_rgo_eff = -0.15
 		#mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 3
+		supply_limit = 9
 		min_build_railroad = 2
 
 		combat_width = -0.20
@@ -481,7 +481,7 @@ categories =  {
 		farm_rgo_eff = -0.20
 		#mine_rgo_size = 0.15
 		mine_rgo_eff = 0.15
-		supply_limit = 2.8
+		supply_limit = 8
 		min_build_railroad = 2
 
 		combat_width = -0.40
@@ -496,7 +496,7 @@ categories =  {
 		farm_rgo_eff = -0.3
 		#mine_rgo_size = 0.25
 		mine_rgo_eff = 0.25
-		supply_limit = 2.1
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.70
@@ -511,7 +511,7 @@ categories =  {
 		farm_rgo_eff = -0.25
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.20
@@ -526,7 +526,7 @@ categories =  {
 		farm_rgo_eff = -0.30
 		#mine_rgo_size = 0.05
 		mine_rgo_eff = 0.05
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.40
@@ -541,7 +541,7 @@ categories =  {
 		farm_rgo_eff = -0.40
 		#mine_rgo_size = 0.1
 		mine_rgo_eff = 0.1
-		supply_limit = 1.8
+		supply_limit = 5
 		min_build_railroad = 4
 
 		combat_width = -0.70
@@ -556,7 +556,7 @@ categories =  {
 		farm_rgo_eff = -0.4
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.25
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.20
@@ -571,7 +571,7 @@ categories =  {
 		farm_rgo_eff = -0.45
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.1
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.50
@@ -586,7 +586,7 @@ categories =  {
 		farm_rgo_eff = -0.5
 		#mine_rgo_size = -0.05
 		mine_rgo_eff = -0.05
-		supply_limit = 1.4
+		supply_limit = 5
 		min_build_railroad = 4
 
 		combat_width = -0.80
@@ -601,7 +601,7 @@ categories =  {
 		farm_rgo_eff = -0.3
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.18
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.20
@@ -616,7 +616,7 @@ categories =  {
 		farm_rgo_eff = -0.35
 		#mine_rgo_size = -0.03
 		mine_rgo_eff = -0.03
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.50
@@ -631,7 +631,7 @@ categories =  {
 		farm_rgo_eff = -0.4
 		#mine_rgo_size = 0.07
 		mine_rgo_eff = 0.07
-		supply_limit = 1.7
+		supply_limit = 5
 		min_build_railroad = 3
 
 		combat_width = -0.80
@@ -646,7 +646,7 @@ categories =  {
 		farm_rgo_eff = -0.7
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.35
-		supply_limit = 1
+		supply_limit = 3
 		min_build_railroad = 3
 	}
 
@@ -659,7 +659,7 @@ categories =  {
 		farm_rgo_eff = -0.75
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.2
-		supply_limit = 1.1
+		supply_limit = 3
 		min_build_railroad = 3
 
 		combat_width = -0.30
@@ -674,7 +674,7 @@ categories =  {
 		farm_rgo_eff = -0.8
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
-		supply_limit = 1
+		supply_limit = 3
 		min_build_railroad = 4
 
 		combat_width = -0.60
@@ -689,7 +689,7 @@ categories =  {
 		farm_rgo_eff = -0.75
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.5
-		supply_limit = 0.5
+		supply_limit = 2
 		min_build_railroad = 4
 	}
 
@@ -702,7 +702,7 @@ categories =  {
 		farm_rgo_eff = -0.8
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.4
-		supply_limit = 0.5
+		supply_limit = 2
 		min_build_railroad = 4
 
 		combat_width = -0.30
@@ -717,7 +717,7 @@ categories =  {
 		farm_rgo_eff = -0.85
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.3
-		supply_limit = 0.25
+		supply_limit = 1
 		min_build_railroad = 5
 
 		combat_width = -0.60
@@ -732,7 +732,7 @@ categories =  {
 		farm_rgo_eff = -0.4
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.4
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 2
 
 		combat_width = -0.30
@@ -747,7 +747,7 @@ categories =  {
 		farm_rgo_eff = -0.5
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.5
-		supply_limit = 1.8
+		supply_limit = 5
 		min_build_railroad = 4
 
 		combat_width = -0.50
@@ -762,7 +762,7 @@ categories =  {
 		farm_rgo_eff = -0.55
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.55
-		supply_limit = 1.6
+		supply_limit = 5
 		min_build_railroad = 4
 
 		combat_width = -0.80
@@ -777,7 +777,7 @@ categories =  {
 		farm_rgo_eff = 0.33
 		#mine_rgo_size = -0.1
 		mine_rgo_eff = -0.25
-		supply_limit = 2
+		supply_limit = 6
 		min_build_railroad = 3
 
 		combat_width = -0.30
