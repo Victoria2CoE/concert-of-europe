@@ -182,7 +182,7 @@ war_exhaustion = {
 	tax_efficiency = -0.002
 	cb_generation_speed_modifier = -0.01
 	RGO_throughput = -0.01
-	prestige = -0.01
+	prestige = -0.005
 	education_efficiency_modifier = -0.02
 	population_growth = 0.00005
 }
