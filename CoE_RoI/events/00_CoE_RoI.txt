@@ -94,10 +94,10 @@ country_event = {
 
 	is_triggered_only = yes	
 	
-	trigger = {
-		exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 }
-		NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
-	}
+	#trigger = {
+	#	exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 }
+	#	NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+	#}
 
 	option = {
 		name = "Ghost Unit CleanUp 1/2"
@@ -545,11 +545,11 @@ country_event = {
 		#any_country = { limit = { NOT = { education_spending = 0.01 } } any_pop = { literacy = -0.01 } }
 		random_country = {
 			limit = { 
-				NOT = { 2127 = { owner = { has_country_flag = ghost_country } } }
+				2127 = { owner = { NOT = { has_country_flag = ghost_country } } }
 				exists = no 
 				OR = { 
 					is_mobilised = yes 
-					total_amount_of_ships = 1 
+					#total_amount_of_ships = 1 
 				} 
 			}
 			country_event = 6016821
