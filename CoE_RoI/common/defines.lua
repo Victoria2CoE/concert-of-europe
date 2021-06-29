@@ -130,7 +130,7 @@ economy = {
 
 military = {
 	DIG_IN_INCREASE_EACH_DAYS = 5,
-	REINFORCE_SPEED = 0.1,
+	REINFORCE_SPEED = 0.2,
 	COMBAT_DIFFICULTY_IMPACT = 0.1,
 	BASE_COMBAT_WIDTH = 30,
 	POP_MIN_SIZE_FOR_REGIMENT = 1000,
@@ -191,7 +191,7 @@ military = {
 	BASE_MILITARY_TACTICS = 1.5, -- base mil tactics before tech
 	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.25, -- how little supply is acceptable before getting damage to STR
 	NAVAL_LOW_SUPPLY_DAMAGE_DAYS_DELAY = 30, -- delay in days before the STR will get damage due to no supplies. Sometimes supply status may jump bcoz of the market.
-	NAVAL_LOW_SUPPLY_DAMAGE_MIN_STR = 5.0, -- when low supply, the navy will supply STR damage but no less then X% to avoid destruction (value from 0 to 100.0)
+	NAVAL_LOW_SUPPLY_DAMAGE_MIN_STR = 50.0, -- when low supply, the navy will supply STR damage but no less then X% to avoid destruction (value from 0 to 100.0)
 	NAVAL_LOW_SUPPLY_DAMAGE_PER_DAY = 0.25, -- damage to navies STR per day if totally 0% supplies (value from 0 to 100.0)
 },
 
