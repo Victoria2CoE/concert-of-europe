@@ -37,7 +37,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { religion = south_german }
+						NOT = { has_country_flag = south_german_rel }
 					}
 				}
 			}
@@ -127,7 +127,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { religion = south_german }
+						NOT = { has_country_flag = south_german_rel }
 					}
 				}
 			}
@@ -218,7 +218,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { religion = north_german }
+						NOT = { has_country_flag = north_german_rel }
 						is_core = SCH
 						is_core = NET
 					}
@@ -1199,7 +1199,7 @@ political_decisions = {
 								is_greater_power = no
 							}
 						}
-						NOT = { culture = south_german }
+						NOT = { has_country_flag = south_german_rel }
 						owner = {
 							NOT = { is_culture_group = germanic }
 						}
